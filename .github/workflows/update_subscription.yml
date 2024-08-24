@@ -3,6 +3,7 @@ name: Update v2Ray Subscription
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   update-file:
