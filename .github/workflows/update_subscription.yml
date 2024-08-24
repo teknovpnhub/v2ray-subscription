@@ -1,10 +1,8 @@
-
 name: Update v2Ray Subscription
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight
-  workflow_dispatch:  # Allows manual triggering of the workflow
+    - cron: '0 * * * *'  # Runs every hour
 
 jobs:
   update-file:
@@ -21,5 +19,5 @@ jobs:
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add v2ray_subscription.txt
-        git commit -m "Update v2Ray subscription"
+        git commit -m "Update v2Ray subscription" || echo "No changes to commit"
         git push
