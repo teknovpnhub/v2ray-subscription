@@ -1,0 +1,23 @@
+name: Update v2Ray Subscription
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Fetch v2Ray Subscription
+      run: curl -o v2ray_subscription.txt https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/base64/mix
+
+    - name: Commit and Push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add v2ray_subscription.txt
+        git commit -m "Update v2Ray subscription"
+        git push
