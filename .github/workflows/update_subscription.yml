@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Fetch v2Ray Subscription
-      run: curl -o v2ray_subscription.txt https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix
+      run: curl -o v2ray_subscription.txt https://79b9ffb6.bpb-worker-panel-a5s.pages.dev/sub/89b3cbba-e6ac-485a-9481-976a0415eab9#BPB-Normal
 
     - name: Commit and Push changes
       run: |
