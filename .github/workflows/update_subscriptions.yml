@@ -1,0 +1,32 @@
+# .github/workflows/update-subscriptions.yml
+name: Update V2Ray Subscriptions
+
+on:
+  push:
+    paths:
+      - 'main.txt'  # Trigger when main.txt is updated
+  schedule:
+    - cron: '0 */12 * * *'  # Run every 12 hours
+
+jobs:
+  update-subscriptions:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Update subscription files
+        run: python scripts/update_subscriptions.py
+        
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add subscriptions/*
+          git commit -m "Auto-update subscription files" || echo "No changes to commit"
+          git push
