@@ -23,14 +23,19 @@ def update_subscription_files():
     # Create subscriptions directory if it doesn't exist
     os.makedirs('subscriptions', exist_ok=True)
     
-    # Create default subscription files if none exist
+    # Get all subscription files
     subscription_files = glob.glob('subscriptions/*.txt')
-    if not subscription_files:
-        # Create at least one default file
-        write_file('subscriptions/default.txt', encoded_content)
-    else:
-        # Update all existing subscription files
-        for sub_file in subscription_files:
+    
+    # Update all subscription files
+    for sub_file in subscription_files:
+        current_content = ''
+        try:
+            current_content = read_file(sub_file)
+        except:
+            pass
+        
+        # If file is empty or content is different from main, update it
+        if not current_content or base64.b64decode(current_content).decode() != main_content:
             write_file(sub_file, encoded_content)
 
 def main():
