@@ -20,15 +20,18 @@ def update_subscription_files():
     # Encode content in base64 (V2Ray subscription format)
     encoded_content = base64.b64encode(main_content.encode()).decode()
     
-    # Get all .txt files in subscriptions directory
-    subscription_files = glob.glob('subscriptions/*.txt')
-    
     # Create subscriptions directory if it doesn't exist
     os.makedirs('subscriptions', exist_ok=True)
     
-    # Update all subscription files with the same content
-    for sub_file in subscription_files:
-        write_file(sub_file, encoded_content)
+    # Create default subscription files if none exist
+    subscription_files = glob.glob('subscriptions/*.txt')
+    if not subscription_files:
+        # Create at least one default file
+        write_file('subscriptions/default.txt', encoded_content)
+    else:
+        # Update all existing subscription files
+        for sub_file in subscription_files:
+            write_file(sub_file, encoded_content)
 
 def main():
     update_subscription_files()
