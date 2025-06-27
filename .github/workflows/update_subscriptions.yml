@@ -1,12 +1,9 @@
-# .github/workflows/update-subscriptions.yml
 name: Update V2Ray Subscriptions
 
 on:
   push:
     paths:
-      - 'main.txt'  # Trigger when main.txt is updated
-  schedule:
-    - cron: '0 */12 * * *'  # Run every 12 hours
+      - 'main.txt'  # Only runs when main.txt changes
 
 jobs:
   update-subscriptions:
