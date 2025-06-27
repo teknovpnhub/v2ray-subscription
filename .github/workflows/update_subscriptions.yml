@@ -3,7 +3,7 @@ name: Update V2Ray Subscriptions
 on:
   push:
     paths:
-      - 'main.txt'  # Only runs when main.txt changes
+      - 'main.txt'
 
 jobs:
   update-subscriptions:
@@ -24,6 +24,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add subscriptions/*
+          # Create subscriptions directory if it doesn't exist
+          mkdir -p subscriptions
+          # Add all files in subscriptions directory
+          git add subscriptions/
           git commit -m "Auto-update subscription files" || echo "No changes to commit"
           git push
