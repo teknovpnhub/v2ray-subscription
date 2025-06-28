@@ -4,27 +4,50 @@ on:
   push:
     paths:
       - 'main.txt'
-      - 'subscriptions/**'  # This makes it run when any subscription file changes
+      - 'subscriptions/**'
+      - 'blocked_users.txt'  # Trigger when block list changes
+  workflow_dispatch:  # Allow manual trigger
+    inputs:
+      blocked_users:
+        description: 'Comma-separated usernames to block (e.g. john,mary,admin)'
+        required: false
+        default: ''
 
 jobs:
   update-subscriptions:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
       
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-
+          
+      - name: Create blocked_users.txt from manual input
+        if: github.event.inputs.blocked_users != ''
+        run: |
+          echo "Creating blocked_users.txt from manual input"
+          echo "${{ github.event.inputs.blocked_users }}" | tr ',' '\n' > blocked_users.txt
+          cat blocked_users.txt
+          
       - name: Update subscription files
         run: python scripts/update_subscriptions.py
-        
+        env:
+          BLOCKED_USERS: ${{ secrets.BLOCKED_USERS }}  # Optional: from repository secrets
+          
+      - name: Show changes
+        run: |
+          echo "Files that will be committed:"
+          git status --porcelain
+          
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add subscriptions/
-          git commit -m "Auto-update subscription files" || echo "No changes to commit"
+          git add blocked_users.txt || echo "No blocked_users.txt to add"
+          git commit -m "Auto-update subscription files [$(date '+%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
           git push
