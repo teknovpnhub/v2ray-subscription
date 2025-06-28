@@ -5,8 +5,8 @@ on:
     paths:
       - 'main.txt'
       - 'subscriptions/**'
-      - 'blocked_users.txt'  # Trigger when block list changes
-  workflow_dispatch:  # Allow manual trigger
+      - 'blocked_users.txt'
+  workflow_dispatch:
     inputs:
       blocked_users:
         description: 'Comma-separated usernames to block (e.g. john,mary,admin)'
@@ -19,12 +19,25 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+          
+      - name: Debug - Show current files
+        run: |
+          echo "=== Current directory ==="
+          pwd
+          ls -la
+          echo "=== Subscriptions directory ==="
+          ls -la subscriptions/ || echo "No subscriptions directory"
+          echo "=== Main.txt content preview ==="
+          head -5 main.txt || echo "No main.txt found"
           
       - name: Create blocked_users.txt from manual input
         if: github.event.inputs.blocked_users != ''
@@ -36,18 +49,47 @@ jobs:
       - name: Update subscription files
         run: python scripts/update_subscriptions.py
         env:
-          BLOCKED_USERS: ${{ secrets.BLOCKED_USERS }}  # Optional: from repository secrets
+          BLOCKED_USERS: ${{ secrets.BLOCKED_USERS }}
           
-      - name: Show changes
+      - name: Debug - Show files after script
         run: |
-          echo "Files that will be committed:"
-          git status --porcelain
+          echo "=== Files after script ==="
+          ls -la subscriptions/
+          echo "=== Sample subscription file content ==="
+          for file in subscriptions/*.txt; do
+            echo "--- Content of $file ---"
+            cat "$file" || echo "File is empty or unreadable"
+            echo "--- End of $file ---"
+            echo ""
+          done
           
-      - name: Commit and push changes
+      - name: Show git status
+        run: |
+          echo "=== Git status ==="
+          git status
+          echo "=== Git diff ==="
+          git diff
+          echo "=== Staged changes ==="
+          git diff --cached
+          
+      - name: Configure git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+      - name: Add and commit changes
+        run: |
+          echo "=== Adding files ==="
           git add subscriptions/
           git add blocked_users.txt || echo "No blocked_users.txt to add"
-          git commit -m "Auto-update subscription files [$(date '+%Y-%m-%d %H:%M:%S')]" || echo "No changes to commit"
-          git push
+          
+          echo "=== Checking for changes ==="
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            echo "=== Committing changes ==="
+            git commit -m "Auto-update subscription files [$(date '+%Y-%m-%d %H:%M:%S')]"
+            echo "=== Pushing changes ==="
+            git push
+            echo "✅ Changes pushed successfully"
+          fi
