@@ -1,4 +1,3 @@
-vless://1a79d43f-b41c-496b-a241-dcbeefa81f0e@154.194.0.251:8880?type=ws&host=0926.qiang2000.link&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560fp%3Dchrome#🔒 VL-WS-NA 🇸🇨 SC-154.194.0.251:8880
 vless://bcabaca-baca-caba-dbca-acbabccbbaac@127.0.0.1:3080?security=tls&type=tcp#🛡 TELEGRAM-CHANNEL 🔐 MTPROTO-PROXY 🌍 @NEXUPROXY 📡
 vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@156.238.18.104:8880?type=ws&host=sg.laoyoutiao.link&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2048#🔒 VL-WS-NA 🇯🇵 JP-156.238.18.104:8880
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@54.178.71.192:2377#🔒 SS-TCP-NA 🇯🇵 JP-54.178.71.192:2377
