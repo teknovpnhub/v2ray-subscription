@@ -9,3 +9,4 @@ trojan://f108e0e2-5f12-42b6-9e67-1b2f073ffb2b@172.67.219.196:443?security=tls&sn
 vless://d6b8011a-c725-435a-9fec-bf6d3530392c@104.25.254.4:2087?security=tls&sni=vle.amclubsapp.dpdns.org&type=ws&host=vle.amclubsapp.dpdns.org&path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&fp=randomized#CF%E4%B8%AD%E8%BD%AC_0615206159
 
 
+vless://c943eaf7-70c6-45f1-bd3a-71360eedf16b@151.101.3.8:80?encryption=none&security=none&type=ws&host=CSnPS9mp6c.dev&path=%2Fcontainers%2Ffi#%F0%9F%91%89%F0%9F%86%94%40v2ray_figs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%C2%AE%EF%B8%8FUnited%20States%C2%A9%EF%B8%8FSan%20Francisco%F0%9F%85%BF%EF%B8%8Fping%3A7.01ms
