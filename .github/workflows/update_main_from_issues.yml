@@ -1,0 +1,27 @@
+name: Update main.txt from GitHub Issues
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  update-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Append server config from issue to main.txt
+        run: |
+          echo "${{ github.event.issue.body }}" >> main.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add main.txt
+          git commit -m "Add server from issue #${{ github.event.issue.number }}"
+          git push
