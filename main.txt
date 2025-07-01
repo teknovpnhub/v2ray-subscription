@@ -1,3 +1,4 @@
+trojan://telegram-id-directvpn@63.177.25.243:22223?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server%202
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=%2Ftelegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#Server1
 vless://mahanvpn-vip-chanell@172.67.160.192:2052?path=%2FmAhAnkarNanaNd.kouRdneTpluSedAte.iR%2C%3Fed%3D2560&security=none&encryption=none&host=mAhAnkarNanaNd.kouRdneTpluSedAte.iR.&type=httpupgrade#Server%2021
 vless://c90a50d7-cbab-4cef-ac75-a6c5d7e10e73@uk.ircloudmarket.com:7600?security=reality&encryption=none&pbk=xhUiZLkRCdO3b06Sfl4CMAkzwufpHbZcTYhLAA036R8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=tgju.org#%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84%20%D8%B9%D8%A7%D9%84%DB%8C
