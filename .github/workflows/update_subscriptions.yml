@@ -1,24 +1,55 @@
+name: Update V2Ray Subscriptions
+
+on:
+  push:
+    paths:
+      - 'main.txt'
+      - 'subscriptions/**'
+      - 'blocked_users.txt'
+      - 'date_rules.txt'
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes for testing
+  workflow_dispatch:
+    inputs:
+      blocked_users:
+        description: 'Comma-separated usernames to block (e.g. john,mary,admin)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  update-subscriptions:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
       - name: Check Date-Time Based Blocking
         run: |
           python3 << 'EOF'
           import datetime
-          import os
           
-          # Set timezone offset for Iran (+03:30)
+          # Iran timezone offset
           iran_offset = datetime.timedelta(hours=3, minutes=30)
           utc_now = datetime.datetime.utcnow()
           iran_now = utc_now + iran_offset
           
-          print(f"UTC time: {utc_now}")
           print(f"Iran time: {iran_now}")
           
           try:
               with open('date_rules.txt', 'r') as f:
                   rules = f.readlines()
               print(f"Found {len(rules)} date rules")
-              for rule in rules:
-                  if rule.strip() and not rule.startswith('#'):
-                      print(f"Rule: {rule.strip()}")
           except FileNotFoundError:
               print("No date_rules.txt found")
               rules = []
@@ -37,27 +68,22 @@
                   time_str = parts[2] if len(parts) > 2 else "00:00"
                   
                   block_datetime = datetime.datetime.strptime(f"{date_str} {time_str}", '%Y-%m-%d %H:%M')
-                  print(f"Checking {filename}: block time {block_datetime} (Iran time)")
-                  print(f"Current Iran time: {iran_now}")
-                  print(f"Should block? {iran_now >= block_datetime}")
+                  print(f"Checking {filename}: block time {block_datetime}")
                   
                   if iran_now >= block_datetime:
                       blocked_content = ""
                       try:
                           with open('blocked_users.txt', 'r') as f:
                               blocked_content = f.read()
-                          print(f"Current blocked_users.txt content: '{blocked_content.strip()}'")
                       except FileNotFoundError:
-                          print("blocked_users.txt not found, will create")
                           pass
                       
                       username = filename.replace('.txt', '')
-                      print(f"Username to block: '{username}'")
                       
                       if username not in blocked_content:
                           with open('blocked_users.txt', 'a') as f:
                               f.write(f'{username}\n')
-                          print(f'✅ Auto-blocked {username} (from {filename})')
+                          print(f'✅ Auto-blocked {username}')
                           changes_made = True
                       else:
                           print(f'⚠️ {username} already blocked')
@@ -65,19 +91,41 @@
                       time_left = block_datetime - iran_now
                       print(f'⏳ {filename} will be blocked in {time_left}')
               except Exception as e:
-                  print(f'❌ Error processing rule "{rule}": {e}')
-                  import traceback
-                  traceback.print_exc()
+                  print(f'❌ Error: {e}')
           
-          if changes_made:
-              print("📝 Changes made to blocked_users.txt")
-              # Show the updated content
-              try:
-                  with open('blocked_users.txt', 'r') as f:
-                      content = f.read()
-                  print(f"Updated blocked_users.txt content: '{content.strip()}'")
-              except:
-                  pass
-          else:
-              print("✅ No time-based blocking needed")
+          # Set environment variable for next steps
+          import os
+          with open(os.environ['GITHUB_ENV'], 'a') as env_file:
+              env_file.write(f'CHANGES_MADE={str(changes_made).lower()}\n')
+          
+          print(f"Changes made: {changes_made}")
           EOF
+          
+      - name: Create blocked_users.txt from manual input
+        if: github.event.inputs.blocked_users != ''
+        run: |
+          echo "Creating blocked_users.txt from manual input"
+          echo "${{ github.event.inputs.blocked_users }}" | tr ',' '\n' > blocked_users.txt
+          echo "CHANGES_MADE=true" >> $GITHUB_ENV
+          
+      - name: Update subscription files
+        if: env.CHANGES_MADE == 'true'
+        run: python scripts/update_subscriptions.py
+        env:
+          BLOCKED_USERS: ${{ secrets.BLOCKED_USERS }}
+          
+      - name: Check for changes and commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Check if there are any changes
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "Changes detected, committing..."
+            git add -A
+            git commit -m "Auto-update: blocked users and subscriptions [$(date '+%Y-%m-%d %H:%M')]"
+            git push
+            echo "Changes committed and pushed"
+          fi
