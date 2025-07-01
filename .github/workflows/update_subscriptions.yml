@@ -39,7 +39,6 @@ jobs:
           python3 << 'EOF'
           import datetime
           
-          # Set Iran timezone
           now = datetime.datetime.now()
           print(f"Current time: {now}")
           
@@ -60,7 +59,7 @@ jobs:
               
               try:
                   parts = rule.split(' ')
-                  filename = parts[0]
+                  filename = parts[0]  # This is "c.txt"
                   date_str = parts[1]
                   time_str = parts[2] if len(parts) > 2 else "00:00"
                   
@@ -75,13 +74,16 @@ jobs:
                       except FileNotFoundError:
                           pass
                       
-                      if filename not in blocked_content:
+                      # Remove .txt extension for blocked_users.txt
+                      username = filename.replace('.txt', '')  # "c.txt" becomes "c"
+                      
+                      if username not in blocked_content:
                           with open('blocked_users.txt', 'a') as f:
-                              f.write(f'{filename}\n')
-                          print(f'✅ Auto-blocked {filename} at {now}')
+                              f.write(f'{username}\n')  # Write just "c"
+                          print(f'✅ Auto-blocked {username} (from {filename})')
                           changes_made = True
                       else:
-                          print(f'⚠️ {filename} already blocked')
+                          print(f'⚠️ {username} already blocked')
                   else:
                       time_left = block_datetime - now
                       print(f'⏳ {filename} will be blocked in {time_left}')
@@ -113,6 +115,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-update: c.txt blocked at $(date '+%Y-%m-%d %H:%M')"
+            git commit -m "Auto-update: blocked users updated [$(date '+%Y-%m-%d %H:%M')]"
             git push
           fi
