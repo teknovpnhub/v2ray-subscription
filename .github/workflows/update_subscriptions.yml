@@ -8,7 +8,7 @@ on:
       - 'blocked_users.txt'
       - 'date_rules.txt'  # Add this line
   schedule:
-    - cron: '0 0 * * *'  # Add daily check at midnight
+    - cron: '0 0 * * *'  # Add this line for daily checks
   workflow_dispatch:
     inputs:
       blocked_users:
@@ -38,19 +38,14 @@ jobs:
         run: |
           python3 << 'EOF'
           import datetime
-          import os
           
-          # Read date rules
           try:
               with open('date_rules.txt', 'r') as f:
                   rules = f.readlines()
-              print(f"Found {len(rules)} date rules")
           except FileNotFoundError:
-              print("No date_rules.txt found")
               rules = []
           
           today = datetime.date.today()
-          print(f"Today is: {today}")
           changes_made = False
           
           for rule in rules:
@@ -62,10 +57,7 @@ jobs:
                   filename, date_str = rule.split(' ', 1)
                   block_date = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
                   
-                  print(f"Checking {filename}: block date {block_date}")
-                  
                   if today >= block_date:
-                      # Check if already blocked
                       blocked_content = ""
                       try:
                           with open('blocked_users.txt', 'r') as f:
@@ -76,20 +68,10 @@ jobs:
                       if filename not in blocked_content:
                           with open('blocked_users.txt', 'a') as f:
                               f.write(f'{filename}\n')
-                          print(f'✅ Auto-blocked {filename}')
+                          print(f'Auto-blocked {filename}')
                           changes_made = True
-                      else:
-                          print(f'⚠️ {filename} already blocked')
-                  else:
-                      days_left = (block_date - today).days
-                      print(f'⏳ {filename} will be blocked in {days_left} days')
-              except Exception as e:
-                  print(f'❌ Error processing rule "{rule}": {e}')
-          
-          if changes_made:
-              print("📝 Changes made to blocked_users.txt")
-          else:
-              print("✅ No date-based blocking needed")
+              except:
+                  pass
           EOF
           
       - name: Create blocked_users.txt from manual input
