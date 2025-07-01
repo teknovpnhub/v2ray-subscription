@@ -1,133 +1,67 @@
-import re
-import base64
-from urllib.parse import urlparse, parse_qs
+name: Update V2Ray Subscriptions
 
-def extract_server_config(server_line):
-    """Extract the core server configuration without remarks"""
-    try:
-        server_line = server_line.strip()
-        
-        if server_line.startswith('vmess://'):
-            # Decode VMess config
-            config_data = base64.b64decode(server_line[8:]).decode('utf-8')
-            config = json.loads(config_data)
-            # Create unique key from server details (excluding ps/remarks)
-            key = f"vmess://{config.get('add')}:{config.get('port')}:{config.get('id')}:{config.get('net')}:{config.get('type')}"
-            return key
-            
-        elif server_line.startswith('vless://'):
-            # Parse VLESS URL
-            url_part = server_line.split('#')[0]  # Remove remarks
-            parsed = urlparse(url_part)
-            # Create unique key from core config
-            key = f"vless://{parsed.hostname}:{parsed.port}:{parsed.username}:{parsed.path}"
-            return key
-            
-        elif server_line.startswith('ss://'):
-            # Parse Shadowsocks
-            url_part = server_line.split('#')[0]  # Remove remarks
-            parsed = urlparse(url_part)
-            key = f"ss://{parsed.hostname}:{parsed.port}:{parsed.username}"
-            return key
-            
-        elif server_line.startswith('trojan://'):
-            # Parse Trojan
-            url_part = server_line.split('#')[0]  # Remove remarks
-            parsed = urlparse(url_part)
-            key = f"trojan://{parsed.hostname}:{parsed.port}:{parsed.username}"
-            return key
-            
-        else:
-            # For other protocols, use the config without remarks
-            return server_line.split('#')[0].strip()
-            
-    except Exception as e:
-        print(f"Error parsing server config: {e}")
-        return server_line
+on:
+  push:
+    paths:
+      - 'main.txt'
+      - 'subscriptions/**'
+      - 'blocked_users.txt'
+  workflow_dispatch:
+    inputs:
+      blocked_users:
+        description: 'Comma-separated usernames to block (e.g. john,mary,admin)'
+        required: false
+        default: ''
 
-def remove_duplicates(servers):
-    """Remove duplicate servers based on configuration, not remarks"""
-    seen_configs = {}
-    unique_servers = []
-    duplicates_found = []
-    
-    for server in servers:
-        if not server.strip():
-            continue
-            
-        config_key = extract_server_config(server)
-        
-        if config_key in seen_configs:
-            # Duplicate found
-            duplicates_found.append({
-                'original': seen_configs[config_key],
-                'duplicate': server.strip()
-            })
-            print(f"🔍 Duplicate found:")
-            print(f"   Original: {seen_configs[config_key][:80]}...")
-            print(f"   Duplicate: {server.strip()[:80]}...")
-        else:
-            # New unique server
-            seen_configs[config_key] = server.strip()
-            unique_servers.append(server.strip())
-    
-    if duplicates_found:
-        print(f"📋 Removed {len(duplicates_found)} duplicate servers")
-        for dup in duplicates_found:
-            print(f"   Kept: {dup['original'].split('#')[-1] if '#' in dup['original'] else 'No remark'}")
-            print(f"   Removed: {dup['duplicate'].split('#')[-1] if '#' in dup['duplicate'] else 'No remark'}")
-    else:
-        print("✅ No duplicates found")
-    
-    return unique_servers
+permissions:
+  contents: write
 
-# Add this to your main update function
-def update_all_subscriptions():
-    """Update all subscription files with servers from main.txt"""
+jobs:
+  update-subscriptions:
+    runs-on: ubuntu-latest
     
-    # Read servers from main.txt
-    try:
-        with open('main.txt', 'r', encoding='utf-8') as f:
-            all_servers = [line.strip() for line in f.readlines() if line.strip()]
-    except FileNotFoundError:
-        print("❌ main.txt not found")
-        return
-    
-    print(f"📖 Read {len(all_servers)} servers from main.txt")
-    
-    # Remove duplicates
-    unique_servers = remove_duplicates(all_servers)
-    
-    # Update main.txt if duplicates were removed
-    if len(unique_servers) < len(all_servers):
-        print(f"💾 Updating main.txt: {len(all_servers)} → {len(unique_servers)} servers")
-        with open('main.txt', 'w', encoding='utf-8') as f:
-            f.write('\n'.join(unique_servers) + '\n')
-    
-    # Continue with your existing logic...
-    blocked_users = get_blocked_users()
-    
-    # Process subscription files
-    subscription_dir = 'subscriptions'
-    if not os.path.exists(subscription_dir):
-        os.makedirs(subscription_dir)
-    
-    for filename in os.listdir(subscription_dir):
-        if filename.endswith('.txt'):
-            username = filename[:-4]  # Remove .txt extension
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Create blocked_users.txt from manual input
+        if: github.event.inputs.blocked_users != ''
+        run: |
+          echo "Creating blocked_users.txt from manual input"
+          echo "${{ github.event.inputs.blocked_users }}" | tr ',' '\n' > blocked_users.txt
+          
+      - name: Update subscription files
+        run: |
+          echo "=== V2Ray Subscription Update ===" 
+          python scripts/update_subscriptions.py
+          echo "=== Update Complete ==="
+        env:
+          BLOCKED_USERS: ${{ secrets.BLOCKED_USERS }}
+          
+      - name: Check for changes and commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            echo "📝 Changes detected:"
+            git diff --name-only
             
-            if should_block_user(username, blocked_users):
-                servers_for_user = get_fake_servers()
-                print(f"🚫 {filename}: Blocked user - using fake servers")
-            else:
-                servers_for_user = distribute_servers(unique_servers, username)
-                print(f"✅ {filename}: Active user - {len(servers_for_user)} real servers")
+            if git diff --name-only | grep -q "main.txt"; then
+              echo "🔧 main.txt updated (duplicates removed)"
+            fi
             
-            # Write to subscription file
-            subscription_path = os.path.join(subscription_dir, filename)
-            with open(subscription_path, 'w', encoding='utf-8') as f:
-                subscription_content = '\n'.join(servers_for_user)
-                encoded_content = base64.b64encode(subscription_content.encode('utf-8')).decode('utf-8')
-                f.write(encoded_content)
-    
-    print("🎉 All subscription files updated successfully!")
+            git add -A
+            git commit -m "Auto-update: removed duplicates and updated subscriptions [$(date '+%Y-%m-%d %H:%M')]"
+            git push
+            echo "✅ Changes committed and pushed"
+          fi
