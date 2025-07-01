@@ -1,12 +1,10 @@
 trojan://telegram-id-directvpn@63.177.25.243:22223?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server%202
-trojan://telegram-id-directvpn@63.177.25.243:22223?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server%202
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?path=%2Ftelegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#Server1
 vless://mahanvpn-vip-chanell@172.67.160.192:2052?path=%2FmAhAnkarNanaNd.kouRdneTpluSedAte.iR%2C%3Fed%3D2560&security=none&encryption=none&host=mAhAnkarNanaNd.kouRdneTpluSedAte.iR.&type=httpupgrade#Server%2021
 vless://c90a50d7-cbab-4cef-ac75-a6c5d7e10e73@uk.ircloudmarket.com:7600?security=reality&encryption=none&pbk=xhUiZLkRCdO3b06Sfl4CMAkzwufpHbZcTYhLAA036R8&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=tgju.org#%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84%20%D8%B9%D8%A7%D9%84%DB%8C
 vless://71589791-97f1-3cbc-dc89-535e1dd3d18d@komaki.sibrayane.store:2051?security=none&encryption=none&host=snapp.taxi&headerType=http&type=tcp#%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84
 vless://71589791-97f1-3cbc-dc89-535e1dd3d18d@komaki.sibrayane.store:2053?security=none&encryption=none&host=snapp.taxi&headerType=http&type=tcp#%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84%20%DB%B1
 vless://71589791-97f1-3cbc-dc89-535e1dd3d18d@komaki.sibrayane.store:2054?security=none&encryption=none&host=snapp.taxi&headerType=http&type=tcp#%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%B3%D9%84%20%DB%B2
-
 vless://9f8568c0-27ba-41e5-8165-69211eedc5b5@5.75.199.29:2096?mode=auto&path=%2F&security=reality&encryption=none&pbk=VLjnlBwX86IEfFYMP8PV1q7XXkUQNc61sE11qPispic&fp=chrome&spx=%2F&type=xhttp&sni=stripe.com&sid=85c9ba57#%D9%87%D9%85%D8%B1%D8%A7%D9%87%20%D8%A7%D9%88%D9%84
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.13:443?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%91%89%F0%9F%86%94%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%A9%F0%9F%87%AA%C2%AE%EF%B8%8FGermany%C2%A9%EF%B8%8FFrankfurt%20am%20Main%F0%9F%85%BF%EF%B8%8Fping%3A32.91ms
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.211.145:80?path=Telegram%3A%40ShadowProxy66%2F%3Fed%3D2560&security=&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#irancell
@@ -16,7 +14,6 @@ vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.192.185:443?security=&encrypt
 vless://77e6e498-98e4-4a0b-93cb-8e2c117c0ad3@81.12.96.39:22631?security=&encryption=none&host=fast.com&headerType=http&type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%F0%9F%91%88vpn_gmaill
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.47:443?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%F0%9F%91%88vpn_gmaill
 vless://d6b8011a-c725-435a-9fec-bf6d3530392c@104.25.254.4:2087?path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&security=tls&encryption=none&host=vle.amclubsapp.dpdns.org&fp=randomized&type=ws&sni=vle.amclubsapp.dpdns.org#CF%E4%B8%AD%E8%BD%AC_0615206159
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.13:443?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%F0%9F%91%88vpn_gmaill
 vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?path=%2F%3Fed%3D2560&security=&encryption=none&host=di.dibdibini.dpdns.org&type=ws#Telegram%20%3A%20FarshidHUB%20%DA%AF%D8%B1%D9%88%D9%87%20%D9%85%D9%86%20%D8%B4%D9%85%D8%A7%20%D8%B1%D8%A7%20%D9%85%D8%AA%D8%B5%D9%84%20%D9%86%DA%AF%D9%87%E2%80%8C%20%D9%85%DB%8C%D8%AF%D8%A7%D8%B1%D9%85
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.178:8080#test
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@85.210.120.237:443#%F0%9F%87%B9%F0%9F%87%B7%40vpn_io
