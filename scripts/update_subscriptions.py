@@ -5,52 +5,136 @@ import json
 import datetime
 import socket
 import urllib.parse
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
 
-# === Existing Functions ===
+# === Advanced Duplicate Detection Functions ===
+
+def normalize_vless_url(server_line):
+    """Normalize VLESS URL by sorting query parameters and removing remarks"""
+    try:
+        url_part = server_line.split('#')[0]  # Remove remark
+        parsed = urlparse(url_part)
+        scheme = parsed.scheme.lower()
+        netloc = parsed.netloc.lower()
+        path = parsed.path
+        # Sort query parameters
+        query_params = parse_qsl(parsed.query, keep_blank_values=True)
+        query_params.sort()  # sort by key then value
+        query = urlencode(query_params, doseq=True)
+        normalized = urlunparse((scheme, netloc, path, '', query, ''))
+        return normalized
+    except Exception as e:
+        print(f"Error normalizing VLESS URL: {e}")
+        return server_line
+
+def normalize_vmess_url(server_line):
+    """Normalize VMess URL by sorting JSON keys and standardizing values"""
+    try:
+        base64_part = server_line[8:].split('#')[0]  # Remove remark
+        decoded = base64.b64decode(base64_part).decode('utf-8')
+        config = json.loads(decoded)
+        
+        # Standard VMess keys with default values
+        standard_keys = ['v', 'ps', 'add', 'port', 'id', 'aid', 'net', 'type', 'host', 'path', 'tls']
+        normalized_config = {}
+        
+        for key in standard_keys:
+            val = config.get(key, '')
+            # Normalize port and aid to strings
+            if key in ['port', 'aid'] and val != '':
+                val = str(val)
+            # Normalize empty strings
+            if val is None:
+                val = ''
+            normalized_config[key] = val
+        
+        # Sort keys and create normalized JSON
+        sorted_config = {k: normalized_config[k] for k in sorted(normalized_config)}
+        normalized_json = json.dumps(sorted_config, separators=(',', ':'))
+        normalized_base64 = base64.b64encode(normalized_json.encode('utf-8')).decode('utf-8')
+        return f"vmess://{normalized_base64}"
+    except Exception as e:
+        print(f"Error normalizing VMess URL: {e}")
+        return server_line
+
+def normalize_generic_url(server_line):
+    """Normalize SS/Trojan URLs by sorting query parameters"""
+    try:
+        url_part = server_line.split('#')[0]  # Remove remark
+        parsed = urlparse(url_part)
+        scheme = parsed.scheme.lower()
+        netloc = parsed.netloc.lower()
+        path = parsed.path
+        # Sort query parameters
+        query_params = parse_qsl(parsed.query, keep_blank_values=True)
+        query_params.sort()
+        query = urlencode(query_params, doseq=True)
+        normalized = urlunparse((scheme, netloc, path, '', query, ''))
+        return normalized
+    except Exception as e:
+        print(f"Error normalizing URL: {e}")
+        return server_line
 
 def extract_server_config(server_line):
+    """Extract normalized server configuration for duplicate detection"""
     try:
         server_line = server_line.strip()
+        
         if server_line.startswith('vmess://'):
-            config_data = base64.b64decode(server_line[8:]).decode('utf-8')
-            config = json.loads(config_data)
-            key = f"vmess://{config.get('add')}:{config.get('port')}:{config.get('id')}:{config.get('net')}:{config.get('type')}"
-            return key
+            return normalize_vmess_url(server_line)
         elif server_line.startswith('vless://'):
-            url_part = server_line.split('#')[0]
-            parsed = urlparse(url_part)
-            key = f"vless://{parsed.hostname}:{parsed.port}:{parsed.username}:{parsed.path}"
-            return key
+            return normalize_vless_url(server_line)
         elif server_line.startswith('ss://'):
-            url_part = server_line.split('#')[0]
-            parsed = urlparse(url_part)
-            key = f"ss://{parsed.hostname}:{parsed.port}:{parsed.username}"
-            return key
+            return normalize_generic_url(server_line)
         elif server_line.startswith('trojan://'):
-            url_part = server_line.split('#')[0]
-            parsed = urlparse(url_part)
-            key = f"trojan://{parsed.hostname}:{parsed.port}:{parsed.username}"
-            return key
+            return normalize_generic_url(server_line)
         else:
-            return server_line.split('#')[0].strip()
+            # For other protocols, use the config without remarks
+            return server_line.split('#')[0].strip().lower()
+            
     except Exception as e:
         print(f"Error parsing server config: {e}")
         return server_line
 
 def remove_duplicates(servers):
+    """Remove duplicate servers based on normalized configuration"""
     seen_configs = {}
     unique_servers = []
+    duplicates_found = []
+    
     for server in servers:
         if not server.strip():
             continue
+            
         config_key = extract_server_config(server)
-        if config_key not in seen_configs:
+        
+        if config_key in seen_configs:
+            # Duplicate found
+            duplicates_found.append({
+                'original': seen_configs[config_key],
+                'duplicate': server.strip()
+            })
+            print(f"🔍 Advanced duplicate found:")
+            print(f"   Original: {seen_configs[config_key][:80]}...")
+            print(f"   Duplicate: {server.strip()[:80]}...")
+        else:
+            # New unique server
             seen_configs[config_key] = server.strip()
             unique_servers.append(server.strip())
-        else:
-            print(f"🔍 Duplicate removed: {server.strip()}")
+    
+    if duplicates_found:
+        print(f"📋 Removed {len(duplicates_found)} duplicate servers (advanced detection)")
+        for dup in duplicates_found:
+            original_remark = dup['original'].split('#')[-1] if '#' in dup['original'] else 'No remark'
+            duplicate_remark = dup['duplicate'].split('#')[-1] if '#' in dup['duplicate'] else 'No remark'
+            print(f"   Kept: {original_remark}")
+            print(f"   Removed: {duplicate_remark}")
+    else:
+        print("✅ No duplicates found (advanced detection)")
+    
     return unique_servers
+
+# === Existing Functions (Unchanged) ===
 
 def get_blocked_users():
     blocked_users = set()
@@ -232,12 +316,17 @@ def move_server_to_non_working(server_line):
 
 def move_server_to_main(server_line):
     main_servers = load_main_servers()
-    server_no_remark = server_line.split('#')[0].strip()
-    if not any(server_no_remark in s for s in main_servers):
-        main_servers.append(server_line)
-        save_main_servers(main_servers)
-        log_history(server_line, "moved_to_main")
-        print(f"✅ Moved to main.txt: {server_line}")
+    # Use advanced duplicate detection
+    normalized_new = extract_server_config(server_line)
+    for existing in main_servers:
+        if extract_server_config(existing) == normalized_new:
+            print(f"⚠️  Server already exists in main.txt: {server_line}")
+            return
+    
+    main_servers.append(server_line)
+    save_main_servers(main_servers)
+    log_history(server_line, "moved_to_main")
+    print(f"✅ Moved to main.txt: {server_line}")
 
 def process_non_working_recovery():
     """Try to recover servers from non_working.txt"""
@@ -317,7 +406,7 @@ def update_all_subscriptions():
 
     print(f"📖 Read {len(all_servers)} servers from main.txt")
 
-    # Step 4: Remove duplicates
+    # Step 4: Remove duplicates (now with advanced detection)
     unique_servers = remove_duplicates(all_servers)
 
     # Step 5: Update main.txt if duplicates were removed
