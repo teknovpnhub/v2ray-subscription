@@ -80,6 +80,26 @@ def distribute_servers(servers, username):
         return get_fake_servers()
     return servers
 
+# === Fake Server Detection ===
+
+def is_fake_server(server_line):
+    """Check if a server is a fake server (should not be validated)"""
+    fake_indicators = [
+        "127.0.0.1",
+        "localhost", 
+        "fake",
+        "Fake Server",
+        "fakepas",
+        "12345678-1234-1234-1234-123456789",  # fake UUIDs
+        "YWVzLTI1Ni1nY206ZmFrZXBhc3N3b3Jk"  # fake SS config
+    ]
+    
+    server_lower = server_line.lower()
+    for indicator in fake_indicators:
+        if indicator.lower() in server_lower:
+            return True
+    return False
+
 # === Server Validation Function ===
 
 def validate_server(server_line):
@@ -244,21 +264,25 @@ def process_non_working_recovery():
 # === Test Function ===
 
 def test_quarantine_system():
-    """Test the quarantine system with server validation"""
+    """Test the quarantine system with server validation (protects fake servers)"""
     print("🧪 Testing quarantine system...")
     
-    # Step 1: Validate all servers in main.txt
+    # Step 1: Validate all servers in main.txt (except fake ones)
     main_servers = load_main_servers()
     working_servers = []
     
     for server in main_servers:
-        if validate_server(server):
+        # Skip validation for fake servers
+        if is_fake_server(server):
+            print(f"⚪ Skipping fake server: {server}")
+            working_servers.append(server)
+        elif validate_server(server):
             working_servers.append(server)
         else:
             print(f"🚫 Moving to quarantine: {server}")
             move_server_to_non_working(server)
     
-    # Step 2: Update main.txt with only working servers
+    # Step 2: Update main.txt with working servers (including fake ones)
     if len(working_servers) < len(main_servers):
         save_main_servers(working_servers)
         print(f"💾 Updated main.txt: {len(main_servers)} → {len(working_servers)} servers")
@@ -338,7 +362,7 @@ def update_all_subscriptions():
 if __name__ == "__main__":
     print("🚀 Starting V2Ray subscription update...")
     
-    # Test quarantine system first (validates servers)
+    # Test quarantine system first (validates servers, protects fake ones)
     test_quarantine_system()
     
     # Then run normal update
