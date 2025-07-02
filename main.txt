@@ -1,3 +1,4 @@
+vless://fake-uuid@fake.nonexistent.server.com:443?encryption=none&security=tls&type=ws&path=%2F#TestFakeServer
 vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.170.191:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#Server%2016
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=redfree8mahsang6.redfree8.ir&type=ws#Server%2014
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.181.193:51615?security=none&encryption=none&host=zula.ir%2F%3FTELEGRAM%40JOKERRVPN&headerType=http&type=tcp#Server%2015
