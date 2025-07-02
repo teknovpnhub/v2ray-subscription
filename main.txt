@@ -10,4 +10,3 @@ trojan://f108e0e2-5f12-42b6-9e67-1b2f073ffb2b@172.67.219.196:443?security=tls&sn
 vless://9f8568c0-27ba-41e5-8165-69211eedc5b5@5.75.199.29:2096?encryption=none&security=reality&sni=stripe.com&fp=chrome&pbk=VLjnlBwX86IEfFYMP8PV1q7XXkUQNc61sE11qPispic&sid=85c9ba57&spx=%2F&type=xhttp&path=%2F&mode=auto#Server%208
 vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.160.13:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server%2013
 vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.192.185:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server%209
-vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?encryption=none&security=none&type=tcp&headerType=http&host=Fast.com#Server%2012
