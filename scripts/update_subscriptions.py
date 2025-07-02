@@ -3,6 +3,8 @@ import base64
 import random
 import json
 import datetime
+import socket
+import urllib.parse
 from urllib.parse import urlparse
 
 # === Existing Functions ===
@@ -47,7 +49,7 @@ def remove_duplicates(servers):
             seen_configs[config_key] = server.strip()
             unique_servers.append(server.strip())
         else:
-            print(f"Duplicate removed: {server.strip()}")
+            print(f"🔍 Duplicate removed: {server.strip()}")
     return unique_servers
 
 def get_blocked_users():
@@ -58,8 +60,9 @@ def get_blocked_users():
                 line = line.strip()
                 if line and not line.startswith('#'):
                     blocked_users.add(line)
+        print(f"📋 Loaded {len(blocked_users)} blocked users")
     except FileNotFoundError:
-        pass
+        print("ℹ️  No blocked_users.txt found - no users blocked")
     return blocked_users
 
 def should_block_user(username, blocked_users):
@@ -77,7 +80,59 @@ def distribute_servers(servers, username):
         return get_fake_servers()
     return servers
 
-# === Quarantine (non_working.txt) Functions ===
+# === Server Validation Function ===
+
+def validate_server(server_line):
+    """Test if a server is reachable"""
+    try:
+        hostname = None
+        port = None
+        
+        if server_line.startswith('vless://'):
+            url_part = server_line.split('#')[0]
+            parsed = urllib.parse.urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 443
+            
+        elif server_line.startswith('vmess://'):
+            config_data = base64.b64decode(server_line[8:]).decode('utf-8')
+            config = json.loads(config_data)
+            hostname = config.get('add')
+            port = int(config.get('port', 443))
+            
+        elif server_line.startswith('ss://'):
+            url_part = server_line.split('#')[0]
+            parsed = urllib.parse.urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 8388
+            
+        elif server_line.startswith('trojan://'):
+            url_part = server_line.split('#')[0]
+            parsed = urllib.parse.urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 443
+        
+        if hostname and port:
+            # Test connection with timeout
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(5)  # 5 second timeout
+            result = sock.connect_ex((hostname, port))
+            sock.close()
+            
+            if result == 0:
+                print(f"✅ Server reachable: {hostname}:{port}")
+                return True
+            else:
+                print(f"❌ Server unreachable: {hostname}:{port}")
+                return False
+                
+    except Exception as e:
+        print(f"❌ Validation error for {server_line[:50]}...: {e}")
+        return False
+    
+    return False
+
+# === Quarantine Functions ===
 
 NON_WORKING_FILE = 'non_working.txt'
 MAIN_FILE = 'main.txt'
@@ -135,14 +190,15 @@ def cleanup_non_working():
             continue
         days_in_quarantine = (today - dt).days
         if days_in_quarantine >= QUARANTINE_DAYS:
-            print(f"Removing from non_working.txt (over {QUARANTINE_DAYS} days): {server}")
+            print(f"🗑️  Removing from non_working.txt (over {QUARANTINE_DAYS} days): {server}")
             log_history(server, "removed_after_3_days")
             changed = True
         else:
             keep_non_working.append(line)
+    
     save_non_working(keep_non_working)
     if changed:
-        print("non_working.txt cleaned up.")
+        print("🧹 non_working.txt cleaned up.")
 
 def move_server_to_non_working(server_line):
     now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -152,7 +208,7 @@ def move_server_to_non_working(server_line):
         non_working.append(entry)
         save_non_working(non_working)
         log_history(server_line, "moved_to_non_working")
-        print(f"Moved to non_working.txt: {server_line}")
+        print(f"🚫 Moved to non_working.txt: {server_line}")
 
 def move_server_to_main(server_line):
     main_servers = load_main_servers()
@@ -161,9 +217,10 @@ def move_server_to_main(server_line):
         main_servers.append(server_line)
         save_main_servers(main_servers)
         log_history(server_line, "moved_to_main")
-        print(f"Moved to main.txt: {server_line}")
+        print(f"✅ Moved to main.txt: {server_line}")
 
-def process_non_working_recovery(server_validator):
+def process_non_working_recovery():
+    """Try to recover servers from non_working.txt"""
     non_working_lines = load_non_working()
     keep_non_working = []
     changed = False
@@ -172,24 +229,61 @@ def process_non_working_recovery(server_validator):
         server, dt = parse_non_working_line(line)
         if not server or not dt:
             continue
-        if server_validator(server):
-            print(f"Recovered: {server}")
+        if validate_server(server):
+            print(f"🔄 Recovered: {server}")
             move_server_to_main(server)
             log_history(server, "recovered_to_main")
             changed = True
         else:
             keep_non_working.append(line)
+    
     save_non_working(keep_non_working)
     if changed:
-        print("non_working.txt updated after recovery.")
+        print("🔄 non_working.txt updated after recovery.")
+
+# === Test Function ===
+
+def test_quarantine_system():
+    """Test the quarantine system with server validation"""
+    print("🧪 Testing quarantine system...")
+    
+    # Step 1: Validate all servers in main.txt
+    main_servers = load_main_servers()
+    working_servers = []
+    
+    for server in main_servers:
+        if validate_server(server):
+            working_servers.append(server)
+        else:
+            print(f"🚫 Moving to quarantine: {server}")
+            move_server_to_non_working(server)
+    
+    # Step 2: Update main.txt with only working servers
+    if len(working_servers) < len(main_servers):
+        save_main_servers(working_servers)
+        print(f"💾 Updated main.txt: {len(main_servers)} → {len(working_servers)} servers")
+    
+    # Step 3: Show quarantine status
+    non_working = load_non_working()
+    print(f"📋 Servers in quarantine: {len(non_working)}")
+    for line in non_working:
+        server, dt = parse_non_working_line(line)
+        if server and dt:
+            remark = server.split('#')[-1] if '#' in server else 'No remark'
+            print(f"   - {remark} (since {dt})")
 
 # === Main Update Function ===
 
 def update_all_subscriptions():
+    """Update all subscription files with servers from main.txt"""
+    
     # Step 1: Clean up non_working.txt (remove servers over 3 days)
     cleanup_non_working()
+    
+    # Step 2: Try to recover servers from quarantine
+    process_non_working_recovery()
 
-    # Step 2: Read servers from main.txt
+    # Step 3: Read servers from main.txt
     try:
         with open('main.txt', 'r', encoding='utf-8') as f:
             all_servers = [line.strip() for line in f.readlines() if line.strip()]
@@ -199,19 +293,19 @@ def update_all_subscriptions():
 
     print(f"📖 Read {len(all_servers)} servers from main.txt")
 
-    # Step 3: Remove duplicates
+    # Step 4: Remove duplicates
     unique_servers = remove_duplicates(all_servers)
 
-    # Step 4: Update main.txt if duplicates were removed
+    # Step 5: Update main.txt if duplicates were removed
     if len(unique_servers) < len(all_servers):
         print(f"💾 Updating main.txt: {len(all_servers)} → {len(unique_servers)} servers")
         with open('main.txt', 'w', encoding='utf-8') as f:
             f.write('\n'.join(unique_servers) + '\n')
 
-    # Step 5: Get blocked users
+    # Step 6: Get blocked users
     blocked_users = get_blocked_users()
 
-    # Step 6: Process subscription files
+    # Step 7: Process subscription files
     subscription_dir = 'subscriptions'
     if not os.path.exists(subscription_dir):
         os.makedirs(subscription_dir)
@@ -232,6 +326,7 @@ def update_all_subscriptions():
         else:
             servers_for_user = distribute_servers(unique_servers, username)
             print(f"✅ {filename}: Active user - {len(servers_for_user)} real servers")
+        
         subscription_path = os.path.join(subscription_dir, filename)
         with open(subscription_path, 'w', encoding='utf-8') as f:
             subscription_content = '\n'.join(servers_for_user)
@@ -242,9 +337,10 @@ def update_all_subscriptions():
 
 if __name__ == "__main__":
     print("🚀 Starting V2Ray subscription update...")
+    
+    # Test quarantine system first (validates servers)
+    test_quarantine_system()
+    
+    # Then run normal update
     update_all_subscriptions()
     print("✨ Update process completed!")
-
-# To use quarantine logic:
-# - When you detect a server is offline, call move_server_to_non_working(server_line)
-# - To try to recover servers, call process_non_working_recovery(your_validator_function)
