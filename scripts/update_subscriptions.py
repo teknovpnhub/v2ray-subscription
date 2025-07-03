@@ -51,82 +51,54 @@ def country_code_to_flag(country_code):
     except:
         return ''
 
-def get_next_server_number(existing_numbers):
-    n = 1
-    while n in existing_numbers:
-        n += 1
-    return n
-
-def parse_remark(remark):
-    """Returns (base, flag, custom)"""
-    if "---" in remark:
-        base, custom = remark.split("---", 1)
-        base = base.strip()
-        custom = custom.strip()
-    else:
-        base = remark.strip()
-        custom = ""
-    # Extract flag if present
-    m = re.match(r"^(.*?)(\s*[\U0001F1E6-\U0001F1FF]{2})$", base)
-    if m:
-        base = m.group(1).strip()
-        flag = m.group(2).strip()
-    else:
-        flag = ""
-    return base, flag, custom
-
 def update_server_remarks(servers):
-    existing_numbers = set()
-    updated_servers = []
+    # Step 1: Scan for all used numbers (for "Server X" only)
+    used_numbers = set()
     for server in servers:
         if '#' in server:
             remark = server.split('#', 1)[1].strip()
-        else:
-            remark = ""
+            if "---" in remark:
+                base = remark.split("---", 1)[0].strip()
+            else:
+                base = remark
+            m = re.match(r"Server (\d+)", base)
+            if m:
+                used_numbers.add(int(m.group(1)))
 
-        # Custom remark requested (--- present)
+    def get_lowest_available():
+        n = 1
+        while n in used_numbers:
+            n += 1
+        used_numbers.add(n)
+        return n
+
+    updated_servers = []
+    for server in servers:
+        base_url = server.split('#')[0]
+        remark = server.split('#', 1)[1].strip() if '#' in server else ""
+        ip = extract_ip_from_server(server)
+        cc = get_country_code(ip)
+        flag = country_code_to_flag(cc)
+
+        # If user adds --- (custom), keep number and flag, add custom text
         if "---" in remark:
-            base, flag, custom = parse_remark(remark)
+            base, custom = remark.split("---", 1)
+            base = base.strip()
+            custom = custom.strip()
             m = re.match(r"Server (\d+)", base)
             if m:
                 num = int(m.group(1))
-                existing_numbers.add(num)
+                used_numbers.add(num)
             else:
-                num = get_next_server_number(existing_numbers)
-                existing_numbers.add(num)
-                base = f"Server {num}"
-            ip = extract_ip_from_server(server)
-            cc = get_country_code(ip)
-            flag = country_code_to_flag(cc)
-            new_remark = f"{base} {flag}--- {custom}".strip()
-            updated_servers.append(f"{server.split('#')[0]}#{new_remark}")
-            continue
-
-        m = re.match(r"Server (\d+)", remark)
-        if m:
-            num = int(m.group(1))
-            existing_numbers.add(num)
-            ip = extract_ip_from_server(server)
-            cc = get_country_code(ip)
-            flag = country_code_to_flag(cc)
-            new_remark = f"Server {num} {flag}".strip()
-            updated_servers.append(f"{server.split('#')[0]}#{new_remark}")
+                num = get_lowest_available()
+            new_remark = f"Server {num} {flag}--- {custom}"
         else:
-            if remark:
-                ip = extract_ip_from_server(server)
-                cc = get_country_code(ip)
-                flag = country_code_to_flag(cc)
-                new_remark = f"{remark} {flag}--- ThisIsCustom"
-                updated_servers.append(f"{server.split('#')[0]}#{new_remark}")
-            else:
-                num = get_next_server_number(existing_numbers)
-                existing_numbers.add(num)
-                ip = extract_ip_from_server(server)
-                cc = get_country_code(ip)
-                flag = country_code_to_flag(cc)
-                new_remark = f"Server {num} {flag}".strip()
-                updated_servers.append(f"{server.split('#')[0]}#{new_remark}")
-        time.sleep(0.1)  # Avoid API rate limit
+            # Always assign lowest available number, ignore any custom text
+            num = get_lowest_available()
+            new_remark = f"Server {num} {flag}"
+
+        updated_servers.append(f"{base_url}#{new_remark}")
+        time.sleep(0.1)
     return updated_servers
 
 # === Duplicate Detection ===
