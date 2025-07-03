@@ -8,6 +8,7 @@ import urllib.parse
 from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
 import re
 import requests
+import time
 
 # === New Server Remark and Flag Functions ===
 
@@ -118,6 +119,7 @@ def update_server_remarks(servers):
         updated_servers.append(updated_server)
         
         print(f"🏷️  Updated: Server {next_num} {flag} ({ip or 'unknown IP'})")
+        time.sleep(0.1)  # Rate limiting for API calls
     
     return updated_servers
 
