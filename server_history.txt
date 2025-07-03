@@ -17,3 +17,4 @@ vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?encryption=none
 vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?encryption=none&security=none&type=tcp&headerType=http&host=Fast.com#Server%2012 | moved_to_main | 2025-07-02 23:37
 vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?encryption=none&security=none&type=tcp&headerType=http&host=Fast.com#Server%2012 | recovered_to_main | 2025-07-02 23:37
 vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?encryption=none&security=none&type=tcp&headerType=http&host=Fast.com#Server%2012 | moved_to_non_working | 2025-07-02 23:44
+vless://153ee04c-dcc1-4ef8-a146-8fb31cec1f48@91.99.192.185:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server%209 | moved_to_non_working | 2025-07-03 06:38
