@@ -52,28 +52,8 @@ def country_code_to_flag(country_code):
         return ''
 
 def update_server_remarks(servers):
-    # Step 1: Scan for all used numbers (for "Server X" only)
-    used_numbers = set()
-    for server in servers:
-        if '#' in server:
-            remark = server.split('#', 1)[1].strip()
-            if "---" in remark:
-                base = remark.split("---", 1)[0].strip()
-            else:
-                base = remark
-            m = re.match(r"Server (\d+)", base)
-            if m:
-                used_numbers.add(int(m.group(1)))
-
-    def get_lowest_available():
-        n = 1
-        while n in used_numbers:
-            n += 1
-        used_numbers.add(n)
-        return n
-
     updated_servers = []
-    for server in servers:
+    for idx, server in enumerate(servers, 1):
         base_url = server.split('#')[0]
         remark = server.split('#', 1)[1].strip() if '#' in server else ""
         ip = extract_ip_from_server(server)
@@ -82,20 +62,10 @@ def update_server_remarks(servers):
 
         # If user adds --- (custom), keep number and flag, add custom text
         if "---" in remark:
-            base, custom = remark.split("---", 1)
-            base = base.strip()
-            custom = custom.strip()
-            m = re.match(r"Server (\d+)", base)
-            if m:
-                num = int(m.group(1))
-                used_numbers.add(num)
-            else:
-                num = get_lowest_available()
-            new_remark = f"Server {num} {flag}--- {custom}"
+            _, custom = remark.split("---", 1)
+            new_remark = f"Server {idx} {flag}--- {custom.strip()}"
         else:
-            # Always assign lowest available number, ignore any custom text
-            num = get_lowest_available()
-            new_remark = f"Server {num} {flag}"
+            new_remark = f"Server {idx} {flag}"
 
         updated_servers.append(f"{base_url}#{new_remark}")
         time.sleep(0.1)
