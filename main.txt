@@ -17,4 +17,5 @@ vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?encryption=none&se
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?encryption=none&security=none&type=ws&host=redfree8mahsang6.redfree8.ir&path=%2Ftelegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20%2F%3Fed%3D2560#Server%201
 trojan://f108e0e2-5f12-42b6-9e67-1b2f073ffb2b@172.67.219.196:443?security=tls&sni=CCcvfgt6.852224.dpdns.org&alpn=http%2F1.1&fp=chrome&type=ws&host=cccvfgt6.852224.dpdns.org&path=%2FCA5bMmr2JMum8sDKRwvFCJq#Server%20%207
 vless://9f8568c0-27ba-41e5-8165-69211eedc5b5@5.75.199.29:2096?encryption=none&security=reality&sni=stripe.com&fp=chrome&pbk=VLjnlBwX86IEfFYMP8PV1q7XXkUQNc61sE11qPispic&sid=85c9ba57&spx=%2F&type=xhttp&path=%2F&mode=auto#Server%208
+vless://ae9539b5-70dd-41b5-9666-11a29559a840@84.47.233.110:59761?encryption=none&security=none&type=tcp&headerType=http&host=Fast.com#Server%2012
 vless://36ee3f5a-3816-4c03-a324-47531167e53b@91.99.170.191:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server%2016
