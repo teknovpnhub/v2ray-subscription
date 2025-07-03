@@ -6,6 +6,120 @@ import datetime
 import socket
 import urllib.parse
 from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
+import re
+import requests
+
+# === New Server Remark and Flag Functions ===
+
+def extract_ip_from_server(server_line):
+    """Extract IP address from server line"""
+    try:
+        # For VLESS, VMess, SS, Trojan
+        if server_line.startswith('vless://') or server_line.startswith('trojan://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            return parsed.hostname
+        elif server_line.startswith('vmess://'):
+            base64_part = server_line[8:].split('#')[0]
+            decoded = base64.b64decode(base64_part).decode('utf-8')
+            config = json.loads(decoded)
+            return config.get('add')
+        elif server_line.startswith('ss://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            return parsed.hostname
+        # Add more protocols as needed
+        return None
+    except Exception as e:
+        print(f"Error extracting IP: {e}")
+        return None
+
+def get_country_code(ip):
+    """Get country code from IP using free API"""
+    try:
+        response = requests.get(f"http://ip-api.com/json/{ip}?fields=countryCode", timeout=5)
+        if response.status_code == 200:
+            data = response.json()
+            return data.get('countryCode', '')
+    except Exception as e:
+        print(f"Error getting country for {ip}: {e}")
+    return ''
+
+def country_code_to_flag(country_code):
+    """Convert country code to flag emoji"""
+    if not country_code or len(country_code) != 2:
+        return ''
+    return chr(0x1F1E6 + ord(country_code[0].upper()) - ord('A')) + \
+           chr(0x1F1E6 + ord(country_code[1].upper()) - ord('A'))
+
+def get_next_server_number(existing_remarks):
+    """Find the next available server number"""
+    numbers = set()
+    for remark in existing_remarks:
+        match = re.match(r"Server (\d+)", remark, re.IGNORECASE)
+        if match:
+            numbers.add(int(match.group(1)))
+    
+    n = 1
+    while n in numbers:
+        n += 1
+    return n
+
+def has_custom_remark(server_line):
+    """Check if server has a custom remark (not auto-generated)"""
+    if '#' not in server_line:
+        return False
+    
+    remark = server_line.split('#', 1)[1].strip()
+    # If remark starts with "Server" followed by number and optional flag, it's auto-generated
+    if re.match(r"Server \d+(\s+🇦🇿|🇦🇩|🇦🇪|🇦🇫|🇦🇬|🇦🇮|🇦🇱|🇦🇲|🇦🇴|🇦🇶|🇦🇷|🇦🇸|🇦🇹|🇦🇺|🇦🇼|🇦🇽|🇦🇿|🇧🇦|🇧🇧|🇧🇩|🇧🇪|🇧🇫|🇧🇬|🇧🇭|🇧🇮|🇧🇯|🇧🇱|🇧🇲|🇧🇳|🇧🇴|🇧🇶|🇧🇷|🇧🇸|🇧🇹|🇧🇻|🇧🇼|🇧🇾|🇧🇿|🇨🇦|🇨🇨|🇨🇩|🇨🇫|🇨🇬|🇨🇭|🇨🇮|🇨🇰|🇨🇱|🇨🇲|🇨🇳|🇨🇴|🇨🇵|🇨🇷|🇨🇺|🇨🇻|🇨🇼|🇨🇽|🇨🇾|🇨🇿|🇩🇪|🇩🇬|🇩🇯|🇩🇰|🇩🇲|🇩🇴|🇩🇿|🇪🇦|🇪🇨|🇪🇪|🇪🇬|🇪🇭|🇪🇷|🇪🇸|🇪🇹|🇪🇺|🇫🇮|🇫🇯|🇫🇰|🇫🇲|🇫🇴|🇫🇷|🇬🇦|🇬🇧|🇬🇩|🇬🇪|🇬🇫|🇬🇬|🇬🇭|🇬🇮|🇬🇱|🇬🇲|🇬🇳|🇬🇵|🇬🇶|🇬🇷|🇬🇸|🇬🇹|🇬🇺|🇬🇼|🇬🇾|🇭🇰|🇭🇲|🇭🇳|🇭🇷|🇭🇹|🇭🇺|🇮🇨|🇮🇩|🇮🇪|🇮🇱|🇮🇲|🇮🇳|🇮🇴|🇮🇶|🇮🇷|🇮🇸|🇮🇹|🇯🇪|🇯🇲|🇯🇴|🇯🇵|🇰🇪|🇰🇬|🇰🇭|🇰🇮|🇰🇲|🇰🇳|🇰🇵|🇰🇷|🇰🇼|🇰🇾|🇰🇿|🇱🇦|🇱🇧|🇱🇨|🇱🇮|🇱🇰|🇱🇷|🇱🇸|🇱🇹|🇱🇺|🇱🇻|🇱🇾|🇲🇦|🇲🇨|🇲🇩|🇲🇪|🇲🇫|🇲🇬|🇲🇭|🇲🇰|🇲🇱|🇲🇲|🇲🇳|🇲🇴|🇲🇵|🇲🇶|🇲🇷|🇲🇸|🇲🇹|🇲🇺|🇲🇻|🇲🇼|🇲🇽|🇲🇾|🇲🇿|🇳🇦|🇳🇨|🇳🇪|🇳🇫|🇳🇬|🇳🇮|🇳🇱|🇳🇴|🇳🇵|🇳🇷|🇳🇺|🇳🇿|🇴🇲|🇵🇦|🇵🇪|🇵🇫|🇵🇬|🇵🇭|🇵🇰|🇵🇱|🇵🇲|🇵🇳|🇵🇷|🇵🇸|🇵🇹|🇵🇼|🇵🇾|🇶🇦|🇷🇪|🇷🇴|🇷🇸|🇷🇺|🇷🇼|🇸🇦|🇸🇧|🇸🇨|🇸🇩|🇸🇪|🇸🇬|🇸🇭|🇸🇮|🇸🇯|🇸🇰|🇸🇱|🇸🇲|🇸🇳|🇸🇴|🇸🇷|🇸🇸|🇸🇹|🇸🇻|🇸🇽|🇸🇾|🇸🇿|🇹🇦|🇹🇨|🇹🇩|🇹🇫|🇹🇬|🇹🇭|🇹🇯|🇹🇰|🇹🇱|🇹🇲|🇹🇳|🇹🇴|🇹🇷|🇹🇹|🇹🇻|🇹🇼|🇹🇿|🇺🇦|🇺🇬|🇺🇲|🇺🇸|🇺🇾|🇺🇿|🇻🇦|🇻🇨|🇻🇪|🇻🇬|🇻🇮|🇻🇳|🇻🇺|🇼🇫|🇼🇸|🇽🇰|🇾🇪|🇾🇹|🇿🇦|🇿🇲|🇿🇼)?$", remark):
+        return False
+    
+    # If it contains additional text after Server X flag, it's custom
+    return True
+
+def update_server_remarks(servers):
+    """Update server remarks with auto-numbering and flags"""
+    print("🏷️  Updating server remarks...")
+    
+    # Collect existing remarks to find next available number
+    existing_remarks = []
+    for server in servers:
+        if '#' in server:
+            remark = server.split('#', 1)[1].strip()
+            existing_remarks.append(remark)
+    
+    updated_servers = []
+    
+    for server in servers:
+        # Skip servers with custom remarks
+        if has_custom_remark(server):
+            print(f"🏷️  Keeping custom remark: {server.split('#', 1)[1].strip()}")
+            updated_servers.append(server)
+            continue
+        
+        # Get server IP and country
+        ip = extract_ip_from_server(server)
+        country_code = get_country_code(ip) if ip else ''
+        flag = country_code_to_flag(country_code)
+        
+        # Get next available server number
+        next_num = get_next_server_number(existing_remarks)
+        existing_remarks.append(f"Server {next_num}")
+        
+        # Create new remark
+        new_remark = f"Server {next_num}"
+        if flag:
+            new_remark += f" {flag}"
+        
+        # Update server line
+        base_server = server.split('#')[0]
+        updated_server = f"{base_server}#{new_remark}"
+        updated_servers.append(updated_server)
+        
+        print(f"🏷️  Updated: Server {next_num} {flag} ({ip or 'unknown IP'})")
+    
+    return updated_servers
 
 # === Advanced Duplicate Detection Functions ===
 
@@ -406,19 +520,22 @@ def update_all_subscriptions():
 
     print(f"📖 Read {len(all_servers)} servers from main.txt")
 
-    # Step 4: Remove duplicates (now with advanced detection)
+    # Step 4: Update server remarks with auto-numbering and flags
+    all_servers = update_server_remarks(all_servers)
+
+    # Step 5: Remove duplicates (now with advanced detection)
     unique_servers = remove_duplicates(all_servers)
 
-    # Step 5: Update main.txt if duplicates were removed
-    if len(unique_servers) < len(all_servers):
-        print(f"💾 Updating main.txt: {len(all_servers)} → {len(unique_servers)} servers")
+    # Step 6: Update main.txt if changes were made
+    if len(unique_servers) != len(all_servers) or all_servers != unique_servers:
+        print(f"💾 Updating main.txt with remarks and duplicate removal")
         with open('main.txt', 'w', encoding='utf-8') as f:
             f.write('\n'.join(unique_servers) + '\n')
 
-    # Step 6: Get blocked users
+    # Step 7: Get blocked users
     blocked_users = get_blocked_users()
 
-    # Step 7: Process subscription files
+    # Step 8: Process subscription files
     subscription_dir = 'subscriptions'
     if not os.path.exists(subscription_dir):
         os.makedirs(subscription_dir)
