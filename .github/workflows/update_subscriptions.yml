@@ -37,7 +37,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests geoip2fast
+          pip install requests
 
       - name: Create blocked_users.txt from manual input
         if: github.event.inputs.blocked_users != ''
@@ -65,7 +65,7 @@ jobs:
             git diff --name-only
 
             if git diff --name-only | grep -q "main.txt"; then
-              echo "🔧 main.txt updated (server remarks and duplicates processed)"
+              echo "🔧 main.txt updated (server remarks with flags and duplicates processed)"
             fi
 
             git add -A
