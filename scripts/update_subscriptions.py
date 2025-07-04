@@ -3,7 +3,6 @@ import base64
 import json
 import datetime
 import socket
-import urllib.parse
 from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
 import re
 import requests
@@ -14,14 +13,6 @@ import time
 def extract_ip_from_server(server_line):
     try:
         if server_line.startswith(('vless://', 'trojan://')):
-            parsed = urlparse(server_line.split('#')[0])
-            return parsed.hostname
-        elif server_line.startswith('vmess://'):
-            base64_part = server_line[8:].split('#')[0]
-            decoded = base64.b64decode(base64_part).decode('utf-8')
-            config = json.loads(decoded)
-            return config.get('add')
-        elif server_line.startswith('ss://'):
             parsed = urlparse(server_line.split('#')[0])
             return parsed.hostname
         return None
@@ -76,15 +67,7 @@ def update_server_remarks(servers):
 def extract_server_config(server_line):
     try:
         server_line = server_line.strip()
-        if server_line.startswith('vmess://'):
-            base64_part = server_line[8:].split('#')[0]
-            decoded = base64.b64decode(base64_part).decode('utf-8')
-            config = json.loads(decoded)
-            keys = ['v', 'ps', 'add', 'port', 'id', 'aid', 'net', 'type', 'host', 'path', 'tls']
-            norm = {k: str(config.get(k, '')) for k in keys}
-            norm_str = json.dumps(norm, sort_keys=True)
-            return norm_str
-        elif server_line.startswith(('vless://', 'trojan://', 'ss://')):
+        if server_line.startswith(('vless://', 'trojan://')):
             url_part = server_line.split('#')[0]
             parsed = urlparse(url_part)
             scheme = parsed.scheme.lower()
@@ -233,8 +216,7 @@ def is_fake_server(server_line):
         "fake",
         "Fake Server",
         "fakepas",
-        "12345678-1234-1234-1234-123456789",
-        "YWVzLTI1Ni1nY206ZmFrZXBhc3N3b3Jk"
+        "12345678-1234-1234-1234-123456789"
     ]
     server_lower = server_line.lower()
     for indicator in fake_indicators:
@@ -248,22 +230,12 @@ def validate_server(server_line):
         port = None
         if server_line.startswith('vless://'):
             url_part = server_line.split('#')[0]
-            parsed = urllib.parse.urlparse(url_part)
+            parsed = urlparse(url_part)
             hostname = parsed.hostname
             port = parsed.port or 443
-        elif server_line.startswith('vmess://'):
-            config_data = base64.b64decode(server_line[8:]).decode('utf-8')
-            config = json.loads(config_data)
-            hostname = config.get('add')
-            port = int(config.get('port', 443))
-        elif server_line.startswith('ss://'):
-            url_part = server_line.split('#')[0]
-            parsed = urllib.parse.urlparse(url_part)
-            hostname = parsed.hostname
-            port = parsed.port or 8388
         elif server_line.startswith('trojan://'):
             url_part = server_line.split('#')[0]
-            parsed = urllib.parse.urlparse(url_part)
+            parsed = urlparse(url_part)
             hostname = parsed.hostname
             port = parsed.port or 443
         if hostname and port:
@@ -303,9 +275,7 @@ def should_block_user(username, blocked_users):
 def get_fake_servers():
     fake_remark = "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
     return [
-        f"vmess://eyJ2IjoiMiIsInBzIjoi{fake_remark}\",ImFkZCI6IjEyNy4wLjAuMSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiIxMjM0NTY3OC0xMjM0LTEyMzQtMTIzNC0xMjM0NTY3ODkwYWIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==#{fake_remark}",
-        f"vless://12345678-1234-1234-1234-123456789abc@127.0.0.1:443?encryption=none&security=tls&type=ws&path=%2F#{fake_remark}",
-        f"ss://YWVzLTI1Ni1nY206ZmFrZXBhc3N3b3Jk@127.0.0.1:8388#{fake_remark}"
+        f"vless://12345678-1234-1234-1234-123456789abc@127.0.0.1:443?encryption=none&security=tls&type=ws&path=%2F#{fake_remark}"
     ]
 
 def distribute_servers(servers, username):
