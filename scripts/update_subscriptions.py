@@ -308,8 +308,7 @@ def get_fake_servers():
     ]
 
 def distribute_servers(servers, username):
-    if not servers:
-        return get_fake_servers()
+    # Always return the latest main.txt content for all users except blocked
     return servers
 
 # === Main Update Function ===
@@ -337,7 +336,7 @@ def update_all_subscriptions():
             servers_for_user = get_fake_servers()
             print(f"🚫 {filename}: Blocked user - using {len(servers_for_user)} fake servers")
         else:
-            servers_for_user = distribute_servers(unique_servers, username)
+            servers_for_user = unique_servers  # Always use the latest main.txt content!
             print(f"✅ {filename}: Active user - {len(servers_for_user)} real servers")
         subscription_path = os.path.join(subscription_dir, filename)
         with open(subscription_path, 'w', encoding='utf-8') as f:
