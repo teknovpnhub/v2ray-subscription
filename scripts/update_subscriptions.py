@@ -301,10 +301,11 @@ def should_block_user(username, blocked_users):
     return username in blocked_users
 
 def get_fake_servers():
+    fake_remark = "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
     return [
-        "vmess://eyJ2IjoiMiIsInBzIjoiRmFrZSBTZXJ2ZXIgMSIsImFkZCI6IjEyNy4wLjAuMSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiIxMjM0NTY3OC0xMjM0LTEyMzQtMTIzNC0xMjM0NTY3ODkwYWIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==",
-        "vless://12345678-1234-1234-1234-123456789abc@127.0.0.1:443?encryption=none&security=tls&type=ws&path=%2F#Fake%20Server%202",
-        "ss://YWVzLTI1Ni1nY206ZmFrZXBhc3N3b3Jk@127.0.0.1:8388#Fake%20Server%203"
+        f"vmess://eyJ2IjoiMiIsInBzIjoi{fake_remark}\",ImFkZCI6IjEyNy4wLjAuMSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiIxMjM0NTY3OC0xMjM0LTEyMzQtMTIzNC0xMjM0NTY3ODkwYWIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==#{fake_remark}",
+        f"vless://12345678-1234-1234-1234-123456789abc@127.0.0.1:443?encryption=none&security=tls&type=ws&path=%2F#{fake_remark}",
+        f"ss://YWVzLTI1Ni1nY206ZmFrZXBhc3N3b3Jk@127.0.0.1:8388#{fake_remark}"
     ]
 
 def distribute_servers(servers, username):
