@@ -1,3 +1,4 @@
+vless://da587398-b8bd-4edb-b3b3-5eef00988809@ssl1.komanserver.ir:443?path=%2Fdigikala.com%2Flogin%2F%3Fed%3D2560&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&fp=chrome&type=httpupgrade&sni=am.komanserver.ir.#17410_nap
 vless://3ed3966a-ca0e-4a46-a437-8000836fa495@sd.mciickoir.ir:9620?security=none&encryption=none&host=uptvs.com%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#Server 1 🇦🇪
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@add.ski1plag.ir:80?path=%2F%40Spotify_Porteghali%20%20-%20%20%40Spotify_Porteghali%20%20-%20%20%40Spotify_Porteghali%20%20-%20%20%40Spotify_Porteghali&security=none&encryption=none&host=my.ski1plag.ir&type=ws#Server 2 🇨🇦
 vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@104.16.53.11:8080?path=%2F%40SPOTIFY_PORTEGHALI%20%20-%20%20%40SPOTIFY_PORTEGHALI%20%20-%20%20%40SPOTIFY_PORTEGHALI%20%20-%20%20%40SPOTIFY_PORTEGHALI&security=none&encryption=none&host=my.ski1plag.ir&type=ws#Server 3 🇨🇦
