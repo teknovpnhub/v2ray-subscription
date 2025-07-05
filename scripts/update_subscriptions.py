@@ -177,10 +177,24 @@ def save_non_working(servers):
         else:
             f.truncate(0)
 
-def log_history(server, action):
+def log_history(server, action, max_entries=1000):
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    with open(HISTORY_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"{server} | {action} | {now}\n")
+    new_entry = f"{server} | {action} | {now}\n"
+    
+    # Read existing history
+    existing_lines = []
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
+            existing_lines = f.readlines()
+    
+    # Keep only the most recent entries (excluding the new one)
+    if len(existing_lines) >= max_entries:
+        existing_lines = existing_lines[:max_entries-1]
+    
+    # Write new entry first, then existing entries
+    with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
+        f.write(new_entry)
+        f.writelines(existing_lines)
 
 def cleanup_non_working():
     today = datetime.datetime.now()
