@@ -15,6 +15,14 @@ def extract_ip_from_server(server_line):
         if server_line.startswith(('vless://', 'trojan://')):
             parsed = urlparse(server_line.split('#')[0])
             return parsed.hostname
+        elif server_line.startswith('vmess://'):
+            base64_part = server_line[8:].split('#')[0]
+            decoded = base64.b64decode(base64_part).decode('utf-8')
+            config = json.loads(decoded)
+            return config.get('add')
+        elif server_line.startswith('ss://'):
+            parsed = urlparse(server_line.split('#')[0])
+            return parsed.hostname
         return None
     except Exception:
         return None
@@ -64,10 +72,41 @@ def update_server_remarks(servers):
 
 # === Duplicate Detection ===
 
+def normalize_vmess_url(server_line):
+    """Normalize VMess URL by sorting JSON keys and standardizing values"""
+    try:
+        base64_part = server_line[8:].split('#')[0]
+        decoded = base64.b64decode(base64_part).decode('utf-8')
+        config = json.loads(decoded)
+        
+        # Standard VMess keys with default values
+        standard_keys = ['v', 'ps', 'add', 'port', 'id', 'aid', 'net', 'type', 'host', 'path', 'tls']
+        normalized_config = {}
+        
+        for key in standard_keys:
+            val = config.get(key, '')
+            # Normalize port and aid to strings
+            if key in ['port', 'aid'] and val != '':
+                val = str(val)
+            # Normalize empty strings
+            if val is None:
+                val = ''
+            normalized_config[key] = val
+        
+        # Sort keys and create normalized JSON
+        sorted_config = {k: normalized_config[k] for k in sorted(normalized_config)}
+        normalized_json = json.dumps(sorted_config, separators=(',', ':'))
+        normalized_base64 = base64.b64encode(normalized_json.encode('utf-8')).decode('utf-8')
+        return f"vmess://{normalized_base64}"
+    except Exception:
+        return server_line
+
 def extract_server_config(server_line):
     try:
         server_line = server_line.strip()
-        if server_line.startswith(('vless://', 'trojan://')):
+        if server_line.startswith('vmess://'):
+            return normalize_vmess_url(server_line)
+        elif server_line.startswith(('vless://', 'trojan://', 'ss://')):
             url_part = server_line.split('#')[0]
             parsed = urlparse(url_part)
             scheme = parsed.scheme.lower()
@@ -216,7 +255,8 @@ def is_fake_server(server_line):
         "fake",
         "Fake Server",
         "fakepas",
-        "12345678-1234-1234-1234-123456789"
+        "12345678-1234-1234-1234-123456789",
+        "YWVzLTI1Ni1nY206ZmFrZXBhc3N3b3Jk"
     ]
     server_lower = server_line.lower()
     for indicator in fake_indicators:
@@ -233,6 +273,16 @@ def validate_server(server_line):
             parsed = urlparse(url_part)
             hostname = parsed.hostname
             port = parsed.port or 443
+        elif server_line.startswith('vmess://'):
+            config_data = base64.b64decode(server_line[8:]).decode('utf-8')
+            config = json.loads(config_data)
+            hostname = config.get('add')
+            port = int(config.get('port', 443))
+        elif server_line.startswith('ss://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 8388
         elif server_line.startswith('trojan://'):
             url_part = server_line.split('#')[0]
             parsed = urlparse(url_part)
