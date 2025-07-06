@@ -70,6 +70,102 @@ def update_server_remarks(servers):
         time.sleep(0.1)
     return updated_servers
 
+# === User Management Functions ===
+
+USER_LIST_FILE = 'user_list.txt'
+
+def load_user_list():
+    if not os.path.exists(USER_LIST_FILE):
+        return []
+    with open(USER_LIST_FILE, 'r', encoding='utf-8') as f:
+        return [line.strip() for line in f if line.strip()]
+
+def save_user_list(users):
+    with open(USER_LIST_FILE, 'w', encoding='utf-8') as f:
+        if users:
+            f.write('\n'.join(users) + '\n')
+
+def add_user_to_list(username):
+    """Add new user to top of user_list.txt without automatic date"""
+    users = load_user_list()
+    new_entry = f"{username} | | New subscription - add date manually | active"
+    
+    # Check if user already exists
+    existing_users = [line.split(' |')[0].split(' ---')[0].strip() for line in users]
+    if username not in existing_users:
+        # Add new user at the top
+        users.insert(0, new_entry)
+        save_user_list(users)
+        print(f"📝 Added new user to list: {username} (add date manually)")
+
+def process_user_commands():
+    """Process user commands like ---b (block) and ---d (delete)"""
+    users = load_user_list()
+    updated_users = []
+    blocked_users = set()
+    deleted_users = set()
+    
+    for user_line in users:
+        if '---b' in user_line:
+            # Block command
+            username = user_line.split(' |')[0].replace('---b', '').strip()
+            blocked_users.add(username)
+            # Update status to blocked
+            parts = user_line.split(' | ')
+            if len(parts) >= 4:
+                parts[3] = 'blocked'
+            updated_line = ' | '.join(parts)
+            updated_users.append(updated_line)
+            print(f"🚫 Blocked user: {username}")
+            
+        elif '---d' in user_line:
+            # Delete command
+            username = user_line.split(' |')[0].replace('---d', '').strip()
+            deleted_users.add(username)
+            # Update status to deleted but keep in list for history
+            parts = user_line.split(' | ')
+            if len(parts) >= 4:
+                parts[3] = 'deleted'
+            updated_line = ' | '.join(parts)
+            updated_users.append(updated_line)
+            print(f"🗑️ Deleted user: {username}")
+            
+        else:
+            updated_users.append(user_line)
+    
+    save_user_list(updated_users)
+    
+    # Update blocked_users.txt
+    if blocked_users:
+        existing_blocked = get_blocked_users()
+        all_blocked = existing_blocked.union(blocked_users)
+        with open('blocked_users.txt', 'w', encoding='utf-8') as f:
+            for user in all_blocked:
+                f.write(f"{user}\n")
+    
+    # Delete subscription files for deleted users
+    subscription_dir = 'subscriptions'
+    for username in deleted_users:
+        sub_file = os.path.join(subscription_dir, f"{username}.txt")
+        if os.path.exists(sub_file):
+            os.remove(sub_file)
+            print(f"🗑️ Deleted subscription file: {username}.txt")
+
+def discover_new_subscriptions():
+    """Discover new subscription files and add to user list"""
+    subscription_dir = 'subscriptions'
+    if not os.path.exists(subscription_dir):
+        return
+    
+    subscription_files = [f for f in os.listdir(subscription_dir) if f.endswith('.txt')]
+    existing_users = load_user_list()
+    existing_usernames = [line.split(' |')[0].split(' ---')[0].strip() for line in existing_users]
+    
+    for filename in subscription_files:
+        username = filename[:-4]  # Remove .txt extension
+        if username not in existing_usernames:
+            add_user_to_list(username)
+
 # === Duplicate Detection ===
 
 def normalize_vmess_url(server_line):
@@ -349,6 +445,12 @@ def distribute_servers(servers, username):
 # === Main Update Function ===
 
 def update_all_subscriptions():
+    # Process user commands first
+    process_user_commands()
+    
+    # Discover new subscription files
+    discover_new_subscriptions()
+    
     cleanup_non_working()
     process_non_working_recovery()
     all_servers = load_main_servers()
