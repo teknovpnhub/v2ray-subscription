@@ -70,9 +70,10 @@ def update_server_remarks(servers):
         time.sleep(0.1)
     return updated_servers
 
-# === Simplified User Management Functions ===
+# === Enhanced User Management Functions ===
 
 USER_LIST_FILE = 'user_list.txt'
+BLOCKED_SYMBOL = '🚫'
 
 def load_user_list():
     if not os.path.exists(USER_LIST_FILE):
@@ -89,62 +90,115 @@ def add_user_to_list(username):
     """Add new user to top of user_list.txt (username only)"""
     users = load_user_list()
     
-    # Extract just usernames from existing entries (in case of mixed format)
+    # Extract just usernames from existing entries
     clean_users = []
     for user in users:
-        if ' |' in user:
-            clean_username = user.split(' |')[0].split(' ---')[0].strip()
-        else:
-            clean_username = user.split(' ---')[0].strip()
+        clean_username = extract_username_from_line(user)
         if clean_username:
-            clean_users.append(clean_username)
+            clean_users.append(user)  # Keep original format with symbols
     
     # Check if user already exists
-    if username not in clean_users:
+    existing_usernames = [extract_username_from_line(user) for user in clean_users]
+    if username not in existing_usernames:
         # Add new user at the top
         clean_users.insert(0, username)
         save_user_list(clean_users)
         print(f"📝 Added new user: {username}")
 
+def extract_username_from_line(user_line):
+    """Extract clean username from user line (removes symbols and commands)"""
+    # Remove blocked symbol
+    clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
+    # Remove commands
+    clean_line = re.sub(r'\s*---[a-z]+', '', clean_line).strip()
+    return clean_line
+
+def create_subscription_file(username):
+    """Create a new subscription file for the user"""
+    subscription_dir = 'subscriptions'
+    if not os.path.exists(subscription_dir):
+        os.makedirs(subscription_dir)
+    
+    sub_file = os.path.join(subscription_dir, f"{username}.txt")
+    if not os.path.exists(sub_file):
+        # Create empty subscription file (will be populated by main script)
+        with open(sub_file, 'w', encoding='utf-8') as f:
+            f.write('')  # Empty file, will be filled by update_all_subscriptions
+        print(f"📄 Created subscription file: {username}.txt")
+        return True
+    else:
+        print(f"⚠️  Subscription file already exists: {username}.txt")
+        return False
+
 def process_user_commands():
-    """Process user commands like ---b (block) and ---d (delete)"""
+    """Process user commands: ---b (block), ---ub (unblock), ---d (delete), ---m (make new)"""
     users = load_user_list()
     updated_users = []
     blocked_users = set()
+    unblocked_users = set()
     deleted_users = set()
+    new_users = set()
     
     for user_line in users:
         if '---b' in user_line:
             # Block command
-            username = user_line.replace('---b', '').strip()
+            username = extract_username_from_line(user_line)
             blocked_users.add(username)
+            # Add blocked symbol and remove command
+            updated_line = f"{BLOCKED_SYMBOL}{username}"
+            updated_users.append(updated_line)
             print(f"🚫 Blocked user: {username}")
-            # Don't add blocked users back to the list
+            
+        elif '---ub' in user_line:
+            # Unblock command
+            username = extract_username_from_line(user_line)
+            unblocked_users.add(username)
+            # Remove blocked symbol and command
+            updated_line = username
+            updated_users.append(updated_line)
+            print(f"✅ Unblocked user: {username}")
             
         elif '---d' in user_line:
             # Delete command
-            username = user_line.replace('---d', '').strip()
+            username = extract_username_from_line(user_line)
             deleted_users.add(username)
             print(f"🗑️ Deleted user: {username}")
             # Don't add deleted users back to the list
             
-        else:
-            # Clean username (remove any leftover formatting)
-            if ' |' in user_line:
-                clean_username = user_line.split(' |')[0].strip()
+        elif '---m' in user_line:
+            # Make new subscription command
+            username = extract_username_from_line(user_line)
+            new_users.add(username)
+            if create_subscription_file(username):
+                updated_users.append(username)
+                print(f"📄 Created new subscription: {username}")
             else:
-                clean_username = user_line.strip()
-            updated_users.append(clean_username)
+                # User already exists, just add to list without symbol
+                updated_users.append(username)
+            
+        else:
+            # Regular user line (no command)
+            updated_users.append(user_line)
     
     save_user_list(updated_users)
     
     # Update blocked_users.txt
+    existing_blocked = get_blocked_users()
+    
+    # Add newly blocked users
     if blocked_users:
-        existing_blocked = get_blocked_users()
         all_blocked = existing_blocked.union(blocked_users)
-        with open('blocked_users.txt', 'w', encoding='utf-8') as f:
-            for user in all_blocked:
-                f.write(f"{user}\n")
+    else:
+        all_blocked = existing_blocked
+    
+    # Remove unblocked users
+    if unblocked_users:
+        all_blocked = all_blocked - unblocked_users
+    
+    # Save updated blocked users list
+    with open('blocked_users.txt', 'w', encoding='utf-8') as f:
+        for user in all_blocked:
+            f.write(f"{user}\n")
     
     # Delete subscription files for deleted users
     subscription_dir = 'subscriptions'
@@ -163,15 +217,8 @@ def discover_new_subscriptions():
     subscription_files = [f for f in os.listdir(subscription_dir) if f.endswith('.txt')]
     existing_users = load_user_list()
     
-    # Clean existing usernames (remove any formatting)
-    existing_usernames = []
-    for user in existing_users:
-        if ' |' in user:
-            clean_username = user.split(' |')[0].split(' ---')[0].strip()
-        else:
-            clean_username = user.split(' ---')[0].strip()
-        if clean_username:
-            existing_usernames.append(clean_username)
+    # Extract existing usernames (clean, without symbols)
+    existing_usernames = [extract_username_from_line(user) for user in existing_users]
     
     for filename in subscription_files:
         username = filename[:-4]  # Remove .txt extension
