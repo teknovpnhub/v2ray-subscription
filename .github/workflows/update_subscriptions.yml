@@ -6,6 +6,7 @@ on:
       - 'main.txt'
       - 'subscriptions/**'
       - 'blocked_users.txt'
+      - 'user_list.txt'
   schedule:
     - cron: '0 6 * * *'   # 9:30 AM Iran time (UTC+3:30)
     - cron: '0 18 * * *'  # 9:30 PM Iran time (UTC+3:30)
