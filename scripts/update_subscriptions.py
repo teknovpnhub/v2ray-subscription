@@ -71,7 +71,7 @@ def update_server_remarks(servers):
         time.sleep(0.1)
     return updated_servers
 
-# === Enhanced User Management Functions with Simple Date/Time Support ===
+# === Enhanced User Management Functions with Fixed Date/Time Support ===
 
 USER_LIST_FILE = 'user_list.txt'
 BLOCKED_SYMBOL = '🚫'
@@ -80,8 +80,9 @@ BLOCKED_SYMBOL = '🚫'
 IRAN_TZ = pytz.timezone('Asia/Tehran')
 
 def get_iran_time():
-    """Get current time in Iran timezone"""
-    return datetime.datetime.now(IRAN_TZ)
+    """Get current time in Iran timezone with proper DST handling"""
+    utc_now = datetime.datetime.now(pytz.UTC)
+    return utc_now.astimezone(IRAN_TZ)
 
 def load_user_list():
     if not os.path.exists(USER_LIST_FILE):
@@ -128,7 +129,7 @@ def extract_user_data_from_line(user_line):
     return ''
 
 def parse_relative_datetime(relative_str):
-    """Parse relative date/time including same-day times (Iran timezone)"""
+    """Parse relative date/time including same-day times (Iran timezone) - FIXED VERSION"""
     if not relative_str:
         return None
     
@@ -177,10 +178,12 @@ def parse_relative_datetime(relative_str):
                     naive_dt = datetime.datetime.combine(today, target_time)
                     target_datetime = IRAN_TZ.localize(naive_dt)
                     
-                    # If the time has already passed today, it's invalid
+                    # FIXED: If the time has already passed today, set for tomorrow
                     if target_datetime <= now:
-                        print(f"⚠️ Warning: Time {hour:02d}:{minute:02d} has already passed today")
-                        return None
+                        print(f"⚠️ Time {hour:02d}:{minute:02d} has passed today, setting for tomorrow")
+                        tomorrow = today + datetime.timedelta(days=1)
+                        naive_dt = datetime.datetime.combine(tomorrow, target_time)
+                        target_datetime = IRAN_TZ.localize(naive_dt)
                     
                     return target_datetime
                 else:
@@ -205,12 +208,13 @@ def parse_relative_datetime(relative_str):
                 # Handle time component
                 if len(groups) >= 4:  # Has time specified
                     hour, minute = int(groups[2]), int(groups[3])
+                    if not (0 <= hour <= 23 and 0 <= minute <= 59):
+                        continue
                 else:  # No time, default to end of day
                     hour, minute = 23, 59
                 
                 # Calculate target datetime in Iran timezone
-                target_datetime = now + delta
-                target_date = target_datetime.date()
+                target_date = (now + delta).date()
                 target_time = datetime.time(hour, minute)
                 naive_dt = datetime.datetime.combine(target_date, target_time)
                 target_datetime = IRAN_TZ.localize(naive_dt)
@@ -233,42 +237,40 @@ def format_expiry_datetime(target_datetime):
         return f"{target_datetime.strftime('%Y-%m-%d %H:%M')} expires"
 
 def check_expiry_datetime(user_line):
-    """Check if user has expired with precise time"""
+    """Check if user has expired with precise time - FIXED VERSION"""
     now = get_iran_time()
     
-    # Look for expiry patterns in user line
-    parts = user_line.split()
-    for i, part in enumerate(parts):
-        # Look for "expires today" pattern
-        if part == "expires" and i > 0:
-            if i > 1 and parts[i-1] == "today":
-                # Format: "14:50 expires today"
-                time_part = parts[i-2]
-                if ':' in time_part:
-                    try:
-                        hour, minute = map(int, time_part.split(':'))
-                        today = now.date()
-                        target_time = datetime.time(hour, minute)
-                        naive_dt = datetime.datetime.combine(today, target_time)
-                        target_datetime = IRAN_TZ.localize(naive_dt)
-                        
-                        if target_datetime <= now:
-                            return True, target_datetime
-                    except:
+    # Look for datetime patterns followed by "expires"
+    datetime_patterns = [
+        r'(\d{4}-\d{2}-\d{2} \d{1,2}:\d{2}) expires',
+        r'(\d{1,2}:\d{2}) expires today'
+    ]
+    
+    for pattern in datetime_patterns:
+        match = re.search(pattern, user_line)
+        if match:
+            datetime_str = match.group(1)
+            try:
+                if 'expires today' in user_line:
+                    # Handle same-day format
+                    time_part = datetime_str
+                    hour, minute = map(int, time_part.split(':'))
+                    if not (0 <= hour <= 23 and 0 <= minute <= 59):
                         continue
-            else:
-                # Format: "2025-07-06 14:50 expires"
-                if i > 0 and len(parts[i-1].split('-')) == 3:
-                    try:
-                        datetime_str = f"{parts[i-1]}"
-                        if ':' in datetime_str:
-                            target_datetime = datetime.datetime.strptime(datetime_str, '%Y-%m-%d %H:%M')
-                            target_datetime = IRAN_TZ.localize(target_datetime)
-                            
-                            if target_datetime <= now:
-                                return True, target_datetime
-                    except:
-                        continue
+                    today = now.date()
+                    target_time = datetime.time(hour, minute)
+                    naive_dt = datetime.datetime.combine(today, target_time)
+                    target_datetime = IRAN_TZ.localize(naive_dt)
+                else:
+                    # Handle full datetime format
+                    target_datetime = datetime.datetime.strptime(datetime_str, '%Y-%m-%d %H:%M')
+                    target_datetime = IRAN_TZ.localize(target_datetime)
+                
+                if target_datetime <= now:
+                    return True, target_datetime
+            except Exception as e:
+                print(f"Error parsing datetime: {e}")
+                continue
     
     return False, None
 
@@ -444,14 +446,18 @@ def process_user_commands():
             print(f"🗑️ Deleted subscription file: {username}.txt")
 
 def check_expired_users():
-    """Check for users who have expired and auto-block them"""
+    """Check for users who have expired and auto-block them - ENHANCED VERSION"""
     users = load_user_list()
     updated_users = []
     expired_users = []
     
+    print(f"🔍 Checking {len(users)} users for expiry at {get_iran_time().strftime('%Y-%m-%d %H:%M:%S %Z')}")
+    
     for user_line in users:
         username = extract_username_from_line(user_line)
         is_expired, expiry_time = check_expiry_datetime(user_line)
+        
+        print(f"📋 User: {username}, Expired: {is_expired}, Line: {user_line}")
         
         if is_expired and not user_line.startswith(BLOCKED_SYMBOL):
             # User has expired and is not already blocked
@@ -474,6 +480,8 @@ def check_expired_users():
                 f.write(f"{user}\n")
         
         print(f"🔄 Auto-blocked {len(expired_users)} expired users")
+    else:
+        print("✅ No expired users found")
 
 def discover_new_subscriptions():
     """Discover new subscription files and add to user list"""
@@ -773,6 +781,8 @@ def distribute_servers(servers, username):
 # === Main Update Function ===
 
 def update_all_subscriptions():
+    print(f"🚀 Starting V2Ray subscription update at {get_iran_time().strftime('%Y-%m-%d %H:%M:%S %Z')}")
+    
     # Process user commands first
     process_user_commands()
     
