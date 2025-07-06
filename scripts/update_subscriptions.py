@@ -70,7 +70,7 @@ def update_server_remarks(servers):
         time.sleep(0.1)
     return updated_servers
 
-# === User Management Functions ===
+# === Simplified User Management Functions ===
 
 USER_LIST_FILE = 'user_list.txt'
 
@@ -86,17 +86,25 @@ def save_user_list(users):
             f.write('\n'.join(users) + '\n')
 
 def add_user_to_list(username):
-    """Add new user to top of user_list.txt without automatic date"""
+    """Add new user to top of user_list.txt (username only)"""
     users = load_user_list()
-    new_entry = f"{username} | | New subscription - add date manually | active"
+    
+    # Extract just usernames from existing entries (in case of mixed format)
+    clean_users = []
+    for user in users:
+        if ' |' in user:
+            clean_username = user.split(' |')[0].split(' ---')[0].strip()
+        else:
+            clean_username = user.split(' ---')[0].strip()
+        if clean_username:
+            clean_users.append(clean_username)
     
     # Check if user already exists
-    existing_users = [line.split(' |')[0].split(' ---')[0].strip() for line in users]
-    if username not in existing_users:
+    if username not in clean_users:
         # Add new user at the top
-        users.insert(0, new_entry)
-        save_user_list(users)
-        print(f"📝 Added new user to list: {username} (add date manually)")
+        clean_users.insert(0, username)
+        save_user_list(clean_users)
+        print(f"📝 Added new user: {username}")
 
 def process_user_commands():
     """Process user commands like ---b (block) and ---d (delete)"""
@@ -108,30 +116,25 @@ def process_user_commands():
     for user_line in users:
         if '---b' in user_line:
             # Block command
-            username = user_line.split(' |')[0].replace('---b', '').strip()
+            username = user_line.replace('---b', '').strip()
             blocked_users.add(username)
-            # Update status to blocked
-            parts = user_line.split(' | ')
-            if len(parts) >= 4:
-                parts[3] = 'blocked'
-            updated_line = ' | '.join(parts)
-            updated_users.append(updated_line)
             print(f"🚫 Blocked user: {username}")
+            # Don't add blocked users back to the list
             
         elif '---d' in user_line:
             # Delete command
-            username = user_line.split(' |')[0].replace('---d', '').strip()
+            username = user_line.replace('---d', '').strip()
             deleted_users.add(username)
-            # Update status to deleted but keep in list for history
-            parts = user_line.split(' | ')
-            if len(parts) >= 4:
-                parts[3] = 'deleted'
-            updated_line = ' | '.join(parts)
-            updated_users.append(updated_line)
             print(f"🗑️ Deleted user: {username}")
+            # Don't add deleted users back to the list
             
         else:
-            updated_users.append(user_line)
+            # Clean username (remove any leftover formatting)
+            if ' |' in user_line:
+                clean_username = user_line.split(' |')[0].strip()
+            else:
+                clean_username = user_line.strip()
+            updated_users.append(clean_username)
     
     save_user_list(updated_users)
     
@@ -159,7 +162,16 @@ def discover_new_subscriptions():
     
     subscription_files = [f for f in os.listdir(subscription_dir) if f.endswith('.txt')]
     existing_users = load_user_list()
-    existing_usernames = [line.split(' |')[0].split(' ---')[0].strip() for line in existing_users]
+    
+    # Clean existing usernames (remove any formatting)
+    existing_usernames = []
+    for user in existing_users:
+        if ' |' in user:
+            clean_username = user.split(' |')[0].split(' ---')[0].strip()
+        else:
+            clean_username = user.split(' ---')[0].strip()
+        if clean_username:
+            existing_usernames.append(clean_username)
     
     for filename in subscription_files:
         username = filename[:-4]  # Remove .txt extension
