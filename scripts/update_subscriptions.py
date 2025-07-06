@@ -70,7 +70,7 @@ def update_server_remarks(servers):
         time.sleep(0.1)
     return updated_servers
 
-# === Enhanced User Management Functions ===
+# === Enhanced User Management Functions with Date/Notes Support ===
 
 USER_LIST_FILE = 'user_list.txt'
 BLOCKED_SYMBOL = '🚫'
@@ -86,32 +86,60 @@ def save_user_list(users):
         if users:
             f.write('\n'.join(users) + '\n')
 
-def add_user_to_list(username):
-    """Add new user to top of user_list.txt (username only)"""
-    users = load_user_list()
-    
-    # Extract just usernames from existing entries
-    clean_users = []
-    for user in users:
-        clean_username = extract_username_from_line(user)
-        if clean_username:
-            clean_users.append(user)  # Keep original format with symbols
-    
-    # Check if user already exists
-    existing_usernames = [extract_username_from_line(user) for user in clean_users]
-    if username not in existing_usernames:
-        # Add new user at the top
-        clean_users.insert(0, username)
-        save_user_list(clean_users)
-        print(f"📝 Added new user: {username}")
-
 def extract_username_from_line(user_line):
-    """Extract clean username from user line (removes symbols and commands)"""
+    """Extract clean username from user line (handles symbols, commands, dates, and notes)"""
     # Remove blocked symbol
     clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
-    # Remove commands
-    clean_line = re.sub(r'\s*---[a-z]+', '', clean_line).strip()
-    return clean_line
+    
+    # Handle commands first - extract everything before the command
+    if '---' in clean_line:
+        # Split at the first --- to separate username+data from command
+        before_command = clean_line.split('---')[0].strip()
+        # Extract just the username (first word)
+        username = before_command.split()[0] if before_command.split() else ''
+        return username
+    else:
+        # No command, extract just the username (first word)
+        username = clean_line.split()[0] if clean_line.split() else clean_line
+        return username
+
+def extract_user_data_from_line(user_line):
+    """Extract dates and notes from user line, preserving everything after username"""
+    # Remove blocked symbol
+    clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
+    
+    # Remove commands if present
+    if '---' in clean_line:
+        clean_line = clean_line.split('---')[0].strip()
+    
+    # Split into parts
+    parts = clean_line.split()
+    if len(parts) > 1:
+        # Return everything after the username
+        return ' '.join(parts[1:])
+    return ''
+
+def add_user_to_list(username, user_data=''):
+    """Add new user to top of user_list.txt with optional data"""
+    users = load_user_list()
+    
+    # Check if user already exists
+    existing_usernames = [extract_username_from_line(user) for user in users]
+    if username not in existing_usernames:
+        # Create new user entry
+        if user_data:
+            new_entry = f"{username} {user_data}"
+        else:
+            new_entry = username
+        
+        # Add new user at the top
+        users.insert(0, new_entry)
+        save_user_list(users)
+        print(f"📝 Added new user: {new_entry}")
+        return True
+    else:
+        print(f"⚠️  User already exists: {username}")
+        return False
 
 def create_subscription_file(username):
     """Create a new subscription file for the user"""
@@ -143,18 +171,26 @@ def process_user_commands():
         if '---b' in user_line:
             # Block command
             username = extract_username_from_line(user_line)
+            user_data = extract_user_data_from_line(user_line)
             blocked_users.add(username)
-            # Add blocked symbol and remove command
-            updated_line = f"{BLOCKED_SYMBOL}{username}"
+            # Add blocked symbol and preserve data
+            if user_data:
+                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data}"
+            else:
+                updated_line = f"{BLOCKED_SYMBOL}{username}"
             updated_users.append(updated_line)
             print(f"🚫 Blocked user: {username}")
             
         elif '---ub' in user_line:
             # Unblock command
             username = extract_username_from_line(user_line)
+            user_data = extract_user_data_from_line(user_line)
             unblocked_users.add(username)
-            # Remove blocked symbol and command
-            updated_line = username
+            # Remove blocked symbol and preserve data
+            if user_data:
+                updated_line = f"{username} {user_data}"
+            else:
+                updated_line = username
             updated_users.append(updated_line)
             print(f"✅ Unblocked user: {username}")
             
@@ -168,16 +204,25 @@ def process_user_commands():
         elif '---m' in user_line:
             # Make new subscription command
             username = extract_username_from_line(user_line)
+            user_data = extract_user_data_from_line(user_line)
             new_users.add(username)
+            
             if create_subscription_file(username):
-                updated_users.append(username)
+                # Add user with data to list
+                if user_data:
+                    updated_users.append(f"{username} {user_data}")
+                else:
+                    updated_users.append(username)
                 print(f"📄 Created new subscription: {username}")
             else:
-                # User already exists, just add to list without symbol
-                updated_users.append(username)
+                # User already exists, preserve existing entry
+                if user_data:
+                    updated_users.append(f"{username} {user_data}")
+                else:
+                    updated_users.append(username)
             
         else:
-            # Regular user line (no command)
+            # Regular user line (no command) - preserve as-is
             updated_users.append(user_line)
     
     save_user_list(updated_users)
@@ -217,7 +262,7 @@ def discover_new_subscriptions():
     subscription_files = [f for f in os.listdir(subscription_dir) if f.endswith('.txt')]
     existing_users = load_user_list()
     
-    # Extract existing usernames (clean, without symbols)
+    # Extract existing usernames (clean, without symbols or data)
     existing_usernames = [extract_username_from_line(user) for user in existing_users]
     
     for filename in subscription_files:
