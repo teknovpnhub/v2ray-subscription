@@ -1,6 +1,6 @@
 🚫moradverdi
 test1
-c 14:00 expires today
+c ---es 14:00
 hadi.nariman
 b
 mm
