@@ -1,3 +1,5 @@
+vless://5becb1f6-ca68-48f2-a5a2-425a51e6b369@91.99.105.1:17833?security=&encryption=none&host=exo.ir&headerType=http&type=tcp#%F0%9F%91%89%F0%9F%86%94%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B7%C2%AE%EF%B8%8FIran%C2%A9%EF%B8%8FKhorramshahr%F0%9F%85%BF%EF%B8%8Fping%3A34.69ms
+vless://f73e9865-80c3-45ba-8391-597139c37bdc@91.99.129.82:443?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Khorramshahr🅿️ping:40.84ms
 trojan://trojan@109.234.211.66:8443/?type=ws&host=store.timimi.dpdns.org&path=%2F&security=tls&sni=store.timimi.dpdns.org#Server 1 🇪🇸
 vless://148709e4-402b-48dd-8892-ed39b55ea45c@104.18.26.90:80?path=%2F%3Fed%3D2560&security=&encryption=none&host=barayeiranmahsang.loseyourself.dpdns.org&fp=random&type=ws&sni=barayeiranmahsang.loseyourself.dpdns.org#Server 2 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@216.173.70.187:57456#Server 3 🇱🇻
