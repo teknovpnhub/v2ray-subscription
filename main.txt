@@ -37,3 +37,5 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.89.111.250:8880?encryption=none&
 trojan://f108e0e2-5f12-42b6-9e67-1b2f073ffb2b@172.67.219.196:443?security=tls&sni=CCcvfgt6.852224.dpdns.org&alpn=http%2F1.1&fp=chrome&type=ws&host=cccvfgt6.852224.dpdns.org&path=%2FCA5bMmr2JMum8sDKRwvFCJq#Server 37 🇨🇦
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.161:8880?encryption=none&security=none&sni=pqh34v7.bloger34art.shop&type=grpc#Server 38 🇺🇸
 vless://6f690965-3be3-43bb-9331-3ead6efb20aa@104.18.26.90:80?encryption=none&security=none&type=ws&host=sib.sibzamini.dpdns.org&path=%2F%3Fed%3D2560%2F%3FJOKERRVPNBIA_CHANEL%40JOKERRVPN#Server 39 🇨🇦
+vless://6f690965-3be3-43bb-9331-3ead6efb20aa@104.18.26.90:80?encryption=none&security=none&type=ws&host=sib.sibzamini.dpdns.org&path=%2F%3Fed%3D2560%2F%3FJOKERRVPNBIA_CHANEL%40JOKERRVPN#Server 39 🇨🇦
+vless://85387693-7c6c-48f1-a8dd-48d67bfb4012@91.99.234.129:38385?security=&encryption=none&host=exo.ir&headerType=http&type=tcp#👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Khorramshahr🅿️ping:33.12ms
