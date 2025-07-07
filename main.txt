@@ -43,5 +43,5 @@ vless://335c00fb-31d8-44fb-a477-cc03553029c8@151.101.3.8:80/?mode=auto&path=%2F%
 vless://b27b3087-1e1f-4511-bf68-e1408f8e70b2@151.101.3.8:80?mode=auto&path=%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy&security=none&encryption=none&host=joindhhprooxy.com&type=xhttp#Server 43 🇺🇸
 vless://f73e9865-80c3-45ba-8391-597139c37bdc@91.99.129.82:443/?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#Server 44 🇩🇪
 vless://913a8cd8-11ab-4d16-a6f7-c7b88d7a592e@91.99.194.113:10195/?security=none&encryption=none&host=exo.ir&headerType=http&type=tcp#Server 45 🇮🇷
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80/?type=ws&encryption=none&flow=&host=redfree8.pooriashop.ir&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560#Server 46 🇮🇷
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?path=Telegram%40V2ray_Alpha%2F%3Fed%3D2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#Server 47 🇧🇿
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80/?type=ws&encryption=none&flow=&host=redfree8.pooriashop.ir&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560#Server 46
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?path=Telegram%40V2ray_Alpha%2F%3Fed%3D2560&security=none&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#Server 47
