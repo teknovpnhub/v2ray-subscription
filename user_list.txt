@@ -1,4 +1,3 @@
-    ---d
 khodaverdizade
 hadizade 404.4.16
 test1
