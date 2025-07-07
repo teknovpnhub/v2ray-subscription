@@ -96,15 +96,17 @@ def save_user_list(users):
             f.write('\n'.join(users) + '\n')
 
 def extract_username_from_line(user_line):
-    """Extract clean username from user line (handles symbols, commands, dates, and notes)"""
+    """Extract clean username from user line (ignores notes after #)"""
     # Remove blocked symbol
     clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
     
-    # Handle commands first - extract everything before the command
+    # Remove notes (everything after #)
+    if '#' in clean_line:
+        clean_line = clean_line.split('#')[0].strip()
+    
+    # Handle commands - extract everything before the command
     if '---' in clean_line:
-        # Split at the first --- to separate username+data from command
         before_command = clean_line.split('---')[0].strip()
-        # Extract just the username (first word)
         username = before_command.split()[0] if before_command.split() else ''
         return username
     else:
@@ -113,20 +115,37 @@ def extract_username_from_line(user_line):
         return username
 
 def extract_user_data_from_line(user_line):
-    """Extract dates and notes from user line, preserving everything after username"""
+    """Extract dates and notes from user line, preserving everything after username (including notes)"""
     # Remove blocked symbol
     clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
     
-    # Remove commands if present
+    # Remove commands if present (but preserve notes)
     if '---' in clean_line:
-        clean_line = clean_line.split('---')[0].strip()
+        # Split at command, take everything before command
+        before_command = clean_line.split('---')[0].strip()
+        # Get everything after username
+        parts = before_command.split()
+        if len(parts) > 1:
+            return ' '.join(parts[1:])  # This includes notes with #
+    else:
+        # No command, get everything after username
+        parts = clean_line.split()
+        if len(parts) > 1:
+            return ' '.join(parts[1:])
     
-    # Split into parts
-    parts = clean_line.split()
-    if len(parts) > 1:
-        # Return everything after the username
-        return ' '.join(parts[1:])
     return ''
+
+def extract_notes_from_line(user_line):
+    """Extract notes (everything after #) from user line"""
+    if '#' in user_line:
+        return user_line.split('#', 1)[1].strip()
+    return ''
+
+def remove_notes_from_line(user_line):
+    """Remove notes (everything after #) from user line"""
+    if '#' in user_line:
+        return user_line.split('#')[0].strip()
+    return user_line.strip()
 
 def parse_relative_datetime(relative_str):
     """Parse relative date/time including same-day times (Iran timezone) - FIXED VERSION"""
@@ -313,26 +332,49 @@ def create_subscription_file(username):
         print(f"⚠️  Subscription file already exists: {username}.txt")
         return False
 
+def rename_subscription_file(old_username, new_username):
+    """Rename subscription file from old username to new username"""
+    subscription_dir = 'subscriptions'
+    old_file = os.path.join(subscription_dir, f"{old_username}.txt")
+    new_file = os.path.join(subscription_dir, f"{new_username}.txt")
+    
+    if os.path.exists(old_file):
+        if not os.path.exists(new_file):
+            os.rename(old_file, new_file)
+            print(f"📄 Renamed subscription file: {old_username}.txt → {new_username}.txt")
+        else:
+            print(f"⚠️ Cannot rename: {new_username}.txt already exists")
+    else:
+        print(f"⚠️ Subscription file not found: {old_username}.txt")
+
 def process_user_commands():
-    """Process user commands: ---b (block), ---ub (unblock), ---d (delete), ---m (make new), ---es (expiry set)"""
+    """Process user commands: ---b (block), ---ub (unblock), ---d (delete), ---m (make new), ---es (expiry set), ---r (rename)"""
     users = load_user_list()
     updated_users = []
     blocked_users = set()
     unblocked_users = set()
     deleted_users = set()
     new_users = set()
+    renamed_users = {}  # old_name -> new_name mapping
     
     for user_line in users:
         if '---b' in user_line:
             # Block command
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
             blocked_users.add(username)
-            # Add blocked symbol and preserve data
-            if user_data:
+            
+            # Reconstruct line with blocked symbol
+            if user_data and notes:
+                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} #{notes}"
+            elif user_data:
                 updated_line = f"{BLOCKED_SYMBOL}{username} {user_data}"
+            elif notes:
+                updated_line = f"{BLOCKED_SYMBOL}{username} #{notes}"
             else:
                 updated_line = f"{BLOCKED_SYMBOL}{username}"
+            
             updated_users.append(updated_line)
             print(f"🚫 Blocked user: {username}")
             
@@ -340,12 +382,19 @@ def process_user_commands():
             # Unblock command
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
             unblocked_users.add(username)
-            # Remove blocked symbol and preserve data
-            if user_data:
+            
+            # Reconstruct line without blocked symbol
+            if user_data and notes:
+                updated_line = f"{username} {user_data} #{notes}"
+            elif user_data:
                 updated_line = f"{username} {user_data}"
+            elif notes:
+                updated_line = f"{username} #{notes}"
             else:
                 updated_line = username
+            
             updated_users.append(updated_line)
             print(f"✅ Unblocked user: {username}")
             
@@ -360,35 +409,94 @@ def process_user_commands():
             # Make new subscription command
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
             new_users.add(username)
             
             if create_subscription_file(username):
-                # Add user with data to list
-                if user_data:
-                    updated_users.append(f"{username} {user_data}")
+                # Reconstruct line
+                if user_data and notes:
+                    updated_line = f"{username} {user_data} #{notes}"
+                elif user_data:
+                    updated_line = f"{username} {user_data}"
+                elif notes:
+                    updated_line = f"{username} #{notes}"
                 else:
-                    updated_users.append(username)
+                    updated_line = username
+                
+                updated_users.append(updated_line)
                 print(f"📄 Created new subscription: {username}")
             else:
                 # User already exists, preserve existing entry
-                if user_data:
-                    updated_users.append(f"{username} {user_data}")
+                if user_data and notes:
+                    updated_line = f"{username} {user_data} #{notes}"
+                elif user_data:
+                    updated_line = f"{username} {user_data}"
+                elif notes:
+                    updated_line = f"{username} #{notes}"
                 else:
-                    updated_users.append(username)
+                    updated_line = username
+                updated_users.append(updated_line)
+        
+        elif '---r' in user_line:
+            # Rename command: username ---r newname
+            old_username = extract_username_from_line(user_line)
+            user_data = extract_user_data_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
+            
+            # Extract new username from command
+            command_part = user_line.split('---r')[1]
+            if '#' in command_part:
+                command_part = command_part.split('#')[0]  # Remove notes from command part
+            new_username = command_part.strip().split()[0] if command_part.strip() else ''
+            
+            if new_username and new_username != old_username:
+                renamed_users[old_username] = new_username
+                
+                # Preserve blocked symbol if user was blocked
+                symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
+                
+                # Reconstruct line with new username
+                if user_data and notes:
+                    updated_line = f"{symbol}{new_username} {user_data} #{notes}"
+                elif user_data:
+                    updated_line = f"{symbol}{new_username} {user_data}"
+                elif notes:
+                    updated_line = f"{symbol}{new_username} #{notes}"
+                else:
+                    updated_line = f"{symbol}{new_username}"
+                
+                updated_users.append(updated_line)
+                print(f"🔄 Renamed user: {old_username} → {new_username}")
+                
+                # Rename subscription file
+                rename_subscription_file(old_username, new_username)
+            else:
+                # Invalid rename, keep original
+                updated_users.append(user_line)
+                print(f"⚠️ Invalid rename command for {old_username}")
         
         elif '---es' in user_line:
             # Expiry set command
             username = extract_username_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
+            
             # Extract the part after ---es
             parts = user_line.split('---es')
             if len(parts) > 1:
-                time_part = parts[1].strip()
+                time_part = parts[1]
+                if '#' in time_part:
+                    time_part = time_part.split('#')[0]  # Remove notes from time part
+                time_part = time_part.strip()
+                
                 user_data_before = parts[0].replace(BLOCKED_SYMBOL, '').strip()
                 # Remove username from user_data_before
                 user_data_parts = user_data_before.split()
                 if user_data_parts:
                     user_data_parts.pop(0)  # Remove username
                     existing_data = ' '.join(user_data_parts)
+                    # Remove notes from existing data
+                    if '#' in existing_data:
+                        existing_data = existing_data.split('#')[0].strip()
                 else:
                     existing_data = ''
                 
@@ -399,8 +507,13 @@ def process_user_commands():
                     # Preserve blocked symbol if user was blocked
                     symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
                     
-                    if existing_data:
+                    # Reconstruct line with expiry and notes
+                    if existing_data and notes:
+                        updated_line = f"{symbol}{username} {formatted_expiry} {existing_data} #{notes}"
+                    elif existing_data:
                         updated_line = f"{symbol}{username} {formatted_expiry} {existing_data}"
+                    elif notes:
+                        updated_line = f"{symbol}{username} {formatted_expiry} #{notes}"
                     else:
                         updated_line = f"{symbol}{username} {formatted_expiry}"
                     
@@ -419,7 +532,19 @@ def process_user_commands():
     
     save_user_list(updated_users)
     
-    # Update blocked_users.txt
+    # Handle subscription file renames
+    for old_name, new_name in renamed_users.items():
+        # Update blocked users list
+        existing_blocked = get_blocked_users()
+        if old_name in existing_blocked:
+            existing_blocked.remove(old_name)
+            existing_blocked.add(new_name)
+            
+            with open('blocked_users.txt', 'w', encoding='utf-8') as f:
+                for user in existing_blocked:
+                    f.write(f"{user}\n")
+    
+    # Update blocked_users.txt for other commands
     existing_blocked = get_blocked_users()
     
     # Add newly blocked users
@@ -431,6 +556,10 @@ def process_user_commands():
     # Remove unblocked users
     if unblocked_users:
         all_blocked = all_blocked - unblocked_users
+    
+    # Remove deleted users
+    if deleted_users:
+        all_blocked = all_blocked - deleted_users
     
     # Save updated blocked users list
     with open('blocked_users.txt', 'w', encoding='utf-8') as f:
