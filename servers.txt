@@ -52,4 +52,3 @@ vless://8afc752b-1458-4762-a474-4dd6bb1cda94@92.242.220.4:35021?security=none&en
 vless://turboo-server@151.101.3.8:80?mode=auto&path=%2F&security=&encryption=none&host=turboo-server1.game&type=xhttp#Server 52
 vless://4c2c859b-5761-441e-bd71-a08ad4600b77@99823232.webnama.com.tr:1517?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#Server 53
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&security=&encryption=none&host=redfree8.pooriashop.ir&type=ws#Server 54
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&security=&encryption=none&host=redfree8.pooriashop.ir&type=ws
