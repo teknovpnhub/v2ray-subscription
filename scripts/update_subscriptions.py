@@ -487,6 +487,29 @@ def extract_server_config(server_line):
     except Exception:
         return server_line
 
+# === LOG HISTORY FUNCTION ===
+
+NON_WORKING_FILE = 'non_working.txt'
+MAIN_FILE = 'servers.txt'
+HISTORY_FILE = 'server_history.txt'
+QUARANTINE_DAYS = 3
+
+def log_history(server, action, max_entries=1000):
+    iran_time = get_iran_time()
+    now = iran_time.strftime("%Y-%m-%d %H:%M")
+    new_entry = f"{server} | {action} | {now}\n"
+    existing_lines = []
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
+            existing_lines = f.readlines()
+    if len(existing_lines) >= max_entries:
+        existing_lines = existing_lines[:max_entries-1]
+    with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
+        f.write(new_entry)
+        f.writelines(existing_lines)
+
+# === REMOVE DUPLICATES WITH LOGGING ===
+
 def remove_duplicates(servers):
     seen_configs = {}
     unique_servers = []
@@ -495,16 +518,13 @@ def remove_duplicates(servers):
             continue
         config_key = extract_server_config(server)
         if config_key in seen_configs:
+            # Log duplicate removal
+            log_history(server, "removed_duplicate")
             continue
         else:
             seen_configs[config_key] = server.strip()
             unique_servers.append(server.strip())
     return unique_servers
-
-NON_WORKING_FILE = 'non_working.txt'
-MAIN_FILE = 'servers.txt'
-HISTORY_FILE = 'server_history.txt'
-QUARANTINE_DAYS = 3
 
 def parse_non_working_line(line):
     try:
@@ -538,20 +558,6 @@ def save_non_working(servers):
             f.write('\n'.join(servers) + '\n')
         else:
             f.truncate(0)
-
-def log_history(server, action, max_entries=1000):
-    iran_time = get_iran_time()
-    now = iran_time.strftime("%Y-%m-%d %H:%M")
-    new_entry = f"{server} | {action} | {now}\n"
-    existing_lines = []
-    if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
-            existing_lines = f.readlines()
-    if len(existing_lines) >= max_entries:
-        existing_lines = existing_lines[:max_entries-1]
-    with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
-        f.write(new_entry)
-        f.writelines(existing_lines)
 
 def cleanup_non_working():
     today = get_iran_time()
