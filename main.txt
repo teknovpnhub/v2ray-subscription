@@ -49,3 +49,4 @@ vless://c0569a4c-7a62-4ed6-9ae8-91fff5625f84@ifcg.crocodileserver.ir:80?mode=aut
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?path=Telegram%40V2ray_Alpha%2F%3Fed%3D2560&security=&encryption=none&host=uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz&type=ws#Server 49
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@195.85.59.20:8880?encryption=none&security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2F%3Fed%3D2560#Server 50
 vless://8afc752b-1458-4762-a474-4dd6bb1cda94@92.242.220.4:35021?security=none&encryption=none&host=skyroom.online&headerType=http&type=tcp#Server 51
+vless://turboo-server@151.101.3.8:80?mode=auto&path=%2F&security=&encryption=none&host=turboo-server1.game&type=xhttp#%F0%9F%91%89%F0%9F%86%94%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%BA%F0%9F%87%B8%C2%AE%EF%B8%8FUnited%20States%C2%A9%EF%B8%8FSan%20Francisco%F0%9F%85%BF%EF%B8%8Fping%3A7.21ms
