@@ -3,7 +3,7 @@ name: Update V2Ray Subscriptions
 on:
   push:
     paths:
-      - 'main.txt'
+      - 'servers.txt'
       - 'subscriptions/**'
       - 'blocked_users.txt'
       - 'user_list.txt'
@@ -64,12 +64,11 @@ jobs:
             echo "📝 Changes detected:"
             git diff --name-only
 
-            if git diff --name-only | grep -q "main.txt"; then
-              echo "🔧 main.txt updated (server remarks with flags and duplicates processed)"
+            if git diff --name-only | grep -q "servers.txt"; then
+              echo "🔧 servers.txt updated (server remarks with flags and duplicates processed)"
             fi
 
             git add -A
             git commit -m "Auto-update: server remarks with flags and subscription updates [$(date '+%Y-%m-%d %H:%M')]"
             git push
             echo "✅ Changes committed and pushed"
-          fi
