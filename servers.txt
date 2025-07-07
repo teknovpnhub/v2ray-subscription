@@ -50,3 +50,5 @@ vless://89b3cbba-e6ac-485a-9481-976a0415eab9@45.131.208.130:80?path=Telegram%40V
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@195.85.59.20:8880?encryption=none&security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2F%3Fed%3D2560#Server 50
 vless://8afc752b-1458-4762-a474-4dd6bb1cda94@92.242.220.4:35021?security=none&encryption=none&host=skyroom.online&headerType=http&type=tcp#Server 51
 vless://turboo-server@151.101.3.8:80?mode=auto&path=%2F&security=&encryption=none&host=turboo-server1.game&type=xhttp#Server 52
+vless://4c2c859b-5761-441e-bd71-a08ad4600b77@99823232.webnama.com.tr:1517?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Khorramshahr🅿️ping:35.46ms
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.147:80?path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560&security=&encryption=none&host=redfree8.pooriashop.ir&type=ws#%F0%9F%91%89%F0%9F%86%94%40v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%AE%F0%9F%87%B7%C2%AE%EF%B8%8FIran%C2%A9%EF%B8%8FTehr%C4%81n%F0%9F%85%BF%EF%B8%8Fping%3A8.16ms
