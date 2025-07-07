@@ -57,18 +57,13 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
             echo "📝 Changes detected:"
             git diff --name-only
-
-            if git diff --name-only | grep -q "servers.txt"; then
-              echo "🔧 servers.txt updated (server remarks with flags and duplicates processed)"
-            fi
-
             git add -A
             git commit -m "Auto-update: server remarks with flags and subscription updates [$(date '+%Y-%m-%d %H:%M')]"
             git push
             echo "✅ Changes committed and pushed"
+          fi
