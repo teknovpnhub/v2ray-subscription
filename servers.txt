@@ -39,21 +39,21 @@ vless://148709e4-402b-48dd-8892-ed39b55ea45c@104.18.26.90:80?path=%2F%3Fed%3D256
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@216.173.70.187:57456#Server 39 🇱🇻
 vless://dbb3c682-8564-4c02-aec9-23ecf7981820@172.66.132.196:443?path=%2FTel-%40V2ray_Alpha&security=tls&encryption=none&host=arc-448.pages.dev&type=ws&sni=ARC-448.Pages.DEV#Server 40 🇨🇦
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.108:8080?encryption=none&security=none&fp=randomized&type=ws&host=1750293123492.china.baidu.bilibili.china.aeko.cn&path=%2F%3Fed%3D2048#Server 41 🇫🇷
-vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 42 🇨🇦
+vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 42 🇺🇸
 vless://f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d@172.67.67.92:80?encryption=none&security=none&type=ws&host=delam.ahaysiahzangi.dpdns.org&path=%2F%3Fed%3D2560#Server 43 🇨🇦
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:80?encryption=none&security=none&type=ws&host=redfree8mahsang6.redfree8.ir&path=%2Ftelegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20-%20telegram%3A%20%40Eternal_Connect%20%2F%3Fed%3D2560#Server 44 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.178:8080#Server 45 🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.158.171.132:8080#Server 46
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpES3lSZG9xUUllYmRLWlZZczVHelc4@45.150.32.13:14628#Server 47
-vless://5e251be5-4736-49ff-80cf-b41639949a4d@5.255.124.97:26066?encryption=none&security=none&type=ws&host=%2FJOKERRVPNBIA_CHANEL%40JOKERRVPN&path=%2F#Server 48
-vless://92f481b6-ad92-43e4-a683-2bb0aeaa9846@104.16.241.234:80?encryption=none&security=none&type=ws&host=dw.alibichareh.dpdns.org&path=%2F%3Fed%3D2590#Server 49
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.243:8080?encryption=none&security=none&type=ws&host=1750293123492.china.baidu.bilibili.china.aeko.cn&path=%2F%3Fed%3D2048#Server 50
-vless://6f690965-3be3-43bb-9331-3ead6efb20aa@172.67.17.195:80?encryption=none&security=none&type=ws&host=sib.sibzamini.dpdns.org&path=%2F%3Fed%3D2560#Server 51
-vless://6f690965-3be3-43bb-9331-3ead6efb20aa@172.67.208.49:80?encryption=none&security=none&type=ws&host=sib.sibzamini.dpdns.org&path=%2F%3Fed%3D2560#Server 52
-vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?encryption=none&security=none&type=ws&host=di.dibdibini.dpdns.org&path=%2F%3Fed%3D2560#Server 53
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?encryption=none&security=none&type=ws&host=redfree8mahsang6.redfree8.ir&path=%2F%3Fed%3D2560#Server 54
-vless://f6bd0b57-1e1c-4dd1-8f1c-939cb96bdb0a@209.38.202.192:42030?encryption=none&security=reality&sni=journalofbigdata.springeropen.com&fp=chrome&pbk=ZyEwIOp_n6SemqIK57145NS5UWz3-BrL_fRob9qx4Tk&sid=15&type=grpc#Server 55
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNLW5mZk80MEtsY2x3YkNYOUNWMURR@138.124.115.157:1080#Server 56
-vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&fp=chrome&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560%2F%3FRk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps#Server 57
-vless://7d283c1a-3a5b-4b2a-a924-0bd256e89726@62.60.163.77:3333?encryption=none&security=none&type=tcp&headerType=http&host=bmw.com#Server 58
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.150:8880?encryption=none&security=none&type=grpc#Server 59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.158.171.132:8080#Server 46 🇻🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpES3lSZG9xUUllYmRLWlZZczVHelc4@45.150.32.13:14628#Server 47 🇩🇪
+vless://5e251be5-4736-49ff-80cf-b41639949a4d@5.255.124.97:26066?encryption=none&security=none&type=ws&host=%2FJOKERRVPNBIA_CHANEL%40JOKERRVPN&path=%2F#Server 48 🇳🇱
+vless://92f481b6-ad92-43e4-a683-2bb0aeaa9846@104.16.241.234:80?encryption=none&security=none&type=ws&host=dw.alibichareh.dpdns.org&path=%2F%3Fed%3D2590#Server 49 🇨🇦
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.243:8080?encryption=none&security=none&type=ws&host=1750293123492.china.baidu.bilibili.china.aeko.cn&path=%2F%3Fed%3D2048#Server 50 🇫🇷
+vless://6f690965-3be3-43bb-9331-3ead6efb20aa@172.67.17.195:80?encryption=none&security=none&type=ws&host=sib.sibzamini.dpdns.org&path=%2F%3Fed%3D2560#Server 51 🇨🇦
+vless://6f690965-3be3-43bb-9331-3ead6efb20aa@172.67.208.49:80?encryption=none&security=none&type=ws&host=sib.sibzamini.dpdns.org&path=%2F%3Fed%3D2560#Server 52 🇨🇦
+vless://4179c595-08ca-45cd-b555-91b6f1faeadc@172.67.128.105:80?encryption=none&security=none&type=ws&host=di.dibdibini.dpdns.org&path=%2F%3Fed%3D2560#Server 53 🇨🇦
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.17.147.22:80?encryption=none&security=none&type=ws&host=redfree8mahsang6.redfree8.ir&path=%2F%3Fed%3D2560#Server 54 🇨🇦
+vless://f6bd0b57-1e1c-4dd1-8f1c-939cb96bdb0a@209.38.202.192:42030?encryption=none&security=reality&sni=journalofbigdata.springeropen.com&fp=chrome&pbk=ZyEwIOp_n6SemqIK57145NS5UWz3-BrL_fRob9qx4Tk&sid=15&type=grpc#Server 55 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNLW5mZk80MEtsY2x3YkNYOUNWMURR@138.124.115.157:1080#Server 56 🇩🇪
+vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&fp=chrome&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560%2F%3FRk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps#Server 57 🇨🇦
+vless://7d283c1a-3a5b-4b2a-a924-0bd256e89726@62.60.163.77:3333?encryption=none&security=none&type=tcp&headerType=http&host=bmw.com#Server 58 🇮🇷
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.150:8880?encryption=none&security=none&type=grpc#Server 59 🇺🇸
