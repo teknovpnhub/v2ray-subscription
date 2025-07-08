@@ -1,3 +1,5 @@
+vless://6e47045d-d894-4df2-a215-07729c42189a@151.101.3.8:80?type=xhttp&mode=auto&host=joindhhprooxy.com&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy&security=none#👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️San Francisco🅿️ping:7.09ms
+vless://6f690965-3be3-43bb-9331-3ead6efb20aa@104.18.26.90:80?path=%40vpnserverrr---Telegram%40vpnserverrr%3D%3Fed%3D2560&security=none&encryption=none&host=sib.sibzamini.dpdns.org&type=ws#👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.46ms
 vless://92f481b6-ad92-43e4-a683-2bb0aeaa9846@104.16.241.234:80?encryption=none&security=none&type=ws&host=dw.alibichareh.dpdns.org&path=%2F%3Fed%3D2590#Server 1 🇨🇦
 vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560#Server 2 🇨🇦
 trojan://123456@104.25.165.81:8443?security=tls&sni=top-azx.pages.dev&type=ws&host=top-azx.pages.dev&path=%2FAz1.vpn.33.TOP%2F%3Fed%3D2560#Server 3 🇨🇦
