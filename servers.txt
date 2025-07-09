@@ -1,3 +1,9 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@172.165.94.205:443#%40SAVTEAM%C2%A0%20%7C%20CONFIG
+vless://4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5@www.speedtest.net:443?mode=stream-one&path=%2Ftas&security=tls&alpn=h2&encryption=none&host=ali.tas-bazi.com&fp=firefox&type=xhttp&sni=ali.tas-bazi.com#%40SAVTEAM%C2%A0%20%7C%20CONFIG
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%40SAVTEAM%C2%A0%20%7C%20CONFIG
+vless://04b2b6b2-73ba-4a61-baed-f606f3b78220@mci.dl101movis.ir:80?mode=auto&path=%2F&security=none&encryption=none&host=veneta911.ir&type=xhttp#%40SAVTEAM%C2%A0%20%7C%20CONFIG
+vless://a0a3e34d-87e4-4ff3-b04a-875c85325d62@fi.panelmarzban.com:3031?security=reality&encryption=none&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&headerType=none&fp=firefox&type=tcp&sni=refersion.com#%40SAVTEAM%C2%A0%20%7C%20CONFIG
+vless://26d4cd7c-f8bb-4c51-a07a-e7ed2a161b7b@193.111.235.155:4912?security=none&encryption=none&headerType=http&type=tcp#%40SAVTEAM%C2%A0%20%7C%20CONFIG
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.131.4.131:80?path=---TELEGRAM--%40FREEV2RNG---TELEGRAM--%40FREEV2RNG---TELEGRAM--%40FREEV2RNG---TELEGRAM--%40FREEV2RNG---TELEGRAM--%40FREEV2RNG%2F%3Fed%3D2560&security=&encryption=none&host=redfree8.pooriashop.ir&type=ws#Server 1 🇮🇷
 vless://a0a3e34d-87e4-4ff3-b04a-875c85325d62@it.panelmarzban.com:3037?security=reality&encryption=none&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&headerType=none&fp=firefox&type=tcp&sni=refersion.com#Server 2 🇩🇪
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.67.117.55:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#Server 3 🇩🇪
