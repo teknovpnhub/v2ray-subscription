@@ -1,3 +1,4 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.251:8080
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@64.176.85.73:1866#Server 1 🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg@175.41.157.91:8316#Server 2 🇸🇬
 vless://147d63c1-2f68-4f45-b3ea-cb3172fab133@104.18.26.90:2096?encryption=none&host=638874929583954786.zagreb-prx-dnraaad.info&path=%2Fjmgjhhws&security=tls&sni=638874929583954786.zagreb-prx-dnraaad.info&type=ws#Server 3 🇨🇦
