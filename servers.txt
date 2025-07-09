@@ -1,5 +1,5 @@
-vless://147d63c1-2f68-4f45-b3ea-cb3172fab133@104.18.26.90:2096?encryption=none&host=638874929583954786.zagreb-prx-dnraaad.info&path=%2Fjmgjhhws&security=tls&sni=638874929583954786.zagreb-prx-dnraaad.info&type=ws#%40Mobilinternet%20%20ski%F0%9F%92%A3
-vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?alpn=h3&encryption=none&host=nginx.nscl.ir&path=%2Fassets&security=tls&sni=NGINX.NSCl.IR&type=ws#Server 1 🇨🇦
+vless://147d63c1-2f68-4f45-b3ea-cb3172fab133@104.18.26.90:2096?encryption=none&host=638874929583954786.zagreb-prx-dnraaad.info&path=%2Fjmgjhhws&security=tls&sni=638874929583954786.zagreb-prx-dnraaad.info&type=ws#Server 1 🇨🇦
+vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?alpn=h3&encryption=none&host=nginx.nscl.ir&path=%2Fassets&security=tls&sni=NGINX.NSCl.IR&type=ws#Server 2 🇨🇦
 vless://505fb766-a321-47ce-8df7-73f6d854b398@151.101.3.8:80?mode=auto&path=%2F%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec%3Fed%3D2560&security=&encryption=none&host=JoinMdVpnSec.com&type=xhttp#Server 3 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@172.165.94.205:443#Server 4 🇬🇧
 vless://4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5@www.speedtest.net:443?mode=stream-one&path=%2Ftas&security=tls&alpn=h2&encryption=none&host=ali.tas-bazi.com&fp=firefox&type=xhttp&sni=ali.tas-bazi.com#Server 5 🇨🇦
