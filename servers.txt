@@ -1,3 +1,4 @@
+vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?alpn=h3&encryption=none&host=nginx.nscl.ir&path=%2Fassets&security=tls&sni=NGINX.NSCl.IR&type=ws#%40mobilinternet%20%2018%20Tir
 vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?alpn=h3&encryption=none&host=nginx.nscl.ir&path=%2Fassets&security=tls&sni=NGINX.NSCl.IR&type=ws#Server 1 🇨🇦
 vless://505fb766-a321-47ce-8df7-73f6d854b398@151.101.3.8:80?mode=auto&path=%2F%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec----%40MdVpnSec%3Fed%3D2560&security=&encryption=none&host=JoinMdVpnSec.com&type=xhttp#Server 2 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@172.165.94.205:443#Server 3 🇬🇧
