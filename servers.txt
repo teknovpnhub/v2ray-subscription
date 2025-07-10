@@ -21,7 +21,7 @@ vless://dbb3c682-8564-4c02-aec9-23ecf7981820@172.66.132.196:443?encryption=none&
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.243:8080?encryption=none&security=none&type=ws&host=1750293123492.china.baidu.bilibili.china.aeko.cn&path=%2F%3Fed%3D2048#Server 21 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.70:8880?encryption=none&security=none&type=grpc#Server 22 🇫🇷
 vless://f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d@172.67.67.92:80?encryption=none&security=none&type=ws&host=delam.ahaysiahzangi.dpdns.org&path=%2F%3Fed%3D2560#Server 23 🇨🇦
-vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 24 🇨🇦
+vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 24 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.89.111.250:8880?encryption=none&security=none&type=grpc#Server 25 🇬🇧
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.161:8880?encryption=none&security=none&sni=pqh34v7.bloger34art.shop&type=grpc#Server 26 🇺🇸
 vless://148709e4-402b-48dd-8892-ed39b55ea45c@104.18.26.90:80?encryption=none&security=none&sni=barayeiranmahsang.loseyourself.dpdns.org&fp=random&type=ws&host=barayeiranmahsang.loseyourself.dpdns.org&path=%2F%3Fed%3D2560#Server 27 🇨🇦
