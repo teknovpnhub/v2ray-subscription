@@ -4,7 +4,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.70:8880?encryption=none&s
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@104.26.13.54:80?encryption=none&security=none&type=ws&host=REEdfREe8MahSaNg2.rEDOrG.IR&path=%2Fvpnowl%3Fed%3D2560#Server 4 🇨🇦
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.108:8080?encryption=none&security=none&fp=randomized&type=ws&host=1750293123492.china.baidu.bilibili.china.aeko.cn&path=%2F%3Fed%3D2048#Server 5 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#Server 6 🇺🇸
-vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 7 🇺🇸
+vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 7 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNLW5mZk80MEtsY2x3YkNYOUNWMURR@138.124.115.157:1080#Server 8 🇩🇪
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.161:8880?encryption=none&security=none&sni=pqh34v7.bloger34art.shop&type=grpc#Server 9 🇺🇸
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@195.85.59.20:8880?encryption=none&security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=%2F%3Fed%3D2560#Server 10 🇨🇾
@@ -32,4 +32,4 @@ vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?encryption=none&s
 vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&fp=chrome&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560%2F%3FRk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps#Server 32 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.251:8080#Server 33 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@freakconfig13.felafel.org:443#Server 34 🇬🇧
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#Server 35
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#Server 35 🇬🇧
