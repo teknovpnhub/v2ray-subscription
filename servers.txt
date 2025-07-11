@@ -44,7 +44,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8316#Serv
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@175.41.157.91:8319#Server 44 🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@175.41.157.91:8313#Server 45 🇸🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.6:443#Server 46 🇺🇸
-vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 47 🇺🇸
+vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 47 🇨🇦
 ss://YWVzLTI1Ni1nY206T205RW9ObnUzRDBpSlMrTlUvQ1dza1N5dUkrd1dSamRKbE02VG82bys5VT0%3D@128.199.231.221:59464#Server 48 🇸🇬
 vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560#Server 49 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8313#Server 50 🇭🇰
