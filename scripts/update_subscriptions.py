@@ -3,6 +3,7 @@ import base64
 import json
 import datetime
 import socket
+import concurrent.futures
 from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
 import re
 import requests
@@ -493,6 +494,8 @@ NON_WORKING_FILE = 'non_working.txt'
 MAIN_FILE = 'servers.txt'
 HISTORY_FILE = 'server_history.txt'
 QUARANTINE_DAYS = 3
+# Timeout (seconds) for TCP health-check
+VALIDATION_TIMEOUT = 3
 
 def log_history(server, action, max_entries=1000):
     iran_time = get_iran_time()
@@ -650,7 +653,7 @@ def validate_server(server_line):
             port = parsed.port or 443
         if hostname and port:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            sock.settimeout(5)
+            sock.settimeout(VALIDATION_TIMEOUT)
             result = sock.connect_ex((hostname, port))
             sock.close()
             return result == 0
@@ -691,16 +694,24 @@ def update_all_subscriptions():
     # --- NEW: Validate main server list and quarantine non-working entries ---
     current_servers = load_main_servers()
     valid_servers = []
+
+    # First quickly remove obvious fake servers
+    servers_to_check = []
     for srv in current_servers:
-        # Detect obviously fake servers first
         if is_fake_server(srv):
             move_server_to_non_working(srv)
-            continue
-        # Actively check if the server is reachable
-        if not validate_server(srv):
-            move_server_to_non_working(srv)
-            continue
-        valid_servers.append(srv)
+        else:
+            servers_to_check.append(srv)
+
+    # Validate the remaining servers in parallel to save time
+    if servers_to_check:
+        max_workers = min(32, len(servers_to_check))
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
+            for srv, ok in zip(servers_to_check, pool.map(validate_server, servers_to_check)):
+                if ok:
+                    valid_servers.append(srv)
+                else:
+                    move_server_to_non_working(srv)
     # Persist the cleaned list so that subsequent steps work with only healthy servers
     save_main_servers(valid_servers)
 
