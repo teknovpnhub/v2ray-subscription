@@ -39,5 +39,7 @@ jobs:
           else
             git add -A
             git commit -m "Quick user update [$(date '+%Y-%m-%d %H:%M')]"
+            # Pull with rebase strategy to handle concurrent updates
+            git pull --rebase origin main
             git push
           fi 
