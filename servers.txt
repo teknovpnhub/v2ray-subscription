@@ -39,7 +39,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@175.41.157.91:8316#Ser
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@175.41.157.91:8319#Server 39 🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@175.41.157.91:8313#Server 40 🇸🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.6:443#Server 41 🇺🇸
-vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 42 🇺🇸
+vless://9ea703d4-e64f-4714-9ecc-c0740ae0445f@zoomgov.vipren.biz.id:80?encryption=none&security=none&sni=zoomgov.vipren.biz.id&type=ws&host=zoomgov.vipren.biz.id&path=%2F138.2.75.219%3D39341#Server 42 🇨🇦
 vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560#Server 43 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.178:8080#Server 44 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3V2hjUUtQU1IzM0JFRVRiN1JLbWdO@h110vpnde.outlinekeys.net:21712#Server 45 🇩🇪
@@ -124,7 +124,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8313#Serv
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@beesyar.org:8080#Server 124
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 125
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 126
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 127
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@103.243.215.17:990#Server 128
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2cXNVaVQ2ZmJWOEp6aFhieUNoeWYw@23.177.185.63:49454#Server 129
-ss://YWVzLTEyOC1nY206cng4OGJCMHd4dUEwMlNhaGdDYlNCS0JaaG1LVzBua1drUGFXYzZsVlI1VT0%3D@91.99.237.255:80#Server 130
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@103.243.215.17:990#Server 127
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 128
+ss://YWVzLTI1Ni1nY206NWJkYTI3MzYtODFlNy00M2I0LTg2ZmMtMjg2ZjhmOGU2NTc4@51.195.103.227:8443#Server 129
