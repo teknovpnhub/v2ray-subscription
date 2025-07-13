@@ -13,7 +13,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyREdxM2p2VlJnNW4zQ2N4bXlzR0sya21yZ0plU05vZjE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpubFZxSVZ5S3dXb0RzRDdkVllUOVkw@81.19.140.31:65305#Server 146 | 2025-07-13 18:21
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.171:8080#Server 148 | 2025-07-13 18:21
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPRGhtWQ%3D%3D@pl.opensocks.site:8388#Server 150 | 2025-07-13 18:21
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 10 🇩🇪 | 2025-07-13 18:27
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 16 🇩🇪 | 2025-07-13 18:30
 vless://12345678-1234-1234-1234-123456789abc@fake.invalid:443?encryption=none&security=tls&type=ws&path=%2F#Test-NonWorking | 2025-07-13 18:33
-vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 30 🇮🇷 | 2025-07-13 18:34
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 30 🇮🇷 | 2025-07-13 18:44
