@@ -1,4 +1,4 @@
-abedi ---m #404.4.22
+abedi #404.4.22
 hasani #404.4.22
 salamzade #404.4.22
 alrostam #404.4.22
@@ -59,7 +59,7 @@ khodaverdizade #404.4.16
 hadizade #404.4.16
 test1
 c
-hadi.nariman ---b
+🚫hadi.nariman
 🚫b
 🚫mm
 vahid.behruz
