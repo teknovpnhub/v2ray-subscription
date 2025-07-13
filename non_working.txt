@@ -15,6 +15,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.171:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPRGhtWQ%3D%3D@pl.opensocks.site:8388#Server 150 | 2025-07-13 18:21
 vless://12345678-1234-1234-1234-123456789abc@fake.invalid:443?encryption=none&security=tls&type=ws&path=%2F#Test-NonWorking | 2025-07-13 18:33
 vmess://eyJhZGQiOiJwYW5lbDEuaXB5YXIub3JnIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImM0YmQ5ZWJhLThhZWEtNGQ1ZS1hMmVlLWI1ZGU2NWFjMTRlMSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDI2ODQiLCJwcyI6Ik5ldDJyeSDwn5GI2KrZhNqv2LHYp9mF8J+UjvCfmqUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9#Server 1 🇩🇪 | 2025-07-14 00:22
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@beesyar.org:8080#Server 96 | 2025-07-14 00:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8316#Server 110 | 2025-07-14 01:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8313#Server 111 | 2025-07-14 01:50
