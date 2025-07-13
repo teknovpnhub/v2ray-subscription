@@ -1,4 +1,3 @@
-import os
 import base64
 import json
 import datetime
@@ -497,6 +496,9 @@ QUARANTINE_DAYS = 3
 # Timeout (seconds) for TCP health-check
 VALIDATION_TIMEOUT = 3
 
+# Fast-run flag: when set, the script skips heavy maintenance (health-checks, flag decoration, etc.)
+FAST_RUN = os.getenv("FAST_RUN", "0") == "1"
+
 def log_history(server, action, max_entries=1000):
     iran_time = get_iran_time()
     now = iran_time.strftime("%Y-%m-%d %H:%M")
@@ -686,39 +688,52 @@ def distribute_servers(servers, username):
     return servers
 
 def update_all_subscriptions():
+    """Main entry-point. Behaviour depends on FAST_RUN flag."""
+
+    # Always process user commands & expiry first – they are lightweight
     process_user_commands()
     check_expired_users()
-    discover_new_subscriptions()
-    cleanup_non_working()
-    process_non_working_recovery()
-    # --- NEW: Validate main server list and quarantine non-working entries ---
-    current_servers = load_main_servers()
-    valid_servers = []
 
-    # First quickly remove obvious fake servers
-    servers_to_check = []
-    for srv in current_servers:
-        if is_fake_server(srv):
-            move_server_to_non_working(srv)
-        else:
-            servers_to_check.append(srv)
+    if not FAST_RUN:
+        # Heavy maintenance tasks (hourly / scheduled)
+        discover_new_subscriptions()
+        cleanup_non_working()
+        process_non_working_recovery()
 
-    # Validate the remaining servers in parallel to save time
-    if servers_to_check:
-        max_workers = min(32, len(servers_to_check))
-        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
-            for srv, ok in zip(servers_to_check, pool.map(validate_server, servers_to_check)):
-                if ok:
-                    valid_servers.append(srv)
-                else:
-                    move_server_to_non_working(srv)
-    # Persist the cleaned list so that subsequent steps work with only healthy servers
-    save_main_servers(valid_servers)
+        # --- Validate main server list and quarantine non-working entries ---
+        current_servers = load_main_servers()
+        valid_servers = []
 
-    # Continue the pipeline using the verified server list
-    all_servers = update_server_remarks(valid_servers)
-    unique_servers = remove_duplicates(all_servers)
-    save_main_servers(unique_servers)
+        # Remove obvious fake servers immediately
+        servers_to_check = []
+        for srv in current_servers:
+            if is_fake_server(srv):
+                move_server_to_non_working(srv)
+            else:
+                servers_to_check.append(srv)
+
+        # Parallel TCP validation for the rest
+        if servers_to_check:
+            max_workers = min(32, len(servers_to_check))
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
+                for srv, ok in zip(servers_to_check, pool.map(validate_server, servers_to_check)):
+                    if ok:
+                        valid_servers.append(srv)
+                    else:
+                        move_server_to_non_working(srv)
+
+        # Persist the cleaned list
+        save_main_servers(valid_servers)
+
+        # Update remarks & remove duplicates (these are network-bound/CPU heavy)
+        all_servers = update_server_remarks(valid_servers)
+        unique_servers = remove_duplicates(all_servers)
+        save_main_servers(unique_servers)
+    else:
+        # FAST_RUN → skip all heavy work, use current list as-is
+        unique_servers = load_main_servers()
+
+    # Build / update subscription files for every user
     blocked_users = get_blocked_users()
     subscription_dir = 'subscriptions'
     if not os.path.exists(subscription_dir):
