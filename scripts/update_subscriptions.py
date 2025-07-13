@@ -688,8 +688,24 @@ def update_all_subscriptions():
     discover_new_subscriptions()
     cleanup_non_working()
     process_non_working_recovery()
-    all_servers = load_main_servers()
-    all_servers = update_server_remarks(all_servers)
+    # --- NEW: Validate main server list and quarantine non-working entries ---
+    current_servers = load_main_servers()
+    valid_servers = []
+    for srv in current_servers:
+        # Detect obviously fake servers first
+        if is_fake_server(srv):
+            move_server_to_non_working(srv)
+            continue
+        # Actively check if the server is reachable
+        if not validate_server(srv):
+            move_server_to_non_working(srv)
+            continue
+        valid_servers.append(srv)
+    # Persist the cleaned list so that subsequent steps work with only healthy servers
+    save_main_servers(valid_servers)
+
+    # Continue the pipeline using the verified server list
+    all_servers = update_server_remarks(valid_servers)
     unique_servers = remove_duplicates(all_servers)
     save_main_servers(unique_servers)
     blocked_users = get_blocked_users()
