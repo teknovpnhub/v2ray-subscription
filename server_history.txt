@@ -1,3 +1,16 @@
+ss://YWVzLTEyOC1nY206cng4OGJCMHd4dUEwMlNhaGdDYlNCS0JaaG1LVzBua1drUGFXYzZsVlI1VT0%3D@91.99.237.255:80#Server 128 | moved_to_non_working | 2025-07-14 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 112 | moved_to_non_working | 2025-07-14 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMlVHYWQ2MUZHTzU%3D@194.87.31.68:443#Server 75 | moved_to_non_working | 2025-07-14 14:50
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 112 | recovered_to_main | 2025-07-14 14:50
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 112 | moved_to_main | 2025-07-14 14:50
+ss://YWVzLTEyOC1nY206cng4OGJCMHd4dUEwMlNhaGdDYlNCS0JaaG1LVzBua1drUGFXYzZsVlI1VT0%3D@91.99.237.255:80#Server 128 | recovered_to_main | 2025-07-14 14:49
+ss://YWVzLTEyOC1nY206cng4OGJCMHd4dUEwMlNhaGdDYlNCS0JaaG1LVzBua1drUGFXYzZsVlI1VT0%3D@91.99.237.255:80#Server 128 | moved_to_main | 2025-07-14 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@216.173.70.187:57456#Server 34 🇱🇻 | recovered_to_main | 2025-07-14 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@216.173.70.187:57456#Server 34 🇱🇻 | moved_to_main | 2025-07-14 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dUhDZklkSEE2YkFxYWt5RjFpdEwx@23.177.185.63:49454#Server 137 | recovered_to_main | 2025-07-14 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dUhDZklkSEE2YkFxYWt5RjFpdEwx@23.177.185.63:49454#Server 137 | moved_to_main | 2025-07-14 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 112 | recovered_to_main | 2025-07-14 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 112 | moved_to_main | 2025-07-14 14:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 112 | moved_to_non_working | 2025-07-14 14:23
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dUhDZklkSEE2YkFxYWt5RjFpdEwx@23.177.185.63:49454#Server 137 | moved_to_non_working | 2025-07-14 14:23
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@216.173.70.187:57456#Server 34 🇱🇻 | moved_to_non_working | 2025-07-14 14:23
