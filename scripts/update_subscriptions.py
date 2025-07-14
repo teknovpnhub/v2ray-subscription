@@ -151,10 +151,8 @@ def detect_manual_changes():
         any_manual_changes = True  # Users were manually added
     for username in added:
         user_line = current_lines[username]
-        notes = extract_notes_from_line(user_line)
+        # Only include the actual line in the details, log_user_history will handle notes
         details = f"Line: {user_line}"
-        if notes:
-            details = f"Line: {user_line} [Note: {notes}]"
         log_user_history(username, "manual_add", details)
         manual_modified_users.add(username)
     
@@ -167,10 +165,7 @@ def detect_manual_changes():
             differ = Differ()
             diff = list(differ.compare([last_lines[username]], [current_lines[username]]))
             diff_text = '\n'.join(diff)
-            notes = extract_notes_from_line(current_lines[username])
             details = f"Changes:\n{diff_text}"
-            if notes:
-                details = f"Changes:\n{diff_text} [Note: {notes}]"
             log_user_history(username, "manual_change", details)
             manual_modified_users.add(username)
     
@@ -346,11 +341,10 @@ def add_user_to_list(username, user_data=''):
         # Create individual backup for this new user
         backup_user(username)
         print(f"📝 Added new user: {new_entry}")
-        notes = extract_notes_from_line(new_entry)
-        details = user_data
-        if notes:
-            details = f"{user_data} [Note: {notes}]"
-        log_user_history(username, "added", details)
+        
+        # Pass user_data directly to log_user_history
+        # The log_user_history function will handle formatting notes correctly
+        log_user_history(username, "added", user_data)
         return True
     else:
         print(f"⚠️  User already exists: {username}")
@@ -405,8 +399,7 @@ def process_user_commands():
             blocked_users.add(username)
             modified_users.add(username)
             details = ""
-            if notes:
-                details = f"[Note: {notes}]"
+            # Let log_user_history handle adding the note
             log_user_history(username, "blocked", details)
             if user_data and notes:
                 updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} #{notes}"
@@ -425,8 +418,7 @@ def process_user_commands():
             unblocked_users.add(username)
             modified_users.add(username)
             details = ""
-            if notes:
-                details = f"[Note: {notes}]"
+            # Let log_user_history handle adding the note
             log_user_history(username, "unblocked", details)
             if user_data and notes:
                 updated_line = f"{username} {user_data} #{notes}"
@@ -449,11 +441,7 @@ def process_user_commands():
             notes = extract_notes_from_line(user_line)
             new_users.add(username)
             details = user_data if user_data else ""
-            if notes:
-                if details:
-                    details = f"{details} [Note: {notes}]"
-                else:
-                    details = f"[Note: {notes}]"
+            # Let log_user_history handle adding the note
             log_user_history(username, "added", details)
             if create_subscription_file(username):
                 if user_data and notes:
@@ -718,21 +706,29 @@ def log_user_history(username, action, details="", max_days=USER_HISTORY_DAYS):
     Log user-related actions with newest entries at the top
     Actions: added, removed, blocked, unblocked, renamed, expiry_set, expired
     """
-    # Check if this user has notes in the user list
-    notes = ""
-    users = load_user_list()
-    for line in users:
-        if username == extract_username_from_line(line):
-            line_notes = extract_notes_from_line(line)
-            if line_notes:
-                notes = f"[Note: {line_notes}]"
-                break
+    # If details starts with #, it's likely a note directly from user_data
+    if details.startswith('#'):
+        # Extract note content without the # prefix
+        note_content = details[1:].strip()
+        # Just use the formatted note
+        details = f"[Note: {note_content}]"
+    # Check if notes are already included in details in our standard format
+    elif "[Note:" not in details:
+        # Only lookup notes in user_list if not already in details
+        notes = ""
+        users = load_user_list()
+        for line in users:
+            if username == extract_username_from_line(line):
+                line_notes = extract_notes_from_line(line)
+                if line_notes:
+                    notes = f"[Note: {line_notes}]"
+                    break
 
-    # Append notes to details if available
-    if notes and details:
-        details = f"{details} {notes}"
-    elif notes:
-        details = notes
+        # Append notes to details if available
+        if notes and details:
+            details = f"{details} {notes}"
+        elif notes:
+            details = notes
 
     iran_time = get_iran_time()
     now = iran_time.strftime("%Y-%m-%d %H:%M")
