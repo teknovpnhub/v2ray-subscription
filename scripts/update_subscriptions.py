@@ -960,8 +960,12 @@ def backup_user_list():
     
     # Generate backup filename with timestamp
     iran_time = get_iran_time()
-    timestamp = iran_time.strftime("%Y-%m-%d_%H-%M-%S")  # Added seconds for more precise timestamping
-    backup_filename = backup_dir / f"user_list_{timestamp}.txt"
+    # Use date format that sorts in reverse chronological order
+    # Higher numbers will appear first in directory listing
+    timestamp = f"{9999 - iran_time.year:04d}-{12 - iran_time.month:02d}-{31 - iran_time.day:02d}_{23 - iran_time.hour:02d}-{59 - iran_time.minute:02d}-{59 - iran_time.second:02d}"
+    # Also include human-readable date in the filename
+    display_timestamp = iran_time.strftime("%Y-%m-%d_%H-%M-%S")
+    backup_filename = backup_dir / f"user_list_{timestamp}_{display_timestamp}.txt"
     
     try:
         # Copy the user list to the backup file
@@ -974,15 +978,31 @@ def backup_user_list():
         for backup_file in backups:
             # Extract date from filename
             try:
-                # Format is user_list_YYYY-MM-DD_HH-MM-SS.txt
-                date_str = backup_file.stem.split('_', 1)[1]  # Get YYYY-MM-DD_HH-MM-SS part
-                date_parts = date_str.split('_')
-                if len(date_parts) >= 2:
-                    date_str = date_parts[0]  # Get YYYY-MM-DD part
-                    file_date = datetime.datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=IRAN_TZ)
-                    if file_date < cutoff_date:
-                        # File is older than BACKUP_DAYS days
-                        backup_file.unlink()
+                # Check if it's our new format with both timestamps
+                if "_20" in backup_file.name:  # Look for original timestamp portion
+                    # Extract the original timestamp part (after the reverse timestamp)
+                    filename_parts = backup_file.name.split('_')
+                    if len(filename_parts) >= 4:  # Should be user_list_REVTS1_REVTS2_ORIGTS1_ORIGTS2.txt
+                        # Try to find the original timestamp part
+                        for i, part in enumerate(filename_parts):
+                            if part.startswith('20'):  # Year starting with 20xx
+                                orig_date_str = part  # This should be the year
+                                if len(filename_parts) > i+1:
+                                    orig_date_str = f"{orig_date_str}-{filename_parts[i+1]}"  # Add month-day
+                                    file_date = datetime.datetime.strptime(orig_date_str, "%Y-%m-%d").replace(tzinfo=IRAN_TZ)
+                                    if file_date < cutoff_date:
+                                        backup_file.unlink()
+                                break
+                else:
+                    # Legacy format is user_list_YYYY-MM-DD_HH-MM-SS.txt
+                    date_str = backup_file.stem.split('_', 1)[1]  # Get YYYY-MM-DD_HH-MM-SS part
+                    date_parts = date_str.split('_')
+                    if len(date_parts) >= 2:
+                        date_str = date_parts[0]  # Get YYYY-MM-DD part
+                        file_date = datetime.datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=IRAN_TZ)
+                        if file_date < cutoff_date:
+                            # File is older than BACKUP_DAYS days
+                            backup_file.unlink()
             except (ValueError, IndexError):
                 # Skip files with invalid naming format
                 continue
@@ -1020,8 +1040,11 @@ def backup_user(username):
     
     # Generate backup filename with timestamp
     iran_time = get_iran_time()
-    timestamp = iran_time.strftime("%Y-%m-%d_%H-%M")
-    backup_filename = user_dir / f"{username}_{timestamp}.txt"
+    # Use date format that sorts in reverse chronological order
+    timestamp = f"{9999 - iran_time.year:04d}-{12 - iran_time.month:02d}-{31 - iran_time.day:02d}_{23 - iran_time.hour:02d}-{59 - iran_time.minute:02d}"
+    # Also include human-readable date in filename
+    display_timestamp = iran_time.strftime("%Y-%m-%d_%H-%M")
+    backup_filename = user_dir / f"{username}_{timestamp}_{display_timestamp}.txt"
     
     try:
         # Write the user entry to the backup file
