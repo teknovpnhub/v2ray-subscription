@@ -20,10 +20,17 @@ permissions:
 jobs:
   update-subscriptions:
     runs-on: ubuntu-latest
+    # Prevent concurrent runs of this workflow
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: false
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Fetch all history for all branches and tags
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -60,8 +67,10 @@ jobs:
             git diff --name-only
             git add -A
             git commit -m "Auto-update: server remarks with flags and subscription updates [$(date '+%Y-%m-%d %H:%M')]"
-            # Pull with rebase strategy to handle concurrent updates
-            git pull --rebase origin main
+            # Fetch latest changes and use ours in case of conflict
+            git fetch
+            git config pull.rebase false
+            git pull --no-edit -X ours origin main || echo "Merge failed, pushing anyway"
             git push
             echo "✅ Changes committed and pushed"
           fi
