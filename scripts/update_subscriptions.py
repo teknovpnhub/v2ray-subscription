@@ -32,40 +32,18 @@ def extract_ip_from_server(server_line):
     except Exception:
         return None
 
-# Cache for IP to country code lookups
-IP_COUNTRY_CACHE = {}
-
 def get_country_code(ip):
     if not ip:
         return ''
-    
-    # Check cache first
-    if ip in IP_COUNTRY_CACHE:
-        return IP_COUNTRY_CACHE[ip]
-    
     try:
-        response = requests.get(f"http://ip-api.com/json/{ip}?fields=countryCode,status,message", timeout=5)
+        response = requests.get(f"http://ip-api.com/json/{ip}?fields=countryCode", timeout=5)
         if response.status_code == 200:
             data = response.json()
-            
-            # Check if the API returned an error
-            if data.get('status') == 'fail':
-                print(f"IP API error for {ip}: {data.get('message', 'Unknown error')}")
-                IP_COUNTRY_CACHE[ip] = ''
-                return ''
-                
             cc = data.get('countryCode', '')
             if cc and len(cc) == 2:
-                # Store in cache
-                IP_COUNTRY_CACHE[ip] = cc.upper()
                 return cc.upper()
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching country code for IP {ip}: {str(e)}")
-    except Exception as e:
-        print(f"Unexpected error processing IP {ip}: {str(e)}")
-    
-    # Cache failed lookups too
-    IP_COUNTRY_CACHE[ip] = ''
+    except Exception:
+        pass
     return ''
 
 def country_code_to_flag(country_code):
@@ -79,33 +57,19 @@ def country_code_to_flag(country_code):
 
 def update_server_remarks(servers):
     updated_servers = []
-    # Process in batches of 40 to respect API rate limits
-    batch_size = 40
-    
-    for batch_idx in range(0, len(servers), batch_size):
-        batch_end = min(batch_idx + batch_size, len(servers))
-        batch = servers[batch_idx:batch_end]
-        
-        # Process this batch
-        for idx, server in enumerate(batch, batch_idx + 1):
-            base_url = server.split('#')[0]
-            remark = server.split('#', 1)[1].strip() if '#' in server else ""
-            ip = extract_ip_from_server(server)
-            cc = get_country_code(ip)
-            flag = country_code_to_flag(cc)
-            if "---" in remark:
-                _, custom = remark.split("---", 1)
-                new_remark = f"Server {idx} {flag}--- {custom.strip()}"
-            else:
-                new_remark = f"Server {idx} {flag}"
-            updated_servers.append(f"{base_url}#{new_remark}")
-            time.sleep(0.1)  # Small delay between API calls
-        
-        # If we have more batches to process, wait to avoid rate limits
-        if batch_end < len(servers):
-            print(f"Processed {batch_end}/{len(servers)} servers. Waiting to avoid rate limits...")
-            time.sleep(65)  # Wait 65 seconds between batches to reset API rate limit
-    
+    for idx, server in enumerate(servers, 1):
+        base_url = server.split('#')[0]
+        remark = server.split('#', 1)[1].strip() if '#' in server else ""
+        ip = extract_ip_from_server(server)
+        cc = get_country_code(ip)
+        flag = country_code_to_flag(cc)
+        if "---" in remark:
+            _, custom = remark.split("---", 1)
+            new_remark = f"Server {idx} {flag}--- {custom.strip()}"
+        else:
+            new_remark = f"Server {idx} {flag}"
+        updated_servers.append(f"{base_url}#{new_remark}")
+        time.sleep(0.1)
     return updated_servers
 
 # === Enhanced User Management Functions ===
@@ -274,189 +238,6 @@ def remove_notes_from_line(user_line):
         return user_line.split('#')[0].strip()
     return user_line.strip()
 
-def is_blocked_user(user_line):
-    return user_line.startswith(BLOCKED_SYMBOL)
-
-def organize_user_list(users):
-    """
-    Organize the user list with:
-    1. All newly changed users (unblocked, renamed, modified) at the top of active users section
-    2. Regular unblocked users below changed users
-    3. All blocked users below active users
-    4. Newly blocked users at the top of the blocked section
-    5. Regular blocked users at the bottom
-    """
-    # Split users into blocked and unblocked
-    blocked_users = []
-    unblocked_users = []
-    
-    # First, identify newly blocked or modified users
-    newly_blocked = []
-    newly_modified = []
-    newly_unblocked = []
-    renamed_users = []
-    regular_blocked = []
-    regular_unblocked = []
-    
-    for user_line in users:
-        # Check if this is a newly blocked user (contains ---b command)
-        if '---b' in user_line:
-            username = extract_username_from_line(user_line)
-            user_data = extract_user_data_from_line(user_line)
-            notes = extract_notes_from_line(user_line)
-            
-            # Create the new blocked user line without the command
-            if user_data and notes:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} #{notes}"
-            elif user_data:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data}"
-            elif notes:
-                updated_line = f"{BLOCKED_SYMBOL}{username} #{notes}"
-            else:
-                updated_line = f"{BLOCKED_SYMBOL}{username}"
-                
-            newly_blocked.append(updated_line)
-        
-        # Check if this is a newly unblocked user (contains ---ub command)
-        elif '---ub' in user_line:
-            username = extract_username_from_line(user_line)
-            user_data = extract_user_data_from_line(user_line)
-            notes = extract_notes_from_line(user_line)
-            
-            # Create the new unblocked user line without the command
-            if user_data and notes:
-                updated_line = f"{username} {user_data} #{notes}"
-            elif user_data:
-                updated_line = f"{username} {user_data}"
-            elif notes:
-                updated_line = f"{username} #{notes}"
-            else:
-                updated_line = username
-                
-            newly_unblocked.append(updated_line)
-        
-        # Check if this is a newly modified user (contains ---r or ---es command)
-        elif '---r' in user_line or '---es' in user_line:
-            # Process rename command
-            if '---r' in user_line:
-                old_username = extract_username_from_line(user_line)
-                user_data = extract_user_data_from_line(user_line)
-                notes = extract_notes_from_line(user_line)
-                command_part = user_line.split('---r')[1]
-                if '#' in command_part:
-                    command_part = command_part.split('#')[0]
-                new_username = command_part.strip().split()[0] if command_part.strip() else ''
-                
-                if new_username and new_username != old_username:
-                    symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
-                    if user_data and notes:
-                        updated_line = f"{symbol}{new_username} {user_data} #{notes}"
-                    elif user_data:
-                        updated_line = f"{symbol}{new_username} {user_data}"
-                    elif notes:
-                        updated_line = f"{symbol}{new_username} #{notes}"
-                    else:
-                        updated_line = f"{symbol}{new_username}"
-                    
-                    if symbol:
-                        newly_blocked.append(updated_line)
-                    else:
-                        renamed_users.append(updated_line)
-                else:
-                    # If rename failed, keep original line
-                    if is_blocked_user(user_line):
-                        regular_blocked.append(user_line)
-                    else:
-                        regular_unblocked.append(user_line)
-            
-            # Process expiry set command
-            elif '---es' in user_line:
-                username = extract_username_from_line(user_line)
-                notes = extract_notes_from_line(user_line)
-                parts = user_line.split('---es')
-                if len(parts) > 1:
-                    time_part = parts[1]
-                    if '#' in time_part:
-                        time_part = time_part.split('#')[0]
-                    time_part = time_part.strip()
-                    user_data_before = parts[0].replace(BLOCKED_SYMBOL, '').strip()
-                    user_data_parts = user_data_before.split()
-                    if user_data_parts:
-                        user_data_parts.pop(0)
-                        existing_data = ' '.join(user_data_parts)
-                        if '#' in existing_data:
-                            existing_data = existing_data.split('#')[0].strip()
-                    else:
-                        existing_data = ''
-                    target_datetime = parse_relative_datetime(time_part)
-                    if target_datetime:
-                        formatted_expiry = format_expiry_datetime(target_datetime)
-                        symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
-                        if existing_data and notes:
-                            updated_line = f"{symbol}{username} {formatted_expiry} {existing_data} #{notes}"
-                        elif existing_data:
-                            updated_line = f"{symbol}{username} {formatted_expiry} {existing_data}"
-                        elif notes:
-                            updated_line = f"{symbol}{username} {formatted_expiry} #{notes}"
-                        else:
-                            updated_line = f"{symbol}{username} {formatted_expiry}"
-                        
-                        if symbol:
-                            newly_blocked.append(updated_line)
-                        else:
-                            newly_modified.append(updated_line)
-                    else:
-                        # If expiry parsing failed, keep original line
-                        if is_blocked_user(user_line):
-                            regular_blocked.append(user_line)
-                        else:
-                            regular_unblocked.append(user_line)
-                else:
-                    # If command parsing failed, keep original line
-                    if is_blocked_user(user_line):
-                        regular_blocked.append(user_line)
-                    else:
-                        regular_unblocked.append(user_line)
-        
-        # For newly added users (contains ---m command)
-        elif '---m' in user_line:
-            username = extract_username_from_line(user_line)
-            user_data = extract_user_data_from_line(user_line)
-            notes = extract_notes_from_line(user_line)
-            
-            if user_data and notes:
-                updated_line = f"{username} {user_data} #{notes}"
-            elif user_data:
-                updated_line = f"{username} {user_data}"
-            elif notes:
-                updated_line = f"{username} #{notes}"
-            else:
-                updated_line = username
-                
-            newly_modified.append(updated_line)
-        
-        # Regular users (no commands)
-        else:
-            if is_blocked_user(user_line):
-                regular_blocked.append(user_line)
-            else:
-                regular_unblocked.append(user_line)
-    
-    # Combine the lists in the desired order
-    # 1. All newly changed users (unblocked, renamed, modified) at the top of active users
-    # 2. Regular unblocked users
-    # 3. All blocked users below active users, with newly blocked at the top of blocked section
-    # 4. Regular blocked users at the bottom
-    newly_changed_users = newly_unblocked + renamed_users + newly_modified
-    active_users = newly_changed_users + regular_unblocked
-    blocked_users = newly_blocked + regular_blocked
-    organized_users = active_users + blocked_users
-    
-    # Filter out users that should be deleted (---d command)
-    final_users = [user for user in organized_users if not any(cmd in user for cmd in ['---d', '---b', '---ub', '---r', '---es', '---m'])]
-    
-    return final_users
-
 def parse_relative_datetime(relative_str):
     if not relative_str:
         return None
@@ -602,8 +383,6 @@ def rename_subscription_file(old_username, new_username):
     else:
         print(f"⚠️ Subscription file not found: {old_username}.txt")
 
-# === Process User Commands ===
-
 def process_user_commands():
     users = load_user_list()
     updated_users = []
@@ -621,25 +400,43 @@ def process_user_commands():
         if '---b' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
+            user_data = extract_user_data_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
             blocked_users.add(username)
             modified_users.add(username)
-            notes = extract_notes_from_line(user_line)
             details = ""
             if notes:
                 details = f"[Note: {notes}]"
             log_user_history(username, "blocked", details)
-            updated_users.append(user_line)  # Keep command for later processing
+            if user_data and notes:
+                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} #{notes}"
+            elif user_data:
+                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data}"
+            elif notes:
+                updated_line = f"{BLOCKED_SYMBOL}{username} #{notes}"
+            else:
+                updated_line = f"{BLOCKED_SYMBOL}{username}"
+            updated_users.append(updated_line)
         elif '---ub' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
+            user_data = extract_user_data_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
             unblocked_users.add(username)
             modified_users.add(username)
-            notes = extract_notes_from_line(user_line)
             details = ""
             if notes:
                 details = f"[Note: {notes}]"
             log_user_history(username, "unblocked", details)
-            updated_users.append(user_line)  # Keep command for later processing
+            if user_data and notes:
+                updated_line = f"{username} {user_data} #{notes}"
+            elif user_data:
+                updated_line = f"{username} {user_data}"
+            elif notes:
+                updated_line = f"{username} #{notes}"
+            else:
+                updated_line = username
+            updated_users.append(updated_line)
         elif '---d' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
@@ -658,11 +455,31 @@ def process_user_commands():
                 else:
                     details = f"[Note: {notes}]"
             log_user_history(username, "added", details)
-            create_subscription_file(username)
-            updated_users.append(user_line)  # Keep command for later processing
+            if create_subscription_file(username):
+                if user_data and notes:
+                    updated_line = f"{username} {user_data} #{notes}"
+                elif user_data:
+                    updated_line = f"{username} {user_data}"
+                elif notes:
+                    updated_line = f"{username} #{notes}"
+                else:
+                    updated_line = username
+                updated_users.append(updated_line)
+            else:
+                if user_data and notes:
+                    updated_line = f"{username} {user_data} #{notes}"
+                elif user_data:
+                    updated_line = f"{username} {user_data}"
+                elif notes:
+                    updated_line = f"{username} #{notes}"
+                else:
+                    updated_line = username
+                updated_users.append(updated_line)
         elif '---r' in user_line:
             any_commands_processed = True
             old_username = extract_username_from_line(user_line)
+            user_data = extract_user_data_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
             command_part = user_line.split('---r')[1]
             if '#' in command_part:
                 command_part = command_part.split('#')[0]
@@ -670,14 +487,25 @@ def process_user_commands():
             if new_username and new_username != old_username:
                 renamed_users[old_username] = new_username
                 modified_users.add(old_username)
+                # Will backup the new username after processing
                 log_user_history(old_username, "renamed", f"to {new_username}")
-                updated_users.append(user_line)  # Keep command for later processing
+                symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
+                if user_data and notes:
+                    updated_line = f"{symbol}{new_username} {user_data} #{notes}"
+                elif user_data:
+                    updated_line = f"{symbol}{new_username} {user_data}"
+                elif notes:
+                    updated_line = f"{symbol}{new_username} #{notes}"
+                else:
+                    updated_line = f"{symbol}{new_username}"
+                updated_users.append(updated_line)
                 rename_subscription_file(old_username, new_username)
             else:
                 updated_users.append(user_line)
         elif '---es' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
+            notes = extract_notes_from_line(user_line)
             modified_users.add(username)
             parts = user_line.split('---es')
             if len(parts) > 1:
@@ -685,28 +513,45 @@ def process_user_commands():
                 if '#' in time_part:
                     time_part = time_part.split('#')[0]
                 time_part = time_part.strip()
+                user_data_before = parts[0].replace(BLOCKED_SYMBOL, '').strip()
+                user_data_parts = user_data_before.split()
+                if user_data_parts:
+                    user_data_parts.pop(0)
+                    existing_data = ' '.join(user_data_parts)
+                    if '#' in existing_data:
+                        existing_data = existing_data.split('#')[0].strip()
+                else:
+                    existing_data = ''
                 target_datetime = parse_relative_datetime(time_part)
                 if target_datetime:
                     formatted_expiry = format_expiry_datetime(target_datetime)
                     log_user_history(username, "expiry_set", f"{formatted_expiry}")
-                    updated_users.append(user_line)  # Keep command for later processing
+                    symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
+                    if existing_data and notes:
+                        updated_line = f"{symbol}{username} {formatted_expiry} {existing_data} #{notes}"
+                    elif existing_data:
+                        updated_line = f"{symbol}{username} {formatted_expiry} {existing_data}"
+                    elif notes:
+                        updated_line = f"{symbol}{username} {formatted_expiry} #{notes}"
+                    else:
+                        updated_line = f"{symbol}{username} {formatted_expiry}"
+                    updated_users.append(updated_line)
                 else:
                     updated_users.append(user_line)
             else:
                 updated_users.append(user_line)
-    
-    # Organize the user list with new blocked users at top and modified users at top of their sections
-    organized_users = organize_user_list(updated_users)
+        else:
+            updated_users.append(user_line)
     
     # after processing all commands
     # Save new state after command processing
-    save_user_state(organized_users)
+    save_user_state(updated_users)
     
     # Create a backup if any commands were processed
     if any_commands_processed:
         backup_user_list()
     
-    save_user_list(organized_users)
+    save_user_list(updated_users)
     
     # Create individual backups for each modified user
     for username in modified_users:
@@ -759,11 +604,7 @@ def check_expired_users():
     if expired_users:
         # Create a backup when users expire
         backup_user_list()
-        
-        # Organize the user list with newly expired users at the top of blocked section
-        organized_users = organize_user_list(updated_users)
-        save_user_list(organized_users)
-        
+        save_user_list(updated_users)
         existing_blocked = get_blocked_users()
         all_blocked = existing_blocked.union(set(expired_users))
         with open('blocked_users.txt', 'w', encoding='utf-8') as f:
@@ -1210,13 +1051,13 @@ def update_all_subscriptions():
     # Always process user commands & expiry first – they are lightweight
     process_user_commands()
     check_expired_users()
-    discover_new_subscriptions()
-    cleanup_non_working()
-    process_non_working_recovery()
 
-    # Server validation and maintenance
     if not FAST_RUN:
         # Heavy maintenance tasks (hourly / scheduled)
+        discover_new_subscriptions()
+        cleanup_non_working()
+        process_non_working_recovery()
+
         # --- Validate main server list and quarantine non-working entries ---
         current_servers = load_main_servers()
         valid_servers = []
