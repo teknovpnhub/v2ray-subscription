@@ -1,3 +1,17 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.238.207.188:8319#Server 129 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.238.207.188:8313#Server 128 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWU0lRVW4wZGFyZEtWbGQwRmphOVBX@45.144.54.33:34803#Server 123 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 122 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxeVk3bGhid3RTU0c5eFU1bDk2TXR3@45.144.54.33:34803#Server 121 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXJrcXU5OTVQcFZjR2h0ejZ2U3Y1@45.144.54.33:34803#Server 120 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 119 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnSXByaFVETnJUT29hM3Ewa3dNQVYy@45.144.54.33:34803#Server 118 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUS1U1N1NsN3EyQVNpRjVwSTBIbGwy@45.144.54.33:34803#Server 117 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 116 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMaUhRWDljRGJkb29CSGxJZzBlaXFR@45.144.54.33:34803#Server 115 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@beesyar.org:8080#Server 113 | moved_to_non_working | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8313#Server 111 | recovered_to_main | 2025-07-14 04:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8313#Server 111 | moved_to_main | 2025-07-14 04:43
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@beesyar.org:8080#Server 96 | recovered_to_main | 2025-07-14 02:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@beesyar.org:8080#Server 96 | moved_to_main | 2025-07-14 02:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8313#Server 111 | moved_to_non_working | 2025-07-14 01:50
