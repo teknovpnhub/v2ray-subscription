@@ -9,6 +9,9 @@ import re
 import requests
 import time
 import pytz
+import shutil
+from pathlib import Path
+from difflib import Differ
 
 # === Server Remark and Flag Functions ===
 
@@ -75,6 +78,113 @@ USER_LIST_FILE = 'user_list.txt'
 BLOCKED_SYMBOL = '🚫'
 IRAN_TZ = pytz.timezone('Asia/Tehran')
 
+# Last known state of user_list for detecting manual changes
+LAST_USER_STATE_FILE = 'last_user_state.json'
+
+def save_user_state(users=None):
+    """Save current state of users for detecting manual changes later"""
+    if users is None:
+        users = load_user_list()
+    
+    # Build a dict of username -> full line for easy comparison
+    state = {}
+    usernames = []
+    for line in users:
+        username = extract_username_from_line(line)
+        if username:
+            state[username] = line
+            usernames.append(username)
+    
+    # Also save the order of usernames
+    data = {
+        "usernames": usernames,
+        "lines": state,
+        "timestamp": get_iran_time().strftime("%Y-%m-%d %H:%M")
+    }
+    
+    with open(LAST_USER_STATE_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def detect_manual_changes():
+    """Detect manual changes to user_list.txt without command flags"""
+    if not os.path.exists(LAST_USER_STATE_FILE):
+        # No previous state, just save current state
+        save_user_state()
+        return
+    
+    # Load previous state
+    with open(LAST_USER_STATE_FILE, 'r', encoding='utf-8') as f:
+        last_state = json.load(f)
+    
+    last_usernames = set(last_state["usernames"])
+    last_lines = last_state["lines"]
+    
+    # Load current state
+    current_users = load_user_list()
+    current_usernames = set()
+    current_lines = {}
+    # Track manually modified users to create backups
+    manual_modified_users = set()
+    # Track if any manual changes were made
+    any_manual_changes = False
+    
+    for line in current_users:
+        # Skip processing lines with command flags, as these will be handled elsewhere
+        if any(cmd in line for cmd in ['---b', '---ub', '---d', '---m', '---r', '---es']):
+            continue
+            
+        username = extract_username_from_line(line)
+        if username:
+            current_usernames.add(username)
+            current_lines[username] = line
+    
+    # Find manually deleted users
+    deleted = last_usernames - current_usernames
+    if deleted:
+        any_manual_changes = True  # Users were manually deleted
+    for username in deleted:
+        log_user_history(username, "manual_delete", "User manually removed")
+    
+    # Find manually added users
+    added = current_usernames - last_usernames
+    if added:
+        any_manual_changes = True  # Users were manually added
+    for username in added:
+        user_line = current_lines[username]
+        notes = extract_notes_from_line(user_line)
+        details = f"Line: {user_line}"
+        if notes:
+            details = f"Line: {user_line} [Note: {notes}]"
+        log_user_history(username, "manual_add", details)
+        manual_modified_users.add(username)
+    
+    # Find modified users (same username but different line content)
+    modified = False
+    for username in last_usernames.intersection(current_usernames):
+        if last_lines[username] != current_lines.get(username, ''):
+            modified = True  # Users were manually modified
+            # Use difflib to find exact changes
+            differ = Differ()
+            diff = list(differ.compare([last_lines[username]], [current_lines[username]]))
+            diff_text = '\n'.join(diff)
+            notes = extract_notes_from_line(current_lines[username])
+            details = f"Changes:\n{diff_text}"
+            if notes:
+                details = f"Changes:\n{diff_text} [Note: {notes}]"
+            log_user_history(username, "manual_change", details)
+            manual_modified_users.add(username)
+    
+    # If any manual changes were detected, create a full backup
+    if any_manual_changes or modified:
+        backup_user_list()
+        
+    # Backup all manually modified users
+    for username in manual_modified_users:
+        backup_user(username)
+    
+    # Save new state for next comparison
+    save_user_state(current_users)
+
 def get_iran_time():
     utc_now = datetime.datetime.now(pytz.UTC)
     return utc_now.astimezone(IRAN_TZ)
@@ -86,6 +196,9 @@ def load_user_list():
         return [line.strip() for line in f if line.strip()]
 
 def save_user_list(users):
+    # Create backup before saving changes
+    backup_user_list()
+
     with open(USER_LIST_FILE, 'w', encoding='utf-8') as f:
         if users:
             f.write('\n'.join(users) + '\n')
@@ -227,8 +340,17 @@ def add_user_to_list(username, user_data=''):
     if username not in existing_usernames:
         new_entry = f"{username} {user_data}" if user_data else username
         users.insert(0, new_entry)
+        # Create a full backup when adding a new user
+        backup_user_list()
         save_user_list(users)
+        # Create individual backup for this new user
+        backup_user(username)
         print(f"📝 Added new user: {new_entry}")
+        notes = extract_notes_from_line(new_entry)
+        details = user_data
+        if notes:
+            details = f"{user_data} [Note: {notes}]"
+        log_user_history(username, "added", details)
         return True
     else:
         print(f"⚠️  User already exists: {username}")
@@ -269,12 +391,23 @@ def process_user_commands():
     deleted_users = set()
     new_users = set()
     renamed_users = {}
+    # Track modified users to create backups
+    modified_users = set()
+    # Track if any commands were processed
+    any_commands_processed = False
+    
     for user_line in users:
         if '---b' in user_line:
+            any_commands_processed = True
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
             notes = extract_notes_from_line(user_line)
             blocked_users.add(username)
+            modified_users.add(username)
+            details = ""
+            if notes:
+                details = f"[Note: {notes}]"
+            log_user_history(username, "blocked", details)
             if user_data and notes:
                 updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} #{notes}"
             elif user_data:
@@ -285,10 +418,16 @@ def process_user_commands():
                 updated_line = f"{BLOCKED_SYMBOL}{username}"
             updated_users.append(updated_line)
         elif '---ub' in user_line:
+            any_commands_processed = True
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
             notes = extract_notes_from_line(user_line)
             unblocked_users.add(username)
+            modified_users.add(username)
+            details = ""
+            if notes:
+                details = f"[Note: {notes}]"
+            log_user_history(username, "unblocked", details)
             if user_data and notes:
                 updated_line = f"{username} {user_data} #{notes}"
             elif user_data:
@@ -299,13 +438,23 @@ def process_user_commands():
                 updated_line = username
             updated_users.append(updated_line)
         elif '---d' in user_line:
+            any_commands_processed = True
             username = extract_username_from_line(user_line)
             deleted_users.add(username)
+            log_user_history(username, "removed", "User deleted")
         elif '---m' in user_line:
+            any_commands_processed = True
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
             notes = extract_notes_from_line(user_line)
             new_users.add(username)
+            details = user_data if user_data else ""
+            if notes:
+                if details:
+                    details = f"{details} [Note: {notes}]"
+                else:
+                    details = f"[Note: {notes}]"
+            log_user_history(username, "added", details)
             if create_subscription_file(username):
                 if user_data and notes:
                     updated_line = f"{username} {user_data} #{notes}"
@@ -327,6 +476,7 @@ def process_user_commands():
                     updated_line = username
                 updated_users.append(updated_line)
         elif '---r' in user_line:
+            any_commands_processed = True
             old_username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
             notes = extract_notes_from_line(user_line)
@@ -336,6 +486,9 @@ def process_user_commands():
             new_username = command_part.strip().split()[0] if command_part.strip() else ''
             if new_username and new_username != old_username:
                 renamed_users[old_username] = new_username
+                modified_users.add(old_username)
+                # Will backup the new username after processing
+                log_user_history(old_username, "renamed", f"to {new_username}")
                 symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
                 if user_data and notes:
                     updated_line = f"{symbol}{new_username} {user_data} #{notes}"
@@ -350,8 +503,10 @@ def process_user_commands():
             else:
                 updated_users.append(user_line)
         elif '---es' in user_line:
+            any_commands_processed = True
             username = extract_username_from_line(user_line)
             notes = extract_notes_from_line(user_line)
+            modified_users.add(username)
             parts = user_line.split('---es')
             if len(parts) > 1:
                 time_part = parts[1]
@@ -370,6 +525,7 @@ def process_user_commands():
                 target_datetime = parse_relative_datetime(time_part)
                 if target_datetime:
                     formatted_expiry = format_expiry_datetime(target_datetime)
+                    log_user_history(username, "expiry_set", f"{formatted_expiry}")
                     symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
                     if existing_data and notes:
                         updated_line = f"{symbol}{username} {formatted_expiry} {existing_data} #{notes}"
@@ -386,7 +542,25 @@ def process_user_commands():
                 updated_users.append(user_line)
         else:
             updated_users.append(user_line)
+    
+    # after processing all commands
+    # Save new state after command processing
+    save_user_state(updated_users)
+    
+    # Create a backup if any commands were processed
+    if any_commands_processed:
+        backup_user_list()
+    
     save_user_list(updated_users)
+    
+    # Create individual backups for each modified user
+    for username in modified_users:
+        backup_user(username)
+    
+    # Also backup new usernames from renamed users
+    for old_username, new_username in renamed_users.items():
+        backup_user(new_username)
+    
     for old_name, new_name in renamed_users.items():
         existing_blocked = get_blocked_users()
         if old_name in existing_blocked:
@@ -422,11 +596,14 @@ def check_expired_users():
         is_expired, expiry_time = check_expiry_datetime(user_line)
         if is_expired and not user_line.startswith(BLOCKED_SYMBOL):
             expired_users.append(username)
+            log_user_history(username, "expired", expiry_time.strftime("%Y-%m-%d %H:%M") if expiry_time else "")
             updated_line = f"{BLOCKED_SYMBOL}{user_line}"
             updated_users.append(updated_line)
         else:
             updated_users.append(user_line)
     if expired_users:
+        # Create a backup when users expire
+        backup_user_list()
         save_user_list(updated_users)
         existing_blocked = get_blocked_users()
         all_blocked = existing_blocked.union(set(expired_users))
@@ -493,14 +670,18 @@ def extract_server_config(server_line):
 NON_WORKING_FILE = 'non_working.txt'
 MAIN_FILE = 'servers.txt'
 HISTORY_FILE = 'server_history.txt'
+USER_HISTORY_FILE = 'user_history.txt'
 QUARANTINE_DAYS = 3
+USER_HISTORY_DAYS = 7  # Keep user history for 7 days
+BACKUP_DAYS = 7  # Keep backups for 7 days
+SERVER_HISTORY_DAYS = 7  # Keep server history for 7 days
 # Timeout (seconds) for TCP health-check
 VALIDATION_TIMEOUT = 3
 
 # Fast-run flag: when set, the script skips heavy maintenance (health-checks, flag decoration, etc.)
 FAST_RUN = os.getenv("FAST_RUN", "0") == "1"
 
-def log_history(server, action, max_entries=1000):
+def log_history(server, action):
     iran_time = get_iran_time()
     now = iran_time.strftime("%Y-%m-%d %H:%M")
     new_entry = f"{server} | {action} | {now}\n"
@@ -508,11 +689,88 @@ def log_history(server, action, max_entries=1000):
     if os.path.exists(HISTORY_FILE):
         with open(HISTORY_FILE, 'r', encoding='utf-8') as f:
             existing_lines = f.readlines()
-    if len(existing_lines) >= max_entries:
-        existing_lines = existing_lines[:max_entries-1]
+    
+    # Filter entries older than SERVER_HISTORY_DAYS days
+    if existing_lines:
+        filtered_lines = []
+        cutoff_date = iran_time - datetime.timedelta(days=SERVER_HISTORY_DAYS)
+        cutoff_str = cutoff_date.strftime("%Y-%m-%d")
+        
+        for line in existing_lines:
+            try:
+                parts = line.strip().split(' | ')
+                if len(parts) >= 3:
+                    entry_date = parts[2].split()[0]  # Get just the date part
+                    if entry_date >= cutoff_str:
+                        filtered_lines.append(line)
+            except:
+                # Keep line if we can't parse the date
+                filtered_lines.append(line)
+                
+        existing_lines = filtered_lines
+        
     with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
-        f.write(new_entry)
-        f.writelines(existing_lines)
+        # Write new entry first, followed by existing entries
+        f.write(new_entry + ''.join(existing_lines))
+
+def log_user_history(username, action, details="", max_days=USER_HISTORY_DAYS):
+    """
+    Log user-related actions with newest entries at the top
+    Actions: added, removed, blocked, unblocked, renamed, expiry_set, expired
+    """
+    # Check if this user has notes in the user list
+    notes = ""
+    users = load_user_list()
+    for line in users:
+        if username == extract_username_from_line(line):
+            line_notes = extract_notes_from_line(line)
+            if line_notes:
+                notes = f"[Note: {line_notes}]"
+                break
+
+    # Append notes to details if available
+    if notes and details:
+        details = f"{details} {notes}"
+    elif notes:
+        details = notes
+
+    iran_time = get_iran_time()
+    now = iran_time.strftime("%Y-%m-%d %H:%M")
+    new_entry = f"{username} | {action} | {details} | {now}\n\n"
+    
+    # Read existing entries
+    existing_lines = []
+    if os.path.exists(USER_HISTORY_FILE):
+        with open(USER_HISTORY_FILE, 'r', encoding='utf-8') as f:
+            content = f.read()
+            # Split by double newlines (empty line between entries)
+            entries = content.split('\n\n')
+            # Filter out empty entries
+            existing_lines = [entry + '\n\n' for entry in entries if entry.strip()]
+    
+    # Remove entries older than max_days
+    if existing_lines:
+        filtered_lines = []
+        cutoff_date = iran_time - datetime.timedelta(days=max_days)
+        cutoff_str = cutoff_date.strftime("%Y-%m-%d")
+        
+        for line in existing_lines:
+            try:
+                entry = line.strip()
+                parts = entry.split(' | ')
+                if len(parts) >= 4:
+                    entry_date = parts[3].split()[0]  # Get just the date part
+                    if entry_date >= cutoff_str:
+                        filtered_lines.append(line)
+            except:
+                # Keep line if we can't parse the date
+                filtered_lines.append(line)
+                
+        existing_lines = filtered_lines
+    
+    # Write the log with new entry at the top
+    with open(USER_HISTORY_FILE, 'w', encoding='utf-8') as f:
+        f.write(new_entry + ''.join(existing_lines).rstrip('\n') + '\n')
 
 # === REMOVE DUPLICATES WITH LOGGING ===
 
@@ -586,7 +844,8 @@ def move_server_to_non_working(server_line):
     entry = f"{server_line} | {now_str}"
     non_working = load_non_working()
     if not any(server_line in line for line in non_working):
-        non_working.append(entry)
+        # Add new non-working servers to the top of the list
+        non_working.insert(0, entry)
         save_non_working(non_working)
         log_history(server_line, "moved_to_non_working")
 
@@ -688,8 +947,106 @@ def get_fake_servers():
 def distribute_servers(servers, username):
     return servers
 
+# === User List Backup Functions ===
+
+def backup_user_list():
+    """Create a dated backup of user_list.txt in a backups folder"""
+    if not os.path.exists(USER_LIST_FILE):
+        return False
+    
+    # Create backups directory if it doesn't exist
+    backup_dir = Path('backups')
+    backup_dir.mkdir(exist_ok=True)
+    
+    # Generate backup filename with timestamp
+    iran_time = get_iran_time()
+    timestamp = iran_time.strftime("%Y-%m-%d_%H-%M-%S")  # Added seconds for more precise timestamping
+    backup_filename = backup_dir / f"user_list_{timestamp}.txt"
+    
+    try:
+        # Copy the user list to the backup file
+        shutil.copy2(USER_LIST_FILE, backup_filename)
+        
+        # Cleanup old backups (keep those from last BACKUP_DAYS days)
+        backups = list(backup_dir.glob("user_list_*.txt"))
+        cutoff_date = iran_time - datetime.timedelta(days=BACKUP_DAYS)
+        
+        for backup_file in backups:
+            # Extract date from filename
+            try:
+                # Format is user_list_YYYY-MM-DD_HH-MM-SS.txt
+                date_str = backup_file.stem.split('_', 1)[1]  # Get YYYY-MM-DD_HH-MM-SS part
+                date_parts = date_str.split('_')
+                if len(date_parts) >= 2:
+                    date_str = date_parts[0]  # Get YYYY-MM-DD part
+                    file_date = datetime.datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=IRAN_TZ)
+                    if file_date < cutoff_date:
+                        # File is older than BACKUP_DAYS days
+                        backup_file.unlink()
+            except (ValueError, IndexError):
+                # Skip files with invalid naming format
+                continue
+                
+        return True
+    except Exception as e:
+        print(f"⚠️ Backup failed: {str(e)}")
+        return False
+
+def backup_user(username):
+    """Create a backup of a specific user's entry"""
+    if not os.path.exists(USER_LIST_FILE):
+        return False
+    
+    # Load the current user list
+    users = load_user_list()
+    
+    # Find the user's entry
+    user_entry = None
+    for line in users:
+        if extract_username_from_line(line) == username:
+            user_entry = line
+            break
+    
+    if not user_entry:
+        return False
+    
+    # Create user backups directory if it doesn't exist
+    user_backup_dir = Path('backups/users')
+    user_backup_dir.mkdir(exist_ok=True, parents=True)
+    
+    # Create user-specific directory
+    user_dir = user_backup_dir / username
+    user_dir.mkdir(exist_ok=True)
+    
+    # Generate backup filename with timestamp
+    iran_time = get_iran_time()
+    timestamp = iran_time.strftime("%Y-%m-%d_%H-%M")
+    backup_filename = user_dir / f"{username}_{timestamp}.txt"
+    
+    try:
+        # Write the user entry to the backup file
+        with open(backup_filename, 'w', encoding='utf-8') as f:
+            f.write(user_entry)
+        
+        # Cleanup old backups (keep latest 10 per user)
+        backups = sorted(list(user_dir.glob(f"{username}_*.txt")), key=lambda x: x.stat().st_mtime)
+        if len(backups) > 10:  # Keep last 10 backups per user
+            for old_file in backups[:-10]:
+                old_file.unlink()
+                
+        return True
+    except Exception as e:
+        print(f"⚠️ User backup failed for {username}: {str(e)}")
+        return False
+
 def update_all_subscriptions():
     """Main entry-point. Behaviour depends on FAST_RUN flag."""
+
+    # Always make a backup of user_list before starting
+    if os.path.exists(USER_LIST_FILE):
+        backup_user_list()
+        # Detect any manual changes since last run
+        detect_manual_changes()
 
     # Always process user commands & expiry first – they are lightweight
     process_user_commands()
