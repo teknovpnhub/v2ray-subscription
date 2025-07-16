@@ -7,7 +7,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:3
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWU0lRVW4wZGFyZEtWbGQwRmphOVBX@45.144.54.33:34803#Server 122 | 2025-07-16 10:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMaUhRWDljRGJkb29CSGxJZzBlaXFR@45.144.54.33:34803#Server 121 | 2025-07-16 10:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 120 | 2025-07-16 10:54
-vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 135 | 2025-07-16 10:04
 vless://8b883c3f-61ed-4961-90f9-24f1f661b382@91.99.234.241:18730?security=reality&encryption=none&pbk=4i4VmtZlXzsNQwiGYOpxUCH7hygnGM8bVfDOeSd2G2A&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=yahoo.com&sid=877fa74f#Server 112 | 2025-07-16 10:04
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWZGYwUzdxclBBZ09RZ2o4VDdOTklZ@h110vpnch.outlinekeys.net:4248#Server 20 🇨🇭 | 2025-07-16 08:57
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@175.41.157.91:8313#Server 113 🇸🇬 | 2025-07-16 01:52
