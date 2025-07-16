@@ -1,3 +1,22 @@
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 131 | moved_to_non_working | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.238.207.188:8319#Server 130 | moved_to_non_working | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8313#Server 129 | moved_to_non_working | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@43.199.75.50:8316#Server 128 | moved_to_non_working | 2025-07-16 18:55
+vless://74a0ff64-038d-4e18-86e2-3684996bf711@officiallythestateofpalestine.digitall-id.com:8080?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#Server 114 | moved_to_non_working | 2025-07-16 18:55
+vless://12345678-1234-1234-1234-123456789abc@fake.invalid:443?encryption=none&security=tls&type=ws&path=%2F#Test-NonWorking | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPRGhtWQ%3D%3D@pl.opensocks.site:8388#Server 150 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpubFZxSVZ5S3dXb0RzRDdkVllUOVkw@81.19.140.31:65305#Server 146 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyREdxM2p2VlJnNW4zQ2N4bXlzR0sya21yZ0plU05vZjEyQTc2Y1p2VnhxUHBldHlDMVhFY2lDRnVmcTV4S3ZSV0dHbktWZW1icFRodVVTUWhiWjdHTXNaWTRVVnhFQnc%3D@194.87.122.146:44884#Server 136 | removed_after_3_days | 2025-07-16 18:55
+ss://YWVzLTI1Ni1nY206N2JnaWZ1OFVzaUYvUmRHZXNYNXpqVzZrRXFIWUtoc2xHcWFjY2YySHlMQT0%3D@91.99.201.235:80#Server 117 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWVE4SndFbGRZbjRLVDJnZlo2ZU5s@89.23.103.21:51584#Server 106 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPRGhtWQ%3D%3D@91.108.248.10:1443#Server 100 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowenlEUloxWG1OWGFhQ0FON0tFQThh@45.151.62.54:28825#Server 73 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKY1NVWXBnclZNZnRjUVhtOGNqd29mbHFPMm1MRWQwcVlHV1FKUjVucUM0PQ%3D%3D@david.lemoex.blog:8080#Server 64 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmcnNhNURGelJBTllQczV5TWV4c1ZVckM3ZDZOWThwdkJSRm40ZzFXa0Y0UjcxWTVhNkU2cVlwM1N4UDJFYVVoMnlYc0FLYlRBbTdTbUw1cWs1eE1Hb0RSakg1RjhCQlU%3D@old.afoothabs.monster:55330#Server 61 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjOTk0YzI2Yi0zM2I3LTQ4MmItYjczMy1hYzc4OGZmZDQ4ZWQ%3D@vn-01.cloxynode.com:35515#Server 59 | removed_after_3_days | 2025-07-16 18:55
+ss://YWVzLTI1Ni1nY206T205RW9ObnUzRDBpSlMrTlUvQ1dza1N5dUkrd1dSamRKbE02VG82bys5VT0%3D@128.199.231.221:59464#Server 53 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUalR4Z0JGVEdIckhTNngyUlZKbVZOM3dQY28xZ2NKYVI0aG5vZkxCdDlnR0E5a0c3MjRUQ0FBUmZWeEJLQTFmRXE1bUt0cWk2OHVnTUw4WFZmUDE2RVU0RXRjdGZBNUU%3D@old.afoothabs.monster:55330#Server 44 | removed_after_3_days | 2025-07-16 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPRGhtWQ%3D%3D@91.108.248.10:8388#Server 27 🇵🇱 | removed_after_3_days | 2025-07-16 18:55
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.238.207.188:8313#Server 130 | moved_to_non_working | 2025-07-16 17:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNakpoWQ%3D%3D@uk.opensocks.site:8388#Server 20 🇬🇧 | recovered_to_main | 2025-07-16 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNakpoWQ%3D%3D@uk.opensocks.site:8388#Server 20 🇬🇧 | moved_to_main | 2025-07-16 17:50
