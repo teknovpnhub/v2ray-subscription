@@ -1,14 +1,7 @@
-vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 131 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 120 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMaUhRWDljRGJkb29CSGxJZzBlaXFR@45.144.54.33:34803#Server 119 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWU0lRVW4wZGFyZEtWbGQwRmphOVBX@45.144.54.33:34803#Server 118 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 117 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxeVk3bGhid3RTU0c5eFU1bDk2TXR3@45.144.54.33:34803#Server 116 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXJrcXU5OTVQcFZjR2h0ejZ2U3Y1@45.144.54.33:34803#Server 115 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 114 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnSXByaFVETnJUT29hM3Ewa3dNQVYy@45.144.54.33:34803#Server 113 🇩🇪 | 2025-07-16 22:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 114 🇩🇪 | 2025-07-16 23:55
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 131 | 2025-07-16 23:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 107 | 2025-07-16 23:55
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUS1U1N1NsN3EyQVNpRjVwSTBIbGwy@45.144.54.33:34803#Server 112 🇩🇪 | 2025-07-16 22:49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 127 | 2025-07-16 22:03
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 123 | 2025-07-16 22:03
 vless://96479a22-9333-4b03-9912-4dd26acef75e@104.22.24.195:443?path=%2F9EkfcCDedhvB19xj%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=nextfilmtomovies.site&fp=randomized&type=ws&sni=NExtfilmtOmovies.sitE#Server 3 🇨🇦 | 2025-07-16 22:03
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2SVZPdXpNZkg1Uk9wZ3d0UlRjTkpLWUp2WWU5RkRWYVU3d0FZWWg4UFJMeHhaczY%3D@188.191.147.127:31348#Server 113 | 2025-07-16 20:52
