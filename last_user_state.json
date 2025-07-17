@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "mojallal",
     "yusefi1",
     "yusefi",
     "salmanzade",
@@ -89,6 +90,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "mojallal": "mojallal #404.4.22",
     "yusefi1": "yusefi1 #404.4.26",
     "yusefi": "yusefi #404.4.26",
     "salmanzade": "salmanzade #404.4.26",
@@ -106,7 +108,6 @@
     "s.ebadi": "s.ebadi #404.4.23",
     "hatami": "hatami #404.4.16",
     "a.najati": "a.najati #404.4.23",
-    "mojallal": "mojallal #404.4.22",
     "parsa": "parsa #404.4.22",
     "ansarifard": "ansarifard #404.4.22",
     "sabri": "sabri #404.4.22",
@@ -176,5 +177,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-07-17 18:55"
+  "timestamp": "2025-07-17 19:31"
 }
