@@ -177,6 +177,13 @@ def detect_manual_changes():
     for username in manual_modified_users:
         backup_user(username)
     
+    # Move manually modified users to the top of the list
+    if manual_modified_users:
+        final_users = current_users.copy()
+        for username in manual_modified_users:
+            final_users = move_user_to_top(final_users, username)
+        save_user_list(final_users)
+    
     # Save new state for next comparison
     save_user_state(current_users)
 
@@ -329,26 +336,57 @@ def check_expiry_datetime(user_line):
                 continue
     return False, None
 
+def generate_unique_username(base_username):
+    """
+    Generate a unique username by adding a numeric suffix if needed.
+    For example, if 'ahmad' exists, it will try 'ahmad1', 'ahmad2', etc.
+    """
+    users = load_user_list()
+    existing_usernames = [extract_username_from_line(user) for user in users]
+    
+    # Check if the base username is already unique
+    if base_username not in existing_usernames:
+        return base_username
+    
+    # Try adding numeric suffixes until we find a unique username
+    counter = 1
+    while True:
+        new_username = f"{base_username}{counter}"
+        if new_username not in existing_usernames:
+            return new_username
+        counter += 1
+
 def add_user_to_list(username, user_data=''):
     users = load_user_list()
     existing_usernames = [extract_username_from_line(user) for user in users]
-    if username not in existing_usernames:
-        new_entry = f"{username} {user_data}" if user_data else username
-        users.insert(0, new_entry)
-        # Create a full backup when adding a new user
-        backup_user_list()
-        save_user_list(users)
-        # Create individual backup for this new user
-        backup_user(username)
-        print(f"📝 Added new user: {new_entry}")
-        
-        # Pass user_data directly to log_user_history
-        # The log_user_history function will handle formatting notes correctly
-        log_user_history(username, "added", user_data)
-        return True
-    else:
-        print(f"⚠️  User already exists: {username}")
-        return False
+    
+    original_username = username
+    # If username already exists, generate a unique one
+    if username in existing_usernames:
+        username = generate_unique_username(username)
+        # Log that the username was automatically changed
+        log_user_history(username, "auto_renamed", f"Automatically renamed from {original_username} due to duplicate")
+        print(f"⚠️ Username {original_username} already exists, using {username} instead")
+    
+    new_entry = f"{username} {user_data}" if user_data else username
+    # Add the new user to the list
+    users.append(new_entry)
+    # Move the new user to the top
+    users = move_user_to_top(users, username)
+    # Create a full backup when adding a new user
+    backup_user_list()
+    save_user_list(users)
+    # Create individual backup for this new user
+    backup_user(username)
+    print(f"📝 Added new user: {new_entry}")
+    
+    # Create subscription file for the user
+    create_subscription_file(username)
+    
+    # Pass user_data directly to log_user_history
+    # The log_user_history function will handle formatting notes correctly
+    log_user_history(username, "added", user_data)
+    return True
 
 def create_subscription_file(username):
     subscription_dir = 'subscriptions'
@@ -368,14 +406,41 @@ def rename_subscription_file(old_username, new_username):
     subscription_dir = 'subscriptions'
     old_file = os.path.join(subscription_dir, f"{old_username}.txt")
     new_file = os.path.join(subscription_dir, f"{new_username}.txt")
+    
     if os.path.exists(old_file):
-        if not os.path.exists(new_file):
-            os.rename(old_file, new_file)
-            print(f"📄 Renamed subscription file: {old_username}.txt → {new_username}.txt")
-        else:
-            print(f"⚠️ Cannot rename: {new_username}.txt already exists")
+        # If the new file already exists, generate a unique username
+        if os.path.exists(new_file):
+            original_new_username = new_username
+            new_username = generate_unique_username(new_username)
+            new_file = os.path.join(subscription_dir, f"{new_username}.txt")
+            print(f"⚠️ Subscription file {original_new_username}.txt already exists, using {new_username}.txt instead")
+            log_user_history(new_username, "auto_renamed", f"Automatically renamed from {original_new_username} due to duplicate subscription file")
+            
+        os.rename(old_file, new_file)
+        print(f"📄 Renamed subscription file: {old_username}.txt → {new_username}.txt")
+        return new_username  # Return the potentially modified username
     else:
         print(f"⚠️ Subscription file not found: {old_username}.txt")
+        return new_username  # Return the original username
+
+def move_user_to_top(users, username):
+    """Move a user to the top of the user list."""
+    user_line = None
+    remaining_users = []
+    
+    # Find the user's line and collect all other users
+    for line in users:
+        if extract_username_from_line(line) == username:
+            user_line = line
+        else:
+            remaining_users.append(line)
+    
+    # If user was found, add them to the top
+    if user_line:
+        return [user_line] + remaining_users
+    
+    # If user wasn't found, return original list
+    return users
 
 def process_user_commands():
     users = load_user_list()
@@ -389,6 +454,8 @@ def process_user_commands():
     modified_users = set()
     # Track if any commands were processed
     any_commands_processed = False
+    # Track users that need to be moved to the top
+    users_to_top = set()
     
     for user_line in users:
         if '---b' in user_line:
@@ -398,6 +465,7 @@ def process_user_commands():
             notes = extract_notes_from_line(user_line)
             blocked_users.add(username)
             modified_users.add(username)
+            users_to_top.add(username)  # Move to top when blocked
             details = ""
             # Let log_user_history handle adding the note
             log_user_history(username, "blocked", details)
@@ -417,6 +485,7 @@ def process_user_commands():
             notes = extract_notes_from_line(user_line)
             unblocked_users.add(username)
             modified_users.add(username)
+            users_to_top.add(username)  # Move to top when unblocked
             details = ""
             # Let log_user_history handle adding the note
             log_user_history(username, "unblocked", details)
@@ -439,30 +508,36 @@ def process_user_commands():
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
             notes = extract_notes_from_line(user_line)
+            
+            # Check if username already exists and generate a unique one if needed
+            original_username = username
+            existing_usernames = [extract_username_from_line(u) for u in users]
+            if username in [extract_username_from_line(u) for u in updated_users] or username in existing_usernames:
+                username = generate_unique_username(username)
+                log_user_history(username, "auto_renamed", f"Automatically renamed from {original_username} due to duplicate")
+                print(f"⚠️ Username {original_username} already exists, using {username} instead")
+            
             new_users.add(username)
             details = user_data if user_data else ""
             # Let log_user_history handle adding the note
             log_user_history(username, "added", details)
-            if create_subscription_file(username):
-                if user_data and notes:
-                    updated_line = f"{username} {user_data} #{notes}"
-                elif user_data:
-                    updated_line = f"{username} {user_data}"
-                elif notes:
-                    updated_line = f"{username} #{notes}"
-                else:
-                    updated_line = username
-                updated_users.append(updated_line)
+            
+            # Create subscription file
+            create_subscription_file(username)
+            
+            # Add user to updated_users list
+            if user_data and notes:
+                updated_line = f"{username} {user_data} #{notes}"
+            elif user_data:
+                updated_line = f"{username} {user_data}"
+            elif notes:
+                updated_line = f"{username} #{notes}"
             else:
-                if user_data and notes:
-                    updated_line = f"{username} {user_data} #{notes}"
-                elif user_data:
-                    updated_line = f"{username} {user_data}"
-                elif notes:
-                    updated_line = f"{username} #{notes}"
-                else:
-                    updated_line = username
-                updated_users.append(updated_line)
+                updated_line = username
+            updated_users.append(updated_line)
+            
+            # Add to users_to_top to ensure it's moved to the top
+            users_to_top.add(username)
         elif '---r' in user_line:
             any_commands_processed = True
             old_username = extract_username_from_line(user_line)
@@ -475,9 +550,20 @@ def process_user_commands():
             if new_username and new_username != old_username:
                 renamed_users[old_username] = new_username
                 modified_users.add(old_username)
+                users_to_top.add(new_username)  # Move to top when renamed
                 # Will backup the new username after processing
                 log_user_history(old_username, "renamed", f"to {new_username}")
                 symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
+                
+                # Rename subscription file - this might return a different username if there's a conflict
+                actual_new_username = rename_subscription_file(old_username, new_username)
+                
+                # If the username was changed due to a conflict, update our tracking
+                if actual_new_username != new_username:
+                    new_username = actual_new_username
+                    renamed_users[old_username] = new_username
+                    users_to_top.add(new_username)
+                
                 if user_data and notes:
                     updated_line = f"{symbol}{new_username} {user_data} #{notes}"
                 elif user_data:
@@ -487,7 +573,6 @@ def process_user_commands():
                 else:
                     updated_line = f"{symbol}{new_username}"
                 updated_users.append(updated_line)
-                rename_subscription_file(old_username, new_username)
             else:
                 updated_users.append(user_line)
         elif '---es' in user_line:
@@ -495,6 +580,7 @@ def process_user_commands():
             username = extract_username_from_line(user_line)
             notes = extract_notes_from_line(user_line)
             modified_users.add(username)
+            users_to_top.add(username)  # Move to top when expiry is set
             parts = user_line.split('---es')
             if len(parts) > 1:
                 time_part = parts[1]
@@ -531,15 +617,22 @@ def process_user_commands():
         else:
             updated_users.append(user_line)
     
+    # Move modified users to the top (in reverse order to maintain priority)
+    # We process in reverse order so that the first user to be moved to the top
+    # will end up at the very top
+    final_users = updated_users.copy()
+    for username in users_to_top:
+        final_users = move_user_to_top(final_users, username)
+    
     # after processing all commands
     # Save new state after command processing
-    save_user_state(updated_users)
+    save_user_state(final_users)
     
     # Create a backup if any commands were processed
     if any_commands_processed:
         backup_user_list()
     
-    save_user_list(updated_users)
+    save_user_list(final_users)
     
     # Create individual backups for each modified user
     for username in modified_users:
@@ -590,9 +683,14 @@ def check_expired_users():
         else:
             updated_users.append(user_line)
     if expired_users:
+        # Move expired users to the top
+        final_users = updated_users.copy()
+        for username in expired_users:
+            final_users = move_user_to_top(final_users, username)
+        
         # Create a backup when users expire
         backup_user_list()
-        save_user_list(updated_users)
+        save_user_list(final_users)
         existing_blocked = get_blocked_users()
         all_blocked = existing_blocked.union(set(expired_users))
         with open('blocked_users.txt', 'w', encoding='utf-8') as f:
@@ -610,6 +708,8 @@ def discover_new_subscriptions():
         username = filename[:-4]
         if username not in existing_usernames:
             add_user_to_list(username)
+        # If the filename already exists as a username, we don't need to do anything
+        # The add_user_to_list function will handle generating a unique username if needed
 
 def normalize_vmess_url(server_line):
     try:
