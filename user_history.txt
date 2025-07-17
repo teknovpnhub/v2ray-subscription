@@ -1,3 +1,7 @@
+b11 | removed | User deleted [Note: 404.4.26] | 2025-07-17 20:02
+
+b11 | manual_delete | User manually removed [Note: 404.4.26] | 2025-07-17 20:02
+
 b11 | added |  | 2025-07-17 20:01
 
 b11 | auto_renamed | Automatically renamed from b1 due to duplicate | 2025-07-17 20:01
