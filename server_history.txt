@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 130 | moved_to_non_working | 2025-07-17 12:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2cXNVaVQ2ZmJWOEp6aFhieUNoeWYw@23.177.185.63:49454#Server 107 | moved_to_non_working | 2025-07-17 12:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMN2Q3WktOVFVEellOcGdIVGdKZlJO@23.177.185.63:49454#Server 101 | moved_to_non_working | 2025-07-17 12:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dUhDZklkSEE2YkFxYWt5RjFpdEwx@23.177.185.63:49454#Server 95 | moved_to_non_working | 2025-07-17 12:57
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 117 🇩🇪 | recovered_to_main | 2025-07-17 08:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppVHR5Q2FtNHFRcDZQMUV6aGt2YzFW@94.159.96.245:11902#Server 117 🇩🇪 | moved_to_main | 2025-07-17 08:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 129 🇩🇪 | recovered_to_main | 2025-07-17 08:56
