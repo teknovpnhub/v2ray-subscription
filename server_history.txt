@@ -1,3 +1,8 @@
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 130 🇮🇷 | moved_to_non_working | 2025-07-17 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dUhDZklkSEE2YkFxYWt5RjFpdEwx@23.177.185.63:49454#Server 129 | moved_to_non_working | 2025-07-17 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2cXNVaVQ2ZmJWOEp6aFhieUNoeWYw@23.177.185.63:49454#Server 127 | moved_to_non_working | 2025-07-17 14:50
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 130 🇮🇷 | recovered_to_main | 2025-07-17 14:49
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 130 🇮🇷 | moved_to_main | 2025-07-17 14:49
 vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 130 🇮🇷 | moved_to_non_working | 2025-07-17 13:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMlVHYWQ2MUZHTzU%3D@194.87.31.68:443#Server 101 | moved_to_non_working | 2025-07-17 13:56
 vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 130 🇮🇷 | recovered_to_main | 2025-07-17 13:55
