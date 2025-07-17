@@ -1,3 +1,7 @@
+b1 | removed | User deleted | 2025-07-17 19:54
+
+b1 | manual_delete | User manually removed | 2025-07-17 19:54
+
 b1 | added |  | 2025-07-17 19:53
 
 b1 | auto_renamed | Automatically renamed from b due to duplicate | 2025-07-17 19:53
