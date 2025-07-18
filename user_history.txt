@@ -1,3 +1,7 @@
+b1 | removed | User deleted | 2025-07-18 05:43
+
+b1 | manual_delete | User manually removed | 2025-07-18 05:43
+
 b1 | manual_add | Line: b1 | 2025-07-17 21:01
 
 b1 | added |  | 2025-07-17 20:50
