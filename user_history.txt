@@ -1,3 +1,5 @@
+vahid1 | manual_delete | User manually removed | 2025-07-19 12:33
+
 vahid1 | added |  | 2025-07-19 12:30
 
 vahid1 | auto_renamed | Automatically renamed from vahid due to duplicate | 2025-07-19 12:30
