@@ -364,12 +364,22 @@ def generate_unique_username(base_username):
 
 def add_user_to_list(username, user_data=''):
     users = load_user_list()
+    # Extract just the usernames for comparison
     existing_usernames = [extract_username_from_line(user) for user in users]
     
+    # Debug print to help identify the issue
+    print(f"Adding user via add_user_to_list: {username}")
+    print(f"Existing usernames: {existing_usernames}")
+    
     original_username = username
+    # Clean the username from any notes or commands before comparison
+    clean_username = username.split('#')[0].strip() if '#' in username else username
+    clean_username = clean_username.split('---')[0].strip() if '---' in clean_username else clean_username
+    clean_username = clean_username.split()[0] if ' ' in clean_username else clean_username
+    
     # If username already exists, generate a unique one
-    if username in existing_usernames:
-        username = generate_unique_username(username)
+    if clean_username in existing_usernames:
+        username = generate_unique_username(clean_username)
         # Log that the username was automatically changed
         log_user_history(username, "auto_renamed", f"Automatically renamed from {original_username} due to duplicate")
         print(f"⚠️ Username {original_username} already exists, using {username} instead")
@@ -517,8 +527,13 @@ def process_user_commands():
             
             # Check if username already exists and generate a unique one if needed
             original_username = username
+            # Get only the actual usernames without any notes or data
             existing_usernames = [extract_username_from_line(u) for u in users]
             existing_updated_usernames = [extract_username_from_line(u) for u in updated_users]
+            
+            # Debug print to help identify the issue
+            print(f"Adding user: {username}")
+            print(f"Existing usernames: {existing_usernames}")
             
             if username in existing_updated_usernames or username in existing_usernames:
                 username = generate_unique_username(username)
@@ -711,7 +726,13 @@ def discover_new_subscriptions():
         return
     subscription_files = [f for f in os.listdir(subscription_dir) if f.endswith('.txt')]
     existing_users = load_user_list()
+    # Extract just the usernames for comparison
     existing_usernames = [extract_username_from_line(user) for user in existing_users]
+    
+    # Debug print
+    print(f"Discovering new subscriptions")
+    print(f"Subscription files: {subscription_files}")
+    print(f"Existing usernames: {existing_usernames}")
     
     for filename in subscription_files:
         base_username = filename[:-4]  # Remove .txt extension
@@ -719,7 +740,10 @@ def discover_new_subscriptions():
         # Check if this username already exists in the user list
         if base_username not in existing_usernames:
             # Username doesn't exist, add it normally
+            print(f"Adding new subscription: {base_username}")
             add_user_to_list(base_username)
+        else:
+            print(f"Subscription {base_username} already exists, skipping")
         # If the username already exists, we don't need to do anything
         # The add_user_to_list function handles generating unique usernames if needed
 
