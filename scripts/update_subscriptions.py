@@ -691,6 +691,100 @@ def process_user_commands():
         if os.path.exists(sub_file):
             os.remove(sub_file)
 
+# === BLOCKED USERS FILE COMMANDS ===
+
+def process_blocked_users_commands():
+    """Allow admin to put command flags (---ub / ---b) inside blocked_users.txt.
+    The function will read blocked_users.txt, process any directives, sync changes
+    back to user_list.txt, and rewrite blocked_users.txt without the flags.
+    """
+    blocked_file = 'blocked_users.txt'
+    if not os.path.exists(blocked_file):
+        return  # nothing to do
+
+    with open(blocked_file, 'r', encoding='utf-8') as f:
+        raw_lines = [ln.strip() for ln in f if ln.strip()]
+
+    if not raw_lines:
+        return
+
+    to_block = set()
+    to_unblock = set()
+    keep_plain = []  # lines to keep as-is (no command flags)
+    commands_found = False
+
+    for line in raw_lines:
+        if '---ub' in line:
+            username = extract_username_from_line(line)
+            if username:
+                to_unblock.add(username)
+                commands_found = True
+        elif '---b' in line:
+            username = extract_username_from_line(line)
+            if username:
+                to_block.add(username)
+                commands_found = True
+        else:
+            keep_plain.append(line)
+
+    if not commands_found:
+        return  # nothing to do
+
+    # Load current users list
+    users = load_user_list()
+    updated_users = []
+    modified_users = set()
+
+    existing_usernames = [extract_username_from_line(u) for u in users]
+
+    for user_line in users:
+        uname = extract_username_from_line(user_line)
+        if uname in to_unblock:
+            # Remove block symbol if present
+            clean_line = user_line.lstrip(BLOCKED_SYMBOL).lstrip()
+            updated_users.append(clean_line)
+            modified_users.add(uname)
+            log_user_history(uname, "unblocked", "via blocked_users.txt")
+        elif uname in to_block:
+            # Ensure blocked symbol present
+            if not user_line.startswith(BLOCKED_SYMBOL):
+                blocked_line = f"{BLOCKED_SYMBOL}{user_line}"
+            else:
+                blocked_line = user_line
+            updated_users.append(blocked_line)
+            modified_users.add(uname)
+            log_user_history(uname, "blocked", "via blocked_users.txt")
+        else:
+            updated_users.append(user_line)
+
+    # Add new blocked entries which were not in user_list
+    for uname in to_block:
+        if uname not in existing_usernames:
+            updated_users.append(f"{BLOCKED_SYMBOL}{uname}")
+            modified_users.add(uname)
+            log_user_history(uname, "blocked", "via blocked_users.txt (new user)")
+
+    # Move modified users to top for visibility
+    final_users = updated_users.copy()
+    for uname in modified_users:
+        final_users = move_user_to_top(final_users, uname)
+
+    # Persist changes
+    save_user_state(final_users)  # update state snapshot
+    backup_user_list()
+    for uname in modified_users:
+        backup_user(uname)
+    save_user_list(final_users)
+
+    # Re-write blocked_users.txt without any command flags
+    new_block_set = set(keep_plain)
+    new_block_set.update(to_block)
+    new_block_set.difference_update(to_unblock)
+
+    with open(blocked_file, 'w', encoding='utf-8') as f:
+        for uname in sorted(new_block_set):
+            f.write(f"{uname}\n")
+
 def check_expired_users():
     users = load_user_list()
     updated_users = []
@@ -1205,6 +1299,8 @@ def update_all_subscriptions():
 
     # Always process user commands & expiry first – they are lightweight
     process_user_commands()
+    # Process any commands written directly inside blocked_users.txt
+    process_blocked_users_commands()
     check_expired_users()
 
     if not FAST_RUN:
