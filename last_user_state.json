@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "test1",
     "m.mafi",
     "karimi",
     "vahid",
@@ -86,13 +87,13 @@
     "sahrayi",
     "khodaverdizade",
     "hadizade",
-    "test1",
     "c",
     "hadi.nariman",
     "mm",
     "vahid.behruz"
   ],
   "lines": {
+    "test1": "🚫test1",
     "m.mafi": "m.mafi #404.4.28",
     "karimi": "karimi #404.4.28",
     "vahid": "vahid",
@@ -177,11 +178,10 @@
     "sahrayi": "sahrayi #404.4.16",
     "khodaverdizade": "khodaverdizade #404.4.16",
     "hadizade": "hadizade #404.4.16",
-    "test1": "test1",
     "c": "c",
     "hadi.nariman": "🚫hadi.nariman",
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-07-19 19:06"
+  "timestamp": "2025-07-19 19:09"
 }

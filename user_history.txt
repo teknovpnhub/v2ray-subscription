@@ -1,3 +1,7 @@
+test1 | blocked |  | 2025-07-19 19:09
+
+test1 | manual_delete | User manually removed | 2025-07-19 19:09
+
 blopper | removed | User deleted [Note: 404.4.23] | 2025-07-19 19:02
 
 blopper | manual_delete | User manually removed [Note: 404.4.23] | 2025-07-19 19:02
