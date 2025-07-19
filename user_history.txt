@@ -1,3 +1,7 @@
+b | removed | User deleted [Note: 404.4.26] | 2025-07-19 13:06
+
+b | manual_delete | User manually removed [Note: 404.4.26] | 2025-07-19 13:06
+
 karimi1 | renamed | to karimi [Note: 404.4.28] | 2025-07-19 12:55
 
 karimi1 | manual_delete | User manually removed [Note: 404.4.28] | 2025-07-19 12:55
