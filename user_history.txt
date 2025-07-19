@@ -1,3 +1,7 @@
+blopper1 | removed | User deleted | 2025-07-19 13:47
+
+blopper1 | manual_delete | User manually removed | 2025-07-19 13:47
+
 blopper1 | added |  | 2025-07-19 13:47
 
 blopper1 | auto_renamed | Automatically renamed from blopper due to duplicate | 2025-07-19 13:47
