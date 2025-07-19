@@ -682,8 +682,10 @@ def process_user_commands():
         all_blocked = all_blocked - unblocked_users
     if deleted_users:
         all_blocked = all_blocked - deleted_users
+    # Write blocked list so that freshly blocked users appear first
+    ordered_blocked = list(blocked_users) + [u for u in all_blocked if u not in blocked_users]
     with open('blocked_users.txt', 'w', encoding='utf-8') as f:
-        for user in all_blocked:
+        for user in ordered_blocked:
             f.write(f"{user}\n")
     subscription_dir = 'subscriptions'
     for username in deleted_users:
@@ -776,13 +778,10 @@ def process_blocked_users_commands():
         backup_user(uname)
     save_user_list(final_users)
 
-    # Re-write blocked_users.txt without any command flags
-    new_block_set = set(keep_plain)
-    new_block_set.update(to_block)
-    new_block_set.difference_update(to_unblock)
-
+    # Re-write blocked_users.txt putting freshly blocked usernames at the top
+    new_block_list = list(to_block) + [ln for ln in keep_plain if ln not in to_block and ln not in to_unblock]
     with open(blocked_file, 'w', encoding='utf-8') as f:
-        for uname in sorted(new_block_set):
+        for uname in new_block_list:
             f.write(f"{uname}\n")
 
 def check_expired_users():
