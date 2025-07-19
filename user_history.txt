@@ -1,3 +1,5 @@
+test1 | blocked | via blocked_users.txt | 2025-07-19 19:49
+
 test1 | blocked |  | 2025-07-19 19:48
 
 test1 | manual_delete | User manually removed | 2025-07-19 19:48
