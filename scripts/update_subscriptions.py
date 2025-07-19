@@ -527,8 +527,8 @@ def process_user_commands():
             
             # Check if username already exists and generate a unique one if needed
             original_username = username
-            # Get only the actual usernames without any notes or data
-            existing_usernames = [extract_username_from_line(u) for u in users]
+            # Exclude the current line from duplicate check to avoid false positives
+            existing_usernames = [extract_username_from_line(u) for u in users if u is not user_line]
             existing_updated_usernames = [extract_username_from_line(u) for u in updated_users]
             
             # Debug print to help identify the issue
