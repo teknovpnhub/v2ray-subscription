@@ -710,24 +710,26 @@ def process_blocked_users_commands():
     if not raw_lines:
         return
 
-    to_block = set()
-    to_unblock = set()
-    keep_plain = []  # lines to keep as-is (no command flags)
+    to_block = {}
+    to_unblock = {}
+    keep_plain = []  # lines to keep as-is (no command flags, already cleaned)
     commands_found = False
 
     for line in raw_lines:
         if '---ub' in line:
             username = extract_username_from_line(line)
+            note = extract_notes_from_line(line)
             if username:
-                to_unblock.add(username)
+                to_unblock[username] = note
                 commands_found = True
         elif '---b' in line:
             username = extract_username_from_line(line)
+            note = extract_notes_from_line(line)
             if username:
-                to_block.add(username)
+                to_block[username] = note
                 commands_found = True
         else:
-            keep_plain.append(line)
+            keep_plain.append(line)  # keep full line (could contain note)
 
     if not commands_found:
         return  # nothing to do
@@ -742,17 +744,31 @@ def process_blocked_users_commands():
     for user_line in users:
         uname = extract_username_from_line(user_line)
         if uname in to_unblock:
-            # Remove block symbol if present
-            clean_line = user_line.lstrip(BLOCKED_SYMBOL).lstrip()
+            # Remove block symbol if present and update note if provided
+            base = user_line.lstrip(BLOCKED_SYMBOL).lstrip()
+            # Remove old note
+            base_without_note = remove_notes_from_line(base)
+            new_note = to_unblock.get(uname, '')
+            clean_line = base_without_note
+            if new_note:
+                clean_line += f" #{new_note}"
+            elif '#' in base:  # preserve existing note if no new
+                clean_line = base
             updated_users.append(clean_line)
             modified_users.add(uname)
             log_user_history(uname, "unblocked", "via blocked_users.txt")
         elif uname in to_block:
-            # Ensure blocked symbol present
-            if not user_line.startswith(BLOCKED_SYMBOL):
-                blocked_line = f"{BLOCKED_SYMBOL}{user_line}"
-            else:
-                blocked_line = user_line
+            # Ensure blocked symbol present and update/add note
+            # Remove existing note to replace
+            base_without_note = remove_notes_from_line(user_line.lstrip(BLOCKED_SYMBOL).lstrip())
+            note = to_block.get(uname, '')
+            blocked_line = f"{BLOCKED_SYMBOL}{base_without_note}"
+            if note:
+                blocked_line += f" #{note}"
+            elif '#' in user_line:
+                # Reattach existing note if no new note specified
+                old_note = extract_notes_from_line(user_line)
+                blocked_line += f" #{old_note}"
             updated_users.append(blocked_line)
             modified_users.add(uname)
             log_user_history(uname, "blocked", "via blocked_users.txt")
@@ -760,9 +776,12 @@ def process_blocked_users_commands():
             updated_users.append(user_line)
 
     # Add new blocked entries which were not in user_list
-    for uname in to_block:
+    for uname, note in to_block.items():
         if uname not in existing_usernames:
-            updated_users.append(f"{BLOCKED_SYMBOL}{uname}")
+            line = f"{BLOCKED_SYMBOL}{uname}"
+            if note:
+                line += f" #{note}"
+            updated_users.append(line)
             modified_users.add(uname)
             log_user_history(uname, "blocked", "via blocked_users.txt (new user)")
 
@@ -779,7 +798,18 @@ def process_blocked_users_commands():
     save_user_list(final_users)
 
     # Re-write blocked_users.txt putting freshly blocked usernames at the top
-    new_block_list = list(to_block) + [ln for ln in keep_plain if ln not in to_block and ln not in to_unblock]
+    # Build final blocked list preserving notes, newest blocks first
+    new_block_list = []
+    for uname, note in to_block.items():
+        entry = uname
+        if note:
+            entry += f" #{note}"
+        new_block_list.append(entry)
+    # Add remaining lines (plain keeps) that are still blocked
+    for ln in keep_plain:
+        u = extract_username_from_line(ln)
+        if u not in to_unblock:  # still blocked
+            new_block_list.append(ln)
     with open(blocked_file, 'w', encoding='utf-8') as f:
         for uname in new_block_list:
             f.write(f"{uname}\n")
