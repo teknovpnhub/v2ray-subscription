@@ -206,14 +206,20 @@ def save_user_list(users):
             f.write('\n'.join(users) + '\n')
 
 def extract_username_from_line(user_line):
+    # First remove the blocked symbol if present
     clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
+    
+    # Handle notes by removing everything after #
     if '#' in clean_line:
         clean_line = clean_line.split('#')[0].strip()
+    
+    # Handle command flags
     if '---' in clean_line:
         before_command = clean_line.split('---')[0].strip()
         username = before_command.split()[0] if before_command.split() else ''
         return username
     else:
+        # Just get the first word as username
         username = clean_line.split()[0] if clean_line.split() else clean_line
         return username
 
@@ -512,7 +518,9 @@ def process_user_commands():
             # Check if username already exists and generate a unique one if needed
             original_username = username
             existing_usernames = [extract_username_from_line(u) for u in users]
-            if username in [extract_username_from_line(u) for u in updated_users] or username in existing_usernames:
+            existing_updated_usernames = [extract_username_from_line(u) for u in updated_users]
+            
+            if username in existing_updated_usernames or username in existing_usernames:
                 username = generate_unique_username(username)
                 log_user_history(username, "auto_renamed", f"Automatically renamed from {original_username} due to duplicate")
                 print(f"⚠️ Username {original_username} already exists, using {username} instead")
@@ -704,12 +712,16 @@ def discover_new_subscriptions():
     subscription_files = [f for f in os.listdir(subscription_dir) if f.endswith('.txt')]
     existing_users = load_user_list()
     existing_usernames = [extract_username_from_line(user) for user in existing_users]
+    
     for filename in subscription_files:
-        username = filename[:-4]
-        if username not in existing_usernames:
-            add_user_to_list(username)
-        # If the filename already exists as a username, we don't need to do anything
-        # The add_user_to_list function will handle generating a unique username if needed
+        base_username = filename[:-4]  # Remove .txt extension
+        
+        # Check if this username already exists in the user list
+        if base_username not in existing_usernames:
+            # Username doesn't exist, add it normally
+            add_user_to_list(base_username)
+        # If the username already exists, we don't need to do anything
+        # The add_user_to_list function handles generating unique usernames if needed
 
 def normalize_vmess_url(server_line):
     try:
