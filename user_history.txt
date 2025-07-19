@@ -1,3 +1,7 @@
+mooono1 | removed | User deleted [Note: 404.7.9] | 2025-07-19 13:19
+
+mooono1 | manual_delete | User manually removed [Note: 404.7.9] | 2025-07-19 13:19
+
 mooono1 | added |  | 2025-07-19 13:08
 
 mooono1 | auto_renamed | Automatically renamed from mooono due to duplicate | 2025-07-19 13:08
