@@ -477,7 +477,9 @@ def process_user_commands():
         if '---b' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
-            user_data = extract_user_data_from_line(user_line)
+            # Remove any existing command tokens and pipe-notes before extracting user_data
+            cleaned_line = user_line.split('---')[0].split('|')[0].strip()
+            user_data = extract_user_data_from_line(cleaned_line)
             notes = extract_notes_from_line(user_line)
             blocked_users.add(username)
             modified_users.add(username)
@@ -485,10 +487,12 @@ def process_user_commands():
             # Add block date note (Iran time)
             block_date = get_iran_time().strftime("%Y-%m-%d")
             date_note = f"| blocked {block_date}"
-            if notes:
-                notes = f"{notes} {date_note}"
-            else:
-                notes = date_note
+            # Avoid duplicating the block-date note
+            if date_note not in notes:
+                if notes:
+                    notes = f"{notes} {date_note}"
+                else:
+                    notes = date_note
 
             details = date_note
             # Let log_user_history handle adding the note
@@ -822,10 +826,11 @@ def process_blocked_users_commands():
             iran_date = get_iran_time().strftime("%Y-%m-%d")
             date_note = f"| blocked {iran_date}"
             note_input = to_block.get(uname, '')
-            if note_input:
-                note = f"{note_input} {date_note}"
+            # Build note ensuring we don't duplicate date
+            if date_note in note_input:
+                note = note_input
             else:
-                note = date_note
+                note = f"{note_input} {date_note}".strip()
             blocked_line = f"{BLOCKED_SYMBOL}{base_without_note}"
             if note:
                 blocked_line += f" {note}"
@@ -867,10 +872,10 @@ def process_blocked_users_commands():
     for uname, note_in in to_block.items():
         iran_date = get_iran_time().strftime("%Y-%m-%d")
         date_note = f"| blocked {iran_date}"
-        if note_in:
-            note = f"{note_in} {date_note}"
+        if date_note in note_in:
+            note = note_in.strip()
         else:
-            note = date_note
+            note = f"{note_in} {date_note}".strip()
         entry = uname
         if note:
             entry += f" {note}"
