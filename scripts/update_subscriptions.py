@@ -272,23 +272,9 @@ def extract_user_data_from_line(user_line):
     return ''
 
 def extract_notes_from_line(user_line):
-    """Extract note from a user line, handling command flags correctly.
-    
-    A note starts with '#' and continues to the end of the line, but if there's
-    a command flag (---) after the #, we need to stop at that point.
-    """
-    if '#' not in user_line:
-        return ''
-    
-    # Split at first # to get everything after it
-    _, after_hash = user_line.split('#', 1)
-    
-    # If there's a command flag after the #, stop at that point
-    if '---' in after_hash:
-        before_cmd, _ = after_hash.split('---', 1)
-        return before_cmd.strip()
-    
-    return after_hash.strip()
+    if '#' in user_line:
+        return user_line.split('#', 1)[1].strip()
+    return ''
 
 def remove_notes_from_line(user_line):
     if '#' in user_line:
@@ -828,14 +814,9 @@ def process_blocked_users_commands():
     for ln in raw_lines_original:
         uname = extract_username_from_line(ln)
         if uname in dedup_dict:
-            prev = dedup_dict[uname]
-            # If current line carries a command flag (---) prefer it over the previous one
-            if '---' in ln and '---' not in prev:
+            # Prefer the line that has a '|' annotation (more information)
+            if '|' in ln and '|' not in dedup_dict[uname]:
                 dedup_dict[uname] = ln
-            # Otherwise, if neither (or both) have commands, prefer the one with more note info (contains '|')
-            elif '|' in ln and '|' not in prev:
-                dedup_dict[uname] = ln
-            # else keep existing
         else:
             dedup_dict[uname] = ln
 
@@ -983,14 +964,8 @@ def process_blocked_users_commands():
     # Add remaining lines (plain keeps) that are still blocked
     for ln in keep_plain:
         u = extract_username_from_line(ln)
-        # Do not keep lines for users that are being unblocked or deleted
-        if u in to_unblock or u in to_delete:
-            continue
-        # Do not duplicate users that were just blocked (they're in new_block_list)
-        if u in to_block:
-            continue
-        # Keep this line - user is still blocked
-        new_block_list.append(ln)
+        if u not in to_unblock and u not in to_delete and u not in to_block:  # still blocked and not deleted or reblocked this run
+            new_block_list.append(ln)
     with open(blocked_file, 'w', encoding='utf-8') as f:
         for uname in new_block_list:
             f.write(f"{uname}\n")
