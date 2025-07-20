@@ -1,3 +1,9 @@
+doooper | blocked | via blocked_users.txt [Note: dopperiitui #dopperiitui ---b | blocked 2025-07-21] | 2025-07-21 00:28
+
+doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui ---b] | 2025-07-21 00:28
+
+doooper | manual_delete | User manually removed [Note: dopperiitui ---b] | 2025-07-21 00:28
+
 doooper | manual_change | Changes:
 - doooper #dopperiitui | blocked 2025-07-21
 + doooper #dopperiitui [Note: dopperiitui] | 2025-07-21 00:27
