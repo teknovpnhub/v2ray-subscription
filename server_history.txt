@@ -1,3 +1,17 @@
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 215 🇩🇪 | moved_to_non_working | 2025-07-20 18:52
+ss://YWVzLTI1Ni1nY206Tml6bkx2b0l1eQ%3D%3D@220.124.31.130:19378#Server 212 🇰🇷 | moved_to_non_working | 2025-07-20 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 177 | moved_to_non_working | 2025-07-20 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.255.210.49:990#Server 103 | moved_to_non_working | 2025-07-20 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtdmdmZ3l1Z2l1Z3Z1aXU%3D@sg-2-sst.medicaldream.ir:8444#Server 59 | moved_to_non_working | 2025-07-20 18:52
+ss://YWVzLTI1Ni1nY206ODI4ODhiYjk4NjE1NDM1Yg%3D%3D@212.192.15.124:40109#Server 51 | moved_to_non_working | 2025-07-20 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 204 🇩🇪 | recovered_to_main | 2025-07-20 18:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 204 🇩🇪 | moved_to_main | 2025-07-20 18:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 210 | recovered_to_main | 2025-07-20 18:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 210 | moved_to_main | 2025-07-20 18:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMlVHYWQ2MUZHTzU%3D@194.87.31.68:443#Server 177 | recovered_to_main | 2025-07-20 18:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMlVHYWQ2MUZHTzU%3D@194.87.31.68:443#Server 177 | moved_to_main | 2025-07-20 18:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 199 | recovered_to_main | 2025-07-20 18:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 199 | moved_to_main | 2025-07-20 18:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 199 | moved_to_non_working | 2025-07-20 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMlVHYWQ2MUZHTzU%3D@194.87.31.68:443#Server 177 | moved_to_non_working | 2025-07-20 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@203.23.128.33:990#Server 62 | recovered_to_main | 2025-07-20 17:50
