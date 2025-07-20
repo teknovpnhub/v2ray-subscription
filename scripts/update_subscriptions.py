@@ -1344,13 +1344,23 @@ def validate_server(server_line):
     return False
 
 def get_blocked_users():
+    """Return a set of usernames that are currently blocked.
+
+    The blocked_users.txt file may contain extra notes after the username
+    (e.g. "john #note | blocked 2025-07-20").  We must therefore extract
+    just the username portion on each line so the lookup in
+    update_all_subscriptions() is reliable.
+    """
     blocked_users = set()
     try:
         with open('blocked_users.txt', 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
-                if line and not line.startswith('#'):
-                    blocked_users.add(line)
+                if not line or line.startswith('#'):
+                    continue
+                username = extract_username_from_line(line)
+                if username:
+                    blocked_users.add(username)
     except FileNotFoundError:
         pass
     return blocked_users
