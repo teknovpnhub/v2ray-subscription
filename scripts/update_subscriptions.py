@@ -676,15 +676,29 @@ def process_user_commands():
     # Also backup new usernames from renamed users
     for old_username, new_username in renamed_users.items():
         backup_user(new_username)
-    
-    for old_name, new_name in renamed_users.items():
-        existing_blocked = get_blocked_users()
-        if old_name in existing_blocked:
-            existing_blocked.remove(old_name)
-            existing_blocked.add(new_name)
-            with open('blocked_users.txt', 'w', encoding='utf-8') as f:
-                for user in existing_blocked:
-                    f.write(f"{user}\n")
+
+    # --- Rebuild blocked_users.txt with notes (including block date) ---
+    # First, collect blocked lines from final_users
+    blocked_lines_dict = {}
+    for line in final_users:
+        if line.startswith(BLOCKED_SYMBOL):
+            entry = line.lstrip(BLOCKED_SYMBOL).lstrip()
+            uname = extract_username_from_line(entry)
+            blocked_lines_dict[uname] = entry  # includes note if present
+
+    # Order: freshly blocked first (keep users order in `blocked_users` set), then remaining
+    ordered_blocked = []
+    for uname in blocked_users:
+        if uname in blocked_lines_dict:
+            ordered_blocked.append(blocked_lines_dict.pop(uname))
+    # Append the rest preserving their appearance order in final_users
+    for entry in blocked_lines_dict.values():
+        ordered_blocked.append(entry)
+
+    with open('blocked_users.txt', 'w', encoding='utf-8') as f:
+        for entry in ordered_blocked:
+            f.write(f"{entry}\n")
+
     existing_blocked = get_blocked_users()
     if blocked_users:
         all_blocked = existing_blocked.union(blocked_users)
