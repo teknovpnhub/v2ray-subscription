@@ -1,3 +1,9 @@
+floperssg | blocked | via blocked_users.txt [Note: 456++6dy 456++6dy ---b | blocked 2025-07-20] | 2025-07-20 19:38
+
+floperssg | blocked | | blocked 2025-07-20 [Note: 456++6dy ---b] | 2025-07-20 19:38
+
+floperssg | manual_delete | User manually removed [Note: 456++6dy ---b] | 2025-07-20 19:38
+
 floperssg | unblocked |  | 2025-07-20 19:34
 
 floperssg | manual_delete | User manually removed | 2025-07-20 19:34
