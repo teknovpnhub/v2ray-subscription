@@ -504,6 +504,29 @@ def move_user_to_top(users, username):
 
 def process_user_commands():
     users = load_user_list()
+
+    # --- Pre-clean: remove stale "| blocked" notes from any un-blocked user ---
+    precleaned_users = []
+    for line in users:
+        if not line.startswith(BLOCKED_SYMBOL) and "| blocked" in line:
+            notes_raw = extract_notes_from_line(line)
+            cleaned_notes = strip_block_dates(notes_raw)
+            if cleaned_notes != notes_raw:
+                username = extract_username_from_line(line)
+                user_data = extract_user_data_from_line(line)
+                if user_data and cleaned_notes:
+                    cleaned_line = f"{username} {user_data} #{cleaned_notes}"
+                elif user_data:
+                    cleaned_line = f"{username} {user_data}"
+                elif cleaned_notes:
+                    cleaned_line = f"{username} #{cleaned_notes}"
+                else:
+                    cleaned_line = username
+                precleaned_users.append(cleaned_line)
+                continue  # skip adding original line
+        precleaned_users.append(line)
+
+    users = precleaned_users  # work with cleaned list for the rest of the function
     updated_users = []
     blocked_users = set()
     unblocked_users = set()
@@ -1531,3 +1554,4 @@ def update_all_subscriptions():
 
 if __name__ == "__main__":
     update_all_subscriptions()
+
