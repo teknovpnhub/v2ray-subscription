@@ -524,6 +524,10 @@ def process_user_commands():
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
             notes = extract_notes_from_line(user_line)
+            # Auto-generate a unique username if none was provided (i.e. the line is just "---m" + optional note)
+            if not username:
+                username = generate_unique_username("customer")
+                print(f"\u2699\ufe0f Auto-generated username: {username}")
             
             # Check if username already exists and generate a unique one if needed
             original_username = username
