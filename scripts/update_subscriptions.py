@@ -161,9 +161,39 @@ def detect_manual_changes():
     for username in last_usernames.intersection(current_usernames):
         if last_lines[username] != current_lines.get(username, ''):
             modified = True  # Users were manually modified
+
+            old_line = last_lines[username]
+            new_line = current_lines.get(username, '')
+
+            # --- Handle manual un-blocking by cleaning old "| blocked" tags ---
+            if old_line.startswith(BLOCKED_SYMBOL) and not new_line.startswith(BLOCKED_SYMBOL):
+                notes_raw = extract_notes_from_line(new_line)
+                if "| blocked" in notes_raw:
+                    cleaned_notes = strip_block_dates(notes_raw)
+                    user_data = extract_user_data_from_line(new_line)
+                    
+                    # Rebuild the line with cleaned notes
+                    if user_data and cleaned_notes:
+                        cleaned_line = f"{username} {user_data} #{cleaned_notes}"
+                    elif user_data:
+                        cleaned_line = f"{username} {user_data}"
+                    elif cleaned_notes:
+                        cleaned_line = f"{username} #{cleaned_notes}"
+                    else:
+                        cleaned_line = username
+
+                    # Update the in-memory representations of the user list
+                    current_lines[username] = cleaned_line
+                    # Find the index and update the list itself
+                    for i, line in enumerate(current_users):
+                        if extract_username_from_line(line) == username:
+                            current_users[i] = cleaned_line
+                            break
+                    new_line = cleaned_line # Use the cleaned line for the diff
+
             # Use difflib to find exact changes
             differ = Differ()
-            diff = list(differ.compare([last_lines[username]], [current_lines[username]]))
+            diff = list(differ.compare([last_lines[username]], [new_line]))
             diff_text = '\n'.join(diff)
             details = f"Changes:\n{diff_text}"
             log_user_history(username, "manual_change", details)
@@ -225,6 +255,11 @@ def extract_username_from_line(user_line):
 
 def extract_user_data_from_line(user_line):
     clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
+
+    # Handle notes by removing everything after #
+    if '#' in clean_line:
+        clean_line = clean_line.split('#')[0].strip()
+
     if '---' in clean_line:
         before_command = clean_line.split('---')[0].strip()
         parts = before_command.split()
@@ -666,27 +701,6 @@ def process_user_commands():
             else:
                 updated_users.append(user_line)
         else:
-            # Handle implicit manual un-blocking: if line no longer starts with BLOCKED_SYMBOL
-            # but still carries old "| blocked YYYY-MM-DD" tokens in the note, strip them.
-            if not user_line.startswith(BLOCKED_SYMBOL):
-                notes_raw = extract_notes_from_line(user_line)
-                if notes_raw and "| blocked" in notes_raw:
-                    cleaned_notes = strip_block_dates(notes_raw)
-                    if cleaned_notes != notes_raw:
-                        username = extract_username_from_line(user_line)
-                        user_data = extract_user_data_from_line(user_line)
-                        if user_data and cleaned_notes:
-                            cleaned_line = f"{username} {user_data} #{cleaned_notes}"
-                        elif user_data:
-                            cleaned_line = f"{username} {user_data}"
-                        elif cleaned_notes:
-                            cleaned_line = f"{username} #{cleaned_notes}"
-                        else:
-                            cleaned_line = username
-                        updated_users.append(cleaned_line)
-                        modified_users.add(username)
-                        # Skip default append since we already handled
-                        continue
             # Default: keep line as-is
             updated_users.append(user_line)
     
