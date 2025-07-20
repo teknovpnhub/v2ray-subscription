@@ -1,6 +1,5 @@
 {
   "usernames": [
-    "customer",
     "habibzade",
     "borhani",
     "test1",
@@ -96,7 +95,6 @@
     "vahid.behruz"
   ],
   "lines": {
-    "customer": "customer",
     "habibzade": "habibzade #404.4.28",
     "borhani": "borhani #404.4.28",
     "test1": "test1 #4ljiyttr tgyty",
@@ -189,5 +187,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-07-20 12:03"
+  "timestamp": "2025-07-20 12:05"
 }
