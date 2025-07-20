@@ -814,9 +814,14 @@ def process_blocked_users_commands():
     for ln in raw_lines_original:
         uname = extract_username_from_line(ln)
         if uname in dedup_dict:
-            # Prefer the line that has a '|' annotation (more information)
-            if '|' in ln and '|' not in dedup_dict[uname]:
+            prev = dedup_dict[uname]
+            # If current line carries a command flag (---) prefer it over the previous one
+            if '---' in ln and '---' not in prev:
                 dedup_dict[uname] = ln
+            # Otherwise, if neither (or both) have commands, prefer the one with more note info (contains '|')
+            elif '|' in ln and '|' not in prev:
+                dedup_dict[uname] = ln
+            # else keep existing
         else:
             dedup_dict[uname] = ln
 
