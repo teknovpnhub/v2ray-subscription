@@ -731,7 +731,26 @@ def process_blocked_users_commands():
         return  # nothing to do
 
     with open(blocked_file, 'r', encoding='utf-8') as f:
-        raw_lines = [ln.strip() for ln in f if ln.strip()]
+        raw_lines_original = [ln.rstrip() for ln in f if ln.strip()]
+
+    # Deduplicate any repeated usernames, preferring lines that contain a pipe annotation
+    dedup_dict = {}
+    for ln in raw_lines_original:
+        uname = extract_username_from_line(ln)
+        if uname in dedup_dict:
+            # Prefer the line that has a '|' annotation (more information)
+            if '|' in ln and '|' not in dedup_dict[uname]:
+                dedup_dict[uname] = ln
+        else:
+            dedup_dict[uname] = ln
+
+    raw_lines = list(dedup_dict.values())
+
+    # If duplicates were removed, rewrite the cleaned list immediately (before command processing)
+    if len(raw_lines) != len(raw_lines_original):
+        with open(blocked_file, 'w', encoding='utf-8') as f:
+            for l in raw_lines:
+                f.write(f"{l}\n")
 
     if not raw_lines:
         return
