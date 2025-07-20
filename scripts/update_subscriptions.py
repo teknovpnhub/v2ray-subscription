@@ -666,6 +666,28 @@ def process_user_commands():
             else:
                 updated_users.append(user_line)
         else:
+            # Handle implicit manual un-blocking: if line no longer starts with BLOCKED_SYMBOL
+            # but still carries old "| blocked YYYY-MM-DD" tokens in the note, strip them.
+            if not user_line.startswith(BLOCKED_SYMBOL):
+                notes_raw = extract_notes_from_line(user_line)
+                if notes_raw and "| blocked" in notes_raw:
+                    cleaned_notes = strip_block_dates(notes_raw)
+                    if cleaned_notes != notes_raw:
+                        username = extract_username_from_line(user_line)
+                        user_data = extract_user_data_from_line(user_line)
+                        if user_data and cleaned_notes:
+                            cleaned_line = f"{username} {user_data} #{cleaned_notes}"
+                        elif user_data:
+                            cleaned_line = f"{username} {user_data}"
+                        elif cleaned_notes:
+                            cleaned_line = f"{username} #{cleaned_notes}"
+                        else:
+                            cleaned_line = username
+                        updated_users.append(cleaned_line)
+                        modified_users.add(username)
+                        # Skip default append since we already handled
+                        continue
+            # Default: keep line as-is
             updated_users.append(user_line)
     
     # Move modified users to the top (in reverse order to maintain priority)
