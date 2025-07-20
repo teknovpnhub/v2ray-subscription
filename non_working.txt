@@ -1,4 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 185 | 2025-07-21 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 229 | 2025-07-21 01:50
 vless://f503c72d-485e-4091-9d0c-9ad34d61c914@freeconfig.fergalvpnmod.com:12765?encryption=none&security=none&type=ws&host=cloudflare.com&path=%2Ftelegram%40FergalVpnMod#Server 123 | 2025-07-21 01:31
 ss://YWVzLTI1Ni1nY206ODI4ODhiYjk4NjE1NDM1Yg%3D%3D@212.192.15.124:40109#Server 51 | 2025-07-20 18:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjMzc2MDgyYy05NWMzLTQ1MmUtODhlNC02YmI2YTVkYWFiNDE%3D@free-relay.t01.themars.top:49900#Server 49 | 2025-07-19 12:52
