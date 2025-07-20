@@ -1,3 +1,31 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 208 🇩🇪 | moved_to_non_working | 2025-07-20 11:57
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 226 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 226 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXJrcXU5OTVQcFZjR2h0ejZ2U3Y1@45.144.54.33:34803#Server 223 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWU0lRVW4wZGFyZEtWbGQwRmphOVBX@45.144.54.33:34803#Server 222 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMaUhRWDljRGJkb29CSGxJZzBlaXFR@45.144.54.33:34803#Server 221 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxeVk3bGhid3RTU0c5eFU1bDk2TXR3@45.144.54.33:34803#Server 220 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpySFo2aFFBaGJzQ3YxSnJvTWx4Y21V@45.144.54.33:34803#Server 219 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 218 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHWlpCQm9FVWd6VGU5YlUyVXhOcUI4@45.144.54.33:34803#Server 217 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUS1U1N1NsN3EyQVNpRjVwSTBIbGwy@45.144.54.33:34803#Server 216 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEeWd1YUl0ekJmTjlZanY0MldnSVdi@45.144.54.33:34803#Server 215 🇩🇪 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpET0FEYVliT3h6YlhYQUlERVNkOFpt@45.144.54.33:34803#Server 214 🇩🇪 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 213 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnSXByaFVETnJUT29hM3Ewa3dNQVYy@45.144.54.33:34803#Server 212 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowbXlsQ0Vqcjc2QXJpdXVHaVlnZHVr@45.144.54.33:34803#Server 211 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsY2RDRHZ1MDlzcFhUNEVCWnZzdlZN@45.144.54.33:34803#Server 210 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#Server 174 | moved_to_non_working | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJYjloeEZaeFVING0%3D@194.87.216.189:443#Server 207 | recovered_to_main | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJYjloeEZaeFVING0%3D@194.87.216.189:443#Server 207 | moved_to_main | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 205 🇩🇪 | recovered_to_main | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 205 🇩🇪 | moved_to_main | 2025-07-20 11:57
+ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 206 🇻🇳 | recovered_to_main | 2025-07-20 11:57
+ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 206 🇻🇳 | moved_to_main | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 208 🇩🇪 | recovered_to_main | 2025-07-20 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 208 🇩🇪 | moved_to_main | 2025-07-20 11:57
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 226 | recovered_to_main | 2025-07-20 11:57
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 226 | moved_to_main | 2025-07-20 11:57
 vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 226 | moved_to_non_working | 2025-07-20 10:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 208 🇩🇪 | moved_to_non_working | 2025-07-20 10:50
 ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 206 🇻🇳 | moved_to_non_working | 2025-07-20 10:50
