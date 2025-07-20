@@ -785,11 +785,10 @@ def process_user_commands():
         all_blocked = all_blocked - unblocked_users
     if deleted_users:
         all_blocked = all_blocked - deleted_users
-    # Write blocked list so that freshly blocked users appear first
-    ordered_blocked = list(blocked_users) + [u for u in all_blocked if u not in blocked_users]
-    with open('blocked_users.txt', 'w', encoding='utf-8') as f:
-        for user in ordered_blocked:
-            f.write(f"{user}\n")
+    # We already wrote the full blocked lines (including notes) earlier. Do not
+    # overwrite them with username-only lines.  If we need to ensure order, we
+    # could rebuild the list including notes, but for now we keep the first
+    # write intact to preserve information.
     subscription_dir = 'subscriptions'
     for username in deleted_users:
         sub_file = os.path.join(subscription_dir, f"{username}.txt")
