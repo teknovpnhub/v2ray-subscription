@@ -580,7 +580,9 @@ def process_user_commands():
             any_commands_processed = True
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
-            notes = extract_notes_from_line(user_line)
+            # Clean any old block-date tags from the note when unblocking
+            raw_notes = extract_notes_from_line(user_line)
+            notes = strip_block_dates(raw_notes)
             unblocked_users.add(username)
             modified_users.add(username)
             users_to_top.add(username)  # Move to top when unblocked
@@ -1554,4 +1556,3 @@ def update_all_subscriptions():
 
 if __name__ == "__main__":
     update_all_subscriptions()
-
