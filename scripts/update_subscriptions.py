@@ -482,7 +482,15 @@ def process_user_commands():
             blocked_users.add(username)
             modified_users.add(username)
             users_to_top.add(username)  # Move to top when blocked
-            details = ""
+            # Add block date note (Iran time)
+            block_date = get_iran_time().strftime("%Y-%m-%d")
+            date_note = f"blocked {block_date}"
+            if notes:
+                notes = f"{notes} | {date_note}"
+            else:
+                notes = date_note
+
+            details = date_note
             # Let log_user_history handle adding the note
             log_user_history(username, "blocked", details)
             if user_data and notes:
@@ -716,6 +724,7 @@ def process_blocked_users_commands():
 
     to_block = {}
     to_unblock = {}
+    to_delete = set()
     keep_plain = []  # lines to keep as-is (no command flags, already cleaned)
     commands_found = False
 
@@ -731,6 +740,12 @@ def process_blocked_users_commands():
             note = extract_notes_from_line(line)
             if username:
                 to_block[username] = note
+                commands_found = True
+        elif '---d' in line:
+            # Delete user entirely
+            username = extract_username_from_line(line)
+            if username:
+                to_delete.add(username)
                 commands_found = True
         else:
             keep_plain.append(line)  # keep full line (could contain note)
@@ -761,11 +776,23 @@ def process_blocked_users_commands():
             updated_users.append(clean_line)
             modified_users.add(uname)
             log_user_history(uname, "unblocked", "via blocked_users.txt")
+        elif uname in to_delete:
+            # Skip this line to delete user completely
+            modified_users.add(uname)
+            log_user_history(uname, "removed", "via blocked_users.txt")
+            continue  # do not append to updated_users (removes from list)
         elif uname in to_block:
             # Ensure blocked symbol present and update/add note
             # Remove existing note to replace
             base_without_note = remove_notes_from_line(user_line.lstrip(BLOCKED_SYMBOL).lstrip())
-            note = to_block.get(uname, '')
+            # Compose note with block date
+            iran_date = get_iran_time().strftime("%Y-%m-%d")
+            date_note = f"blocked {iran_date}"
+            note_input = to_block.get(uname, '')
+            if note_input:
+                note = f"{note_input} | {date_note}"
+            else:
+                note = date_note
             blocked_line = f"{BLOCKED_SYMBOL}{base_without_note}"
             if note:
                 blocked_line += f" #{note}"
@@ -804,7 +831,13 @@ def process_blocked_users_commands():
     # Re-write blocked_users.txt putting freshly blocked usernames at the top
     # Build final blocked list preserving notes, newest blocks first
     new_block_list = []
-    for uname, note in to_block.items():
+    for uname, note_in in to_block.items():
+        iran_date = get_iran_time().strftime("%Y-%m-%d")
+        date_note = f"blocked {iran_date}"
+        if note_in:
+            note = f"{note_in} | {date_note}"
+        else:
+            note = date_note
         entry = uname
         if note:
             entry += f" #{note}"
@@ -812,11 +845,19 @@ def process_blocked_users_commands():
     # Add remaining lines (plain keeps) that are still blocked
     for ln in keep_plain:
         u = extract_username_from_line(ln)
-        if u not in to_unblock:  # still blocked
+        if u not in to_unblock and u not in to_delete:  # still blocked and not deleted
             new_block_list.append(ln)
     with open(blocked_file, 'w', encoding='utf-8') as f:
         for uname in new_block_list:
             f.write(f"{uname}\n")
+
+    # Remove subscription files for deleted users
+    if to_delete:
+        subscription_dir = 'subscriptions'
+        for uname in to_delete:
+            sub_file = os.path.join(subscription_dir, f"{uname}.txt")
+            if os.path.exists(sub_file):
+                os.remove(sub_file)
 
 def check_expired_users():
     users = load_user_list()
