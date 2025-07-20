@@ -246,6 +246,15 @@ def remove_notes_from_line(user_line):
         return user_line.split('#')[0].strip()
     return user_line.strip()
 
+# === Helper to remove prior block-date tags ===
+def strip_block_dates(note: str) -> str:
+    """Remove all occurrences of "| blocked YYYY-MM-DD" from a note string."""
+    if not note:
+        return note
+    # Regex matches optional whitespace, a pipe, the word 'blocked' and a date.
+    cleaned = re.sub(r"\s*\|\s*blocked\s+\d{4}-\d{2}-\d{2}", "", note)
+    return cleaned.strip()
+
 def parse_relative_datetime(relative_str):
     if not relative_str:
         return None
@@ -494,15 +503,18 @@ def process_user_commands():
                 else:
                     notes = date_note
 
+            # Prepend '#' symbol to notes (if any) to retain comment marker (no space after '#')
+            notes_with_hash = f"#{notes}" if notes else ""
+
             details = date_note
             # Let log_user_history handle adding the note
             log_user_history(username, "blocked", details)
-            if user_data and notes:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} {notes}"
+            if user_data and notes_with_hash:
+                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} {notes_with_hash}"
             elif user_data:
                 updated_line = f"{BLOCKED_SYMBOL}{username} {user_data}"
-            elif notes:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {notes}"
+            elif notes_with_hash:
+                updated_line = f"{BLOCKED_SYMBOL}{username} {notes_with_hash}"
             else:
                 updated_line = f"{BLOCKED_SYMBOL}{username}"
             updated_users.append(updated_line)
@@ -804,12 +816,18 @@ def process_blocked_users_commands():
             base = user_line.lstrip(BLOCKED_SYMBOL).lstrip()
             # Remove old note
             base_without_note = remove_notes_from_line(base)
-            new_note = to_unblock.get(uname, '')
+            new_note_raw = to_unblock.get(uname, '')
+            # Clean any old block-date tags from whichever note we keep
+            new_note = strip_block_dates(new_note_raw) if new_note_raw else ''
+
             clean_line = base_without_note
             if new_note:
                 clean_line += f" #{new_note}"
-            elif '#' in base:  # preserve existing note if no new
-                clean_line = base
+            else:
+                existing_note = extract_notes_from_line(base)
+                cleaned_existing = strip_block_dates(existing_note)
+                if cleaned_existing:
+                    clean_line += f" #{cleaned_existing}"
             updated_users.append(clean_line)
             modified_users.add(uname)
             log_user_history(uname, "unblocked", "via blocked_users.txt")
@@ -828,12 +846,15 @@ def process_blocked_users_commands():
             note_input = to_block.get(uname, '')
             # Build note ensuring we don't duplicate date
             if date_note in note_input:
-                note = note_input
+                note = note_input.strip()
             else:
                 note = f"{note_input} {date_note}".strip()
+
+            # Prepend '#' symbol to note (if any) (no space after '#')
+            note_with_hash = f"#{note}" if note else ""
             blocked_line = f"{BLOCKED_SYMBOL}{base_without_note}"
-            if note:
-                blocked_line += f" {note}"
+            if note_with_hash:
+                blocked_line += f" {note_with_hash}"
             elif '#' in user_line:
                 # Reattach existing note if no new note specified
                 old_note = extract_notes_from_line(user_line)
@@ -878,7 +899,7 @@ def process_blocked_users_commands():
             note = f"{note_in} {date_note}".strip()
         entry = uname
         if note:
-            entry += f" {note}"
+            entry += f" #{note}"
         new_block_list.append(entry)
     # Add remaining lines (plain keeps) that are still blocked
     for ln in keep_plain:
