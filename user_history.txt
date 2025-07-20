@@ -1,3 +1,7 @@
+test1 | removed | User deleted [Note: 4ljiyttr tgyty] | 2025-07-20 12:24
+
+test1 | manual_delete | User manually removed [Note: 4ljiyttr tgyty] | 2025-07-20 12:24
+
 khosrotamar | added | [Note: 404.4.29] | 2025-07-20 12:23
 
 customer | removed | User deleted | 2025-07-20 12:05
