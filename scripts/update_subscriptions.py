@@ -484,9 +484,9 @@ def process_user_commands():
             users_to_top.add(username)  # Move to top when blocked
             # Add block date note (Iran time)
             block_date = get_iran_time().strftime("%Y-%m-%d")
-            date_note = f"blocked {block_date}"
+            date_note = f"| blocked {block_date}"
             if notes:
-                notes = f"{notes} | {date_note}"
+                notes = f"{notes} {date_note}"
             else:
                 notes = date_note
 
@@ -494,11 +494,11 @@ def process_user_commands():
             # Let log_user_history handle adding the note
             log_user_history(username, "blocked", details)
             if user_data and notes:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} #{notes}"
+                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} {notes}"
             elif user_data:
                 updated_line = f"{BLOCKED_SYMBOL}{username} {user_data}"
             elif notes:
-                updated_line = f"{BLOCKED_SYMBOL}{username} #{notes}"
+                updated_line = f"{BLOCKED_SYMBOL}{username} {notes}"
             else:
                 updated_line = f"{BLOCKED_SYMBOL}{username}"
             updated_users.append(updated_line)
@@ -684,7 +684,7 @@ def process_user_commands():
         if line.startswith(BLOCKED_SYMBOL):
             entry = line.lstrip(BLOCKED_SYMBOL).lstrip()
             uname = extract_username_from_line(entry)
-            blocked_lines_dict[uname] = entry  # includes note if present
+            blocked_lines_dict[uname] = entry  # includes pipe note if present
 
     # Order: freshly blocked first (keep users order in `blocked_users` set), then remaining
     ordered_blocked = []
@@ -801,15 +801,15 @@ def process_blocked_users_commands():
             base_without_note = remove_notes_from_line(user_line.lstrip(BLOCKED_SYMBOL).lstrip())
             # Compose note with block date
             iran_date = get_iran_time().strftime("%Y-%m-%d")
-            date_note = f"blocked {iran_date}"
+            date_note = f"| blocked {iran_date}"
             note_input = to_block.get(uname, '')
             if note_input:
-                note = f"{note_input} | {date_note}"
+                note = f"{note_input} {date_note}"
             else:
                 note = date_note
             blocked_line = f"{BLOCKED_SYMBOL}{base_without_note}"
             if note:
-                blocked_line += f" #{note}"
+                blocked_line += f" {note}"
             elif '#' in user_line:
                 # Reattach existing note if no new note specified
                 old_note = extract_notes_from_line(user_line)
@@ -825,7 +825,7 @@ def process_blocked_users_commands():
         if uname not in existing_usernames:
             line = f"{BLOCKED_SYMBOL}{uname}"
             if note:
-                line += f" #{note}"
+                line += f" {note}"
             updated_users.append(line)
             modified_users.add(uname)
             log_user_history(uname, "blocked", "via blocked_users.txt (new user)")
@@ -847,19 +847,19 @@ def process_blocked_users_commands():
     new_block_list = []
     for uname, note_in in to_block.items():
         iran_date = get_iran_time().strftime("%Y-%m-%d")
-        date_note = f"blocked {iran_date}"
+        date_note = f"| blocked {iran_date}"
         if note_in:
-            note = f"{note_in} | {date_note}"
+            note = f"{note_in} {date_note}"
         else:
             note = date_note
         entry = uname
         if note:
-            entry += f" #{note}"
+            entry += f" {note}"
         new_block_list.append(entry)
     # Add remaining lines (plain keeps) that are still blocked
     for ln in keep_plain:
         u = extract_username_from_line(ln)
-        if u not in to_unblock and u not in to_delete:  # still blocked and not deleted
+        if u not in to_unblock and u not in to_delete and u not in to_block:  # still blocked and not deleted or reblocked this run
             new_block_list.append(ln)
     with open(blocked_file, 'w', encoding='utf-8') as f:
         for uname in new_block_list:
