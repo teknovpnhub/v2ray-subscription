@@ -1,3 +1,26 @@
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 201 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 223 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsY2RDRHZ1MDlzcFhUNEVCWnZzdlZN@45.144.54.33:34803#Server 222 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowbXlsQ0Vqcjc2QXJpdXVHaVlnZHVr@45.144.54.33:34803#Server 221 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnSXByaFVETnJUT29hM3Ewa3dNQVYy@45.144.54.33:34803#Server 220 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 219 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpET0FEYVliT3h6YlhYQUlERVNkOFpt@45.144.54.33:34803#Server 218 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEeWd1YUl0ekJmTjlZanY0MldnSVdi@45.144.54.33:34803#Server 217 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUS1U1N1NsN3EyQVNpRjVwSTBIbGwy@45.144.54.33:34803#Server 216 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHWlpCQm9FVWd6VGU5YlUyVXhOcUI4@45.144.54.33:34803#Server 215 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 214 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpySFo2aFFBaGJzQ3YxSnJvTWx4Y21V@45.144.54.33:34803#Server 213 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxeVk3bGhid3RTU0c5eFU1bDk2TXR3@45.144.54.33:34803#Server 212 🇩🇪 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#Server 194 🇺🇸 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotNVRVTTVDbTF5dGNEb3FCSG9tMUdR@62.60.216.61:1080#Server 156 | moved_to_non_working | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 186 | recovered_to_main | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 186 | moved_to_main | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UGhIYlJDWks1eVFMc3ZvWHcwODNu@89.185.84.185:443#Server 197 | recovered_to_main | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UGhIYlJDWks1eVFMc3ZvWHcwODNu@89.185.84.185:443#Server 197 | moved_to_main | 2025-07-21 14:50
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 201 | recovered_to_main | 2025-07-21 14:50
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 201 | moved_to_main | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 211 | recovered_to_main | 2025-07-21 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 211 | moved_to_main | 2025-07-21 14:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 215 | moved_to_non_working | 2025-07-21 13:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 211 | moved_to_non_working | 2025-07-21 13:56
 vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 201 | moved_to_non_working | 2025-07-21 13:56
