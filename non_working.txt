@@ -1,4 +1,6 @@
-ss://YWVzLTI1Ni1nY206Tml6bkx2b0l1eQ%3D%3D@220.124.31.130:19378#Server 208 🇰🇷 | 2025-07-22 18:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#Server 226 🇺🇸 | 2025-07-22 19:59
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 209 🇩🇪 | 2025-07-22 19:59
+vless://f503c72d-485e-4091-9d0c-9ad34d61c914@freeconfig.fergalvpnmod.com:12765?encryption=none&security=none&type=ws&host=cloudflare.com&path=%2Ftelegram%40FergalVpnMod#Server 186 | 2025-07-22 19:59
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBVk1Xd2lNdmxyNnNJNUFodjFyM0dT@23.177.185.63:49454#Server 208 | 2025-07-22 17:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSMlVHYWQ2MUZHTzU%3D@194.87.31.68:443#Server 185 | 2025-07-22 16:18
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkM1RwaFBQZk1rSXhGbVBKcEEwajdSa1BKSGplSHFhSmsyRDdDbzdWc0Z1VVUydjE%3D@45.128.151.67:31348#Server 209 | 2025-07-22 12:57
