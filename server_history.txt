@@ -1,3 +1,18 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1dzhqbEdMeVhUVmxZTHZNNlR1d0dR@23.177.185.63:49454#Server 199 | moved_to_non_working | 2025-07-22 17:10
+ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 211 | moved_to_non_working | 2025-07-22 17:10
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#Server 204 | moved_to_non_working | 2025-07-22 17:10
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 224 | recovered_to_main | 2025-07-22 17:09
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 224 | moved_to_main | 2025-07-22 17:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJYjloeEZaeFVING0%3D@194.87.216.189:443#Server 198 🇳🇱 | recovered_to_main | 2025-07-22 17:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJYjloeEZaeFVING0%3D@194.87.216.189:443#Server 198 🇳🇱 | moved_to_main | 2025-07-22 17:09
+ss://YWVzLTI1Ni1nY206Tml6bkx2b0l1eQ%3D%3D@220.124.31.130:19378#Server 204 🇰🇷 | recovered_to_main | 2025-07-22 17:09
+ss://YWVzLTI1Ni1nY206Tml6bkx2b0l1eQ%3D%3D@220.124.31.130:19378#Server 204 🇰🇷 | moved_to_main | 2025-07-22 17:09
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@meli1.dashvili.ir:80?path=/&security=&encryption=none&type=ws#Server 196 | recovered_to_main | 2025-07-22 17:09
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@meli1.dashvili.ir:80?path=/&security=&encryption=none&type=ws#Server 196 | moved_to_main | 2025-07-22 17:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1dzhqbEdMeVhUVmxZTHZNNlR1d0dR@23.177.185.63:49454#Server 199 | recovered_to_main | 2025-07-22 17:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1dzhqbEdMeVhUVmxZTHZNNlR1d0dR@23.177.185.63:49454#Server 199 | moved_to_main | 2025-07-22 17:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 213 🇧🇴 | recovered_to_main | 2025-07-22 17:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 213 🇧🇴 | moved_to_main | 2025-07-22 17:09
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 213 🇧🇴 | moved_to_non_working | 2025-07-22 16:18
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 224 | moved_to_non_working | 2025-07-22 16:18
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHWlpCQm9FVWd6VGU5YlUyVXhOcUI4@45.144.54.33:34803#Server 223 | moved_to_non_working | 2025-07-22 16:18
