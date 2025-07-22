@@ -1,3 +1,20 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 216 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsY2RDRHZ1MDlzcFhUNEVCWnZzdlZN@45.144.54.33:34803#Server 215 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowbXlsQ0Vqcjc2QXJpdXVHaVlnZHVr@45.144.54.33:34803#Server 214 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnSXByaFVETnJUT29hM3Ewa3dNQVYy@45.144.54.33:34803#Server 213 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 212 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpET0FEYVliT3h6YlhYQUlERVNkOFpt@45.144.54.33:34803#Server 211 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEeWd1YUl0ekJmTjlZanY0MldnSVdi@45.144.54.33:34803#Server 210 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUS1U1N1NsN3EyQVNpRjVwSTBIbGwy@45.144.54.33:34803#Server 209 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHWlpCQm9FVWd6VGU5YlUyVXhOcUI4@45.144.54.33:34803#Server 208 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 207 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpySFo2aFFBaGJzQ3YxSnJvTWx4Y21V@45.144.54.33:34803#Server 206 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxeVk3bGhid3RTU0c5eFU1bDk2TXR3@45.144.54.33:34803#Server 205 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXJrcXU5OTVQcFZjR2h0ejZ2U3Y1@45.144.54.33:34803#Server 204 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWU0lRVW4wZGFyZEtWbGQwRmphOVBX@45.144.54.33:34803#Server 203 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMaUhRWDljRGJkb29CSGxJZzBlaXFR@45.144.54.33:34803#Server 202 | moved_to_non_working | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkM1RwaFBQZk1rSXhGbVBKcEEwajdSa1BKSGplSHFhSmsyRDdDbzdWc0Z1VVUydjE%3D@45.128.151.67:31348#Server 159 | recovered_to_main | 2025-07-22 05:24
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkM1RwaFBQZk1rSXhGbVBKcEEwajdSa1BKSGplSHFhSmsyRDdDbzdWc0Z1VVUydjE%3D@45.128.151.67:31348#Server 159 | moved_to_main | 2025-07-22 05:24
 vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 201 | recovered_to_main | 2025-07-22 02:51
 vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 201 | moved_to_main | 2025-07-22 02:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjMzc2MDgyYy05NWMzLTQ1MmUtODhlNC02YmI2YTVkYWFiNDE%3D@free-relay.t01.themars.top:49900#Server 202 🇭🇰 | moved_to_non_working | 2025-07-22 01:52
