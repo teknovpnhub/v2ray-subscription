@@ -1,3 +1,7 @@
+siami | blocked | | blocked 2025-07-23 [Note: 404.4.22] | 2025-07-23 22:56
+
+siami | manual_delete | User manually removed [Note: 404.4.22] | 2025-07-23 22:56
+
 yunesi | added | [Note: 404.5.1] | 2025-07-23 11:29
 
 a.abdollahzade1 | added | [Note: 404.4.31] | 2025-07-22 11:59

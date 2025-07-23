@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "siami",
     "yunesi",
     "a.abdollahzade1",
     "r.kheyri",
@@ -37,7 +38,6 @@
     "parsa",
     "ansarifard",
     "sabri",
-    "siami",
     "abedi",
     "hasani",
     "salamzade",
@@ -103,6 +103,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "siami": "🚫siami #404.4.22 | blocked 2025-07-23",
     "yunesi": "yunesi #404.5.1",
     "a.abdollahzade1": "a.abdollahzade1 #404.4.31",
     "r.kheyri": "r.kheyri #404.4.31",
@@ -139,7 +140,6 @@
     "parsa": "parsa #404.4.22",
     "ansarifard": "ansarifard #404.4.22",
     "sabri": "sabri #404.4.22",
-    "siami": "siami #404.4.22",
     "abedi": "abedi #404.4.22",
     "hasani": "hasani #404.4.22",
     "salamzade": "salamzade #404.4.22",
@@ -203,5 +203,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-07-23 22:48"
+  "timestamp": "2025-07-23 22:56"
 }
