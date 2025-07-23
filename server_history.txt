@@ -1,3 +1,11 @@
+ss://YWVzLTI1Ni1nY206Tml6bkx2b0l1eQ%3D%3D@220.124.31.130:19378#Server 195 | moved_to_non_working | 2025-07-24 02:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQeDBvRGJmeVhuamZoSGs1R0l1TzBE@77.83.246.74:443#Server 145 | moved_to_non_working | 2025-07-24 02:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaGg0UkIxOVBNZ1RsYWNnaFhmbzNT@77.83.246.74:443#Server 135 | moved_to_non_working | 2025-07-24 02:53
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 200 🇩🇪 | recovered_to_main | 2025-07-24 02:52
+vless://04bb5055-bc44-4d21-85c7-42317dd5fd37@91.99.182.155:443?encryption=none&security=none&type=tcp&headerType=http&host=zula.ir#Server 200 🇩🇪 | moved_to_main | 2025-07-24 02:52
+ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 211 | recovered_to_main | 2025-07-24 02:52
+ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 211 | moved_to_main | 2025-07-24 02:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVFEwWg%3D%3D@uk.opensocks.site:1443#Server 98 | removed_after_3_days | 2025-07-24 02:52
 ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 211 | moved_to_non_working | 2025-07-24 01:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.255.22:990#Server 159 | moved_to_non_working | 2025-07-24 01:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBVk1Xd2lNdmxyNnNJNUFodjFyM0dT@23.177.185.63:49454#Server 183 | recovered_to_main | 2025-07-24 01:51
