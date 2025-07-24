@@ -1,3 +1,13 @@
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@meli1.dashvili.ir:80?path=/&security=&encryption=none&type=ws#Server 184 | moved_to_non_working | 2025-07-24 22:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtdmdmZ3l1Z2l1Z3Z1aXU%3D@sg-2-sst.medicaldream.ir:8444#Server 143 | moved_to_non_working | 2025-07-24 22:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 144 | recovered_to_main | 2025-07-24 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 144 | moved_to_main | 2025-07-24 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFb0F6NFE0cmhHdGhWSUM0Wm9FM1hz@147.45.114.160:45651#Server 155 | recovered_to_main | 2025-07-24 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFb0F6NFE0cmhHdGhWSUM0Wm9FM1hz@147.45.114.160:45651#Server 155 | moved_to_main | 2025-07-24 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 194 | recovered_to_main | 2025-07-24 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 194 | moved_to_main | 2025-07-24 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 211 | recovered_to_main | 2025-07-24 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 211 | moved_to_main | 2025-07-24 22:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 211 | moved_to_non_working | 2025-07-24 22:03
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 194 | moved_to_non_working | 2025-07-24 22:03
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@64.74.163.130:990#Server 160 | moved_to_non_working | 2025-07-24 22:03
