@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtdmdmZ3l1Z2l1Z3Z1aXU%3D@sg-2-sst.medicaldream.ir:8444#Server 197 🇸🇬 | moved_to_non_working | 2025-07-25 07:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 157 | moved_to_non_working | 2025-07-25 07:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowbXlsQ0Vqcjc2QXJpdXVHaVlnZHVr@45.144.54.33:34803#Server 203 🇩🇪 | recovered_to_main | 2025-07-25 07:09
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowbXlsQ0Vqcjc2QXJpdXVHaVlnZHVr@45.144.54.33:34803#Server 203 🇩🇪 | moved_to_main | 2025-07-25 07:09
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkM1RwaFBQZk1rSXhGbVBKcEEwajdSa1BKSGplSHFhSmsyRDdDbzdWc0Z1VVUydjE%3D@45.128.151.67:31348#Server 189 | recovered_to_main | 2025-07-25 05:24
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkM1RwaFBQZk1rSXhGbVBKcEEwajdSa1BKSGplSHFhSmsyRDdDbzdWc0Z1VVUydjE%3D@45.128.151.67:31348#Server 189 | moved_to_main | 2025-07-25 05:24
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@lv.vpnsparta.pro:57456#Server 173 | recovered_to_main | 2025-07-25 05:24
