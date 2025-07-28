@@ -31,7 +31,7 @@ vless://7e74ff43-3a90-48b3-8372-7d92a045c2d4@LiGHT-PReseNce.oneEaT.Co:80?flow=&p
 vless://5a12794b-2125-46d7-a748-927a989faa04@nArrow-PASsEngER.oNEeAT.co:80?flow=&path=%2F&type=ws#Server 31 🇨🇦
 vless://f1fe4963-66f7-4f71-a038-9e07ea6cf20f@creativE-coMPUter.Oneeat.Co:80?flow=&path=%2F&type=ws#Server 32 🇨🇦
 vless://d1e44075-8c92-4698-9db0-e71d7015b757@SMALL-mEAL.oneeAt.co:80?flow=&path=%2F&type=ws#Server 33 🇨🇦
-vless://b055036a-2d81-4d46-ab18-4e1898b58cec@feArLESS-cHANge.oNEEat.CO:80?flow=&path=%2F&type=ws#Server 34 🇺🇸
+vless://b055036a-2d81-4d46-ab18-4e1898b58cec@feArLESS-cHANge.oNEEat.CO:80?flow=&path=%2F&type=ws#Server 34 🇨🇦
 vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handSoME-dEvice.ONEeAt.CO:80?flow=&path=%2F&type=ws#Server 35 🇨🇦
 vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@faMous-daNGEr.OnEeAT.Co:80?flow=&path=%2F&type=ws#Server 36 🇨🇦
 vless://a2af50d9-09c7-4a44-90d0-42da35923e9e@ComMUNaL-LosS.ONEeat.co:80?flow=&path=%2F&type=ws#Server 37 🇨🇦
@@ -43,55 +43,55 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTVNOaDIxVHJYalIyb2syNVEybkU4RU5UMnpvQm1Qdmt
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@arxfw2b78fi2q9hzylhn.freesocks.work:443#Server 43 🇻🇳
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.251:8080#Server 44 🇳🇱
 ss://YWVzLTEyOC1nY206MTYyNjI5ZDctY2IxNy00M2IxLTgyYzktZjljN2FlNmNiYTcw@82.180.146.173:30607#Server 45 🇮🇳
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.28:8080#Server 46
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@160.19.78.75:443#Server 47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM0xwb1U4WC94SG5DRCtjYk5lKzdwMHBLL0puZ0RMTSs1K1JJTHJ4eWZWRlJXL25pS3o1RXUwcld5VmNEaG89@ct.uigame.space:2024#Server 48
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjOTc2NzIxYS1lMzkwLTRkYmYtYjRmOS03MmMzZmViOTU5NGM%3D@45.76.180.205:31298#Server 49
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoa1RHbmdIcXpWbUxLajRQR3ZaVG1Z@h110vpnus.outlinekeys.net:9483#Server 50
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.157:8080#Server 51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTgxNTExYy1iZWNiLTRiNTMtOGE4OS01N2NkM2M5N2IzMjg%3D@45.76.180.205:31368#Server 52
-ss://YWVzLTEyOC1nY206OTM0OTg1MzktNzgzOC00ODM2LWI5YjMtODMxMWZmYzc5YmNm@82.180.146.173:35652#Server 53
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.6:443#Server 54
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.9:443#Server 55
-trojan://f108e0e2-5f12-42b6-9e67-1b2f073ffb2b@172.67.219.196:443?security=tls&sni=CCcvfgt6.852224.dpdns.org&alpn=http%2F1.1&fp=chrome&type=ws&host=cccvfgt6.852224.dpdns.org&path=%2FCA5bMmr2JMum8sDKRwvFCJq#Server 56
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRMDgxZ2F2SFdPUjdXT3ZPbzljWGNH@64.227.144.190:50690#Server 57
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#Server 58
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.35:8080#Server 59
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOYWU3bHVOMFV2SHpUT3BhZk9Zcjk4@fox-usa.outlinekeys.net:34868#Server 60
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@admin.c1.webramz.co:443#Server 61
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNFdrMk5Tc3pyZkhuMjJ6ZW0xbFlW@188.166.220.70:37708#Server 62
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@156.146.62.162:443#Server 63
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.157:8080#Server 64
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1cm5wTjY2amhpazlaZjBFYVdZVUJB@46.4.162.31:1080#Server 65
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXc3R1U25sdTRpZUE5TTBM@admin.c2.webramz.co:443#Server 66
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.58:8080#Server 67
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#Server 68
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.192:8080#Server 69
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.202:8080#Server 70
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTVNOaDIxVHJYalIyb2syNVEybkU4RU5UMnpvQm1QdmthM1JDQ1VBSFpFTENuV29la1ZqdmFmODlxd2NSa2RieEVmZXAyYmMyYVV0bW54cXZGMWF5UVJlejFKSGpVTGo%3D@exchange.gameaurela.click:52952#Server 71
-vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@103.160.204.50:443?encryption=none&security=tls&sni=vless8-ekh.pages.dev&alpn=h3&fp=random&type=ws&host=vless8-ekh.pages.dev&path=%2F%3Fed%3D2560#Server 72
-vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?encryption=none&security=tls&sni=NGINX.NSCl.IR&alpn=h3&type=ws&host=nginx.nscl.ir&path=%2Fassets#Server 73
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.158.171.136:8080#Server 74
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.199:8080#Server 75
-vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&fp=chrome&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560%2F%3FRk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps#Server 76
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.199:8080#Server 77
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.70:8880?encryption=none&security=none&type=grpc#Server 78
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVm5UellBcVhFSHc%3D@89.23.103.229:443#Server 79
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.158.171.136:8080#Server 80
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.136:8080#Server 81
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#Server 82
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.199:8080#Server 83
-vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.202.193:443?encryption=none&security=tls&sni=pqh36v4.hiddendom.shop&alpn=h2&type=grpc#Server 84
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptNkRGQ0V6UmFDUEtQUjV6QzJ3VHlaY0xCOGphU2tnQ3lPam50YkdEcHJvelRkb08%3D@185.246.153.12:31348#Server 85
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.192:8080#Server 86
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.89.111.250:8880?encryption=none&security=none&type=grpc#Server 87
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.28:8080#Server 46 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@160.19.78.75:443#Server 47 🇻🇳
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozM0xwb1U4WC94SG5DRCtjYk5lKzdwMHBLL0puZ0RMTSs1K1JJTHJ4eWZWRlJXL25pS3o1RXUwcld5VmNEaG89@ct.uigame.space:2024#Server 48 🇷🇺
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjOTc2NzIxYS1lMzkwLTRkYmYtYjRmOS03MmMzZmViOTU5NGM%3D@45.76.180.205:31298#Server 49 🇸🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoa1RHbmdIcXpWbUxLajRQR3ZaVG1Z@h110vpnus.outlinekeys.net:9483#Server 50 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.157:8080#Server 51 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTgxNTExYy1iZWNiLTRiNTMtOGE4OS01N2NkM2M5N2IzMjg%3D@45.76.180.205:31368#Server 52 🇸🇬
+ss://YWVzLTEyOC1nY206OTM0OTg1MzktNzgzOC00ODM2LWI5YjMtODMxMWZmYzc5YmNm@82.180.146.173:35652#Server 53 🇮🇳
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.6:443#Server 54 🇺🇸
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.9:443#Server 55 🇺🇸
+trojan://f108e0e2-5f12-42b6-9e67-1b2f073ffb2b@172.67.219.196:443?security=tls&sni=CCcvfgt6.852224.dpdns.org&alpn=http%2F1.1&fp=chrome&type=ws&host=cccvfgt6.852224.dpdns.org&path=%2FCA5bMmr2JMum8sDKRwvFCJq#Server 56 🇨🇦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRMDgxZ2F2SFdPUjdXT3ZPbzljWGNH@64.227.144.190:50690#Server 57 🇮🇳
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#Server 58 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.35:8080#Server 59 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOYWU3bHVOMFV2SHpUT3BhZk9Zcjk4@fox-usa.outlinekeys.net:34868#Server 60 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@admin.c1.webramz.co:443#Server 61 🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNFdrMk5Tc3pyZkhuMjJ6ZW0xbFlW@188.166.220.70:37708#Server 62 🇸🇬
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@156.146.62.162:443#Server 63 🇨🇭
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.157:8080#Server 64 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1cm5wTjY2amhpazlaZjBFYVdZVUJB@46.4.162.31:1080#Server 65 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXc3R1U25sdTRpZUE5TTBM@admin.c2.webramz.co:443#Server 66 🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.58:8080#Server 67 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#Server 68 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.192:8080#Server 69 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.202:8080#Server 70 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMTVNOaDIxVHJYalIyb2syNVEybkU4RU5UMnpvQm1QdmthM1JDQ1VBSFpFTENuV29la1ZqdmFmODlxd2NSa2RieEVmZXAyYmMyYVV0bW54cXZGMWF5UVJlejFKSGpVTGo%3D@exchange.gameaurela.click:52952#Server 71 🇳🇱
+vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@103.160.204.50:443?encryption=none&security=tls&sni=vless8-ekh.pages.dev&alpn=h3&fp=random&type=ws&host=vless8-ekh.pages.dev&path=%2F%3Fed%3D2560#Server 72 🇭🇰
+vless://75fde681-ec64-4654-86fa-30732e8e179c@172.67.92.147:443?encryption=none&security=tls&sni=NGINX.NSCl.IR&alpn=h3&type=ws&host=nginx.nscl.ir&path=%2Fassets#Server 73 🇨🇦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.158.171.136:8080#Server 74 🇻🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.199:8080#Server 75 🇺🇸
+vless://b1a8ceea-6601-45b5-a674-7e5b64ab6f6f@162.159.129.11:2053?encryption=none&security=tls&sni=sub.divib.dynv6.net&fp=chrome&type=ws&host=sub.divib.dynv6.net&path=%2F%3Fed%3D2560%2F%3FRk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps----%40Rk_Vps#Server 76 🇨🇦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.199:8080#Server 77 🇺🇸
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.70:8880?encryption=none&security=none&type=grpc#Server 78 🇫🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVm5UellBcVhFSHc%3D@89.23.103.229:443#Server 79 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.158.171.136:8080#Server 80 🇻🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.136:8080#Server 81 🇻🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#Server 82 🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.199:8080#Server 83 🇺🇸
+vless://401374e6-df77-41fb-f638-dad8184f175b@141.11.202.193:443?encryption=none&security=tls&sni=pqh36v4.hiddendom.shop&alpn=h2&type=grpc#Server 84 🇭🇺
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptNkRGQ0V6UmFDUEtQUjV6QzJ3VHlaY0xCOGphU2tnQ3lPam50YkdEcHJvelRkb08%3D@185.246.153.12:31348#Server 85 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.192:8080#Server 86 🇺🇸
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.89.111.250:8880?encryption=none&security=none&type=grpc#Server 87 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.141:8080#Server 88
-trojan://123456@104.25.165.81:8443?security=tls&sni=top-azx.pages.dev&type=ws&host=top-azx.pages.dev&path=%2FAz1.vpn.33.TOP%2F%3Fed%3D2560#Server 89
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.158.171.136:8080#Server 90
+trojan://123456@104.25.165.81:8443?security=tls&sni=top-azx.pages.dev&type=ws&host=top-azx.pages.dev&path=%2FAz1.vpn.33.TOP%2F%3Fed%3D2560#Server 89 🇨🇦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.158.171.136:8080#Server 90 🇻🇪
 vless://a0a3e34d-87e4-4ff3-b04a-875c85325d62@it.panelmarzban.com:3037?encryption=none&security=reality&sni=refersion.com&fp=firefox&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&type=tcp&headerType=none#Server 91
 vless://dbb3c682-8564-4c02-aec9-23ecf7981820@172.66.132.196:443?encryption=none&security=tls&sni=ARC-448.Pages.DEV&type=ws&host=arc-448.pages.dev&path=%2FTel-%40V2ray_Alpha#Server 92
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.165:8080#Server 93
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.192:8080#Server 94
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.192:8080#Server 94 🇺🇸
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@141.101.121.243:8080?encryption=none&security=none&type=ws&host=1750293123492.china.baidu.bilibili.china.aeko.cn&path=%2F%3Fed%3D2048#Server 95
 vless://4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5@www.speedtest.net:443?encryption=none&security=tls&sni=ali.tas-bazi.com&alpn=h2&fp=firefox&type=xhttp&host=ali.tas-bazi.com&path=%2Ftas&mode=stream-one#Server 96
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.157:8080#Server 97
@@ -191,24 +191,28 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnSXByaFVETnJUT29hM3Ewa3dNQVYy@45.144.54.33:3
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjTXJrcXU5OTVQcFZjR2h0ejZ2U3Y1@45.144.54.33:34803#Server 191
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHWlpCQm9FVWd6VGU5YlUyVXhOcUI4@45.144.54.33:34803#Server 192
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsY2RDRHZ1MDlzcFhUNEVCWnZzdlZN@45.144.54.33:34803#Server 193
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxeVk3bGhid3RTU0c5eFU1bDk2TXR3@45.144.54.33:34803#Server 194
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1dzhqbEdMeVhUVmxZTHZNNlR1d0dR@23.177.185.63:49454#Server 195
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@147.45.178.200:57456#Server 196
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@147.45.178.200:57456#Server 197
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@desrv.vmagnum.win:57456#Server 198
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 199
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 200
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@pl.vmagnum.win:57456#Server 201
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 202
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 203
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@45.144.49.140:57456#Server 204
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.49:8080#Server 205
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#Server 206
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#Server 207
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 208
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@rusrv.vmagnum.win:57456#Server 209
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 210
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpseVc0THVEV0pnSERBbkMzWkRadHNW@81.19.141.45:443#Server 211
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 212
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsaHBDakxLVWF1RGlPclBTSWt5bUV0@81.19.141.45:443#Server 213
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#Server 214
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxeVk3bGhid3RTU0c5eFU1bDk2TXR3@45.144.54.33:34803#Server 194 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1dzhqbEdMeVhUVmxZTHZNNlR1d0dR@23.177.185.63:49454#Server 195 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@147.45.178.200:57456#Server 196 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@147.45.178.200:57456#Server 197 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@desrv.vmagnum.win:57456#Server 198 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiVDd5cDRNNlpSYVlRVjdmd0l0bk82@45.144.54.33:34803#Server 199 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZjlwVEUyc1ZUOVVVdmFsVG1LNzJJ@45.144.54.33:34803#Server 200 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@pl.vmagnum.win:57456#Server 201 🇵🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 202 🇵🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 203 🇵🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@45.144.49.140:57456#Server 204 🇵🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.49:8080#Server 205 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#Server 206 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEZDQ1OE1GeENsdnZLUXA5Z1pIWU9X@23.177.185.63:49454#Server 207 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 208 🇫🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@rusrv.vmagnum.win:57456#Server 209 🇫🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 210 🇫🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpseVc0THVEV0pnSERBbkMzWkRadHNW@81.19.141.45:443#Server 211 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 212 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsaHBDakxLVWF1RGlPclBTSWt5bUV0@81.19.141.45:443#Server 213 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#Server 214 🇫🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 215 🇩🇪
+ss://YWVzLTI1Ni1nY206YXRqZ3NKWG1jdg%3D%3D@103.15.91.171:52327#Server 216 🇻🇳
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 217 🇹🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 218 🇩🇪
