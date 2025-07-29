@@ -1,3 +1,5 @@
+a.mafi | added | [Note: 404.5.7] | 2025-07-29 17:01
+
 molayi | added | [Note: 404.5.6] | 2025-07-28 19:07
 
 customer | added |  | 2025-07-27 13:23
@@ -24,47 +26,25 @@ a.abdollahzade | added | [Note: 404.4.31] | 2025-07-22 11:37
 
 ruyin | added | [Note: 404.4.31] | 2025-07-22 10:52
 
-hamzezade | added | [Note: 404.4.30] | 2025-07-21 18:33
-
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 02:35
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 02:35
-
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 02:16
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 02:16
 
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:59
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:59
 
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 01:48
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 01:48
-
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:35
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:35
-
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 01:32
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 01:32
 
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:30
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:30
 
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 01:17
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 01:17
-
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:15
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 01:15
-
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 01:14
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 01:14
 
 doooper | manual_change | Changes:
 - doooper #dopperiitui | blocked 2025-07-21
@@ -74,10 +54,6 @@ doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:5
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:53
 
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 00:52
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 00:52
-
 doooper | manual_change | Changes:
 - doooper #dopperiitui | blocked 2025-07-21
 + doooper #dopperiitui [Note: dopperiitui] | 2025-07-21 00:49
@@ -85,10 +61,6 @@ doooper | manual_change | Changes:
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:44
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:44
-
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 00:43
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 00:43
 
 doooper | manual_change | Changes:
 - doooper #dopperiitui #dopperiitui #dopperiitui #dopperiitui ---ub | blocked 2025-07-21
@@ -104,10 +76,6 @@ doooper | manual_delete | User manually removed [Note: dopperiitui #dopperiitui 
 
 doooper | blocked | via blocked_users.txt [Note: dopperiitui #dopperiitui ---b | blocked 2025-07-21] | 2025-07-21 00:28
 
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui ---b] | 2025-07-21 00:28
-
-doooper | manual_delete | User manually removed [Note: dopperiitui ---b] | 2025-07-21 00:28
-
 doooper | manual_change | Changes:
 - doooper #dopperiitui | blocked 2025-07-21
 + doooper #dopperiitui [Note: dopperiitui] | 2025-07-21 00:27
@@ -116,10 +84,6 @@ doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:2
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:26
 
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 00:26
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 00:26
-
 doooper | manual_change | Changes:
 - doooper #dopperiitui | blocked 2025-07-21
 + doooper #dopperiitui [Note: dopperiitui] | 2025-07-21 00:24
@@ -127,10 +91,6 @@ doooper | manual_change | Changes:
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:20
 
 doooper | manual_delete | User manually removed [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 00:20
-
-doooper | blocked | | blocked 2025-07-21 [Note: dopperiitui] | 2025-07-21 00:20
-
-doooper | manual_delete | User manually removed [Note: dopperiitui] | 2025-07-21 00:20
 
 doooper | manual_change | Changes:
 - doooper #dopperiitui | blocked 2025-07-20
