@@ -1,3 +1,5 @@
+customer1 | added |  | 2025-08-02 18:50
+
 a.teymurzade | added | [Note: 404.5.8] | 2025-07-30 13:24
 
 a.mafi | added | [Note: 404.5.7] | 2025-07-29 17:01
@@ -9,12 +11,6 @@ customer | added |  | 2025-07-27 13:23
 babayi | added | [Note: 404.5.5] | 2025-07-27 10:43
 
 mohammadzade.van | added | [Note: 404.5.4] | 2025-07-26 17:06
-
-siami | blocked | | blocked 2025-07-23 [Note: 404.4.22] | 2025-07-23 22:56
-
-siami | manual_delete | User manually removed [Note: 404.4.22] | 2025-07-23 22:56
-
-yunesi | added | [Note: 404.5.1] | 2025-07-23 11:29
 
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 02:35
 
