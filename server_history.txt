@@ -1,3 +1,10 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 193 | moved_to_non_working | 2025-08-02 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowbXlsQ0Vqcjc2QXJpdXVHaVlnZHVr@45.144.54.33:34803#Server 198 | recovered_to_main | 2025-08-02 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowbXlsQ0Vqcjc2QXJpdXVHaVlnZHVr@45.144.54.33:34803#Server 198 | moved_to_main | 2025-08-02 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUS1U1N1NsN3EyQVNpRjVwSTBIbGwy@45.144.54.33:34803#Server 199 | recovered_to_main | 2025-08-02 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUS1U1N1NsN3EyQVNpRjVwSTBIbGwy@45.144.54.33:34803#Server 199 | moved_to_main | 2025-08-02 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtdmdmZ3l1Z2l1Z3Z1aXU%3D@sg-2-sst.medicaldream.ir:8444#Server 124 | recovered_to_main | 2025-08-02 17:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtdmdmZ3l1Z2l1Z3Z1aXU%3D@sg-2-sst.medicaldream.ir:8444#Server 124 | moved_to_main | 2025-08-02 17:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtdmdmZ3l1Z2l1Z3Z1aXU%3D@sg-2-sst.medicaldream.ir:8444#Server 124 | moved_to_non_working | 2025-08-02 17:01
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 185 | recovered_to_main | 2025-08-02 17:01
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDY3A1T3R6eDBRUzNPS3hwVWVwR2JL@45.144.54.33:34803#Server 185 | moved_to_main | 2025-08-02 17:01
