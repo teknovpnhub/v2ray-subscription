@@ -1,3 +1,13 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@147.78.3.93:990#Server 188 | moved_to_non_working | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 187 | moved_to_non_working | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1dzhqbEdMeVhUVmxZTHZNNlR1d0dR@23.177.185.63:49454#Server 185 | moved_to_non_working | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.141:8080#Server 84 🇳🇱 | moved_to_non_working | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 198 | recovered_to_main | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 198 | moved_to_main | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 199 | recovered_to_main | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 199 | moved_to_main | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 193 | recovered_to_main | 2025-08-02 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 193 | moved_to_main | 2025-08-02 20:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFb0F6NFE0cmhHdGhWSUM0Wm9FM1hz@147.45.114.160:45651#Server 200 🇳🇱 | moved_to_non_working | 2025-08-02 19:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 193 | moved_to_non_working | 2025-08-02 19:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 123 | recovered_to_main | 2025-08-02 19:56
