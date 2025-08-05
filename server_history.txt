@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.253.171:990#Server 125 | recovered_to_main | 2025-08-05 07:21
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.253.171:990#Server 125 | moved_to_main | 2025-08-05 07:21
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@223.165.4.173:990#Server 206 🇹🇼 | recovered_to_main | 2025-08-05 07:21
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@223.165.4.173:990#Server 206 🇹🇼 | moved_to_main | 2025-08-05 07:21
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@223.165.4.173:990#Server 206 🇹🇼 | moved_to_non_working | 2025-08-05 05:30
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.253.171:990#Server 125 | moved_to_non_working | 2025-08-05 05:30
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.85:8880?encryption=none&security=none&type=grpc#Server 96 | moved_to_non_working | 2025-08-05 05:30
