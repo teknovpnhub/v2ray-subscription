@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "manafi",
     "moradi",
     "asiyabi",
     "customer1",
@@ -112,6 +113,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "manafi": "manafi #404.5.15",
     "moradi": "moradi #404.5.15",
     "asiyabi": "asiyabi #404.5.15",
     "customer1": "customer1 #404.5.11",
@@ -221,5 +223,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-06 19:19"
+  "timestamp": "2025-08-06 19:28"
 }
