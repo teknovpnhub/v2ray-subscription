@@ -29,7 +29,7 @@ vless://64d6d0d4-3706-4837-b154-cda2816adcc5@CRazy-idENtity.onEEat.co:80?flow=&p
 vless://edc0a710-b736-455a-a9f2-d26150e624b2@eNThuSIasTic-CeNTUrY.OneEAt.cO:80?flow=&path=%2F&type=ws#Server 29 🇨🇦
 vless://7e74ff43-3a90-48b3-8372-7d92a045c2d4@LiGHT-PReseNce.oneEaT.Co:80?flow=&path=%2F&type=ws#Server 30 🇨🇦
 vless://5a12794b-2125-46d7-a748-927a989faa04@nArrow-PASsEngER.oNEeAT.co:80?flow=&path=%2F&type=ws#Server 31 🇨🇦
-vless://f1fe4963-66f7-4f71-a038-9e07ea6cf20f@creativE-coMPUter.Oneeat.Co:80?flow=&path=%2F&type=ws#Server 32
+vless://f1fe4963-66f7-4f71-a038-9e07ea6cf20f@creativE-coMPUter.Oneeat.Co:80?flow=&path=%2F&type=ws#Server 32 🇨🇦
 vless://d1e44075-8c92-4698-9db0-e71d7015b757@SMALL-mEAL.oneeAt.co:80?flow=&path=%2F&type=ws#Server 33 🇨🇦
 vless://b055036a-2d81-4d46-ab18-4e1898b58cec@feArLESS-cHANge.oNEEat.CO:80?flow=&path=%2F&type=ws#Server 34 🇨🇦
 vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handSoME-dEvice.ONEeAt.CO:80?flow=&path=%2F&type=ws#Server 35 🇨🇦
@@ -169,17 +169,16 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNFdrMk5Tc3pyZkhuMjJ6ZW0xbFlW@188.166.220.70
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:443#Server 169
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@188.214.36.155:990#Server 170
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.35:8080#Server 171
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 172
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.126.239.250:990#Server 173
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#Server 174
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3anZISEY1U2FGb2I%3D@78.153.131.96:443#Server 175
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#Server 176
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXbUdLOE9oSUJQajZvWDgyRU02dnpa@89.185.84.185:443#Server 177
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@45.144.49.140:57456#Server 178
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 179
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 180
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@pl.vmagnum.win:57456#Server 181
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@192.71.244.150:990#Server 182
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 183
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 184
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 185
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.126.239.250:990#Server 172
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3anZISEY1U2FGb2I%3D@78.153.131.96:443#Server 173
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#Server 174
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXbUdLOE9oSUJQajZvWDgyRU02dnpa@89.185.84.185:443#Server 175
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@45.144.49.140:57456#Server 176
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 177
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 178
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@pl.vmagnum.win:57456#Server 179
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@192.71.244.150:990#Server 180
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 181
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 182
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@192.71.166.102:990#Server 183
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 184
