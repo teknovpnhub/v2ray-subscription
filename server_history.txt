@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UGhIYlJDWks1eVFMc3ZvWHcwODNu@89.185.84.185:443#Server 176 | moved_to_non_working | 2025-08-11 08:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXbUdLOE9oSUJQajZvWDgyRU02dnpa@89.185.84.185:443#Server 170 | moved_to_non_working | 2025-08-11 08:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.141:8080#Server 159 | moved_to_non_working | 2025-08-11 08:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#Server 130 | moved_to_non_working | 2025-08-11 08:58
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@lv.vmagnum.win:57456#Server 163 | recovered_to_main | 2025-08-11 01:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@lv.vmagnum.win:57456#Server 163 | moved_to_main | 2025-08-11 01:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@216.173.70.187:57456#Server 164 | recovered_to_main | 2025-08-11 01:49
