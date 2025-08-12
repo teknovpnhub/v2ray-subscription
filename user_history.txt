@@ -1,3 +1,7 @@
+hadizade | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:52
+
+hadizade | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 18:52
+
 omarzade | added | [Note: 404.5.20] | 2025-08-11 19:09
 
 habibzade1 | added |  | 2025-08-11 18:45
