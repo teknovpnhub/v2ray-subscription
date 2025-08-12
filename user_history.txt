@@ -1,3 +1,7 @@
+m.mohammadi | removed | User deleted [Note: 404.4.16] | 2025-08-12 20:45
+
+m.mohammadi | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 20:45
+
 m.mohammadi | unblocked | [Note: 404.4.16 | blocked 2025-08-12] | 2025-08-12 20:41
 
 m.mohammadi | manual_delete | User manually removed [Note: 404.4.16 | blocked 2025-08-12] | 2025-08-12 20:41
