@@ -1,3 +1,7 @@
+t.hatami | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:58
+
+t.hatami | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 18:58
+
 hatami | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:57
 
 mamedi | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:56
