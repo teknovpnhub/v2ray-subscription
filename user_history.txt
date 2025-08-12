@@ -1,3 +1,7 @@
+tagavi | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 19:00
+
+tagavi | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 19:00
+
 m.mohammadi | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:59
 
 m.mohammadi | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 18:59
