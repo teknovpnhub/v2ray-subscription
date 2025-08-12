@@ -1,3 +1,12 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 182 | moved_to_non_working | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 181 | moved_to_non_working | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 179 🇪🇸 | moved_to_non_working | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 179 | recovered_to_main | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 179 | moved_to_main | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 181 | recovered_to_main | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 181 | moved_to_main | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@92.118.205.228:990#Server 169 | recovered_to_main | 2025-08-12 19:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@92.118.205.228:990#Server 169 | moved_to_main | 2025-08-12 19:58
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaZ24zQlBOakc2SEFzTWRORGdwWTBi@178.208.91.118:19805#Server 183 | moved_to_non_working | 2025-08-12 18:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@92.118.205.228:990#Server 169 | moved_to_non_working | 2025-08-12 18:54
 vless://a0a3e34d-87e4-4ff3-b04a-875c85325d62@it.panelmarzban.com:3037?encryption=none&security=reality&sni=refersion.com&fp=firefox&pbk=21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI&type=tcp&headerType=none#Server 73 | moved_to_non_working | 2025-08-12 18:54
