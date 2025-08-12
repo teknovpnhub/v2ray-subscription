@@ -1,3 +1,7 @@
+khodaverdizade | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:53
+
+khodaverdizade | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 18:53
+
 hadizade | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:52
 
 hadizade | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 18:52
