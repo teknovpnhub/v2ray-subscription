@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 269 | moved_to_non_working | 2025-08-17 02:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 268 | moved_to_non_working | 2025-08-17 02:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaWZ1UjJOVE0wWXQ%3D@62.133.62.109:443#Server 213 | recovered_to_main | 2025-08-17 02:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaWZ1UjJOVE0wWXQ%3D@62.133.62.109:443#Server 213 | moved_to_main | 2025-08-17 02:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaWZ1UjJOVE0wWXQ%3D@62.133.62.109:443#Server 213 | moved_to_non_working | 2025-08-17 01:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLYUtldVVkaVNaSjF2bDJqVThHbmZZ@83.147.216.70:64519#Server 189 | recovered_to_main | 2025-08-17 01:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLYUtldVVkaVNaSjF2bDJqVThHbmZZ@83.147.216.70:64519#Server 189 | moved_to_main | 2025-08-17 01:49
