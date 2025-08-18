@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "parsa1",
     "narimani",
     "habibi",
     "h.novin",
@@ -129,6 +130,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "parsa1": "parsa1 #404.5.27",
     "narimani": "narimani #404.5.27",
     "habibi": "habibi #404.5.27",
     "h.novin": "🚫h.novin #404.4.17 | blocked 2025-08-17",
@@ -256,5 +258,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-18 19:38"
+  "timestamp": "2025-08-18 19:52"
 }
