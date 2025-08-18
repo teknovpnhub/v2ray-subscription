@@ -1,3 +1,29 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 270 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 268 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 220 🇬🇧 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMNDhVekRtOHdpTmJkQ3BkWGFmLUdB@germany-sexy.krot.tech:1080#Server 260 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 265 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#Server 250 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQeDBvRGJmeVhuamZoSGs1R0l1TzBE@77.83.246.74:443#Server 239 🇵🇱 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpseVc0THVEV0pnSERBbkMzWkRadHNW@81.19.141.45:443#Server 235 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaWZ1UjJOVE0wWXQ%3D@62.133.62.109:443#Server 234 🇫🇷 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.251:8080#Server 222 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5UnZpTmE0dHNjamNtQ0I0MDh2TFNn@46.101.245.131:44354#Server 219 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3M1RkenNIb3NQUWpHQWFMbW85bEdR@83.147.216.70:64519#Server 198 🇫🇮 | moved_to_non_working | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 270 | recovered_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 270 | moved_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 268 | recovered_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 268 | moved_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 220 🇬🇧 | recovered_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 220 🇬🇧 | moved_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMNDhVekRtOHdpTmJkQ3BkWGFmLUdB@germany-sexy.krot.tech:1080#Server 260 | recovered_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMNDhVekRtOHdpTmJkQ3BkWGFmLUdB@germany-sexy.krot.tech:1080#Server 260 | moved_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 237 🇨🇦 | recovered_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 237 🇨🇦 | moved_to_main | 2025-08-18 14:49
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.5:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 235 | recovered_to_main | 2025-08-18 14:49
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.5:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 235 | moved_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 265 | recovered_to_main | 2025-08-18 14:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 265 | moved_to_main | 2025-08-18 14:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 265 | moved_to_non_working | 2025-08-18 13:56
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.5:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 235 | moved_to_non_working | 2025-08-18 13:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 255 | moved_to_non_working | 2025-08-18 13:56
