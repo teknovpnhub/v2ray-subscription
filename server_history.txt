@@ -1,3 +1,40 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMNDhVekRtOHdpTmJkQ3BkWGFmLUdB@germany-sexy.krot.tech:1080#Server 256 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 259 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#Server 256 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCSjVuRFpUdWxtWXpuSHZIWGhTNloz@83.147.216.70:64519#Server 240 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 239 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTa05MM2dYR2YxUVlEZUxMTHlrNlVwRjh6ZFVQRTJ0NFpmZWNCQkhUbTlaTjgyZ3d4U2FMVmR4aUI0OUR3MkpFYnpnS1R1MXpEUFlWZk43ajV5b1VwcGdVRVJYdEJYckQ%3D@imap.roomyinmita.name:40565#Server 238 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNbkV3NXpvMlpoZFM4R3k5ZkFNUGZiaG9ndXV2OGJpTllwb3lIb05RTEgyb1pYV0E0VTR5NmlOVFlNZXhqYWlCdlFXdjJONGI0M2dwOVNWRUczbll2TWY3NXA0NkszSGU%3D@imap.roomyinmita.name:40565#Server 237 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpndXIzVlA1Q2dmejY4YzF5VlMzcXJiRGNRQmVTeVN6ZkRZZkNqcFpXQlZ2aktBd2h0Z1c1ODNKc2NyR2V6NXZkVzE3b0ptbmNEb0RrdENQSlJlZWV4RzhZdWFZZDRYYkc%3D@imap.roomyinmita.name:40565#Server 236 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZ0NyV2toQjl5RGthbkxqQjNxY0F0SjFrRjQ2VHJFY1dIUEdxNVVTMzV4NUQ0UmRRVkpwd1N6UWNISE53UndOZ3ZyOTRQZllXdzYzNGYxSjgxdTRHdFd0SFVzUTZOWVI%3D@imap.roomyinmita.name:40565#Server 235 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVmFZSld2eVRnTTdmZjROM3U2SzU2YmhneDdQaDZzYjlBS3dkVzdwUVJkNmh6Ynp4aGRYZmdGYnNlcFljYnczWXhYbXJvMmZaU2FXTWZmancyVzRpS0dkNHdWZDZCQk4%3D@imap.roomyinmita.name:40565#Server 234 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyUFFWUEpFV1h4TWtrZEU4MkFXN3FFajdqeFFyWnhxRlVqM3poZUxqRkFydnRtdXpVWE5wOUpVd3pYR0QxeUpFSGNEeUg0MUhmUE5vMzd2SFd1TEJwM2d1aVJTdVVaNnY%3D@imap.roomyinmita.name:40565#Server 233 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpseVc0THVEV0pnSERBbkMzWkRadHNW@81.19.141.45:443#Server 213 🇩🇪 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowTkxsOE4xU2JRbkpURjBYU2Z0b0VR@83.147.216.70:64519#Server 79 | moved_to_non_working | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UGhIYlJDWks1eVFMc3ZvWHcwODNu@89.185.84.185:443#Server 233 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UGhIYlJDWks1eVFMc3ZvWHcwODNu@89.185.84.185:443#Server 233 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 210 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 210 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 224 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 224 | moved_to_main | 2025-08-18 22:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 235 | recovered_to_main | 2025-08-18 22:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 235 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 253 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 253 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaGg0UkIxOVBNZ1RsYWNnaFhmbzNT@77.83.246.74:443#Server 221 🇵🇱 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaGg0UkIxOVBNZ1RsYWNnaFhmbzNT@77.83.246.74:443#Server 221 🇵🇱 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUFJpMTF6b2lsM3hEU1lJTkhtbHh0@81.19.141.45:443#Server 127 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUFJpMTF6b2lsM3hEU1lJTkhtbHh0@81.19.141.45:443#Server 127 | moved_to_main | 2025-08-18 22:48
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 217 | recovered_to_main | 2025-08-18 22:48
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 217 | moved_to_main | 2025-08-18 22:48
+ss://YWVzLTI1Ni1nY206T1RRMk1UTm1NRGxsTUdNME9EZ3hZVEExWVdSa1lqazBPVFkwTVdRMA%3D%3D@ir.npvnot.com:11097#Server 219 | recovered_to_main | 2025-08-18 22:48
+ss://YWVzLTI1Ni1nY206T1RRMk1UTm1NRGxsTUdNME9EZ3hZVEExWVdSa1lqazBPVFkwTVdRMA%3D%3D@ir.npvnot.com:11097#Server 219 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 235 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 235 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 216 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 216 | moved_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMNDhVekRtOHdpTmJkQ3BkWGFmLUdB@germany-sexy.krot.tech:1080#Server 256 | recovered_to_main | 2025-08-18 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMNDhVekRtOHdpTmJkQ3BkWGFmLUdB@germany-sexy.krot.tech:1080#Server 256 | moved_to_main | 2025-08-18 22:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMNDhVekRtOHdpTmJkQ3BkWGFmLUdB@germany-sexy.krot.tech:1080#Server 256 | moved_to_non_working | 2025-08-18 22:03
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 216 | moved_to_non_working | 2025-08-18 22:03
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 235 | moved_to_non_working | 2025-08-18 22:03
