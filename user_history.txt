@@ -1,3 +1,7 @@
+habibi | unblocked | [Note: 404.5.27 | blocked 2025-08-17] | 2025-08-18 18:40
+
+habibi | manual_delete | User manually removed [Note: 404.5.27 | blocked 2025-08-17] | 2025-08-18 18:40
+
 h.novin | blocked | | blocked 2025-08-17 [Note: 404.4.17] | 2025-08-17 10:46
 
 h.novin | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:46
@@ -101,12 +105,6 @@ omarzade | added | [Note: 404.5.20] | 2025-08-11 19:09
 habibzade1 | added |  | 2025-08-11 18:45
 
 habibzade1 | auto_renamed | Automatically renamed from habibzade due to duplicate | 2025-08-11 18:45
-
-josef | added | [Note: 404.5.19] | 2025-08-10 21:04
-
-zafari | added | [Note: 404.5.19] | 2025-08-10 19:36
-
-gholami | added | [Note: 404.5.19] | 2025-08-10 19:17
 
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 02:35
 
