@@ -1,3 +1,32 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 265 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 222 🇬🇧 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaWZ1UjJOVE0wWXQ%3D@62.133.62.109:443#Server 261 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 260 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 256 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 255 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowUnNyY0ZKMXZPc1dFcWczUDU1aHZhYWNLZnVTaFQwY2MxaDB0OEFEME5BOHUxdVI%3D@92.38.171.215:31348#Server 247 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 246 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5UnZpTmE0dHNjamNtQ0I0MDh2TFNn@46.101.245.131:44354#Server 218 🇩🇪 | moved_to_non_working | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.45:8080#Server 40 🇳🇱 | moved_to_non_working | 2025-08-19 18:53
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 244 | recovered_to_main | 2025-08-19 18:53
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 244 | moved_to_main | 2025-08-19 18:53
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 263 | recovered_to_main | 2025-08-19 18:53
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 263 | moved_to_main | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 265 | recovered_to_main | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 265 | moved_to_main | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@147.78.3.93:990#Server 171 | recovered_to_main | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@147.78.3.93:990#Server 171 | moved_to_main | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 222 🇬🇧 | recovered_to_main | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 222 🇬🇧 | moved_to_main | 2025-08-19 18:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaGg0UkIxOVBNZ1RsYWNnaFhmbzNT@77.83.246.74:443#Server 246 🇵🇱 | recovered_to_main | 2025-08-19 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaGg0UkIxOVBNZ1RsYWNnaFhmbzNT@77.83.246.74:443#Server 246 🇵🇱 | moved_to_main | 2025-08-19 18:52
+ss://YWVzLTI1Ni1nY206T1RRMk1UTm1NRGxsTUdNME9EZ3hZVEExWVdSa1lqazBPVFkwTVdRMA%3D%3D@ir.npvnot.com:11097#Server 250 🇮🇷 | recovered_to_main | 2025-08-19 18:52
+ss://YWVzLTI1Ni1nY206T1RRMk1UTm1NRGxsTUdNME9EZ3hZVEExWVdSa1lqazBPVFkwTVdRMA%3D%3D@ir.npvnot.com:11097#Server 250 🇮🇷 | moved_to_main | 2025-08-19 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 258 🇳🇱 | recovered_to_main | 2025-08-19 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 258 🇳🇱 | moved_to_main | 2025-08-19 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 248 | recovered_to_main | 2025-08-19 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 248 | moved_to_main | 2025-08-19 18:52
+ss://YWVzLTI1Ni1nY206NEF4SVFXUXpuZlRHSGg4MFo3OFdYTlBJT0U1dDVQY1dwK2JKVGRWNFg2VT0%3D@167.172.73.185:59844#Server 206 🇸🇬 | removed_after_3_days | 2025-08-19 18:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 248 | moved_to_non_working | 2025-08-19 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQeDBvRGJmeVhuamZoSGs1R0l1TzBE@77.83.246.74:443#Server 262 🇵🇱 | moved_to_non_working | 2025-08-19 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 258 🇳🇱 | moved_to_non_working | 2025-08-19 17:50
