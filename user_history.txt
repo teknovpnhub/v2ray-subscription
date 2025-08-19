@@ -1,3 +1,7 @@
+pakravan | unblocked | [Note: 404.5.27] | 2025-08-19 12:19
+
+pakravan | manual_delete | User manually removed [Note: 404.5.27] | 2025-08-19 12:19
+
 parsa1 | added |  | 2025-08-18 19:52
 
 parsa1 | auto_renamed | Automatically renamed from parsa due to duplicate | 2025-08-18 19:52
@@ -107,12 +111,6 @@ khodaverdizade | manual_delete | User manually removed [Note: 404.4.16] | 2025-0
 hadizade | blocked | | blocked 2025-08-12 [Note: 404.4.16] | 2025-08-12 18:52
 
 hadizade | manual_delete | User manually removed [Note: 404.4.16] | 2025-08-12 18:52
-
-omarzade | added | [Note: 404.5.20] | 2025-08-11 19:09
-
-habibzade1 | added |  | 2025-08-11 18:45
-
-habibzade1 | auto_renamed | Automatically renamed from habibzade due to duplicate | 2025-08-11 18:45
 
 doooper | unblocked | [Note: dopperiitui | blocked 2025-07-21] | 2025-07-21 02:35
 
