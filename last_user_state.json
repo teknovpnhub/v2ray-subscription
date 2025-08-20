@@ -1,8 +1,8 @@
 {
   "usernames": [
+    "n.karimi",
     "r.taragikhah",
     "shokrzade",
-    "n.karimi",
     "a.ahmadi",
     "pashazade",
     "a.mafi",
@@ -130,9 +130,9 @@
     "vahid.behruz"
   ],
   "lines": {
+    "n.karimi": "n.karimi #404.4.18",
     "r.taragikhah": "🚫r.taragikhah #404.4.18 | blocked 2025-08-20",
     "shokrzade": "🚫shokrzade #404.4.18 | blocked 2025-08-20",
-    "n.karimi": "🚫n.karimi #404.4.18 | blocked 2025-08-20",
     "a.ahmadi": "🚫a.ahmadi #404.4.18 | blocked 2025-08-20",
     "pashazade": "🚫pashazade #404.4.18 | blocked 2025-08-20",
     "a.mafi": "a.mafi #404.5.25",
@@ -258,5 +258,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-20 17:01"
+  "timestamp": "2025-08-20 17:10"
 }
