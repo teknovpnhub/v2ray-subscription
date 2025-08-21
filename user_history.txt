@@ -1,3 +1,5 @@
+karimzade | added | [Note: 404.5.30] | 2025-08-21 10:37
+
 masumi1 | added |  | 2025-08-20 19:56
 
 masumi1 | auto_renamed | Automatically renamed from masumi due to duplicate | 2025-08-20 19:56
@@ -92,27 +94,9 @@ alipour | added | [Note: 404.5.25] | 2025-08-16 13:07
 
 a.esmailzade | added | [Note: 404.5.25] | 2025-08-16 12:40
 
-h.lotfi | added | [Note: 404.5.22] | 2025-08-13 20:29
-
 erfan | unblocked | [Note: 404.5.21 | blocked 2025-08-13] | 2025-08-13 01:31
 
 erfan | manual_delete | User manually removed [Note: 404.5.21 | blocked 2025-08-13] | 2025-08-13 01:31
-
-erfan | blocked | | blocked 2025-08-13 [Note: 404.5.21] | 2025-08-13 01:28
-
-erfan | manual_delete | User manually removed [Note: 404.5.21] | 2025-08-13 01:28
-
-erfan | manual_change | Changes:
-- erfan
-+ erfan #404.5.21 [Note: 404.5.21] | 2025-08-13 01:27
-
-hadi.nariman | blocked | | blocked 2025-08-13 | 2025-08-13 01:22
-
-hadi.nariman | manual_delete | User manually removed | 2025-08-13 01:22
-
-hadi.nariman | unblocked |  | 2025-08-13 01:21
-
-hadi.nariman | manual_delete | User manually removed | 2025-08-13 01:21
 
 m.mohammadi | unblocked | [Note: 404.4.16 | blocked 2025-08-12] | 2025-08-12 20:41
 
