@@ -1,3 +1,16 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 266 | moved_to_non_working | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 269 🇩🇪 | moved_to_non_working | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 264 🇩🇪 | moved_to_non_working | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 247 🇳🇱 | moved_to_non_working | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0eWRyWHI0RzdRQkVXN3Nld0dPZUc5@104.192.227.162:443#Server 241 🇺🇸 | moved_to_non_working | 2025-08-22 16:59
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 230 | moved_to_non_working | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 210 | moved_to_non_working | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 266 | recovered_to_main | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 266 | moved_to_main | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 247 | recovered_to_main | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 247 | moved_to_main | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 257 | recovered_to_main | 2025-08-22 16:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 257 | moved_to_main | 2025-08-22 16:59
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 252 | moved_to_non_working | 2025-08-22 16:11
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 257 | moved_to_non_working | 2025-08-22 16:11
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 247 | moved_to_non_working | 2025-08-22 16:11
