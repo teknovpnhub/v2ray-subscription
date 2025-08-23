@@ -124,7 +124,7 @@ n.tamuyi #404.4.19
 a.sahrayi #404.4.19
 ilati1 #404.4.19
 ilati #404.4.19
-khani #404.4.19
+khani ---b #404.4.19
 family
 🚫i.izadi #404.4.17
 c
