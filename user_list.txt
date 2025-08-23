@@ -124,7 +124,7 @@ fekrat #404.4.19
 s.mardalizade #404.4.19
 t.maaleki1 #404.4.19
 t.maaleki #404.4.19
-n.tamuyi #404.4.19
+n.tamuyi ---b #404.4.19
 family
 🚫i.izadi #404.4.17
 c
