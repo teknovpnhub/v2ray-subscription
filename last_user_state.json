@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "iranpour",
     "babazade",
     "gholami",
     "r.taragikhah",
@@ -126,7 +127,6 @@
     "ilati",
     "khani",
     "aragi",
-    "iranpour",
     "family",
     "i.izadi",
     "c",
@@ -134,6 +134,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "iranpour": "🚫iranpour #404.4.19 | blocked 2025-08-23",
     "babazade": "🚫babazade #404.4.19 | blocked 2025-08-23",
     "gholami": "gholami #404.6.1",
     "r.taragikhah": "r.taragikhah #404.5.30",
@@ -259,12 +260,11 @@
     "ilati": "ilati #404.4.19",
     "khani": "khani #404.4.19",
     "aragi": "aragi #404.4.19",
-    "iranpour": "iranpour #404.4.19",
     "family": "family",
     "i.izadi": "🚫i.izadi #404.4.17",
     "c": "c",
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-23 18:37"
+  "timestamp": "2025-08-23 18:38"
 }
