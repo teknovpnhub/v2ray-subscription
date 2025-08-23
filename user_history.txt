@@ -1,3 +1,7 @@
+khani | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:42
+
+khani | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:42
+
 aragi | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:40
 
 aragi | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:40
