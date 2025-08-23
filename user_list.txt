@@ -124,7 +124,7 @@ valizade #404.4.21
 f.zeynali #404.4.21
 m.masumi #404.4.19
 f.tamuyi #404.4.19
-soltanzade #404.4.19
+soltanzade ---b #404.4.19
 family
 🚫i.izadi #404.4.17
 c
