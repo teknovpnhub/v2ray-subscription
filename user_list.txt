@@ -124,7 +124,7 @@ s.mardalizade #404.4.19
 t.maaleki1 #404.4.19
 t.maaleki #404.4.19
 n.tamuyi #404.4.19
-a.sahrayi #404.4.19
+a.sahrayi ---b #404.4.19
 family
 🚫i.izadi #404.4.17
 c
