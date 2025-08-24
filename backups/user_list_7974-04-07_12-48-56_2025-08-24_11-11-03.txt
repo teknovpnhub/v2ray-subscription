@@ -1,4 +1,3 @@
-aragi #404.6.2
 🚫m.gorbani #404.4.21 | blocked 2025-08-23
 🚫f.alinezhad #404.4.21 | blocked 2025-08-23
 🚫z.ebrahimi #404.4.21 | blocked 2025-08-23
@@ -22,6 +21,7 @@ aragi #404.6.2
 🚫ilati1 #404.4.19 | blocked 2025-08-23
 🚫ilati #404.4.19 | blocked 2025-08-23
 🚫khani #404.4.19 | blocked 2025-08-23
+🚫aragi ---ub #404.6.2  | blocked 2025-08-23
 🚫iranpour #404.4.19 | blocked 2025-08-23
 🚫babazade #404.4.19 | blocked 2025-08-23
 gholami #404.6.1

@@ -1,3 +1,7 @@
+aragi | unblocked | [Note: 404.6.2  | blocked 2025-08-23] | 2025-08-24 11:11
+
+aragi | manual_delete | User manually removed [Note: 404.6.2  | blocked 2025-08-23] | 2025-08-24 11:11
+
 m.gorbani | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:15
 
 m.gorbani | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:15
@@ -215,10 +219,6 @@ habibi | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:
 pakravan | blocked | | blocked 2025-08-17 [Note: 404.4.17] | 2025-08-17 10:43
 
 pakravan | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:43
-
-alipour | added | [Note: 404.5.25] | 2025-08-16 13:07
-
-a.esmailzade | added | [Note: 404.5.25] | 2025-08-16 12:40
 
 erfan | unblocked | [Note: 404.5.21 | blocked 2025-08-13] | 2025-08-13 01:31
 
