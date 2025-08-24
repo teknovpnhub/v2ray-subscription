@@ -1,3 +1,13 @@
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 251 | moved_to_non_working | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8319#Server 245 | moved_to_non_working | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8313#Server 244 🇭🇰 | moved_to_non_working | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8316#Server 243 🇭🇰 | moved_to_non_working | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 267 | recovered_to_main | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 267 | moved_to_main | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 268 | recovered_to_main | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 268 | moved_to_main | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.209.147.198:990#Server 208 | recovered_to_main | 2025-08-24 06:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.209.147.198:990#Server 208 | moved_to_main | 2025-08-24 06:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.238.207.188:8319#Server 258 | moved_to_non_working | 2025-08-24 05:21
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.238.207.188:8313#Server 257 | moved_to_non_working | 2025-08-24 05:21
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@54.238.207.188:8316#Server 256 | moved_to_non_working | 2025-08-24 05:21
