@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "khani1",
     "aragi",
     "m.gorbani",
     "f.alinezhad",
@@ -134,6 +135,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "khani1": "khani1 #404.6.2",
     "aragi": "aragi #404.6.2",
     "m.gorbani": "🚫m.gorbani #404.4.21 | blocked 2025-08-23",
     "f.alinezhad": "🚫f.alinezhad #404.4.21 | blocked 2025-08-23",
@@ -266,5 +268,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-24 11:11"
+  "timestamp": "2025-08-24 11:41"
 }
