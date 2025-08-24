@@ -13,7 +13,7 @@ aragi #404.6.2
 🚫f.tamuyi #404.4.19 | blocked 2025-08-23
 🚫soltanzade #404.4.19 | blocked 2025-08-23
 🚫t.maaleki3 #404.4.19 | blocked 2025-08-23
-🚫t.maaleki2 #404.4.19 | blocked 2025-08-23
+🚫t.maaleki2 ---ub #404.6.2 | blocked 2025-08-23
 🚫fekrat #404.4.19 | blocked 2025-08-23
 🚫s.mardalizade #404.4.19 | blocked 2025-08-23
 🚫t.maaleki1 #404.4.19 | blocked 2025-08-23
