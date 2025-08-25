@@ -1,3 +1,7 @@
+shokrzade | unblocked | [Note: 404.6.3 | blocked 2025-08-20] | 2025-08-25 10:40
+
+shokrzade | manual_delete | User manually removed [Note: 404.6.3 | blocked 2025-08-20] | 2025-08-25 10:40
+
 f.alinezhad | unblocked | [Note: 404.6.2 | blocked 2025-08-23] | 2025-08-24 19:59
 
 f.alinezhad | manual_delete | User manually removed [Note: 404.6.2 | blocked 2025-08-23] | 2025-08-24 19:59
@@ -223,26 +227,6 @@ narimani | manual_delete | User manually removed [Note: 404.4.16 | blocked 2025-
 habibi | unblocked | [Note: 404.5.27 | blocked 2025-08-17] | 2025-08-18 18:40
 
 habibi | manual_delete | User manually removed [Note: 404.5.27 | blocked 2025-08-17] | 2025-08-18 18:40
-
-h.novin | blocked | | blocked 2025-08-17 [Note: 404.4.17] | 2025-08-17 10:46
-
-h.novin | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:46
-
-r.alizade | blocked | | blocked 2025-08-17 [Note: 404.4.17] | 2025-08-17 10:45
-
-r.alizade | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:45
-
-khosropour | blocked | | blocked 2025-08-17 [Note: 404.4.17] | 2025-08-17 10:44
-
-khosropour | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:44
-
-habibi | blocked | | blocked 2025-08-17 [Note: 404.4.17] | 2025-08-17 10:43
-
-habibi | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:43
-
-pakravan | blocked | | blocked 2025-08-17 [Note: 404.4.17] | 2025-08-17 10:43
-
-pakravan | manual_delete | User manually removed [Note: 404.4.17] | 2025-08-17 10:43
 
 erfan | unblocked | [Note: 404.5.21 | blocked 2025-08-13] | 2025-08-13 01:31
 
