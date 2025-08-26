@@ -1,3 +1,18 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@94.131.21.174:54075#Server 254 | moved_to_non_working | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 251 | moved_to_non_working | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@beta.mattenadene.org:54075#Server 250 | moved_to_non_working | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 247 | moved_to_non_working | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 246 | moved_to_non_working | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 240 | moved_to_non_working | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYUnpnUG96cE5nSlpqZURKcjFhRUZV@178.208.91.118:19805#Server 199 | moved_to_non_working | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 224 🇺🇸 | recovered_to_main | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 224 🇺🇸 | moved_to_main | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 225 🇺🇸 | recovered_to_main | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 225 🇺🇸 | moved_to_main | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 226 🇺🇸 | recovered_to_main | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 226 🇺🇸 | moved_to_main | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 227 🇨🇦 | recovered_to_main | 2025-08-26 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 227 🇨🇦 | moved_to_main | 2025-08-26 20:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 246 | moved_to_non_working | 2025-08-26 19:55
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 253 | moved_to_non_working | 2025-08-26 19:55
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 252 | moved_to_non_working | 2025-08-26 19:55
