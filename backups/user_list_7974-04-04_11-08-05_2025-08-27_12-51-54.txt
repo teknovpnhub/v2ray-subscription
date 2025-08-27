@@ -1,5 +1,4 @@
-🚫a.najati #404.4.23 | blocked 2025-08-27
-🚫mojallal #404.4.22 | blocked 2025-08-27
+mojallal ---b #404.4.22
 🚫parsa #404.4.22 | blocked 2025-08-27
 🚫sabri #404.4.22 | blocked 2025-08-27
 🚫abedi #404.4.22 | blocked 2025-08-27
@@ -129,6 +128,7 @@ a.valilou #404.4.24
 t.seddigi #404.4.23
 s.mamasi #404.4.23
 s.ebadi #404.4.23
+a.najati #404.4.23
 ansarifard #404.4.22
 family
 🚫i.izadi #404.4.17
