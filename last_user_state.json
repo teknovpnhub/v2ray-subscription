@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "a.najati",
     "mojallal",
     "parsa",
     "sabri",
@@ -130,7 +131,6 @@
     "t.seddigi",
     "s.mamasi",
     "s.ebadi",
-    "a.najati",
     "ansarifard",
     "family",
     "i.izadi",
@@ -139,6 +139,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "a.najati": "🚫a.najati #404.4.23 | blocked 2025-08-27",
     "mojallal": "🚫mojallal #404.4.22 | blocked 2025-08-27",
     "parsa": "🚫parsa #404.4.22 | blocked 2025-08-27",
     "sabri": "🚫sabri #404.4.22 | blocked 2025-08-27",
@@ -269,7 +270,6 @@
     "t.seddigi": "t.seddigi #404.4.23",
     "s.mamasi": "s.mamasi #404.4.23",
     "s.ebadi": "s.ebadi #404.4.23",
-    "a.najati": "a.najati #404.4.23",
     "ansarifard": "ansarifard #404.4.22",
     "family": "family",
     "i.izadi": "🚫i.izadi #404.4.17",
@@ -277,5 +277,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-27 12:51"
+  "timestamp": "2025-08-27 12:53"
 }
