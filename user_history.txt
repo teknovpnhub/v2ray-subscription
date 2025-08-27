@@ -1,3 +1,7 @@
+rai | blocked | | blocked 2025-08-27 [Note: 404.4.24] | 2025-08-27 12:57
+
+rai | manual_delete | User manually removed [Note: 404.4.24] | 2025-08-27 12:57
+
 costumer | blocked | | blocked 2025-08-27 [Note: 404.4.24] | 2025-08-27 12:56
 
 costumer | manual_delete | User manually removed [Note: 404.4.24] | 2025-08-27 12:56
