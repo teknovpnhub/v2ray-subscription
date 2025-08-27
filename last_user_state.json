@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "safari",
     "h.mukhtari",
     "malkami",
     "gahramani",
@@ -132,7 +133,6 @@
     "hasani",
     "salamzade",
     "alrostam",
-    "safari",
     "family",
     "i.izadi",
     "c",
@@ -140,6 +140,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "safari": "🚫safari #404.4.22 | blocked 2025-08-27",
     "h.mukhtari": "h.mukhtari #404.6.4",
     "malkami": "malkami #404.6.4",
     "gahramani": "gahramani #404.6.4",
@@ -271,12 +272,11 @@
     "hasani": "hasani #404.4.22",
     "salamzade": "salamzade #404.4.22",
     "alrostam": "alrostam #404.4.22",
-    "safari": "safari #404.4.22",
     "family": "family",
     "i.izadi": "🚫i.izadi #404.4.17",
     "c": "c",
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-27 11:57"
+  "timestamp": "2025-08-27 12:41"
 }

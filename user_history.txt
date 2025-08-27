@@ -1,3 +1,7 @@
+safari | blocked | | blocked 2025-08-27 [Note: 404.4.22] | 2025-08-27 12:41
+
+safari | manual_delete | User manually removed [Note: 404.4.22] | 2025-08-27 12:41
+
 h.mukhtari | added | [Note: 404.6.4] | 2025-08-26 20:37
 
 h.mukhtari | manual_delete | User manually removed [Note: 404.6.4] | 2025-08-26 20:37
@@ -229,10 +233,6 @@ a.panahi | manual_delete | User manually removed [Note: 404.4.18] | 2025-08-20 1
 v.mohammadi | blocked | | blocked 2025-08-20 [Note: 404.4.18] | 2025-08-20 05:01
 
 v.mohammadi | manual_delete | User manually removed [Note: 404.4.18] | 2025-08-20 05:01
-
-pakravan | unblocked | [Note: 404.5.27] | 2025-08-19 12:19
-
-pakravan | manual_delete | User manually removed [Note: 404.5.27] | 2025-08-19 12:19
 
 narimani | unblocked | [Note: 404.4.16 | blocked 2025-08-12] | 2025-08-18 19:37
 
