@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "t.seddigi",
     "s.mamasi",
     "s.ebadi",
     "a.najati",
@@ -130,7 +131,6 @@
     "rai",
     "costumer",
     "a.valilou",
-    "t.seddigi",
     "ansarifard",
     "family",
     "i.izadi",
@@ -139,6 +139,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "t.seddigi": "🚫t.seddigi #404.4.23 | blocked 2025-08-27",
     "s.mamasi": "🚫s.mamasi #404.4.23 | blocked 2025-08-27",
     "s.ebadi": "🚫s.ebadi #404.4.23 | blocked 2025-08-27",
     "a.najati": "🚫a.najati #404.4.23 | blocked 2025-08-27",
@@ -269,7 +270,6 @@
     "rai": "rai #404.4.24",
     "costumer": "costumer #404.4.24",
     "a.valilou": "a.valilou #404.4.24",
-    "t.seddigi": "t.seddigi #404.4.23",
     "ansarifard": "ansarifard #404.4.22",
     "family": "family",
     "i.izadi": "🚫i.izadi #404.4.17",
@@ -277,5 +277,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-27 12:54"
+  "timestamp": "2025-08-27 12:55"
 }
