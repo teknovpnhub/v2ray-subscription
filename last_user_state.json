@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "farshad.jabbari",
     "igdam",
     "s.mamasi",
     "sahranavard",
@@ -10,7 +11,6 @@
     "hadi.mohammadi",
     "lahuri",
     "costumer1",
-    "farshad.jabbari",
     "rahimzade",
     "ansarifard",
     "hasani",
@@ -141,6 +141,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "farshad.jabbari": "farshad.jabbari #404.6.8",
     "igdam": "igdam #404.6.8",
     "s.mamasi": "s.mamasi #404.6.8",
     "sahranavard": "sahranavard #404.6.8",
@@ -151,7 +152,6 @@
     "hadi.mohammadi": "🚫hadi.mohammadi #404.4.25 | blocked 2025-08-30",
     "lahuri": "🚫lahuri #404.4.26 | blocked 2025-08-30",
     "costumer1": "🚫costumer1 #404.4.25 | blocked 2025-08-30",
-    "farshad.jabbari": "🚫farshad.jabbari #404.4.25 | blocked 2025-08-30",
     "rahimzade": "🚫rahimzade #404.4.25 | blocked 2025-08-30",
     "ansarifard": "🚫ansarifard #404.4.22 | blocked 2025-08-30",
     "hasani": "hasani #404.6.6",
@@ -281,5 +281,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-30 20:45"
+  "timestamp": "2025-08-30 21:08"
 }
