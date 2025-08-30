@@ -1,3 +1,54 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 246 🇩🇪 | moved_to_non_working | 2025-08-30 13:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:443#Server 179 | moved_to_non_working | 2025-08-30 13:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLYUtldVVkaVNaSjF2bDJqVThHbmZZ@83.147.216.70:64519#Server 189 🇫🇮 | moved_to_non_working | 2025-08-30 13:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 246 🇩🇪 | moved_to_non_working | 2025-08-30 13:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUFJpMTF6b2lsM3hEU1lJTkhtbHh0@81.19.141.45:443#Server 249 🇩🇪 | moved_to_non_working | 2025-08-30 13:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 235 🇳🇱 | moved_to_non_working | 2025-08-30 13:49
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 234 🇯🇵 | moved_to_non_working | 2025-08-30 13:49
+ss://YWVzLTI1Ni1nY206aDBMVnI5cGt2aW02Q1VUSA%3D%3D@free-hk.vpnkey.dev:8388#Server 106 | moved_to_non_working | 2025-08-30 13:49
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.24:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 37 🇩🇪 | moved_to_non_working | 2025-08-30 13:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 191 🇺🇸 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 191 🇺🇸 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 192 🇺🇸 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 192 🇺🇸 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 193 🇺🇸 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 193 🇺🇸 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 241 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 241 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 235 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 235 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 243 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 243 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 246 🇩🇪 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 246 🇩🇪 | moved_to_main | 2025-08-30 13:48
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.19:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 13 🇩🇪 | recovered_to_main | 2025-08-30 13:48
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.19:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 13 🇩🇪 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:443#Server 179 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:443#Server 179 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLYUtldVVkaVNaSjF2bDJqVThHbmZZ@83.147.216.70:64519#Server 189 🇫🇮 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLYUtldVVkaVNaSjF2bDJqVThHbmZZ@83.147.216.70:64519#Server 189 🇫🇮 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcTF5NnpFQW1jZkdvQkIwZFJCYlY3@83.147.216.70:64519#Server 202 🇫🇮 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcTF5NnpFQW1jZkdvQkIwZFJCYlY3@83.147.216.70:64519#Server 202 🇫🇮 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprbWdrMXNXWTRGaDRkdzlieGsyTkJH@83.147.216.70:64519#Server 208 🇫🇮 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprbWdrMXNXWTRGaDRkdzlieGsyTkJH@83.147.216.70:64519#Server 208 🇫🇮 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@104.167.197.25:57456#Server 215 🇺🇸 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@104.167.197.25:57456#Server 215 🇺🇸 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@us.vmagnum.win:57456#Server 216 🇺🇸 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@us.vmagnum.win:57456#Server 216 🇺🇸 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVFViNFl1U21Qb1NKVDRiWVVZZWUy@83.147.216.70:64519#Server 228 🇫🇮 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVFViNFl1U21Qb1NKVDRiWVVZZWUy@83.147.216.70:64519#Server 228 🇫🇮 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 233 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 233 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 246 🇩🇪 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 246 🇩🇪 | moved_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUFJpMTF6b2lsM3hEU1lJTkhtbHh0@81.19.141.45:443#Server 249 🇩🇪 | recovered_to_main | 2025-08-30 13:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUFJpMTF6b2lsM3hEU1lJTkhtbHh0@81.19.141.45:443#Server 249 🇩🇪 | moved_to_main | 2025-08-30 13:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 244 | recovered_to_main | 2025-08-30 13:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 244 | moved_to_main | 2025-08-30 13:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 234 | recovered_to_main | 2025-08-30 13:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 234 | moved_to_main | 2025-08-30 13:48
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 217 | recovered_to_main | 2025-08-30 13:48
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 217 | moved_to_main | 2025-08-30 13:48
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 217 | moved_to_non_working | 2025-08-30 12:48
 ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 234 | moved_to_non_working | 2025-08-30 12:48
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 244 | moved_to_non_working | 2025-08-30 12:48
