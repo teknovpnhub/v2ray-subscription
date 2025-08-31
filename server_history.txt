@@ -1,3 +1,11 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | moved_to_non_working | 2025-08-31 08:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 242 | moved_to_non_working | 2025-08-31 08:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 254 | recovered_to_main | 2025-08-31 08:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 254 | moved_to_main | 2025-08-31 08:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 239 | recovered_to_main | 2025-08-31 08:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 239 | moved_to_main | 2025-08-31 08:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 240 | recovered_to_main | 2025-08-31 08:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 240 | moved_to_main | 2025-08-31 08:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 240 | moved_to_non_working | 2025-08-31 07:53
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 239 | moved_to_non_working | 2025-08-31 07:53
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@lv.vpnsparta.pro:57456#Server 181 | recovered_to_main | 2025-08-31 07:53
