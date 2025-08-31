@@ -1,3 +1,27 @@
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 228 | moved_to_non_working | 2025-08-31 16:08
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | moved_to_non_working | 2025-08-31 16:08
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 178 | moved_to_non_working | 2025-08-31 16:08
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#Server 160 | moved_to_non_working | 2025-08-31 16:08
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 227 | recovered_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 227 | moved_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 231 🇵🇱 | recovered_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 231 🇵🇱 | moved_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 232 🇵🇱 | recovered_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 232 🇵🇱 | moved_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@pl.vmagnum.win:57456#Server 233 | recovered_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@pl.vmagnum.win:57456#Server 233 | moved_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@45.144.49.140:57456#Server 234 | recovered_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@45.144.49.140:57456#Server 234 | moved_to_main | 2025-08-31 16:07
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.25:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 49 | recovered_to_main | 2025-08-31 16:07
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.25:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 49 | moved_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.209.147.198:990#Server 175 | recovered_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.209.147.198:990#Server 175 | moved_to_main | 2025-08-31 16:07
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 228 | recovered_to_main | 2025-08-31 16:07
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 228 | moved_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | recovered_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | moved_to_main | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjOTc2NzIxYS1lMzkwLTRkYmYtYjRmOS03MmMzZmViOTU5NGM%3D@45.76.180.205:31298#Server 248 🇸🇬 | removed_after_3_days | 2025-08-31 16:07
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOTgxNTExYy1iZWNiLTRiNTMtOGE4OS01N2NkM2M5N2IzMjg%3D@45.76.180.205:31368#Server 249 🇸🇬 | removed_after_3_days | 2025-08-31 16:07
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | moved_to_non_working | 2025-08-31 14:45
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 242 | moved_to_non_working | 2025-08-31 14:45
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 228 | moved_to_non_working | 2025-08-31 14:45
