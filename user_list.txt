@@ -56,7 +56,7 @@ aragi #404.6.2
 🚫a.sahrayi #404.4.19 | blocked 2025-08-23
 🚫ilati1 #404.4.19 | blocked 2025-08-23
 🚫ilati #404.4.19 | blocked 2025-08-23
-🚫khani #404.4.19 | blocked 2025-08-23
+🚫khani ---ub #404.6.9 | blocked 2025-08-23
 🚫iranpour #404.4.19 | blocked 2025-08-23
 🚫babazade #404.4.19 | blocked 2025-08-23
 gholami #404.6.1
