@@ -1,3 +1,5 @@
+farajzade | added | [Note: 404.6.9] | 2025-08-31 11:45
+
 farshad.jabbari | unblocked | [Note: 404.6.8 | blocked 2025-08-30] | 2025-08-30 21:08
 
 farshad.jabbari | manual_delete | User manually removed [Note: 404.6.8 | blocked 2025-08-30] | 2025-08-30 21:08
@@ -165,110 +167,6 @@ khani1 | auto_renamed | Automatically renamed from khani due to duplicate | 2025
 aragi | unblocked | [Note: 404.6.2  | blocked 2025-08-23] | 2025-08-24 11:11
 
 aragi | manual_delete | User manually removed [Note: 404.6.2  | blocked 2025-08-23] | 2025-08-24 11:11
-
-m.gorbani | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:15
-
-m.gorbani | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:15
-
-f.alinezhad | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:14
-
-f.alinezhad | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:14
-
-z.ebrahimi | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:13
-
-z.ebrahimi | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:13
-
-m.khani | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:13
-
-m.khani | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:13
-
-delayimilan | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:12
-
-delayimilan | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:12
-
-rashidinasab | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:11
-
-rashidinasab | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:11
-
-valizade | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:10
-
-valizade | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:10
-
-r.khani | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 19:10
-
-r.khani | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 19:10
-
-f.zeynali | blocked | | blocked 2025-08-23 [Note: 404.4.21] | 2025-08-23 18:59
-
-f.zeynali | manual_delete | User manually removed [Note: 404.4.21] | 2025-08-23 18:59
-
-m.masumi | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:57
-
-m.masumi | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:57
-
-f.tamuyi | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:56
-
-f.tamuyi | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:56
-
-soltanzade | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:55
-
-soltanzade | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:55
-
-t.maaleki3 | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:55
-
-t.maaleki3 | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:55
-
-t.maaleki2 | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:54
-
-t.maaleki2 | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:54
-
-fekrat | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:54
-
-fekrat | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:54
-
-s.mardalizade | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:51
-
-s.mardalizade | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:51
-
-t.maaleki1 | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:48
-
-t.maaleki1 | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:48
-
-t.maaleki | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:47
-
-t.maaleki | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:47
-
-n.tamuyi | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:46
-
-n.tamuyi | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:46
-
-a.sahrayi | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:46
-
-a.sahrayi | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:46
-
-ilati1 | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:45
-
-ilati1 | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:45
-
-ilati | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:43
-
-ilati | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:43
-
-khani | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:42
-
-khani | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:42
-
-aragi | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:40
-
-aragi | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:40
-
-iranpour | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:38
-
-iranpour | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:38
-
-babazade | blocked | | blocked 2025-08-23 [Note: 404.4.19] | 2025-08-23 18:37
-
-babazade | manual_delete | User manually removed [Note: 404.4.19] | 2025-08-23 18:37
 
 a.ahmadi | unblocked | [Note: 404.5.30 | blocked 2025-08-20] | 2025-08-21 19:37
 
