@@ -1,3 +1,15 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 227 | moved_to_non_working | 2025-08-31 05:13
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 254 | moved_to_non_working | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 253 | moved_to_non_working | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 242 | moved_to_non_working | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 241 | moved_to_non_working | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@pl.vmagnum.win:57456#Server 240 | moved_to_non_working | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@45.144.49.140:57456#Server 239 | moved_to_non_working | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 227 | recovered_to_main | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 227 | moved_to_main | 2025-08-31 05:13
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 241 | recovered_to_main | 2025-08-31 05:13
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 241 | moved_to_main | 2025-08-31 05:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVS3Z5aXhLUmRUU3cyOFFwODdrZUVS@macintosh.outlinekeys.net:19609#Server 29 🇳🇱 | removed_after_3_days | 2025-08-31 05:13
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 252 | moved_to_non_working | 2025-08-31 02:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 251 | moved_to_non_working | 2025-08-31 02:48
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 241 | moved_to_non_working | 2025-08-31 02:48
