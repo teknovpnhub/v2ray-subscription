@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "khani",
     "farajzade",
     "farshad.jabbari",
     "igdam",
@@ -58,7 +59,6 @@
     "a.sahrayi",
     "ilati1",
     "ilati",
-    "khani",
     "iranpour",
     "babazade",
     "gholami",
@@ -142,6 +142,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "khani": "khani #404.6.9",
     "farajzade": "farajzade #404.6.9",
     "farshad.jabbari": "farshad.jabbari #404.6.8",
     "igdam": "igdam #404.6.8",
@@ -200,7 +201,6 @@
     "a.sahrayi": "🚫a.sahrayi #404.4.19 | blocked 2025-08-23",
     "ilati1": "🚫ilati1 #404.4.19 | blocked 2025-08-23",
     "ilati": "🚫ilati #404.4.19 | blocked 2025-08-23",
-    "khani": "🚫khani #404.4.19 | blocked 2025-08-23",
     "iranpour": "🚫iranpour #404.4.19 | blocked 2025-08-23",
     "babazade": "🚫babazade #404.4.19 | blocked 2025-08-23",
     "gholami": "gholami #404.6.1",
@@ -283,5 +283,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-08-31 11:53"
+  "timestamp": "2025-08-31 11:59"
 }
