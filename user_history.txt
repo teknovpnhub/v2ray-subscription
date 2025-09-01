@@ -1,3 +1,7 @@
+abedi | unblocked | [Note: 404.6.10 | blocked 2025-08-27] | 2025-09-01 17:33
+
+abedi | manual_delete | User manually removed [Note: 404.6.10 | blocked 2025-08-27] | 2025-09-01 17:33
+
 hadi.mohammadi | unblocked | [Note: 404.6.9 | blocked 2025-08-30] | 2025-08-31 13:41
 
 hadi.mohammadi | manual_delete | User manually removed [Note: 404.6.9 | blocked 2025-08-30] | 2025-08-31 13:41
@@ -177,10 +181,6 @@ r.khani | manual_delete | User manually removed [Note: 404.6.2 | blocked 2025-08
 m.gorbani | unblocked | [Note: 404.6.2 | blocked 2025-08-23] | 2025-08-24 12:05
 
 m.gorbani | manual_delete | User manually removed [Note: 404.6.2 | blocked 2025-08-23] | 2025-08-24 12:05
-
-khani1 | added |  | 2025-08-24 11:41
-
-khani1 | auto_renamed | Automatically renamed from khani due to duplicate | 2025-08-24 11:41
 
 aragi | unblocked | [Note: 404.6.2  | blocked 2025-08-23] | 2025-08-24 11:11
 
