@@ -1,3 +1,7 @@
+nabizade1 | blocked | | blocked 2025-09-01 [Note: 404.4.28] | 2025-09-01 18:51
+
+nabizade1 | manual_delete | User manually removed [Note: 404.4.28] | 2025-09-01 18:51
+
 farshad.jabbari | blocked | | blocked 2025-09-01 [Note: 404.6.8] | 2025-09-01 18:48
 
 farshad.jabbari | manual_delete | User manually removed [Note: 404.6.8] | 2025-09-01 18:48
