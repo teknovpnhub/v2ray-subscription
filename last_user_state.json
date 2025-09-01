@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "habibzade",
     "borhani",
     "m.mafi",
     "karimi",
@@ -135,7 +136,6 @@
     "golizade",
     "azmun",
     "khosrotamar",
-    "habibzade",
     "vahid",
     "family",
     "i.izadi",
@@ -144,6 +144,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "habibzade": "🚫habibzade #404.4.28 | blocked 2025-09-01",
     "borhani": "🚫borhani #404.4.28 | blocked 2025-09-01",
     "m.mafi": "🚫m.mafi #404.4.28 | blocked 2025-09-01",
     "karimi": "🚫karimi #404.4.28 | blocked 2025-09-01",
@@ -279,7 +280,6 @@
     "golizade": "golizade #404.4.29",
     "azmun": "azmun #404.4.29",
     "khosrotamar": "khosrotamar #404.4.29",
-    "habibzade": "habibzade #404.4.28",
     "vahid": "vahid",
     "family": "family",
     "i.izadi": "🚫i.izadi #404.4.17",
@@ -287,5 +287,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-09-01 18:53"
+  "timestamp": "2025-09-01 18:54"
 }

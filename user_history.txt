@@ -1,3 +1,7 @@
+habibzade | blocked | | blocked 2025-09-01 [Note: 404.4.28] | 2025-09-01 18:54
+
+habibzade | manual_delete | User manually removed [Note: 404.4.28] | 2025-09-01 18:54
+
 borhani | blocked | | blocked 2025-09-01 [Note: 404.4.28] | 2025-09-01 18:53
 
 borhani | manual_delete | User manually removed [Note: 404.4.28] | 2025-09-01 18:53
