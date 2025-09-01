@@ -6,7 +6,7 @@ ansarifard #404.6.9
 soltanzade1 #404.6.9
 khani #404.6.9
 farajzade #404.6.9
-farshad.jabbari #404.6.8
+farshad.jabbari ---b #404.6.8
 igdam #404.6.8
 s.mamasi #404.6.8
 sahranavard #404.6.8
