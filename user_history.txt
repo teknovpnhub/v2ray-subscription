@@ -1,3 +1,7 @@
+c | renamed | to me.2025 | 2025-09-01 19:01
+
+c | manual_delete | User manually removed | 2025-09-01 19:01
+
 habibzade | blocked | | blocked 2025-09-01 [Note: 404.4.28] | 2025-09-01 18:54
 
 habibzade | manual_delete | User manually removed [Note: 404.4.28] | 2025-09-01 18:54
