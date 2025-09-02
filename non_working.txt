@@ -1,12 +1,12 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 235 | 2025-09-02 17:50
+vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@amazon-15.cristiano.name.ng:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=f5#Server 236 | 2025-09-02 18:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 228 🇨🇦 | 2025-09-02 18:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.22:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 210 🇩🇪 | 2025-09-02 18:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.20:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 186 | 2025-09-02 18:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.31:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 153 | 2025-09-02 18:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.21:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 152 | 2025-09-02 18:52
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 238 | 2025-09-02 17:50
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3M1RkenNIb3NQUWpHQWFMbW85bEdR@83.147.216.70:64519#Server 237 | 2025-09-02 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 244 | 2025-09-02 17:50
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 239 | 2025-09-02 17:50
-ss://YWVzLTI1Ni1nY206T1RRMk1UTm1NRGxsTUdNME9EZ3hZVEExWVdSa1lqazBPVFkwTVdRMA%3D%3D@ir.npvnot.com:11097#Server 236 | 2025-09-02 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 230 | 2025-09-02 17:50
-ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 228 | 2025-09-02 17:50
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.254.87:990#Server 211 | 2025-09-02 17:50
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.30:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 191 | 2025-09-02 17:50
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.25:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 190 | 2025-09-02 17:50
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.28:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 188 | 2025-09-02 17:50
@@ -14,10 +14,7 @@ vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.32:443?encryption=none&se
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.26:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 73 | 2025-09-02 17:50
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.29:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 57 | 2025-09-02 17:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 239 | 2025-09-02 17:01
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 244 | 2025-09-02 16:13
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 254 | 2025-09-02 14:47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 252 | 2025-09-02 14:47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3ZXhSUDB6UTdXUU9DdzBwVTRnc3VT@94.159.96.245:11902#Server 251 | 2025-09-02 14:47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 255 | 2025-09-02 10:02
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 254 | 2025-09-02 10:02
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.17:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 195 | 2025-09-01 12:55
