@@ -185,55 +185,66 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.24
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.13:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 185
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@us.vmagnum.win:57456#Server 186
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@104.167.197.25:57456#Server 187
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.28:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 188 🇩🇪
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.9:443#Server 189 🇺🇸
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.12:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 190 🇩🇪
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.25:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 191 🇩🇪
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.30:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 192 🇩🇪
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.20:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 193 🇩🇪
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.8:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 194 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCSjVuRFpUdWxtWXpuSHZIWGhTNloz@83.147.216.70:64519#Server 195 🇫🇮
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#Server 196 🇫🇮
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@ltnl12.saint.ydns.eu:8080#Server 197 🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8313#Server 198 🇭🇰
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8319#Server 199 🇭🇰
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8316#Server 200 🇭🇰
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@141.98.101.178:443#Server 201 🇬🇧
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 202 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 203 🇹🇷
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.14:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 204 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcTF5NnpFQW1jZkdvQkIwZFJCYlY3@83.147.216.70:64519#Server 205 🇫🇮
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZTE2NmM1YjM0NjU1NDBm@desrv.ssvpnapp.win:57456#Server 206 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@147.45.178.200:57456#Server 207 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@de.vpnsparta.pro:57456#Server 208 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@147.45.178.200:57456#Server 209 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@desrv.vmagnum.win:57456#Server 210 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ejRYb1MwVGZ6eE5zU3FCVkFXdDdO@83.147.216.70:64519#Server 211 🇫🇮
-ss://YWVzLTI1Ni1nY206T1RRMk1UTm1NRGxsTUdNME9EZ3hZVEExWVdSa1lqazBPVFkwTVdRMA%3D%3D@ir.npvnot.com:11097#Server 212 🇮🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQU21xYTl1SzlPbzFlaXZQeVhpQUg4@83.147.216.70:64519#Server 213 🇫🇮
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.254.87:990#Server 214 🇬🇹
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNUEZ6b1dwMmNYY0oyeHJsT0dsZWFm@83.147.216.70:64519#Server 215 🇫🇮
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 216 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 217 🇮🇳
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#Server 218 🇮🇳
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@beta.mattenadene.org:54075#Server 219 🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@147.78.3.93:990#Server 220 🇺🇦
-ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 221 🇯🇵
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.22:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 222 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVbFQ4OUQwcnZjcjA1dEtmdDFOQjVh@83.147.216.70:64519#Server 223 🇫🇮
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3OURGOVJUbmFyQ1EwY3JJNXJ5a0VV@83.147.216.70:64519#Server 224 🇫🇮
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UGhIYlJDWks1eVFMc3ZvWHcwODNu@89.185.84.185:443#Server 225 🇬🇧
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 226 🇬🇧
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.253.171:990#Server 227 🇪🇨
-ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 228 🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowTkxsOE4xU2JRbkpURjBYU2Z0b0VR@83.147.216.70:64519#Server 229 🇫🇮
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.28:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 188
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@173.244.56.9:443#Server 189
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.12:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 190
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.25:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 191
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.30:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 192
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.20:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 193
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.8:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 194
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCSjVuRFpUdWxtWXpuSHZIWGhTNloz@83.147.216.70:64519#Server 195
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZWGdTOENvbVRhbTdxb2VzUGx6bE1v@83.147.216.70:64519#Server 196
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@ltnl12.saint.ydns.eu:8080#Server 197
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8313#Server 198
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8319#Server 199
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg%3D%3D@18.162.146.85:8316#Server 200
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@141.98.101.178:443#Server 201
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 202
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 203
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.14:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 204
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcTF5NnpFQW1jZkdvQkIwZFJCYlY3@83.147.216.70:64519#Server 205
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZTE2NmM1YjM0NjU1NDBm@desrv.ssvpnapp.win:57456#Server 206
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@147.45.178.200:57456#Server 207
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@de.vpnsparta.pro:57456#Server 208
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@147.45.178.200:57456#Server 209
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@desrv.vmagnum.win:57456#Server 210
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ejRYb1MwVGZ6eE5zU3FCVkFXdDdO@83.147.216.70:64519#Server 211
+ss://YWVzLTI1Ni1nY206T1RRMk1UTm1NRGxsTUdNME9EZ3hZVEExWVdSa1lqazBPVFkwTVdRMA%3D%3D@ir.npvnot.com:11097#Server 212
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQU21xYTl1SzlPbzFlaXZQeVhpQUg4@83.147.216.70:64519#Server 213
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.254.87:990#Server 214
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNUEZ6b1dwMmNYY0oyeHJsT0dsZWFm@83.147.216.70:64519#Server 215
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 216
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 217
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#Server 218
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@beta.mattenadene.org:54075#Server 219
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@147.78.3.93:990#Server 220
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 221
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.22:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 222
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVbFQ4OUQwcnZjcjA1dEtmdDFOQjVh@83.147.216.70:64519#Server 223
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3OURGOVJUbmFyQ1EwY3JJNXJ5a0VV@83.147.216.70:64519#Server 224
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0UGhIYlJDWks1eVFMc3ZvWHcwODNu@89.185.84.185:443#Server 225
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 226
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.253.171:990#Server 227
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 228
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowTkxsOE4xU2JRbkpURjBYU2Z0b0VR@83.147.216.70:64519#Server 229
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZY0ZYTE9rZEVZMllLVjY2MndCYmpu@83.147.216.70:64519#Server 230
-vless://4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4@amazon-15.cristiano.name.ng:443?security=reality&encryption=none&pbk=TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=store.steampowered.com&sid=f5#Server 231
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 232
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 233
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 234
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 235
-ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 236
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@94.131.21.174:54075#Server 237
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 238
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 239
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 231
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 232
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 233
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 234
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 235
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@94.131.21.174:54075#Server 236
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 237
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 238
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@lv.vpnsparta.pro:57456#Server 239
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YWZjNjMzZWI2MzIyN2U5@lv.vpnsparta.pro:57456#Server 240
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@216.173.70.187:57456#Server 241
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@216.173.70.187:57456#Server 242
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@lv.vmagnum.win:57456#Server 243
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 244
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 245
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprbWdrMXNXWTRGaDRkdzlieGsyTkJH@83.147.216.70:64519#Server 246
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3M1RkenNIb3NQUWpHQWFMbW85bEdR@83.147.216.70:64519#Server 247
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 248
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 249
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 250
