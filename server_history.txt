@@ -1,3 +1,13 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 254 | moved_to_non_working | 2025-09-02 10:02
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 255 | moved_to_non_working | 2025-09-02 10:02
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 254 | moved_to_non_working | 2025-09-02 10:02
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 245 | moved_to_non_working | 2025-09-02 10:02
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 243 | moved_to_non_working | 2025-09-02 10:02
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 240 | moved_to_non_working | 2025-09-02 10:02
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 254 | recovered_to_main | 2025-09-02 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 254 | moved_to_main | 2025-09-02 10:01
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 218 | recovered_to_main | 2025-09-02 10:01
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 218 | moved_to_main | 2025-09-02 10:01
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 253 | moved_to_non_working | 2025-09-02 08:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 252 | moved_to_non_working | 2025-09-02 08:50
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 218 | moved_to_non_working | 2025-09-02 08:50
