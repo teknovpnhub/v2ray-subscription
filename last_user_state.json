@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "alrostam",
     "m.mafi",
     "a.valilou",
     "salamzade",
@@ -36,7 +37,6 @@
     "mojallal",
     "parsa",
     "sabri",
-    "alrostam",
     "safari",
     "h.mukhtari",
     "malkami",
@@ -145,6 +145,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "alrostam": "alrostam #404.6.12",
     "m.mafi": "m.mafi #404.6.11",
     "a.valilou": "a.valilou #404.6.11",
     "salamzade": "salamzade #404.6.10",
@@ -181,7 +182,6 @@
     "mojallal": "🚫mojallal #404.4.22 | blocked 2025-08-27",
     "parsa": "🚫parsa #404.4.22 | blocked 2025-08-27",
     "sabri": "🚫sabri #404.4.22 | blocked 2025-08-27",
-    "alrostam": "🚫alrostam #404.4.22 | blocked 2025-08-27",
     "safari": "🚫safari #404.4.22 | blocked 2025-08-27",
     "h.mukhtari": "h.mukhtari #404.6.4",
     "malkami": "malkami #404.6.4",
@@ -289,5 +289,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-09-03 11:56"
+  "timestamp": "2025-09-03 12:19"
 }
