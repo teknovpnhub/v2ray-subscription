@@ -1,3 +1,17 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 307 | moved_to_non_working | 2025-09-04 01:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 290 | moved_to_non_working | 2025-09-04 01:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 281 | moved_to_non_working | 2025-09-04 01:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 250 | moved_to_non_working | 2025-09-04 01:48
+vmess://eyJhZGQiOiIyMDYuMjA2LjgwLjIyNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwYWJiN2I5ZS04MWJhLTQzMzYtOGNhNy0wNTY4NjYwMzJmZjMiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjIwMDg2IiwicHMiOiLwn5GJ8J+GlEB2MnJheV9jb25maWdzX3Bvb2zwn5Oh8J+HuvCfh7jCru+4j1VuaXRlZCBTdGF0ZXPCqe+4j0xvcyBBbmdlbGVzIChDZW50cmFsLUFsYW1lZGEp8J+Fv++4j3Bpbmc6Ni4zOW1zIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwidiI6IjIifQ==#Server 38 🇺🇸 | moved_to_non_working | 2025-09-04 01:48
+vmess://eyJhZGQiOiJtYW5hZ2VyLmFuZGlzaGVobmVnYXJpcmFuLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6IjdhM2I3YzMyLTRlOGEtNDU4ZC04OTIxLTZhOTI5MTA0MWM0ZiIsIm5ldCI6Imh0dHB1cGdyYWRlIiwicGF0aCI6Ii8zMTk3Ni9tZWhkaSIsInBvcnQiOiI0NDMiLCJwcyI6IvCfkYnwn4aUQHYycmF5X2NvbmZpZ3NfcG9vbPCfk6Hwn4eo8J+HpsKu77iPQ2FuYWRhwqnvuI9Ub3JvbnRv8J+Fv++4j3Bpbmc6NDguOThtcyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=#Server 26 🇨🇦 | moved_to_non_working | 2025-09-04 01:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 223 | recovered_to_main | 2025-09-04 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 223 | moved_to_main | 2025-09-04 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 229 🇩🇪 | recovered_to_main | 2025-09-04 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 229 🇩🇪 | moved_to_main | 2025-09-04 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 225 🇩🇪 | recovered_to_main | 2025-09-04 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 225 🇩🇪 | moved_to_main | 2025-09-04 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@188.214.36.155:990#Server 193 | recovered_to_main | 2025-09-04 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@188.214.36.155:990#Server 193 | moved_to_main | 2025-09-04 01:47
 trojan://veYrpdgYpr@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=httpupgrade&path=%2F33780%2Fmehdi#Server 82 🇨🇦 | removed_duplicate | 2025-09-04 01:39
 trojan://e1Ix4bz88Z@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=httpupgrade&path=%2F42142%2Fmehdi#Server 81 🇨🇦 | removed_duplicate | 2025-09-04 01:39
 trojan://IeHEg9sFfn@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=httpupgrade&path=%2F33449%2Fmehdi#Server 80 🇨🇦 | removed_duplicate | 2025-09-04 01:39
