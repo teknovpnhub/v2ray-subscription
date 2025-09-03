@@ -1,3 +1,20 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 286 | moved_to_non_working | 2025-09-04 02:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 255 | moved_to_non_working | 2025-09-04 02:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 224 🇹🇷 | moved_to_non_working | 2025-09-04 02:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@rusrv.vmagnum.win:57456#Server 216 | recovered_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@rusrv.vmagnum.win:57456#Server 216 | moved_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 217 | recovered_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 217 | moved_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 218 | recovered_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 218 | moved_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 250 | recovered_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOHpGYmMzVWNoQmRmRDZoTDlxYjVs@89.185.84.185:443#Server 250 | moved_to_main | 2025-09-04 02:47
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 281 | recovered_to_main | 2025-09-04 02:47
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 281 | moved_to_main | 2025-09-04 02:47
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 290 | recovered_to_main | 2025-09-04 02:47
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 290 | moved_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 307 | recovered_to_main | 2025-09-04 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 307 | moved_to_main | 2025-09-04 02:47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 307 | moved_to_non_working | 2025-09-04 01:48
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 290 | moved_to_non_working | 2025-09-04 01:48
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 281 | moved_to_non_working | 2025-09-04 01:48
