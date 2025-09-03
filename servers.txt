@@ -1,3 +1,42 @@
+
+
+trojan://fPxa9BuGVQ@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=httpupgrade&path=%2F11533%2Fmehdi#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://IeHEg9sFfn@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=httpupgrade&path=%2F33449%2Fmehdi#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://e1Ix4bz88Z@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=httpupgrade&path=%2F42142%2Fmehdi#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://veYrpdgYpr@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=httpupgrade&path=%2F33780%2Fmehdi#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://Gq9UTAqjl9@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=grpc&authority=&serviceName=%2F28231%2Fmehdi&mode=gun#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://G1s7VYEyAe@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=grpc&authority=&serviceName=%2F20379%2Fmehdi&mode=gun#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://OBYMYoqYAL@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=grpc&authority=&serviceName=%2F17188%2Fmehdi&mode=gun#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://gTVV0J43jN@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=grpc&authority=&serviceName=%2F28985%2Fmehdi&mode=gun#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+trojan://uOFIsGRP5W@manager.andishehnegariran.ir:443?security=tls&fp=chrome&type=grpc&authority=&serviceName=%2F50255%2Fmehdi&mode=gun#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
+
+
+
+vless://ebb34cb0-93d6-4fb0-86f5-663eb18c949e@manager.andishehnegariran.ir:443?encryption=none&security=tls&fp=chrome&type=httpupgrade&path=%2F12032%2Fmehdi#%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.86.72.106:8880?mode=gun&security=none&encryption=none&authority=%2F%3F%3Fed%3D2048%40V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee&type=grpc#Server 1 🇺🇸
 vless://8b63cf90-830c-4fd8-a911-9e84fd7a5898@172.67.74.104:443?path=%2F%3F%3Fed%3D2048%40V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee&security=tls&alpn=http%2F1.1&encryption=none&host=s.s.google.com.b5r.ir.&fp=chrome&type=ws&sni=b5r.ir#Server 2 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKTzRFWk95b2pWOTRlRlFHcFd4N3BN@h110vpntr.outlinekeys.net:65262#Server 3 🇹🇷
