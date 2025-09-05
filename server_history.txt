@@ -1,3 +1,24 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 300 | moved_to_non_working | 2025-09-05 18:50
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 278 | moved_to_non_working | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 273 | moved_to_non_working | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 272 | moved_to_non_working | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@rusrv.vmagnum.win:57456#Server 271 | moved_to_non_working | 2025-09-05 18:50
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 289 | recovered_to_main | 2025-09-05 18:50
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 289 | moved_to_main | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 291 🇳🇱 | recovered_to_main | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 291 🇳🇱 | moved_to_main | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 292 🇳🇱 | recovered_to_main | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 292 🇳🇱 | moved_to_main | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 297 🇩🇪 | recovered_to_main | 2025-09-05 18:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 297 🇩🇪 | moved_to_main | 2025-09-05 18:50
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 283 | recovered_to_main | 2025-09-05 18:50
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 283 | moved_to_main | 2025-09-05 18:50
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.29:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 57 | removed_after_3_days | 2025-09-05 18:50
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.26:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 73 | removed_after_3_days | 2025-09-05 18:50
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.32:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 176 | removed_after_3_days | 2025-09-05 18:50
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.28:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 188 | removed_after_3_days | 2025-09-05 18:50
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.25:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 190 | removed_after_3_days | 2025-09-05 18:50
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.30:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 191 | removed_after_3_days | 2025-09-05 18:50
 ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.43.183:10087#Server 283 | moved_to_non_working | 2025-09-05 17:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 298 🇦🇹 | moved_to_non_working | 2025-09-05 17:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 297 🇦🇹 | moved_to_non_working | 2025-09-05 17:49
