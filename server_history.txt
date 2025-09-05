@@ -1,3 +1,24 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 301 | moved_to_non_working | 2025-09-05 11:57
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 290 | moved_to_non_working | 2025-09-05 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 297 🇩🇪 | moved_to_non_working | 2025-09-05 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 263 | moved_to_non_working | 2025-09-05 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 292 | moved_to_non_working | 2025-09-05 11:57
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?security=&encryption=none&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#Server 274 | moved_to_non_working | 2025-09-05 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@94.131.21.174:54075#Server 259 | moved_to_non_working | 2025-09-05 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM%3D@beta.mattenadene.org:54075#Server 258 | moved_to_non_working | 2025-09-05 11:57
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?security=&encryption=none&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy&headerType=http&type=tcp#Server 238 | moved_to_non_working | 2025-09-05 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 301 | recovered_to_main | 2025-09-05 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 301 | moved_to_main | 2025-09-05 11:57
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 290 | recovered_to_main | 2025-09-05 11:56
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 290 | moved_to_main | 2025-09-05 11:56
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 298 | recovered_to_main | 2025-09-05 11:56
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 298 | moved_to_main | 2025-09-05 11:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 297 🇩🇪 | recovered_to_main | 2025-09-05 11:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmaDJycFNsU29QR1dxQ0hndFdwVkVr@94.159.96.245:11902#Server 297 🇩🇪 | moved_to_main | 2025-09-05 11:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 263 | recovered_to_main | 2025-09-05 11:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 263 | moved_to_main | 2025-09-05 11:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 292 | recovered_to_main | 2025-09-05 11:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 292 | moved_to_main | 2025-09-05 11:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 292 | moved_to_non_working | 2025-09-05 10:50
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 289 | moved_to_non_working | 2025-09-05 10:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 277 | moved_to_non_working | 2025-09-05 10:50
