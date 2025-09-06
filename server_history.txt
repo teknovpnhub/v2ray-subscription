@@ -1,3 +1,19 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 231 🇩🇪 | moved_to_non_working | 2025-09-06 18:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyT1FyV2h6N290eE9yUEJDNnVIZDNG@83.147.216.70:64519#Server 188 | moved_to_non_working | 2025-09-06 18:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 165 | moved_to_non_working | 2025-09-06 18:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 164 | moved_to_non_working | 2025-09-06 18:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 163 | moved_to_non_working | 2025-09-06 18:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 51 | moved_to_non_working | 2025-09-06 18:47
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server%20282 | recovered_to_main | 2025-09-06 18:46
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server%20282 | moved_to_main | 2025-09-06 18:46
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 113 🇩🇪 | recovered_to_main | 2025-09-06 18:46
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 113 🇩🇪 | moved_to_main | 2025-09-06 18:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 173 | recovered_to_main | 2025-09-06 18:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 173 | moved_to_main | 2025-09-06 18:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 186 🇩🇪 | recovered_to_main | 2025-09-06 18:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 186 🇩🇪 | moved_to_main | 2025-09-06 18:46
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 298 🇩🇪 | recovered_to_main | 2025-09-06 18:46
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 298 🇩🇪 | moved_to_main | 2025-09-06 18:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@64.74.163.130:990#Server 115  | removed_duplicate | 2025-09-06 18:05
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 298 🇩🇪 | moved_to_non_working | 2025-09-06 18:04
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 187 | moved_to_non_working | 2025-09-06 18:04
