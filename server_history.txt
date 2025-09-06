@@ -1,3 +1,15 @@
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server%20283 | moved_to_non_working | 2025-09-06 17:57
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server%20282 | moved_to_non_working | 2025-09-06 17:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#%F0%9F%87%A6%F0%9F%87%B9%20Vienna%2C%209%2C%20Austria | moved_to_non_working | 2025-09-06 17:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#%F0%9F%87%A6%F0%9F%87%B9%20Vienna%2C%209%2C%20Austria | moved_to_non_working | 2025-09-06 17:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 296 🇩🇪 | recovered_to_main | 2025-09-06 17:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 296 🇩🇪 | moved_to_main | 2025-09-06 17:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 296 🇩🇪 | recovered_to_main | 2025-09-06 17:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 286 | recovered_to_main | 2025-09-06 17:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 297 | recovered_to_main | 2025-09-06 17:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 297 | moved_to_main | 2025-09-06 17:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 255 | recovered_to_main | 2025-09-06 17:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 255 | moved_to_main | 2025-09-06 17:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 255 | moved_to_non_working | 2025-09-06 17:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 297 | moved_to_non_working | 2025-09-06 17:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 286 | moved_to_non_working | 2025-09-06 17:46
