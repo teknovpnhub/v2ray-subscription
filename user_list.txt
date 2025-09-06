@@ -82,7 +82,7 @@ aragi #404.6.2
 🚫iranpour #404.4.19 | blocked 2025-08-23
 🚫babazade #404.4.19 | blocked 2025-08-23
 gholami #404.6.1
-r.taragikhah #404.5.30
+r.taragikhah #404.6.15
 a.ahmadi #404.5.30
 hosseynzade #404.5.30
 a.panahi #404.5.30
