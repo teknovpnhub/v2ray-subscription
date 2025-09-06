@@ -1,3 +1,7 @@
+hamzezade | blocked | | blocked 2025-09-06 [Note: 404.4.30] | 2025-09-06 12:56
+
+hamzezade | manual_delete | User manually removed [Note: 404.4.30] | 2025-09-06 12:56
+
 golizade | blocked | | blocked 2025-09-06 [Note: 404.4.29] | 2025-09-06 12:55
 
 golizade | manual_delete | User manually removed [Note: 404.4.29] | 2025-09-06 12:55
