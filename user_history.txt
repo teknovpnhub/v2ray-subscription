@@ -1,10 +1,6 @@
-r.taragikhah | manual_change | Changes:
-- r.taragikhah #404.5.30
-?                    ---
+ruyin | unblocked | [Note: 404.6.16 | blocked 2025-09-06] | 2025-09-07 10:38
 
-+ r.taragikhah #404.6.15
-?                   +++
- [Note: 404.6.15] | 2025-09-06 19:46
+ruyin | manual_delete | User manually removed [Note: 404.6.16 | blocked 2025-09-06] | 2025-09-07 10:38
 
 afsari | added | [Note: 404.6.15] | 2025-09-06 18:57
 
@@ -142,57 +138,13 @@ farshad.jabbari | unblocked | [Note: 404.6.8 | blocked 2025-08-30] | 2025-08-30 
 
 farshad.jabbari | manual_delete | User manually removed [Note: 404.6.8 | blocked 2025-08-30] | 2025-08-30 21:08
 
-igdam | added | [Note: 404.6.8] | 2025-08-30 18:21
-
 s.mamasi | unblocked | [Note: 404.6.8 | blocked 2025-08-27] | 2025-08-30 13:26
 
 s.mamasi | manual_delete | User manually removed [Note: 404.6.8 | blocked 2025-08-27] | 2025-08-30 13:26
 
-sahranavard | added | [Note: 404.6.8] | 2025-08-30 12:12
-
 yusefi1 | unblocked | [Note: 404.6.8 | blocked 2025-08-30] | 2025-08-30 10:41
 
 yusefi1 | manual_delete | User manually removed [Note: 404.6.8 | blocked 2025-08-30] | 2025-08-30 10:41
-
-yusefi1 | blocked | | blocked 2025-08-30 [Note: 404.4.26] | 2025-08-30 01:41
-
-yusefi1 | manual_delete | User manually removed [Note: 404.4.26] | 2025-08-30 01:41
-
-yusefi | blocked | | blocked 2025-08-30 [Note: 404.4.26] | 2025-08-30 01:41
-
-yusefi | manual_delete | User manually removed [Note: 404.4.26] | 2025-08-30 01:41
-
-salmanzade | blocked | | blocked 2025-08-30 [Note: 404.4.26] | 2025-08-30 01:40
-
-salmanzade | manual_delete | User manually removed [Note: 404.4.26] | 2025-08-30 01:40
-
-k.kazemi | blocked | | blocked 2025-08-30 [Note: 404.4.26] | 2025-08-30 01:39
-
-k.kazemi | manual_delete | User manually removed [Note: 404.4.26] | 2025-08-30 01:39
-
-hadi.mohammadi | blocked | | blocked 2025-08-30 [Note: 404.4.25] | 2025-08-30 01:38
-
-hadi.mohammadi | manual_delete | User manually removed [Note: 404.4.25] | 2025-08-30 01:38
-
-lahuri | blocked | | blocked 2025-08-30 [Note: 404.4.26] | 2025-08-30 01:37
-
-lahuri | manual_delete | User manually removed [Note: 404.4.26] | 2025-08-30 01:37
-
-costumer1 | blocked | | blocked 2025-08-30 [Note: 404.4.25] | 2025-08-30 01:35
-
-costumer1 | manual_delete | User manually removed [Note: 404.4.25] | 2025-08-30 01:35
-
-farshad.jabbari | blocked | | blocked 2025-08-30 [Note: 404.4.25] | 2025-08-30 01:35
-
-farshad.jabbari | manual_delete | User manually removed [Note: 404.4.25] | 2025-08-30 01:35
-
-rahimzade | blocked | | blocked 2025-08-30 [Note: 404.4.25] | 2025-08-30 01:34
-
-rahimzade | manual_delete | User manually removed [Note: 404.4.25] | 2025-08-30 01:34
-
-ansarifard | blocked | | blocked 2025-08-30 [Note: 404.4.22] | 2025-08-30 01:33
-
-ansarifard | manual_delete | User manually removed [Note: 404.4.22] | 2025-08-30 01:33
 
 hasani | unblocked | [Note: 404.6.6 | blocked 2025-08-27] | 2025-08-28 17:25
 
