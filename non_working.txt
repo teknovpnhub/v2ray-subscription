@@ -1,13 +1,11 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 219 🇩🇪 | 2025-09-08 01:47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | 2025-09-08 01:47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 192 | 2025-09-08 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 221 🇮🇳 | 2025-09-08 02:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 154 | 2025-09-08 02:47
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-2.kalbodteam.com:1234?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 31 🇳🇱 | 2025-09-08 02:47
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-6.kalbodteam.com:2956?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 9 🇩🇪 | 2025-09-08 02:47
 vless://9926ee97-4398-48dd-b263-2863c62f5c41@confident-club.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 67 🇨🇦 | 2025-09-08 01:47
 vless://561623c8-4983-44d3-a6ef-92b803a74ee8@obedient-menu.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 56 🇨🇦 | 2025-09-08 01:47
 vless://2054405e-70ff-40a2-ae27-16b63d72390a@dedicated-development.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 53 🇨🇦 | 2025-09-08 01:47
 vless://1d0dfde1-9f18-4557-9af8-4f3124ee5dcd@wild-bird.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 52 🇨🇦 | 2025-09-08 01:47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 212 🇳🇱 | 2025-09-08 00:46
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 207 🇳🇱 | 2025-09-08 00:46
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 178 | 2025-09-08 00:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 177 | 2025-09-08 00:46
 vless://39730a72-e135-426c-9871-b372c0181483@54.36.117.130:8080?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#Server 201 | 2025-09-07 21:55
 vless://d9c5b7fb-288b-472c-ade1-03ee7c4b2ec2@54.36.114.253:80?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#Server 28 🇩🇪 | 2025-09-07 21:55
