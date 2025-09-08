@@ -1,3 +1,7 @@
+customer | blocked | | blocked 2025-09-08 [Note: 404.5.5] | 2025-09-08 10:41
+
+customer | manual_delete | User manually removed [Note: 404.5.5] | 2025-09-08 10:41
+
 babayi | blocked | | blocked 2025-09-08 [Note: 404.5.5] | 2025-09-08 10:38
 
 babayi | manual_delete | User manually removed [Note: 404.5.5] | 2025-09-08 10:38
