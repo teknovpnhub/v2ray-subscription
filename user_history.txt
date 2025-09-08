@@ -1,3 +1,7 @@
+molayi | blocked | | blocked 2025-09-08 [Note: 404.5.6] | 2025-09-08 10:42
+
+molayi | manual_delete | User manually removed [Note: 404.5.6] | 2025-09-08 10:42
+
 customer | blocked | | blocked 2025-09-08 [Note: 404.5.5] | 2025-09-08 10:41
 
 customer | manual_delete | User manually removed [Note: 404.5.5] | 2025-09-08 10:41

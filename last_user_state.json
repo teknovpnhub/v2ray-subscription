@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "molayi",
     "customer",
     "babayi",
     "mohammadzade.van",
@@ -140,7 +141,6 @@
     "asiyabi",
     "customer1",
     "a.teymurzade",
-    "molayi",
     "siami",
     "azmun",
     "vahid",
@@ -150,6 +150,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "molayi": "🚫molayi #404.5.6 | blocked 2025-09-08",
     "customer": "🚫customer #404.5.5 | blocked 2025-09-08",
     "babayi": "🚫babayi #404.5.5 | blocked 2025-09-08",
     "mohammadzade.van": "🚫mohammadzade.van #404.5.4 | blocked 2025-09-08",
@@ -290,7 +291,6 @@
     "asiyabi": "asiyabi #404.5.15",
     "customer1": "customer1 #404.5.11",
     "a.teymurzade": "a.teymurzade #404.5.8",
-    "molayi": "molayi #404.5.6",
     "siami": "🚫siami #404.4.22 | blocked 2025-07-23",
     "azmun": "azmun #404.4.29",
     "vahid": "vahid",
@@ -299,5 +299,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-09-08 10:41"
+  "timestamp": "2025-09-08 10:42"
 }
