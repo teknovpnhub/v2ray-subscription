@@ -185,40 +185,40 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:4
 vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@wa.sfasti.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=wa.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&headerType=none&host=%2FJoin----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN#Server 185
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.9:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 186
 vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 187
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.19:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 188
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 189
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.8:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 190
-vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM_Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN#Server 191
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@us.vmagnum.win:57456#Server 192
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@104.167.197.25:57456#Server 193
-ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 194
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@arxfw2b78fi2q9hzylhn.freesocks.work:443#Server 195
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@160.19.78.75:443#Server 196
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#Server 197
-vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-6.kalbodteam.com:2956?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 198
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 199
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 200
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 201
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 202
-vless://a6a61af5-828f-42af-fc48-a69e386d0f2c@65.109.238.79:2080?security=&encryption=none&headerType=none&type=tcp#Server 203
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@171.22.254.17:990#Server 204
-vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy#Server 205
-vless://39730a72-e135-426c-9871-b372c0181483@54.36.117.130:8080?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#Server 206
-vless://d9c5b7fb-288b-472c-ade1-03ee7c4b2ec2@54.36.114.253:80?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#Server 207
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 208
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 209
-vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss47060.tas-bazi.com:443?mode=stream-one&path=%2Fsc&security=&encryption=none&type=xhttp#Server 210
-ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 211
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.18:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 212
-vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.6:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 213
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#Server 214
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 215
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 216
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 218
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 219
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 220
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 221
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 222
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 223
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 224
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.19:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 188 🇩🇪
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 189 🇩🇪
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.8:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 190 🇩🇪
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM_Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN#Server 191 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@us.vmagnum.win:57456#Server 192 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@104.167.197.25:57456#Server 193 🇺🇸
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 194 🇯🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@arxfw2b78fi2q9hzylhn.freesocks.work:443#Server 195 🇻🇳
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOazlhc2dsRHpIemprdFZ6VGt2aGFB@160.19.78.75:443#Server 196 🇻🇳
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#Server 197 🇮🇳
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-6.kalbodteam.com:2956?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 198 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.123.101.241:990#Server 199 🇹🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 200 🇮🇳
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 201 🇫🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.93.173.218:990#Server 202 🇧🇴
+vless://a6a61af5-828f-42af-fc48-a69e386d0f2c@65.109.238.79:2080?security=&encryption=none&headerType=none&type=tcp#Server 203 🇫🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@171.22.254.17:990#Server 204 🇲🇹
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy#Server 205 🇩🇪
+vless://39730a72-e135-426c-9871-b372c0181483@54.36.117.130:8080?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#Server 206 🇩🇪
+vless://d9c5b7fb-288b-472c-ade1-03ee7c4b2ec2@54.36.114.253:80?mode=gun&security=&encryption=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON#Server 207 🇩🇪
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 208 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 209 🇩🇪
+vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss47060.tas-bazi.com:443?mode=stream-one&path=%2Fsc&security=&encryption=none&type=xhttp#Server 210 🇩🇪
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 211 🇯🇵
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.18:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 212 🇩🇪
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.6:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 213 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#Server 214 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 215 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 216 🇵🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 217 🇵🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 218 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 219 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 220 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 221 🇨🇦
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 222 🇺🇸
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-2.kalbodteam.com:1234?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 223 🇳🇱
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-4.kalbodteam.com:9556?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 224 🇩🇪
