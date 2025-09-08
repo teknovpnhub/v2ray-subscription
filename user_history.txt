@@ -1,3 +1,7 @@
+salamzade | blocked | | blocked 2025-09-08 [Note: 404.6.16] | 2025-09-08 10:36
+
+salamzade | manual_delete | User manually removed [Note: 404.6.16] | 2025-09-08 10:36
+
 golizade | unblocked | [Note: 404.6.16 | blocked 2025-09-06] | 2025-09-07 19:12
 
 golizade | manual_delete | User manually removed [Note: 404.6.16 | blocked 2025-09-06] | 2025-09-07 19:12
@@ -126,21 +130,13 @@ hadi.mohammadi | unblocked | [Note: 404.6.9 | blocked 2025-08-30] | 2025-08-31 1
 
 hadi.mohammadi | manual_delete | User manually removed [Note: 404.6.9 | blocked 2025-08-30] | 2025-08-31 13:41
 
-m.alizade | added | [Note: 404.6.9] | 2025-08-31 12:56
-
 ansarifard | unblocked | [Note: 404.6.9 | blocked 2025-08-30] | 2025-08-31 12:28
 
 ansarifard | manual_delete | User manually removed [Note: 404.6.9 | blocked 2025-08-30] | 2025-08-31 12:28
 
-soltanzade1 | added |  | 2025-08-31 12:16
-
-soltanzade1 | auto_renamed | Automatically renamed from soltanzade due to duplicate | 2025-08-31 12:16
-
 khani | unblocked | [Note: 404.6.9 | blocked 2025-08-23] | 2025-08-31 11:59
 
 khani | manual_delete | User manually removed [Note: 404.6.9 | blocked 2025-08-23] | 2025-08-31 11:59
-
-farajzade | added | [Note: 404.6.9] | 2025-08-31 11:45
 
 farshad.jabbari | unblocked | [Note: 404.6.8 | blocked 2025-08-30] | 2025-08-30 21:08
 
