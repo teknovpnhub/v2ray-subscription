@@ -1,3 +1,26 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 224 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.19:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 209 🇩🇪 | moved_to_non_working | 2025-09-09 12:52
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?encryption=none&security=none&type=ws&host=%2F%3F%20join-planB_proxy&path=%2F%3Fed%3D2048%40V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee#Server 208 🇮🇷 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.6:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 203 🇩🇪 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.18:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 202 🇩🇪 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.10:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 201 🇩🇪 | moved_to_non_working | 2025-09-09 12:52
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy#Server 200 🇩🇪 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.8:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 187 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.16:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 186 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.14:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 181 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.12:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 157 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.11:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 142 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.13:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 123 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.15:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 90 | moved_to_non_working | 2025-09-09 12:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.4:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 44 🇩🇪 | moved_to_non_working | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 224 | recovered_to_main | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 224 | moved_to_main | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 224 🇺🇸 | recovered_to_main | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 224 🇺🇸 | moved_to_main | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 225 🇺🇸 | recovered_to_main | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 225 🇺🇸 | moved_to_main | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 226 🇺🇸 | recovered_to_main | 2025-09-09 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 226 🇺🇸 | moved_to_main | 2025-09-09 12:52
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 220 | moved_to_non_working | 2025-09-09 11:58
 ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 227 🇺🇸 | moved_to_non_working | 2025-09-09 11:58
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 226 🇺🇸 | moved_to_non_working | 2025-09-09 11:58
