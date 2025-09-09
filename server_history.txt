@@ -1,3 +1,18 @@
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-4.kalbodteam.com:9556?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 196 | moved_to_non_working | 2025-09-10 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 196 🇨🇦 | moved_to_non_working | 2025-09-10 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.35:8080#Server 118 | moved_to_non_working | 2025-09-10 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 205 🇩🇪 | recovered_to_main | 2025-09-10 01:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 205 🇩🇪 | moved_to_main | 2025-09-10 01:47
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-2.kalbodteam.com:1234?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 185 | recovered_to_main | 2025-09-10 01:46
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-2.kalbodteam.com:1234?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 185 | moved_to_main | 2025-09-10 01:46
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-4.kalbodteam.com:9556?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 196 | recovered_to_main | 2025-09-10 01:46
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-4.kalbodteam.com:9556?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 196 | moved_to_main | 2025-09-10 01:46
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-6.kalbodteam.com:2956?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 198 | recovered_to_main | 2025-09-10 01:46
+vless://a417d832-bb0b-4084-a5e3-a863bb5b1f9d@ir-6.kalbodteam.com:2956?security=reality&encryption=none&pbk=ymBQWu-t5MHVlIhGKHzwpCTX1sKv0M7pmiUabv4rPnE&headerType=none&fp=chrome&type=tcp&sni=store.steampowered.com&sid=531d#Server 198 | moved_to_main | 2025-09-10 01:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 205 | recovered_to_main | 2025-09-10 01:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 205 | moved_to_main | 2025-09-10 01:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 206 | recovered_to_main | 2025-09-10 01:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 206 | moved_to_main | 2025-09-10 01:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 208 🇩🇪 | moved_to_non_working | 2025-09-10 00:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 206 | moved_to_non_working | 2025-09-10 00:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 205 | moved_to_non_working | 2025-09-10 00:48
