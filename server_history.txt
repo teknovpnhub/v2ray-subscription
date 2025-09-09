@@ -1,3 +1,18 @@
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 227 🇺🇸 | moved_to_non_working | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | moved_to_non_working | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 210 🇳🇱 | moved_to_non_working | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 204 🇺🇸 | moved_to_non_working | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 203 🇺🇸 | moved_to_non_working | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 202 🇺🇸 | moved_to_non_working | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 201 🇵🇱 | moved_to_non_working | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 200 🇵🇱 | moved_to_non_working | 2025-09-09 16:14
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 227 🇺🇸 | recovered_to_main | 2025-09-09 16:14
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 227 🇺🇸 | moved_to_main | 2025-09-09 16:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | recovered_to_main | 2025-09-09 16:13
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | moved_to_main | 2025-09-09 16:13
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 178 | recovered_to_main | 2025-09-09 16:13
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 178 | moved_to_main | 2025-09-09 16:13
+vless://35804421-0d60-4dff-acda-6dded7323b1d@91.107.251.143:6745?security=&encryption=none&host=Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN&headerType=none&type=tcp#Server 5 🇩🇪 | removed_after_3_days | 2025-09-09 16:13
 vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 178 | moved_to_non_working | 2025-09-09 14:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 214 🇩🇪 | recovered_to_main | 2025-09-09 14:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 214 🇩🇪 | moved_to_main | 2025-09-09 14:48
