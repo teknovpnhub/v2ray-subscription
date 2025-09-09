@@ -1,3 +1,16 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 203 🇨🇦 | moved_to_non_working | 2025-09-09 20:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 197 | moved_to_non_working | 2025-09-09 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 205 🇳🇱 | moved_to_non_working | 2025-09-09 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 203 🇳🇱 | moved_to_non_working | 2025-09-09 20:48
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 199 🇩🇪 | moved_to_non_working | 2025-09-09 20:48
+vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss47060.tas-bazi.com:443?mode=stream-one&path=%2Fsc&security=&encryption=none&type=xhttp#Server 190 🇩🇪 | moved_to_non_working | 2025-09-09 20:48
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM_Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN#Server 178 | moved_to_non_working | 2025-09-09 20:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 203 🇨🇦 | recovered_to_main | 2025-09-09 20:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 203 🇨🇦 | moved_to_main | 2025-09-09 20:47
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 197 | recovered_to_main | 2025-09-09 20:47
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 197 | moved_to_main | 2025-09-09 20:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 203 | recovered_to_main | 2025-09-09 20:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 203 | moved_to_main | 2025-09-09 20:47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 203 | moved_to_non_working | 2025-09-09 19:57
 ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 197 | moved_to_non_working | 2025-09-09 19:57
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 202 🇺🇸 | recovered_to_main | 2025-09-09 19:56
