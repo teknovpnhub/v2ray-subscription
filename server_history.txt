@@ -1,3 +1,18 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | moved_to_non_working | 2025-09-09 13:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 206 | moved_to_non_working | 2025-09-09 13:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 205 | moved_to_non_working | 2025-09-09 13:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 195 | moved_to_non_working | 2025-09-09 13:52
+vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.9:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 178 | moved_to_non_working | 2025-09-09 13:52
+vless://3528af1b-878e-407a-b2c0-38643dbb791e@68.183.217.169:443?mode=auto&path=%2Fawd&security=reality&encryption=none&pbk=60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c&fp=chrome&spx=%2F&type=xhttp&sni=store.steampowered.com#Server 45 🇩🇪 | recovered_to_main | 2025-09-09 13:52
+vless://3528af1b-878e-407a-b2c0-38643dbb791e@68.183.217.169:443?mode=auto&path=%2Fawd&security=reality&encryption=none&pbk=60vwoYMS62_-PzJunEfDMUNv4zt580Z7L8fCCRcCm0c&fp=chrome&spx=%2F&type=xhttp&sni=store.steampowered.com#Server 45 🇩🇪 | moved_to_main | 2025-09-09 13:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | recovered_to_main | 2025-09-09 13:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | moved_to_main | 2025-09-09 13:52
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 213 🇯🇵 | recovered_to_main | 2025-09-09 13:52
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 213 🇯🇵 | moved_to_main | 2025-09-09 13:52
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy#Server 200 🇩🇪 | recovered_to_main | 2025-09-09 13:51
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy#Server 200 🇩🇪 | moved_to_main | 2025-09-09 13:51
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?encryption=none&security=none&type=ws&host=%2F%3F%20join-planB_proxy&path=%2F%3Fed%3D2048%40V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee#Server 208 🇮🇷 | recovered_to_main | 2025-09-09 13:51
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?encryption=none&security=none&type=ws&host=%2F%3F%20join-planB_proxy&path=%2F%3Fed%3D2048%40V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee#Server 208 🇮🇷 | moved_to_main | 2025-09-09 13:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 224 | moved_to_non_working | 2025-09-09 12:52
 vless://784646e5-8e84-4672-8670-efc9cafcd2cc@212.95.34.19:443?encryption=none&security=tls&allowInsecure=1&type=ws&path=%2F#Server 209 🇩🇪 | moved_to_non_working | 2025-09-09 12:52
 vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?encryption=none&security=none&type=ws&host=%2F%3F%20join-planB_proxy&path=%2F%3Fed%3D2048%40V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee#Server 208 🇮🇷 | moved_to_non_working | 2025-09-09 12:52
