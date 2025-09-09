@@ -1,3 +1,17 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 217 | moved_to_non_working | 2025-09-09 10:01
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 211 | moved_to_non_working | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 218 🇺🇸 | recovered_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 218 🇺🇸 | moved_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 219 🇺🇸 | recovered_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 219 🇺🇸 | moved_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 220 🇺🇸 | recovered_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 220 🇺🇸 | moved_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 223 🇳🇱 | recovered_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 223 🇳🇱 | moved_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 225 🇳🇱 | recovered_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 225 🇳🇱 | moved_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 215 🇩🇪 | recovered_to_main | 2025-09-09 10:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 215 🇩🇪 | moved_to_main | 2025-09-09 10:01
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 215 🇩🇪 | moved_to_non_working | 2025-09-09 08:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 225 🇳🇱 | moved_to_non_working | 2025-09-09 07:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 223 🇳🇱 | moved_to_non_working | 2025-09-09 07:54
