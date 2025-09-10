@@ -1,3 +1,24 @@
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 182 | moved_to_non_working | 2025-09-10 23:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 207 🇨🇦 | moved_to_non_working | 2025-09-10 23:52
+vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss47060.tas-bazi.com:443?mode=stream-one&path=%2Fsc&security=&encryption=none&type=xhttp#Server 205 | moved_to_non_working | 2025-09-10 23:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.190:8080#Server 156 🇺🇸 | moved_to_non_working | 2025-09-10 23:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.255.22:990#Server 133 🇵🇷 | moved_to_non_working | 2025-09-10 23:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.188:8080#Server 87 🇺🇸 | moved_to_non_working | 2025-09-10 23:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.188:8080#Server 85 🇺🇸 | moved_to_non_working | 2025-09-10 23:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.188:8080#Server 84 🇺🇸 | moved_to_non_working | 2025-09-10 23:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.188:8080#Server 83 🇺🇸 | moved_to_non_working | 2025-09-10 23:52
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 208 | recovered_to_main | 2025-09-10 23:51
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 208 | moved_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.65:8080#Server 104 | recovered_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.65:8080#Server 104 | moved_to_main | 2025-09-10 23:51
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 182 | recovered_to_main | 2025-09-10 23:51
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 182 | moved_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 209 | recovered_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 209 | moved_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 208 | recovered_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 208 | moved_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 207 | recovered_to_main | 2025-09-10 23:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 207 | moved_to_main | 2025-09-10 23:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 207 | moved_to_non_working | 2025-09-10 22:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 208 | moved_to_non_working | 2025-09-10 22:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 209 | moved_to_non_working | 2025-09-10 22:46
