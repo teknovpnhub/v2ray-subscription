@@ -1,8 +1,5 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 186 🇩🇪 | 2025-09-10 18:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 208 🇩🇪 | 2025-09-10 17:49
-vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@wa.sfasti.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=wa.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&headerType=none&host=%2FJoin----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN#Server 166 | 2025-09-10 16:58
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 206 🇩🇪 | 2025-09-10 16:11
-ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 206 | 2025-09-10 16:11
-vless://5475990d-e0ce-46ea-95e5-50f9e4879af9@185.200.240.134:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&sni=ru.sfasti.ru&sid=16895459a2c7768d&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none#Server 208 🇷🇺 | 2025-09-10 14:47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@77.110.110.117:443#Server 212 | 2025-09-10 12:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl@promo6v.bystrivpn.ru:443#Server 212 | 2025-09-10 06:26
 vless://turboo-server@server.turbooo-server.com:80?path=%2F&security=&encryption=none&type=ws#Server 20 🇺🇸 | 2025-09-09 22:46
