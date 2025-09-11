@@ -1,3 +1,5 @@
+h.karkon | added | [Note: 404.6.20] | 2025-09-11 17:30
+
 s.asgarzade | added | [Note: 404.6.19] | 2025-09-10 18:17
 
 yunesi | unblocked | [Note: 404.6.19 | blocked 2025-09-06] | 2025-09-10 13:33
@@ -104,15 +106,9 @@ ebrahimzade1 | added |  | 2025-09-04 12:00
 
 ebrahimzade1 | auto_renamed | Automatically renamed from ebrahimzade due to duplicate | 2025-09-04 12:00
 
-h.soleymanzade | added | [Note: 404.6.12] | 2025-09-03 20:25
-
 yusefi1 | unblocked | [Note: 404.6.12 | blocked 2025-09-01] | 2025-09-03 18:19
 
 yusefi1 | manual_delete | User manually removed [Note: 404.6.12 | blocked 2025-09-01] | 2025-09-03 18:19
-
-salamzade | blocked | | blocked 2025-09-03 [Note: 404.6.10] | 2025-09-03 14:51
-
-salamzade | manual_delete | User manually removed [Note: 404.6.10] | 2025-09-03 14:51
 
 alrostam | unblocked | [Note: 404.6.12 | blocked 2025-08-27] | 2025-09-03 12:19
 
