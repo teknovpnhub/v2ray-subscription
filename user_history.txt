@@ -1,3 +1,7 @@
+sabri | unblocked | [Note: 404.6.21 | blocked 2025-08-27] | 2025-09-12 11:47
+
+sabri | manual_delete | User manually removed [Note: 404.6.21 | blocked 2025-08-27] | 2025-09-12 11:47
+
 h.karkon | added | [Note: 404.6.20] | 2025-09-11 17:30
 
 s.asgarzade | added | [Note: 404.6.19] | 2025-09-10 18:17
@@ -99,12 +103,6 @@ khosrotamar | blocked | | blocked 2025-09-06 [Note: 404.4.29] | 2025-09-06 12:54
 khosrotamar | manual_delete | User manually removed [Note: 404.4.29] | 2025-09-06 12:54
 
 ebadi | added | [Note: 404.6.15] | 2025-09-06 12:48
-
-mansur | added | [Note: 404.6.13] | 2025-09-04 18:06
-
-ebrahimzade1 | added |  | 2025-09-04 12:00
-
-ebrahimzade1 | auto_renamed | Automatically renamed from ebrahimzade due to duplicate | 2025-09-04 12:00
 
 yusefi1 | unblocked | [Note: 404.6.12 | blocked 2025-09-01] | 2025-09-03 18:19
 
