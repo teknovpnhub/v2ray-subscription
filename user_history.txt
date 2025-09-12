@@ -1,3 +1,7 @@
+customer1 | blocked | | blocked 2025-09-13 [Note: 404.5.11] | 2025-09-13 00:52
+
+customer1 | manual_delete | User manually removed [Note: 404.5.11] | 2025-09-13 00:52
+
 a.teymurzade | blocked | | blocked 2025-09-13 [Note: 404.5.8] | 2025-09-13 00:50
 
 a.teymurzade | manual_delete | User manually removed [Note: 404.5.8] | 2025-09-13 00:50
