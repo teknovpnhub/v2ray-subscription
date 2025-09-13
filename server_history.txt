@@ -1,3 +1,25 @@
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 204 🇩🇪 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 205 🇩🇪 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 203 🇩🇪 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 198 🇨🇦 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@pl.vpnsparta.pro:57456#Server 194 🇵🇱 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@45.144.49.140:57456#Server 193 🇵🇱 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 186 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@rusrv.vpnsparta.pro:57456#Server 185 | moved_to_non_working | 2025-09-13 17:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 198 🇺🇸 | recovered_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 198 🇺🇸 | moved_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 199 🇺🇸 | recovered_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 199 🇺🇸 | moved_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 200 🇺🇸 | recovered_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 200 🇺🇸 | moved_to_main | 2025-09-13 17:44
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 204 🇩🇪 | recovered_to_main | 2025-09-13 17:44
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 204 🇩🇪 | moved_to_main | 2025-09-13 17:44
+vless://5475990d-e0ce-46ea-95e5-50f9e4879af9@185.200.240.134:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&sni=ru.sfasti.ru&sid=16895459a2c7768d&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none#Server 191 🇷🇺 | recovered_to_main | 2025-09-13 17:44
+vless://5475990d-e0ce-46ea-95e5-50f9e4879af9@185.200.240.134:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&sni=ru.sfasti.ru&sid=16895459a2c7768d&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none#Server 191 🇷🇺 | moved_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 196 🇮🇳 | recovered_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 196 🇮🇳 | moved_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#Server 197 🇮🇳 | recovered_to_main | 2025-09-13 17:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#Server 197 🇮🇳 | moved_to_main | 2025-09-13 17:44
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@103.111.114.29:57456#Server 197 🇮🇳 | moved_to_non_working | 2025-09-13 16:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@id.vpnsparta.pro:57456#Server 196 🇮🇳 | moved_to_non_working | 2025-09-13 16:51
 vless://5475990d-e0ce-46ea-95e5-50f9e4879af9@185.200.240.134:443?flow=xtls-rprx-vision&security=reality&encryption=none&type=tcp&sni=ru.sfasti.ru&sid=16895459a2c7768d&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&headerType=none#Server 191 🇷🇺 | moved_to_non_working | 2025-09-13 16:51
