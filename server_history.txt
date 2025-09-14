@@ -1,3 +1,9 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 204 | moved_to_non_working | 2025-09-14 16:05
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 178 | moved_to_non_working | 2025-09-14 16:05
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 183 | recovered_to_main | 2025-09-14 16:05
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 183 | moved_to_main | 2025-09-14 16:05
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 192 | recovered_to_main | 2025-09-14 16:05
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 192 | moved_to_main | 2025-09-14 16:05
 ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 199 | moved_to_non_working | 2025-09-14 14:44
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdWlxazJjUDBCTVdyZ21lOUlmRXZw@38.180.211.126:443#Server 192 | moved_to_non_working | 2025-09-14 14:44
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.22:8080#Server 139 | recovered_to_main | 2025-09-14 14:43
