@@ -1,3 +1,11 @@
+vless://f5f2458c-5fcb-4820-82c2-2997492c54d5@62.60.192.209:80?encryption=none&security=none&type=ws&host=%2F%3F%20join-planB_proxy&path=%2F%3Fed%3D2048%40V2Gatee--V2Gatee--V2Gatee--V2Gatee-V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee--V2Gatee#Server 199 | moved_to_non_working | 2025-09-14 16:50
+ss://YWVzLTEyOC1nY206MTAwODY%3D@153.121.51.214:10087#Server 178 | moved_to_non_working | 2025-09-14 16:50
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 199 | recovered_to_main | 2025-09-14 16:50
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 199 | moved_to_main | 2025-09-14 16:50
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 178 | recovered_to_main | 2025-09-14 16:50
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 178 | moved_to_main | 2025-09-14 16:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 204 | recovered_to_main | 2025-09-14 16:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 204 | moved_to_main | 2025-09-14 16:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 204 | moved_to_non_working | 2025-09-14 16:05
 vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 178 | moved_to_non_working | 2025-09-14 16:05
 ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 183 | recovered_to_main | 2025-09-14 16:05
