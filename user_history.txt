@@ -1,10 +1,4 @@
-habibi | manual_change | Changes:
-- habibi #404.5.27
-?             ^  ^
-
-+ habibi #404.6.22
-?             ^  ^
- [Note: 404.6.22] | 2025-09-13 19:05
+alizade | added | [Note: 404.6.23] | 2025-09-14 12:07
 
 n.sahrayi | added | [Note: 404.6.23] | 2025-09-13 19:00
 
@@ -123,42 +117,6 @@ salamzade | manual_delete | User manually removed [Note: 404.6.16 | blocked 2025
 ruyin | unblocked | [Note: 404.6.16 | blocked 2025-09-06] | 2025-09-07 10:38
 
 ruyin | manual_delete | User manually removed [Note: 404.6.16 | blocked 2025-09-06] | 2025-09-07 10:38
-
-afsari | added | [Note: 404.6.15] | 2025-09-06 18:57
-
-yunesi | blocked | | blocked 2025-09-06 [Note: 404.5.1] | 2025-09-06 13:04
-
-yunesi | manual_delete | User manually removed [Note: 404.5.1] | 2025-09-06 13:04
-
-a.abdollahzade1 | blocked | | blocked 2025-09-06 [Note: 404.4.31] | 2025-09-06 13:04
-
-a.abdollahzade1 | manual_delete | User manually removed [Note: 404.4.31] | 2025-09-06 13:04
-
-r.kheyri | blocked | | blocked 2025-09-06 [Note: 404.4.31] | 2025-09-06 13:03
-
-r.kheyri | manual_delete | User manually removed [Note: 404.4.31] | 2025-09-06 13:03
-
-a.abdollahzade | blocked | | blocked 2025-09-06 [Note: 404.4.31] | 2025-09-06 13:02
-
-a.abdollahzade | manual_delete | User manually removed [Note: 404.4.31] | 2025-09-06 13:02
-
-ruyin | blocked | | blocked 2025-09-06 [Note: 404.4.31] | 2025-09-06 12:57
-
-ruyin | manual_delete | User manually removed [Note: 404.4.31] | 2025-09-06 12:57
-
-hamzezade | blocked | | blocked 2025-09-06 [Note: 404.4.30] | 2025-09-06 12:56
-
-hamzezade | manual_delete | User manually removed [Note: 404.4.30] | 2025-09-06 12:56
-
-golizade | blocked | | blocked 2025-09-06 [Note: 404.4.29] | 2025-09-06 12:55
-
-golizade | manual_delete | User manually removed [Note: 404.4.29] | 2025-09-06 12:55
-
-khosrotamar | blocked | | blocked 2025-09-06 [Note: 404.4.29] | 2025-09-06 12:54
-
-khosrotamar | manual_delete | User manually removed [Note: 404.4.29] | 2025-09-06 12:54
-
-ebadi | added | [Note: 404.6.15] | 2025-09-06 12:48
 
 yusefi1 | unblocked | [Note: 404.6.12 | blocked 2025-09-01] | 2025-09-03 18:19
 
