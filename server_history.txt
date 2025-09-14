@@ -1,3 +1,15 @@
+ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA%3D%3D@2.58.87.221:16899#Server 207 🇺🇸 | moved_to_non_working | 2025-09-14 22:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@71.19.148.74:443#Server 203 🇺🇸 | moved_to_non_working | 2025-09-14 22:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#Server 202 🇺🇸 | moved_to_non_working | 2025-09-14 22:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#Server 201 🇺🇸 | moved_to_non_working | 2025-09-14 22:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 187 | moved_to_non_working | 2025-09-14 22:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@185.47.253.227:990#Server 119 | moved_to_non_working | 2025-09-14 22:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 205 | recovered_to_main | 2025-09-14 22:43
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 205 | moved_to_main | 2025-09-14 22:43
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 208 | recovered_to_main | 2025-09-14 22:43
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 208 | moved_to_main | 2025-09-14 22:43
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 202 | recovered_to_main | 2025-09-14 22:43
+vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 202 | moved_to_main | 2025-09-14 22:43
 vless://7b311017-4c83-490d-87d1-5aeef15a5250@m3a.vip784.com:33801?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI#Server 202 | moved_to_non_working | 2025-09-14 21:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 200 | moved_to_non_working | 2025-09-14 21:54
 vless://43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5@sss47060.tas-bazi.com:443?mode=stream-one&path=%2Fsc&security=&encryption=none&type=xhttp#Server 201 | moved_to_non_working | 2025-09-14 21:54
