@@ -1,10 +1,6 @@
-n.sahrayi | manual_change | Changes:
-- n.sahrayi #404.6.23
-?                   ^
+asiyabi | unblocked | [Note: 404.6.24 | blocked 2025-09-13] | 2025-09-15 18:34
 
-+ n.sahrayi #404.6.22
-?                   ^
- [Note: 404.6.22] | 2025-09-14 12:08
+asiyabi | manual_delete | User manually removed [Note: 404.6.24 | blocked 2025-09-13] | 2025-09-15 18:34
 
 alizade | added | [Note: 404.6.23] | 2025-09-14 12:07
 
