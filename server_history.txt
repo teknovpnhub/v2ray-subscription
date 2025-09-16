@@ -1,3 +1,15 @@
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 96 🇩🇪 | moved_to_non_working | 2025-09-16 14:46
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 97 🇩🇪 | moved_to_non_working | 2025-09-16 14:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 128 | moved_to_non_working | 2025-09-16 14:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:443#Server 127 | moved_to_non_working | 2025-09-16 14:46
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 124 | moved_to_non_working | 2025-09-16 14:46
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 96 🇩🇪 | recovered_to_main | 2025-09-16 14:46
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 96 🇩🇪 | moved_to_main | 2025-09-16 14:46
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 97 🇩🇪 | recovered_to_main | 2025-09-16 14:46
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 97 🇩🇪 | moved_to_main | 2025-09-16 14:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDI5NmU4ZC0zNjZiLTQzNTMtOWU4Yi01MTNkODNmMzY3NjU=@111.253.192.55:10149#Server 95 🇹🇼 | recovered_to_main | 2025-09-16 14:46
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDI5NmU4ZC0zNjZiLTQzNTMtOWU4Yi01MTNkODNmMzY3NjU=@111.253.192.55:10149#Server 95 🇹🇼 | moved_to_main | 2025-09-16 14:46
+vless://c7c922da-ab54-433c-8046-1f9bf9d95c23@185.236.232.237:1001?security=reality&encryption=none&pbk=8Gunn8hjWbit5yLtTPcvLph0u2ovHLsGoXX4IJS1EQ0&headerType=none&fp=chrome&type=tcp&sni=telewebion.com&sid=5fab0deb#Server 14 🇺🇸 | removed_after_3_days | 2025-09-16 14:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZGI3NzFjYy1kYWNmLTRmMDMtYTdkYy1jZGNkNzQ5YzUxNjg=@125.228.180.215:10089#%F0%9F%91%89%F0%9F%86%94@v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B9%F0%9F%87%BC%C2%AE%EF%B8%8FTaiwan%C2%A9%EF%B8%8FTaipei%F0%9F%85%BF%EF%B8%8Fping:263.06ms | recovered_to_main | 2025-09-16 13:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZGI3NzFjYy1kYWNmLTRmMDMtYTdkYy1jZGNkNzQ5YzUxNjg=@125.228.180.215:10089#%F0%9F%91%89%F0%9F%86%94@v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B9%F0%9F%87%BC%C2%AE%EF%B8%8FTaiwan%C2%A9%EF%B8%8FTaipei%F0%9F%85%BF%EF%B8%8Fping:263.06ms | moved_to_main | 2025-09-16 13:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 132 | recovered_to_main | 2025-09-16 13:50
