@@ -1,3 +1,13 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | moved_to_non_working | 2025-09-16 11:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:443#Server 103 | moved_to_non_working | 2025-09-16 11:58
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 249 | recovered_to_main | 2025-09-16 11:57
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 249 | moved_to_main | 2025-09-16 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | recovered_to_main | 2025-09-16 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 250 | moved_to_main | 2025-09-16 11:57
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server%20249 | recovered_to_main | 2025-09-16 11:57
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server%20249 | moved_to_main | 2025-09-16 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDI5NmU4ZC0zNjZiLTQzNTMtOWU4Yi01MTNkODNmMzY3NjU=@111.253.192.55:10149#%F0%9F%91%89%F0%9F%86%94@v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B9%F0%9F%87%BC%C2%AE%EF%B8%8FTaiwan%C2%A9%EF%B8%8FTaipei%F0%9F%85%BF%EF%B8%8Fping:255.82ms | recovered_to_main | 2025-09-16 11:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDI5NmU4ZC0zNjZiLTQzNTMtOWU4Yi01MTNkODNmMzY3NjU=@111.253.192.55:10149#%F0%9F%91%89%F0%9F%86%94@v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%B9%F0%9F%87%BC%C2%AE%EF%B8%8FTaiwan%C2%A9%EF%B8%8FTaipei%F0%9F%85%BF%EF%B8%8Fping:255.82ms | moved_to_main | 2025-09-16 11:57
 vless://08a3325b-479e-4eae-a3e8-ba35ed880786@141.227.164.136:52095?security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&packetEncoding=xudp&encryption=none#Server 102  | removed_duplicate | 2025-09-16 11:48
 vless://4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8@104.17.227.60:443?security=tls&sni=hdfynpv2c1.farvaharforever.com&fp=chrome&type=ws&path=/Iyq035lnud9R8ruNNrqGxZZ2&host=hdfynpv2c1.farvaharforever.com&packetEncoding=xudp&encryption=none#Server 96  | removed_duplicate | 2025-09-16 11:48
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.189:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 91  | removed_duplicate | 2025-09-16 11:48
