@@ -1,3 +1,10 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 254 | moved_to_non_working | 2025-09-16 08:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1WlFoNHBzc1NrNGFLMUpHMVhoQlJn@84.200.91.228:1080#Server 235 | moved_to_non_working | 2025-09-16 08:49
+vless://d8d05386-e381-40a4-bb63-715c208b3ed3@109.120.132.142:40617?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 28 🇸🇪 | moved_to_non_working | 2025-09-16 08:49
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 227 🇯🇵 | recovered_to_main | 2025-09-16 08:48
+ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 227 🇯🇵 | moved_to_main | 2025-09-16 08:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 254 | recovered_to_main | 2025-09-16 08:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 254 | moved_to_main | 2025-09-16 08:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 212 | moved_to_non_working | 2025-09-16 07:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 254 | moved_to_non_working | 2025-09-16 07:54
 ss://YWVzLTEyOC1nY206MTAwODY%3D@160.16.123.124:10087#Server 227 🇯🇵 | moved_to_non_working | 2025-09-16 07:54
