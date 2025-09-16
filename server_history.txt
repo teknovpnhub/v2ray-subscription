@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 212 | moved_to_non_working | 2025-09-16 06:26
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 15 🇳🇱 | moved_to_non_working | 2025-09-16 06:26
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 212 | recovered_to_main | 2025-09-16 06:26
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoSVRtYTJCWmQ1aFVTQkZXYUxNaEsw@94.159.96.245:11902#Server 212 | moved_to_main | 2025-09-16 06:26
 vless://6fae85ca-395a-4f27-9eb2-75123befc475@176.114.86.241:443?security=reality&sni=ru.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 44 🇷🇺 | removed_duplicate | 2025-09-16 02:48
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.189:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 41 🇺🇸 | removed_duplicate | 2025-09-16 02:48
 vless://7ef32b55-76b5-407e-94ba-c458657bc091@91.107.245.212:443?security=reality&sni=whatismyipaddress.com&fp=chrome&pbk=H2qqAHMWIcc0OmbKVbIvNF2T0Ej1NPET03gF479o2BU&sid=5c4c&type=tcp&packetEncoding=xudp&encryption=none#Server 27 🇩🇪 | removed_duplicate | 2025-09-16 02:48
