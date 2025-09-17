@@ -1,3 +1,14 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | moved_to_non_working | 2025-09-17 22:45
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 156 | moved_to_non_working | 2025-09-17 22:45
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 151 | moved_to_non_working | 2025-09-17 22:45
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 150 | moved_to_non_working | 2025-09-17 22:45
+vless://bf3e8944-8d26-47de-8748-b9aa74cce974@46.29.34.204:40721?security=reality&sni=yahoo.com&fp=chrome&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&sid=df8611c07d&type=tcp&packetEncoding=xudp&encryption=none#Server 147 | moved_to_non_working | 2025-09-17 22:45
+vless://7a3d2e42-3823-4b00-9818-293f7c6742ca@91.99.129.105:33667?security=reality&sni=store.steampowered.com&fp=firefox&pbk=urkddCRB1-01SWciigBk31sfccR6KZr4wX_BInUHu3o&sid=382874842551202c&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 93 🇩🇪 | moved_to_non_working | 2025-09-17 22:45
+vless://678a8311-6184-4a1f-a651-84be3cc82e37@ula347.tiri-viri.com:21275?security=tls&sni=ula347.tiri-viri.com&type=ws&path=/&host=ula347.tiri-viri.com&packetEncoding=xudp&encryption=none#Server 35 🇺🇸 | moved_to_non_working | 2025-09-17 22:45
+vless://4bb35928-40bb-4bf3-95f1-9efdc4169147@159.223.209.139:46964?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 80 | recovered_to_main | 2025-09-17 22:45
+vless://4bb35928-40bb-4bf3-95f1-9efdc4169147@159.223.209.139:46964?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 80 | moved_to_main | 2025-09-17 22:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | recovered_to_main | 2025-09-17 22:45
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | moved_to_main | 2025-09-17 22:45
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | moved_to_non_working | 2025-09-17 21:59
 vless://4bb35928-40bb-4bf3-95f1-9efdc4169147@159.223.209.139:46964?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 80 | moved_to_non_working | 2025-09-17 21:59
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | recovered_to_main | 2025-09-17 21:58
