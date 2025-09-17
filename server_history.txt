@@ -1,3 +1,9 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | moved_to_non_working | 2025-09-17 21:59
+vless://4bb35928-40bb-4bf3-95f1-9efdc4169147@159.223.209.139:46964?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 80 | moved_to_non_working | 2025-09-17 21:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | recovered_to_main | 2025-09-17 21:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 116 | moved_to_main | 2025-09-17 21:58
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 150 | recovered_to_main | 2025-09-17 21:58
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 150 | moved_to_main | 2025-09-17 21:58
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 117 | recovered_to_main | 2025-09-17 20:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 117 | moved_to_main | 2025-09-17 20:46
 vless://e3847ec6-b2fc-4eb2-b919-174d986f882c@poland20.clearorbitllc.com:443?security=reality&sni=poland20.clearorbitllc.com&fp=firefox&pbk=oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ&sid=2a22&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 100 | recovered_to_main | 2025-09-17 20:46
