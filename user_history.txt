@@ -1,3 +1,7 @@
+sadegi | unblocked | [Note: 404.6.26 | blocked 2025-09-13] | 2025-09-17 12:33
+
+sadegi | manual_delete | User manually removed [Note: 404.6.26 | blocked 2025-09-13] | 2025-09-17 12:33
+
 soltani | added | [Note: 404.6.25] | 2025-09-16 18:09
 
 shariatdust | added | [Note: 404.6.25] | 2025-09-16 13:37
@@ -73,14 +77,6 @@ s.kalashani | added | [Note: 404.6.19] | 2025-09-10 13:25
 molayi | unblocked | [Note: 404.6.18 | blocked 2025-09-08] | 2025-09-09 20:18
 
 molayi | manual_delete | User manually removed [Note: 404.6.18 | blocked 2025-09-08] | 2025-09-09 20:18
-
-golizade1 | added |  | 2025-09-09 17:26
-
-golizade1 | auto_renamed | Automatically renamed from golizade due to duplicate | 2025-09-09 17:26
-
-ahmadi | added | [Note: 404.6.18] | 2025-09-09 13:18
-
-gorbannezhad | added | [Note: 404.6.18] | 2025-09-09 11:08
 
 salamzade | unblocked | [Note: 404.6.10 | blocked 2025-09-08] | 2025-09-08 19:31
 

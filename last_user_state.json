@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "sadegi",
     "soltani",
     "shariatdust",
     "asiyabi",
@@ -10,7 +11,6 @@
     "g.abedini",
     "babayi",
     "s.khani",
-    "sadegi",
     "jalilzade",
     "g.kazemi",
     "manafi",
@@ -162,6 +162,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "sadegi": "sadegi #404.6.26",
     "soltani": "soltani #404.6.25",
     "shariatdust": "shariatdust #404.6.25",
     "asiyabi": "asiyabi #404.6.24",
@@ -172,7 +173,6 @@
     "g.abedini": "g.abedini #404.6.22",
     "babayi": "babayi #404.6.22",
     "s.khani": "🚫s.khani #404.5.16 | blocked 2025-09-13",
-    "sadegi": "🚫sadegi #404.5.16 | blocked 2025-09-13",
     "jalilzade": "🚫jalilzade #404.5.15 | blocked 2025-09-13",
     "g.kazemi": "🚫g.kazemi #404.5.15 | blocked 2025-09-13",
     "manafi": "🚫manafi #404.5.15 | blocked 2025-09-13",
@@ -323,5 +323,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-09-17 11:56"
+  "timestamp": "2025-09-17 12:33"
 }
