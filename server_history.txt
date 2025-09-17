@@ -1,3 +1,5 @@
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 155 | moved_to_non_working | 2025-09-17 18:51
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 154 | moved_to_non_working | 2025-09-17 18:51
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 72  | removed_duplicate | 2025-09-17 17:51
 vmess://93fb69fc-77cf-11ee-85ee-f23c91369f2d@c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net:80?encryption=auto&security=none&sni=google.com&fp=&type=ws&path=/&host=google.com#VM-0618-002 | moved_to_non_working | 2025-09-17 17:50
 vmess://ddb1f976-4239-4086-833f-f9b275f637a0@83.147.12.99:56018?encryption=auto&security=none&fp=&type=tcp#VM-0623-002 | moved_to_non_working | 2025-09-17 17:50
