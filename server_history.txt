@@ -1,3 +1,7 @@
+vless://bf3e8944-8d26-47de-8748-b9aa74cce974@46.29.34.204:40721?security=reality&sni=yahoo.com&fp=chrome&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&sid=df8611c07d&type=tcp&packetEncoding=xudp&encryption=none#Server 148 | recovered_to_main | 2025-09-18 11:56
+vless://bf3e8944-8d26-47de-8748-b9aa74cce974@46.29.34.204:40721?security=reality&sni=yahoo.com&fp=chrome&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&sid=df8611c07d&type=tcp&packetEncoding=xudp&encryption=none#Server 148 | moved_to_main | 2025-09-18 11:56
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 152 | recovered_to_main | 2025-09-18 11:56
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 152 | moved_to_main | 2025-09-18 11:56
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 152 | moved_to_non_working | 2025-09-18 10:49
 vless://bf3e8944-8d26-47de-8748-b9aa74cce974@46.29.34.204:40721?security=reality&sni=yahoo.com&fp=chrome&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&sid=df8611c07d&type=tcp&packetEncoding=xudp&encryption=none#Server 148 | moved_to_non_working | 2025-09-18 10:49
 vless://678a8311-6184-4a1f-a651-84be3cc82e37@ula347.tiri-viri.com:21275?security=tls&sni=ula347.tiri-viri.com&type=ws&path=/&host=ula347.tiri-viri.com&packetEncoding=xudp&encryption=none#Server 149 | recovered_to_main | 2025-09-18 10:48
