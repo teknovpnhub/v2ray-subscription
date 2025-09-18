@@ -1,3 +1,7 @@
+asiyabi | blocked | | blocked 2025-09-18 [Note: 404.6.24] | 2025-09-18 20:57
+
+asiyabi | manual_delete | User manually removed [Note: 404.6.24] | 2025-09-18 20:57
+
 customer1 | unblocked | [Note: 404.6.27 | blocked 2025-09-13] | 2025-09-18 18:27
 
 customer1 | manual_delete | User manually removed [Note: 404.6.27 | blocked 2025-09-13] | 2025-09-18 18:27
