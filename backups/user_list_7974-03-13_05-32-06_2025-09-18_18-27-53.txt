@@ -1,4 +1,3 @@
-customer1 #404.6.27
 hatamkhani #404.6.26
 sadegi #404.6.26
 soltani #404.6.25
@@ -15,6 +14,7 @@ babayi #404.6.22
 🚫g.kazemi #404.5.15 | blocked 2025-09-13
 🚫manafi #404.5.15 | blocked 2025-09-13
 🚫moradi #404.5.15 | blocked 2025-09-13
+🚫customer1 ---ub #404.6.27 | blocked 2025-09-13
 🚫a.teymurzade #404.5.8 | blocked 2025-09-13
 sabri #404.6.21
 h.karkon #404.6.20

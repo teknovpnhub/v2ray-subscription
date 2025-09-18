@@ -1,3 +1,7 @@
+customer1 | unblocked | [Note: 404.6.27 | blocked 2025-09-13] | 2025-09-18 18:27
+
+customer1 | manual_delete | User manually removed [Note: 404.6.27 | blocked 2025-09-13] | 2025-09-18 18:27
+
 hatamkhani | added | [Note: 404.6.26] | 2025-09-17 13:30
 
 sadegi | unblocked | [Note: 404.6.26 | blocked 2025-09-13] | 2025-09-17 12:33
@@ -68,13 +72,9 @@ sabri | manual_delete | User manually removed [Note: 404.6.21 | blocked 2025-08-
 
 h.karkon | added | [Note: 404.6.20] | 2025-09-11 17:30
 
-s.asgarzade | added | [Note: 404.6.19] | 2025-09-10 18:17
-
 yunesi | unblocked | [Note: 404.6.19 | blocked 2025-09-06] | 2025-09-10 13:33
 
 yunesi | manual_delete | User manually removed [Note: 404.6.19 | blocked 2025-09-06] | 2025-09-10 13:33
-
-s.kalashani | added | [Note: 404.6.19] | 2025-09-10 13:25
 
 molayi | unblocked | [Note: 404.6.18 | blocked 2025-09-08] | 2025-09-09 20:18
 
