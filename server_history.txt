@@ -1,3 +1,14 @@
+vless://e3847ec6-b2fc-4eb2-b919-174d986f882c@poland20.clearorbitllc.com:443?security=reality&sni=poland20.clearorbitllc.com&fp=firefox&pbk=oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ&sid=2a22&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 150 | moved_to_non_working | 2025-09-19 10:49
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 148 | moved_to_non_working | 2025-09-19 10:49
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 147 | moved_to_non_working | 2025-09-19 10:49
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930381053025132.tabriz-drc-tusabt.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 34 🇲🇾 | recovered_to_main | 2025-09-19 10:49
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930381053025132.tabriz-drc-tusabt.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 34 🇲🇾 | moved_to_main | 2025-09-19 10:49
+vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?security=reality&sni=www.steampowered.com&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&sid=85&type=tcp&packetEncoding=xudp&encryption=none#Server 136 | recovered_to_main | 2025-09-19 10:49
+vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?security=reality&sni=www.steampowered.com&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&sid=85&type=tcp&packetEncoding=xudp&encryption=none#Server 136 | moved_to_main | 2025-09-19 10:49
+vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?flow=&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&security=reality&sid=85&sni=www.steampowered.com&type=tcp#Server 137 | recovered_to_main | 2025-09-19 10:49
+vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?flow=&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&security=reality&sid=85&sni=www.steampowered.com&type=tcp#Server 137 | moved_to_main | 2025-09-19 10:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 151 | recovered_to_main | 2025-09-19 10:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 151 | moved_to_main | 2025-09-19 10:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 151 | moved_to_non_working | 2025-09-19 10:00
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 152 | moved_to_non_working | 2025-09-19 10:00
 vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?flow=&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&security=reality&sid=85&sni=www.steampowered.com&type=tcp#Server 137 | moved_to_non_working | 2025-09-19 10:00
