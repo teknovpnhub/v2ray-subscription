@@ -1,3 +1,7 @@
+m.hatami | blocked | | blocked 2025-09-20 [Note: 404.5.18] | 2025-09-20 01:30
+
+m.hatami | manual_delete | User manually removed [Note: 404.5.18] | 2025-09-20 01:30
+
 customer2 | blocked | | blocked 2025-09-20 [Note: 4.4.5.18] | 2025-09-20 01:29
 
 customer2 | manual_delete | User manually removed [Note: 4.4.5.18] | 2025-09-20 01:29
