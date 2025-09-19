@@ -1,5 +1,4 @@
 vless://4981b98f-4943-4083-83aa-00b028f57a18@57.129.92.155:36626?security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&packetEncoding=xudp&encryption=none#Server 137 | 2025-09-19 14:47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 152 | 2025-09-19 13:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 146 | 2025-09-19 13:52
 vless://5a5d8de5-8fea-4cc7-86f6-f0f92f6d22ce@167.99.92.238:34276?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 107 | 2025-09-19 13:52
 vless://34772e33-4f67-4ca3-9214-b8050ecaea49@167.99.195.231:46054?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 88 | 2025-09-19 13:52
@@ -22,5 +21,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.99:8880?security=none&f
 vless://7828f515-5ad8-4226-882f-77fead865ef3@92.223.2.119:25712?security=none&type=ws&packetEncoding=xudp&encryption=none#Server 39 🇦🇲 | 2025-09-16 19:56
 vless://7828f515-5ad8-4226-882f-77fead865ef3@92.223.2.119:25712?flow=&type=ws#Server 29 🇦🇲 | 2025-09-16 19:56
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.99:8880?flow=&type=grpc#Server 1 🇫🇷 | 2025-09-16 19:56
-vless://871e1c55-f4e7-4c6a-8d9f-0957f98d1fe5@93.127.180.224:8586?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 115 | 2025-09-16 16:11
-vless://ed82ccaa-4924-41a6-90a1-8facadf38841@93.127.180.123:8585?flow=&type=tcp#Server 30 🇦🇪 | 2025-09-16 16:11
