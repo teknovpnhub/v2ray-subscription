@@ -1,3 +1,10 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 146 | moved_to_non_working | 2025-09-19 19:54
+vless://bf3e8944-8d26-47de-8748-b9aa74cce974@46.29.34.204:40721?security=reality&sni=yahoo.com&fp=chrome&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&sid=df8611c07d&type=tcp&packetEncoding=xudp&encryption=none#Server 155 | recovered_to_main | 2025-09-19 19:54
+vless://bf3e8944-8d26-47de-8748-b9aa74cce974@46.29.34.204:40721?security=reality&sni=yahoo.com&fp=chrome&pbk=TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk&sid=df8611c07d&type=tcp&packetEncoding=xudp&encryption=none#Server 155 | moved_to_main | 2025-09-19 19:54
+vless://e3847ec6-b2fc-4eb2-b919-174d986f882c@poland20.clearorbitllc.com:443?security=reality&sni=poland20.clearorbitllc.com&fp=firefox&pbk=oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ&sid=2a22&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 146 | recovered_to_main | 2025-09-19 19:54
+vless://e3847ec6-b2fc-4eb2-b919-174d986f882c@poland20.clearorbitllc.com:443?security=reality&sni=poland20.clearorbitllc.com&fp=firefox&pbk=oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ&sid=2a22&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 146 | moved_to_main | 2025-09-19 19:54
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 146 | recovered_to_main | 2025-09-19 19:54
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 146 | moved_to_main | 2025-09-19 19:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 146 | moved_to_non_working | 2025-09-19 18:50
 vless://e3847ec6-b2fc-4eb2-b919-174d986f882c@poland20.clearorbitllc.com:443?security=reality&sni=poland20.clearorbitllc.com&fp=firefox&pbk=oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ&sid=2a22&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 146 | moved_to_non_working | 2025-09-19 18:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 146 | recovered_to_main | 2025-09-19 18:50
