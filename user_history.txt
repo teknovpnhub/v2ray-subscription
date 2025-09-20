@@ -1,3 +1,7 @@
+habibzade | unblocked | [Note: 404.6.29 | blocked 2025-09-01] | 2025-09-20 20:28
+
+habibzade | manual_delete | User manually removed [Note: 404.6.29 | blocked 2025-09-01] | 2025-09-20 20:28
+
 bakhshalizade | manual_change | Changes:
 - bakhshalizade
 + bakhshalizade #404.6.29 [Note: 404.6.29] | 2025-09-20 19:51
