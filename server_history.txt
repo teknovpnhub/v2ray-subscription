@@ -1,3 +1,6 @@
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 142 | moved_to_non_working | 2025-09-22 01:47
+vless://8f0120f1-ba26-e137-5e06-a99b844741aa@192.142.18.40:2589?security=reality&sni=tgju.org&fp=firefox&pbk=2hoQE6WBJlr4DHrp7TxqPOT8i24iodEaCQp-qugbD3U&sid=e41865e506628f44&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 141 🇳🇱 | removed_after_3_days | 2025-09-22 01:47
+vless://94a37013-c1fa-35ff-7479-68e2288f3157@ar.mehdikarimi3.ir:20086?flow=xtls-rprx-vision&fp=chrome&pbk=KUgSYSMa6KCrBMYx81yuM1cC02QyQmmIMj6-_1atgQ0&security=reality&sid=32aaf12b&sni=www.refersion.com&type=tcp#Server 152 | removed_after_3_days | 2025-09-22 01:47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 144 | recovered_to_main | 2025-09-22 00:46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 144 | moved_to_main | 2025-09-22 00:46
 vless://957d478f-8ea5-4664-b436-205fbb43e5b1@148.113.207.224:443?security=tls&sni=zula.ir&allowInsecure=1&fp=chrome&type=ws&path=/ws&packetEncoding=xudp&encryption=none#Server 107 | recovered_to_main | 2025-09-22 00:46
