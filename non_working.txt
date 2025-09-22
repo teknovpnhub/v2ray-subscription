@@ -1,7 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | 2025-09-22 14:47
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 145 | 2025-09-22 14:47
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | 2025-09-22 14:47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 143 | 2025-09-22 14:47
 vless://957d478f-8ea5-4664-b436-205fbb43e5b1@148.113.207.224:443?security=tls&sni=zula.ir&allowInsecure=1&fp=chrome&type=ws&path=/ws&packetEncoding=xudp&encryption=none#Server 143 🇨🇦 | 2025-09-22 11:58
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDI5NmU4ZC0zNjZiLTQzNTMtOWU4Yi01MTNkODNmMzY3NjU=@111.253.192.55:10149#Server 123 | 2025-09-21 23:50
 vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?flow=&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&security=reality&sid=85&sni=www.steampowered.com&type=tcp#Server 142 | 2025-09-21 13:48
