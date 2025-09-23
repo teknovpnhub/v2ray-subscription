@@ -80,28 +80,28 @@ vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handsome-device.oneeat.co:80?securi
 vless://4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8@104.17.228.60:443?security=tls&sni=hdfynpv2c1.farvaharforever.com&fp=chrome&type=ws&path=/Iyq035lnud9R8ruNNrqGxZZ2&host=hdfynpv2c1.farvaharforever.com&packetEncoding=xudp&encryption=none#Server 80 🇨🇦
 vless://b754b53a-aaf5-475c-eeed-46806c2aa63f@162.159.130.67:443?security=tls&sni=nkang2replace.airlineshoma.com&fp=chrome&type=ws&path=/&host=nkang2replace.airlineshoma.com&packetEncoding=xudp&encryption=none#Server 81 🇨🇦
 vless://95bbb722-7641-4247-b795-25a2f540e67b@185.138.88.58:443?security=reality&sni=www.bol.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 82 🇳🇱
-vless://c313c27c-97ff-45ed-ab5c-64641af5debc@fierce-data.seotoolsforyou.co.uk:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 83
-vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.129:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 84
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.180:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 85 🇺🇸
+vless://c313c27c-97ff-45ed-ab5c-64641af5debc@fierce-data.seotoolsforyou.co.uk:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 83 🇨🇦
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.129:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 84 🇺🇸
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.180:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 85
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.17.147.22:443?security=tls&sni=6389113402676776505.rtxiran.info&fp=chrome&type=ws&path=/&host=6389113402676776505.rtxiran.info&packetEncoding=xudp&encryption=none#Server 86 🇨🇦
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.63:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 87
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.63:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 87 🇺🇸
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.223:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 88 🇺🇸
-vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.120:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 89
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.58:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 90
-vless://3c7a1227-5383-3a19-7084-76624ec8f84f@213.232.123.10:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=SnjXP0GFBVxg3C7sbWUJ5JqKpnlg_BNMXuqoE78YhVE&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 91
-vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.waipdirect.shop:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 92 🇺🇸
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.120:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 89 🇺🇸
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.58:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 90 🇺🇸
+vless://3c7a1227-5383-3a19-7084-76624ec8f84f@213.232.123.10:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=SnjXP0GFBVxg3C7sbWUJ5JqKpnlg_BNMXuqoE78YhVE&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 91 🇺🇸
+vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh25v7.waipdirect.shop:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 92
 vless://b055036a-2d81-4d46-ab18-4e1898b58cec@fearless-change.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 93
 vless://f1fe4963-66f7-4f71-a038-9e07ea6cf20f@creative-computer.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 94
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.116:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 95
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.123:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 96
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.121:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 97
-vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.243:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 98 🇺🇸
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.243:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 98
 vless://5a12794b-2125-46d7-a748-927a989faa04@narrow-passenger.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 99
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.86.72.106:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 100 🇺🇸
+vless://e4824193-4f54-453b-d037-88368e85ef0e@45.86.72.106:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 100
 vless://6fae85ca-395a-4f27-9eb2-75123befc475@176.114.86.241:443?security=reality&sni=ru.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 101
-vless://3c7a1227-5383-3a19-7084-76624ec8f84f@147.78.180.10:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 102 🇺🇸
+vless://3c7a1227-5383-3a19-7084-76624ec8f84f@147.78.180.10:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 102
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.114:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 103
-vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.189:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 104 🇺🇸
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.189:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 104
 vless://d4163749-abe1-4f84-a8c9-4972795892f2@141.227.160.228:31846?security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&packetEncoding=xudp&encryption=none#Server 105
 vless://7244a576-0680-ee46-acd8-55809ee12479@103.175.79.2:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 106
 vless://4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8@104.17.227.60:443?security=tls&sni=hdfynpv2c1.farvaharforever.com&fp=chrome&type=ws&path=/Iyq035lnud9R8ruNNrqGxZZ2&host=hdfynpv2c1.farvaharforever.com&packetEncoding=xudp&encryption=none#Server 107
@@ -138,4 +138,3 @@ vless://957d478f-8ea5-4664-b436-205fbb43e5b1@148.113.207.224:443?security=tls&sn
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932756456112171.qazvin-drc-tusabw.info:8880?flow=&type=grpc#Server 138
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 139
 vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 140
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 141
