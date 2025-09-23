@@ -1,3 +1,14 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | moved_to_non_working | 2025-09-23 08:49
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 140 🇳🇱 | moved_to_non_working | 2025-09-23 08:49
+vless://e3847ec6-b2fc-4eb2-b919-174d986f882c@poland20.clearorbitllc.com:443?security=reality&sni=poland20.clearorbitllc.com&fp=firefox&pbk=oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ&sid=2a22&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 138 🇵🇱 | moved_to_non_working | 2025-09-23 08:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 142 | recovered_to_main | 2025-09-23 08:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 142 | moved_to_main | 2025-09-23 08:49
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | recovered_to_main | 2025-09-23 08:49
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_main | 2025-09-23 08:49
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | recovered_to_main | 2025-09-23 08:49
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_main | 2025-09-23 08:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | recovered_to_main | 2025-09-23 08:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | moved_to_main | 2025-09-23 08:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | moved_to_non_working | 2025-09-23 07:54
 vless://1lpxy6haqm@45.15.167.13:443?alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=1lpxy6haqm-451516713-direct.zamam.co&type=tcp#Server 43 🇱🇮 | moved_to_non_working | 2025-09-23 07:54
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_non_working | 2025-09-23 07:03
