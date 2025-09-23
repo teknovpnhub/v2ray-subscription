@@ -1,3 +1,14 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 137 | moved_to_non_working | 2025-09-23 22:00
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 136 | moved_to_non_working | 2025-09-23 22:00
+vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 129 | moved_to_non_working | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 5 🇫🇷 | recovered_to_main | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 5 🇫🇷 | moved_to_main | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 29 🇫🇷 | recovered_to_main | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 29 🇫🇷 | moved_to_main | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?flow=&type=grpc#Server 51 | recovered_to_main | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?flow=&type=grpc#Server 51 | moved_to_main | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 66 | recovered_to_main | 2025-09-23 22:00
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 66 | moved_to_main | 2025-09-23 22:00
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 66 | moved_to_non_working | 2025-09-23 20:57
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?flow=&type=grpc#Server 51 | moved_to_non_working | 2025-09-23 20:57
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 29 🇫🇷 | moved_to_non_working | 2025-09-23 20:57
