@@ -1,3 +1,7 @@
+m.hatami | unblocked | [Note: 404.7.2 | blocked 2025-09-20] | 2025-09-24 10:41
+
+m.hatami | manual_delete | User manually removed [Note: 404.7.2 | blocked 2025-09-20] | 2025-09-24 10:41
+
 kazemi | added | [Note: 404.7.1] | 2025-09-23 19:46
 
 abbasi | added | [Note: 404.7.1] | 2025-09-23 11:26
@@ -57,10 +61,6 @@ hatamkhani | added | [Note: 404.6.26] | 2025-09-17 13:30
 sadegi | unblocked | [Note: 404.6.26 | blocked 2025-09-13] | 2025-09-17 12:33
 
 sadegi | manual_delete | User manually removed [Note: 404.6.26 | blocked 2025-09-13] | 2025-09-17 12:33
-
-soltani | added | [Note: 404.6.25] | 2025-09-16 18:09
-
-shariatdust | added | [Note: 404.6.25] | 2025-09-16 13:37
 
 asiyabi | unblocked | [Note: 404.6.24 | blocked 2025-09-13] | 2025-09-15 18:34
 
