@@ -134,8 +134,5 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&f
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?flow=&type=grpc#Server 134
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 135
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 136
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 137
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 138
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932111805004627.rasht-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 139
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618903446.prague-drc-tusacae.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 140
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932111805004627.rasht-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 137
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618903446.prague-drc-tusacae.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 138
