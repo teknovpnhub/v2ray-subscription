@@ -1,4 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | 2025-09-24 16:11
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | 2025-09-24 17:48
 vless://0711cb9e-5925-4425-b59d-eae99375fa27@91.99.196.0:443?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 70 🇩🇪 | 2025-09-24 14:46
 vless://42c102ba-f4a6-4c9d-8d78-7e8f64bc5c3d@68.183.3.107:21790?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 115 | 2025-09-23 13:51
 vless://bbb1ce8e-684b-427f-89a0-42b8980f85f3@164.92.157.143:37677?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 32 🇳🇱 | 2025-09-23 13:51
