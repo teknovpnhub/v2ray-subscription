@@ -1,3 +1,5 @@
+a.amini | added | [Note: 404.7.3] | 2025-09-25 18:28
+
 hoseyni | added | [Note: 404.7.2] | 2025-09-24 20:00
 
 m.hatami | unblocked | [Note: 404.7.2 | blocked 2025-09-20] | 2025-09-24 10:41
@@ -57,8 +59,6 @@ asiyabi | manual_delete | User manually removed [Note: 404.6.24] | 2025-09-18 20
 customer1 | unblocked | [Note: 404.6.27 | blocked 2025-09-13] | 2025-09-18 18:27
 
 customer1 | manual_delete | User manually removed [Note: 404.6.27 | blocked 2025-09-13] | 2025-09-18 18:27
-
-hatamkhani | added | [Note: 404.6.26] | 2025-09-17 13:30
 
 sadegi | unblocked | [Note: 404.6.26 | blocked 2025-09-13] | 2025-09-17 12:33
 
