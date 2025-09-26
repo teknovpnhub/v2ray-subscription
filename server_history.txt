@@ -1,3 +1,8 @@
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 137 | moved_to_non_working | 2025-09-26 13:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 135 | moved_to_non_working | 2025-09-26 13:51
+vless://25dfcca5-9ac8-499a-e584-489d81870338@FASTSHOVPNTELEGRAM2.vinamarketcenter.ir:80?flow=&host=eng.vinamarketcenter.ir&path=%2FFASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM%3Fed%3D2048&type=ws#Server 40 🇨🇦 | moved_to_non_working | 2025-09-26 13:51
+vless://bbb1ce8e-684b-427f-89a0-42b8980f85f3@164.92.157.143:37677?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 32 🇳🇱 | removed_after_3_days | 2025-09-26 13:51
+vless://42c102ba-f4a6-4c9d-8d78-7e8f64bc5c3d@68.183.3.107:21790?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 115 | removed_after_3_days | 2025-09-26 13:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 137 | moved_to_non_working | 2025-09-26 12:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 137 | recovered_to_main | 2025-09-26 12:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 137 | moved_to_main | 2025-09-26 12:52
