@@ -1,8 +1,4 @@
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 137 | 2025-09-26 13:51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 135 | 2025-09-26 13:51
 vless://25dfcca5-9ac8-499a-e584-489d81870338@FASTSHOVPNTELEGRAM2.vinamarketcenter.ir:80?flow=&host=eng.vinamarketcenter.ir&path=%2FFASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM%3Fed%3D2048&type=ws#Server 40 🇨🇦 | 2025-09-26 13:51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 137 | 2025-09-26 12:52
 vless://4bb35928-40bb-4bf3-95f1-9efdc4169147@159.223.209.139:46964?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 113 | 2025-09-25 13:52
 vless://6bb4d50a-56f9-47d5-8ce8-d8b7fe9aa474@64.225.9.191:25023?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 111 | 2025-09-25 13:52
-vless://ec6ecb01-c532-4926-81dc-31592ba50c72@51.91.141.226:24830?security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&packetEncoding=xudp&encryption=none#Server 110 | 2025-09-24 23:52
 vless://0711cb9e-5925-4425-b59d-eae99375fa27@91.99.196.0:443?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 70 🇩🇪 | 2025-09-24 14:46
