@@ -164,7 +164,7 @@ ebrahimzade #404.5.21
 🚫sahrayi #404.4.16 | blocked 2025-08-12
 🚫khodaverdizade #404.4.16 | blocked 2025-08-12
 🚫hadizade #404.4.16 | blocked 2025-08-12
-omarzade #404.5.20
+omarzade ---b #404.5.20
 🚫siami #404.4.22 | blocked 2025-07-23
 azmun #404.4.29
 vahid
