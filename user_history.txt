@@ -1,3 +1,7 @@
+habibzade | blocked | | blocked 2025-09-27 [Note: 404.6.29] | 2025-09-27 10:46
+
+habibzade | manual_delete | User manually removed [Note: 404.6.29] | 2025-09-27 10:46
+
 habib.mojallal | added | [Note: 404.7.3] | 2025-09-25 19:43
 
 salmanzade1 | added |  | 2025-09-25 19:02
@@ -57,10 +61,6 @@ m.hatami | manual_delete | User manually removed [Note: 404.5.18] | 2025-09-20 0
 customer2 | blocked | | blocked 2025-09-20 [Note: 4.4.5.18] | 2025-09-20 01:29
 
 customer2 | manual_delete | User manually removed [Note: 4.4.5.18] | 2025-09-20 01:29
-
-asiyabi | blocked | | blocked 2025-09-18 [Note: 404.6.24] | 2025-09-18 20:57
-
-asiyabi | manual_delete | User manually removed [Note: 404.6.24] | 2025-09-18 20:57
 
 customer1 | unblocked | [Note: 404.6.27 | blocked 2025-09-13] | 2025-09-18 18:27
 
