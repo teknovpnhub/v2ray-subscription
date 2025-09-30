@@ -84,7 +84,7 @@ vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@212.41.8.198:443?security=reality&s
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMUEd2akI4N3V4MW9wRGdoMlh2dGhW@193.29.12.4:8443#Server 84 🇷🇴
 vless://3c7a1227-5383-3a19-7084-76624ec8f84f@77.81.65.10:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 85 🇩🇪
 vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@wa.sfasti.ru:443?security=reality&sni=wa.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 86 🇷🇺
-vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?security=tls&sni=CuEg4R5u01.SoLeNtRaA.iNfO&fp=chrome&type=ws&path=/&host=CuEg4R5u01.SoLeNtRaA.iNfO&packetEncoding=xudp&encryption=none#Server 87 🇨🇦
+vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?security=tls&sni=CuEg4R5u01.SoLeNtRaA.iNfO&fp=chrome&type=ws&path=/&host=CuEg4R5u01.SoLeNtRaA.iNfO&packetEncoding=xudp&encryption=none#Server 87 🇺🇸
 vless://4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8@104.16.201.94:443?security=tls&sni=hdfynpv2c1.farvaharforever.com&fp=chrome&type=ws&path=/Iyq035lnud9R8ruNNrqGxZZ2&host=hdfynpv2c1.farvaharforever.com&packetEncoding=xudp&encryption=none#Server 88 🇨🇦
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.17.148.22:443?security=tls&sni=6389113402676776505.rtxiran.info&fp=chrome&type=ws&path=/&host=6389113402676776505.rtxiran.info&packetEncoding=xudp&encryption=none#Server 89 🇨🇦
 vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handsome-device.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 90 🇨🇦
@@ -161,3 +161,4 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.clouda
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozVG5RZGdtMm1WSlFidVNDWG1SNVZj@81.19.141.45:443#Server 161 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4dlhnbjRseDVhOWJtZDBDMk5NZ1Ju@62.133.63.21:65262#Server 162 🇹🇷
 vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 163 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 164 🇩🇪
