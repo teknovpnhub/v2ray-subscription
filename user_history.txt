@@ -1,10 +1,4 @@
-sahranavard | manual_change | Changes:
-- sahranavard #404.6.8
-?                  ^
-
-+ sahranavard #404.7.8
-?                  ^
- [Note: 404.7.8] | 2025-09-30 12:04
+s.ilati | added | [Note: 404.7.9] | 2025-10-01 13:32
 
 s.mogaddam | added | [Note: 404.7.7] | 2025-09-29 20:47
 
@@ -93,10 +87,6 @@ hoseyni | added | [Note: 404.7.2] | 2025-09-24 20:00
 m.hatami | unblocked | [Note: 404.7.2 | blocked 2025-09-20] | 2025-09-24 10:41
 
 m.hatami | manual_delete | User manually removed [Note: 404.7.2 | blocked 2025-09-20] | 2025-09-24 10:41
-
-kazemi | added | [Note: 404.7.1] | 2025-09-23 19:46
-
-abbasi | added | [Note: 404.7.1] | 2025-09-23 11:26
 
 asiyabi | unblocked | [Note: 404.6.24 | blocked 2025-09-18] | 2025-09-21 11:09
 
