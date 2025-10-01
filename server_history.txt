@@ -1,3 +1,13 @@
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 165 🇩🇪 | moved_to_non_working | 2025-10-02 00:47
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 163 | moved_to_non_working | 2025-10-02 00:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 161 | recovered_to_main | 2025-10-02 00:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 161 | moved_to_main | 2025-10-02 00:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#Server 159 🇬🇧 | recovered_to_main | 2025-10-02 00:47
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#Server 159 🇬🇧 | moved_to_main | 2025-10-02 00:47
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 165 🇩🇪 | recovered_to_main | 2025-10-02 00:47
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 165 🇩🇪 | moved_to_main | 2025-10-02 00:47
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 163 | recovered_to_main | 2025-10-02 00:47
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 163 | moved_to_main | 2025-10-02 00:47
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 163 | moved_to_non_working | 2025-10-01 23:52
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 165 🇩🇪 | moved_to_non_working | 2025-10-01 23:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#Server 159 🇬🇧 | moved_to_non_working | 2025-10-01 23:52
@@ -789,115 +799,3 @@ vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality
 vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 135 | moved_to_main | 2025-09-25 00:47
 vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 139 | recovered_to_main | 2025-09-25 00:47
 vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 139 | moved_to_main | 2025-09-25 00:47
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 139 | moved_to_non_working | 2025-09-24 23:52
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 135 | moved_to_non_working | 2025-09-24 23:52
-vless://ec6ecb01-c532-4926-81dc-31592ba50c72@51.91.141.226:24830?security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&packetEncoding=xudp&encryption=none#Server 110 | moved_to_non_working | 2025-09-24 23:52
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930359207602168.dublin-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 25 🇱🇹 | recovered_to_main | 2025-09-24 23:52
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930359207602168.dublin-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 25 🇱🇹 | moved_to_main | 2025-09-24 23:52
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDI5NmU4ZC0zNjZiLTQzNTMtOWU4Yi01MTNkODNmMzY3NjU=@111.253.192.55:10149#Server 123 | removed_after_3_days | 2025-09-24 23:52
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930359207602168.dublin-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 25 🇱🇹 | moved_to_non_working | 2025-09-24 22:47
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | recovered_to_main | 2025-09-24 22:46
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | moved_to_main | 2025-09-24 22:46
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 137 | moved_to_non_working | 2025-09-24 21:57
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 136 | moved_to_non_working | 2025-09-24 21:57
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | recovered_to_main | 2025-09-24 21:56
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | moved_to_main | 2025-09-24 21:56
-vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?security=none&type=ws&path=/vless/&host=Join---PLANB-PROXY&packetEncoding=xudp&encryption=none#Server 22 🇫🇷 | recovered_to_main | 2025-09-24 21:56
-vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?security=none&type=ws&path=/vless/&host=Join---PLANB-PROXY&packetEncoding=xudp&encryption=none#Server 22 🇫🇷 | moved_to_main | 2025-09-24 21:56
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 137 | recovered_to_main | 2025-09-24 21:56
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 137 | moved_to_main | 2025-09-24 21:56
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 137 | moved_to_non_working | 2025-09-24 20:48
-vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?security=none&type=ws&path=/vless/&host=Join---PLANB-PROXY&packetEncoding=xudp&encryption=none#Server 22 🇫🇷 | moved_to_non_working | 2025-09-24 20:48
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 140 | recovered_to_main | 2025-09-24 20:48
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 140 | moved_to_main | 2025-09-24 20:48
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | moved_to_non_working | 2025-09-24 19:57
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | moved_to_non_working | 2025-09-24 19:57
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 140 | moved_to_non_working | 2025-09-24 19:57
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | recovered_to_main | 2025-09-24 19:56
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | moved_to_main | 2025-09-24 19:56
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 137 🇩🇪 | moved_to_non_working | 2025-09-24 18:51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | moved_to_non_working | 2025-09-24 17:48
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | recovered_to_main | 2025-09-24 17:48
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | moved_to_main | 2025-09-24 17:48
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | recovered_to_main | 2025-09-24 16:59
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | moved_to_main | 2025-09-24 16:59
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 138 | recovered_to_main | 2025-09-24 16:59
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 138 | moved_to_main | 2025-09-24 16:59
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | recovered_to_main | 2025-09-24 16:59
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_main | 2025-09-24 16:59
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | recovered_to_main | 2025-09-24 16:59
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_main | 2025-09-24 16:59
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_non_working | 2025-09-24 16:11
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_non_working | 2025-09-24 16:11
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 140 | moved_to_non_working | 2025-09-24 16:11
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 138 | moved_to_non_working | 2025-09-24 16:11
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | recovered_to_main | 2025-09-24 16:11
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_main | 2025-09-24 16:11
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | recovered_to_main | 2025-09-24 16:11
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_main | 2025-09-24 16:11
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_non_working | 2025-09-24 14:46
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_non_working | 2025-09-24 14:46
-vless://0711cb9e-5925-4425-b59d-eae99375fa27@91.99.196.0:443?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 70 🇩🇪 | moved_to_non_working | 2025-09-24 14:46
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | recovered_to_main | 2025-09-24 14:46
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_main | 2025-09-24 14:46
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | recovered_to_main | 2025-09-24 14:46
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_main | 2025-09-24 14:46
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | moved_to_non_working | 2025-09-24 13:51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 138 | recovered_to_main | 2025-09-24 13:51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 138 | moved_to_main | 2025-09-24 13:51
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | recovered_to_main | 2025-09-24 13:50
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | moved_to_main | 2025-09-24 13:50
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 132 | recovered_to_main | 2025-09-24 13:50
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 132 | moved_to_main | 2025-09-24 13:50
-vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?security=reality&sni=www.steampowered.com&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&sid=85&type=tcp&packetEncoding=xudp&encryption=none#Server 141 | removed_after_3_days | 2025-09-24 13:50
-vless://d4f5c51c-6bed-4a1c-a335-b0df490249d5@91.98.139.247:39626?flow=&fp=firefox&pbk=eUPFDtu0ZgmQQHqsSJJ2APBDF7X9Pje7LPBYehTMJBs&security=reality&sid=85&sni=www.steampowered.com&type=tcp#Server 142 | removed_after_3_days | 2025-09-24 13:50
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_non_working | 2025-09-24 12:52
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_non_working | 2025-09-24 12:52
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?security=none&type=tcp&packetEncoding=xudp&encryption=none#Server 132 | moved_to_non_working | 2025-09-24 12:52
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | recovered_to_main | 2025-09-24 12:52
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_main | 2025-09-24 12:52
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | recovered_to_main | 2025-09-24 12:52
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_main | 2025-09-24 12:52
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 137 | recovered_to_main | 2025-09-24 12:51
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 137 | moved_to_main | 2025-09-24 12:51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 138 | recovered_to_main | 2025-09-24 12:51
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 138 | moved_to_main | 2025-09-24 12:51
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 141 | moved_to_non_working | 2025-09-24 11:57
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 138 | moved_to_non_working | 2025-09-24 11:57
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 137 | moved_to_non_working | 2025-09-24 11:57
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 138 | moved_to_non_working | 2025-09-24 10:50
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 138 | recovered_to_main | 2025-09-24 10:49
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 138 | moved_to_main | 2025-09-24 10:49
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_non_working | 2025-09-24 07:54
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_non_working | 2025-09-24 07:54
-vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 138 | moved_to_non_working | 2025-09-24 07:54
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618903446.prague-drc-tusacae.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 7 🇱🇹 | recovered_to_main | 2025-09-24 07:54
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618903446.prague-drc-tusacae.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 7 🇱🇹 | moved_to_main | 2025-09-24 07:54
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932111805004627.rasht-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 22 🇱🇹 | recovered_to_main | 2025-09-24 07:54
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932111805004627.rasht-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 22 🇱🇹 | moved_to_main | 2025-09-24 07:54
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | recovered_to_main | 2025-09-24 07:54
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_main | 2025-09-24 07:54
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | recovered_to_main | 2025-09-24 07:54
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_main | 2025-09-24 07:54
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 144 | moved_to_non_working | 2025-09-24 07:05
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 143 | moved_to_non_working | 2025-09-24 07:05
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932111805004627.rasht-drc-dcrabj.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 22 🇱🇹 | moved_to_non_working | 2025-09-24 07:05
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618903446.prague-drc-tusacae.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 7 🇱🇹 | moved_to_non_working | 2025-09-24 07:05
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 141 | recovered_to_main | 2025-09-24 04:58
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 141 | moved_to_main | 2025-09-24 04:58
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 140 | recovered_to_main | 2025-09-24 04:58
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 140 | moved_to_main | 2025-09-24 04:58
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | recovered_to_main | 2025-09-24 04:58
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | moved_to_main | 2025-09-24 04:58
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 141 | recovered_to_main | 2025-09-24 04:58
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 141 | moved_to_main | 2025-09-24 04:58
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 141 | moved_to_non_working | 2025-09-24 02:47
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 140 | moved_to_non_working | 2025-09-24 02:47
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 140 | moved_to_non_working | 2025-09-24 01:48
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 141 | moved_to_non_working | 2025-09-24 01:48
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 140 | recovered_to_main | 2025-09-24 01:48
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 140 | moved_to_main | 2025-09-24 01:48
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 141 | recovered_to_main | 2025-09-24 01:48
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 141 | moved_to_main | 2025-09-24 01:48
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 141 | moved_to_non_working | 2025-09-24 00:47
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 140 | moved_to_non_working | 2025-09-24 00:47
