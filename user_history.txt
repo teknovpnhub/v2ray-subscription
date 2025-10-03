@@ -1,3 +1,7 @@
+eshgi | blocked | | blocked 2025-10-04 [Note: 404.5.30] | 2025-10-04 00:55
+
+eshgi | manual_delete | User manually removed [Note: 404.5.30] | 2025-10-04 00:55
+
 karimzade | blocked | | blocked 2025-10-04 [Note: 404.5.30] | 2025-10-04 00:54
 
 karimzade | manual_delete | User manually removed [Note: 404.5.30] | 2025-10-04 00:54
