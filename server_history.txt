@@ -1,3 +1,21 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 163 | moved_to_non_working | 2025-10-03 17:49
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.72:8880?mode=gun&security=none&encryption=none&type=grpc#Server 154 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.116:8880?flow=&type=grpc#Server 153 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.123:8880?flow=&type=grpc#Server 152 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.120:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 151 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.116:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 150 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.123:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 149 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.243:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 148 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@pqh29v2.waipdirect.shop:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 45 🇺🇸 | moved_to_non_working | 2025-10-03 17:48
+vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.109:8880?mode=gun&security=none&encryption=none&type=grpc#Server 1 🇺🇸 | moved_to_non_working | 2025-10-03 17:48
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 163 | recovered_to_main | 2025-10-03 17:48
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 163 | moved_to_main | 2025-10-03 17:48
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 162 | recovered_to_main | 2025-10-03 17:48
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 162 | moved_to_main | 2025-10-03 17:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 162 | recovered_to_main | 2025-10-03 17:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 162 | moved_to_main | 2025-10-03 17:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 163 | recovered_to_main | 2025-10-03 17:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 163 | moved_to_main | 2025-10-03 17:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 163 | moved_to_non_working | 2025-10-03 16:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjeTNBOUI4WFB4T0VuRUVleHZJQnFH@94.159.96.245:11902#Server 162 | moved_to_non_working | 2025-10-03 16:56
 vless://e4824193-4f54-453b-d037-88368e85ef0e@185.236.232.199:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 123 | moved_to_non_working | 2025-10-03 16:56
