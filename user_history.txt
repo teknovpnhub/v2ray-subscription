@@ -1,3 +1,7 @@
+a.panahi | blocked | | blocked 2025-10-04 [Note: 404.5.30] | 2025-10-04 00:58
+
+a.panahi | manual_delete | User manually removed [Note: 404.5.30] | 2025-10-04 00:58
+
 pashazade | manual_change | Changes:
 - pashazade #404.5.30
 + pashazade --b #404.5.30
