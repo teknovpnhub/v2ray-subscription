@@ -1,3 +1,7 @@
+parsa1 | blocked | | blocked 2025-10-04 [Note: 404.5.27] | 2025-10-04 00:49
+
+parsa1 | manual_delete | User manually removed [Note: 404.5.27] | 2025-10-04 00:49
+
 makarem | added | [Note: 404.7.10] | 2025-10-02 19:33
 
 habibzade1 | unblocked | [Note: 404.7.9 | blocked 2025-09-27] | 2025-10-01 17:30
@@ -79,14 +83,6 @@ zafari | manual_delete | User manually removed [Note: 404.5.19] | 2025-09-27 10:
 habibzade | blocked | | blocked 2025-09-27 [Note: 404.6.29] | 2025-09-27 10:46
 
 habibzade | manual_delete | User manually removed [Note: 404.6.29] | 2025-09-27 10:46
-
-habib.mojallal | added | [Note: 404.7.3] | 2025-09-25 19:43
-
-salmanzade1 | added |  | 2025-09-25 19:02
-
-salmanzade1 | auto_renamed | Automatically renamed from salmanzade due to duplicate | 2025-09-25 19:02
-
-a.amini | added | [Note: 404.7.3] | 2025-09-25 18:28
 
 m.hatami | unblocked | [Note: 404.7.2 | blocked 2025-09-20] | 2025-09-24 10:41
 
