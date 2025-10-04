@@ -1,3 +1,9 @@
+vless://44cb3f8c-57a4-4f2b-a0ae-d9121e54a598@138.124.52.155:54567?security=none&type=ws&path=/54567/mvfkvk&packetEncoding=xudp&encryption=none#Server 142 | moved_to_non_working | 2025-10-04 22:44
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 141 | moved_to_non_working | 2025-10-04 22:44
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 140 | moved_to_non_working | 2025-10-04 22:44
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 138 | moved_to_non_working | 2025-10-04 22:44
+vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#Server 139 | recovered_to_main | 2025-10-04 22:43
+vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#Server 139 | moved_to_main | 2025-10-04 22:43
 vless://888a20e2-fc3f-4f52-973c-36a6386225b8@89.44.242.222:29500?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#Server 139 | moved_to_non_working | 2025-10-04 21:56
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.58:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 78 | moved_to_non_working | 2025-10-04 21:56
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.63:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 77 | moved_to_non_working | 2025-10-04 21:56
