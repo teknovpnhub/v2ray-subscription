@@ -1,4 +1,3 @@
-narimani #404.7.12
 a.ahmadi #404.7.12
 khaledzade #404.7.12
 dehgani #404.7.12
@@ -26,6 +25,7 @@ m.mohammadi #404.7.5
 habibzade #404.6.29
 🚫a.mafi #404.5.25 | blocked 2025-09-27
 🚫n.karimi #404.4.18 | blocked 2025-09-27
+🚫narimani ---ub #404.7.12 | blocked 2025-09-27
 🚫a.esmailzade #404.5.25 | blocked 2025-09-27
 🚫h.lotfi #404.5.22 | blocked 2025-09-27
 🚫ebrahimzade #404.5.21 | blocked 2025-09-27
