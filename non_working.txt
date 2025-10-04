@@ -1,7 +1,6 @@
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 139 | 2025-10-05 00:46
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 138 | 2025-10-05 00:46
 vless://3bba9a08-157f-442b-b814-313e3ec7f350@54.36.117.130:25369?security=none&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON&packetEncoding=xudp&encryption=none#Server 94 🇩🇪 | 2025-10-04 23:50
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNGplb0Y0NFlkR1VTeU5aeGJvbFJw@94.159.96.245:11902#Server 138 | 2025-10-04 22:44
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.58:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 78 | 2025-10-04 21:56
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.63:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 77 | 2025-10-04 21:56
 vless://6fae85ca-395a-4f27-9eb2-75123befc475@176.114.86.241:443?security=reality&sni=ru.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 83 | 2025-10-04 19:53
