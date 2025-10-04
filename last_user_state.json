@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "dehgani",
     "gholami",
     "a.ahmadi",
     "hosseynzade",
@@ -183,6 +184,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "dehgani": "dehgani #404.7.12",
     "gholami": "🚫gholami #404.6.1 | blocked 2025-10-04",
     "a.ahmadi": "🚫a.ahmadi #404.5.30 | blocked 2025-10-04",
     "hosseynzade": "🚫hosseynzade #404.5.30 | blocked 2025-10-04",
@@ -365,5 +367,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-10-04 10:46"
+  "timestamp": "2025-10-04 11:30"
 }
