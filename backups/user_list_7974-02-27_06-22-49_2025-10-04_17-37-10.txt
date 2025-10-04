@@ -1,4 +1,3 @@
-a.panahi #404.7.12
 narimani #404.7.12
 a.ahmadi #404.7.12
 khaledzade #404.7.12
@@ -6,6 +5,7 @@ dehgani #404.7.12
 🚫gholami #404.6.1 | blocked 2025-10-04
 🚫hosseynzade #404.5.30 | blocked 2025-10-04
 🚫pashazade #404.5.30 | blocked 2025-10-04
+🚫a.panahi ---ub #404.7.12 | blocked 2025-10-04
 🚫eshgi #404.5.30 | blocked 2025-10-04
 🚫karimzade #404.5.30 | blocked 2025-10-04
 🚫masumi1 #404.5.29 | blocked 2025-10-04
