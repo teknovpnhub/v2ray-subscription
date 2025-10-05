@@ -1,3 +1,5 @@
+customer3 | added |  | 2025-10-05 12:34
+
 yusefi | unblocked | [Note: 404.7.12 | blocked 2025-08-30] | 2025-10-04 18:09
 
 yusefi | manual_delete | User manually removed [Note: 404.7.12 | blocked 2025-08-30] | 2025-10-04 18:09
@@ -88,8 +90,6 @@ tahmazade | added | [Note: 404.7.7] | 2025-09-29 12:29
 
 besharat | added | [Note: 404.7.7] | 2025-09-29 10:59
 
-m.zahedi | added | [Note: 404.7.5] | 2025-09-27 20:10
-
 alipour | unblocked | [Note: 404.5.25 | blocked 2025-09-27] | 2025-09-27 19:07
 
 alipour | manual_delete | User manually removed [Note: 404.5.25 | blocked 2025-09-27] | 2025-09-27 19:07
@@ -101,58 +101,6 @@ m.mohammadi | manual_delete | User manually removed [Note: 404.5.21 | blocked 20
 habibzade | unblocked | [Note: 404.6.29 | blocked 2025-09-27] | 2025-09-27 12:29
 
 habibzade | manual_delete | User manually removed [Note: 404.6.29 | blocked 2025-09-27] | 2025-09-27 12:29
-
-a.mafi | blocked | | blocked 2025-09-27 [Note: 404.5.25] | 2025-09-27 11:05
-
-a.mafi | manual_delete | User manually removed [Note: 404.5.25] | 2025-09-27 11:05
-
-n.karimi | blocked | | blocked 2025-09-27 [Note: 404.4.18] | 2025-09-27 11:03
-
-n.karimi | manual_delete | User manually removed [Note: 404.4.18] | 2025-09-27 11:03
-
-narimani | blocked | | blocked 2025-09-27 [Note: 404.5.27] | 2025-09-27 11:01
-
-narimani | manual_delete | User manually removed [Note: 404.5.27] | 2025-09-27 11:01
-
-alipour | blocked | | blocked 2025-09-27 [Note: 404.5.25] | 2025-09-27 11:00
-
-alipour | manual_delete | User manually removed [Note: 404.5.25] | 2025-09-27 11:00
-
-a.esmailzade | blocked | | blocked 2025-09-27 [Note: 404.5.25] | 2025-09-27 11:00
-
-a.esmailzade | manual_delete | User manually removed [Note: 404.5.25] | 2025-09-27 11:00
-
-h.lotfi | blocked | | blocked 2025-09-27 [Note: 404.5.22] | 2025-09-27 10:59
-
-h.lotfi | manual_delete | User manually removed [Note: 404.5.22] | 2025-09-27 10:59
-
-m.mohammadi | blocked | | blocked 2025-09-27 [Note: 404.5.21] | 2025-09-27 10:58
-
-m.mohammadi | manual_delete | User manually removed [Note: 404.5.21] | 2025-09-27 10:58
-
-ebrahimzade | blocked | | blocked 2025-09-27 [Note: 404.5.21] | 2025-09-27 10:57
-
-ebrahimzade | manual_delete | User manually removed [Note: 404.5.21] | 2025-09-27 10:57
-
-omarzade | blocked | | blocked 2025-09-27 [Note: 404.5.20] | 2025-09-27 10:57
-
-omarzade | manual_delete | User manually removed [Note: 404.5.20] | 2025-09-27 10:57
-
-habibzade1 | blocked | | blocked 2025-09-27 [Note: 404.5.20] | 2025-09-27 10:56
-
-habibzade1 | manual_delete | User manually removed [Note: 404.5.20] | 2025-09-27 10:56
-
-josef | blocked | | blocked 2025-09-27 [Note: 404.5.19] | 2025-09-27 10:56
-
-josef | manual_delete | User manually removed [Note: 404.5.19] | 2025-09-27 10:56
-
-zafari | blocked | | blocked 2025-09-27 [Note: 404.5.19] | 2025-09-27 10:54
-
-zafari | manual_delete | User manually removed [Note: 404.5.19] | 2025-09-27 10:54
-
-habibzade | blocked | | blocked 2025-09-27 [Note: 404.6.29] | 2025-09-27 10:46
-
-habibzade | manual_delete | User manually removed [Note: 404.6.29] | 2025-09-27 10:46
 
 m.hatami | unblocked | [Note: 404.7.2 | blocked 2025-09-20] | 2025-09-24 10:41
 
