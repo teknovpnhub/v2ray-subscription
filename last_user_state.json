@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "t.maaleki2",
     "hamed.khani",
     "shokrzade",
     "hasani",
@@ -11,7 +12,6 @@
     "zamani",
     "f.alinezhad",
     "delayimilan",
-    "t.maaleki2",
     "r.khani",
     "m.gorbani",
     "khani1",
@@ -189,6 +189,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "t.maaleki2": "t.maaleki2 #404.7.15",
     "hamed.khani": "hamed.khani #404.7.15",
     "shokrzade": "shokrzade #404.7.15",
     "hasani": "🚫hasani #404.6.6 | blocked 2025-10-07",
@@ -200,7 +201,6 @@
     "zamani": "🚫zamani #404.6.3 | blocked 2025-10-07",
     "f.alinezhad": "🚫f.alinezhad #404.6.2 | blocked 2025-10-07",
     "delayimilan": "🚫delayimilan #404.6.2 | blocked 2025-10-07",
-    "t.maaleki2": "🚫t.maaleki2 #404.6.2 | blocked 2025-10-07",
     "r.khani": "🚫r.khani #404.6.2 | blocked 2025-10-07",
     "m.gorbani": "🚫m.gorbani #404.6.2 | blocked 2025-10-07",
     "khani1": "🚫khani1 #404.6.2 | blocked 2025-10-07",
@@ -377,5 +377,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-10-07 17:58"
+  "timestamp": "2025-10-07 18:06"
 }
