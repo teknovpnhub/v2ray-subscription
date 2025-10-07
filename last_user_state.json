@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "hamed.khani",
     "shokrzade",
     "hasani",
     "h.mukhtari",
@@ -188,6 +189,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "hamed.khani": "hamed.khani #404.7.15",
     "shokrzade": "shokrzade #404.7.15",
     "hasani": "🚫hasani #404.6.6 | blocked 2025-10-07",
     "h.mukhtari": "🚫h.mukhtari #404.6.4 | blocked 2025-10-07",
@@ -375,5 +377,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-10-07 17:50"
+  "timestamp": "2025-10-07 17:58"
 }
