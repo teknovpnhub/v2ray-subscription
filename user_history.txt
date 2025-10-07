@@ -1,3 +1,7 @@
+customer2 | unblocked | [Note: 404.7.15 | blocked 2025-09-20] | 2025-10-07 11:34
+
+customer2 | manual_delete | User manually removed [Note: 404.7.15 | blocked 2025-09-20] | 2025-10-07 11:34
+
 esfandiyari | added | [Note: 404.7.14] | 2025-10-06 19:41
 
 peyman | added | [Note: 404.7.13] | 2025-10-05 19:01
@@ -89,14 +93,6 @@ habibzade1 | unblocked | [Note: 404.7.9 | blocked 2025-09-27] | 2025-10-01 17:30
 habibzade1 | manual_delete | User manually removed [Note: 404.7.9 | blocked 2025-09-27] | 2025-10-01 17:30
 
 s.ilati | added | [Note: 404.7.9] | 2025-10-01 13:32
-
-s.mogaddam | added | [Note: 404.7.7] | 2025-09-29 20:47
-
-aghaye.rahimi | added | [Note: 404.7.7] | 2025-09-29 12:44
-
-tahmazade | added | [Note: 404.7.7] | 2025-09-29 12:29
-
-besharat | added | [Note: 404.7.7] | 2025-09-29 10:59
 
 alipour | unblocked | [Note: 404.5.25 | blocked 2025-09-27] | 2025-09-27 19:07
 
