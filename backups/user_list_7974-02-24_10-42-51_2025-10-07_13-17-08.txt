@@ -1,4 +1,3 @@
-🚫khani1 #404.6.2 | blocked 2025-10-07
 🚫aragi #404.6.2 | blocked 2025-10-07
 customer2 #404.7.15
 esfandiyari #404.7.14
@@ -143,6 +142,7 @@ delayimilan #404.6.2
 t.maaleki2 #404.6.2
 r.khani #404.6.2
 m.gorbani #404.6.2
+khani1 ---b #404.6.2
 🚫z.ebrahimi #404.4.21 | blocked 2025-08-23
 🚫m.khani #404.4.21 | blocked 2025-08-23
 🚫rashidinasab #404.4.21 | blocked 2025-08-23
