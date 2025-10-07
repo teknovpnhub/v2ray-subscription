@@ -142,7 +142,7 @@ valizade #404.6.3
 zamani #404.6.3
 shokrzade #404.6.3
 f.alinezhad #404.6.2
-delayimilan #404.6.2
+delayimilan ---b #404.6.2
 🚫z.ebrahimi #404.4.21 | blocked 2025-08-23
 🚫m.khani #404.4.21 | blocked 2025-08-23
 🚫rashidinasab #404.4.21 | blocked 2025-08-23
