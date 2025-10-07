@@ -1,3 +1,7 @@
+m.gorbani | blocked | | blocked 2025-10-07 [Note: 404.6.2] | 2025-10-07 13:17
+
+m.gorbani | manual_delete | User manually removed [Note: 404.6.2] | 2025-10-07 13:17
+
 khani1 | blocked | | blocked 2025-10-07 [Note: 404.6.2] | 2025-10-07 13:17
 
 khani1 | manual_delete | User manually removed [Note: 404.6.2] | 2025-10-07 13:17
