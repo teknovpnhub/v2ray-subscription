@@ -1,3 +1,7 @@
+shokrzade | blocked | | blocked 2025-10-07 [Note: 404.6.3] | 2025-10-07 13:24
+
+shokrzade | manual_delete | User manually removed [Note: 404.6.3] | 2025-10-07 13:24
+
 f.alinezhad | blocked | | blocked 2025-10-07 [Note: 404.6.2] | 2025-10-07 13:23
 
 f.alinezhad | manual_delete | User manually removed [Note: 404.6.2] | 2025-10-07 13:23
