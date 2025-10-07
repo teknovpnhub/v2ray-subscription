@@ -1,3 +1,7 @@
+aragi | blocked | | blocked 2025-10-07 [Note: 404.6.2] | 2025-10-07 13:16
+
+aragi | manual_delete | User manually removed [Note: 404.6.2] | 2025-10-07 13:16
+
 customer2 | unblocked | [Note: 404.7.15 | blocked 2025-09-20] | 2025-10-07 11:34
 
 customer2 | manual_delete | User manually removed [Note: 404.7.15 | blocked 2025-09-20] | 2025-10-07 11:34
