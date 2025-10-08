@@ -1,4 +1,3 @@
-masumi1 #404.7.16
 a.reza #404.7.16
 z.soltani #404.7.16
 khani1 #404.7.16
@@ -34,6 +33,7 @@ dehgani #404.7.12
 🚫pashazade #404.5.30 | blocked 2025-10-04
 🚫eshgi #404.5.30 | blocked 2025-10-04
 🚫karimzade #404.5.30 | blocked 2025-10-04
+🚫masumi1 ---ub #404.7.16 | blocked 2025-10-04
 🚫masumi #404.5.29 | blocked 2025-10-04
 🚫parsa1 #404.5.27 | blocked 2025-10-04
 makarem #404.7.10
