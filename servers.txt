@@ -16,7 +16,7 @@ vless://ed099030-2776-47f8-bd7c-273a7b016ab8@95.134.130.138:3477?mode=gun&securi
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@80.92.206.19:8880?mode=gun&security=&encryption=none&authority=---%40External_Net---%40External_Net---%40External_Net---%40External_Net---%40External_Net&type=grpc#Server 16 🇳🇱
 vless://9096805c-e6b8-4da9-9bdc-d76e392e6630@172.67.168.193:80?path=%2FFree-VPN-Geo-Project%2F181.214.208.46-8011&security=&encryption=none&host=gamang.gpj2.dpdns.org&type=ws#Server 17 🇨🇦
 vless://41b55c53-7776-4727-b05d-1ccf9cc409a5@104.20.30.132:443?path=%2FFree-VPN-Geo-Project%2F91.187.93.166-443&security=tls&encryption=none&host=gamang.gpj2.dpdns.org&type=ws&sni=gamang.gpj2.dpdns.org#Server 18 🇺🇸
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=%2Fsnippets%2Fip%3D&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 19 🇬🇧
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=%2Fsnippets%2Fip%3D&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 19 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.190:8080#Server 20 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.105:8880?mode=gun&security=&encryption=none&fp=chrome&type=grpc#Server 21 🇫🇷
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=M84tG1gGw0.SoLeNtRaA.iNfO&fp=chrome&type=ws&sni=M84tG1gGw0.SoLeNtRaA.iNfO#Server 22 🇺🇸
@@ -42,7 +42,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930382260455538.ahvaz-drc-tusabt
 vless://297df885-9161-46cb-94d4-90a8a8489645@45.128.54.17:443?path=/dahuqpws&security=tls&encryption=none&type=ws#Server 42 🇲🇾
 vless://481c5606-b586-44d7-bc2e-d8ef30d67f62@176.120.72.63:38339?security=reality&encryption=none&pbk=o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA&headerType=none&fp=chrome&type=tcp&sni=dl.google.com&sid=e16883e511#Server 43 🇰🇿
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.17.148.22:443?path=/&security=tls&encryption=none&host=6389113402676776506.rtxiran.info&fp=chrome&type=ws&sni=6389113402676776506.rtxiran.info#Server 44 🇺🇸
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=/snippets/ip=tw.tp81.netlib.re:81?ed=2560?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 45 🇨🇦
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=/snippets/ip=tw.tp81.netlib.re:81?ed=2560?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 45 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@195.181.160.6:990#Server 46
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWZHN3eGV0VmM2QWhJcHMxOHJ0WWJt@95.163.176.37:8506#Server 47
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1VFpud1BiMjNwUVMzOWxJdWNzcEp3@fin.outlinebot1.ru:5904#Server 48
@@ -157,3 +157,5 @@ vless://53fff6cc-b4ec-43e8-ade5-e0c42972fc33@193.151.135.21:44443?security=reali
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#Server 157
 vless://1dbfb57c-164e-47c5-9355-8e0c429e7b99@45.82.245.173:80?path=/vless/&security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&type=ws#Server 158
 vless://e43fcf67-4bbd-442b-96a5-cca945049f4e@deu582.worldbypass.org:443?flow=xtls-rprx-vision&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&security=reality&sid=&sni=www.t3n.de&type=tcp#Server 159
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 160
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 161
