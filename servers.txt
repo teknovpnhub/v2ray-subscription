@@ -5,7 +5,7 @@ vless://c2be64b2-7588-43bf-a80d-f37c9c3e2ab2@80.74.29.212:8443?security=reality&
 vless://b65f4df7-f6af-42b2-877a-cef33f21675e@91.201.113.193:443?path=%2Fsnippets%2Fip%3Dproxyip.fxxk.dedyn.io%3A443%3Fed%3D2560&security=tls&encryption=none&host=kejiland.freewarp.eu.org&type=ws&sni=kejiland.freewarp.eu.org#Server 5 🇳🇱
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.159:8880?security=&encryption=none&type=grpc#Server 6 🇫🇷
 vless://aee5efa7-f605-476d-97ab-e8deee030dab@nld20.freednet.org:443?security=reality&encryption=none&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.cybo.com#Server 7 🇳🇱
-trojan://YwuvGJk36B@creativecommons.org:2053?path=%2Fyamtekodasayahhh&security=tls&alpn=http%2F1.1&host=kotlet.arshiacomplus.dpdns.org&type=ws&sni=kotlet.arshiacomplus.dpdns.org#Server 8 🇺🇸
+trojan://YwuvGJk36B@creativecommons.org:2053?path=%2Fyamtekodasayahhh&security=tls&alpn=http%2F1.1&host=kotlet.arshiacomplus.dpdns.org&type=ws&sni=kotlet.arshiacomplus.dpdns.org#Server 8 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.149:8880?mode=gun&security=&encryption=none&type=grpc#Server 9 🇫🇷
 vless://0c0537c3-f0fb-40e6-bd59-f5038e1855ed@162.159.43.92:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=juzi.634676.xyz&type=ws&sni=juzi.634676.xyz#Server 10 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.69:8880?security=&encryption=none&type=grpc#Server 11 🇫🇷
@@ -14,7 +14,7 @@ vless://...mahanvpn..%2B%2B@www.speedtest.net:2052?path=%2FmAhAnteaM%2C%3Fed%3D2
 vless://b65f4df7-f6af-42b2-877a-cef33f21675e@199.34.229.32:2096?path=%2Fsnippetsfp&security=tls&encryption=none&host=kejiland.freewarp.eu.org&type=ws&sni=kejiland.freewarp.eu.org#Server 14 🇺🇸
 vless://9096805c-e6b8-4da9-9bdc-d76e392e6630@172.67.168.193:80?path=%2FFree-VPN-Geo-Project%2F181.214.208.46-8011&security=&encryption=none&host=gamang.gpj2.dpdns.org&type=ws#Server 15 🇨🇦
 vless://41b55c53-7776-4727-b05d-1ccf9cc409a5@104.20.30.132:443?path=%2FFree-VPN-Geo-Project%2F91.187.93.166-443&security=tls&encryption=none&host=gamang.gpj2.dpdns.org&type=ws&sni=gamang.gpj2.dpdns.org#Server 16 🇺🇸
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=%2Fsnippets%2Fip%3D&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 17 🇬🇧
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=%2Fsnippets%2Fip%3D&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 17 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.190:8080#Server 18 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.105:8880?mode=gun&security=&encryption=none&fp=chrome&type=grpc#Server 19 🇫🇷
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&host=M84tG1gGw0.SoLeNtRaA.iNfO&fp=chrome&type=ws&sni=M84tG1gGw0.SoLeNtRaA.iNfO#Server 20 🇺🇸
@@ -40,7 +40,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930382260455538.ahvaz-drc-tusabt
 vless://297df885-9161-46cb-94d4-90a8a8489645@45.128.54.17:443?path=/dahuqpws&security=tls&encryption=none&type=ws#Server 40 🇲🇾
 vless://481c5606-b586-44d7-bc2e-d8ef30d67f62@176.120.72.63:38339?security=reality&encryption=none&pbk=o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA&headerType=none&fp=chrome&type=tcp&sni=dl.google.com&sid=e16883e511#Server 41 🇰🇿
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.17.148.22:443?path=/&security=tls&encryption=none&host=6389113402676776506.rtxiran.info&fp=chrome&type=ws&sni=6389113402676776506.rtxiran.info#Server 42 🇺🇸
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=/snippets/ip=tw.tp81.netlib.re:81?ed=2560?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 43 🇬🇧
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@xn--ktff-jt6hr36l.tencentapp.cn:443?path=/snippets/ip=tw.tp81.netlib.re:81?ed=2560?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN&security=tls&encryption=none&host=What.The.Fxxk.cloudns.org&type=ws&sni=What.The.Fxxk.cloudns.org#Server 43 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@195.181.160.6:990#Server 44 🇨🇿
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWZHN3eGV0VmM2QWhJcHMxOHJ0WWJt@95.163.176.37:8506#Server 45 🇦🇹
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1VFpud1BiMjNwUVMzOWxJdWNzcEp3@fin.outlinebot1.ru:5904#Server 46 🇫🇮
@@ -58,7 +58,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638931077057619102.hamedan-drc-tusa
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930382260455538.ahvaz-drc-tusabt.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 58 🇳🇱
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930316257411243.neyshabur-drc-tusabt.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 59 🇳🇱
 vless://0cc731b9-0375-4590-aeaa-7e2611a149fe@104.21.36.57:443?security=tls&sni=black.fullmargintraders.com&type=ws&path=/wsv/0cc731b9-0375-4590-aeaa-7e2611a149fe&host=black.fullmargintraders.com&packetEncoding=xudp&encryption=none#Server 60 🇺🇸
-vless://b055036a-2d81-4d46-ab18-4e1898b58cec@fearless-change.oneeat.co:80?flow=&path=%2F&type=ws#Server 61 🇺🇸
+vless://b055036a-2d81-4d46-ab18-4e1898b58cec@fearless-change.oneeat.co:80?flow=&path=%2F&type=ws#Server 61 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.147.74:8880?flow=&type=grpc#Server 62 🇳🇱
 vless://89de2797-c1b1-4e7d-93b1-3735343d544d@172.66.40.99:80?flow=&host=websocket.network.www.speedtest.net.flutter.dev.russia.python.js.elmahstyle.xyz.&path=%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy&type=ws#Server 63 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929320863717328.malayer-drc-tusabq.info:8880?flow=&type=grpc#Server 64 🇫🇷
@@ -69,7 +69,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnOEJXYVk4RlloS2ZWTU9UOU4wSUlC@154.205.134.13
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930316257411243.neyshabur-drc-tusabt.info:8880?flow=&type=grpc#Server 69 🇳🇱
 vless://6a8ee307-a1fb-4801-92e2-86253ecdd88d@5.181.21.152:24170?security=reality&sni=yahoo.com&fp=chrome&pbk=rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw&sid=200f99e321&type=tcp&packetEncoding=xudp&encryption=none#Server 70 🇦🇹
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932756456112171.qazvin-drc-tusabw.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 71 🇫🇷
-vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 72 🇨🇦
+vless://ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3@famous-danger.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 72 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.186:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 73 🇫🇷
 vless://031fe63c-f7da-40b7-960d-1101df6eda60@mstr.fastly80.hosting-ip.com:80?security=none&type=ws&path=/admin&host=Gn8656.io&packetEncoding=xudp&encryption=none#Server 74 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.235:8080#Server 75 🇳🇱
@@ -79,7 +79,7 @@ vless://9ab2c75b-cbec-4f65-9eab-061e7ab07820@zarin4ii.alireza031.pw:22256?securi
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMUEd2akI4N3V4MW9wRGdoMlh2dGhW@193.29.12.4:8443#Server 79 🇷🇴
 vless://3c7a1227-5383-3a19-7084-76624ec8f84f@77.81.65.10:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 80 🇩🇪
 vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@104.17.148.22:443?security=tls&sni=6389113402676776505.rtxiran.info&fp=chrome&type=ws&path=/&host=6389113402676776505.rtxiran.info&packetEncoding=xudp&encryption=none#Server 81 🇺🇸
-vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handsome-device.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 82 🇺🇸
+vless://2ad87f95-7a0b-4018-8497-5ecaac2f0ddf@handsome-device.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 82 🇨🇦
 vless://b754b53a-aaf5-475c-eeed-46806c2aa63f@162.159.130.67:443?security=tls&sni=nkang2replace.airlineshoma.com&fp=chrome&type=ws&path=/&host=nkang2replace.airlineshoma.com&packetEncoding=xudp&encryption=none#Server 83 🇨🇦
 vless://95bbb722-7641-4247-b795-25a2f540e67b@185.138.88.58:443?security=reality&sni=www.bol.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 84 🇳🇱
 vless://c313c27c-97ff-45ed-ab5c-64641af5debc@fierce-data.seotoolsforyou.co.uk:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 85 🇨🇦
@@ -123,7 +123,7 @@ vless://1lpxy6haqm@45.15.167.13:443?alpn=h2%2Chttp%2F1.1&flow=xtls-rprx-vision&f
 vless://e3847ec6-b2fc-4eb2-b919-174d986f882c@poland20.clearorbitllc.com:443?security=reality&sni=poland20.clearorbitllc.com&fp=firefox&pbk=oNYCpjXjcYAV9qSWBt95N9dDUPhc_QnauJZ3kSJVeSQ&sid=2a22&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 123 🇵🇱
 vless://c9b0100b-01b9-4167-b9e2-a0a8cad1e32b@m23a.vip784.com:33801?security=none&encryption=none&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=http&type=tcp#Server 124 🇵🇱
 vless://6f6e8f09-c1b3-48fd-ab00-18f921d875ef@104.21.36.57:443?security=tls&sni=profit.fullmargintraders.com&fp=chrome&type=ws&path=/wsv/6f6e8f09-c1b3-48fd-ab00-18f921d875ef&host=profit.fullmargintraders.com&packetEncoding=xudp&encryption=none#Server 125 🇺🇸
-vless://f1fe4963-66f7-4f71-a038-9e07ea6cf20f@creative-computer.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 126 🇺🇸
+vless://f1fe4963-66f7-4f71-a038-9e07ea6cf20f@creative-computer.oneeat.co:80?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 126 🇨🇦
 vless://4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8@104.17.228.60:443?security=tls&sni=hdfynpv2c1.farvaharforever.com&fp=chrome&type=ws&path=/Iyq035lnud9R8ruNNrqGxZZ2&host=hdfynpv2c1.farvaharforever.com&packetEncoding=xudp&encryption=none#Server 127 🇺🇸
 vless://4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8@104.16.201.94:443?security=tls&sni=hdfynpv2c1.farvaharforever.com&fp=chrome&type=ws&path=/Iyq035lnud9R8ruNNrqGxZZ2&host=hdfynpv2c1.farvaharforever.com&packetEncoding=xudp&encryption=none#Server 128 🇺🇸
 vless://e999db7a-1b17-4da6-bc37-c9fa24af2e93@ipw.gfdv54cvghhgfhgj-njhgj64.info:443?security=tls&sni=CuEg4R5u01.SoLeNtRaA.iNfO&fp=chrome&type=ws&path=/&host=CuEg4R5u01.SoLeNtRaA.iNfO&packetEncoding=xudp&encryption=none#Server 129 🇺🇸
