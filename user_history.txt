@@ -1,3 +1,7 @@
+m.alizade | unblocked | [Note: 404.7.21 | blocked 2025-10-11] | 2025-10-13 12:38
+
+m.alizade | manual_delete | User manually removed [Note: 404.7.21 | blocked 2025-10-11] | 2025-10-13 12:38
+
 m.fathi | added | [Note: 404.7.20] | 2025-10-12 20:36
 
 khani | unblocked | [Note: 404.7.20 | blocked 2025-10-11] | 2025-10-12 12:34
@@ -174,13 +178,9 @@ customer2 | manual_delete | User manually removed [Note: 404.7.15 | blocked 2025
 
 esfandiyari | added | [Note: 404.7.14] | 2025-10-06 19:41
 
-peyman | added | [Note: 404.7.13] | 2025-10-05 19:01
-
 pakravan | unblocked | [Note: 404.7.13 | blocked 2025-10-04] | 2025-10-05 18:59
 
 pakravan | manual_delete | User manually removed [Note: 404.7.13 | blocked 2025-10-04] | 2025-10-05 18:59
-
-customer3 | added |  | 2025-10-05 12:34
 
 yusefi | unblocked | [Note: 404.7.12 | blocked 2025-08-30] | 2025-10-04 18:09
 
