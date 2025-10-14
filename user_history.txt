@@ -1,3 +1,7 @@
+t.seddigi | unblocked | [Note: 404.7.22 | blocked 2025-08-27] | 2025-10-14 11:32
+
+t.seddigi | manual_delete | User manually removed [Note: 404.7.22 | blocked 2025-08-27] | 2025-10-14 11:32
+
 ansarifard | unblocked | [Note: 404.7.21 | blocked 2025-10-11] | 2025-10-13 18:15
 
 ansarifard | manual_delete | User manually removed [Note: 404.7.21 | blocked 2025-10-11] | 2025-10-13 18:15
@@ -181,8 +185,6 @@ aragi | manual_delete | User manually removed [Note: 404.6.2] | 2025-10-07 13:16
 customer2 | unblocked | [Note: 404.7.15 | blocked 2025-09-20] | 2025-10-07 11:34
 
 customer2 | manual_delete | User manually removed [Note: 404.7.15 | blocked 2025-09-20] | 2025-10-07 11:34
-
-esfandiyari | added | [Note: 404.7.14] | 2025-10-06 19:41
 
 pakravan | unblocked | [Note: 404.7.13 | blocked 2025-10-04] | 2025-10-05 18:59
 
