@@ -4,7 +4,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.118.142:8880?encryption=none
 vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?encryption=none&security=none&type=ws&host=Join---PLANB-PROXY&path=%2Fvless%2F#Server 4 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.186:8880?encryption=none&security=none&type=grpc#Server 5 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.190:8080#Server 6 🇺🇸
-vless://b754b53a-aaf5-475c-eeed-46806c2aa63f@nkang2replace.airlineshoma.com:443?encryption=none&security=tls&sni=nkang2replace.airlineshoma.com&fp=chrome&type=ws&host=nkang2replace.airlineshoma.com&path=%2F#Server 7 🇨🇦
+vless://b754b53a-aaf5-475c-eeed-46806c2aa63f@nkang2replace.airlineshoma.com:443?encryption=none&security=tls&sni=nkang2replace.airlineshoma.com&fp=chrome&type=ws&host=nkang2replace.airlineshoma.com&path=%2F#Server 7 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930287805772573.helsinki-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 8 🇱🇹
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.89:8880?encryption=none&security=none&type=grpc#Server 9 🇳🇱
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.125:8880?encryption=none&security=none&type=grpc#Server 10 🇫🇷
@@ -41,7 +41,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930382260455538.ahvaz-drc-tusabt
 vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@wa.sfasti.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=wa.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&headerType=none#Server 41 🇷🇺
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929396024898748.lisbon-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 42 🇱🇹
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638931272656134408.malayer-drc-tusabu.info:8880?encryption=none&security=none&type=grpc#Server 43 🇫🇷
-vless://05020a61-3c0c-4ead-b256-7851ff905a75@sweet-combination.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 44 🇨🇦
+vless://05020a61-3c0c-4ead-b256-7851ff905a75@sweet-combination.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 44 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930316257411243.neyshabur-drc-tusabt.info:8880?encryption=none&security=none&type=grpc#Server 45 🇳🇱
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638931077057619102.hamedan-drc-tusabu.info:8880?encryption=none&security=none&type=grpc#Server 46
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618903446.prague-drc-tusacae.info:8880?encryption=none&security=none&type=grpc#Server 47
@@ -160,3 +160,4 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930381053025132.tabriz-drc-tusab
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638948510378518720.mashhad-drc-tusacaf.info:8880?encryption=none&security=none&type=grpc#Server 160
 vless://30dd2eea-fe78-4660-a04f-096a7dac41e3@yt.ducks.tel:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror.yandex.ru&fp=chrome&pbk=IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU&sid=916a&type=tcp&headerType=none#Server 161
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#Server 162
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@204.136.10.115:1866#Server 163
