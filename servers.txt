@@ -42,7 +42,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930382260455538.ahvaz-drc-tusabt
 vless://d4e4c02a-d969-47a6-ba0f-3d433fdac206@wa.sfasti.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=wa.sfasti.ru&fp=chrome&pbk=J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8&sid=16895459a2c7768d&type=tcp&headerType=none#Server 42 🇷🇺
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929396024898748.lisbon-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 43 🇱🇹
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638931272656134408.malayer-drc-tusabu.info:8880?encryption=none&security=none&type=grpc#Server 44 🇫🇷
-vless://05020a61-3c0c-4ead-b256-7851ff905a75@sweet-combination.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 45 🇨🇦
+vless://05020a61-3c0c-4ead-b256-7851ff905a75@sweet-combination.seotoolsforyou.co.uk:80?encryption=none&security=none&type=ws&path=%2F#Server 45 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930316257411243.neyshabur-drc-tusabt.info:8880?encryption=none&security=none&type=grpc#Server 46
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638931077057619102.hamedan-drc-tusabu.info:8880?encryption=none&security=none&type=grpc#Server 47
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618903446.prague-drc-tusacae.info:8880?encryption=none&security=none&type=grpc#Server 48
@@ -144,23 +144,20 @@ vless://dbb3c682-8564-4c02-aec9-23ecf7981820@172.66.132.196:443?encryption=none&
 vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@104.16.246.132:443?encryption=none&security=tls&sni=vless10-9sc.pages.dev&alpn=h3&fp=chrome&type=ws&host=vless10-9sc.pages.dev&path=%2F#Server 144
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@94.156.250.122:990#Server 145
 vless://c2ec47f4-873f-573f-7d8d-d79d7ad452e6@85.90.197.100:9956?encryption=none&flow=xtls-rprx-vision&security=reality&sni=store.steampowered.com&fp=chrome&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E&type=tcp&headerType=none#Server 146
-vless://8339a5e8-6141-41f1-9abc-bbf1a06ac5ae@medrd.vtpmng.top:8443?encryption=none&security=tls&sni=medrd.vtpmng.top&type=ws&host=medrd.vtpmng.top&path=%2F#Server 147
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?encryption=none&security=none&type=grpc#Server 148
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932639207611953.kish-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 149
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 150
-vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&headerType=none#Server 151
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 152
-vless://a6667667-1bc2-41a5-a073-049fc160cb32@rus-0001-xr.packet-drop-society.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=hls-svod.itunes.apple.com&fp=chrome&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&sid=f79448a30d&type=tcp&headerType=none#Server 153
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVkJZUmtTa0hsVHFlYlNKckdjMkM3@81.19.141.45:443#Server 154
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2aFZvd2pjYzgycDZOdTlVdk9YaGhG@39.104.68.204:8443#Server 155
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#Server 156
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638925841028493287.berlin-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 157
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638938755008237661.vienna-drc-tusacaf.info:8880?encryption=none&security=none&type=grpc#Server 158
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5QUx0eUF0SGZidzFWdTRwcWg2d1Vj@5.129.201.43:23256#Server 159
-vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?encryption=none&security=none&type=tcp&headerType=none#Server 160
-vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.99.181.225:443?encryption=none&security=reality&sni=store.steampowered.com&fp=chrome&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&type=tcp&headerType=none#Server 161
-vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&security=tls&sni=offged.sahandconfig.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc&authority=&serviceName=Smxhabwh&mode=gun#Server 162
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930381053025132.tabriz-drc-tusabt.info:8880?encryption=none&security=none&type=grpc#Server 163
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMStpaGxmS2c4MjZI@204.136.10.115:1866#Server 164
-vless://30dd2eea-fe78-4660-a04f-096a7dac41e3@yt.ducks.tel:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror.yandex.ru&fp=chrome&pbk=IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU&sid=916a&type=tcp&headerType=none#Server 165
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638948510378518720.mashhad-drc-tusacaf.info:8880?encryption=none&security=none&type=grpc#Server 166
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?encryption=none&security=none&type=grpc#Server 147
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638932639207611953.kish-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 148
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 149
+vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&headerType=none#Server 150
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNjBlMjFkMjE5NzdkYzEx@185.193.102.7:57456#Server 151
+vless://a6667667-1bc2-41a5-a073-049fc160cb32@rus-0001-xr.packet-drop-society.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=hls-svod.itunes.apple.com&fp=chrome&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&sid=f79448a30d&type=tcp&headerType=none#Server 152
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVkJZUmtTa0hsVHFlYlNKckdjMkM3@81.19.141.45:443#Server 153
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2aFZvd2pjYzgycDZOdTlVdk9YaGhG@39.104.68.204:8443#Server 154
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMkVKdWNvbkM0NjBLbGxO@azjnac1.uksouth.cloudapp.azure.com:443#Server 155
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638925841028493287.berlin-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 156
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638938755008237661.vienna-drc-tusacaf.info:8880?encryption=none&security=none&type=grpc#Server 157
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5QUx0eUF0SGZidzFWdTRwcWg2d1Vj@5.129.201.43:23256#Server 158
+vless://08704c01-7edb-454a-98a2-328ccb9936fa@45.88.183.156:12794?encryption=none&security=none&type=tcp&headerType=none#Server 159
+vless://0c0b6d4a-0811-460f-d4b0-dd982a911240@91.99.181.225:443?encryption=none&security=reality&sni=store.steampowered.com&fp=chrome&pbk=zW8LR-lHS_PXDyY8Q8bE_zvKdhY5MAmnsd8miBulx2U&type=tcp&headerType=none#Server 160
+vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&security=tls&sni=offged.sahandconfig.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc&authority=&serviceName=Smxhabwh&mode=gun#Server 161
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930381053025132.tabriz-drc-tusabt.info:8880?encryption=none&security=none&type=grpc#Server 162
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638948510378518720.mashhad-drc-tusacaf.info:8880?encryption=none&security=none&type=grpc#Server 163
