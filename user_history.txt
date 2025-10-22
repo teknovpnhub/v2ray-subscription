@@ -1,3 +1,7 @@
+yusefi1 | unblocked | [Note: 404.7.30 | blocked 2025-10-18] | 2025-10-22 12:04
+
+yusefi1 | manual_delete | User manually removed [Note: 404.7.30 | blocked 2025-10-18] | 2025-10-22 12:04
+
 yashar.valizade | added | [Note: 404.7.29] | 2025-10-21 19:03
 
 ehsan.alizade | added | [Note: 404.7.29] | 2025-10-21 16:48
@@ -79,10 +83,6 @@ z.pourmohammad | manual_delete | User manually removed [Note: 404.7.24 | blocked
 m.masumi | unblocked | [Note: 404.7.24 | blocked 2025-08-23] | 2025-10-16 19:36
 
 m.masumi | manual_delete | User manually removed [Note: 404.7.24 | blocked 2025-08-23] | 2025-10-16 19:36
-
-f.jafari | added | [Note: 404.7.22] | 2025-10-14 13:47
-
-ujagi | added | [Note: 404.7.22] | 2025-10-14 13:37
 
 t.seddigi | unblocked | [Note: 404.7.22 | blocked 2025-08-27] | 2025-10-14 11:32
 
