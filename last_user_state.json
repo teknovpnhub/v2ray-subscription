@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "khalilzade",
     "ebadi",
     "masumi",
     "h.soleymanzade",
@@ -200,6 +201,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "khalilzade": "khalilzade #404.8.1",
     "ebadi": "ebadi #404.8.1",
     "masumi": "masumi #404.7.30",
     "h.soleymanzade": "🚫h.soleymanzade #404.7.26 | blocked 2025-10-22",
@@ -399,5 +401,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-10-23 10:50"
+  "timestamp": "2025-10-23 11:02"
 }
