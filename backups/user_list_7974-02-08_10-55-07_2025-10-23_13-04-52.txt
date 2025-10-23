@@ -1,4 +1,3 @@
-g.kazemi #404.8.1
 khalilzade #404.8.1
 ebadi #404.8.1
 masumi #404.7.30
@@ -122,6 +121,7 @@ g.abedini #404.6.22
 babayi #404.6.22
 🚫s.khani #404.5.16 | blocked 2025-09-13
 🚫jalilzade #404.5.15 | blocked 2025-09-13
+🚫g.kazemi ---ub #404.8.1 | blocked 2025-09-13
 🚫manafi #404.5.15 | blocked 2025-09-13
 🚫a.teymurzade #404.5.8 | blocked 2025-09-13
 sabri #404.6.21
