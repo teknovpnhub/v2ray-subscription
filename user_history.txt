@@ -1,3 +1,7 @@
+family | blocked | | blocked 2025-10-24 | 2025-10-24 19:38
+
+family | manual_delete | User manually removed | 2025-10-24 19:38
+
 amirhossein.amini | added | [Note: 404.8.1] | 2025-10-23 18:13
 
 g.kazemi | unblocked | [Note: 404.8.1 | blocked 2025-09-13] | 2025-10-23 13:04
