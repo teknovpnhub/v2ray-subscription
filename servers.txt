@@ -10,10 +10,10 @@ trojan://2c5f18f9-b065-41fc-b0a4-a14a25540236@104.21.33.216:443?path=%2FFree-VPN
 vless://2c5f18f9-b065-41fc-b0a4-a14a25540236@104.21.33.216:443?path=%2FFree-VPN-CF-Geo-Project%2FAE7&security=tls&encryption=none&host=joss.krikkrik.xyz&fp=randomized&type=ws&sni=joss.krikkrik.xyz#Server 10 🇺🇸
 trojan://7771233d-f409-407d-a4b1-535433fa74d7@104.21.33.216:443?path=%2FFree-VPN-CF-Geo-Project%2FAE1&security=tls&host=joss.krikkrik.xyz&fp=randomized&type=ws&sni=joss.krikkrik.xyz#Server 11 🇺🇸
 vless://7771233d-f409-407d-a4b1-535433fa74d7@104.21.33.216:443?path=%2FFree-VPN-CF-Geo-Project%2FAE1&security=tls&encryption=none&host=joss.krikkrik.xyz&fp=randomized&type=ws&sni=joss.krikkrik.xyz#Server 12 🇺🇸
-vless://e65077bc-9823-4c32-bacd-af92bd7f68d4@ergwork.web.unc.edu:80?type=xhttp&encryption=none&path=%2F&host=xiliunlimited.global.ssl.fastly.net&mode=auto&security=none#Server 13 🇩🇪
+vless://e65077bc-9823-4c32-bacd-af92bd7f68d4@ergwork.web.unc.edu:80?type=xhttp&encryption=none&path=%2F&host=xiliunlimited.global.ssl.fastly.net&mode=auto&security=none#Server 13 🇨🇦
 vless://a32fdc84-95ef-4073-b415-3743c35080b0@fra-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=86e999a2cdc2#Server 14 🇫🇷
 vless://701c0432-aecc-4aa6-b461-20d3db19bdf3@che-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&type=tcp&sni=hls-svod.itunes.apple.com#Server 15 🇨🇭
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@developers.cloudflare.com:2095/?type=ws&encryption=none&host=fangbinxingnmsl.pusytroller.cf&path=%2F#Server 16 🇨🇦
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@developers.cloudflare.com:2095/?type=ws&encryption=none&host=fangbinxingnmsl.pusytroller.cf&path=%2F#Server 16 🇺🇸
 vless://e258977b-e413-4718-a3af-02d75492c349@108.162.194.154:2087/?type=ws&encryption=none&host=xxx.xmma.top&path=%2Fproxyip%3Dproxyip.fxxk.dedyn.io%3A443&security=tls&sni=xxx.xmma.top#Server 17 🇨🇦
 vless://e258977b-e413-4718-a3af-02d75492c349@download.yunzhongzhuan.com:2087/?type=ws&encryption=none&host=xxx.xmma.top&path=%2Fproxyip%3Dproxyip.fxxk.dedyn.io%3A443&security=tls&sni=xxx.xmma.top#Server 18 🇨🇦
 vless://7a169e43-ff85-4572-9843-ba7207d07319@192.9.162.122:1443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=swdist.apple.com&fp=chrome&security=reality&pbk=ZIBYUH_qQSeI1T6xImXG6MEZXP2yZW3NqGa8W69Cfyk#Server 19 🇦🇺
@@ -180,3 +180,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5QUx0eUF0SGZidzFWdTRwcWg2d1Vj@5.129.201.43:2
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930359207602168.dublin-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 180
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.14.195:8880?encryption=none&security=none&type=grpc#Server 181
 vless://fe7d9497-c04b-4462-900d-333abc79a90f@46.250.237.164:55076?encryption=none&security=none&type=tcp&headerType=none#Server 182
+vless://30dd2eea-fe78-4660-a04f-096a7dac41e3@yt.ducks.tel:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror.yandex.ru&fp=chrome&pbk=IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU&sid=916a&type=tcp&headerType=none#Server 183
+vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&security=tls&sni=offged.sahandconfig.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc&authority=&serviceName=Smxhabwh&mode=gun#Server 184
+vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&type=grpc&mode=gun&serviceName=Smxhabwh&security=tls&fp=chrome&sni=offged.sahandconfig.ir&alpn=h2,http/1.1#Server 185
