@@ -1,3 +1,7 @@
+gorbannezhad | blocked | | blocked 2025-10-24 [Note: 404.6.18] | 2025-10-24 19:41
+
+gorbannezhad | manual_delete | User manually removed [Note: 404.6.18] | 2025-10-24 19:41
+
 khosrotamar | blocked | | blocked 2025-10-24 [Note: 404.6.17] | 2025-10-24 19:40
 
 khosrotamar | manual_delete | User manually removed [Note: 404.6.17] | 2025-10-24 19:40
