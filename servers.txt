@@ -28,7 +28,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.92:8
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.118.142:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 28 🇫🇷
 vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?encryption=none&security=none&type=ws&host=Join---PLANB-PROXY&path=%2Fvless%2F#Server 29 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.186:8880?encryption=none&security=none&type=grpc#Server 30 🇫🇷
-vless://b754b53a-aaf5-475c-eeed-46806c2aa63f@nkang2replace.airlineshoma.com:443?encryption=none&security=tls&sni=nkang2replace.airlineshoma.com&fp=chrome&type=ws&host=nkang2replace.airlineshoma.com&path=%2F#Server 31 🇺🇸
+vless://b754b53a-aaf5-475c-eeed-46806c2aa63f@nkang2replace.airlineshoma.com:443?encryption=none&security=tls&sni=nkang2replace.airlineshoma.com&fp=chrome&type=ws&host=nkang2replace.airlineshoma.com&path=%2F#Server 31 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638930287805772573.helsinki-drc-dcrabj.info:8880?encryption=none&security=none&type=grpc#Server 32 🇱🇹
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.142.89:8880?encryption=none&security=none&type=grpc#Server 33 🇳🇱
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.125:8880?encryption=none&security=none&type=grpc#Server 34 🇫🇷
@@ -96,7 +96,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.105:8880?encryption=none
 trojan://NISHIKUITAN111@172.64.156.42:443?security=tls&sni=172.64.156.42&allowInsecure=1&type=tcp&headerType=none#Server 96 🇨🇦
 vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all71-vip.f-sub.com:4928?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.com#Server 97 🇩🇪
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638959583053210036.rome-blkaft-aaak.info:8880?encryption=none&security=none&type=grpc#Server 98 🇫🇷
-trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 99 🇨🇦
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 99 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@194.4.49.19:8880?encryption=none&security=none&type=grpc#Server 100 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.69:8880?encryption=none&security=none&type=grpc#Server 101 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.195.133:8880?encryption=none&security=none&type=grpc#Server 102 🇺🇸
@@ -135,7 +135,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5UUVwZ2gwQUpXVHM1OE5tUmZzVmFR@102.130.49.69:
 vless://cb6e6e21-7bc1-4de6-b961-a78893935436@193.233.19.242:6060?encryption=none&security=tls&sni=book.smnsoft.com&alpn=h2%2Chttp%2F1.1&fp=chrome&type=tcp&headerType=none#Server 135 🇳🇱
 vless://d7d6745c-7264-44a4-a62f-97b4ce83a951@www.speedtest.net:443?encryption=none&security=tls&sni=totoo.pages.dev&fp=chrome&type=ws&host=totoo.pages.dev&path=%2F#Server 136 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638943929060330315.warsaw-prx-dnraacp.info:8880?encryption=none&security=none&type=grpc#Server 137 🇫🇷
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#Server 138 🇺🇸
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#Server 138 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.47:8880?encryption=none&security=none&type=grpc#Server 139 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?encryption=none&security=none&type=grpc#Server 140 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.94:8880?encryption=none&security=none&type=grpc#Server 141 🇫🇷
@@ -184,4 +184,4 @@ vless://a6667667-1bc2-41a5-a073-049fc160cb32@gbr-0001-xr.packet-drop-society.net
 vless://a32fdc84-95ef-4073-b415-3743c35080b0@gbr-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=31#Server 184 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5QUx0eUF0SGZidzFWdTRwcWg2d1Vj@5.129.201.43:23256#Server 185 🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.190:8080#Server 186 🇺🇸
-vless://81e9e522-2efd-4709-996d-74e46f4edaf8@213.176.94.129:443?encryption=none&security=reality&sni=www.amazon.com&fp=chrome&pbk=flIlSQ8NWZl0ofim794-EaQhz2OnH1hN7imrQAPheRY&sid=53ba1e37&type=tcp&headerType=none#Server 187 🇦🇹
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 187 🇩🇪
