@@ -136,7 +136,7 @@ sabri #404.6.21
 h.karkon #404.6.20
 s.asgarzade #404.6.19
 yunesi #404.6.19
-s.kalashani #404.6.19
+s.kalashani ---b #404.6.19
 hadi.nariman #404.6.17
 🚫customer #404.5.5 | blocked 2025-09-08
 🚫mohammadzade.van #404.5.4 | blocked 2025-09-08
