@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "family",
     "gorbanpur",
     "ehsan",
     "salamzade",
@@ -13,7 +14,6 @@
     "ahmadi",
     "gorbannezhad",
     "khosrotamar",
-    "family",
     "amirhossein.amini",
     "g.kazemi",
     "khalilzade",
@@ -204,6 +204,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "family": "family",
     "gorbanpur": "gorbanpur #404.8.3",
     "ehsan": "ehsan #404.8.3",
     "salamzade": "salamzade #404.8.3",
@@ -217,7 +218,6 @@
     "ahmadi": "🚫ahmadi #404.6.18 | blocked 2025-10-24",
     "gorbannezhad": "🚫gorbannezhad #404.6.18 | blocked 2025-10-24",
     "khosrotamar": "🚫khosrotamar #404.6.17 | blocked 2025-10-24",
-    "family": "🚫family #| blocked 2025-10-24",
     "amirhossein.amini": "amirhossein.amini #404.8.1",
     "g.kazemi": "g.kazemi #404.8.1",
     "khalilzade": "khalilzade #404.8.1",
@@ -407,5 +407,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-10-25 13:49"
+  "timestamp": "2025-10-25 14:31"
 }
