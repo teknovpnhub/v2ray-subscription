@@ -13,7 +13,7 @@ vless://7771233d-f409-407d-a4b1-535433fa74d7@104.21.33.216:443?path=%2FFree-VPN-
 vless://e65077bc-9823-4c32-bacd-af92bd7f68d4@ergwork.web.unc.edu:80?type=xhttp&encryption=none&path=%2F&host=xiliunlimited.global.ssl.fastly.net&mode=auto&security=none#Server 13 🇨🇦
 vless://a32fdc84-95ef-4073-b415-3743c35080b0@fra-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=86e999a2cdc2#Server 14 🇫🇷
 vless://701c0432-aecc-4aa6-b461-20d3db19bdf3@che-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&type=tcp&sni=hls-svod.itunes.apple.com#Server 15 🇨🇭
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@developers.cloudflare.com:2095/?type=ws&encryption=none&host=fangbinxingnmsl.pusytroller.cf&path=%2F#Server 16 🇺🇸
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@developers.cloudflare.com:2095/?type=ws&encryption=none&host=fangbinxingnmsl.pusytroller.cf&path=%2F#Server 16 🇨🇦
 vless://e258977b-e413-4718-a3af-02d75492c349@108.162.194.154:2087/?type=ws&encryption=none&host=xxx.xmma.top&path=%2Fproxyip%3Dproxyip.fxxk.dedyn.io%3A443&security=tls&sni=xxx.xmma.top#Server 17 🇨🇦
 vless://e258977b-e413-4718-a3af-02d75492c349@download.yunzhongzhuan.com:2087/?type=ws&encryption=none&host=xxx.xmma.top&path=%2Fproxyip%3Dproxyip.fxxk.dedyn.io%3A443&security=tls&sni=xxx.xmma.top#Server 18 🇨🇦
 vless://7a169e43-ff85-4572-9843-ba7207d07319@192.9.162.122:1443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=swdist.apple.com&fp=chrome&security=reality&pbk=ZIBYUH_qQSeI1T6xImXG6MEZXP2yZW3NqGa8W69Cfyk#Server 19 🇦🇺
@@ -180,8 +180,5 @@ vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all74-vip.f-sub.com:1429?encryption
 trojan://tunnel-astrovpn_official103@213.108.198.158:8441?security=tls&sni=zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir&alpn=http%2F1.1&allowInsecure=1&type=tcp&headerType=none#Server 180
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.153.82:8880?encryption=none&security=none&type=grpc#Server 181
 vless://47281d40-174c-45c3-a1e7-5366e55d1834@mci.itbookshop.dpdns.org:443?type=ws&encryption=none&path=%2F&host=&security=none#Server 182
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 183
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 184
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVkJZUmtTa0hsVHFlYlNKckdjMkM3@81.19.141.45:443#Server 185
-vless://30dd2eea-fe78-4660-a04f-096a7dac41e3@yt.ducks.tel:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror.yandex.ru&fp=chrome&pbk=IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU&sid=916a&type=tcp&headerType=none#Server 186
-vless://81e9e522-2efd-4709-996d-74e46f4edaf8@213.176.94.129:443?encryption=none&security=reality&sni=www.amazon.com&fp=chrome&pbk=flIlSQ8NWZl0ofim794-EaQhz2OnH1hN7imrQAPheRY&sid=53ba1e37&type=tcp&headerType=none#Server 187
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVkJZUmtTa0hsVHFlYlNKckdjMkM3@81.19.141.45:443#Server 183
+vless://30dd2eea-fe78-4660-a04f-096a7dac41e3@yt.ducks.tel:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror.yandex.ru&fp=chrome&pbk=IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU&sid=916a&type=tcp&headerType=none#Server 184
