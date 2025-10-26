@@ -1,10 +1,4 @@
-mirhossein.mohammadi | manual_change | Changes:
-- mirhossein.mohammadi #404.7.5
-?                           ^ ^
-
-+ mirhossein.mohammadi #404.8.3
-?                           ^ ^
- [Note: 404.8.3] | 2025-10-25 20:16
+customer5 | added |  | 2025-10-26 11:21
 
 mirhossein.mohammadi | added | [Note: 404.7.5] | 2025-10-25 20:13
 
@@ -112,8 +106,6 @@ h.soleymanzade | unblocked | [Note: 404.7.26 | blocked 2025-10-18] | 2025-10-18 
 
 h.soleymanzade | manual_delete | User manually removed [Note: 404.7.26 | blocked 2025-10-18] | 2025-10-18 20:24
 
-customer4 | added |  | 2025-10-18 19:30
-
 farshad.jabbari | unblocked | [Note: 404.7.19 | blocked 2025-10-18] | 2025-10-18 14:03
 
 farshad.jabbari | manual_delete | User manually removed [Note: 404.7.19 | blocked 2025-10-18] | 2025-10-18 14:03
@@ -125,54 +117,6 @@ abedi | manual_delete | User manually removed [Note: 404.7.26 | blocked 2025-10-
 ruyin | unblocked | [Note: 404.7.26 | blocked 2025-10-18] | 2025-10-18 10:40
 
 ruyin | manual_delete | User manually removed [Note: 404.7.26 | blocked 2025-10-18] | 2025-10-18 10:40
-
-golizade | blocked | | blocked 2025-10-18 [Note: 404.6.16] | 2025-10-18 03:34
-
-golizade | manual_delete | User manually removed [Note: 404.6.16] | 2025-10-18 03:34
-
-ruyin | blocked | | blocked 2025-10-18 [Note: 404.6.16] | 2025-10-18 03:33
-
-ruyin | manual_delete | User manually removed [Note: 404.6.16] | 2025-10-18 03:33
-
-r.taragikhah | blocked | | blocked 2025-10-18 [Note: 404.6.15] | 2025-10-18 03:32
-
-r.taragikhah | manual_delete | User manually removed [Note: 404.6.15] | 2025-10-18 03:32
-
-afsari | blocked | | blocked 2025-10-18 [Note: 404.6.15] | 2025-10-18 03:26
-
-afsari | manual_delete | User manually removed [Note: 404.6.15] | 2025-10-18 03:26
-
-ebadi | blocked | | blocked 2025-10-18 [Note: 404.6.15] | 2025-10-18 03:25
-
-ebadi | manual_delete | User manually removed [Note: 404.6.15] | 2025-10-18 03:25
-
-ebrahimzade1 | blocked | | blocked 2025-10-18 [Note: 404.6.13] | 2025-10-18 03:22
-
-ebrahimzade1 | manual_delete | User manually removed [Note: 404.6.13] | 2025-10-18 03:22
-
-h.soleymanzade | blocked | | blocked 2025-10-18 [Note: 404.6.12] | 2025-10-18 03:17
-
-h.soleymanzade | manual_delete | User manually removed [Note: 404.6.12] | 2025-10-18 03:17
-
-yusefi1 | blocked | | blocked 2025-10-18 [Note: 404.6.12] | 2025-10-18 03:16
-
-yusefi1 | manual_delete | User manually removed [Note: 404.6.12] | 2025-10-18 03:16
-
-alrostam | blocked | | blocked 2025-10-18 [Note: 404.6.12] | 2025-10-18 03:14
-
-alrostam | manual_delete | User manually removed [Note: 404.6.12] | 2025-10-18 03:14
-
-m.mafi | blocked | | blocked 2025-10-18 [Note: 404.6.11] | 2025-10-18 03:13
-
-m.mafi | manual_delete | User manually removed [Note: 404.6.11] | 2025-10-18 03:13
-
-farshad.jabbari | blocked | | blocked 2025-10-18 [Note: 404.7.19] | 2025-10-18 03:11
-
-farshad.jabbari | manual_delete | User manually removed [Note: 404.7.19] | 2025-10-18 03:11
-
-a.valilou | blocked | | blocked 2025-10-18 [Note: 404.6.11] | 2025-10-18 03:10
-
-a.valilou | manual_delete | User manually removed [Note: 404.6.11] | 2025-10-18 03:10
 
 z.pourmohammad | unblocked | [Note: 404.7.24 | blocked 2025-08-12] | 2025-10-16 19:38
 
