@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "sabri",
     "yusefi1",
     "tamarzade",
     "mehdizade",
@@ -7,7 +8,6 @@
     "customer5",
     "mirhossein.mohammadi",
     "shadi",
-    "sabri",
     "soodabeh.aghayi",
     "family",
     "gorbanpur",
@@ -210,6 +210,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "sabri": "🚫sabri #404.8.3 | blocked 2025-10-27",
     "yusefi1": "🚫yusefi1 #404.7.30 | blocked 2025-10-27",
     "tamarzade": "tamarzade #404.8.4",
     "mehdizade": "mehdizade #404.8.4",
@@ -217,7 +218,6 @@
     "customer5": "customer5 #404.8.4",
     "mirhossein.mohammadi": "mirhossein.mohammadi #404.8.3",
     "shadi": "shadi #404.8.3",
-    "sabri": "sabri #404.8.3",
     "soodabeh.aghayi": "soodabeh.aghayi #404.8.3",
     "family": "family",
     "gorbanpur": "gorbanpur #404.8.3",
@@ -419,5 +419,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-10-27 04:37"
+  "timestamp": "2025-10-27 04:38"
 }

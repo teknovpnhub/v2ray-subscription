@@ -1,3 +1,7 @@
+sabri | blocked | | blocked 2025-10-27 [Note: 404.8.3] | 2025-10-27 04:38
+
+sabri | manual_delete | User manually removed [Note: 404.8.3] | 2025-10-27 04:38
+
 yusefi1 | blocked | | blocked 2025-10-27 [Note: 404.7.30] | 2025-10-27 04:37
 
 yusefi1 | manual_delete | User manually removed [Note: 404.7.30] | 2025-10-27 04:37
