@@ -1,3 +1,5 @@
+mortaza.kuchmeshki | manual_add | Line: mortaza.kuchmeshki | 2025-10-29 12:26
+
 yunesi | unblocked | [Note: 404.8.6 | blocked 2025-10-24] | 2025-10-28 13:14
 
 yunesi | manual_delete | User manually removed [Note: 404.8.6 | blocked 2025-10-24] | 2025-10-28 13:14
@@ -133,10 +135,6 @@ h.soleymanzade | manual_delete | User manually removed [Note: 404.7.26] | 2025-1
 yusefi1 | unblocked | [Note: 404.7.30 | blocked 2025-10-18] | 2025-10-22 12:04
 
 yusefi1 | manual_delete | User manually removed [Note: 404.7.30 | blocked 2025-10-18] | 2025-10-22 12:04
-
-yashar.valizade | added | [Note: 404.7.29] | 2025-10-21 19:03
-
-ehsan.alizade | added | [Note: 404.7.29] | 2025-10-21 16:48
 
 s.mamasi | unblocked | [Note: 404.7.27 | blocked 2025-10-11] | 2025-10-19 13:13
 
