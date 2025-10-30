@@ -184,5 +184,5 @@ vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?encryption=none&se
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618904872.prague-drc-tusacae.info:8880?encryption=none&security=none&type=grpc#Server 184
 vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&security=tls&sni=offged.sahandconfig.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc&authority=&serviceName=Smxhabwh&mode=gun#Server 185
 vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&type=grpc&mode=gun&serviceName=Smxhabwh&security=tls&fp=chrome&sni=offged.sahandconfig.ir&alpn=h2,http/1.1#Server 186
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 187
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 188
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5QUx0eUF0SGZidzFWdTRwcWg2d1Vj@5.129.201.43:23256#Server 187
+vless://81e9e522-2efd-4709-996d-74e46f4edaf8@213.176.94.129:443?encryption=none&security=reality&sni=www.amazon.com&fp=chrome&pbk=flIlSQ8NWZl0ofim794-EaQhz2OnH1hN7imrQAPheRY&sid=53ba1e37&type=tcp&headerType=none#Server 188
