@@ -41,7 +41,7 @@ trojan://2c5f18f9-b065-41fc-b0a4-a14a25540236@104.21.33.216:443?path=%2FFree-VPN
 vless://2c5f18f9-b065-41fc-b0a4-a14a25540236@104.21.33.216:443?path=%2FFree-VPN-CF-Geo-Project%2FAE7&security=tls&encryption=none&host=joss.krikkrik.xyz&fp=randomized&type=ws&sni=joss.krikkrik.xyz#Server 41 🇺🇸
 trojan://7771233d-f409-407d-a4b1-535433fa74d7@104.21.33.216:443?path=%2FFree-VPN-CF-Geo-Project%2FAE1&security=tls&host=joss.krikkrik.xyz&fp=randomized&type=ws&sni=joss.krikkrik.xyz#Server 42 🇺🇸
 vless://7771233d-f409-407d-a4b1-535433fa74d7@104.21.33.216:443?path=%2FFree-VPN-CF-Geo-Project%2FAE1&security=tls&encryption=none&host=joss.krikkrik.xyz&fp=randomized&type=ws&sni=joss.krikkrik.xyz#Server 43 🇺🇸
-vless://e65077bc-9823-4c32-bacd-af92bd7f68d4@ergwork.web.unc.edu:80?type=xhttp&encryption=none&path=%2F&host=xiliunlimited.global.ssl.fastly.net&mode=auto&security=none#Server 44 🇬🇧
+vless://e65077bc-9823-4c32-bacd-af92bd7f68d4@ergwork.web.unc.edu:80?type=xhttp&encryption=none&path=%2F&host=xiliunlimited.global.ssl.fastly.net&mode=auto&security=none#Server 44 🇨🇦
 vless://a32fdc84-95ef-4073-b415-3743c35080b0@fra-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&pbk=llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=86e999a2cdc2#Server 45 🇫🇷
 vless://701c0432-aecc-4aa6-b461-20d3db19bdf3@che-0001-xr.packet-drop-society.net:443?security=reality&encryption=none&type=tcp&sni=hls-svod.itunes.apple.com#Server 46
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@developers.cloudflare.com:2095/?type=ws&encryption=none&host=fangbinxingnmsl.pusytroller.cf&path=%2F#Server 47
@@ -172,19 +172,17 @@ vless://9a52e085-f787-4d8e-a7c2-1b10ad74a93a@2.56.127.135:443?security=tls&sni=t
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVkJZUmtTa0hsVHFlYlNKckdjMkM3@81.19.141.45:443#Server 172
 vless://2558c819-1363-4859-8fb9-f8cb104d49d2@176.223.66.8:39948?encryption=none&security=none&type=tcp&headerType=http&host=divarcdn.com#Server 173
 vless://f31f5fe0-0a42-436a-be94-437330801388@us.nitroo-tech.ru:443?security=tls&flow=xtls-rprx-vision&sni=mirror.yandex.ru#Server 174
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5QUx0eUF0SGZidzFWdTRwcWg2d1Vj@5.129.201.43:23256#Server 175
-vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all74-vip.f-sub.com:1429?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.com#Server 176
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.14.195:8880?encryption=none&security=none&type=grpc#Server 177
-vless://481c5606-b586-44d7-bc2e-d8ef30d67f62@kz.accesspoints.cloakify.app:38339?encryption=none&security=reality&sni=dl.google.com&fp=chrome&pbk=o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA&sid=e16883e511&type=tcp&headerType=none#Server 178
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?encryption=none&security=none&type=grpc#Server 179
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?encryption=none&security=none&type=grpc#Server 180
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 181
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?type=grpc#Server 182
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638927678654211750.rasht-drc-tusabn.info:8880?encryption=none&security=none&type=grpc#Server 183
-vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?encryption=none&security=none&type=ws&host=Join---PLANB-PROXY&path=%2Fvless%2F#Server 184
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618904872.prague-drc-tusacae.info:8880?encryption=none&security=none&type=grpc#Server 185
-vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&security=tls&sni=offged.sahandconfig.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc&authority=&serviceName=Smxhabwh&mode=gun#Server 186
-vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&type=grpc&mode=gun&serviceName=Smxhabwh&security=tls&fp=chrome&sni=offged.sahandconfig.ir&alpn=h2,http/1.1#Server 187
-vless://30dd2eea-fe78-4660-a04f-096a7dac41e3@yt.ducks.tel:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror.yandex.ru&fp=chrome&pbk=IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU&sid=916a&type=tcp&headerType=none#Server 188
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 189
-vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 190
+vless://2aff3c47-ccdc-4c17-b726-73539e2103b2@all74-vip.f-sub.com:1429?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.com#Server 175
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.14.195:8880?encryption=none&security=none&type=grpc#Server 176
+vless://481c5606-b586-44d7-bc2e-d8ef30d67f62@kz.accesspoints.cloakify.app:38339?encryption=none&security=reality&sni=dl.google.com&fp=chrome&pbk=o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA&sid=e16883e511&type=tcp&headerType=none#Server 177
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?encryption=none&security=none&type=grpc#Server 178
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638929114454179379.warsaw-drc-tusabq.info:8880?encryption=none&security=none&type=grpc#Server 179
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 180
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.242.87.213:8880?type=grpc#Server 181
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638927678654211750.rasht-drc-tusabn.info:8880?encryption=none&security=none&type=grpc#Server 182
+vless://f0758892-f40c-412d-9fab-88103bad1fd8@51.38.232.101:80?encryption=none&security=none&type=ws&host=Join---PLANB-PROXY&path=%2Fvless%2F#Server 183
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638934373618904872.prague-drc-tusacae.info:8880?encryption=none&security=none&type=grpc#Server 184
+vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&security=tls&sni=offged.sahandconfig.ir&alpn=h2%2Chttp%2F1.1&fp=chrome&type=grpc&authority=&serviceName=Smxhabwh&mode=gun#Server 185
+vless://a42343e4-c498-42b7-8361-c03a36e7a5fb@46.62.220.103:27802?encryption=none&type=grpc&mode=gun&serviceName=Smxhabwh&security=tls&fp=chrome&sni=offged.sahandconfig.ir&alpn=h2,http/1.1#Server 186
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=&encryption=none&type=ws#Server 187
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?security=none&type=ws&path=/http&packetEncoding=xudp&encryption=none#Server 188
