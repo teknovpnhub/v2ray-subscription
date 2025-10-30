@@ -1,3 +1,5 @@
+f.kalbkhani | added | [Note: 404.8.8] | 2025-10-30 17:17
+
 karam.aghbashlu | added | [Note: 404.8.7] | 2025-10-29 13:23
 
 mortaza.kuchmeshki | added | [Note: 404.8.7] | 2025-10-29 12:27
@@ -133,10 +135,6 @@ ebadi | manual_delete | User manually removed [Note: 404.8.1 | blocked 2025-10-1
 masumi | unblocked | [Note: 404.7.30 | blocked 2025-10-04] | 2025-10-22 17:13
 
 masumi | manual_delete | User manually removed [Note: 404.7.30 | blocked 2025-10-04] | 2025-10-22 17:13
-
-h.soleymanzade | blocked | | blocked 2025-10-22 [Note: 404.7.26] | 2025-10-22 12:06
-
-h.soleymanzade | manual_delete | User manually removed [Note: 404.7.26] | 2025-10-22 12:06
 
 yusefi1 | unblocked | [Note: 404.7.30 | blocked 2025-10-18] | 2025-10-22 12:04
 
