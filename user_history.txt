@@ -1,3 +1,7 @@
+g.abedini | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:14
+
+g.abedini | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:14
+
 babayi | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:12
 
 babayi | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:12
