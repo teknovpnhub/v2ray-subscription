@@ -1,3 +1,7 @@
+babayi | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:12
+
+babayi | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:12
+
 molayi | unblocked | [Note: 404.8.8 | blocked 2025-10-24] | 2025-10-30 19:14
 
 molayi | manual_delete | User manually removed [Note: 404.8.8 | blocked 2025-10-24] | 2025-10-30 19:14
@@ -86,61 +90,9 @@ salamzade | unblocked | [Note: 404.8.3 | blocked 2025-10-24] | 2025-10-25 11:01
 
 salamzade | manual_delete | User manually removed [Note: 404.8.3 | blocked 2025-10-24] | 2025-10-25 11:01
 
-sabri | blocked | | blocked 2025-10-24 [Note: 404.6.21] | 2025-10-24 19:54
-
-sabri | manual_delete | User manually removed [Note: 404.6.21] | 2025-10-24 19:54
-
-h.karkon | blocked | | blocked 2025-10-24 [Note: 404.6.20] | 2025-10-24 19:50
-
-h.karkon | manual_delete | User manually removed [Note: 404.6.20] | 2025-10-24 19:50
-
-s.asgarzade | blocked | | blocked 2025-10-24 [Note: 404.6.19] | 2025-10-24 19:49
-
-s.asgarzade | manual_delete | User manually removed [Note: 404.6.19] | 2025-10-24 19:49
-
-yunesi | blocked | | blocked 2025-10-24 [Note: 404.6.19] | 2025-10-24 19:46
-
-yunesi | manual_delete | User manually removed [Note: 404.6.19] | 2025-10-24 19:46
-
-s.kalashani | blocked | | blocked 2025-10-24 [Note: 404.6.19] | 2025-10-24 19:45
-
-s.kalashani | manual_delete | User manually removed [Note: 404.6.19] | 2025-10-24 19:45
-
-molayi | blocked | | blocked 2025-10-24 [Note: 404.6.18] | 2025-10-24 19:44
-
-molayi | manual_delete | User manually removed [Note: 404.6.18] | 2025-10-24 19:44
-
-golizade1 | blocked | | blocked 2025-10-24 [Note: 404.6.18] | 2025-10-24 19:43
-
-golizade1 | manual_delete | User manually removed [Note: 404.6.18] | 2025-10-24 19:43
-
-ahmadi | blocked | | blocked 2025-10-24 [Note: 404.6.18] | 2025-10-24 19:43
-
-ahmadi | manual_delete | User manually removed [Note: 404.6.18] | 2025-10-24 19:43
-
-gorbannezhad | blocked | | blocked 2025-10-24 [Note: 404.6.18] | 2025-10-24 19:41
-
-gorbannezhad | manual_delete | User manually removed [Note: 404.6.18] | 2025-10-24 19:41
-
-khosrotamar | blocked | | blocked 2025-10-24 [Note: 404.6.17] | 2025-10-24 19:40
-
-khosrotamar | manual_delete | User manually removed [Note: 404.6.17] | 2025-10-24 19:40
-
-salamzade | blocked | | blocked 2025-10-24 [Note: 404.6.10] | 2025-10-24 19:39
-
-salamzade | manual_delete | User manually removed [Note: 404.6.10] | 2025-10-24 19:39
-
-family | blocked | | blocked 2025-10-24 | 2025-10-24 19:38
-
-family | manual_delete | User manually removed | 2025-10-24 19:38
-
-amirhossein.amini | added | [Note: 404.8.1] | 2025-10-23 18:13
-
 g.kazemi | unblocked | [Note: 404.8.1 | blocked 2025-09-13] | 2025-10-23 13:04
 
 g.kazemi | manual_delete | User manually removed [Note: 404.8.1 | blocked 2025-09-13] | 2025-10-23 13:04
-
-khalilzade | added | [Note: 404.8.1] | 2025-10-23 11:02
 
 ebadi | unblocked | [Note: 404.8.1 | blocked 2025-10-18] | 2025-10-23 10:38
 
