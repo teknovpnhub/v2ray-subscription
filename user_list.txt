@@ -152,7 +152,7 @@ asiyabi #404.6.24
 bakhshalizade #404.6.29
 nagizade #404.6.29
 🚫javadi #404.5.18 | blocked 2025-09-20
-customer1 #404.6.27
+customer1 ---b #404.6.27
 🚫s.khani #404.5.16 | blocked 2025-09-13
 🚫jalilzade #404.5.15 | blocked 2025-09-13
 🚫manafi #404.5.15 | blocked 2025-09-13
