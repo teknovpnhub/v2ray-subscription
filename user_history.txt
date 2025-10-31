@@ -1,3 +1,7 @@
+alizade | blocked | | blocked 2025-11-01 [Note: 404.6.23] | 2025-11-01 00:17
+
+alizade | manual_delete | User manually removed [Note: 404.6.23] | 2025-11-01 00:17
+
 habibi | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:16
 
 habibi | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:16
