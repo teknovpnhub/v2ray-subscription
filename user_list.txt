@@ -152,7 +152,7 @@ nagizade #404.6.29
 customer1 #404.6.27
 hatamkhani #404.6.26
 sadegi #404.6.26
-soltani #404.6.25
+soltani ---b #404.6.25
 🚫s.khani #404.5.16 | blocked 2025-09-13
 🚫jalilzade #404.5.15 | blocked 2025-09-13
 🚫manafi #404.5.15 | blocked 2025-09-13
