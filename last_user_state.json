@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "bazdar",
     "s.khezri",
     "n.sahrayi",
     "nagizade",
@@ -224,6 +225,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "bazdar": "bazdar #404.8.10",
     "s.khezri": "s.khezri #404.8.10",
     "n.sahrayi": "n.sahrayi #404.8.10",
     "nagizade": "nagizade #404.8.10",
@@ -447,5 +449,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-11-01 16:54"
+  "timestamp": "2025-11-01 17:42"
 }
