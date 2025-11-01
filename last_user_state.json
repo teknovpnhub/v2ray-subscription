@@ -1,10 +1,10 @@
 {
   "usernames": [
+    "nagizade",
     "jahanbakhsh",
     "rajabi",
     "asiyabi",
     "bakhshalizade",
-    "nagizade",
     "customer1",
     "hatamkhani",
     "sadegi",
@@ -223,11 +223,11 @@
     "vahid.behruz"
   ],
   "lines": {
+    "nagizade": "nagizade #404.8.10",
     "jahanbakhsh": "jahanbakhsh #404.8.10",
     "rajabi": "🚫rajabi #404.6.30 | blocked 2025-11-01",
     "asiyabi": "🚫asiyabi #404.6.24 | blocked 2025-11-01",
     "bakhshalizade": "🚫bakhshalizade #404.6.29 | blocked 2025-11-01",
-    "nagizade": "🚫nagizade #404.6.29 | blocked 2025-11-01",
     "customer1": "🚫customer1 #404.6.27 | blocked 2025-11-01",
     "hatamkhani": "🚫hatamkhani #404.6.26 | blocked 2025-11-01",
     "sadegi": "🚫sadegi #404.6.26 | blocked 2025-11-01",
@@ -445,5 +445,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-11-01 10:52"
+  "timestamp": "2025-11-01 11:05"
 }
