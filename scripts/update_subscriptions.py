@@ -16,8 +16,10 @@ from difflib import Differ
 # === Server Remark and Flag Functions ===
 
 def extract_ip_from_server(server_line):
+    """Extract IP address or hostname from server URL.
+    Supports: vless, vmess, trojan, ss, hysteria, hysteria2"""
     try:
-        if server_line.startswith(('vless://', 'trojan://')):
+        if server_line.startswith(('vless://', 'trojan://', 'hysteria://', 'hysteria2://')):
             parsed = urlparse(server_line.split('#')[0])
             return parsed.hostname
         elif server_line.startswith('vmess://'):
@@ -32,18 +34,68 @@ def extract_ip_from_server(server_line):
     except Exception:
         return None
 
-def get_country_code(ip):
-    if not ip:
+def get_country_code(ip_or_domain):
+    """Get country code for an IP address or domain name using multiple free APIs with fallback.
+    Tries providers in order: ipinfo.io (best limits), ip-api.com (backup).
+    Returns empty string on failure."""
+    if not ip_or_domain:
         return ''
-    try:
-        response = requests.get(f"http://ip-api.com/json/{ip}?fields=countryCode", timeout=5)
-        if response.status_code == 200:
-            data = response.json()
-            cc = data.get('countryCode', '')
-            if cc and len(cc) == 2:
-                return cc.upper()
-    except Exception:
-        pass
+    
+    # Provider list with their API endpoints and response parsing
+    providers = [
+        {
+            'name': 'ipinfo.io',
+            'url': f'https://ipinfo.io/{ip_or_domain}/country',
+            'parse': lambda r: r.text.strip() if r.status_code == 200 else None,
+            'needs_key': False
+        },
+        {
+            'name': 'ip-api.com',
+            'url': f'http://ip-api.com/json/{ip_or_domain}?fields=countryCode',
+            'parse': lambda r: r.json().get('countryCode', '') if r.status_code == 200 else None,
+            'needs_key': False
+        }
+    ]
+    
+    # Try each provider
+    for provider in providers:
+        for attempt in range(2):  # 2 attempts per provider
+            try:
+                response = requests.get(provider['url'], timeout=10)
+                
+                # Check for rate limiting
+                if response.status_code == 429:
+                    if attempt < 1:
+                        time.sleep(2)
+                        continue
+                    # Try next provider
+                    break
+                
+                # Parse response
+                cc = provider['parse'](response)
+                if cc and len(cc) == 2:
+                    return cc.upper()
+                
+                # If successful response but no country code, don't retry
+                if response.status_code == 200:
+                    break
+                    
+            except requests.exceptions.Timeout:
+                if attempt < 1:
+                    time.sleep(1)
+                    continue
+                # Try next provider
+                break
+            except requests.exceptions.RequestException:
+                if attempt < 1:
+                    time.sleep(1)
+                    continue
+                # Try next provider
+                break
+            except Exception:
+                # Try next provider
+                break
+    
     return ''
 
 def country_code_to_flag(country_code):
@@ -56,20 +108,47 @@ def country_code_to_flag(country_code):
         return ''
 
 def update_server_remarks(servers):
+    """Update server remarks with flags. Flags may be missing if IP lookup fails.
+    Uses multiple free APIs with fallback: ipinfo.io (40k/month) -> ip-api.com (45/min).
+    Note: ipinfo.io has much better rate limits!"""
     updated_servers = []
+    failed_flags = 0
+    failed_ips = []
+    
     for idx, server in enumerate(servers, 1):
         base_url = server.split('#')[0]
         remark = server.split('#', 1)[1].strip() if '#' in server else ""
-        ip = extract_ip_from_server(server)
-        cc = get_country_code(ip)
+        ip_or_domain = extract_ip_from_server(server)
+        
+        # Try to get country code and flag
+        cc = get_country_code(ip_or_domain)
         flag = country_code_to_flag(cc)
+        
+        # Track failures for reporting
+        if not flag and ip_or_domain:
+            failed_flags += 1
+            if len(failed_ips) < 5:  # Keep track of first 5 failures for debugging
+                failed_ips.append(ip_or_domain)
+        
         if "---" in remark:
             _, custom = remark.split("---", 1)
             new_remark = f"Server {idx} {flag}--- {custom.strip()}"
         else:
             new_remark = f"Server {idx} {flag}"
         updated_servers.append(f"{base_url}#{new_remark}")
-        time.sleep(0.1)
+        
+        # Rate limiting: ipinfo.io allows 40k/month, so we can be faster
+        # But still be safe to avoid hitting limits
+        time.sleep(0.5)  # Reduced delay since ipinfo.io has better limits
+    
+    if failed_flags > 0:
+        try:
+            failed_info = f" (examples: {', '.join(failed_ips[:3])})" if failed_ips else ""
+            print(f"⚠️ Could not add flags to {failed_flags} servers (IP lookup failed){failed_info}")
+            print(f"   Possible reasons: API rate limit, network timeout, or invalid domain/IP")
+        except UnicodeEncodeError:
+            print(f"Warning: Could not add flags to {failed_flags} servers (IP lookup failed)")
+    
     return updated_servers
 
 # === Enhanced User Management Functions ===
@@ -257,8 +336,13 @@ def extract_user_data_from_line(user_line):
     clean_line = user_line.replace(BLOCKED_SYMBOL, '').strip()
 
     # Handle notes by removing everything after #
+    # Also remove pipe-separated block dates (they're notes, not user_data)
     if '#' in clean_line:
         clean_line = clean_line.split('#')[0].strip()
+    
+    # Remove pipe-separated block dates (e.g., "| blocked 2025-10-31")
+    if '|' in clean_line:
+        clean_line = clean_line.split('|')[0].strip()
 
     if '---' in clean_line:
         before_command = clean_line.split('---')[0].strip()
@@ -456,10 +540,16 @@ def create_subscription_file(username):
     if not os.path.exists(sub_file):
         with open(sub_file, 'w', encoding='utf-8') as f:
             f.write('')
-        print(f"📄 Created subscription file: {username}.txt")
+        try:
+            print(f"📄 Created subscription file: {username}.txt")
+        except UnicodeEncodeError:
+            print(f"[OK] Created subscription file: {username}.txt")
         return True
     else:
-        print(f"⚠️  Subscription file already exists: {username}.txt")
+        try:
+            print(f"⚠️  Subscription file already exists: {username}.txt")
+        except UnicodeEncodeError:
+            print(f"[WARN] Subscription file already exists: {username}.txt")
         return False
 
 def rename_subscription_file(old_username, new_username):
@@ -473,14 +563,23 @@ def rename_subscription_file(old_username, new_username):
             original_new_username = new_username
             new_username = generate_unique_username(new_username)
             new_file = os.path.join(subscription_dir, f"{new_username}.txt")
-            print(f"⚠️ Subscription file {original_new_username}.txt already exists, using {new_username}.txt instead")
+            try:
+                print(f"⚠️ Subscription file {original_new_username}.txt already exists, using {new_username}.txt instead")
+            except UnicodeEncodeError:
+                print(f"[WARN] Subscription file {original_new_username}.txt already exists, using {new_username}.txt instead")
             log_user_history(new_username, "auto_renamed", f"Automatically renamed from {original_new_username} due to duplicate subscription file")
             
         os.rename(old_file, new_file)
-        print(f"📄 Renamed subscription file: {old_username}.txt → {new_username}.txt")
+        try:
+            print(f"📄 Renamed subscription file: {old_username}.txt → {new_username}.txt")
+        except UnicodeEncodeError:
+            print(f"[OK] Renamed subscription file: {old_username}.txt -> {new_username}.txt")
         return new_username  # Return the potentially modified username
     else:
-        print(f"⚠️ Subscription file not found: {old_username}.txt")
+        try:
+            print(f"⚠️ Subscription file not found: {old_username}.txt")
+        except UnicodeEncodeError:
+            print(f"[WARN] Subscription file not found: {old_username}.txt")
         return new_username  # Return the original username
 
 def move_user_to_top(users, username):
@@ -547,7 +646,11 @@ def process_user_commands():
             # Remove any existing command tokens and pipe-notes before extracting user_data
             cleaned_line = user_line.split('---')[0].split('|')[0].strip()
             user_data = extract_user_data_from_line(cleaned_line)
-            notes = extract_notes_from_line(user_line)
+            raw_notes = extract_notes_from_line(user_line)
+            # Remove command flags from notes
+            notes = raw_notes.replace('---b', '').replace('---ub', '').replace('---d', '').replace('---r', '').replace('---m', '').replace('---es', '').strip()
+            # Clean up any double spaces
+            notes = ' '.join(notes.split())
             blocked_users.add(username)
             modified_users.add(username)
             users_to_top.add(username)  # Move to top when blocked
@@ -583,6 +686,10 @@ def process_user_commands():
             # Clean any old block-date tags from the note when unblocking
             raw_notes = extract_notes_from_line(user_line)
             notes = strip_block_dates(raw_notes)
+            # Remove command flags from notes if they're there
+            notes = notes.replace('---ub', '').replace('---ub', '').strip()
+            # Clean up any double spaces
+            notes = ' '.join(notes.split())
             unblocked_users.add(username)
             modified_users.add(username)
             users_to_top.add(username)  # Move to top when unblocked
@@ -605,28 +712,56 @@ def process_user_commands():
             log_user_history(username, "removed", "User deleted")
         elif '---m' in user_line:
             any_commands_processed = True
-            username = extract_username_from_line(user_line)
-            user_data = extract_user_data_from_line(user_line)
-            notes = extract_notes_from_line(user_line)
+            # Extract everything after ---m but before # (for notes)
+            command_part = user_line.split('---m')[1]
+            if '#' in command_part:
+                notes_part = command_part.split('#')[1]
+                data_part = command_part.split('#')[0].strip()
+            else:
+                notes_part = ''
+                data_part = command_part.strip()
+            
+            # If there's data after ---m, treat first word as username, rest as user_data
+            if data_part:
+                parts = data_part.split()
+                username = parts[0] if parts else ''
+                user_data = ' '.join(parts[1:]) if len(parts) > 1 else ''
+            else:
+                # No data after ---m, extract from before command (in case format is "username ---m")
+                username = extract_username_from_line(user_line)
+                user_data = extract_user_data_from_line(user_line)
+            
+            raw_notes = notes_part.strip()
+            # Remove command flags from notes if they somehow got there
+            notes = raw_notes.replace('---m', '').replace('---b', '').replace('---ub', '').replace('---d', '').replace('---r', '').replace('---es', '').strip()
+            # Clean up any double spaces
+            notes = ' '.join(notes.split())
+            
             # Auto-generate a unique username if none was provided (i.e. the line is just "---m" + optional note)
             if not username:
                 username = generate_unique_username("customer")
-                print(f"\u2699\ufe0f Auto-generated username: {username}")
+                try:
+                    print(f"\u2699\ufe0f Auto-generated username: {username}")
+                except UnicodeEncodeError:
+                    print(f"[OK] Auto-generated username: {username}")
             
             # Check if username already exists and generate a unique one if needed
             original_username = username
             # Exclude the current line from duplicate check to avoid false positives
             existing_usernames = [extract_username_from_line(u) for u in users if u is not user_line]
             existing_updated_usernames = [extract_username_from_line(u) for u in updated_users]
+            # Also check against any new usernames from renames that happened earlier in this batch
+            renamed_new_usernames = set(renamed_users.values())
+            # Also check against new_users that were already added in this batch
+            existing_new_usernames = new_users.copy()
             
-            # Debug print to help identify the issue
-            print(f"Adding user: {username}")
-            print(f"Existing usernames: {existing_usernames}")
-            
-            if username in existing_updated_usernames or username in existing_usernames:
+            if username in existing_updated_usernames or username in existing_usernames or username in renamed_new_usernames or username in existing_new_usernames:
                 username = generate_unique_username(username)
                 log_user_history(username, "auto_renamed", f"Automatically renamed from {original_username} due to duplicate")
-                print(f"⚠️ Username {original_username} already exists, using {username} instead")
+                try:
+                    print(f"⚠️ Username {original_username} already exists, using {username} instead")
+                except UnicodeEncodeError:
+                    print(f"[WARN] Username {original_username} already exists, using {username} instead")
             
             new_users.add(username)
             details = user_data if user_data else ""
@@ -658,7 +793,31 @@ def process_user_commands():
             if '#' in command_part:
                 command_part = command_part.split('#')[0]
             new_username = command_part.strip().split()[0] if command_part.strip() else ''
+            # Remove command from notes if it's there
+            if notes and '---r' in notes:
+                notes = notes.split('---r')[0].strip()
+            # Clean up any double spaces in notes
+            notes = ' '.join(notes.split())
             if new_username and new_username != old_username:
+                # Check if target username already exists (in original list, updated list, renamed in this batch, or new users in this batch)
+                existing_usernames = [extract_username_from_line(u) for u in users]
+                existing_updated_usernames = [extract_username_from_line(u) for u in updated_users]
+                renamed_new_usernames = set(renamed_users.values())
+                # Also check if this user was already renamed in this batch (old_username might be a new name from earlier rename)
+                if old_username in renamed_users.values():
+                    # This user was already renamed, skip this rename
+                    updated_users.append(user_line)
+                    continue
+                
+                # If target username conflicts, generate a unique one
+                if new_username in existing_usernames or new_username in existing_updated_usernames or new_username in renamed_new_usernames or new_username in new_users:
+                    original_new_username = new_username
+                    new_username = generate_unique_username(new_username)
+                    log_user_history(old_username, "rename_target_conflict", f"Target username {original_new_username} already exists, using {new_username} instead")
+                    try:
+                        print(f"⚠️ Rename target {original_new_username} already exists, using {new_username} instead")
+                    except UnicodeEncodeError:
+                        print(f"[WARN] Rename target {original_new_username} already exists, using {new_username} instead")
                 renamed_users[old_username] = new_username
                 modified_users.add(old_username)
                 users_to_top.add(new_username)  # Move to top when renamed
@@ -798,9 +957,12 @@ def process_user_commands():
 # === BLOCKED USERS FILE COMMANDS ===
 
 def process_blocked_users_commands():
-    """Allow admin to put command flags (---ub / ---b) inside blocked_users.txt.
+    """Allow admin to put command flags (---ub / ---d) inside blocked_users.txt.
     The function will read blocked_users.txt, process any directives, sync changes
     back to user_list.txt, and rewrite blocked_users.txt without the flags.
+    
+    Note: ---b (block) command is NOT supported here. Use user_list.txt with ---b instead.
+    This file is a shortcut for finding blocked users and unblocking/deleting easily.
     """
     blocked_file = 'blocked_users.txt'
     if not os.path.exists(blocked_file):
@@ -831,7 +993,6 @@ def process_blocked_users_commands():
     if not raw_lines:
         return
 
-    to_block = {}
     to_unblock = {}
     to_delete = set()
     keep_plain = []  # lines to keep as-is (no command flags, already cleaned)
@@ -843,12 +1004,6 @@ def process_blocked_users_commands():
             note = extract_notes_from_line(line)
             if username:
                 to_unblock[username] = note
-                commands_found = True
-        elif '---b' in line:
-            username = extract_username_from_line(line)
-            note = extract_notes_from_line(line)
-            if username:
-                to_block[username] = note
                 commands_found = True
         elif '---d' in line:
             # Delete user entirely
@@ -896,44 +1051,8 @@ def process_blocked_users_commands():
             modified_users.add(uname)
             log_user_history(uname, "removed", "via blocked_users.txt")
             continue  # do not append to updated_users (removes from list)
-        elif uname in to_block:
-            # Ensure blocked symbol present and update/add note
-            # Remove existing note to replace
-            base_without_note = remove_notes_from_line(user_line.lstrip(BLOCKED_SYMBOL).lstrip())
-            # Compose note with block date
-            iran_date = get_iran_time().strftime("%Y-%m-%d")
-            date_note = f"| blocked {iran_date}"
-            note_input = to_block.get(uname, '')
-            # Build note ensuring we don't duplicate date
-            if date_note in note_input:
-                note = note_input.strip()
-            else:
-                note = f"{note_input} {date_note}".strip()
-
-            # Prepend '#' symbol to note (if any) (no space after '#')
-            note_with_hash = f"#{note}" if note else ""
-            blocked_line = f"{BLOCKED_SYMBOL}{base_without_note}"
-            if note_with_hash:
-                blocked_line += f" {note_with_hash}"
-            elif '#' in user_line:
-                # Reattach existing note if no new note specified
-                old_note = extract_notes_from_line(user_line)
-                blocked_line += f" #{old_note}"
-            updated_users.append(blocked_line)
-            modified_users.add(uname)
-            log_user_history(uname, "blocked", "via blocked_users.txt")
         else:
             updated_users.append(user_line)
-
-    # Add new blocked entries which were not in user_list
-    for uname, note in to_block.items():
-        if uname not in existing_usernames:
-            line = f"{BLOCKED_SYMBOL}{uname}"
-            if note:
-                line += f" {note}"
-            updated_users.append(line)
-            modified_users.add(uname)
-            log_user_history(uname, "blocked", "via blocked_users.txt (new user)")
 
     # Move modified users to top for visibility
     final_users = updated_users.copy()
@@ -947,28 +1066,26 @@ def process_blocked_users_commands():
         backup_user(uname)
     save_user_list(final_users)
 
-    # Re-write blocked_users.txt putting freshly blocked usernames at the top
-    # Build final blocked list preserving notes, newest blocks first
+    # Re-write blocked_users.txt based on CURRENT state of user_list.txt
+    # Only include users that are actually blocked (have 🚫 symbol)
+    # Exclude users that were unblocked or deleted
     new_block_list = []
-    for uname, note_in in to_block.items():
-        iran_date = get_iran_time().strftime("%Y-%m-%d")
-        date_note = f"| blocked {iran_date}"
-        if date_note in note_in:
-            note = note_in.strip()
-        else:
-            note = f"{note_in} {date_note}".strip()
-        entry = uname
-        if note:
-            entry += f" #{note}"
-        new_block_list.append(entry)
-    # Add remaining lines (plain keeps) that are still blocked
-    for ln in keep_plain:
-        u = extract_username_from_line(ln)
-        if u not in to_unblock and u not in to_delete and u not in to_block:  # still blocked and not deleted or reblocked this run
-            new_block_list.append(ln)
+    
+    # Rebuild blocked_users.txt from final user_list.txt state
+    # (after processing unblocks/deletes and moving users to top)
+    for user_line in final_users:
+        if user_line.startswith(BLOCKED_SYMBOL):
+            # This user is still blocked, add to blocked_users.txt
+            entry = user_line.lstrip(BLOCKED_SYMBOL).lstrip()
+            uname = extract_username_from_line(entry)
+            # Only add if not in to_delete (shouldn't happen, but safety check)
+            if uname not in to_delete:
+                new_block_list.append(entry)
+    
+    # Write the updated blocked_users.txt
     with open(blocked_file, 'w', encoding='utf-8') as f:
-        for uname in new_block_list:
-            f.write(f"{uname}\n")
+        for entry in new_block_list:
+            f.write(f"{entry}\n")
 
     # Remove subscription files for deleted users
     if to_delete:
@@ -1056,11 +1173,13 @@ def normalize_vmess_url(server_line):
         return server_line
 
 def extract_server_config(server_line):
+    """Extract normalized server config for duplicate detection.
+    Supports: vless, vmess, trojan, ss, hysteria, hysteria2"""
     try:
         server_line = server_line.strip()
         if server_line.startswith('vmess://'):
             return normalize_vmess_url(server_line)
-        elif server_line.startswith(('vless://', 'trojan://', 'ss://')):
+        elif server_line.startswith(('vless://', 'trojan://', 'ss://', 'hysteria://', 'hysteria2://')):
             url_part = server_line.split('#')[0]
             parsed = urlparse(url_part)
             scheme = parsed.scheme.lower()
@@ -1080,12 +1199,13 @@ def extract_server_config(server_line):
 
 NON_WORKING_FILE = 'non_working.txt'
 MAIN_FILE = 'servers.txt'
+CONTROL_PANEL_FILE = 'control_panel.txt'
 HISTORY_FILE = 'server_history.txt'
 USER_HISTORY_FILE = 'user_history.txt'
 QUARANTINE_DAYS = 3
-USER_HISTORY_DAYS = 7  # Keep user history for 7 days
-BACKUP_DAYS = 7  # Keep backups for 7 days
-SERVER_HISTORY_DAYS = 7  # Keep server history for 7 days
+USER_HISTORY_DAYS = 10  # Keep user history for 10 days
+BACKUP_DAYS = 10  # Keep backups for 10 days
+SERVER_HISTORY_DAYS = 10  # Keep server history for 10 days
 # Timeout (seconds) for TCP health-check
 VALIDATION_TIMEOUT = 3
 
@@ -1194,15 +1314,17 @@ def log_user_history(username, action, details="", max_days=USER_HISTORY_DAYS):
 # === REMOVE DUPLICATES WITH LOGGING ===
 
 def remove_duplicates(servers):
+    """Remove duplicate servers and log which file it's happening in."""
     seen_configs = {}
     unique_servers = []
+    active_file = get_active_server_file()
     for server in servers:
         if not server.strip():
             continue
         config_key = extract_server_config(server)
         if config_key in seen_configs:
-            # Log duplicate removal
-            log_history(server, "removed_duplicate")
+            # Log duplicate removal with file info
+            log_history(server, f"removed_duplicate(from:{active_file})")
             continue
         else:
             seen_configs[config_key] = server.strip()
@@ -1210,23 +1332,173 @@ def remove_duplicates(servers):
     return unique_servers
 
 def parse_non_working_line(line):
+    """Parse non_working.txt line. Supports two formats:
+    Old format: server | date
+    New format: server | source_file | date
+    """
     try:
-        server, date_str = line.rsplit('|', 1)
-        server = server.strip()
-        date_str = date_str.strip()
+        parts = line.rsplit('|', 2)
+        if len(parts) == 2:
+            # Old format: server | date
+            server = parts[0].strip()
+            date_str = parts[1].strip()
+            source_file = None  # Unknown source
+        else:
+            # New format: server | source_file | date
+            server = parts[0].strip()
+            source_file = parts[1].strip()
+            date_str = parts[2].strip()
+        
         dt = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M")
-        return server, dt
+        return server, dt, source_file
     except Exception:
-        return None, None
+        return None, None, None
+
+# === Control Panel Functions ===
+
+def get_active_server_file():
+    """Read control_panel.txt and return the active server file name."""
+    if not os.path.exists(CONTROL_PANEL_FILE):
+        # Default to servers.txt if control_panel.txt doesn't exist
+        return MAIN_FILE
+    
+    with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
+        lines = [line.strip() for line in f if line.strip()]
+    
+    for line in lines:
+        # Check if line starts with tick emoji (active server)
+        if line.startswith('✓'):
+            # Extract server file name (remove tick and any whitespace)
+            server_file = line.replace('✓', '').strip()
+            if server_file:
+                return server_file
+        # Also check for ---on marker (backward compatibility)
+        elif '---on' in line.lower():
+            # Extract server file name (remove ---on and any whitespace)
+            server_file = line.replace('---on', '').replace('---ON', '').replace('✓', '').strip()
+            if server_file:
+                return server_file
+    
+    # If no active server found, default to servers.txt
+    return MAIN_FILE
+
+def process_control_panel():
+    """Process control_panel.txt to handle ---on commands and ensure only one server is active.
+    Format: ✓ servers.txt (tick at beginning, ---on command is hidden after processing)
+    """
+    if not os.path.exists(CONTROL_PANEL_FILE):
+        # Create default control_panel.txt with servers.txt active
+        with open(CONTROL_PANEL_FILE, 'w', encoding='utf-8') as f:
+            f.write(f"✓ {MAIN_FILE}\n")
+        return
+    
+    with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
+        lines = [line.strip() for line in f if line.strip()]
+    
+    # Track seen server files to prevent duplicates
+    seen_servers = set()
+    active_server = None  # Track which server should be active
+    updated_lines = []
+    any_changes = False
+    
+    # First pass: identify which server should be active (prioritize ---on over existing ticks)
+    for line in lines:
+        clean_line = line.replace('✓', '').replace('---on', '').replace('---ON', '').strip()
+        if not clean_line:
+            continue
+        
+        # If this line has ---on marker, this is the server user wants to activate
+        if '---on' in line.lower():
+            active_server = clean_line
+            any_changes = True
+            break  # ---on takes priority, stop searching
+    
+    # If no ---on found, check for existing tick
+    if active_server is None:
+        for line in lines:
+            if line.startswith('✓'):
+                clean_line = line.replace('✓', '').strip()
+                if clean_line:
+                    active_server = clean_line
+                    break
+    
+    # Second pass: build the output lines
+    for line in lines:
+        # Remove tick emoji and ---on markers to get clean server name
+        clean_line = line.replace('✓', '').replace('---on', '').replace('---ON', '').strip()
+        
+        # Skip empty lines
+        if not clean_line:
+            continue
+        
+        # Check for duplicates
+        if clean_line in seen_servers:
+            any_changes = True
+            continue  # Skip duplicate entries
+        
+        seen_servers.add(clean_line)
+        
+        # Format the line: add tick if this is the active server
+        if clean_line == active_server:
+            formatted_line = f"✓ {clean_line}"
+            if line != formatted_line:
+                any_changes = True
+            updated_lines.append(formatted_line)
+        else:
+            # Inactive server - no tick, no ---on
+            if clean_line != line:
+                any_changes = True
+            updated_lines.append(clean_line)
+    
+    # If no active server was found, activate the first one
+    if active_server is None and updated_lines:
+        first_line = updated_lines[0].replace('✓', '').replace('---on', '').replace('---ON', '').strip()
+        updated_lines[0] = f"✓ {first_line}"
+        any_changes = True
+        active_server = first_line
+    
+    # If there are no lines, create default
+    if not updated_lines:
+        updated_lines.append(f"✓ {MAIN_FILE}")
+        any_changes = True
+        active_server = MAIN_FILE
+    
+    # Always write back to ensure correct format
+    with open(CONTROL_PANEL_FILE, 'w', encoding='utf-8') as f:
+        for line in updated_lines:
+            f.write(line + '\n')
+    
+    if any_changes:
+        try:
+            print(f"✓ Control panel updated: {active_server} is now active")
+        except UnicodeEncodeError:
+            print(f"Control panel updated: {active_server} is now active")
 
 def load_main_servers():
-    if not os.path.exists(MAIN_FILE):
+    """Load servers from the active server file specified in control_panel.txt."""
+    # Get the active server file
+    active_file = get_active_server_file()
+    
+    if not os.path.exists(active_file):
+        print(f"⚠️ Active server file {active_file} not found, using default {MAIN_FILE}")
+        active_file = MAIN_FILE
+    
+    if not os.path.exists(active_file):
         return []
-    with open(MAIN_FILE, 'r', encoding='utf-8') as f:
-        return [line.strip() for line in f if line.strip()]
+    
+    with open(active_file, 'r', encoding='utf-8') as f:
+        servers = [line.strip() for line in f if line.strip()]
+    
+    try:
+        print(f"📡 Loading servers from: {active_file} ({len(servers)} servers)")
+    except UnicodeEncodeError:
+        print(f"Loading servers from: {active_file} ({len(servers)} servers)")
+    return servers
 
 def save_main_servers(servers):
-    with open(MAIN_FILE, 'w', encoding='utf-8') as f:
+    """Save servers to the active server file specified in control_panel.txt."""
+    active_file = get_active_server_file()
+    with open(active_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(servers) + '\n')
 
 def load_non_working():
@@ -1247,47 +1519,75 @@ def cleanup_non_working():
     non_working_lines = load_non_working()
     keep_non_working = []
     for line in non_working_lines:
-        server, dt = parse_non_working_line(line)
+        server, dt, source_file = parse_non_working_line(line)
         if not server or not dt:
+            keep_non_working.append(line)
             continue
         days_in_quarantine = (today.replace(tzinfo=None) - dt).days
         if days_in_quarantine >= QUARANTINE_DAYS:
-            log_history(server, "removed_after_3_days")
+            source_info = f"(from:{source_file})" if source_file else ""
+            log_history(server, f"removed_after_3_days{source_info}")
         else:
             keep_non_working.append(line)
     save_non_working(keep_non_working)
 
 def move_server_to_non_working(server_line):
+    """Move a server to non_working.txt and track which server file it came from."""
     iran_time = get_iran_time()
     now_str = iran_time.strftime("%Y-%m-%d %H:%M")
-    entry = f"{server_line} | {now_str}"
+    # Track source file: format: server | source_file | date
+    source_file = get_active_server_file()
+    entry = f"{server_line} | {source_file} | {now_str}"
     non_working = load_non_working()
-    if not any(server_line in line for line in non_working):
+    # Check if server already exists (comparing server part only)
+    server_part = entry.split(' | ')[0]
+    if not any(server_part in line.split(' | ')[0] for line in non_working):
         # Add new non-working servers to the top of the list
         non_working.insert(0, entry)
         save_non_working(non_working)
-        log_history(server_line, "moved_to_non_working")
+        log_history(server_line, f"moved_to_non_working(from:{source_file})")
 
-def move_server_to_main(server_line):
-    main_servers = load_main_servers()
+def move_server_to_main(server_line, target_file=None):
+    """Move a server back to a server file. If target_file is None, uses currently active file."""
+    if target_file is None:
+        target_file = get_active_server_file()
+    
+    # Load servers from target file
+    if not os.path.exists(target_file):
+        return
+    
+    with open(target_file, 'r', encoding='utf-8') as f:
+        main_servers = [line.strip() for line in f if line.strip()]
+    
+    # Check for duplicates
     normalized_new = extract_server_config(server_line)
     for existing in main_servers:
         if extract_server_config(existing) == normalized_new:
             return
+    
     main_servers.append(server_line)
-    save_main_servers(main_servers)
-    log_history(server_line, "moved_to_main")
+    with open(target_file, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(main_servers) + '\n')
+    log_history(server_line, f"moved_to_main({target_file})")
 
 def process_non_working_recovery():
+    """Recover servers from non_working.txt back to their original server files."""
     non_working_lines = load_non_working()
     keep_non_working = []
     for line in non_working_lines:
-        server, dt = parse_non_working_line(line)
+        server, dt, source_file = parse_non_working_line(line)
         if not server or not dt:
+            keep_non_working.append(line)
             continue
+        
+        # Test if server is working again
         if validate_server(server):
-            move_server_to_main(server)
-            log_history(server, "recovered_to_main")
+            # Recover to original source file - each server goes back to where it came from
+            # Example: server from servers1.txt goes back to servers1.txt, not servers.txt
+            target_file = source_file if source_file and os.path.exists(source_file) else None
+            move_server_to_main(server, target_file)
+            source_info = f"from:{source_file}," if source_file else ""
+            log_history(server, f"recovered_to_main({source_info}to:{target_file or 'active'})")
         else:
             keep_non_working.append(line)
     save_non_working(keep_non_working)
@@ -1309,6 +1609,8 @@ def is_fake_server(server_line):
     return False
 
 def validate_server(server_line):
+    """Validate server connectivity by testing TCP connection.
+    Supports: vless, vmess, trojan, ss, hysteria, hysteria2"""
     try:
         hostname = None
         port = None
@@ -1328,6 +1630,11 @@ def validate_server(server_line):
             hostname = parsed.hostname
             port = parsed.port or 8388
         elif server_line.startswith('trojan://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 443
+        elif server_line.startswith(('hysteria://', 'hysteria2://')):
             url_part = server_line.split('#')[0]
             parsed = urlparse(url_part)
             hostname = parsed.hostname
@@ -1480,11 +1787,28 @@ def backup_user(username):
         with open(backup_filename, 'w', encoding='utf-8') as f:
             f.write(user_entry)
         
-        # Cleanup old backups (keep latest 10 per user)
-        backups = sorted(list(user_dir.glob(f"{username}_*.txt")), key=lambda x: x.stat().st_mtime)
-        if len(backups) > 10:  # Keep last 10 backups per user
-            for old_file in backups[:-10]:
-                old_file.unlink()
+        # Cleanup old backups (keep those from last BACKUP_DAYS days)
+        backups = list(user_dir.glob(f"{username}_*.txt"))
+        cutoff_date = iran_time - datetime.timedelta(days=BACKUP_DAYS)
+        
+        for backup_file in backups:
+            # Extract date from filename (format: username_TIMESTAMP_DISPLAYTIMESTAMP.txt)
+            # Example: username_7980-12-31_23-59_2024-01-01_12-30.txt
+            # display_timestamp is the last two parts: YYYY-MM-DD_HH-MM
+            try:
+                filename = backup_file.stem  # Get filename without extension
+                parts = filename.split('_')
+                if len(parts) >= 5:
+                    # Display timestamp is the last two parts: YYYY-MM-DD_HH-MM
+                    # Extract date part (second to last): YYYY-MM-DD
+                    date_str = parts[-2]  # YYYY-MM-DD
+                    file_date = datetime.datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=IRAN_TZ)
+                    if file_date < cutoff_date:
+                        # File is older than BACKUP_DAYS days
+                        backup_file.unlink()
+            except (ValueError, IndexError):
+                # Skip files with invalid naming format
+                continue
                 
         return True
     except Exception as e:
@@ -1494,16 +1818,21 @@ def backup_user(username):
 def update_all_subscriptions():
     """Main entry-point. Behaviour depends on FAST_RUN flag."""
 
+    # Process control panel first to determine which server file is active
+    process_control_panel()
+
     # Always make a backup of user_list before starting
     if os.path.exists(USER_LIST_FILE):
         backup_user_list()
         # Detect any manual changes since last run
         detect_manual_changes()
 
-    # Always process user commands & expiry first – they are lightweight
-    process_user_commands()
-    # Process any commands written directly inside blocked_users.txt
+    # Process any commands written directly inside blocked_users.txt FIRST
+    # This must run before process_user_commands() because process_user_commands()
+    # rebuilds blocked_users.txt, which would remove the ---ub/---d commands
     process_blocked_users_commands()
+    # Then process user commands & expiry – they are lightweight
+    process_user_commands()
     check_expired_users()
 
     if not FAST_RUN:
@@ -1550,9 +1879,37 @@ def update_all_subscriptions():
     subscription_dir = 'subscriptions'
     if not os.path.exists(subscription_dir):
         os.makedirs(subscription_dir)
+    
+    # Load user list to identify which subscriptions are managed by automation
+    managed_users = load_user_list()
+    managed_usernames = {extract_username_from_line(user) for user in managed_users}
+    
+    # First, ensure subscription files exist for all managed users
+    for user_line in managed_users:
+        username = extract_username_from_line(user_line)
+        subscription_path = os.path.join(subscription_dir, f"{username}.txt")
+        if not os.path.exists(subscription_path):
+            # Create empty subscription file if it doesn't exist
+            with open(subscription_path, 'w', encoding='utf-8') as f:
+                f.write('')
+            try:
+                print(f"Created missing subscription file: {username}.txt")
+            except UnicodeEncodeError:
+                print(f"[OK] Created missing subscription file: {username}.txt")
+    
     subscription_files = [f for f in os.listdir(subscription_dir) if f.endswith('.txt')]
     for filename in subscription_files:
         username = filename[:-4]
+        
+        # Only update subscriptions for users in user_list.txt (managed users)
+        # Manual subscriptions (users not in user_list.txt) will be preserved
+        if username not in managed_usernames:
+            try:
+                print(f"Preserving manual subscription: {username}.txt (user not in user_list.txt)")
+            except UnicodeEncodeError:
+                print(f"Preserving manual subscription: {username}.txt (user not in user_list.txt)")
+            continue
+        
         if should_block_user(username, blocked_users):
             servers_for_user = get_fake_servers()
         else:
