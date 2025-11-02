@@ -1,3 +1,7 @@
+nopantos | removed | User deleted [Note: 404.8.15] | 2025-11-03 02:01
+
+nopantos | manual_delete | User manually removed [Note: 404.8.15] | 2025-11-03 02:01
+
 nopantos | added | [Note: 404.8.15] | 2025-11-03 02:01
 
 customer6 | removed | User deleted [Note: 404.385] | 2025-11-03 02:00
