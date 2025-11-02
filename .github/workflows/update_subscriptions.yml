@@ -4,6 +4,12 @@ on:
   push:
     paths:
       - 'servers.txt'
+      - 'servers*.txt'
+      - '**/*_servers.txt'
+      - 'production*.txt'
+      - 'backup*.txt'
+      - 'premium*.txt'
+      - 'control_panel.txt'
       - 'scripts/update_subscriptions.py'
   schedule:
     - cron: '0 * * * *'  # Every hour
