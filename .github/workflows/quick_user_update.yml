@@ -6,6 +6,9 @@ on:
       - 'user_list.txt'
       - 'blocked_users.txt'
 
+permissions:
+  contents: write
+
 jobs:
   quick-update:
     runs-on: ubuntu-latest
