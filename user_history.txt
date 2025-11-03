@@ -1,3 +1,11 @@
+habibzade | manual_change | Changes:
+- habibzade #404.6.29
+?                ^  -
+
++ habibzade #404.8.12
+?                ^ +
+ [Note: 404.8.12] | 2025-11-03 11:36
+
 babayi | unblocked | via blocked_users.txt [Note: 404.6.22 | blocked 2025-11-01] | 2025-11-03 11:36
 
 habibzade | unblocked | via blocked_users.txt [Note: 404.6.29 | blocked 2025-11-01] | 2025-11-03 10:07
