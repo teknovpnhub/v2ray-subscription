@@ -23,7 +23,7 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@pqh30v5.ipforvetra.shop:80?security
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.77:80?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 23 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.118.39:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 24 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.140.167.209:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 25 🇬🇧
-vless://ddab5550-3938-4aba-943c-f23a08d07dc5@alhilal.com:443?security=tls&sni=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&packetEncoding=xudp&encryption=none#Server 26 🇺🇸
+vless://ddab5550-3938-4aba-943c-f23a08d07dc5@alhilal.com:443?security=tls&sni=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&fp=chrome&type=ws&path=/ws&host=rAyAn-cOnFiG-pl-1.pArSa.dPdNs.oRg&packetEncoding=xudp&encryption=none#Server 26 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@31.57.225.58:57456#Server 27 🇹🇷
 vless://40730d97-ffa7-1108-2c53-761516eb5fda@166.1.131.3:993?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 28 🇺🇸
 vless://40730d97-ffa7-1108-2c53-761516eb5fda@166.1.131.6:993?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=_KiM4lu8Em0mJFmY8t2XRYGL-H2jbCtfKaFB0Io6JCE&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 29 🇺🇸
@@ -84,7 +84,7 @@ vless://500f3d46-1cef-4ddd-ac91-60e5cbcabf39@axe.soyet2j.ir:2087?encryption=none
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638967500853380191.mashhad-blkaft-aaap.info:8880?encryption=none&security=none&type=grpc#Server 84 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UGJad3k0Q3NObVNtaEdZam9VVzQ3aVJnbks3VVMzY1o5ZzdvNVllZm5uVEFNems3NHVwWVY4azI5WGRRYWVmUHdHTTdIQW1odnFMWFNvdlZBMUhIOEw4cG9kU0FaM1g%3D@imap.roomyinmita.name:40565#Server 85 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA%3D@imap.roomyinmita.name:40565#Server 86 🇺🇸
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851076125.hamedan-drc-tusabl.info:8880?encryption=none&security=none&type=grpc#Server 87 🇫🇷
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851076125.hamedan-drc-tusabl.info:8880?encryption=none&security=none&type=grpc#Server 87
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppdlFZVGlTeVVHeVJpVmhxY2JhRXRNalhDOGRqcnNjUGJuaGpuVTlvVEV1VndoNkxoSlNrUU5Zanh0S3g1WDJpUlJDSkh1N2UzVUZ3VzlTOWlBeWhQMnJYNm90NkxjN3g%3D@imap.roomyinmita.name:40565#Server 88 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.217:80?encryption=none&security=none&type=grpc#Server 89 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 90 🇫🇷
@@ -95,7 +95,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.224:8880?encryption=none&security=none&type=grpc#Server 95 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?encryption=none&security=none&type=grpc#Server 96 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqWjAzYU9GRE1VUWxpUUlSa2ZpQUhx@193.23.221.9:14178#Server 97 🇩🇪
-trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 98 🇨🇦
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 98 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.175:80?encryption=none&security=none&type=grpc#Server 99 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?encryption=none&security=none&type=grpc#Server 100 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.108:80?encryption=none&security=none&type=grpc#Server 101 🇺🇸
@@ -131,7 +131,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.54.31.230:990#Server 131 🇻🇳
 vless://8df2b423-d068-4ebd-aff0-e0d14e2423ce@v2rayngselllbot.m.heloisfood.ir:6673?encryption=none&security=none&type=grpc&authority=&serviceName=%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT&mode=gun#Server 132 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.60.171.254:990#Server 133 🇮🇩
-trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 134 🇨🇦
+trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 134 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.25:8880?encryption=none&security=none&type=grpc#Server 135 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.2:8880?encryption=none&security=none&type=grpc#Server 136 🇬🇧
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.171:80?encryption=none&security=none&type=grpc#Server 137 🇺🇸
@@ -192,3 +192,4 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzI0MQ%3D%3D@sgmob222.asuscomm.com:8899#Ser
 vless://26c99015-b58e-47d2-a4ce-4f4b05b70400@sweden11.clearorbitllc.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sweden11.clearorbitllc.com&fp=firefox&pbk=6i0TALpH7qy8-xzwJkI13mRsgi2e7lHqKQyAcDSg8Uc&sid=4af2&type=tcp&headerType=none#Server 192 🇸🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 193 🇳🇱
 vless://c2ec47f4-873f-573f-7d8d-d79d7ad452e6@85.90.197.100:9956?encryption=none&flow=xtls-rprx-vision&security=reality&sni=store.steampowered.com&fp=chrome&pbk=YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E&type=tcp&headerType=none#Server 194 🇬🇷
+vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&headerType=none#Server 195 🇱🇻
