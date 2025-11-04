@@ -42,7 +42,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.193:8880?security=none&
 vless://9daf8f3e-089b-4989-9502-dd3d727edb6c@usa32.clearorbitllc.com:443?security=reality&sni=usa32.clearorbitllc.com&fp=chrome&pbk=9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns&sid=c7f3cc&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 42 🇺🇸
 trojan://trojan@104.26.12.31:8443?security=tls&sni=fofang.pages.dev&type=tcp#Server 43 🇺🇸
 vless://8bc1deee-1136-4533-f5d0-0b5751803107@host17.sheydayeman.nl:8880?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 44 🇨🇦
-trojan://trojan@22b.net:2087?security=tls&type=tcp#Server 45 🇺🇸
+trojan://trojan@22b.net:2087?security=tls&type=tcp#Server 45 🇨🇦
 trojan://trojan@www.visa.com.sg:8443?security=tls&type=tcp#Server 46 🇺🇸
 vless://a02fd758-c58b-48a8-bfb3-2b451ab44bb5@colin.ns.cloudflare.com:443?security=tls&sni=638971674693810969.brussels-prmpl-aaaad.com&type=ws&path=/fiedpnws&host=638971674693810969.brussels-prmpl-aaaad.com&packetEncoding=xudp&encryption=none#Server 47 🇨🇦
 vless://b4bd0613-ff7c-4f2f-954d-185915e6ddad@www.speedtest.net:443?security=tls&sni=jnir-cdn.javidnaman.com&type=ws&path=/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed%3D2560&host=jnir-cdn.javidnaman.com&packetEncoding=xudp&encryption=none#Server 48 🇺🇸
@@ -87,7 +87,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.125:8880?encryption=non
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638973512850402267.kerman-blkaft-aaba.info:8880?encryption=none&security=none&type=grpc#Server 87 🇫🇷
 vless://500f3d46-1cef-4ddd-ac91-60e5cbcabf39@axe.soyet2j.ir:2087?encryption=none&security=tls&sni=latte.gejeh683bm.ir.&type=ws&host=latte.gejeh683bm.ir&path=%2Findex.html%3Fed%3D2560#Server 88 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638967500853380191.mashhad-blkaft-aaap.info:8880?encryption=none&security=none&type=grpc#Server 89 🇫🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UGJad3k0Q3NObVNtaEdZam9VVzQ3aVJnbks3VVMzY1o5ZzdvNVllZm5uVEFNems3NHVwWVY4azI5WGRRYWVmUHdHTTdIQW1odnFMWFNvdlZBMUhIOEw4cG9kU0FaM1g%3D@imap.roomyinmita.name:40565#Server 90 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UGJad3k0Q3NObVNtaEdZam9VVzQ3aVJnbks3VVMzY1o5ZzdvNVllZm5uVEFNems3NHVwWVY4azI5WGRRYWVmUHdHTTdIQW1odnFMWFNvdlZBMUhIOEw4cG9kU0FaM1g%3D@imap.roomyinmita.name:40565#Server 90
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA%3D@imap.roomyinmita.name:40565#Server 91 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638946986851076125.hamedan-drc-tusabl.info:8880?encryption=none&security=none&type=grpc#Server 92 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppdlFZVGlTeVVHeVJpVmhxY2JhRXRNalhDOGRqcnNjUGJuaGpuVTlvVEV1VndoNkxoSlNrUU5Zanh0S3g1WDJpUlJDSkh1N2UzVUZ3VzlTOWlBeWhQMnJYNm90NkxjN3g%3D@imap.roomyinmita.name:40565#Server 93 🇺🇸
@@ -141,7 +141,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.54.31.230:990#Server 141 🇻🇳
 vless://8df2b423-d068-4ebd-aff0-e0d14e2423ce@v2rayngselllbot.m.heloisfood.ir:6673?encryption=none&security=none&type=grpc&authority=&serviceName=%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT&mode=gun#Server 142 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.60.171.254:990#Server 143 🇮🇩
-trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 144 🇺🇸
+trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 144 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.25:8880?encryption=none&security=none&type=grpc#Server 145 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.2:8880?encryption=none&security=none&type=grpc#Server 146 🇬🇧
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.171:80?encryption=none&security=none&type=grpc#Server 147 🇺🇸
@@ -189,6 +189,5 @@ vless://cd79807f-bcef-46b8-93b6-229676a0c1a0@64.188.70.0:443?security=reality&sn
 vless://40730d97-ffa7-1108-2c53-761516eb5fda@155.212.110.2:993?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 189 🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVkJZUmtTa0hsVHFlYlNKckdjMkM3@81.19.141.45:443#Server 190 🇩🇪
 vless://4f8b80d1-667e-4ab5-9285-0fbd0e3dcab2@uk29.clearorbitllc.com:443?security=reality&sni=uk29.clearorbitllc.com&fp=chrome&pbk=ypGN6MzbIpHm_fdhVIIUS-vLCXlNkOZrxZ4VNMxcxWw&sid=7286&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 191 🇬🇧
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMzI0MQ%3D%3D@sgmob222.asuscomm.com:8899#Server 192 🇸🇬
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 193 🇳🇱
-vless://30dd2eea-fe78-4660-a04f-096a7dac41e3@yt.ducks.tel:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mirror.yandex.ru&fp=chrome&pbk=IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU&sid=916a&type=tcp&headerType=none#Server 194 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 192 🇳🇱
+vless://c924d667-d2da-40fe-bbb5-52e3eeef6c48@s2.cloudconvert.top:443?security=reality&sni=s2.cloudconvert.top&fp=chrome&pbk=X8bSZA_Q-ReshpPEd17oMU7YfZlHWoOEGB7HM8ZSmXk&sid=abc82912&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 193 🇩🇪
