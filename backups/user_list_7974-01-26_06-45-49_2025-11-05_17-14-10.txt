@@ -1,4 +1,3 @@
-customer1 #404.8.14
 ahad.nouri #404.8.13
 tohid.maaleki #404.8.13
 a.esmailzade #404.8.13
@@ -18,6 +17,7 @@ jahanbakhsh #404.8.10
 🚫rajabi #404.6.30 | blocked 2025-11-01
 🚫asiyabi #404.6.24 | blocked 2025-11-01
 🚫bakhshalizade #404.6.29 | blocked 2025-11-01
+🚫customer1 ---ub #404.8.14 | blocked 2025-11-01
 🚫hatamkhani #404.6.26 | blocked 2025-11-01
 🚫sadegi #404.6.26 | blocked 2025-11-01
 🚫soltani #404.6.25 | blocked 2025-11-01

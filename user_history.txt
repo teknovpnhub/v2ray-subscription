@@ -1,3 +1,7 @@
+customer1 | unblocked | [Note: 404.8.14 | blocked 2025-11-01] | 2025-11-05 17:14
+
+customer1 | manual_delete | User manually removed [Note: 404.8.14 | blocked 2025-11-01] | 2025-11-05 17:14
+
 ahad.nouri | added | [Note: 404.8.13] | 2025-11-04 19:11
 
 tohid.maaleki | added | [Note: 404.8.13] | 2025-11-04 17:19
@@ -184,23 +188,13 @@ ahmadi | manual_delete | User manually removed [Note: 404.8.4 | blocked 2025-10-
 
 customer5 | added |  | 2025-10-26 11:21
 
-mirhossein.mohammadi | added | [Note: 404.7.5] | 2025-10-25 20:13
-
-shadi | added | [Note: 404.8.3] | 2025-10-25 20:05
-
 sabri | unblocked | [Note: 404.8.3 | blocked 2025-10-24] | 2025-10-25 18:38
 
 sabri | manual_delete | User manually removed [Note: 404.8.3 | blocked 2025-10-24] | 2025-10-25 18:38
 
-soodabeh.aghayi | added | [Note: 404.8.3] | 2025-10-25 17:40
-
 family | unblocked | [Note: | blocked 2025-10-24] | 2025-10-25 14:31
 
 family | manual_delete | User manually removed [Note: | blocked 2025-10-24] | 2025-10-25 14:31
-
-gorbanpur | added | [Note: 404.8.3] | 2025-10-25 12:21
-
-ehsan | added | [Note: 404.8.3] | 2025-10-25 11:41
 
 salamzade | unblocked | [Note: 404.8.3 | blocked 2025-10-24] | 2025-10-25 11:01
 
