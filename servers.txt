@@ -13,7 +13,7 @@ vless://f131ad3a-0579-4850-bfe3-35d53a4c84bd@38.180.218.167:57533?security=reali
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638950280342832628.esfahan-drc-tusaas.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 13 🇬🇧
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638950280342842933.esfahan-drc-tusaas.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 14 🇬🇧
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.247:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 15 🇬🇧
-vless://ff84dbed-bbfb-42d8-b397-b0ec025fb570@nodegcf.azurka.org:443?security=tls&sni=nodegcf.azurka.org&fp=chrome&type=ws&path=/ws&host=nodegcf.azurka.org&packetEncoding=xudp&encryption=none#Server 16 🇨🇦
+vless://ff84dbed-bbfb-42d8-b397-b0ec025fb570@nodegcf.azurka.org:443?security=tls&sni=nodegcf.azurka.org&fp=chrome&type=ws&path=/ws&host=nodegcf.azurka.org&packetEncoding=xudp&encryption=none#Server 16 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638974021050125184.kish-blkaft-aaba.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 17 🇫🇷
 vless://40730d97-ffa7-1108-2c53-761516eb5fda@166.1.131.3:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 18 🇺🇸
 vless://56b0deb1-3fbf-7ec0-a9cc-09fc058a6862@russia.marzxo.biz:8086?security=reality&sni=refersion.com&fp=firefox&pbk=Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU&sid=828348fc6d8e49cf&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 19 🇷🇺
@@ -41,7 +41,7 @@ vless://8df2b423-d068-4ebd-aff0-e0d14e2423ce@v2ngnet.heloisfood.ir:4488?security
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.193:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 41 🇫🇷
 vless://9daf8f3e-089b-4989-9502-dd3d727edb6c@usa32.clearorbitllc.com:443?security=reality&sni=usa32.clearorbitllc.com&fp=chrome&pbk=9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns&sid=c7f3cc&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 42 🇺🇸
 trojan://trojan@104.26.12.31:8443?security=tls&sni=fofang.pages.dev&type=tcp#Server 43 🇺🇸
-vless://8bc1deee-1136-4533-f5d0-0b5751803107@host17.sheydayeman.nl:8880?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 44 🇨🇦
+vless://8bc1deee-1136-4533-f5d0-0b5751803107@host17.sheydayeman.nl:8880?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 44 🇺🇸
 trojan://trojan@22b.net:2087?security=tls&type=tcp#Server 45 🇨🇦
 trojan://trojan@www.visa.com.sg:8443?security=tls&type=tcp#Server 46 🇺🇸
 vless://a02fd758-c58b-48a8-bfb3-2b451ab44bb5@colin.ns.cloudflare.com:443?security=tls&sni=638971674693810969.brussels-prmpl-aaaad.com&type=ws&path=/fiedpnws&host=638971674693810969.brussels-prmpl-aaaad.com&packetEncoding=xudp&encryption=none#Server 47 🇨🇦
@@ -98,7 +98,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.224:8880?encryption=none&security=none&type=grpc#Server 98 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?encryption=none&security=none&type=grpc#Server 99 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqWjAzYU9GRE1VUWxpUUlSa2ZpQUhx@193.23.221.9:14178#Server 100 🇩🇪
-trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 101 🇨🇦
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 101 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.175:80?encryption=none&security=none&type=grpc#Server 102 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?encryption=none&security=none&type=grpc#Server 103 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.108:80?encryption=none&security=none&type=grpc#Server 104 🇺🇸
@@ -118,7 +118,7 @@ vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.98:80?encryption=none&s
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@145.14.131.37:990#Server 118 🇨🇷
 trojan://BxceQaOe@203.198.122.129:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Server 119 🇭🇰
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@145.14.131.37:990#Server 120 🇨🇷
-trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 121 🇨🇦
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 121 🇺🇸
 vless://8df2b423-d068-4ebd-aff0-e0d14e2423ce@v2ngfast.heloisfood.ir:2718?encryption=none&security=none&type=grpc&authority=&serviceName=%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast&mode=gun#Server 122 🇩🇪
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638955452903725333.malayer-drc-tusaas.info:8880?encryption=none&security=none&type=grpc#Server 123 🇬🇧
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.118:80?encryption=none&security=none&type=grpc#Server 124 🇺🇸
@@ -133,7 +133,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.54.31.230:990#Server 133 🇻🇳
 vless://8df2b423-d068-4ebd-aff0-e0d14e2423ce@v2rayngselllbot.m.heloisfood.ir:6673?encryption=none&security=none&type=grpc&authority=&serviceName=%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT---%40V2rayNGSelllBoT&mode=gun#Server 134 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@38.60.171.254:990#Server 135 🇮🇩
-trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 136 🇺🇸
+trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 136 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.45.25:8880?encryption=none&security=none&type=grpc#Server 137 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.138.164.2:8880?encryption=none&security=none&type=grpc#Server 138 🇬🇧
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.171:80?encryption=none&security=none&type=grpc#Server 139 🇺🇸
