@@ -13,7 +13,7 @@ vless://f131ad3a-0579-4850-bfe3-35d53a4c84bd@38.180.218.167:57533?security=reali
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638950280342832628.esfahan-drc-tusaas.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 13 🇬🇧
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638950280342842933.esfahan-drc-tusaas.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 14 🇬🇧
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.247:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 15 🇬🇧
-vless://ff84dbed-bbfb-42d8-b397-b0ec025fb570@nodegcf.azurka.org:443?security=tls&sni=nodegcf.azurka.org&fp=chrome&type=ws&path=/ws&host=nodegcf.azurka.org&packetEncoding=xudp&encryption=none#Server 16 🇺🇸
+vless://ff84dbed-bbfb-42d8-b397-b0ec025fb570@nodegcf.azurka.org:443?security=tls&sni=nodegcf.azurka.org&fp=chrome&type=ws&path=/ws&host=nodegcf.azurka.org&packetEncoding=xudp&encryption=none#Server 16 🇨🇦
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@638974021050125184.kish-blkaft-aaba.info:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 17 🇫🇷
 vless://40730d97-ffa7-1108-2c53-761516eb5fda@166.1.131.3:443?security=reality&sni=speed.cloudflare.com&fp=chrome&pbk=LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 18 🇺🇸
 vless://56b0deb1-3fbf-7ec0-a9cc-09fc058a6862@russia.marzxo.biz:8086?security=reality&sni=refersion.com&fp=firefox&pbk=Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU&sid=828348fc6d8e49cf&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 19 🇷🇺
@@ -44,7 +44,7 @@ trojan://trojan@104.26.12.31:8443?security=tls&sni=fofang.pages.dev&type=tcp#Ser
 vless://8bc1deee-1136-4533-f5d0-0b5751803107@host17.sheydayeman.nl:8880?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 44 🇨🇦
 trojan://trojan@22b.net:2087?security=tls&type=tcp#Server 45 🇨🇦
 trojan://trojan@www.visa.com.sg:8443?security=tls&type=tcp#Server 46 🇺🇸
-vless://a02fd758-c58b-48a8-bfb3-2b451ab44bb5@colin.ns.cloudflare.com:443?security=tls&sni=638971674693810969.brussels-prmpl-aaaad.com&type=ws&path=/fiedpnws&host=638971674693810969.brussels-prmpl-aaaad.com&packetEncoding=xudp&encryption=none#Server 47 🇺🇸
+vless://a02fd758-c58b-48a8-bfb3-2b451ab44bb5@colin.ns.cloudflare.com:443?security=tls&sni=638971674693810969.brussels-prmpl-aaaad.com&type=ws&path=/fiedpnws&host=638971674693810969.brussels-prmpl-aaaad.com&packetEncoding=xudp&encryption=none#Server 47 🇨🇦
 vless://b4bd0613-ff7c-4f2f-954d-185915e6ddad@www.speedtest.net:443?security=tls&sni=jnir-cdn.javidnaman.com&type=ws&path=/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed%3D2560&host=jnir-cdn.javidnaman.com&packetEncoding=xudp&encryption=none#Server 48 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 49 🇺🇸
 vless://8c0b0995-5a37-4144-893e-cceb6a9a3e36@172.66.156.81:80?security=none&type=ws&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.store.&packetEncoding=xudp&encryption=none#Server 50 🇺🇸
@@ -95,7 +95,7 @@ vless://8df2b423-d068-4ebd-aff0-e0d14e2423ce@masterserver1.heloisfood.ir:6423?en
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@103.97.203.227:990#Server 95 🇮🇳
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.224:8880?encryption=none&security=none&type=grpc#Server 96 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?encryption=none&security=none&type=grpc#Server 97 🇫🇷
-trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 98 🇨🇦
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 98 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.175:80?encryption=none&security=none&type=grpc#Server 99 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.34:80?encryption=none&security=none&type=grpc#Server 100 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@185.236.232.108:80?encryption=none&security=none&type=grpc#Server 101 🇺🇸
@@ -198,4 +198,3 @@ vless://40730d97-ffa7-1108-2c53-761516eb5fda@155.212.110.2:993?security=reality&
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.155:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 198 🇫🇷
 vless://d5c1b5d7-055b-4457-bc3a-6e99919c1bcb@94.131.104.178:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=latvia6.clearorbitllc.com&fp=firefox&pbk=LDEOpY1G4Cw1drC2ao9AQRSTwwhTTMDk5a7Kyw41Hlw&sid=81e0b568&type=tcp&headerType=none#Server 199 🇱🇻
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqWjAzYU9GRE1VUWxpUUlSa2ZpQUhx@193.23.221.9:14178#Server 200 🇩🇪
-ss://chacha20-ietf-poly1305%3AJNK7CvuvWTpF2ZY3d9ygt1@109.122.197.192:443#Server 201 🇩🇪
