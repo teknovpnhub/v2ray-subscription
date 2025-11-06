@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "rostam.soltani",
     "raha",
     "aragi",
     "jaber.golamzade",
@@ -234,6 +235,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "rostam.soltani": "rostam.soltani #404.8.15",
     "raha": "raha #404.8.15",
     "aragi": "aragi #404.8.15",
     "jaber.golamzade": "🚫jaber.golamzade #404.8.15 | blocked 2025-11-06",
@@ -467,5 +469,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-11-06 17:51"
+  "timestamp": "2025-11-06 18:37"
 }
