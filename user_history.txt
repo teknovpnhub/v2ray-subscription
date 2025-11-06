@@ -1,3 +1,5 @@
+jaber.golamzade | added | [Note: 404.8.15] | 2025-11-06 11:18
+
 esmayil.hasani | added | [Note: 404.8.14] | 2025-11-05 18:31
 
 customer1 | unblocked | [Note: 404.8.14 | blocked 2025-11-01] | 2025-11-05 17:14
@@ -180,15 +182,9 @@ yusefi1 | blocked | | blocked 2025-10-27 [Note: 404.7.30] | 2025-10-27 04:37
 
 yusefi1 | manual_delete | User manually removed [Note: 404.7.30] | 2025-10-27 04:37
 
-tamarzade | added | [Note: 404.8.4] | 2025-10-26 19:55
-
-mehdizade | added | [Note: 404.8.4] | 2025-10-26 19:09
-
 ahmadi | unblocked | [Note: 404.8.4 | blocked 2025-10-24] | 2025-10-26 13:12
 
 ahmadi | manual_delete | User manually removed [Note: 404.8.4 | blocked 2025-10-24] | 2025-10-26 13:12
-
-customer5 | added |  | 2025-10-26 11:21
 
 sabri | unblocked | [Note: 404.8.3 | blocked 2025-10-24] | 2025-10-25 18:38
 
