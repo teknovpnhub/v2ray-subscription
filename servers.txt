@@ -41,7 +41,7 @@ vless://8df2b423-d068-4ebd-aff0-e0d14e2423ce@v2ngnet.heloisfood.ir:4488?security
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.193:8880?security=none&fp=chrome&type=grpc&packetEncoding=xudp&encryption=none#Server 41 🇫🇷
 vless://9daf8f3e-089b-4989-9502-dd3d727edb6c@usa32.clearorbitllc.com:443?security=reality&sni=usa32.clearorbitllc.com&fp=chrome&pbk=9VgEU9n4XfImCSwSdLXEAqotO7zVvZRSaolrtxJKEns&sid=c7f3cc&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#Server 42 🇺🇸
 trojan://trojan@104.26.12.31:8443?security=tls&sni=fofang.pages.dev&type=tcp#Server 43 🇺🇸
-vless://8bc1deee-1136-4533-f5d0-0b5751803107@host17.sheydayeman.nl:8880?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 44 🇺🇸
+vless://8bc1deee-1136-4533-f5d0-0b5751803107@host17.sheydayeman.nl:8880?security=none&type=ws&path=/&packetEncoding=xudp&encryption=none#Server 44 🇨🇦
 trojan://trojan@22b.net:2087?security=tls&type=tcp#Server 45 🇨🇦
 trojan://trojan@www.visa.com.sg:8443?security=tls&type=tcp#Server 46 🇺🇸
 vless://a02fd758-c58b-48a8-bfb3-2b451ab44bb5@colin.ns.cloudflare.com:443?security=tls&sni=638971674693810969.brussels-prmpl-aaaad.com&type=ws&path=/fiedpnws&host=638971674693810969.brussels-prmpl-aaaad.com&packetEncoding=xudp&encryption=none#Server 47 🇨🇷
