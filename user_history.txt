@@ -1,3 +1,27 @@
+mandulakani | blocked | | blocked 2025-11-08 [Note: 404.6.31] | 2025-11-08 01:20
+
+tohid | blocked | | blocked 2025-11-08 [Note: 404.6.31] | 2025-11-08 01:20
+
+b.hasanlou | blocked | | blocked 2025-11-08 [Note: 404.6.31] | 2025-11-08 01:20
+
+abbasi | blocked | | blocked 2025-11-08 [Note: 404.7.1] | 2025-11-08 01:20
+
+kazemi | blocked | | blocked 2025-11-08 [Note: 404.7.1] | 2025-11-08 01:20
+
+m.hatami | blocked | | blocked 2025-11-08 [Note: 404.7.2] | 2025-11-08 01:20
+
+tohid | manual_delete | User manually removed [Note: 404.6.31] | 2025-11-08 01:20
+
+kazemi | manual_delete | User manually removed [Note: 404.7.1] | 2025-11-08 01:20
+
+m.hatami | manual_delete | User manually removed [Note: 404.7.2] | 2025-11-08 01:20
+
+abbasi | manual_delete | User manually removed [Note: 404.7.1] | 2025-11-08 01:20
+
+mandulakani | manual_delete | User manually removed [Note: 404.6.31] | 2025-11-08 01:20
+
+b.hasanlou | manual_delete | User manually removed [Note: 404.6.31] | 2025-11-08 01:20
+
 rostam.soltani | added | [Note: 404.8.15] | 2025-11-06 18:37
 
 raha | added | [Note: 404.8.15] | 2025-11-06 17:38
@@ -167,30 +191,6 @@ yunesi | manual_delete | User manually removed [Note: 404.8.6 | blocked 2025-10-
 a.valilou | unblocked | [Note: 404.8.6 | blocked 2025-10-18] | 2025-10-28 12:57
 
 a.valilou | manual_delete | User manually removed [Note: 404.8.6 | blocked 2025-10-18] | 2025-10-28 12:57
-
-agheli | added | [Note: 404.8.6] | 2025-10-28 10:49
-
-m.bazlju | added | [Note: 404.8.5] | 2025-10-27 19:49
-
-m.bazlju | manual_delete | User manually removed [Note: 404.8.5] | 2025-10-27 19:49
-
-m.bazlju | manual_add | Line: m.bazlju | 2025-10-27 19:47
-
-sha.zeynali | added | [Note: 404.8.51] | 2025-10-27 18:13
-
-eyvari1 | added | [Note: 404.8.5] | 2025-10-27 12:21
-
-eyvari | added | [Note: 404.8.5] | 2025-10-27 12:10
-
-daryush.tamarzade | added | [Note: 404.8.5] | 2025-10-27 11:54
-
-sabri | blocked | | blocked 2025-10-27 [Note: 404.8.3] | 2025-10-27 04:38
-
-sabri | manual_delete | User manually removed [Note: 404.8.3] | 2025-10-27 04:38
-
-yusefi1 | blocked | | blocked 2025-10-27 [Note: 404.7.30] | 2025-10-27 04:37
-
-yusefi1 | manual_delete | User manually removed [Note: 404.7.30] | 2025-10-27 04:37
 
 ahmadi | unblocked | [Note: 404.8.4 | blocked 2025-10-24] | 2025-10-26 13:12
 

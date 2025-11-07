@@ -1,5 +1,12 @@
 {
   "usernames": [
+    "tohid",
+    "kazemi",
+    "m.hatami",
+    "abbasi",
+    "mandulakani",
+    "b.hasanlou",
+    "hadi.mohammadi",
     "rostam.soltani",
     "raha",
     "aragi",
@@ -159,13 +166,6 @@
     "salmanzade1",
     "a.amini",
     "hoseyni",
-    "hadi.mohammadi",
-    "m.hatami",
-    "kazemi",
-    "abbasi",
-    "b.hasanlou",
-    "tohid",
-    "mandulakani",
     "sohrab",
     "javadi",
     "s.khani",
@@ -235,6 +235,13 @@
     "vahid.behruz"
   ],
   "lines": {
+    "tohid": "🚫tohid #404.6.31 | blocked 2025-11-08",
+    "kazemi": "🚫kazemi #404.7.1 | blocked 2025-11-08",
+    "m.hatami": "🚫m.hatami #404.7.2 | blocked 2025-11-08",
+    "abbasi": "🚫abbasi #404.7.1 | blocked 2025-11-08",
+    "mandulakani": "🚫mandulakani #404.6.31 | blocked 2025-11-08",
+    "b.hasanlou": "🚫b.hasanlou #404.6.31 | blocked 2025-11-08",
+    "hadi.mohammadi": "hadi.mohammadi #404.8.16",
     "rostam.soltani": "rostam.soltani #404.8.15",
     "raha": "raha #404.8.15",
     "aragi": "aragi #404.8.15",
@@ -394,13 +401,6 @@
     "salmanzade1": "salmanzade1 #404.7.3",
     "a.amini": "a.amini #404.7.3",
     "hoseyni": "hoseyni #404.7.2",
-    "hadi.mohammadi": "hadi.mohammadi #404.7.2",
-    "m.hatami": "m.hatami #404.7.2",
-    "kazemi": "kazemi #404.7.1",
-    "abbasi": "abbasi #404.7.1",
-    "b.hasanlou": "b.hasanlou #404.6.31",
-    "tohid": "tohid #404.6.31",
-    "mandulakani": "mandulakani #404.6.31",
     "sohrab": "sohrab #404.6.30",
     "javadi": "🚫javadi #404.5.18 | blocked 2025-09-20",
     "s.khani": "🚫s.khani #404.5.16 | blocked 2025-09-13",
@@ -469,5 +469,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-11-08 00:45"
+  "timestamp": "2025-11-08 01:20"
 }
