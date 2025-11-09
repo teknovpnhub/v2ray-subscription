@@ -6,7 +6,6 @@ m.zahedi #404.7.5 | blocked 2025-11-08
 besharat #404.7.7 | blocked 2025-11-08
 m.mohammadi #404.7.5 | blocked 2025-11-08
 tohid #404.6.31 | blocked 2025-11-08
-kazemi ---ub #404.8.18 | blocked 2025-11-08
 abbasi #404.7.1 | blocked 2025-11-08
 mandulakani #404.6.31 | blocked 2025-11-08
 b.hasanlou #404.6.31 | blocked 2025-11-08
