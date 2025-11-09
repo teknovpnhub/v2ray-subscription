@@ -1,3 +1,11 @@
+yunes.azarakhsh | manual_change | Changes:
+- yunes.azarakhsh #404.8.18
+?                         ^
+
++ yunes.azarakhsh #404.8.17
+?                         ^
+ [Note: 404.8.17] | 2025-11-09 18:16
+
 kazemi | unblocked | via blocked_users.txt [Note: 404.7.1 | blocked 2025-11-08] | 2025-11-09 18:15
 
 delayimilan | unblocked | via blocked_users.txt [Note: 404.6.2 | blocked 2025-10-07] | 2025-11-08 17:17
