@@ -1,8 +1,4 @@
-kazemi | manual_change | Changes:
-- kazemi #404.8.18.
-?                 -
-
-+ kazemi #404.8.18 [Note: 404.8.18] | 2025-11-09 18:18
+h.novin | unblocked | via blocked_users.txt [Note: 404.4.17 | blocked 2025-08-17] | 2025-11-10 17:45
 
 kazemi | manual_change | Changes:
 - kazemi #404.8.18
@@ -218,17 +214,9 @@ molayi | unblocked | [Note: 404.8.8 | blocked 2025-10-24] | 2025-10-30 19:14
 
 molayi | manual_delete | User manually removed [Note: 404.8.8 | blocked 2025-10-24] | 2025-10-30 19:14
 
-hossein.zarghami | added | [Note: 404.8.8] | 2025-10-30 19:03
-
 sabri | unblocked | [Note: 404.8.8 | blocked 2025-10-27] | 2025-10-30 19:01
 
 sabri | manual_delete | User manually removed [Note: 404.8.8 | blocked 2025-10-27] | 2025-10-30 19:01
-
-ali.parsa | added | [Note: 404.8.8] | 2025-10-30 18:50
-
-s.aslani | added | [Note: 404.8.8] | 2025-10-30 18:44
-
-f.kalbkhani | added | [Note: 404.8.8] | 2025-10-30 17:17
 
 yunesi | unblocked | [Note: 404.8.6 | blocked 2025-10-24] | 2025-10-28 13:14
 
