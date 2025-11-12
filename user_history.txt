@@ -1,3 +1,5 @@
+habibi1 | unblocked | via blocked_users.txt [Note: 404.6.22 | blocked 2025-11-01] | 2025-11-12 18:37
+
 afsari1 | added |  | 2025-11-11 12:49
 
 afsari1 | auto_renamed | Automatically renamed from afsari due to duplicate | 2025-11-11 12:49
@@ -128,17 +130,9 @@ customer6 | manual_delete | User manually removed [Note: 404.385] | 2025-11-03 0
 
 customer6 | added |  | 2025-11-03 01:56
 
-eshgkhah | added | [Note: 404.8.10] | 2025-11-01 18:33
-
 r.taragikhah | unblocked | [Note: 404.8.10 | blocked 2025-10-18] | 2025-11-01 18:15
 
 r.taragikhah | manual_delete | User manually removed [Note: 404.8.10 | blocked 2025-10-18] | 2025-11-01 18:15
-
-bahman.tagizade | added | [Note: 404.8.10] | 2025-11-01 17:43
-
-bazdar | added | [Note: 404.8.10] | 2025-11-01 17:42
-
-s.khezri | added | [Note: 404.8.10] | 2025-11-01 12:06
 
 n.sahrayi | manual_change | Changes:
 - n.sahrayi #404.8.10 | blocked 2025-11-01
@@ -151,72 +145,6 @@ n.sahrayi | manual_delete | User manually removed [Note: 404.8.10 | blocked 2025
 nagizade | unblocked | [Note: 404.8.10 | blocked 2025-11-01] | 2025-11-01 11:05
 
 nagizade | manual_delete | User manually removed [Note: 404.8.10 | blocked 2025-11-01] | 2025-11-01 11:05
-
-jahanbakhsh | added | [Note: 404.8.10] | 2025-11-01 10:52
-
-rajabi | blocked | | blocked 2025-11-01 [Note: 404.6.30] | 2025-11-01 00:29
-
-rajabi | manual_delete | User manually removed [Note: 404.6.30] | 2025-11-01 00:29
-
-asiyabi | blocked | | blocked 2025-11-01 [Note: 404.6.24] | 2025-11-01 00:27
-
-asiyabi | manual_delete | User manually removed [Note: 404.6.24] | 2025-11-01 00:27
-
-bakhshalizade | blocked | | blocked 2025-11-01 [Note: 404.6.29] | 2025-11-01 00:26
-
-bakhshalizade | manual_delete | User manually removed [Note: 404.6.29] | 2025-11-01 00:26
-
-nagizade | blocked | | blocked 2025-11-01 [Note: 404.6.29] | 2025-11-01 00:26
-
-nagizade | manual_delete | User manually removed [Note: 404.6.29] | 2025-11-01 00:26
-
-customer1 | blocked | | blocked 2025-11-01 [Note: 404.6.27] | 2025-11-01 00:24
-
-customer1 | manual_delete | User manually removed [Note: 404.6.27] | 2025-11-01 00:24
-
-hatamkhani | blocked | | blocked 2025-11-01 [Note: 404.6.26] | 2025-11-01 00:23
-
-hatamkhani | manual_delete | User manually removed [Note: 404.6.26] | 2025-11-01 00:23
-
-sadegi | blocked | | blocked 2025-11-01 [Note: 404.6.26] | 2025-11-01 00:23
-
-sadegi | manual_delete | User manually removed [Note: 404.6.26] | 2025-11-01 00:23
-
-soltani | blocked | | blocked 2025-11-01 [Note: 404.6.25] | 2025-11-01 00:22
-
-soltani | manual_delete | User manually removed [Note: 404.6.25] | 2025-11-01 00:22
-
-shariatdust | blocked | | blocked 2025-11-01 [Note: 404.6.25] | 2025-11-01 00:21
-
-shariatdust | manual_delete | User manually removed [Note: 404.6.25] | 2025-11-01 00:21
-
-n.sahrayi | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:19
-
-n.sahrayi | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:19
-
-habibzade | blocked | | blocked 2025-11-01 [Note: 404.6.29] | 2025-11-01 00:18
-
-habibzade | manual_delete | User manually removed [Note: 404.6.29] | 2025-11-01 00:18
-
-alizade | blocked | | blocked 2025-11-01 [Note: 404.6.23] | 2025-11-01 00:17
-
-alizade | manual_delete | User manually removed [Note: 404.6.23] | 2025-11-01 00:17
-
-habibi | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:16
-
-habibi | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:16
-
-habibi1 | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:15
-
-habibi1 | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:15
-
-g.abedini | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:14
-
-g.abedini | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:14
-
-babayi | blocked | | blocked 2025-11-01 [Note: 404.6.22] | 2025-11-01 00:12
-
-babayi | manual_delete | User manually removed [Note: 404.6.22] | 2025-11-01 00:12
 
 molayi | unblocked | [Note: 404.8.8 | blocked 2025-10-24] | 2025-10-30 19:14
 
