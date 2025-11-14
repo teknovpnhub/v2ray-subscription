@@ -144,18 +144,18 @@ khani1 #404.7.16
 m.gorbani #404.7.15
 r.khani #404.7.15
 t.maaleki2 #404.7.15
-hamed.khani #404.7.15
-shokrzade #404.7.15
+hamed.khani ---b #404.7.15
+shokrzade ---b #404.7.15
 🚫h.mukhtari #404.6.4 | blocked 2025-10-07
 🚫gahramani #404.6.4 | blocked 2025-10-07
 🚫seyyedhoseyni #404.6.4 | blocked 2025-10-07
 🚫valizade #404.6.3 | blocked 2025-10-07
 🚫zamani #404.6.3 | blocked 2025-10-07
-customer2 #404.7.15
-esfandiyari #404.7.14
+customer2 ---b #404.7.15
+esfandiyari ---b #404.7.14
 peyman #404.7.13
-pakravan #404.7.13
-customer3 #404.7.13
+pakravan ---b #404.7.13
+customer3 ---b #404.7.13
 🚫gholami #404.6.1 | blocked 2025-10-04
 🚫hosseynzade #404.5.30 | blocked 2025-10-04
 🚫pashazade #404.5.30 | blocked 2025-10-04
@@ -169,7 +169,7 @@ customer3 #404.7.13
 🚫omarzade #404.5.20 | blocked 2025-09-27
 🚫josef #404.5.19 | blocked 2025-09-27
 🚫zafari #404.5.19 | blocked 2025-09-27
-habib.mojallal #404.7.3
+habib.mojallal ---b #404.7.3
 sohrab #404.6.30
 🚫javadi #404.5.18 | blocked 2025-09-20
 🚫s.khani #404.5.16 | blocked 2025-09-13
