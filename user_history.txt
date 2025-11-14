@@ -1,3 +1,55 @@
+hoseyni | blocked | | blocked 2025-11-15 [Note: 404.7.2] | 2025-11-15 02:13
+
+a.amini | blocked | | blocked 2025-11-15 [Note: 404.7.3] | 2025-11-15 02:13
+
+salmanzade1 | blocked | | blocked 2025-11-15 [Note: 404.7.3] | 2025-11-15 02:13
+
+s.ilati | blocked | | blocked 2025-11-15 [Note: 404.7.9] | 2025-11-15 02:13
+
+habibzade1 | blocked | | blocked 2025-11-15 [Note: 404.7.9] | 2025-11-15 02:13
+
+makarem | blocked | | blocked 2025-11-15 [Note: 404.7.10] | 2025-11-15 02:13
+
+dehgani | blocked | | blocked 2025-11-15 [Note: 404.7.12] | 2025-11-15 02:13
+
+khaledzade | blocked | | blocked 2025-11-15 [Note: 404.7.12] | 2025-11-15 02:13
+
+a.ahmadi | blocked | | blocked 2025-11-15 [Note: 404.7.12] | 2025-11-15 02:13
+
+narimani | blocked | | blocked 2025-11-15 [Note: 404.7.12] | 2025-11-15 02:13
+
+a.panahi | blocked | | blocked 2025-11-15 [Note: 404.7.12] | 2025-11-15 02:13
+
+moradi | blocked | | blocked 2025-11-15 [Note: 404.7.12] | 2025-11-15 02:13
+
+yusefi | blocked | | blocked 2025-11-15 [Note: 404.7.12] | 2025-11-15 02:13
+
+s.ilati | manual_delete | User manually removed [Note: 404.7.9] | 2025-11-15 02:13
+
+yusefi | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
+
+a.panahi | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
+
+moradi | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
+
+dehgani | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
+
+makarem | manual_delete | User manually removed [Note: 404.7.10] | 2025-11-15 02:13
+
+a.ahmadi | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
+
+khaledzade | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
+
+hoseyni | manual_delete | User manually removed [Note: 404.7.2] | 2025-11-15 02:13
+
+habibzade1 | manual_delete | User manually removed [Note: 404.7.9] | 2025-11-15 02:13
+
+a.amini | manual_delete | User manually removed [Note: 404.7.3] | 2025-11-15 02:13
+
+salmanzade1 | manual_delete | User manually removed [Note: 404.7.3] | 2025-11-15 02:13
+
+narimani | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
+
 sadegzade | added | [Note: 404.8.22] | 2025-11-13 12:48
 
 alireza.yasamani | added | [Note: 404.8.21] | 2025-11-12 19:19
@@ -104,35 +156,15 @@ customer1 | unblocked | [Note: 404.8.14 | blocked 2025-11-01] | 2025-11-05 17:14
 
 customer1 | manual_delete | User manually removed [Note: 404.8.14 | blocked 2025-11-01] | 2025-11-05 17:14
 
-ahad.nouri | added | [Note: 404.8.13] | 2025-11-04 19:11
-
-tohid.maaleki | added | [Note: 404.8.13] | 2025-11-04 17:19
-
 a.esmailzade | unblocked | [Note: 404.8.13 | blocked 2025-09-27] | 2025-11-04 10:45
 
 a.esmailzade | manual_delete | User manually removed [Note: 404.8.13 | blocked 2025-09-27] | 2025-11-04 10:45
 
-farnaz.khani | added | [Note: 404.8.12] | 2025-11-03 19:09
-
 h.soleymanzade | unblocked | via blocked_users.txt [Note: 404.7.26 | blocked 2025-10-22] | 2025-11-03 18:53
-
-golinezhad | added | [Note: 404.8.12] | 2025-11-03 13:24
 
 babayi | unblocked | via blocked_users.txt [Note: 404.6.22 | blocked 2025-11-01] | 2025-11-03 11:36
 
 habibzade | unblocked | via blocked_users.txt [Note: 404.6.29 | blocked 2025-11-01] | 2025-11-03 10:07
-
-nopantos | removed | User deleted [Note: 404.8.15] | 2025-11-03 02:01
-
-nopantos | manual_delete | User manually removed [Note: 404.8.15] | 2025-11-03 02:01
-
-nopantos | added | [Note: 404.8.15] | 2025-11-03 02:01
-
-customer6 | removed | User deleted [Note: 404.385] | 2025-11-03 02:00
-
-customer6 | manual_delete | User manually removed [Note: 404.385] | 2025-11-03 02:00
-
-customer6 | added |  | 2025-11-03 01:56
 
 r.taragikhah | unblocked | [Note: 404.8.10 | blocked 2025-10-18] | 2025-11-01 18:15
 
