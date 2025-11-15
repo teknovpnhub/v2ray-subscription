@@ -87,7 +87,7 @@ vless://1fcb692d-d35f-4295-bbc5-0512f51a3c41@104.18.26.90:2053?security=tls&sni=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@103.97.203.227:990#Server 87 🇮🇳
 vless://e4824193-4f54-453b-d037-88368e85ef0e@all.tellmethetrue.shop:443?security=tls&sni=pqh29v6.hiddendom.shop&alpn=h2&type=grpc&packetEncoding=xudp&encryption=none#Server 88 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@171.22.114.244:8880?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 89 🇫🇮
-trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http/1.1&fp=firefox&type=ws&path=/yamtekodasayahhh&host=kotlet.arshiacomplus.dpdns.org#Server 90 🇨🇦
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http/1.1&fp=firefox&type=ws&path=/yamtekodasayahhh&host=kotlet.arshiacomplus.dpdns.org#Server 90 🇺🇸
 vless://401374e6-df77-41fb-f638-dad8184f175b@45.82.251.249:80?security=none&type=grpc&packetEncoding=xudp&encryption=none#Server 91 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@38.54.2.182:990#Server 92 🇧🇭
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@188.214.157.58:990#Server 93 🇲🇦
@@ -109,7 +109,7 @@ trojan://trojan@www.visa.com.sg:8443?security=tls&type=tcp#Server 108 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@38.54.31.230:990#Server 109 🇻🇳
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@38.54.59.107:990#Server 110 🇪🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@134.255.210.49:990#Server 111 🇨🇾
-vless://b4bd0613-ff7c-4f2f-954d-185915e6ddad@cc.cybsecguru.com:443?security=tls&sni=jnir-cdn.jnir.my&fp=chrome&type=ws&path=/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed%3D2560&host=jnir-cdn.jnir.my&packetEncoding=xudp&encryption=none#Server 112 🇨🇦
+vless://b4bd0613-ff7c-4f2f-954d-185915e6ddad@cc.cybsecguru.com:443?security=tls&sni=jnir-cdn.jnir.my&fp=chrome&type=ws&path=/@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/?ed%3D2560&host=jnir-cdn.jnir.my&packetEncoding=xudp&encryption=none#Server 112 🇺🇸
 vless://e188a23f-f17a-4a61-8a48-aa83b3653f5d@104.26.6.89:2053?security=tls&sni=om4.omidsuccess.uk&fp=chrome&type=ws&path=/containers/de&host=om4.omidsuccess.uk&packetEncoding=xudp&encryption=none#Server 113 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@154.205.146.153:990#Server 114 🇧🇭
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@145.14.131.37:990#Server 115 🇨🇷
