@@ -1,3 +1,5 @@
+farshad.jabbari1 | added | [Note: 404.8.25] | 2025-11-16 17:13
+
 ahmadpur | added | [Note: 404.8.24] | 2025-11-15 18:43
 
 khodaverdizade | unblocked | [Note: 404.8.24 | blocked 2025-11-15] | 2025-11-15 18:07
@@ -249,8 +251,6 @@ jaber.golamzade | blocked | | blocked 2025-11-06 [Note: 404.8.15] | 2025-11-06 1
 jaber.golamzade | manual_delete | User manually removed [Note: 404.8.15] | 2025-11-06 11:34
 
 jaber.golamzade | added | [Note: 404.8.15] | 2025-11-06 11:18
-
-esmayil.hasani | added | [Note: 404.8.14] | 2025-11-05 18:31
 
 customer1 | unblocked | [Note: 404.8.14 | blocked 2025-11-01] | 2025-11-05 17:14
 
