@@ -1,3 +1,11 @@
+shokrzade | blocked | | blocked 2025-11-17 [Note: 404.8.24] | 2025-11-17 10:50
+
+narimani | blocked | | blocked 2025-11-17 [Note: 404.8.25] | 2025-11-17 10:50
+
+shokrzade | manual_delete | User manually removed [Note: 404.8.24] | 2025-11-17 10:50
+
+narimani | manual_delete | User manually removed [Note: 404.8.25] | 2025-11-17 10:50
+
 narimani | unblocked | [Note: 404.8.25 | blocked 2025-11-15] | 2025-11-16 18:39
 
 narimani | manual_delete | User manually removed [Note: 404.8.25 | blocked 2025-11-15] | 2025-11-16 18:39
@@ -244,17 +252,7 @@ mandulakani | manual_delete | User manually removed [Note: 404.6.31] | 2025-11-0
 
 b.hasanlou | manual_delete | User manually removed [Note: 404.6.31] | 2025-11-08 01:20
 
-rostam.soltani | added | [Note: 404.8.15] | 2025-11-06 18:37
-
-raha | added | [Note: 404.8.15] | 2025-11-06 17:38
-
 aragi | unblocked | via blocked_users.txt [Note: 404.6.2 | blocked 2025-10-07] | 2025-11-06 16:13
-
-jaber.golamzade | blocked | | blocked 2025-11-06 [Note: 404.8.15] | 2025-11-06 11:34
-
-jaber.golamzade | manual_delete | User manually removed [Note: 404.8.15] | 2025-11-06 11:34
-
-jaber.golamzade | added | [Note: 404.8.15] | 2025-11-06 11:18
 
 customer1 | unblocked | [Note: 404.8.14 | blocked 2025-11-01] | 2025-11-05 17:14
 
