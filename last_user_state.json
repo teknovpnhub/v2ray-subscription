@@ -1,8 +1,8 @@
 {
   "usernames": [
+    "shokrzade",
     "pakravan",
     "habib.mojallal",
-    "shokrzade",
     "narimani",
     "farshad.jabbari1",
     "ahmadpur",
@@ -242,9 +242,9 @@
     "vahid.behruz"
   ],
   "lines": {
+    "shokrzade": "shokrzade #404.8.24",
     "pakravan": "pakravan #404.8.26",
     "habib.mojallal": "habib.mojallal #404.8.26",
-    "shokrzade": "🚫shokrzade #404.8.24 | blocked 2025-11-17",
     "narimani": "🚫narimani #404.8.25 | blocked 2025-11-17",
     "farshad.jabbari1": "farshad.jabbari1 #404.8.25",
     "ahmadpur": "ahmadpur #404.8.24",
@@ -483,5 +483,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-11-17 12:01"
+  "timestamp": "2025-11-17 12:12"
 }
