@@ -49,7 +49,7 @@ trojan://tpCznR-P5%3DjZUb%23c@66.245.193.152:17126?security=tls&sni=ctaldikgfyw.
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.37.76:8880?encryption=none&security=none&type=grpc#Server 49 🇬🇧
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.232.247.61:8880?encryption=none&security=none&type=grpc#Server 50 🇫🇷
 vless://f1f6dd91-edb7-479d-8292-777645621d17@de2.aliusvpn.ru:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=chrome&pbk=cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg&sid=3f8ad1&type=tcp&headerType=none#Server 51 🇩🇪
-vless://TEL--JKVPN--JKVPN-10@numberland.ir:2095?encryption=none&security=none&type=ws&host=joKer.mEmBerGolaBi.IR&path=%2FTELEGRAM--BYA--CHANEL----%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN--%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN%3Fed%3D2048#Server 52 🇨🇦
+vless://TEL--JKVPN--JKVPN-10@numberland.ir:2095?encryption=none&security=none&type=ws&host=joKer.mEmBerGolaBi.IR&path=%2FTELEGRAM--BYA--CHANEL----%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN--%40JKVPN---%40JKVPN---%40JKVPN---%40JKVPN%3Fed%3D2048#Server 52 🇺🇸
 trojan://D3OJA7xY5U@209.200.246.53:10785?security=reality&sni=cloudflare.com&fp=chrome&pbk=Yj8X6ZHfj6UpI7-XxFpodTIoWKiZ5TYbNWj1LQqruCY&sid=20b09680&type=grpc#Server 53 🇨🇦
 vless://c495405a-41d7-429e-b999-94136197b211@104.21.7.162:2053?encryption=none&security=tls&sni=dashboard.app-browser.org&type=ws&host=dashboard.app-browser.org&path=%2FJ5aLQOY1R9ONWYCM#Server 54 🇺🇸
 vless://ff6609ee-5679-63ad-5aec-54ec0f6b21e6@108.61.23.77:8080?encryption=none&flow=xtls-rprx-vision&security=reality&sni=newtoninstitute.org&fp=chrome&pbk=05Hej5q_hrl9-Wtiu3L-hCGNPc9uIjkvCjNjtr6YwVk&sid=bf88e6e5395e83f3&type=tcp&headerType=none#Server 55 🇺🇸
@@ -59,7 +59,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@145.14.131.37:990#Server 59 🇨🇷
 vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#Server 60 🇺🇸
 vless://8250d638-45df-41fa-b06f-160d1cb1de0c@172.67.229.214:443?encryption=none&security=tls&sni=abc.vpneee.top&fp=chrome&type=ws&host=abc.vpneee.top&path=%2FYnqGMcAt%2F#Server 61 🇺🇸
-trojan://trojan@22b.net:2087?security=tls&type=tcp&headerType=none#Server 62 🇨🇦
+trojan://trojan@22b.net:2087?security=tls&type=tcp&headerType=none#Server 62 🇺🇸
 vless://b4bd0613-ff7c-4f2f-954d-185915e6ddad@www.speedtest.net:443?encryption=none&security=tls&sni=jnir-cdn.javidnaman.com&type=ws&host=jnir-cdn.javidnaman.com&path=%2F%40JavidnamanIran%2FJavid-SHAH-KingRezaPahlavi%2F%3Fed%3D2560#Server 63 🇺🇸
 trojan://bpb-trojan@104.21.30.195:443?security=tls&sni=403b3611-99BC-43B7-88D7-26eD5d0825a9-3.PagES.DEv&type=tcp&headerType=none#Server 64 🇺🇸
 vless://f3a0ce8c-d721-4bf7-8643-1c6c6a97f088@xg.kunlun01.com:18000?encryption=none&flow=xtls-rprx-vision&security=reality&sni=s0.awsstatic.com&fp=chrome&pbk=hlRqquCI6AiCSbifwaNIlf_fVoHols95S2A1OG8xnVk&type=tcp&headerType=none#Server 65 🇭🇰
@@ -100,7 +100,7 @@ vless://a54c3b5a-5f44-4411-8c1e-7bf52a567d7f@sk3.node.ibst.me:7079?encryption=no
 vless://ff6609ee-5679-63ad-5aec-54ec0f6b21e6@108.61.23.77:2021?encryption=none&security=reality&sni=edatastyle.com&fp=chrome&pbk=gU6_TdkhJLY2tA6DPRwiTsiMfyG4qBam5SBFN2qwPwc&sid=1145fc88fc6a7bff&type=grpc&authority=&serviceName=edatastyle.com&mode=gun#Server 100 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMR2JSdlJLUlJpVGRWN2FjT25kRVFP@92.118.112.101:9483#Server 101 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpabURyQnNLZnEzaWF1ZlBKNWw4Snds@62.133.60.60:7048#Server 102 🇩🇪
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#Server 103 🇺🇸
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#Server 103 🇨🇦
 vless://f3a0ce8c-d721-4bf7-8643-1c6c6a97f088@tg.kunlun01.com:18000?encryption=none&flow=xtls-rprx-vision&security=reality&sni=s0.awsstatic.com&fp=qq&pbk=hlRqquCI6AiCSbifwaNIlf_fVoHols95S2A1OG8xnVk&type=tcp&headerType=none#Server 104 🇹🇭
 trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127?security=tls&sni=www.nintendogames.net&type=tcp&headerType=none#Server 105 🇯🇵
 trojan://2274c52572e721086f8bd8f88984643c@160.16.124.55:5553?security=tls&sni=www.nintendogames.net&type=tcp&headerType=none#Server 106 🇯🇵
@@ -133,4 +133,11 @@ vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?security=encryptio
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXN1OVBNakt5NEtRQ1BBa2tCcTBL@89.185.84.185:443#Server 133 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MUM5Sk9IaUdrZnE2Yk4yOE5pZTJ4@89.185.84.185:443#Server 134 🇬🇧
 vless://87d1f4b2-83e7-4125-8d62-5d376871fd41@45.134.12.47:31203?security=reality&encryption=none&pbk=MXpFJJuYX39tM1aFHU6H2MT-zqD_GoVov4lhxy_W61o&type=tcp&flow=xtls-rprx-vision&sni=vless.ozone.rusi&alpn=http/1.1&fp=chrome&host=vless.ozone.rusi#Server 135 🇷🇺
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg@115.161.136.145:10099#Server 136 🇰🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSQ2VwMVVheWdYallFZEZTOWtPc20z@89.185.84.185:443#Server 136 🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRcXQxREZRRU12ajZvSjY5bjZ1ZjFa@89.185.84.185:443#Server 137 🇬🇧
+vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.169.122:443?security=encryptionnone&type=grpc#Server 138 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 139 🇳🇱
+vless://b4f3041b-e939-4c1a-8f1d-70e8369b25eb@185.213.240.86:4655?encryption=none&security=none&type=tcp&headerType=none#Server 140 🇩🇪
+vless://a6c4db3e-7785-429e-8bc5-9eaf7b1a79b1@45.8.146.207:80?encryption=none&security=none&type=ws&path=%2Fvless%2F#Server 141 🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDVlRlQnk1TmU5RDdYT2wxd3hRZWJq@89.185.84.185:443#Server 142 🇬🇧
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc01pV3B1cEdvYjhJb3VWd1lXNVdD@89.185.84.185:443#Server 143 🇬🇧
