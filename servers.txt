@@ -61,7 +61,7 @@ trojan://3r372@91.195.240.94:443?security=tls&sni=tj786.37927.online&type=tcp&he
 ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 61 🇨🇳
 trojan://NISHIKUITAN111@172.64.156.42:443?security=tls&sni=172.64.156.42&allowInsecure=1&type=tcp&headerType=none#Server 62 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.31.230:990#Server 63 🇻🇳
-trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 64 🇺🇸
+trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls&type=tcp&headerType=none#Server 64 🇨🇦
 vless://e188a23f-f17a-4a61-8a48-aa83b3653f5d@104.26.6.89:2053?encryption=none&security=tls&sni=om4.omidsuccess.uk&fp=chrome&type=ws&host=om4.omidsuccess.uk&path=%2Fcontainers%2Fde#Server 65 🇺🇸
 vless://2456f90c-5183-476d-b069-16ae74ce120f@154.197.121.253:2096?encryption=none&security=tls&sni=fast01.0860852.xyz&fp=chrome&allowInsecure=1&type=ws&host=fast01.0860852.xyz&path=%2F%3Fed%3D2560#Server 66 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 67 🇳🇱
