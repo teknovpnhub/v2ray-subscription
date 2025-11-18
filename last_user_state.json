@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "narimani",
     "yusefi",
     "nabizade",
     "makhani",
@@ -11,7 +12,6 @@
     "shokrzade",
     "pakravan",
     "habib.mojallal",
-    "narimani",
     "farshad.jabbari1",
     "ahmadpur",
     "khodaverdizade",
@@ -247,6 +247,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "narimani": "narimani #404.8.26",
     "yusefi": "yusefi #404.8.27",
     "nabizade": "nabizade #404.8.27",
     "makhani": "makhani #404.8.27",
@@ -258,7 +259,6 @@
     "shokrzade": "shokrzade #404.8.24",
     "pakravan": "pakravan #404.8.26",
     "habib.mojallal": "habib.mojallal #404.8.26",
-    "narimani": "🚫narimani #404.8.25 | blocked 2025-11-17",
     "farshad.jabbari1": "farshad.jabbari1 #404.8.25",
     "ahmadpur": "ahmadpur #404.8.24",
     "khodaverdizade": "khodaverdizade #404.8.24",
@@ -493,5 +493,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-11-18 17:51"
+  "timestamp": "2025-11-18 17:57"
 }
