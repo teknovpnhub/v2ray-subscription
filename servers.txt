@@ -1,3 +1,55 @@
+vmess://eyJhZGQiOiI1LjE5Ni4yOS4xMjMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IndybWVsbXd4bGYuZ2t0ZXZscnF6bndxcW96eS5mYWJwZnM2Nmdpem1ub2poY3ZxeHdsLmt5dHJjZnpxbGE4N2d2Z3ZzNmM3a2pucnVidWguY2MiLCJpZCI6IjExMmFjMzZmLTNmNTMtNGUyNi04MzcxLWQyNWMwMjhlMWI5YSIsImluc2VjdXJlIjoiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMjA4MiIsInBzIjoiQ2hhbm5lbCBpZDogQFNoYWRvd1Byb3h5NjYg8JHqCfh7ciIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+vless://cd48afea-c986-415e-9efa-79d48a9a509a@dubai.fonixapp.org:19146?security=reality&encryption=none&pbk=1l-JSuTfFd5Qa5QAzbY3Iowkk3RNq_EDMLFqPDpScBI&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=stackoverflow.com&sid=0014de#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%A6%F0%9F%87%AA
+vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?security=encryptionnone&type=grpc#Channel%20id%3A%20%40ShadowProxy66
+
+vless://08143875-7896-59bf-ade9-1d4a1dec0251@vp10.myphotomoments.ir:443?security=&encryption=none&headerType=&type=tcp#Channel%20id%3A%20%40ShadowProxy66%20
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@159.246.55.253:2096?path=%2F&security=tls&encryption=none&insecure=1&host=gaosir.unfeeling.sbs&type=ws&allowInsecure=1&sni=gaosir.unfeeling.sbs#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%BA%F0%9F%87%B8
+
+vless://f7140d34-dcc0-440c-bb51-bbd8ed7d8b11@paris.fonixapp.org:16607?security=reality&encryption=none&pbk=MIDSDaDAnyD3LPtHE8oLcGJjQP2Qj1RVJR853N1T924&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=expedia.com&sid=78#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%AB%F0%9F%87%B7
+
+vless://3c36eadb-747a-4166-8db0-23fec9883ea2@172.67.149.104:443?path=%2Fassets&security=tls&encryption=none&insecure=1&host=HarmonY-448.pages.DEV&type=ws&allowInsecure=1&sni=HarmonY-448.pages.DEV#Channel%20id%3A%20%40ShadowProxy66
+vless://2456f90c-5183-476d-b069-16ae74ce120f@198.202.211.253:2096?path=/Telegram%40ShadowProxy66&security=tls&encryption=none&insecure=1&host=fast01.0860852.xyz&type=ws&allowInsecure=1&sni=fast01.0860852.xyz#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%BA%F0%9F%87%B8
+vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.169.122:443?security=encryptionnone&type=grpc#Channel%20id%3A%20%40ShadowProxy66
+vmess://eyJhZGQiOiIxNDEuOTQuMTg3LjEzOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIxNTM4ZWZlNi00NDdjLTRmMjQtZGM5Ni0zMDg4MzE2NGQyZTgiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjEwMDgwIiwicHMiOiJDaGFubmVsIGlkOiBAU2hhZG93UHJveHk2NiDwn4er8JHtyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+
+vless://c27bdfe9-929c-45cd-a917-aa47dae1cff7@172.67.166.211:443?path=%2FeyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D&security=tls&encryption=none&insecure=1&host=soft98m.dpdns.org&type=ws&allowInsecure=1&sni=soft98m.dPdNS.OrG#Channel%20id%3A%20%40ShadowProxy66
+
+
+vless://c6d299d4-db0b-4444-8b56-b23bbdcbcd67@172.64.81.153:443?path=/assets&security=tls&encryption=none&insecure=1&host=Di-ana.pagES.DEV&type=ws&allowInsecure=1&sni=Di-ana.pagES.DEV#Channel%20id%3A%20%40ShadowProxy66
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@85.209.153.82:8880?security=&encryption=none&type=grpc#Channel%20id%3A%20%40ShadowProxy66
+vless://1d83ca4e-9708-4338-b177-403aa258488b@facelessvoid.fonixapp.org:22155?security=reality&encryption=none&pbk=DWplnF7h0HInlj88rSKUTwBti6hH_yFhxEtX3TKZn08&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=9ec128#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%A9%F0%9F%87%AA
+vless://1bd7dd56-94c5-4e30-8d99-e1e40e1b84fa@tidehunter.fonixapp.org:54376?security=reality&encryption=none&pbk=fNizRKQ3b7EsnXk0-aX1XyXM-kdNq6aoYWsOMRxG6Ug&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=smallpdf.com&sid=1f86#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%A9%F0%9F%87%AA
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@172.22.114.132:8880?security=encryptionnone&type=grpc#Channel%20id%3A%20%40ShadowProxy66
+vless://11922402-df9e-4ead-ab6b-56c9b7362837@helsinki.fonixapp.org:21105?security=reality&encryption=none&pbk=hvS624nh8B_UqRPXM_Fm2eMgJk6BSNBFmK82vRHylHw&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=lowes.com&sid=9e7234a45944#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%AB%F0%9F%87%AE
+vless://87d1f4b2-83e7-4125-8d62-5d376871fd41@45.134.12.47:31203?security=reality&encryption=none&pbk=MXpFJJuYX39tM1aFHU6H2MT-zqD_GoVov4lhxy_W61o&type=tcp&flow=xtls-rprx-vision&sni=vless.ozone.rusi&alpn=http/1.1&fp=chrome&host=vless.ozone.rusi#Channel%20id%3A%20%40ShadowProxy66
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@89.221.224.225:8880?security=&encryption=none&type=grpc#Channel%20id%3A%20%40ShadowProxy66
+
+vless://5f582e26-5f10-4f0f-b221-4e8b751f137f@104.192.227.162:443?security=tls&encryption=none&type=grpc#Channel%20id%3A%20%40ShadowProxy66
+vless://e4824193-4f54-453b-d037-88368e85ef0e@104.21.86.253:443?security=tls&encryption=none&insecure=1&type=grpc&allowInsecure=1&sni=pqh27v1.carwashipdir.shop#Channel%20id%3A%20@ShadowProxy66
+
+vless://ac51ad36-5052-460a-842a-e13455d30cb8@141.101.114.197:2083?path=/assets&security=tls&encryption=none&insecure=1&host=RR-FF.pages.DEV&type=ws&allowInsecure=1&sni=RR-FF.pages.DEV#Channel%20id%3A%20@ShadowProxy66
+vless://55fdba7f-8ae4-47f3-ad23-86b25c049b0d@172.67.136.244:2053?path=/Telegram@ShadowProxy66&security=tls&encryption=none&insecure=1&host=vless.muzheng.top&type=ws&allowInsecure=1&sni=vless.muzheng.top#Channel%20id%3A%20@ShadowProxy66
+vless://55fdba7f-8ae4-47f3-ad23-86b25c049b0d@104.19.96.119:2053?path=/Telegram@ShadowProxy66&security=tls&encryption=none&insecure=1&host=vless.muzheng.top&type=ws&allowInsecure=1&sni=vless.muzheng.top#Channel%20id%3A%20@ShadowProxy66
+vless://df0680ca-e43c-498d-ed86-8e196eedd012@54.184.195.96:36143?security=&encryption=none&type=grpc#Channel%20id%3A%20%40ShadowProxy66
+vless://7556317c-dff6-46e8-ad29-b408f2a6456e@190.93.244.253:2096?path=/Telegram@ShadowProxy66&security=tls&encryption=none&insecure=1&host=vless.muzheng.top&type=ws&allowInsecure=1&sni=vless.muzheng.top#Channel%20id%3A%20@ShadowProxy66
+trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@160.16.131.243:1334?security=tls&insecure=1&headerType=&type=tcp&allowInsecure=1&sni=www.nintendogames.net#Channel%20id%3A%20%40ShadowProxy66%20
+trojan://BxceQaOe@219.79.165.55:443?security=tls&insecure=1&headerType=&type=tcp&allowInsecure=1&sni=t.me2Fripaojiedian#Channel%20id%3A%20%40ShadowProxy66
+
+vless://3c0e49cb-8940-561a-83b8-1efbb17f7cf7@5.253.41.233:443?security=reality&encryption=none&pbk=InGeZG9b5-uRQkHJpQWM37XRVFUyn5zYzx8UfhqrHGM&headerType=fp-chrome&type=tcp&flow=xtls-rprx-vision&sni=vk.cc&sid=736b98f2#Channel%20id%3A%20%40ShadowProxy66
+vless://904f8ffa-4652-4076-8f2f-e586807840ec@172.111.146.64:80?path=/vless/&security=none&encryption=none&type=ws#Channel%20id%3A%20%40ShadowProxy66
+
+vmess://eyJhZGQiOiI0Ny4yMzguNzEuMTY2IiwicG9ydCI6IjM3MjEiLCJpZCI6IjBiM2RhNmUwLTJhNDEtNDllNC04YmVlLWNmYTcwNWQ0NDhmYyIsImFpZCI6IjAiLCJubmV0Ijoid3MiLCJ0eXBlIjoid3MiLCJwYXRoIjoiIiwiaG9zdCI6IiIsInNuaSI6IiIsInRscyI6IjEiLCJzY3kiOiJhdXRvIiwidHlwZSI6Im5vbmUiLCJhbHBuIjoiIiwibmV0IjoiIiwicHMiOiJDaGFubmVsIGlkOiBAU2hhZG93UHJveHk2NiJ9
+vless://a089b99e-734b-4c5c-b749-8a7242b7970a@abaddon.fonixapp.org:50621?security=reality&encryption=none&pbk=IwbPnmOaIGCZcvIXPQSqE3zX1duqqJhzWq7G2QNlr3s&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=steampowered.com&sid=6d3e7476fd#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%B8%F0%9F%87%AA
+vless://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443?security=reality&encryption=none&pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&headerType=&fp=chrome&type=tcp&sni=www.microsoft.com&sid=3471fa2412678660#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%A9%F0%9F%87%AA
+vmess://eyJhZGQiOiIxODUuMTQ2LjE3My4yNSIsInBvcnQiOiI4MCIsImlkIjoiZWQxYjU3NDMtMzg5Yi00OGEyLThkNjAtMzc5MGVkZWQ3Y2E2IiwiaWQiOiJlZDFiNTc0My0zODliLTQ4YTItOGQ2MC0zNzkwZWRlZDdjYTYiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicHMiOiJDaGFubmVsIGlkOiBAU2hhZG93UHJveHk2NiIsImFpZCI6IjAiLCJhbHBuIjoiIiwicHciOiIiLCJob3N0IjoiIiwidHlwZSI6IndzIiwidGxzIjoiIiwic25pIjoiIiwidmVyIjoiMiJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRDFnMTBiajRIY0VBZE1mU2pUcDExQjBXOGxP@185.126.237.38:990#Channel%20id%3A%20@ShadowProxy66
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@136.244.100.113:443#Channel%20id%3A%20%40ShadowProxy66
+vmess://eyJhZGQiOiI4LjIxNy4yMS4yMzciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMjQ4YjcxNTEtZTk0MC00YTY4LWI3MzQtZTIwNmIwZmExZDlhIiwiaW5zZWN1cmUiOiIxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Fya2kiLCJwb3J0IjoiMjY5OTgiLCJwcyI6IkNoYW5uZWwgaWQ6IEBTaGFkb3dQcm94eTY2Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiI4LjIxMC4xMzQuMTgzIiwgInBvcnQiOiIzNzIxIiwgImlkIjoiZTcyZjVjNmItMjIwZi00MGIzLWEuMTE1LTJkODE0NzM0NThjZiIsImluc2VjdXJlIjoiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJzY3kiOiJhdXRvIiwicHMiOiJDaGFubmVsIGlkOiBAU2hhZG93UHJveHk2NiIsImFpZCI6IjAiLCJhbHBuIjoiIiwgImZwIjoiIiwi aG9zdCI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
+
+
+
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.89:8880?encryption=none&security=none&type=grpc#Server 1 🇹🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.181:8880?encryption=none&security=none&type=grpc#Server 2 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@195.42.233.105:8880?encryption=none&security=none&type=grpc#Server 3 🇫🇷
