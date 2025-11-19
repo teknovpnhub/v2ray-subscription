@@ -28,7 +28,7 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@86.104.74.73:8880?encryption=none&s
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.153.183.185:8880?encryption=none&security=none&type=grpc#Server 28 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@146.19.230.250:8880?encryption=none&security=none&type=grpc#Server 29 🇬🇧
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.89.111.80:8880?encryption=none&security=none&type=grpc#Server 30 🇬🇧
-trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 31 🇨🇦
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&sni=kotlet.arshiacomplus.dpdns.org&alpn=http%2F1.1&fp=firefox&type=ws&host=kotlet.arshiacomplus.dpdns.org&path=%2Fyamtekodasayahhh#Server 31 🇺🇸
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.231.205.191:8880?encryption=none&security=none&fp=chrome&type=grpc#Server 32 🇫🇷
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.18.181:8880?encryption=none&security=none&type=grpc#Server 33 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.178:8080#Server 34 🇳🇱
@@ -85,7 +85,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTWHNZTVhTckpscVk2SDI5U0ZncWFm@194.87.216.218
 vless://a54c3b5a-5f44-4411-8c1e-7bf52a567d7f@sk3.node.ibst.me:7079?encryption=none&security=none&type=tcp&headerType=none#Server 85 🇸🇰
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMR2JSdlJLUlJpVGRWN2FjT25kRVFP@92.118.112.101:9483#Server 86 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpabURyQnNLZnEzaWF1ZlBKNWw4Snds@62.133.60.60:7048#Server 87 🇩🇪
-vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#Server 88 🇨🇦
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@ovhwuxian.pai50288.uk:8443?encryption=none&security=tls&sni=ovhwuxian.pai50288.uk&fp=chrome&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1#Server 88 🇺🇸
 vless://f3a0ce8c-d721-4bf7-8643-1c6c6a97f088@tg.kunlun01.com:18000?encryption=none&flow=xtls-rprx-vision&security=reality&sni=s0.awsstatic.com&fp=qq&pbk=hlRqquCI6AiCSbifwaNIlf_fVoHols95S2A1OG8xnVk&type=tcp&headerType=none#Server 89 🇹🇭
 trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127?security=tls&sni=www.nintendogames.net&type=tcp&headerType=none#Server 90 🇯🇵
 trojan://2274c52572e721086f8bd8f88984643c@160.16.124.55:5553?security=tls&sni=www.nintendogames.net&type=tcp&headerType=none#Server 91 🇯🇵
