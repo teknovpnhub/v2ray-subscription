@@ -120,4 +120,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRcXQxREZRRU12ajZvSjY5bjZ1ZjFa@89.185.84.185:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWGpNUUllbTB1U2hHdlJ6T3BmeWli@89.185.84.185:443#Server 120 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowNmlFaG1JQ3VOMFBLblJtZGNJY3ds@89.185.84.185:443#Server 121 🇬🇧
 vless://eea14931-e72a-47c8-bc00-68069729e91a@62.60.149.108:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=st.ozone.ru&fp=chrome&pbk=LR_lcmXBa0mcl4EBhsk52JrEbOjgh9zaxpqiuR2UiW8&sid=0e4ac0d87e3977e3&type=tcp&headerType=none#Server 122 🇸🇪
-vless://6967a7f2-e8a7-497e-f72e-c989e9f896d7@91.98.169.122:443?security=encryptionnone&type=grpc#Server 123 🇩🇪
+vless://281f347e-5bfa-4293-a1fa-b511efa89707@game.jalasanje.ir:8082?encryption=none&security=none&type=tcp&headerType=http&host=Join-----------_------_T#Server 123 🇦🇲
+vless://281f347e-5bfa-4293-a1fa-b511efa89707@game.jalasanje.ir:8082?encryption=none&security=none&type=tcp&headerType=http&host=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET#Server 124 🇦🇲
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@38.244.136.233:443#Server 125 🇫🇮
