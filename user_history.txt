@@ -1,3 +1,7 @@
+masumi1 | unblocked | [Note: 404.8.29 | blocked 2025-11-15] | 2025-11-20 17:32
+
+masumi1 | manual_delete | User manually removed [Note: 404.8.29 | blocked 2025-11-15] | 2025-11-20 17:32
+
 amirhossein.amini | unblocked | [Note: 404.8.28] | 2025-11-19 19:15
 
 amirhossein.amini | manual_delete | User manually removed [Note: 404.8.28] | 2025-11-19 19:15
@@ -231,12 +235,6 @@ simin | added | [Note: 404.8.20] | 2025-11-11 11:44
 b.hasanlou | unblocked | via blocked_users.txt [Note: 404.6.31 | blocked 2025-11-08] | 2025-11-10 20:00
 
 h.novin | unblocked | via blocked_users.txt [Note: 404.4.17 | blocked 2025-08-17] | 2025-11-10 17:45
-
-kazemi | manual_change | Changes:
-- kazemi #404.8.18
-+ kazemi #404.8.18.
-?                 +
- [Note: 404.8.18.] | 2025-11-09 18:17
 
 kazemi | unblocked | via blocked_users.txt [Note: 404.7.1 | blocked 2025-11-08] | 2025-11-09 18:15
 
