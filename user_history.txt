@@ -1,3 +1,39 @@
+khani | blocked | | blocked 2025-11-23 [Note: 404.7.20] | 2025-11-23 23:09
+
+m.fathi | blocked | | blocked 2025-11-23 [Note: 404.7.20] | 2025-11-23 23:09
+
+m.alizade | blocked | | blocked 2025-11-23 [Note: 404.7.21] | 2025-11-23 23:09
+
+nazanin.zahra | blocked | | blocked 2025-11-23 [Note: 404.7.21] | 2025-11-23 23:09
+
+ansarifard | blocked | | blocked 2025-11-23 [Note: 404.7.21] | 2025-11-23 23:09
+
+t.seddigi | blocked | | blocked 2025-11-23 [Note: 404.7.22] | 2025-11-23 23:09
+
+ujagi | blocked | | blocked 2025-11-23 [Note: 404.7.22] | 2025-11-23 23:09
+
+f.jafari | blocked | | blocked 2025-11-23 [Note: 404.7.22] | 2025-11-23 23:09
+
+farshad.jabbari | blocked | | blocked 2025-11-23 [Note: 404.7.19] | 2025-11-23 23:09
+
+m.alizade | manual_delete | User manually removed [Note: 404.7.21] | 2025-11-23 23:09
+
+f.jafari | manual_delete | User manually removed [Note: 404.7.22] | 2025-11-23 23:09
+
+nazanin.zahra | manual_delete | User manually removed [Note: 404.7.21] | 2025-11-23 23:09
+
+khani | manual_delete | User manually removed [Note: 404.7.20] | 2025-11-23 23:09
+
+t.seddigi | manual_delete | User manually removed [Note: 404.7.22] | 2025-11-23 23:09
+
+farshad.jabbari | manual_delete | User manually removed [Note: 404.7.19] | 2025-11-23 23:09
+
+m.fathi | manual_delete | User manually removed [Note: 404.7.20] | 2025-11-23 23:09
+
+ansarifard | manual_delete | User manually removed [Note: 404.7.21] | 2025-11-23 23:09
+
+ujagi | manual_delete | User manually removed [Note: 404.7.22] | 2025-11-23 23:09
+
 mokhtar.abbaszade | added | [Note: 404.9.2] | 2025-11-23 19:11
 
 mehdizade2 | added | [Note: 404.9.1] | 2025-11-22 19:50
