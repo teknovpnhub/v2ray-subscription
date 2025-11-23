@@ -145,7 +145,7 @@ yashar.valizade #404.7.29
 ehsan.alizade #404.7.29
 s.mamasi #404.7.27
 customer4 #404.7.26
-farshad.jabbari #404.7.19
+farshad.jabbari  ---b #404.7.19
 abedi #404.7.26
 ruyin #404.7.26
 🚫golizade #404.6.16 | blocked 2025-10-18
@@ -155,14 +155,14 @@ ruyin #404.7.26
 🚫m.mafi #404.6.11 | blocked 2025-10-18
 z.pourmohammad #404.7.24
 m.masumi #404.7.24
-f.jafari #404.7.22
-ujagi #404.7.22
-t.seddigi #404.7.22
-ansarifard #404.7.21
-nazanin.zahra #404.7.21
-m.alizade #404.7.21
-m.fathi #404.7.20
-khani #404.7.20
+f.jafari  ---b #404.7.22
+ujagi  ---b #404.7.22
+t.seddigi  ---b #404.7.22
+ansarifard  ---b #404.7.21
+nazanin.zahra  ---b #404.7.21
+m.alizade  ---b #404.7.21
+m.fathi ---b #404.7.20
+khani ---b #404.7.20
 🚫m.mohammadi1 #404.6.10 | blocked 2025-10-11
 🚫soltanzade1 #404.6.9 | blocked 2025-10-11
 🚫farajzade #404.6.9 | blocked 2025-10-11
