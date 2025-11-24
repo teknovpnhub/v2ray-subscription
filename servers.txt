@@ -50,12 +50,12 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg==@115.161.136.145:10099#Server 49 �
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@153.121.76.9:4054?security=tls&sni=www.nintendogames.net#Server 50 🇯🇵
 vless://Warpi-Free-Vpn-In-GooglePlay@www.speedtest.net:80?encryption=none&type=xhttp&host=vp14.mydatacloud1.ir&path=/@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree&mode=auto&packetEncoding=xudp#Server 51 🇺🇸
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@160.16.89.176:702?security=tls&sni=www.nintendogames.net#Server 52 🇯🇵
-trojan://trojan@22b.net:2087?security=tls#Server 53 🇺🇸
+trojan://trojan@22b.net:2087?security=tls#Server 53 🇨🇦
 vless://049718fd-5893-4717-a993-b503cd420d27@64.176.72.203:44835?encryption=none&security=tls&sni=cloudflare.com&fp=chrome&pbk=KPOqOkSMDx5b4XxkZRUALy8oh64YOL0ov0pdDe81uT4&sid=6bc940&type=xhttp&path=/&mode=auto&packetEncoding=xudp#Server 54 🇵🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@38.54.31.230:990#Server 55 🇻🇳
 vless://c9d87264-842b-468c-ed87-0e3d81185af3@151.101.3.8:80?encryption=none&type=xhttp&host=Mahsazxshop.org&path=/@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam&mode=auto&packetEncoding=xudp#Server 56 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 57 🇳🇱
-trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls#Server 58 🇨🇦
+trojan://trojan@tm-azarbayjab1.1.workers.dev:443?security=tls#Server 58 🇺🇸
 vless://9e460075-dcb2-504a-b3d9-aab5c3095442@185.140.14.166:8443?encryption=none&security=tls&sni=www.microsoft.com&fp=chrome&pbk=qdcM4h1uoHcpGw_QnU99NnUXgcjDFyoE-E1_Ili3Xgo&sid=3471fa2412678660&packetEncoding=xudp#Server 59 🇩🇪
 vless://1ab0cee7-7ac1-4480-be8a-6b4dab5f81c4@dkfdbnodbd.fastlynew.hosting-ip.com:80?encryption=none&type=xhttp&host=freefree1213.global.ssl.fastly.net&path=/&mode=auto&packetEncoding=xudp#Server 60 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5bzZoOXFraHd6OFVKb1RaQ1J0b1Np@78.40.116.178:34094#Server 61 🇸🇪
@@ -101,3 +101,7 @@ vless://4e5a0939-483c-4571-a1b1-fccbfe053923@usa82.freednet.org:443?security=rea
 vless://da040e80-8704-4393-8720-5527637a8d6d@ges.jykvpn.com:443?security=reality&encryption=none&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&host=cdnjs.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdnjs.com&sid=4c02bbbfa833b3b6#Server 101 🇩🇪
 ss://YWVzLTEyOC1nY206MTAwODY@153.121.51.214:10087#Server 102 🇯🇵
 vless://00f354d5-86ae-43dc-8b63-47006b9139da@144.31.2.110:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=w27.hipay.su&fp=random&pbk=mREHJwPXMlk_eRLeRs4VxEwEokwPMRljqRhzc1YodVM&sid=85af9a68e245a08b&packetEncoding=xudp#Server 103 🇵🇱
+vless://da040e80-8704-4393-8720-5527637a8d6d@frs.jykvpn.com:443?security=reality&encryption=none&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&host=cdnjs.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=cdnjs.com&sid=4c02bbbfa833b3b6#Server 104 🇩🇪
+vless://eea14931-e72a-47c8-bc00-68069729e91a@62.60.149.108:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=st.ozone.ru&fp=chrome&pbk=LR_lcmXBa0mcl4EBhsk52JrEbOjgh9zaxpqiuR2UiW8&sid=0e4ac0d87e3977e3&packetEncoding=xudp#Server 105 🇸🇪
+vless://eea14931-e72a-47c8-bc00-68069729e91a@62.60.149.108:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=st.ozone.ru&fp=chrome&pbk=LR_lcmXBa0mcl4EBhsk52JrEbOjgh9zaxpqiuR2UiW8&sid=0e4ac0d87e3977e3&type=tcp&headerType=none#Server 106 🇸🇪
+vless://e4b8df56-b680-4a34-ab47-5bf5738ed718@5.181.21.72:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.google.com&fp=chrome&pbk=v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8&sid=85225c27630d023f&packetEncoding=xudp#Server 107 🇩🇪
