@@ -1,3 +1,5 @@
+ansarifard | unblocked | via blocked_users.txt [Note: 404.7.21 | blocked 2025-11-23] | 2025-11-25 17:22
+
 khani | blocked | | blocked 2025-11-23 [Note: 404.7.20] | 2025-11-23 23:09
 
 m.fathi | blocked | | blocked 2025-11-23 [Note: 404.7.20] | 2025-11-23 23:09
@@ -289,8 +291,6 @@ a.amini | manual_delete | User manually removed [Note: 404.7.3] | 2025-11-15 02:
 salmanzade1 | manual_delete | User manually removed [Note: 404.7.3] | 2025-11-15 02:13
 
 narimani | manual_delete | User manually removed [Note: 404.7.12] | 2025-11-15 02:13
-
-sadegzade | added | [Note: 404.8.22] | 2025-11-13 12:48
 
 habibi1 | unblocked | via blocked_users.txt [Note: 404.6.22 | blocked 2025-11-01] | 2025-11-12 18:37
 

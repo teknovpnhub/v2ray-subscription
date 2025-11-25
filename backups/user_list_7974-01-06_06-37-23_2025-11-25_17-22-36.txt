@@ -1,4 +1,3 @@
-ansarifard #404.9.6
 🚫m.alizade #404.7.21 | blocked 2025-11-23
 🚫f.jafari #404.7.22 | blocked 2025-11-23
 🚫nazanin.zahra #404.7.21 | blocked 2025-11-23
@@ -6,6 +5,7 @@ ansarifard #404.9.6
 🚫t.seddigi #404.7.22 | blocked 2025-11-23
 🚫farshad.jabbari #404.7.19 | blocked 2025-11-23
 🚫m.fathi #404.7.20 | blocked 2025-11-23
+🚫ansarifard #404.7.21 | blocked 2025-11-23
 🚫ujagi #404.7.22 | blocked 2025-11-23
 mokhtar.abbaszade #404.9.2
 mehdizade2 #404.9.1
