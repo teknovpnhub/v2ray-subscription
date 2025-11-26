@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "rahmanzade",
     "ansarifard",
     "m.alizade",
     "f.jafari",
@@ -255,7 +256,8 @@
     "vahid.behruz"
   ],
   "lines": {
-    "ansarifard": "ansarifard #404.9.6",
+    "rahmanzade": "rahmanzade #404.9.5",
+    "ansarifard": "ansarifard #404.9.4",
     "m.alizade": "🚫m.alizade #404.7.21 | blocked 2025-11-23",
     "f.jafari": "🚫f.jafari #404.7.22 | blocked 2025-11-23",
     "nazanin.zahra": "🚫nazanin.zahra #404.7.21 | blocked 2025-11-23",
@@ -509,5 +511,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-11-26 10:50"
+  "timestamp": "2025-11-26 11:10"
 }
