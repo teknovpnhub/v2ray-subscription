@@ -1,5 +1,5 @@
 trojan://pHEiSqez.13%236bctokYl@217.170.194.223:24591?security=tls&sni=bldgmy.nejzftlubrig.click#Server 1 🇳🇴
-vless://29abfc56-28a2-4c7e-8082-39e301a2e685@autos.jykvpn.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&sid=c2a0b2d60a7fc300&packetEncoding=xudp#Server 2 🇩🇪
+vless://29abfc56-28a2-4c7e-8082-39e301a2e685@autos.jykvpn.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&sid=c2a0b2d60a7fc300&packetEncoding=xudp#Server 2 🇫🇮
 vless://7c63f43f-f526-49bb-b5c8-2be26e11ef00@83.136.211.252:443?encryption=none&security=tls&sni=statue.lnmarketplace.net&alpn=h2&fp=chrome&type=xhttp&host=statue.lnmarketplace.net&path=/statue&mode=stream-one&extra=%7B'headers': %7B%7D, 'noGRPCHeader': True, 'xmux': %7B'maxConnections': '8'%7D%7D&packetEncoding=xudp#Server 3 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.191:8080#Server 4 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#Server 5 🇳🇱
@@ -73,10 +73,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@71.19.148.143:
 vless://4547275f-bb40-4b8b-b581-bd619459ae6d@193.46.81.151:50853?encryption=none&security=tls&sni=miro.com&fp=chrome&pbk=XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs&sid=69&packetEncoding=xudp#Server 73 🇩🇪
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?encryption=none&type=grpc&packetEncoding=xudp#Server 74 🇩🇪
 trojan://eDHWaPzxcl@145.223.70.115:25365?security=tls&sni=cloudflare.com&allowInsecure=true&fp=chrome&pbk=YaP997bVbPWOkNwZ-aKWVNHSdzQkZLzhTGjVRVC1u3I&sid=d9&type=grpc#Server 75 🇫🇷
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@137.74.53.176:35789?encryption=none&packetEncoding=xudp#Server 76 🇫🇷
-vless://405ec164-7923-4d76-8be5-7ae96e444f4e@62.60.246.188:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=web.max.ru&fp=chrome&pbk=o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0&sid=6104c5e9613ea56c&packetEncoding=xudp#Server 77 🇩🇪
-vless://6d8d8b48-6c77-45a7-bc9a-afaed748e781@74.119.193.40:443?encryption=none&security=tls&sni=zula.ir&allowInsecure=true&fp=chrome&type=ws&path=/ws&packetEncoding=xudp#Server 78 🇭🇰
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#Server 79 🇳🇱
-vless://40d7798a-6c76-4298-a9d4-9e6181cd2dd7@45.136.125.214:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.cybo.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&sid=&packetEncoding=xudp#Server 80 🇳🇱
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 81 🇳🇱
-vless://40d7798a-6c76-4298-a9d4-9e6181cd2dd7@nld26.luckernld.org:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.cybo.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&sid=&packetEncoding=xudp#Server 82 🇳🇱
+vless://6d8d8b48-6c77-45a7-bc9a-afaed748e781@74.119.193.40:443?encryption=none&security=tls&sni=zula.ir&allowInsecure=true&fp=chrome&type=ws&path=/ws&packetEncoding=xudp#Server 76 🇭🇰
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#Server 77 🇳🇱
+vless://40d7798a-6c76-4298-a9d4-9e6181cd2dd7@45.136.125.214:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.cybo.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&sid=&packetEncoding=xudp#Server 78 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 79 🇳🇱
