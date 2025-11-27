@@ -1,3 +1,5 @@
+kimiya | added | [Note: 404.9.6] | 2025-11-27 13:00
+
 customer6 | added |  | 2025-11-26 19:43
 
 mortaza.kazemi | added | [Note: 404.9.5] | 2025-11-26 18:05
@@ -151,8 +153,6 @@ narimani | manual_delete | User manually removed [Note: 404.8.25] | 2025-11-17 1
 narimani | unblocked | [Note: 404.8.25 | blocked 2025-11-15] | 2025-11-16 18:39
 
 narimani | manual_delete | User manually removed [Note: 404.8.25 | blocked 2025-11-15] | 2025-11-16 18:39
-
-farshad.jabbari1 | added | [Note: 404.8.25] | 2025-11-16 17:13
 
 khodaverdizade | unblocked | [Note: 404.8.24 | blocked 2025-11-15] | 2025-11-15 18:07
 
