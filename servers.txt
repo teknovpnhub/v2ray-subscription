@@ -1,3 +1,7 @@
+vless://005a5104-82c5-4a6b-b023-6e621ec9071d@95.164.45.122:50268?type=tcp&amp;amp;amp;encryption=none#👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:39.26ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.141:8080#👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Amsterdam (Amsterdam-Noord)🅿️ping:29.03ms
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.202:8080#👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️London🅿️ping:29.48ms
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#👉🆔@v2ray_configs_pool📡🇨🇳®️China©️Guangzhou🅿️ping:262.79ms
 trojan://pHEiSqez.13%236bctokYl@217.170.194.223:24591?security=tls&sni=bldgmy.nejzftlubrig.click#Server 1 🇳🇴
 vless://29abfc56-28a2-4c7e-8082-39e301a2e685@autos.jykvpn.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&sid=c2a0b2d60a7fc300&packetEncoding=xudp#Server 2 🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.191:8080#Server 3 🇳🇱
