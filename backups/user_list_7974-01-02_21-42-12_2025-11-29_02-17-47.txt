@@ -1,15 +1,3 @@
-🚫abedi #404.7.26 | blocked 2025-11-29
-🚫customer4 #404.7.26 | blocked 2025-11-29
-🚫ebadi #404.8.1 | blocked 2025-11-29
-🚫m.masumi #404.7.24 | blocked 2025-11-29
-🚫s.mamasi #404.7.27 | blocked 2025-11-29
-🚫ruyin #404.7.26 | blocked 2025-11-29
-🚫g.kazemi #404.8.1 | blocked 2025-11-29
-🚫yashar.valizade #404.7.29 | blocked 2025-11-29
-🚫z.pourmohammad #404.7.24 | blocked 2025-11-29
-🚫ehsan.alizade #404.7.29 | blocked 2025-11-29
-🚫masumi #404.7.30 | blocked 2025-11-29
-🚫khalilzade #404.8.1 | blocked 2025-11-29
 khaled.jahangiri #404.9.6
 kimiya1 #404.9.6
 kimiya #404.9.6
@@ -167,11 +155,23 @@ salamzade #404.8.3
 🚫golizade1 #404.6.18 | blocked 2025-10-24
 🚫gorbannezhad #404.6.18 | blocked 2025-10-24
 🚫khosrotamar #404.6.17 | blocked 2025-10-24
+g.kazemi ---b #404.8.1
+khalilzade ---b #404.8.1
+ebadi ---b #404.8.1
+masumi ---b #404.7.30
+yashar.valizade ---b #404.7.29
+ehsan.alizade ---b #404.7.29
+s.mamasi ---b #404.7.27
+customer4 ---b #404.7.26
+abedi ---b #404.7.26
+ruyin ---b #404.7.26
 🚫golizade #404.6.16 | blocked 2025-10-18
 🚫afsari #404.6.15 | blocked 2025-10-18
 🚫ebrahimzade1 #404.6.13 | blocked 2025-10-18
 🚫alrostam #404.6.12 | blocked 2025-10-18
 🚫m.mafi #404.6.11 | blocked 2025-10-18
+z.pourmohammad ---b #404.7.24
+m.masumi ---b #404.7.24
 🚫m.mohammadi1 #404.6.10 | blocked 2025-10-11
 🚫soltanzade1 #404.6.9 | blocked 2025-10-11
 🚫farajzade #404.6.9 | blocked 2025-10-11
