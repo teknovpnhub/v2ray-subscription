@@ -1,3 +1,5 @@
+tohid | unblocked | via blocked_users.txt [Note: 404.6.31 | blocked 2025-11-08] | 2025-12-01 11:52
+
 saidi | added | [Note: 404.9.9] | 2025-11-30 19:17
 
 khaled.jahangiri1 | added | [Note: 404.9.9] | 2025-11-30 12:50
@@ -137,18 +139,6 @@ akram.hajalilu | added | [Note: 404.9.1] | 2025-11-22 11:18
 404.8.29 | added |  | 2025-11-22 01:50
 
 404.8.29 | manual_delete | User manually removed | 2025-11-22 01:47
-
-404.8.29 | manual_add | Line: 404.8.29 | 2025-11-20 20:47
-
-404.8.29 | added |  | 2025-11-20 19:58
-
-torkan1 | added | [Note: 404.8.29] | 2025-11-20 19:17
-
-404.8.29 | manual_delete | User manually removed | 2025-11-20 19:17
-
-404.8.29 | added |  | 2025-11-20 19:14
-
-torkan | added | [Note: 404.8.29] | 2025-11-20 18:58
 
 masumi1 | unblocked | [Note: 404.8.29 | blocked 2025-11-15] | 2025-11-20 17:32
 
