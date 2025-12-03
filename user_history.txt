@@ -1,3 +1,5 @@
+golizade | unblocked | via blocked_users.txt [Note: 404.6.16 | blocked 2025-10-18] | 2025-12-03 17:53
+
 m.masumi | unblocked | [Note: 404.9.11 | blocked 2025-11-29] | 2025-12-02 20:16
 
 m.masumi | manual_delete | User manually removed [Note: 404.9.11 | blocked 2025-11-29] | 2025-12-02 20:16
@@ -130,25 +132,7 @@ ujagi | manual_delete | User manually removed [Note: 404.7.22] | 2025-11-23 23:0
 
 mokhtar.abbaszade | added | [Note: 404.9.2] | 2025-11-23 19:11
 
-mehdizade2 | added | [Note: 404.9.1] | 2025-11-22 19:50
-
-mehdizade1 | added |  | 2025-11-22 19:34
-
-mehdizade1 | auto_renamed | Automatically renamed from mehdizade due to duplicate | 2025-11-22 19:34
-
-mehdi.asiyabi | added | [Note: 404.9.1] | 2025-11-22 18:34
-
 javadi | unblocked | via blocked_users.txt [Note: 404.5.18 | blocked 2025-09-20] | 2025-11-22 17:14
-
-akram.hajalilu | added | [Note: 404.9.1] | 2025-11-22 11:18
-
-404.8.29 | manual_delete | User manually removed | 2025-11-22 11:16
-
-404.8.29 | manual_add | Line: 404.8.29 | 2025-11-22 02:48
-
-404.8.29 | added |  | 2025-11-22 01:50
-
-404.8.29 | manual_delete | User manually removed | 2025-11-22 01:47
 
 masumi1 | unblocked | [Note: 404.8.29 | blocked 2025-11-15] | 2025-11-20 17:32
 
