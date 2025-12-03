@@ -1,3 +1,11 @@
+ebadi | manual_change | Changes:
+- ebadi #404.9.11
+?               ^
+
++ ebadi #404.9.12
+?               ^
+ [Note: 404.9.12] | 2025-12-03 18:07
+
 ebadi | unblocked | via blocked_users.txt [Note: 404.8.1 | blocked 2025-11-29] | 2025-12-03 18:06
 
 golizade | unblocked | via blocked_users.txt [Note: 404.6.16 | blocked 2025-10-18] | 2025-12-03 17:53
