@@ -1,3 +1,5 @@
+reza.sahranavard | added | [Note: 404.9.13] | 2025-12-04 12:12
+
 reza.musazade | added | [Note: 404.9.12] | 2025-12-03 19:19
 
 jafar | added |  | 2025-12-03 18:45
@@ -99,44 +101,6 @@ ehsan.khosrotamar | added | [Note: 404.9.5] | 2025-11-26 11:52
 rahmanzade | added | [Note: 404.9.5] | 2025-11-26 11:10
 
 ansarifard | unblocked | via blocked_users.txt [Note: 404.7.21 | blocked 2025-11-23] | 2025-11-25 17:22
-
-khani | blocked | | blocked 2025-11-23 [Note: 404.7.20] | 2025-11-23 23:09
-
-m.fathi | blocked | | blocked 2025-11-23 [Note: 404.7.20] | 2025-11-23 23:09
-
-m.alizade | blocked | | blocked 2025-11-23 [Note: 404.7.21] | 2025-11-23 23:09
-
-nazanin.zahra | blocked | | blocked 2025-11-23 [Note: 404.7.21] | 2025-11-23 23:09
-
-ansarifard | blocked | | blocked 2025-11-23 [Note: 404.7.21] | 2025-11-23 23:09
-
-t.seddigi | blocked | | blocked 2025-11-23 [Note: 404.7.22] | 2025-11-23 23:09
-
-ujagi | blocked | | blocked 2025-11-23 [Note: 404.7.22] | 2025-11-23 23:09
-
-f.jafari | blocked | | blocked 2025-11-23 [Note: 404.7.22] | 2025-11-23 23:09
-
-farshad.jabbari | blocked | | blocked 2025-11-23 [Note: 404.7.19] | 2025-11-23 23:09
-
-m.alizade | manual_delete | User manually removed [Note: 404.7.21] | 2025-11-23 23:09
-
-f.jafari | manual_delete | User manually removed [Note: 404.7.22] | 2025-11-23 23:09
-
-nazanin.zahra | manual_delete | User manually removed [Note: 404.7.21] | 2025-11-23 23:09
-
-khani | manual_delete | User manually removed [Note: 404.7.20] | 2025-11-23 23:09
-
-t.seddigi | manual_delete | User manually removed [Note: 404.7.22] | 2025-11-23 23:09
-
-farshad.jabbari | manual_delete | User manually removed [Note: 404.7.19] | 2025-11-23 23:09
-
-m.fathi | manual_delete | User manually removed [Note: 404.7.20] | 2025-11-23 23:09
-
-ansarifard | manual_delete | User manually removed [Note: 404.7.21] | 2025-11-23 23:09
-
-ujagi | manual_delete | User manually removed [Note: 404.7.22] | 2025-11-23 23:09
-
-mokhtar.abbaszade | added | [Note: 404.9.2] | 2025-11-23 19:11
 
 javadi | unblocked | via blocked_users.txt [Note: 404.5.18 | blocked 2025-09-20] | 2025-11-22 17:14
 
