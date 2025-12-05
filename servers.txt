@@ -28,7 +28,7 @@ vless://51289428-16a7-43fe-980c-ef25320e92f5@87.120.216.228:6443?security=none&t
 trojan://bzPvMXPaX_P_1LV4EdWgt0xsYa2-U8@217.16.25.129:8443?sni=chat.speedload.ru&alpn=h2%2Chttp%2F1.1&fp=qq#Server 28 🇷🇺
 trojan://bzPvMXPaX_P_1LV4EdWgt0xsYa2-U8@94.103.169.70:8443?sni=chat.speedload.ru&alpn=h2%2Chttp%2F1.1&fp=qq#Server 29 🇩🇪
 vless://51289428-16a7-43fe-980c-ef25320e92f5@nodade1.phantombot.ru:6443?security=none&type=ws&path=%2Fvless&host=nodade1.phantombot.ru&encryption=none#Server 30 🇩🇪
-vless://bdf8a2ce-8a8e-4bdd-b583-c87309b1f065@speedtest.net:80?security=none&type=ws&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&host=downloadha.global.ssl.fastly.net&encryption=none#Server 31 🇩🇪
+vless://bdf8a2ce-8a8e-4bdd-b583-c87309b1f065@speedtest.net:80?security=none&type=ws&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&host=downloadha.global.ssl.fastly.net&encryption=none#Server 31 🇨🇦
 vless://9c9a0de0-79ed-4cd5-a403-e538349b505d@eng24.netliberated.org:443?security=tls&type=tcp&sni=eng24.netliberated.org&fp=chrome&flow=xtls-rprx-vision&encryption=none#Server 32 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxRmdGaFk1V2ZjdXhRSFpTNldhNHB6akZqdGZ6enRnQQ==@nodade1.phantombot.ru:1234#Server 33 🇩🇪
 vless://38021ff2-6778-4363-92b1-d70ac11acf51@25.25.25.253:2096?security=tls&type=ws&path=%2F&host=alanconf.info&alpn=h3h2&sni=alanconf.info&fp=chrome&encryption=none#Server 34 🇬🇧
@@ -142,11 +142,10 @@ trojan://79314e99f0a473fe86efc7827942ad00@16.163.0.29:4054?allowInsecure=0&sni=w
 trojan://79314e99f0a473fe86efc7827942ad00@153.121.51.29:127?security=tls&sni=www.nintendogames.net#Server 142 🇯🇵
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 143 🇳🇱
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.63.16:4054?security=tls&sni=www.nintendogames.net#Server 144 🇯🇵
-ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 145 🇯🇵
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.139.26.173:57456#Server 146 🇷🇺
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 147 🇳🇱
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 148 🇯🇵
-vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&encryption=none#Server 149 🇩🇪
-vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?encryption=none&type=grpc&packetEncoding=xudp#Server 150 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 151 🇮🇹
-vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?mode=gun&security=none&encryption=none&type=grpc#Server 152 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.139.26.173:57456#Server 145 🇷🇺
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 146 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 147 🇯🇵
+vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&encryption=none#Server 148 🇩🇪
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?encryption=none&type=grpc&packetEncoding=xudp#Server 149 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 150 🇮🇹
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?mode=gun&security=none&encryption=none&type=grpc#Server 151 🇩🇪
