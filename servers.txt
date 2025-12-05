@@ -19,7 +19,7 @@ vless://51289428-16a7-43fe-980c-ef25320e92f5@87.120.216.228:6443?security=none&t
 trojan://bzPvMXPaX_P_1LV4EdWgt0xsYa2-U8@217.16.25.129:8443?sni=chat.speedload.ru&alpn=h2%2Chttp%2F1.1&fp=qq#Server 19 🇷🇺
 trojan://bzPvMXPaX_P_1LV4EdWgt0xsYa2-U8@94.103.169.70:8443?sni=chat.speedload.ru&alpn=h2%2Chttp%2F1.1&fp=qq#Server 20 🇩🇪
 vless://51289428-16a7-43fe-980c-ef25320e92f5@nodade1.phantombot.ru:6443?security=none&type=ws&path=%2Fvless&host=nodade1.phantombot.ru&encryption=none#Server 21 🇩🇪
-vless://bdf8a2ce-8a8e-4bdd-b583-c87309b1f065@speedtest.net:80?security=none&type=ws&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&host=downloadha.global.ssl.fastly.net&encryption=none#Server 22 🇨🇦
+vless://bdf8a2ce-8a8e-4bdd-b583-c87309b1f065@speedtest.net:80?security=none&type=ws&path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&host=downloadha.global.ssl.fastly.net&encryption=none#Server 22 🇩🇪
 vless://9c9a0de0-79ed-4cd5-a403-e538349b505d@eng24.netliberated.org:443?security=tls&type=tcp&sni=eng24.netliberated.org&fp=chrome&flow=xtls-rprx-vision&encryption=none#Server 23 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxRmdGaFk1V2ZjdXhRSFpTNldhNHB6akZqdGZ6enRnQQ==@nodade1.phantombot.ru:1234#Server 24 🇩🇪
 vless://38021ff2-6778-4363-92b1-d70ac11acf51@25.25.25.253:2096?security=tls&type=ws&path=%2F&host=alanconf.info&alpn=h3h2&sni=alanconf.info&fp=chrome&encryption=none#Server 25 🇬🇧
@@ -77,7 +77,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg==@115.161.136.145:10099#Server 76 �
 trojan://2cf6d686799e6fa95316394064f26c0a@160.16.63.16:4054?security=tls&sni=www.nintendogames.net#Server 77 🇯🇵
 vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?security=encryptionnone&type=grpc#Server 78 🇩🇪
 vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?encryption=none&type=grpc&packetEncoding=xudp#Server 79 🇩🇪
-vless://29abfc56-28a2-4c7e-8082-39e301a2e685@autos.jykvpn.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&sid=c2a0b2d60a7fc300&packetEncoding=xudp#Server 80 🇳🇱
+vless://29abfc56-28a2-4c7e-8082-39e301a2e685@autos.jykvpn.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&sid=c2a0b2d60a7fc300&packetEncoding=xudp#Server 80 🇩🇪
 vless://d7fbe279896e40118c23d15fe537dddd@213.176.16.74:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=apple.com&fp=chrome&pbk=XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc&sid=aabbccdd&packetEncoding=xudp#Server 81 🇳🇱
 vless://40d7798a-6c76-4298-a9d4-9e6181cd2dd7@nld26.luckernld.org:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.cybo.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&sid=&packetEncoding=xudp#Server 82 🇳🇱
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.99.113.207:443?mode=gun&security=none&encryption=none&type=grpc#Server 83 🇩🇪
@@ -138,10 +138,12 @@ ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFN
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.68:38388#Server 138 🇻🇳
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.65:38388#Server 139 🇻🇳
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.232:38388#Server 140 🇻🇳
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 141 🇮🇹
-vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&sni=Zula.ir&encryption=none#Server 142 🇩🇪
-vless://6d8d8b48-6c77-45a7-bc9a-afaed748e781@74.119.193.40:443?encryption=none&security=tls&sni=zula.ir&allowInsecure=true&fp=chrome&type=ws&path=/ws&packetEncoding=xudp#Server 143 🇭🇰
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 144 🇫🇷
-ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 145 🇨🇳
-ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 146 🇯🇵
-vless://405ec164-7923-4d76-8be5-7ae96e444f4e@62.60.246.188:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=web.max.ru&fp=chrome&pbk=o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0&sid=6104c5e9613ea56c&packetEncoding=xudp#Server 147 🇩🇪
+vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&sni=Zula.ir&encryption=none#Server 141 🇺🇸
+vless://6d8d8b48-6c77-45a7-bc9a-afaed748e781@74.119.193.40:443?encryption=none&security=tls&sni=zula.ir&allowInsecure=true&fp=chrome&type=ws&path=/ws&packetEncoding=xudp#Server 142 🇭🇰
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 143 🇫🇷
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 144 🇨🇳
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 145 🇯🇵
+vless://405ec164-7923-4d76-8be5-7ae96e444f4e@62.60.246.188:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=web.max.ru&fp=chrome&pbk=o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0&sid=6104c5e9613ea56c&packetEncoding=xudp#Server 146 🇩🇪
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.99.27.92:443?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 147 🇩🇪
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.155.240:443?mode=gun&security=none&encryption=none&type=grpc#Server 148 🇩🇪
+vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&encryption=none#Server 149 🇩🇪
