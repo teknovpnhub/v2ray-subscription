@@ -8,8 +8,8 @@ vless://5f9917b6-cdba-4f17-8c90-a2a66d15668f@172.66.156.81:80?path=%2F%40Shh_Pro
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.54.20.59:8881#Server 8 🇨🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGd0lzV0hJSGxKYzZXcmpRRXh0Snd2@h110vpntr.outlinekeys.net:65262#Server 9 🇹🇷
 vless://9c9a0de0-79ed-4cd5-a403-e538349b505d@eng24.netliberated.org:443?security=tls&encryption=none&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=eng24.netliberated.org#Server 10 🇳🇱
-vless://e570b673-4abd-4606-cd35-e639383f4c8c@usaa.fastlynew.hosting-ip.com:80?path=%2F&security=none&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws#Server 11 🇨🇦
-vless://77fb812d-2eb5-430e-afea-ccacc9795a86@speedtest.net:80?path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&security=none&encryption=none&host=downloadha.global.ssl.fastly.net&type=ws#Server 12 🇩🇪
+vless://e570b673-4abd-4606-cd35-e639383f4c8c@usaa.fastlynew.hosting-ip.com:80?path=%2F&security=none&encryption=none&host=mojhsjd.global.ssl.fastly.net&type=ws#Server 11 🇺🇸
+vless://77fb812d-2eb5-430e-afea-ccacc9795a86@speedtest.net:80?path=%2FJoin----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN&security=none&encryption=none&host=downloadha.global.ssl.fastly.net&type=ws#Server 12 🇨🇦
 vless://5f9917b6-cdba-4f17-8c90-a2a66d15668f@172.66.156.81:80?path=%2F%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy----%40Shh_Proxy&security=&encryption=none%3D-%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann---%40ghalagyann&host=websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.&type=ws#Server 13 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiU2xnQ29HaEFwT2I1NXRJTUQwenhZ@185.39.204.161:33563#Server 14 🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnZTBTMGs5VVFadUpTNE41cEVIODBF@145.249.109.148:16548#Server 15 🇪🇸
@@ -60,7 +60,7 @@ vless://4a305656-8a79-4029-996d-b361b0a59f3c@am8.amin-1.ir:2082?encryption=none&
 vless://1d54f7bc-64c0-4547-989b-96f2f1aa4d09@172.66.40.99:8080?encryption=none&type=xhttp&host=www.speedtest.net.tax.gov.ir.aparat.com.a.3.jEy.dPdNs.org.&path=/&mode=auto&packetEncoding=xudp#Server 60 🇺🇸
 vless://9c79aceb-4649-44ea-9698-b5e9ecf6d6da@156.224.78.8:10001?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.icloud.com&fp=chrome&pbk=D_kMOsg1KCtT0tudPFVDXGuEcSqZGtUYqBB-BiIxmls&sid=f7223dab&packetEncoding=xudp#Server 61 🇭🇰
 vless://2b8cd10f-82f6-4103-89e2-27a2d5a2fc21@94.141.123.233:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4&sid=fc7a526a7e61ba3b&packetEncoding=xudp#Server 62 🇩🇪
-vless://9d847ad3-1896-48f9-b89c-13fe345e2bff@wangcai181.cloudflare.182682.xyz:443?encryption=none&security=tls&sni=cho.chonon.sbs&alpn=h3&fp=chrome&type=xhttp&path=/gdsthjjjvfxsstyy؟ed%3D443&mode=packet-up&packetEncoding=xudp#Server 63 🇺🇸
+vless://9d847ad3-1896-48f9-b89c-13fe345e2bff@wangcai181.cloudflare.182682.xyz:443?encryption=none&security=tls&sni=cho.chonon.sbs&alpn=h3&fp=chrome&type=xhttp&path=/gdsthjjjvfxsstyy؟ed%3D443&mode=packet-up&packetEncoding=xudp#Server 63 🇬🇧
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@160.16.150.76:3093?security=tls&sni=www.nintendogames.net#Server 64 🇯🇵
 trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127?security=tls&sni=www.nintendogames.net#Server 65 🇯🇵
 trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@official.taipeicitygovernment.co.ua:8443?security=tls&sni=207.148.100.75&fp=chrome#Server 66 🇹🇼
@@ -74,7 +74,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg==@115.161.136.145:10099#Server 73 �
 trojan://2cf6d686799e6fa95316394064f26c0a@160.16.63.16:4054?security=tls&sni=www.nintendogames.net#Server 74 🇯🇵
 vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?security=encryptionnone&type=grpc#Server 75 🇩🇪
 vless://95b1344a-2b59-419f-ab7d-2ff7e5c6aa34@91.98.33.242:443?encryption=none&type=grpc&packetEncoding=xudp#Server 76 🇩🇪
-vless://29abfc56-28a2-4c7e-8082-39e301a2e685@autos.jykvpn.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&sid=c2a0b2d60a7fc300&packetEncoding=xudp#Server 77 🇫🇮
+vless://29abfc56-28a2-4c7e-8082-39e301a2e685@autos.jykvpn.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=cdnjs.com&fp=chrome&pbk=MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw&sid=c2a0b2d60a7fc300&packetEncoding=xudp#Server 77 🇳🇱
 vless://d7fbe279896e40118c23d15fe537dddd@213.176.16.74:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=apple.com&fp=chrome&pbk=XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc&sid=aabbccdd&packetEncoding=xudp#Server 78 🇳🇱
 vless://40d7798a-6c76-4298-a9d4-9e6181cd2dd7@nld26.luckernld.org:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=www.cybo.com&fp=chrome&pbk=BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs&sid=&packetEncoding=xudp#Server 79 🇳🇱
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.99.113.207:443?mode=gun&security=none&encryption=none&type=grpc#Server 80 🇩🇪
@@ -128,10 +128,10 @@ trojan://79314e99f0a473fe86efc7827942ad00@160.16.144.208:3145?security=tls&sni=w
 trojan://BxceQaOe@58.152.53.8:443?security=tls&sni=t.me/ripaojiedian&allowInsecure=true#Server 128 🇭🇰
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.155.240:443?mode=gun&security=none&encryption=none&type=grpc#Server 129 🇩🇪
 vless://6d8d8b48-6c77-45a7-bc9a-afaed748e781@74.119.193.40:443?encryption=none&security=tls&sni=zula.ir&allowInsecure=true&fp=chrome&type=ws&path=/ws&packetEncoding=xudp#Server 130 🇭🇰
-vless://405ec164-7923-4d76-8be5-7ae96e444f4e@62.60.246.188:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=web.max.ru&fp=chrome&pbk=o3H8CUivdt6lbFH6S7CQZ6dua7nUg5rYtPdSyXpjpx0&sid=6104c5e9613ea56c&packetEncoding=xudp#Server 131 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 132 🇳🇱
-vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&encryption=none#Server 133 🇩🇪
-ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 134 🇨🇳
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 135 🇮🇹
-trojan://eDHWaPzxcl@145.223.70.115:25365?security=tls&sni=cloudflare.com&allowInsecure=true&fp=chrome&pbk=YaP997bVbPWOkNwZ-aKWVNHSdzQkZLzhTGjVRVC1u3I&sid=d9&type=grpc#Server 136 🇫🇷
-vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&sni=Zula.ir&encryption=none#Server 137 🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 131 🇳🇱
+vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&encryption=none#Server 132 🇩🇪
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 133 🇨🇳
+vless://4df10efe-824a-4579-ab85-50f088f456d4@lovetea.dastur-amuzesh.ir:3002?security=none&type=tcp&sni=Zula.ir&encryption=none#Server 134 🇩🇪
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 135 🇯🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 136 🇯🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 137 🇳🇱
