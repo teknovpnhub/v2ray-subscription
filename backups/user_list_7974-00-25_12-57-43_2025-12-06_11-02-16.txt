@@ -1,5 +1,3 @@
-tamarzade #404.9.14
-daryush.tamarzade #404.9.14
 🚫soodabeh.aghayi #404.8.3 | blocked 2025-12-06
 🚫a.valilou #404.8.6 | blocked 2025-12-06
 🚫eyvari #404.8.5 | blocked 2025-12-06
@@ -15,7 +13,9 @@ daryush.tamarzade #404.9.14
 🚫agheli #404.8.6 | blocked 2025-12-06
 🚫shadi #404.8.3 | blocked 2025-12-06
 🚫salamzade #404.8.3 | blocked 2025-12-06
+🚫daryush.tamarzade ---ub #404.9.14 | blocked 2025-12-06
 🚫ahmadi #404.8.4 | blocked 2025-12-06
+🚫tamarzade ---ub #404.9.14 | blocked 2025-12-06
 🚫mirhossein.mohammadi #404.8.3 | blocked 2025-12-06
 🚫yunesi #404.8.6 | blocked 2025-12-06
 masumi #404.9.13

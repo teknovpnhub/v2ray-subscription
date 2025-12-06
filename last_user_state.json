@@ -1,5 +1,7 @@
 {
   "usernames": [
+    "tamarzade",
+    "daryush.tamarzade",
     "soodabeh.aghayi",
     "a.valilou",
     "eyvari",
@@ -15,9 +17,7 @@
     "agheli",
     "shadi",
     "salamzade",
-    "daryush.tamarzade",
     "ahmadi",
-    "tamarzade",
     "mirhossein.mohammadi",
     "yunesi",
     "masumi",
@@ -271,6 +271,8 @@
     "vahid.behruz"
   ],
   "lines": {
+    "tamarzade": "tamarzade #404.9.14",
+    "daryush.tamarzade": "daryush.tamarzade #404.9.14",
     "soodabeh.aghayi": "🚫soodabeh.aghayi #404.8.3 | blocked 2025-12-06",
     "a.valilou": "🚫a.valilou #404.8.6 | blocked 2025-12-06",
     "eyvari": "🚫eyvari #404.8.5 | blocked 2025-12-06",
@@ -286,9 +288,7 @@
     "agheli": "🚫agheli #404.8.6 | blocked 2025-12-06",
     "shadi": "🚫shadi #404.8.3 | blocked 2025-12-06",
     "salamzade": "🚫salamzade #404.8.3 | blocked 2025-12-06",
-    "daryush.tamarzade": "🚫daryush.tamarzade #404.8.5 | blocked 2025-12-06",
     "ahmadi": "🚫ahmadi #404.8.4 | blocked 2025-12-06",
-    "tamarzade": "🚫tamarzade #404.8.4 | blocked 2025-12-06",
     "mirhossein.mohammadi": "🚫mirhossein.mohammadi #404.8.3 | blocked 2025-12-06",
     "yunesi": "🚫yunesi #404.8.6 | blocked 2025-12-06",
     "masumi": "masumi #404.9.13",
@@ -541,5 +541,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-06 10:49"
+  "timestamp": "2025-12-06 11:02"
 }
