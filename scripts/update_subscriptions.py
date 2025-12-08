@@ -2,7 +2,6 @@ import os
 import base64
 import json
 import datetime
-import socket
 import concurrent.futures
 from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
 import re
