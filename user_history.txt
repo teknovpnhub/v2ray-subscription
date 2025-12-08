@@ -1,3 +1,7 @@
+salamzade | blocked | | blocked 2025-12-08 [Note: 404.9.14] | 2025-12-08 04:41
+
+salamzade | manual_delete | User manually removed [Note: 404.9.14] | 2025-12-08 04:41
+
 vali.milani | added | [Note: 404.9.15] | 2025-12-07 19:27
 
 soodabeh.aghayi | unblocked | [Note: 404.9.15 | blocked 2025-12-06] | 2025-12-07 18:28
@@ -199,12 +203,6 @@ ehsan.alizade | manual_delete | User manually removed [Note: 404.7.29] | 2025-11
 masumi | manual_delete | User manually removed [Note: 404.7.30] | 2025-11-29 02:17
 
 khalilzade | manual_delete | User manually removed [Note: 404.8.1] | 2025-11-29 02:17
-
-khaled.jahangiri | added | [Note: 404.9.6] | 2025-11-27 13:46
-
-kimiya1 | added | [Note: 404.9.6] | 2025-11-27 13:23
-
-kimiya | added | [Note: 404.9.6] | 2025-11-27 13:00
 
 aghapour | unblocked | via blocked_users.txt [Note: 404.7.16 | blocked 2025-11-15] | 2025-11-26 12:05
 
