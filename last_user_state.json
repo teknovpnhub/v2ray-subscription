@@ -1,9 +1,9 @@
 {
   "usernames": [
+    "salamzade",
     "alrostam",
     "majid.lotfi",
     "fahmi",
-    "salamzade",
     "vali.milani",
     "soodabeh.aghayi",
     "hoseyn.karimpur",
@@ -277,10 +277,10 @@
     "vahid.behruz"
   ],
   "lines": {
+    "salamzade": "salamzade #404.9.14",
     "alrostam": "alrostam #404.9.16",
     "majid.lotfi": "majid.lotfi #-404.9.16",
     "fahmi": "fahmi #404.9.16",
-    "salamzade": "🚫salamzade #404.9.14 | blocked 2025-12-08",
     "vali.milani": "vali.milani #404.9.15",
     "soodabeh.aghayi": "soodabeh.aghayi #404.9.15",
     "hoseyn.karimpur": "hoseyn.karimpur #404.9.15",
@@ -553,5 +553,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-08 18:12"
+  "timestamp": "2025-12-08 18:47"
 }
