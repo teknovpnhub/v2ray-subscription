@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "majid.lotfi",
     "fahmi",
     "salamzade",
     "vali.milani",
@@ -276,6 +277,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "majid.lotfi": "majid.lotfi #-404.9.16",
     "fahmi": "fahmi #404.9.16",
     "salamzade": "🚫salamzade #404.9.14 | blocked 2025-12-08",
     "vali.milani": "vali.milani #404.9.15",
@@ -551,5 +553,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-08 16:49"
+  "timestamp": "2025-12-08 16:54"
 }
