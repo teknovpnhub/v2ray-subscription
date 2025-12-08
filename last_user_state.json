@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "me.2025",
     "m.masumi",
     "salamzade",
     "alrostam",
@@ -225,7 +226,6 @@
     "a.abdollahzade",
     "hamzezade",
     "mansur",
-    "me.2025",
     "borhani",
     "nabizade1",
     "salmanzade",
@@ -277,6 +277,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "me.2025": "🚫me.2025 #| blocked 2025-12-09",
     "m.masumi": "m.masumi #404.9.11",
     "salamzade": "salamzade #404.9.14",
     "alrostam": "alrostam #404.9.16",
@@ -502,7 +503,6 @@
     "a.abdollahzade": "🚫a.abdollahzade #404.4.31 | blocked 2025-09-06",
     "hamzezade": "🚫hamzezade #404.4.30 | blocked 2025-09-06",
     "mansur": "mansur #404.6.13",
-    "me.2025": "me.2025",
     "borhani": "🚫borhani #404.4.28 | blocked 2025-09-01",
     "nabizade1": "🚫nabizade1 #404.4.28 | blocked 2025-09-01",
     "salmanzade": "🚫salmanzade #404.4.26 | blocked 2025-08-30",
@@ -553,5 +553,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-09 02:59"
+  "timestamp": "2025-12-09 03:06"
 }
