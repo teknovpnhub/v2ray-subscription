@@ -1,3 +1,9 @@
+vless://b786d9bd-b9f7-4587-a580-eb8a219f19f3@168.119.104.156:10200?security=none&type=ws&path=%2F&encryption=none#Server 21 🇩🇪 | removed_duplicate(from:servers.txt) | 2025-12-10 01:59
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 104 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-10 01:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 96 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-10 01:58
+trojan://telegram-id-privatevpns@18.184.185.204:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt am Main🅿️ping:79ms | moved_to_non_working(from:servers.txt) | 2025-12-10 01:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 81 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-10 01:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 81 🇳🇱 | moved_to_main(servers.txt) | 2025-12-10 01:57
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 81 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-10 01:52
 vless://74e30d16-8922-48dc-ac2e-9be47e8e968c@88.99.184.17:30351?security=none&type=ws&path=%2F#Server 8 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-10 01:52
 vless://53077406-57fa-483a-9cd1-ead82aad7216@88.99.184.17:30350?security=none&type=tcp&encryption=none#Server 3 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-10 01:52
