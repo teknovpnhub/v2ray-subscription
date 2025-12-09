@@ -1,3 +1,8 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 93 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-09 22:00
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 90 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-09 22:00
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 89 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-09 22:00
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 76 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 22:00
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 76 🇳🇱 | moved_to_main(servers.txt) | 2025-12-09 22:00
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 76 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-09 20:52
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 66 🇯🇵 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 20:51
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 66 🇯🇵 | moved_to_main(servers.txt) | 2025-12-09 20:51

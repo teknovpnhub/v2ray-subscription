@@ -86,9 +86,7 @@ vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?mode=gun&security
 ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 86 🇯🇵
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 87 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 88 🇳🇱
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 89 🇫🇷
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 90 🇫🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 91 🇮🇹
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@137.74.53.176:35789?encryption=none&packetEncoding=xudp#Server 92 🇫🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 93 🇯🇵
-trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 94 🇯🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 89 🇮🇹
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@137.74.53.176:35789?encryption=none&packetEncoding=xudp#Server 90 🇫🇷
+trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 91 🇯🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 92 🇳🇱
