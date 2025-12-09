@@ -1,3 +1,6 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 92 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-09 18:57
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 90 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-09 18:57
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 87 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-09 18:57
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 87 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-09 17:55
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 81 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 17:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 81 🇳🇱 | moved_to_main(servers.txt) | 2025-12-09 17:54
