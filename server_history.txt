@@ -1,3 +1,6 @@
+vless://47c08e3c-1178-4b8b-b7cb-1d8c5c991477@5.75.231.32:8443?security=none&encryption=none&headerType=none&type=tcp#Server 2 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-09 10:05
+vless://197092b3-e995-48b7-a34b-d32eb75b62e1@194.150.166.134:17166?encryption=none&security=none&type=tcp&headerType=none#Server 50 🇬🇧 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 10:05
+vless://197092b3-e995-48b7-a34b-d32eb75b62e1@194.150.166.134:17166?encryption=none&security=none&type=tcp&headerType=none#Server 50 🇬🇧 | moved_to_main(servers.txt) | 2025-12-09 10:05
 vless://197092b3-e995-48b7-a34b-d32eb75b62e1@194.150.166.134:17166?encryption=none&security=none&type=tcp&headerType=none#Server 50 🇬🇧 | moved_to_non_working(from:servers.txt) | 2025-12-09 08:52
 vless://197092b3-e995-48b7-a34b-d32eb75b62e1@194.150.166.134:17166?encryption=none&security=none&type=tcp&headerType=none#Server 50 🇬🇧 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 08:52
 vless://197092b3-e995-48b7-a34b-d32eb75b62e1@194.150.166.134:17166?encryption=none&security=none&type=tcp&headerType=none#Server 50 🇬🇧 | moved_to_main(servers.txt) | 2025-12-09 08:52
