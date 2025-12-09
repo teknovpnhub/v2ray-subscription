@@ -1,3 +1,5 @@
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 78 🇷🇺 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 08:00
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 78 🇷🇺 | moved_to_main(servers.txt) | 2025-12-09 08:00
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 78 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-09 06:50
 trojan://telegram-id-privatevpns@18.153.186.240:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 4 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-09 06:50
 vless://197092b3-e995-48b7-a34b-d32eb75b62e1@194.150.166.134:17166?encryption=none&security=none&type=tcp&headerType=none#Server 50 🇬🇧 | moved_to_non_working(from:servers.txt) | 2025-12-09 05:17
