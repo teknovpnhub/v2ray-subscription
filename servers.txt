@@ -85,9 +85,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.139.26.173:57456#Se
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@38.54.2.182:990#Server 85 🇧🇭
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 86 🇷🇺
 vless://197092b3-e995-48b7-a34b-d32eb75b62e1@194.150.166.134:17166?encryption=none&security=none&type=tcp&headerType=none#Server 87 🇬🇧
-vless://47c08e3c-1178-4b8b-b7cb-1d8c5c991477@5.75.231.32:8443?security=none&encryption=none&headerType=none&type=tcp#Server 88 🇩🇪
-ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 89 🇨🇳
-trojan://telegram-id-privatevpns@13.39.32.206:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 90 🇫🇷
-ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 91 🇯🇵
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 92 🇯🇵
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 93 🇮🇹
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 88 🇨🇳
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 89 🇯🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 90 🇯🇵
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 91 🇮🇹
