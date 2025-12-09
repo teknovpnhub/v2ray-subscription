@@ -1,3 +1,16 @@
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 53 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-09 12:02
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 50 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-09 12:02
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 14 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-09 12:02
+trojan://telegram-id-privatevpns@13.39.32.206:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 6 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 12:02
+trojan://telegram-id-privatevpns@13.39.32.206:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 6 🇫🇷 | moved_to_main(servers.txt) | 2025-12-09 12:02
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?mode=gun&security=none&encryption=none&type=grpc#Server 45 🇩🇪 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 12:02
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?mode=gun&security=none&encryption=none&type=grpc#Server 45 🇩🇪 | moved_to_main(servers.txt) | 2025-12-09 12:02
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?encryption=none&type=grpc&packetEncoding=xudp#Server 47 🇩🇪 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 12:02
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?encryption=none&type=grpc&packetEncoding=xudp#Server 47 🇩🇪 | moved_to_main(servers.txt) | 2025-12-09 12:02
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 66 🇨🇳 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 12:02
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 66 🇨🇳 | moved_to_main(servers.txt) | 2025-12-09 12:02
+vless://47c08e3c-1178-4b8b-b7cb-1d8c5c991477@5.75.231.32:8443?security=none&encryption=none&headerType=none&type=tcp#Server 2 🇩🇪 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-09 12:02
+vless://47c08e3c-1178-4b8b-b7cb-1d8c5c991477@5.75.231.32:8443?security=none&encryption=none&headerType=none&type=tcp#Server 2 🇩🇪 | moved_to_main(servers.txt) | 2025-12-09 12:02
 vless://47c08e3c-1178-4b8b-b7cb-1d8c5c991477@5.75.231.32:8443?security=none&encryption=none&headerType=none&type=tcp#Server 2 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-09 10:53
 ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 66 🇨🇳 | moved_to_non_working(from:servers.txt) | 2025-12-09 10:53
 vless://2ee2a715-d541-416a-8713-d66567448c2e@91.98.168.173:443?encryption=none&type=grpc&packetEncoding=xudp#Server 47 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-09 10:53
