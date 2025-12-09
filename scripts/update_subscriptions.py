@@ -2,6 +2,7 @@ import os
 import base64
 import json
 import datetime
+import socket
 import concurrent.futures
 from urllib.parse import urlparse, parse_qsl, urlunparse, urlencode
 import re
@@ -1196,13 +1197,20 @@ def extract_server_config(server_line):
 
 # === LOG HISTORY FUNCTION ===
 
+NON_WORKING_FILE = 'non_working.txt'
 MAIN_FILE = 'servers.txt'
 CONTROL_PANEL_FILE = 'control_panel.txt'
 HISTORY_FILE = 'server_history.txt'
 USER_HISTORY_FILE = 'user_history.txt'
+QUARANTINE_DAYS = 3
 USER_HISTORY_DAYS = 10  # Keep user history for 10 days
 BACKUP_DAYS = 10  # Keep backups for 10 days
 SERVER_HISTORY_DAYS = 10  # Keep server history for 10 days
+# Timeout (seconds) for TCP health-check
+VALIDATION_TIMEOUT = 3
+
+# Fast-run flag: when set, the script skips heavy maintenance (health-checks, flag decoration, etc.)
+FAST_RUN = os.getenv("FAST_RUN", "0") == "1"
 
 def log_history(server, action):
     iran_time = get_iran_time()
@@ -1322,6 +1330,29 @@ def remove_duplicates(servers):
             seen_configs[config_key] = server.strip()
             unique_servers.append(server.strip())
     return unique_servers
+
+def parse_non_working_line(line):
+    """Parse non_working.txt line. Supports two formats:
+    Old format: server | date
+    New format: server | source_file | date
+    """
+    try:
+        parts = line.rsplit('|', 2)
+        if len(parts) == 2:
+            # Old format: server | date
+            server = parts[0].strip()
+            date_str = parts[1].strip()
+            source_file = None  # Unknown source
+        else:
+            # New format: server | source_file | date
+            server = parts[0].strip()
+            source_file = parts[1].strip()
+            date_str = parts[2].strip()
+        
+        dt = datetime.datetime.strptime(date_str, "%Y-%m-%d %H:%M")
+        return server, dt, source_file
+    except Exception:
+        return None, None, None
 
 # === Control Panel Functions ===
 
@@ -1470,8 +1501,153 @@ def save_main_servers(servers):
     with open(active_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(servers) + '\n')
 
+def load_non_working():
+    if not os.path.exists(NON_WORKING_FILE):
+        return []
+    with open(NON_WORKING_FILE, 'r', encoding='utf-8') as f:
+        return [line.strip() for line in f if line.strip()]
 
+def save_non_working(servers):
+    with open(NON_WORKING_FILE, 'w', encoding='utf-8') as f:
+        if servers:
+            f.write('\n'.join(servers) + '\n')
+        else:
+            f.truncate(0)
 
+def cleanup_non_working():
+    today = get_iran_time()
+    non_working_lines = load_non_working()
+    keep_non_working = []
+    for line in non_working_lines:
+        server, dt, source_file = parse_non_working_line(line)
+        if not server or not dt:
+            keep_non_working.append(line)
+            continue
+        days_in_quarantine = (today.replace(tzinfo=None) - dt).days
+        if days_in_quarantine >= QUARANTINE_DAYS:
+            source_info = f"(from:{source_file})" if source_file else ""
+            log_history(server, f"removed_after_3_days{source_info}")
+        else:
+            keep_non_working.append(line)
+    save_non_working(keep_non_working)
+
+def move_server_to_non_working(server_line):
+    """Move a server to non_working.txt and track which server file it came from."""
+    iran_time = get_iran_time()
+    now_str = iran_time.strftime("%Y-%m-%d %H:%M")
+    # Track source file: format: server | source_file | date
+    source_file = get_active_server_file()
+    entry = f"{server_line} | {source_file} | {now_str}"
+    non_working = load_non_working()
+    # Check if server already exists (comparing server part only)
+    server_part = entry.split(' | ')[0]
+    if not any(server_part in line.split(' | ')[0] for line in non_working):
+        # Add new non-working servers to the top of the list
+        non_working.insert(0, entry)
+        save_non_working(non_working)
+        log_history(server_line, f"moved_to_non_working(from:{source_file})")
+
+def move_server_to_main(server_line, target_file=None):
+    """Move a server back to a server file. If target_file is None, uses currently active file."""
+    if target_file is None:
+        target_file = get_active_server_file()
+    
+    # Load servers from target file
+    if not os.path.exists(target_file):
+        return
+    
+    with open(target_file, 'r', encoding='utf-8') as f:
+        main_servers = [line.strip() for line in f if line.strip()]
+    
+    # Check for duplicates
+    normalized_new = extract_server_config(server_line)
+    for existing in main_servers:
+        if extract_server_config(existing) == normalized_new:
+            return
+    
+    main_servers.append(server_line)
+    with open(target_file, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(main_servers) + '\n')
+    log_history(server_line, f"moved_to_main({target_file})")
+
+def process_non_working_recovery():
+    """Recover servers from non_working.txt back to their original server files."""
+    non_working_lines = load_non_working()
+    keep_non_working = []
+    for line in non_working_lines:
+        server, dt, source_file = parse_non_working_line(line)
+        if not server or not dt:
+            keep_non_working.append(line)
+            continue
+        
+        # Test if server is working again
+        if validate_server(server):
+            # Recover to original source file - each server goes back to where it came from
+            # Example: server from servers1.txt goes back to servers1.txt, not servers.txt
+            target_file = source_file if source_file and os.path.exists(source_file) else None
+            move_server_to_main(server, target_file)
+            source_info = f"from:{source_file}," if source_file else ""
+            log_history(server, f"recovered_to_main({source_info}to:{target_file or 'active'})")
+        else:
+            keep_non_working.append(line)
+    save_non_working(keep_non_working)
+
+def is_fake_server(server_line):
+    fake_indicators = [
+        "127.0.0.1",
+        "localhost",
+        "fake",
+        "Fake Server",
+        "fakepas",
+        "12345678-1234-1234-1234-123456789",
+        "YWVzLTI1Ni1nY206ZmFrZXBhc3N3b3Jk"
+    ]
+    server_lower = server_line.lower()
+    for indicator in fake_indicators:
+        if indicator.lower() in server_lower:
+            return True
+    return False
+
+def validate_server(server_line):
+    """Validate server connectivity by testing TCP connection.
+    Supports: vless, vmess, trojan, ss, hysteria, hysteria2"""
+    try:
+        hostname = None
+        port = None
+        if server_line.startswith('vless://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 443
+        elif server_line.startswith('vmess://'):
+            config_data = base64.b64decode(server_line[8:]).decode('utf-8')
+            config = json.loads(config_data)
+            hostname = config.get('add')
+            port = int(config.get('port', 443))
+        elif server_line.startswith('ss://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 8388
+        elif server_line.startswith('trojan://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 443
+        elif server_line.startswith(('hysteria://', 'hysteria2://')):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            hostname = parsed.hostname
+            port = parsed.port or 443
+        if hostname and port:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(VALIDATION_TIMEOUT)
+            result = sock.connect_ex((hostname, port))
+            sock.close()
+            return result == 0
+    except Exception:
+        return False
+    return False
 
 def get_blocked_users():
     """Return a set of usernames that are currently blocked.
@@ -1640,7 +1816,7 @@ def backup_user(username):
         return False
 
 def update_all_subscriptions():
-    """Main entry-point."""
+    """Main entry-point. Behaviour depends on FAST_RUN flag."""
 
     # Process control panel first to determine which server file is active
     process_control_panel()
@@ -1659,10 +1835,44 @@ def update_all_subscriptions():
     process_user_commands()
     check_expired_users()
 
-    # Load current servers, remove duplicates, and save
-    current_servers = load_main_servers()
-    unique_servers = remove_duplicates(current_servers)
-    save_main_servers(unique_servers)
+    if not FAST_RUN:
+        # Heavy maintenance tasks (hourly / scheduled)
+        discover_new_subscriptions()
+        cleanup_non_working()
+        process_non_working_recovery()
+
+        # --- Validate main server list and quarantine non-working entries ---
+        current_servers = load_main_servers()
+        valid_servers = []
+
+        # Remove obvious fake servers immediately
+        servers_to_check = []
+        for srv in current_servers:
+            if is_fake_server(srv):
+                move_server_to_non_working(srv)
+            else:
+                servers_to_check.append(srv)
+
+        # Parallel TCP validation for the rest
+        if servers_to_check:
+            max_workers = min(32, len(servers_to_check))
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
+                for srv, ok in zip(servers_to_check, pool.map(validate_server, servers_to_check)):
+                    if ok:
+                        valid_servers.append(srv)
+                    else:
+                        move_server_to_non_working(srv)
+
+        # Persist the cleaned list
+        save_main_servers(valid_servers)
+
+        # Update remarks & remove duplicates (these are network-bound/CPU heavy)
+        all_servers = update_server_remarks(valid_servers)
+        unique_servers = remove_duplicates(all_servers)
+        save_main_servers(unique_servers)
+    else:
+        # FAST_RUN → skip all heavy work, use current list as-is
+        unique_servers = load_main_servers()
 
     # Build / update subscription files for every user
     blocked_users = get_blocked_users()
