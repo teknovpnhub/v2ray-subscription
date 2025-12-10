@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "majid.lotfi",
     "soltani",
     "dahri",
     "alireza.aghazade",
@@ -7,7 +8,6 @@
     "m.masumi",
     "salamzade",
     "alrostam",
-    "majid.lotfi",
     "fahmi",
     "vali.milani",
     "soodabeh.aghayi",
@@ -279,6 +279,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "majid.lotfi": "majid.lotfi #404.9.16",
     "soltani": "soltani #404.9.19",
     "dahri": "dahri #404.9.18",
     "alireza.aghazade": "alireza.aghazade #404.9.18",
@@ -286,7 +287,6 @@
     "m.masumi": "m.masumi #404.9.11",
     "salamzade": "salamzade #404.9.14",
     "alrostam": "alrostam #404.9.16",
-    "majid.lotfi": "majid.lotfi #-404.9.16",
     "fahmi": "fahmi #404.9.16",
     "vali.milani": "vali.milani #404.9.15",
     "soodabeh.aghayi": "soodabeh.aghayi #404.9.15",
@@ -557,5 +557,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-10 10:59"
+  "timestamp": "2025-12-10 11:30"
 }
