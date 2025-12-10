@@ -1,3 +1,6 @@
+vless://e7e9b9a5-a5e5-41c9-905c-2782342b0afd@159.69.24.12:7443?security=none&type=tcp#Server 136 🇩🇪 | servers.txt | 2025-12-10 10:06
+trojan://zzyzzy0512@fast1.swjtu.work:443?security=tls&sni=fast1.swjtu.work&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 115 🇺🇸 | servers.txt | 2025-12-10 10:06
+trojan://zzyzzy0512@fast1.swjtu.work:443?sni=fast1.swjtu.work&allowInsecure=1&fp=chrome#Server 109 🇺🇸 | servers.txt | 2025-12-10 10:06
 trojan://telegram-id-privatevpns@18.184.185.204:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 139 🇩🇪 | servers.txt | 2025-12-10 08:53
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 138 🇫🇷 | servers.txt | 2025-12-10 08:53
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.139.26.173:57456#Server 119 🇷🇺 | servers.txt | 2025-12-10 08:04
