@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 142 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:04
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:04
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.139.26.173:57456#Server 119 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:04
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 29 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:04
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 150 🇷🇺 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-10 06:53
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 150 🇷🇺 | moved_to_main(servers.txt) | 2025-12-10 06:53
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 150 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-10 05:20
