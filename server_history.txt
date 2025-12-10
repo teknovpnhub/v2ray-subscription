@@ -1,3 +1,16 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 117 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 01:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 106 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 01:52
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 101 🇨🇳 | moved_to_non_working(from:servers.txt) | 2025-12-11 01:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 120 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 01:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 120 🇮🇹 | moved_to_main(servers.txt) | 2025-12-11 01:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 127 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 01:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 127 🇮🇹 | moved_to_main(servers.txt) | 2025-12-11 01:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 123 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 01:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 123 🇫🇷 | moved_to_main(servers.txt) | 2025-12-11 01:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 120 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 01:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 120 🇳🇱 | moved_to_main(servers.txt) | 2025-12-11 01:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 115 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 01:51
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 115 🇫🇷 | moved_to_main(servers.txt) | 2025-12-11 01:51
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 115 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-11 00:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 120 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 00:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 119 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 00:54
