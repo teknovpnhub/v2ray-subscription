@@ -1,3 +1,13 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 129 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-11 02:01
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 125 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-11 02:01
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 119 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-11 02:01
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 110 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-11 02:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 119 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 02:00
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 119 🇳🇱 | moved_to_main(servers.txt) | 2025-12-11 02:00
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 101 🇨🇳 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 02:00
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 101 🇨🇳 | moved_to_main(servers.txt) | 2025-12-11 02:00
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 106 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 02:00
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 106 🇳🇱 | moved_to_main(servers.txt) | 2025-12-11 02:00
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 117 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 01:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 106 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 01:52
 ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 101 🇨🇳 | moved_to_non_working(from:servers.txt) | 2025-12-11 01:52
