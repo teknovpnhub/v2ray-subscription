@@ -1,3 +1,9 @@
+trojan://telegram-id-privatevpns@18.184.185.204:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 139 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:53
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 138 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-10 08:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | moved_to_main(servers.txt) | 2025-12-10 08:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 142 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-10 08:53
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 142 🇳🇱 | moved_to_main(servers.txt) | 2025-12-10 08:53
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 142 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:04
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:04
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.139.26.173:57456#Server 119 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-10 08:04

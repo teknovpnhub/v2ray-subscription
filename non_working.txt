@@ -1,5 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 142 🇳🇱 | servers.txt | 2025-12-10 08:04
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | servers.txt | 2025-12-10 08:04
+trojan://telegram-id-privatevpns@18.184.185.204:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 139 🇩🇪 | servers.txt | 2025-12-10 08:53
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 138 🇫🇷 | servers.txt | 2025-12-10 08:53
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMzgzNzIyNGVkNDY1ZjAw@45.139.26.173:57456#Server 119 🇷🇺 | servers.txt | 2025-12-10 08:04
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 29 🇮🇹 | servers.txt | 2025-12-10 08:04
 vmess://eyJ2IjoiMiIsInBzIjoi8J+RifCfhpQgQHYycmF5X2NvbmZpZ3NfcG9vbCDwn5OhIPCfh7Pwn4exTkwg8J+nrSAzLjhNQi9zIiwiYWRkIjoiY2cxYzEzLndhaW1hb2pkLmNvbSIsInBvcnQiOiI0NDMiLCJpZCI6IjA5MWU3MzU0LWYwN2YtNDRhYS1hNDQzLTRhZDQzZjUxYTlmOSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoidGxzIiwiYWxwbiI6IiIsInNuaSI6ImNnMWMxMy53YWltYW9qZC5jb20iLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwiaG9zdCI6ImNnMWMxMy53YWltYW9qZC5jb20ifQ==#Server 28 🇳🇱 | servers.txt | 2025-12-10 05:19
