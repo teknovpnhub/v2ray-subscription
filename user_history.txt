@@ -1,3 +1,11 @@
+soodabeh.aghayi | manual_change | Changes:
+- soodabeh.aghayi #404.9.15
+?                        ^^
+
++ soodabeh.aghayi #404.9.20
+?                        ^^
+ [Note: 404.9.20] | 2025-12-11 18:10
+
 mohammad.panahi | added | [Note: 404.9.19] | 2025-12-10 17:40
 
 soltani | unblocked | [Note: 404.9.19 | blocked 2025-11-01] | 2025-12-10 10:59
@@ -187,10 +195,6 @@ valizade | unblocked | [Note: 404.9.11 | blocked 2025-10-07] | 2025-12-02 11:59
 valizade | manual_delete | User manually removed [Note: 404.9.11 | blocked 2025-10-07] | 2025-12-02 11:59
 
 tohid | unblocked | via blocked_users.txt [Note: 404.6.31 | blocked 2025-11-08] | 2025-12-01 11:52
-
-saidi | added | [Note: 404.9.9] | 2025-11-30 19:17
-
-khaled.jahangiri1 | added | [Note: 404.9.9] | 2025-11-30 12:50
 
 t.hatami | unblocked | [Note: 404.9.8 | blocked 2025-08-12] | 2025-11-29 19:14
 
