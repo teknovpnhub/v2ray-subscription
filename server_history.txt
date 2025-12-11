@@ -1,3 +1,8 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 135 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-11 14:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 127 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 127 🇮🇹 | moved_to_main(servers.txt) | 2025-12-11 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 14:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | moved_to_main(servers.txt) | 2025-12-11 14:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 127 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 13:58
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@137.74.53.176:35789?encryption=none&packetEncoding=xudp#Server 116 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-11 13:58
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 130 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 13:57

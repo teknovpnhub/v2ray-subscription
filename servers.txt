@@ -6,7 +6,7 @@ vless://28fc5226-e0bc-42c0-877d-b5159b6324ce@141.227.134.118:18928?security=none
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNDVmMmMxZC1hMzE3LTQ1YTgtYjIzMC1lNDIwNTY2YTdmNjI@69.30.251.122:51004#Server 6 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 7 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@156.59.243.6:990#Server 8 🇵🇰
-vless://2e9177ce-d1cc-45cd-b27f-f16f8fbc117a@fs.ir-sub.fun:80?security=none&type=ws&path=%2FZEDMODEON-ZEDMODEON-bia-ZEDMODEON&host=zedd.global.ssl.fastly.net&encryption=none#Server 9 🇩🇪
+vless://2e9177ce-d1cc-45cd-b27f-f16f8fbc117a@fs.ir-sub.fun:80?security=none&type=ws&path=%2FZEDMODEON-ZEDMODEON-bia-ZEDMODEON&host=zedd.global.ssl.fastly.net&encryption=none#Server 9 🇸🇪
 vless://e8d06b09-acd9-448c-9874-3c36151d36ee@104.26.3.125:2052?security=none&type=ws&path=%2F%F0%9F%94%92%20%5BBy%20EbraSha%5D&host=icy-wildflower-2590.lihuifeng595.workers.dev&encryption=none#Server 10 🇺🇸
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.64.146.66:2095?security=none&type=ws&path=%2F%F0%9F%94%92%20%5BBy%20EbraSha%5D&host=xijinpingnmsl.s4ar.workers.dev&encryption=none#Server 11 🇺🇸
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@162.159.153.2:2095?security=none&type=ws&path=%2F%F0%9F%94%92%20%5BBy%20EbraSha%5D&host=xijinpingnmsl.s4ar.workers.dev&encryption=none#Server 12 🇺🇸
@@ -132,4 +132,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystr
 vless://71a712db-3843-4d24-b4c4-724ee0813044@masterserver1.heloisfood.ir:6423/?type=grpc&encryption=none&flow=&serviceName=%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1--%40MaSTeRSeRVeR1#Server 132 🇩🇪
 vless://71a712db-3843-4d24-b4c4-724ee0813044@v2ngnet.heloisfood.ir:4488/?type=grpc&encryption=none&flow=&serviceName=%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet#Server 133 🇩🇪
 vless://71a712db-3843-4d24-b4c4-724ee0813044@v2ngfast.heloisfood.ir:2718/?type=grpc&encryption=none&flow=&serviceName=%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast-%40V2ngFast#Server 134 🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 135 🇮🇹
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@switcher-nick-croquet.freesocks.work:443#Server 135 🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@38.180.195.193:443#Server 136 🇮🇹
