@@ -1,3 +1,5 @@
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 131 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-12 01:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 129 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-12 01:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 125 🇫🇮 | moved_to_non_working(from:servers.txt) | 2025-12-12 00:54
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 132 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 00:54
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 132 🇫🇷 | moved_to_main(servers.txt) | 2025-12-12 00:54
