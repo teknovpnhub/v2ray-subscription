@@ -1,3 +1,9 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 135 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-11 10:56
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 123 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-11 10:56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBcVpidDFRQ3MzbmdFZlhvMXA3VC13@81.200.158.206:1080#Server 131 🇷🇺 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 10:55
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBcVpidDFRQ3MzbmdFZlhvMXA3VC13@81.200.158.206:1080#Server 131 🇷🇺 | moved_to_main(servers.txt) | 2025-12-11 10:55
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 133 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-11 10:55
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 133 🇫🇷 | moved_to_main(servers.txt) | 2025-12-11 10:55
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&encryption=none&headerType=none&type=tcp#Server 133 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-11 10:07
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 139 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-11 10:07
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBcVpidDFRQ3MzbmdFZlhvMXA3VC13@81.200.158.206:1080#Server 131 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-11 10:07
