@@ -30,7 +30,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 vless://15ac9083-177e-4852-9acf-a9ccf24e6b35@notifications.platform.dash.cloudflare.com:2052?encryption=none&security=none&type=ws&host=udbdushs-28727272-idbsisbsha-iwiwiw.poshakhowdy.ir&path=%2F#Server 30 🇨🇦
 vless://094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa@nl-78w-c.southnetworks.cloud:80/?type=ws&encryption=none&flow=&path=%2FgetWorkerUpdates#Server 31 🇷🇺
 vless://824dc1b1-e35b-4121-ad73-9acaf13d6410@n1761184282.74qxv.top:443?path=%2F824dc1b1-e35b-4121-ad73-9acaf13d6410&security=tls&encryption=none&host=n1761184282.74qxv.top&fp=chrome&type=ws&sni=n1761184282.74qxv.top#Server 32 🇭🇰
-vless://2e9177ce-d1cc-45cd-b27f-f16f8fbc117a@fs.ir-sub.fun:80?path=%2FZEDMODEON-ZEDMODEON-bia-ZEDMODEON&encryption=none&host=zedd.global.ssl.fastly.net&type=ws#Server 33 🇸🇪
+vless://2e9177ce-d1cc-45cd-b27f-f16f8fbc117a@fs.ir-sub.fun:80?path=%2FZEDMODEON-ZEDMODEON-bia-ZEDMODEON&encryption=none&host=zedd.global.ssl.fastly.net&type=ws#Server 33 🇳🇱
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.48:38388#Server 34 🇻🇳
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.40:38388#Server 35 🇻🇳
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.109:38388#Server 36 🇻🇳
@@ -119,7 +119,7 @@ ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFN
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@137.74.53.176:35789?encryption=none&packetEncoding=xudp#Server 119 🇫🇷
 vless://4fbf976a-ecff-42e6-a100-0436ef96ee46@91.107.174.82:3002?security=&fp=chrome&type=tcp&encryption=none#Server 120 🇩🇪
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 121 🇯🇵
-vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 122 🇺🇸
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 122
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 123 🇫🇷
 vless://4fbf976a-ecff-42e6-a100-0436ef96ee46@lovetea.parsianboton.ir:3002?security=none&type=tcp&encryption=none#Server 124 🇩🇪
 vless://4fbf976a-ecff-42e6-a100-0436ef96ee46@91.107.174.82:3002?security=none&type=tcp&encryption=none#Server 125 🇩🇪
