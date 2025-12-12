@@ -1,3 +1,107 @@
+f.kalbkhani | blocked | | blocked 2025-12-13 [Note: 404.8.8] | 2025-12-13 01:40
+
+s.aslani | blocked | | blocked 2025-12-13 [Note: 404.8.8] | 2025-12-13 01:40
+
+ali.parsa | blocked | | blocked 2025-12-13 [Note: 404.8.8] | 2025-12-13 01:40
+
+sabri | blocked | | blocked 2025-12-13 [Note: 404.8.8] | 2025-12-13 01:40
+
+hossein.zarghami | blocked | | blocked 2025-12-13 [Note: 404.8.8] | 2025-12-13 01:40
+
+molayi | blocked | | blocked 2025-12-13 [Note: 404.8.8] | 2025-12-13 01:40
+
+jahanbakhsh | blocked | | blocked 2025-12-13 [Note: 404.8.10] | 2025-12-13 01:40
+
+n.sahrayi | blocked | | blocked 2025-12-13 [Note: 404.8.10] | 2025-12-13 01:40
+
+s.khezri | blocked | | blocked 2025-12-13 [Note: 404.8.10] | 2025-12-13 01:40
+
+bazdar | blocked | | blocked 2025-12-13 [Note: 404.8.10] | 2025-12-13 01:40
+
+bahman.tagizade | blocked | | blocked 2025-12-13 [Note: 404.8.10] | 2025-12-13 01:40
+
+r.taragikhah | blocked | | blocked 2025-12-13 [Note: 404.8.10] | 2025-12-13 01:40
+
+eshgkhah | blocked | | blocked 2025-12-13 [Note: 404.8.10] | 2025-12-13 01:40
+
+babayi | blocked | | blocked 2025-12-13 [Note: 404.8.12] | 2025-12-13 01:40
+
+habibzade | blocked | | blocked 2025-12-13 [Note: 404.8.12] | 2025-12-13 01:40
+
+golinezhad | blocked | | blocked 2025-12-13 [Note: 404.8.12] | 2025-12-13 01:40
+
+h.soleymanzade | blocked | | blocked 2025-12-13 [Note: 404.8.12] | 2025-12-13 01:40
+
+farnaz.khani | blocked | | blocked 2025-12-13 [Note: 404.8.12] | 2025-12-13 01:40
+
+a.esmailzade | blocked | | blocked 2025-12-13 [Note: 404.8.13] | 2025-12-13 01:40
+
+tohid.maaleki | blocked | | blocked 2025-12-13 [Note: 404.8.13] | 2025-12-13 01:40
+
+ahad.nouri | blocked | | blocked 2025-12-13 [Note: 404.8.13] | 2025-12-13 01:40
+
+customer1 | blocked | | blocked 2025-12-13 [Note: 404.8.14] | 2025-12-13 01:40
+
+esmayil.hasani | blocked | | blocked 2025-12-13 [Note: 404.8.14] | 2025-12-13 01:40
+
+aragi | blocked | | blocked 2025-12-13 [Note: 404.8.15] | 2025-12-13 01:40
+
+raha | blocked | | blocked 2025-12-13 [Note: 404.8.15] | 2025-12-13 01:40
+
+rostam.soltani | blocked | | blocked 2025-12-13 [Note: 404.8.15] | 2025-12-13 01:40
+
+s.aslani | manual_delete | User manually removed [Note: 404.8.8] | 2025-12-13 01:40
+
+ali.parsa | manual_delete | User manually removed [Note: 404.8.8] | 2025-12-13 01:40
+
+f.kalbkhani | manual_delete | User manually removed [Note: 404.8.8] | 2025-12-13 01:40
+
+golinezhad | manual_delete | User manually removed [Note: 404.8.12] | 2025-12-13 01:40
+
+n.sahrayi | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-13 01:40
+
+sabri | manual_delete | User manually removed [Note: 404.8.8] | 2025-12-13 01:40
+
+hossein.zarghami | manual_delete | User manually removed [Note: 404.8.8] | 2025-12-13 01:40
+
+habibzade | manual_delete | User manually removed [Note: 404.8.12] | 2025-12-13 01:40
+
+a.esmailzade | manual_delete | User manually removed [Note: 404.8.13] | 2025-12-13 01:40
+
+ahad.nouri | manual_delete | User manually removed [Note: 404.8.13] | 2025-12-13 01:40
+
+tohid.maaleki | manual_delete | User manually removed [Note: 404.8.13] | 2025-12-13 01:40
+
+s.khezri | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-13 01:40
+
+bazdar | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-13 01:40
+
+bahman.tagizade | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-13 01:40
+
+babayi | manual_delete | User manually removed [Note: 404.8.12] | 2025-12-13 01:40
+
+raha | manual_delete | User manually removed [Note: 404.8.15] | 2025-12-13 01:40
+
+molayi | manual_delete | User manually removed [Note: 404.8.8] | 2025-12-13 01:40
+
+customer1 | manual_delete | User manually removed [Note: 404.8.14] | 2025-12-13 01:40
+
+farnaz.khani | manual_delete | User manually removed [Note: 404.8.12] | 2025-12-13 01:40
+
+r.taragikhah | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-13 01:40
+
+aragi | manual_delete | User manually removed [Note: 404.8.15] | 2025-12-13 01:40
+
+eshgkhah | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-13 01:40
+
+esmayil.hasani | manual_delete | User manually removed [Note: 404.8.14] | 2025-12-13 01:40
+
+jahanbakhsh | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-13 01:40
+
+rostam.soltani | manual_delete | User manually removed [Note: 404.8.15] | 2025-12-13 01:40
+
+h.soleymanzade | manual_delete | User manually removed [Note: 404.8.12] | 2025-12-13 01:40
+
 ebrahim.golizade | added | [Note: 404.9.20] | 2025-12-11 18:25
 
 mohammad.panahi | added | [Note: 404.9.19] | 2025-12-10 17:40
@@ -181,8 +285,6 @@ golizade | unblocked | via blocked_users.txt [Note: 404.6.16 | blocked 2025-10-1
 m.masumi | unblocked | [Note: 404.9.11 | blocked 2025-11-29] | 2025-12-02 20:16
 
 m.masumi | manual_delete | User manually removed [Note: 404.9.11 | blocked 2025-11-29] | 2025-12-02 20:16
-
-karimkhani | added | [Note: 404.9.11] | 2025-12-02 20:03
 
 valizade | unblocked | [Note: 404.9.11 | blocked 2025-10-07] | 2025-12-02 11:59
 
