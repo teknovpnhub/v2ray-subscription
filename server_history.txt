@@ -1,3 +1,14 @@
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 1 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-12 14:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 166 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-12 14:52
+trojan://telegram-id-privatevpns@35.181.161.100:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 165 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-12 14:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 170 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 14:51
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 170 🇫🇷 | moved_to_main(servers.txt) | 2025-12-12 14:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 161 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 14:51
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 161 🇳🇱 | moved_to_main(servers.txt) | 2025-12-12 14:51
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 162 🇷🇺 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 14:51
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 162 🇷🇺 | moved_to_main(servers.txt) | 2025-12-12 14:51
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 1 🇩🇪 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 14:51
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 1 🇩🇪 | moved_to_main(servers.txt) | 2025-12-12 14:51
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 1 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-12 13:56
 trojan://telegram-id-privatevpns@35.180.72.13:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 164 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-12 13:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 163 🇫🇮 | moved_to_non_working(from:servers.txt) | 2025-12-12 13:56
