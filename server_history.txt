@@ -1,3 +1,10 @@
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 158 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-12 22:49
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 148 🇺🇸 | moved_to_non_working(from:servers.txt) | 2025-12-12 22:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 40 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-12 22:49
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 136 🇯🇵 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 22:48
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 136 🇯🇵 | moved_to_main(servers.txt) | 2025-12-12 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 159 🇯🇵 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 22:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 159 🇯🇵 | moved_to_main(servers.txt) | 2025-12-12 22:48
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 161 🇫🇮 | moved_to_non_working(from:servers.txt) | 2025-12-12 22:05
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 159 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-12 22:05
 ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 136 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-12 22:05
