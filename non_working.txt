@@ -1,6 +1,5 @@
-trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 174 🇷🇺 | servers.txt | 2025-12-12 08:54
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 170 🇫🇷 | servers.txt | 2025-12-12 08:54
-trojan://telegram-id-privatevpns@35.180.72.13:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 35 🇫🇷 | servers.txt | 2025-12-12 08:04
+trojan://telegram-id-privatevpns@63.180.137.98:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 173 🇩🇪 | servers.txt | 2025-12-12 10:06
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 171 🇫🇮 | servers.txt | 2025-12-12 10:06
 trojan://telegram-id-privatevpns@35.181.161.100:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 29 🇫🇷 | servers.txt | 2025-12-12 08:04
 trojan://telegram-id-privatevpns@3.120.201.68:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 29 🇩🇪 | servers.txt | 2025-12-12 06:54
 trojan://76d630f2af6619c4a5de0ef953df3c6a@13.112.81.124:3169?allowInsecure=0&sni=www.nintendogames.net#Server 18 🇯🇵 | servers.txt | 2025-12-12 05:19
