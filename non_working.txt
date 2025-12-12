@@ -1,6 +1,7 @@
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 169 🇨🇳 | servers.txt | 2025-12-12 12:57
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 1 🇩🇪 | servers.txt | 2025-12-12 12:57
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUekVlTmdhd3lsUmJhU2daSFE5YUVq@209.74.82.121:29874#Server 30 🇸🇬 | servers.txt | 2025-12-12 12:02
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4NkQxWmxyWGhaV3ViQ21zbjdGQUpN@209.74.82.187:46521#Server 29 🇸🇬 | servers.txt | 2025-12-12 12:02
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 173 🇫🇷 | servers.txt | 2025-12-12 10:54
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | servers.txt | 2025-12-12 10:54
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 170 🇫🇷 | servers.txt | 2025-12-12 10:54
 trojan://telegram-id-privatevpns@63.180.137.98:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 173 🇩🇪 | servers.txt | 2025-12-12 10:06
