@@ -1,3 +1,5 @@
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 160 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-12 19:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@38.54.2.182:990#Server 133 🇧🇭 | moved_to_non_working(from:servers.txt) | 2025-12-12 19:59
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 163 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-12 18:55
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 162 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-12 18:55
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 160 🇫🇮 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-12 18:55
