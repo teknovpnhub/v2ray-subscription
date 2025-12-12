@@ -143,28 +143,28 @@ m.hatami #404.8.17
 🚫abbasi #404.7.1 | blocked 2025-11-08
 🚫mandulakani #404.6.31 | blocked 2025-11-08
 hadi.mohammadi #404.8.16
-rostam.soltani #404.8.15
-raha #404.8.15
-aragi #404.8.15
+rostam.soltani ---b #404.8.15
+raha ---b #404.8.15
+aragi ---b #404.8.15
 🚫jaber.golamzade #404.8.15 | blocked 2025-11-06
-esmayil.hasani #404.8.14
-customer1 #404.8.14
-ahad.nouri #404.8.13
-tohid.maaleki #404.8.13
-a.esmailzade #404.8.13
-farnaz.khani #404.8.12
-h.soleymanzade #404.8.12
-golinezhad #404.8.12
-habibzade #404.8.12
-babayi #404.8.12
-eshgkhah #404.8.10
-r.taragikhah #404.8.10
-bahman.tagizade #404.8.10
-bazdar #404.8.10
-s.khezri #404.8.10
-n.sahrayi #404.8.10
+esmayil.hasani ---b #404.8.14
+customer1 ---b #404.8.14
+ahad.nouri ---b #404.8.13
+tohid.maaleki ---b #404.8.13
+a.esmailzade ---b #404.8.13
+farnaz.khani ---b #404.8.12
+h.soleymanzade ---b #404.8.12
+golinezhad ---b #404.8.12
+habibzade ---b #404.8.12
+babayi ---b #404.8.12
+eshgkhah ---b #404.8.10
+r.taragikhah ---b #404.8.10
+bahman.tagizade ---b #404.8.10
+bazdar ---b #404.8.10
+s.khezri ---b #404.8.10
+n.sahrayi ---b #404.8.10
 nagizade #404.8.10
-jahanbakhsh #404.8.10
+jahanbakhsh ---b #404.8.10
 🚫rajabi #404.6.30 | blocked 2025-11-01
 🚫asiyabi #404.6.24 | blocked 2025-11-01
 🚫bakhshalizade #404.6.29 | blocked 2025-11-01
@@ -174,12 +174,12 @@ jahanbakhsh #404.8.10
 🚫alizade #404.6.23 | blocked 2025-11-01
 🚫habibi #404.6.22 | blocked 2025-11-01
 🚫g.abedini #404.6.22 | blocked 2025-11-01
-molayi #404.8.8
-hossein.zarghami #404.8.8
-sabri #404.8.8
-ali.parsa #404.8.8
-s.aslani #404.8.8
-f.kalbkhani #404.8.8
+molayi ---b #404.8.8
+hossein.zarghami ---b #404.8.8
+sabri ---b #404.8.8
+ali.parsa ---b #404.8.8
+s.aslani ---b #404.8.8
+f.kalbkhani ---b #404.8.8
 🚫yusefi1 #404.7.30 | blocked 2025-10-27
 family
 ehsan #404.8.3
