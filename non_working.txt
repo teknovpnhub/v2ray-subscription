@@ -1,11 +1,14 @@
-vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 1 🇩🇪 | servers.txt | 2025-12-12 14:52
+vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 1 🇩🇪 | servers.txt | 2025-12-12 16:19
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 168 🇫🇷 | servers.txt | 2025-12-12 16:19
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 144 🇯🇵 | servers.txt | 2025-12-12 16:19
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@65.21.240.236:443?security=tls&encryption=none&headerType=none&type=tcp&sni=advertisement.app-browser.org#Server 115 🇫🇮 | servers.txt | 2025-12-12 16:19
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@advertisement.app-browser.org:443?security=tls&type=tcp&sni=advertisement.app-browser.org&fp=chrome&encryption=none#Server 51 🇫🇮 | servers.txt | 2025-12-12 16:19
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@65.21.240.236:443?security=tls&type=tcp&sni=advertisement.app-browser.org&fp=chrome&encryption=none#Server 50 🇫🇮 | servers.txt | 2025-12-12 16:19
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 166 🇫🇷 | servers.txt | 2025-12-12 14:52
 trojan://telegram-id-privatevpns@35.181.161.100:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 165 🇫🇷 | servers.txt | 2025-12-12 14:52
 trojan://telegram-id-privatevpns@35.180.72.13:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 164 🇫🇷 | servers.txt | 2025-12-12 13:56
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 163 🇫🇮 | servers.txt | 2025-12-12 13:56
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUekVlTmdhd3lsUmJhU2daSFE5YUVq@209.74.82.121:29874#Server 30 🇸🇬 | servers.txt | 2025-12-12 12:02
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4NkQxWmxyWGhaV3ViQ21zbjdGQUpN@209.74.82.187:46521#Server 29 🇸🇬 | servers.txt | 2025-12-12 12:02
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | servers.txt | 2025-12-12 10:54
 trojan://telegram-id-privatevpns@63.180.137.98:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 173 🇩🇪 | servers.txt | 2025-12-12 10:06
 trojan://telegram-id-privatevpns@3.120.201.68:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 29 🇩🇪 | servers.txt | 2025-12-12 06:54
 trojan://76d630f2af6619c4a5de0ef953df3c6a@13.112.81.124:3169?allowInsecure=0&sni=www.nintendogames.net#Server 18 🇯🇵 | servers.txt | 2025-12-12 05:19
