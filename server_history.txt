@@ -1,3 +1,11 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg@glance.asuscomm.com:10099#Server 62 🇰🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 02:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg@glance.asuscomm.com:10099#Server 62 🇰🇷 | moved_to_main(servers.txt) | 2025-12-14 02:49
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 166 🇺🇸 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 02:49
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 166 🇺🇸 | moved_to_main(servers.txt) | 2025-12-14 02:49
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.140:38388#Server 169 🇻🇳 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 02:49
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.140:38388#Server 169 🇻🇳 | moved_to_main(servers.txt) | 2025-12-14 02:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 02:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | moved_to_main(servers.txt) | 2025-12-14 02:49
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-14 01:51
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.140:38388#Server 169 🇻🇳 | moved_to_non_working(from:servers.txt) | 2025-12-14 01:51
 vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 166 🇺🇸 | moved_to_non_working(from:servers.txt) | 2025-12-14 01:51
