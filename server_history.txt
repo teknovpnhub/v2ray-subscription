@@ -1,3 +1,10 @@
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 171 🇺🇸 | moved_to_non_working(from:servers.txt) | 2025-12-13 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 170 🇫🇮 | moved_to_non_working(from:servers.txt) | 2025-12-13 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 168 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-13 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@38.54.2.182:990#Server 163 🇧🇭 | moved_to_non_working(from:servers.txt) | 2025-12-13 12:52
+vless://51be809d-3e82-4090-b14f-a42a32100ff9@deu637.webunlocked.org:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deu637.webunlocked.org#Server 160 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-13 12:52
+vless://51be809d-3e82-4090-b14f-a42a32100ff9@deu637.webunlocked.org:443?security=tls&type=tcp&sni=deu637.webunlocked.org&fp=chrome&flow=xtls-rprx-vision&encryption=none#Server 14 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-13 12:52
+vless://51be809d-3e82-4090-b14f-a42a32100ff9@103.113.71.9:443?security=tls&type=tcp&sni=deu637.webunlocked.org&fp=chrome&flow=xtls-rprx-vision&encryption=none#Server 13 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-13 12:52
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 168 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-13 11:57
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 168 🇫🇷 | moved_to_main(servers.txt) | 2025-12-13 11:57
 vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 169 🇺🇸 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-13 11:57
