@@ -1,3 +1,11 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 163 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 00:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 163 🇮🇹 | moved_to_main(servers.txt) | 2025-12-14 00:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 166 🇫🇮 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 00:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 166 🇫🇮 | moved_to_main(servers.txt) | 2025-12-14 00:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 00:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | moved_to_main(servers.txt) | 2025-12-14 00:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 166 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 00:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 166 🇫🇷 | moved_to_main(servers.txt) | 2025-12-14 00:49
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 166 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-13 23:54
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-13 23:54
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 168 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-13 23:54

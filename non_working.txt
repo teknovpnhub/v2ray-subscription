@@ -1,8 +1,4 @@
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 166 🇫🇷 | servers.txt | 2025-12-13 23:54
-vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 171 🇫🇷 | servers.txt | 2025-12-13 23:54
 vless://e50fa46f-20c6-4c0d-fa0e-d9ffd92df36f@91.107.169.78:41647?type=grpc&amp;encryption=none&amp;serviceName=&amp;authority=&amp;security=none#Server 168 🇩🇪 | servers.txt | 2025-12-13 23:54
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 166 🇫🇮 | servers.txt | 2025-12-13 23:54
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 163 🇮🇹 | servers.txt | 2025-12-13 22:01
 vless://824dc1b1-e35b-4121-ad73-9acaf13d6410@n1761184282.74qxv.top:443?path=%2F824dc1b1-e35b-4121-ad73-9acaf13d6410&security=tls&encryption=none&host=n1761184282.74qxv.top&fp=chrome&type=ws&sni=n1761184282.74qxv.top#Server 67 🇭🇰 | servers.txt | 2025-12-13 22:01
 vless://a4c6bbd7-6ea5-44b2-9829-08f5ae615d49@n1761184273.mv7wh.tech:443?security=tls&type=ws&path=%2Fa4c6bbd7-6ea5-44b2-9829-08f5ae615d49&host=n1761184273.mv7wh.tech&sni=n1761184273.mv7wh.tech&fp=chrome#Server 165 🇭🇰 | servers.txt | 2025-12-13 17:50
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 151 🇯🇵 | servers.txt | 2025-12-13 06:48
