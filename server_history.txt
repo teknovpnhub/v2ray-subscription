@@ -1,3 +1,7 @@
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 168 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-13 05:15
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 167 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-13 05:15
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 176 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-13 05:14
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 176 🇮🇹 | moved_to_main(servers.txt) | 2025-12-13 05:14
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 176 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-13 02:52
 vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 176 🇺🇸 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-13 02:51
 vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 176 🇺🇸 | moved_to_main(servers.txt) | 2025-12-13 02:51
