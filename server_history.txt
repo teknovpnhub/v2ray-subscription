@@ -1,3 +1,11 @@
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-14 12:53
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 169 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-14 12:53
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 169 🇺🇸 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 12:52
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 169 🇺🇸 | moved_to_main(servers.txt) | 2025-12-14 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 166 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 12:52
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 166 🇳🇱 | moved_to_main(servers.txt) | 2025-12-14 12:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 12:52
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | moved_to_main(servers.txt) | 2025-12-14 12:52
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-14 11:59
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 166 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-14 11:59
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 166 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 11:58
