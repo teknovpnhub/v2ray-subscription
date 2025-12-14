@@ -1,3 +1,14 @@
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 166 🇺🇸 | moved_to_non_working(from:servers.txt) | 2025-12-15 00:50
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@65.21.240.236:443?security=tls&type=tcp&sni=advertisement.app-browser.org&fp=chrome&encryption=none#Server 50 🇫🇮 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 00:50
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@65.21.240.236:443?security=tls&type=tcp&sni=advertisement.app-browser.org&fp=chrome&encryption=none#Server 50 🇫🇮 | moved_to_main(servers.txt) | 2025-12-15 00:50
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@advertisement.app-browser.org:443?security=tls&type=tcp&sni=advertisement.app-browser.org&fp=chrome&encryption=none#Server 51 🇫🇮 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 00:50
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@advertisement.app-browser.org:443?security=tls&type=tcp&sni=advertisement.app-browser.org&fp=chrome&encryption=none#Server 51 🇫🇮 | moved_to_main(servers.txt) | 2025-12-15 00:50
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@65.21.240.236:443?security=tls&encryption=none&headerType=none&type=tcp&sni=advertisement.app-browser.org#Server 115 🇫🇮 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 00:50
+vless://22948aee-4981-4ba1-b8df-7a2b494a8a28@65.21.240.236:443?security=tls&encryption=none&headerType=none&type=tcp&sni=advertisement.app-browser.org#Server 115 🇫🇮 | moved_to_main(servers.txt) | 2025-12-15 00:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 159 🇫🇮 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 00:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 159 🇫🇮 | moved_to_main(servers.txt) | 2025-12-15 00:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 168 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 00:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 168 🇫🇷 | moved_to_main(servers.txt) | 2025-12-15 00:49
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 168 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-14 23:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 159 🇫🇮 | moved_to_non_working(from:servers.txt) | 2025-12-14 23:54
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 167 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 23:54
