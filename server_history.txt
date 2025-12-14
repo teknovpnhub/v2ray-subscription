@@ -1,3 +1,11 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 157 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-14 16:59
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 156 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-14 16:59
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 16:58
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | moved_to_main(servers.txt) | 2025-12-14 16:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 159 🇳🇱 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 16:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 159 🇳🇱 | moved_to_main(servers.txt) | 2025-12-14 16:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 168 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 16:58
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 168 🇮🇹 | moved_to_main(servers.txt) | 2025-12-14 16:58
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 168 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-14 16:13
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#Server 159 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-14 16:13
 trojan://BxceQaOe@58.152.30.120:443?sni=58.152.30.120&allowInsecure=1&fp=chrome#Server 10 🇭🇰 | moved_to_non_working(from:servers.txt) | 2025-12-14 16:13
