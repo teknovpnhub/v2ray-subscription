@@ -1,3 +1,14 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 168 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-14 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 161 🇫🇮 | moved_to_non_working(from:servers.txt) | 2025-12-14 17:50
+ss://YWVzLTI1Ni1nY206MTIz@14.18.106.88:6100#Server 160 🇨🇳 | moved_to_non_working(from:servers.txt) | 2025-12-14 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 146 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-14 17:50
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#Server 123 🇰🇭 | moved_to_non_working(from:servers.txt) | 2025-12-14 17:50
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 174 🇺🇸 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 17:49
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 174 🇺🇸 | moved_to_main(servers.txt) | 2025-12-14 17:49
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 156 🇯🇵 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 17:49
+ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 156 🇯🇵 | moved_to_main(servers.txt) | 2025-12-14 17:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 157 🇯🇵 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 17:49
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 157 🇯🇵 | moved_to_main(servers.txt) | 2025-12-14 17:49
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 157 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-14 16:59
 ss://YWVzLTI1Ni1nY206NmFmMjQ3OTAtNzZjOS00OWQzLWJiZTAtMDEyODUyMzllNTdk@45.83.22.118:8443#Server 156 🇯🇵 | moved_to_non_working(from:servers.txt) | 2025-12-14 16:59
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 16:58
