@@ -1,6 +1,8 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 163 🇯🇵 | servers.txt | 2025-12-14 20:49
-trojan://BxceQaOe@58.152.25.242:443?sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20&allowInsecure=1&fp=chrome#Server 69 🇭🇰 | servers.txt | 2025-12-14 20:49
-trojan://BxceQaOe@58.152.25.242:443?security=tls&sni=t.me%252Fripaojiedian#Server 29 🇭🇰 | servers.txt | 2025-12-14 20:49
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 169 🇺🇸 | servers.txt | 2025-12-14 22:01
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 168 🇫🇷 | servers.txt | 2025-12-14 22:01
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 167 🇮🇹 | servers.txt | 2025-12-14 22:01
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 166 🇫🇷 | servers.txt | 2025-12-14 22:01
+vless://383c9651-cecb-45b4-8df8-2eb85057848d@91.107.143.41:443?path=%2F09hmyzvdljYpebWBPqDV7&security=tls&alpn=http%2F1.1&encryption=none%3D&host=ognbqqfj1a49.greendop.com&fp=chrome&type=ws&sni=ognbqqfj1a49.greendop.com#Server 31 🇩🇪 | servers.txt | 2025-12-14 22:01
 trojan://BxceQaOe@58.152.30.120:443?sni=58.152.30.120&allowInsecure=1&fp=chrome#Server 10 🇭🇰 | servers.txt | 2025-12-14 16:13
 trojan://BxceQaOe@219.78.209.224:443?sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20trojan-HK%20&allowInsecure=1&fp=chrome#Server 23 🇭🇰 | servers.txt | 2025-12-14 14:49
 trojan://BxceQaOe@219.78.209.224:443?sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D&allowInsecure=1&fp=chrome%20#Server 22 🇭🇰 | servers.txt | 2025-12-14 14:49
