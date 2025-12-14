@@ -1,4 +1,5 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@switcher-nick-croquet.freesocks.work:443#Server 166 🇳🇱 | servers.txt | 2025-12-14 10:51
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 169 🇫🇷 | servers.txt | 2025-12-14 11:59
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 166 🇳🇱 | servers.txt | 2025-12-14 11:59
 vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 169 🇺🇸 | servers.txt | 2025-12-14 10:03
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 151 🇯🇵 | servers.txt | 2025-12-13 06:48
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.233.76:507?security=tls&sni=www.nintendogames.net#Server 31 🇯🇵 | servers.txt | 2025-12-13 06:48
