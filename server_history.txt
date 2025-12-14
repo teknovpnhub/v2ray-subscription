@@ -1,3 +1,12 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#Server 171 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-14 14:49
+vless://824dc1b1-e35b-4121-ad73-9acaf13d6410@n1761184282.74qxv.top:443?path=%2F824dc1b1-e35b-4121-ad73-9acaf13d6410&security=tls&encryption=none&host=n1761184282.74qxv.top&fp=chrome&type=ws&sni=n1761184282.74qxv.top#Server 169 🇭🇰 | moved_to_non_working(from:servers.txt) | 2025-12-14 14:49
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 168 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-14 14:49
+trojan://BxceQaOe@219.78.209.224:443?sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D%20trojan-HK%20&allowInsecure=1&fp=chrome#Server 23 🇭🇰 | moved_to_non_working(from:servers.txt) | 2025-12-14 14:49
+trojan://BxceQaOe@219.78.209.224:443?sni=%F0%9F%94%92%20%5BBy%20EbraSha%5D&allowInsecure=1&fp=chrome%20#Server 22 🇭🇰 | moved_to_non_working(from:servers.txt) | 2025-12-14 14:49
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 167 🇷🇺 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 14:48
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 167 🇷🇺 | moved_to_main(servers.txt) | 2025-12-14 14:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 169 🇮🇹 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-14 14:48
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 169 🇮🇹 | moved_to_main(servers.txt) | 2025-12-14 14:48
 vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 174 🇺🇸 | moved_to_non_working(from:servers.txt) | 2025-12-14 13:52
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 169 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-14 13:52
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 167 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-14 13:52
