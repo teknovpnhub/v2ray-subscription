@@ -1,3 +1,5 @@
+behruz.nurmohammadi | added | [Note: 404.9.23] | 2025-12-14 11:49
+
 saied.mohammadi | added | [Note: 404.9.22] | 2025-12-13 20:00
 
 404.9.22 | manual_delete | User manually removed | 2025-12-13 20:00
@@ -299,10 +301,6 @@ masumi1 | manual_delete | User manually removed [Note: 404.9.13] | 2025-12-04 20
 mohammad.shamdi | added | [Note: 404.9.13] | 2025-12-04 17:59
 
 reza.sahranavard | added | [Note: 404.9.13] | 2025-12-04 12:12
-
-reza.musazade | added | [Note: 404.9.12] | 2025-12-03 19:19
-
-jafar | added |  | 2025-12-03 18:45
 
 ebadi | unblocked | via blocked_users.txt [Note: 404.8.1 | blocked 2025-11-29] | 2025-12-03 18:06
 
