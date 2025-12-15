@@ -1,3 +1,9 @@
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 175 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-15 16:22
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 187 🇺🇸 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 16:21
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 187 🇺🇸 | moved_to_main(servers.txt) | 2025-12-15 16:21
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 175 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 16:21
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 175 🇫🇷 | moved_to_main(servers.txt) | 2025-12-15 16:21
+trojan://telegram-id-privatevpns@35.181.161.100:22222?security=tls&alpn=http%2F1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 165 🇫🇷 | removed_after_3_days(from:servers.txt) | 2025-12-15 16:21
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 175 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-15 14:51
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 171 🇯🇵 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 14:50
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUzhCcmlCTDlnY1BFSFRYaU42NmFU@45.83.22.118:5223#Server 171 🇯🇵 | moved_to_main(servers.txt) | 2025-12-15 14:50
