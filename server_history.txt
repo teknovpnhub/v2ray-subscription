@@ -1,3 +1,9 @@
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp&encryption=none#Server 186 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-15 10:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTd1RTaFhZU1FkNDA0RklTczhORmVK@promo19v.bystrivpn.ru:443#Server 180 🇮🇹 | moved_to_non_working(from:servers.txt) | 2025-12-15 10:57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@switcher-nick-croquet.freesocks.work:443#Server 174 🇳🇱 | moved_to_non_working(from:servers.txt) | 2025-12-15 10:57
+vless://2ee2a715-d541-416a-8713-d66567448c2e@91.99.210.212:443/?type=grpc&encryption=none&flow=#Server 4 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-15 10:57
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 192 🇷🇺 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 10:56
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 192 🇷🇺 | moved_to_main(servers.txt) | 2025-12-15 10:56
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 192 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-15 10:09
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 191 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-15 10:09
 trojan://telegram-id-directvpn@63.176.121.99:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 8 🇩🇪 | moved_to_non_working(from:servers.txt) | 2025-12-15 10:09
