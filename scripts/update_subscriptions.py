@@ -1837,31 +1837,12 @@ def update_all_subscriptions():
 
     if not FAST_RUN:
         # Heavy maintenance tasks (hourly / scheduled)
+        # Heavy maintenance tasks (hourly / scheduled)
         discover_new_subscriptions()
-        cleanup_non_working()
-        process_non_working_recovery()
-
+        
         # --- Validate main server list and quarantine non-working entries ---
         current_servers = load_main_servers()
-        valid_servers = []
-
-        # Remove obvious fake servers immediately
-        servers_to_check = []
-        for srv in current_servers:
-            if is_fake_server(srv):
-                move_server_to_non_working(srv)
-            else:
-                servers_to_check.append(srv)
-
-        # Parallel TCP validation for the rest
-        if servers_to_check:
-            max_workers = min(32, len(servers_to_check))
-            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
-                for srv, ok in zip(servers_to_check, pool.map(validate_server, servers_to_check)):
-                    if ok:
-                        valid_servers.append(srv)
-                    else:
-                        move_server_to_non_working(srv)
+        valid_servers = current_servers
 
         # Persist the cleaned list
         save_main_servers(valid_servers)
