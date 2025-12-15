@@ -1,5 +1,3 @@
-bazdar #404.9.23
-aragi #404.9.23
 fateme.sabunchi #404.9.24
 karkon #404.9.23
 h.soleymanzade #404.9.23
@@ -23,6 +21,7 @@ habibzade #404.9.22
 🚫a.esmailzade #404.8.13 | blocked 2025-12-13
 🚫tohid.maaleki #404.8.13 | blocked 2025-12-13
 🚫s.khezri #404.8.10 | blocked 2025-12-13
+🚫bazdar ---ub #404.9.23 | blocked 2025-12-13
 🚫bahman.tagizade #404.8.10 | blocked 2025-12-13
 🚫babayi #404.8.12 | blocked 2025-12-13
 🚫raha #404.8.15 | blocked 2025-12-13
@@ -30,6 +29,7 @@ habibzade #404.9.22
 🚫customer1 #404.8.14 | blocked 2025-12-13
 🚫farnaz.khani #404.8.12 | blocked 2025-12-13
 🚫r.taragikhah #404.8.10 | blocked 2025-12-13
+🚫aragi ---ub #404.9.23 | blocked 2025-12-13
 🚫eshgkhah #404.8.10 | blocked 2025-12-13
 🚫esmayil.hasani #404.8.14 | blocked 2025-12-13
 🚫jahanbakhsh #404.8.10 | blocked 2025-12-13

@@ -1,5 +1,7 @@
 {
   "usernames": [
+    "bazdar",
+    "aragi",
     "fateme.sabunchi",
     "karkon",
     "h.soleymanzade",
@@ -23,7 +25,6 @@
     "a.esmailzade",
     "tohid.maaleki",
     "s.khezri",
-    "bazdar",
     "bahman.tagizade",
     "babayi",
     "raha",
@@ -31,7 +32,6 @@
     "customer1",
     "farnaz.khani",
     "r.taragikhah",
-    "aragi",
     "eshgkhah",
     "esmayil.hasani",
     "jahanbakhsh",
@@ -288,6 +288,8 @@
     "vahid.behruz"
   ],
   "lines": {
+    "bazdar": "bazdar #404.9.23",
+    "aragi": "aragi #404.9.23",
     "fateme.sabunchi": "fateme.sabunchi #404.9.24",
     "karkon": "karkon #404.9.23",
     "h.soleymanzade": "h.soleymanzade #404.9.23",
@@ -311,7 +313,6 @@
     "a.esmailzade": "🚫a.esmailzade #404.8.13 | blocked 2025-12-13",
     "tohid.maaleki": "🚫tohid.maaleki #404.8.13 | blocked 2025-12-13",
     "s.khezri": "🚫s.khezri #404.8.10 | blocked 2025-12-13",
-    "bazdar": "🚫bazdar #404.8.10 | blocked 2025-12-13",
     "bahman.tagizade": "🚫bahman.tagizade #404.8.10 | blocked 2025-12-13",
     "babayi": "🚫babayi #404.8.12 | blocked 2025-12-13",
     "raha": "🚫raha #404.8.15 | blocked 2025-12-13",
@@ -319,7 +320,6 @@
     "customer1": "🚫customer1 #404.8.14 | blocked 2025-12-13",
     "farnaz.khani": "🚫farnaz.khani #404.8.12 | blocked 2025-12-13",
     "r.taragikhah": "🚫r.taragikhah #404.8.10 | blocked 2025-12-13",
-    "aragi": "🚫aragi #404.8.15 | blocked 2025-12-13",
     "eshgkhah": "🚫eshgkhah #404.8.10 | blocked 2025-12-13",
     "esmayil.hasani": "🚫esmayil.hasani #404.8.14 | blocked 2025-12-13",
     "jahanbakhsh": "🚫jahanbakhsh #404.8.10 | blocked 2025-12-13",
@@ -575,5 +575,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-15 16:21"
+  "timestamp": "2025-12-15 16:55"
 }

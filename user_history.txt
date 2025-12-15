@@ -1,3 +1,11 @@
+aragi | unblocked | [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
+
+bazdar | unblocked | [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
+
+bazdar | manual_delete | User manually removed [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
+
+aragi | manual_delete | User manually removed [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
+
 fateme.sabunchi | added | [Note: 404.9.24] | 2025-12-15 12:24
 
 karkon | added | [Note: 404.9.23] | 2025-12-14 19:27
