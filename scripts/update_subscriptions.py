@@ -140,8 +140,18 @@ def update_server_remarks(servers):
             try:
                 # VMess Logic: Decode -> Update 'ps' -> Encode
                 base64_part = server[8:].split('#')[0]
+                # Fix Padding
+                missing_padding = len(base64_part) % 4
+                if missing_padding:
+                    base64_part += '=' * (4 - missing_padding)
+                
                 decoded = base64.b64decode(base64_part).decode('utf-8')
                 config = json.loads(decoded)
+                
+                # Fix Defaults
+                if config.get('v') is None:
+                    config['v'] = "2"
+                
                 config['ps'] = new_remark
                 # Re-encode
                 new_json = json.dumps(config, separators=(',', ':'), ensure_ascii=False)
