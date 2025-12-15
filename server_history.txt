@@ -1,3 +1,10 @@
+vless://bf2778fe-c7b3-4b01-a771-16c65cf1b265@vpn-srv-10.circlevpn.net:50858?security=tls&encryption=none&headerType=none&type=tcp#Server 188 🇺🇸 | moved_to_non_working(from:servers.txt) | 2025-12-15 08:12
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 174 🇷🇺 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 08:11
+trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 174 🇷🇺 | moved_to_main(servers.txt) | 2025-12-15 08:11
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 180 🇫🇷 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 08:11
+vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 180 🇫🇷 | moved_to_main(servers.txt) | 2025-12-15 08:11
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 188 🇫🇮 | recovered_to_main(from:servers.txt,to:servers.txt) | 2025-12-15 08:11
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 188 🇫🇮 | moved_to_main(servers.txt) | 2025-12-15 08:11
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@promo18v.bystrivpn.ru:443#Server 188 🇫🇮 | moved_to_non_working(from:servers.txt) | 2025-12-15 07:14
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=&encryption=none&headerType=none&type=tcp#Server 180 🇫🇷 | moved_to_non_working(from:servers.txt) | 2025-12-15 07:14
 trojan://af4b064a9c39472fb34ad8b113acdc6b@46.29.161.237:443?security=tls&sni=46.29.161.237&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 174 🇷🇺 | moved_to_non_working(from:servers.txt) | 2025-12-15 07:14
