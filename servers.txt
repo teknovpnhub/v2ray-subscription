@@ -81,7 +81,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:
 trojan://e2722c0fb503f8a592436c12bce0509a@160.16.150.76:3145?sni=www.nintendogames.net#Server 81 🇯🇵
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.109:38388#Server 82 🇻🇳
 trojan://e2722c0fb503f8a592436c12bce0509a@160.16.116.227:2760?sni=www.nintendogames.net&allowInsecure=1#Server 83 🇯🇵
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg@glance.asuscomm.com:10099#Server 84
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMjI0Mg@glance.asuscomm.com:10099#Server 84 🇰🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#Server 85 🇰🇭
 vless://be72cd92-92d2-4543-9bef-1673fcd03b45@fr.nextseesion.ir:35789?security=none&type=tcp%20&encryption=none#Server 86 🇫🇷
 vmess://eyJhZGQiOiAiMTU0LjIwMS43Ni4xNzIiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiIiwgImlkIjogIjQ5NmNlYzcxLWEwZmQtNGYyNS1iYmExLWNiYTllOWQ1YTUyZiIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiMjA1MjEiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiIsICJwcyI6ICJcdWQ4M2RcdWRjNDlcdWQ4M2NcdWRkOTRAdjJyYXlfY29uZmlnc19wb29sXHVkODNkXHVkY2UxXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4XHUwMGFlXHVmZTBmVW5pdGVkIFN0YXRlc1x1MDBhOVx1ZmUwZkxvcyBBbmdlbGVzXHVkODNjXHVkZDdmXHVmZTBmcGluZzo0MjFtcyJ9#Server 87 🇺🇸
