@@ -1,7 +1,7 @@
 {
   "usernames": [
-    "ali.parsa",
     "jafar.parsa",
+    "ali.parsa",
     "aragi",
     "bazdar",
     "fateme.sabunchi",
@@ -288,8 +288,8 @@
     "vahid.behruz"
   ],
   "lines": {
+    "jafar.parsa": "🚫jafar.parsa #404.9.24 | blocked 2025-12-15",
     "ali.parsa": "ali.parsa #404.9.24",
-    "jafar.parsa": "jafar.parsa #404.9.24",
     "aragi": "aragi #404.9.24",
     "bazdar": "bazdar #404.9.24",
     "fateme.sabunchi": "fateme.sabunchi #404.9.24",
@@ -575,5 +575,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-15 19:34"
+  "timestamp": "2025-12-15 19:39"
 }
