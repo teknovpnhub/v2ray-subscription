@@ -1,6 +1,7 @@
 {
   "usernames": [
-    "ali.parsa1",
+    "ali.parsa",
+    "jafar.parsa",
     "aragi",
     "bazdar",
     "fateme.sabunchi",
@@ -17,7 +18,6 @@
     "mohammadzade.van",
     "habibzade",
     "s.aslani",
-    "ali.parsa",
     "f.kalbkhani",
     "golinezhad",
     "sabri",
@@ -122,7 +122,6 @@
     "torkan",
     "amirhossein.amini",
     "meysam.mohammadi",
-    "jafar.parsa",
     "f.alinezhad",
     "narimani",
     "yusefi",
@@ -289,7 +288,8 @@
     "vahid.behruz"
   ],
   "lines": {
-    "ali.parsa1": "ali.parsa1 #404.9.24",
+    "ali.parsa": "ali.parsa #404.9.24",
+    "jafar.parsa": "jafar.parsa #404.9.24",
     "aragi": "aragi #404.9.24",
     "bazdar": "bazdar #404.9.24",
     "fateme.sabunchi": "fateme.sabunchi #404.9.24",
@@ -306,7 +306,6 @@
     "mohammadzade.van": "mohammadzade.van #404.9.22",
     "habibzade": "habibzade #404.9.22",
     "s.aslani": "🚫s.aslani #404.8.8 | blocked 2025-12-13",
-    "ali.parsa": "🚫ali.parsa #404.8.8 | blocked 2025-12-13",
     "f.kalbkhani": "🚫f.kalbkhani #404.8.8 | blocked 2025-12-13",
     "golinezhad": "🚫golinezhad #404.8.12 | blocked 2025-12-13",
     "sabri": "🚫sabri #404.8.8 | blocked 2025-12-13",
@@ -411,7 +410,6 @@
     "torkan": "torkan #404.8.29",
     "amirhossein.amini": "amirhossein.amini #404.8.28",
     "meysam.mohammadi": "meysam.mohammadi #404.8.28",
-    "jafar.parsa": "jafar.parsa #404.8.26",
     "f.alinezhad": "f.alinezhad #404.8.26",
     "narimani": "narimani #404.8.26",
     "yusefi": "yusefi #404.8.27",
@@ -577,5 +575,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-15 19:31"
+  "timestamp": "2025-12-15 19:34"
 }
