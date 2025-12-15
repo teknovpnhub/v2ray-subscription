@@ -144,9 +144,9 @@ def update_server_remarks(servers):
                 config = json.loads(decoded)
                 config['ps'] = new_remark
                 # Re-encode
-                new_json = json.dumps(config)
+                new_json = json.dumps(config, separators=(',', ':'), ensure_ascii=False)
                 new_base64 = base64.b64encode(new_json.encode('utf-8')).decode('utf-8')
-                updated_servers.append(f"vmess://{new_base64}#{new_remark}")
+                updated_servers.append(f"vmess://{new_base64}")
             except Exception:
                 # Fallback if corrupt
                 updated_servers.append(f"{base_url}#{new_remark}")
