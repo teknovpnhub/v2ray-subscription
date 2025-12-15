@@ -135,7 +135,23 @@ def update_server_remarks(servers):
             new_remark = f"Server {idx} {flag}--- {custom.strip()}"
         else:
             new_remark = f"Server {idx} {flag}"
-        updated_servers.append(f"{base_url}#{new_remark}")
+
+        if server.startswith('vmess://'):
+            try:
+                # VMess Logic: Decode -> Update 'ps' -> Encode
+                base64_part = server[8:].split('#')[0]
+                decoded = base64.b64decode(base64_part).decode('utf-8')
+                config = json.loads(decoded)
+                config['ps'] = new_remark
+                # Re-encode
+                new_json = json.dumps(config)
+                new_base64 = base64.b64encode(new_json.encode('utf-8')).decode('utf-8')
+                updated_servers.append(f"vmess://{new_base64}#{new_remark}")
+            except Exception:
+                # Fallback if corrupt
+                updated_servers.append(f"{base_url}#{new_remark}")
+        else:
+            updated_servers.append(f"{base_url}#{new_remark}")
         
         # Rate limiting: ipinfo.io allows 40k/month, so we can be faster
         # But still be safe to avoid hitting limits
