@@ -1,6 +1,5 @@
 {
   "usernames": [
-    "minaroo",
     "jafar.parsa",
     "ali.parsa",
     "aragi",
@@ -289,8 +288,7 @@
     "vahid.behruz"
   ],
   "lines": {
-    "minaroo": "🚫minaroo #404 | blocked 2025-12-16",
-    "jafar.parsa": "🚫jafar.parsa #404.9.24 | blocked 2025-12-15",
+    "jafar.parsa": "jafar.parsa #404.9.25",
     "ali.parsa": "ali.parsa #404.9.24",
     "aragi": "aragi #404.9.24",
     "bazdar": "bazdar #404.9.24",
@@ -577,5 +575,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-16 17:56"
+  "timestamp": "2025-12-16 18:36"
 }
