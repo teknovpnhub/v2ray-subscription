@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "vahid.rasuli",
     "jafar.parsa",
     "ali.parsa",
     "aragi",
@@ -288,6 +289,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "vahid.rasuli": "vahid.rasuli #404.9.25",
     "jafar.parsa": "jafar.parsa #404.9.25",
     "ali.parsa": "ali.parsa #404.9.24",
     "aragi": "aragi #404.9.24",
@@ -575,5 +577,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-16 20:02"
+  "timestamp": "2025-12-16 20:08"
 }
