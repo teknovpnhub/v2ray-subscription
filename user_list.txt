@@ -90,7 +90,7 @@ ehsan.alizade #404.9.8
 🚫ruyin #404.7.26 | blocked 2025-11-29
 🚫g.kazemi #404.8.1 | blocked 2025-11-29
 🚫yashar.valizade #404.7.29 | blocked 2025-11-29
-🚫z.pourmohammad #404.7.24 | blocked 2025-11-29
+🚫z.pourmohammad ---ub #404.9.25 | blocked 2025-11-29
 🚫khalilzade #404.8.1 | blocked 2025-11-29
 khaled.jahangiri #404.9.6
 kimiya1 #404.9.6
