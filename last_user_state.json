@@ -1,6 +1,5 @@
 {
   "usernames": [
-    "aslani1",
     "aslani",
     "z.pourmohammad",
     "vahid.rasuli",
@@ -291,7 +290,6 @@
     "vahid.behruz"
   ],
   "lines": {
-    "aslani1": "aslani1 #4555",
     "aslani": "aslani #404.9.26",
     "z.pourmohammad": "z.pourmohammad #404.9.25",
     "vahid.rasuli": "vahid.rasuli #404.9.25",
@@ -581,5 +579,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-17 11:59"
+  "timestamp": "2025-12-17 12:00"
 }
