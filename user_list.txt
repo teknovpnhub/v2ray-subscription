@@ -24,7 +24,7 @@ nahid.movazzaf #404.9.22
 n.sahrayi #404.9.22
 soheyl #404.9.22
 mohammadzade.van #404.9.22
-habibzade #404.9.22
+habibzade ---b #404.9.22
 🚫s.aslani #404.8.8 | blocked 2025-12-13
 🚫f.kalbkhani #404.8.8 | blocked 2025-12-13
 🚫golinezhad #404.8.12 | blocked 2025-12-13
@@ -140,14 +140,14 @@ a.ahmadi #404.8.26
 shokrzade #404.8.24
 pakravan #404.8.26
 habib.mojallal #404.8.26
-farshad.jabbari1 #404.8.25
-ahmadpur #404.8.24
-khodaverdizade #404.8.24
-r.khani #404.8.24
-t.maaleki2 #404.8.24
-karimi #404.8.24
-a.panahi #404.8.24
-khani1 #404.8.24
+farshad.jabbari1 ---b #404.8.25
+ahmadpur ---b #404.8.24
+khodaverdizade ---b #404.8.24
+r.khani #404.9.24
+t.maaleki2 ---b #404.8.24
+karimi ---b #404.8.24
+a.panahi ---b #404.8.24
+khani1 ---b #404.8.24
 🚫z.soltani #404.7.16 | blocked 2025-11-15
 🚫m.gorbani #404.7.15 | blocked 2025-11-15
 🚫malkami #404.7.19 | blocked 2025-11-15
@@ -163,18 +163,18 @@ khani1 #404.8.24
 🚫habibzade1 #404.7.9 | blocked 2025-11-15
 🚫a.amini #404.7.3 | blocked 2025-11-15
 🚫salmanzade1 #404.7.3 | blocked 2025-11-15
-sadegzade #404.8.22
-alireza.yasamani #404.8.21
-habibi1 #404.8.21
-afsari1 #404.8.20
-simin #404.8.20
-b.hasanlou #404.8.19
-h.novin #404.8.19
-kazemi #404.8.18
-delayimilan #404.8.17
-alipour #404.8.17
-yunes.azarakhsh #404.8.17
-m.hatami #404.8.17
+sadegzade ---b #404.8.22
+alireza.yasamani ---b #404.8.21
+habibi1 ---b #404.8.21
+afsari1 ---b #404.8.20
+simin ---b #404.8.20
+b.hasanlou ---b #404.8.19
+h.novin ---b #404.8.19
+kazemi #404 ---b.8.18
+delayimilan ---b #404.8.17
+alipour ---b #404.8.17
+yunes.azarakhsh ---b #404.8.17
+m.hatami ---b #404.8.17
 🚫s.mogaddam #404.7.7 | blocked 2025-11-08
 🚫aghaye.rahimi #404.7.7 | blocked 2025-11-08
 🚫tahmazade #404.7.7 | blocked 2025-11-08
@@ -184,7 +184,7 @@ m.hatami #404.8.17
 🚫m.mohammadi #404.7.5 | blocked 2025-11-08
 🚫abbasi #404.7.1 | blocked 2025-11-08
 🚫mandulakani #404.6.31 | blocked 2025-11-08
-hadi.mohammadi #404.8.16
+hadi.mohammadi ---b #404.8.16
 nagizade #404.8.10
 🚫rajabi #404.6.30 | blocked 2025-11-01
 🚫asiyabi #404.6.24 | blocked 2025-11-01
