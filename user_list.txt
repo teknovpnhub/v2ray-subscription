@@ -27,7 +27,7 @@ mozaffar #404.9.27
 molayi #404.9.27
 jaber.golamzade #404.9.27
 atashbar #404.9.27
-nurali.gasemi #404.9.27
+nurali.gasemi #404.10.1
 saied.mohammadi #404.9.26
 customer1 #404.9.26
 farjzade #404.9.26
