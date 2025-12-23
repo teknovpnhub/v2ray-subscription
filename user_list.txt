@@ -118,7 +118,7 @@ ehsan.alizade #404.9.8
 🚫abedi #404.7.26 | blocked 2025-11-29
 🚫customer4 #404.7.26 | blocked 2025-11-29
 🚫s.mamasi #404.7.27 | blocked 2025-11-29
-🚫ruyin #404.7.26 | blocked 2025-11-29
+🚫ruyin ---ub #404.10.2 | blocked 2025-11-29
 🚫g.kazemi #404.8.1 | blocked 2025-11-29
 🚫yashar.valizade #404.7.29 | blocked 2025-11-29
 🚫khalilzade #404.8.1 | blocked 2025-11-29
