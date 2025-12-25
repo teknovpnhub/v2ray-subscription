@@ -1,3 +1,7 @@
+sabri | blocked | | blocked 2025-12-25 [Note: 404.10.1] | 2025-12-25 16:30
+
+sabri | manual_delete | User manually removed [Note: 404.10.1] | 2025-12-25 16:30
+
 soghra.sadati | added | [Note: 404.10.4] | 2025-12-25 11:04
 
 khodaverdilu | added | [Note: 404.10.2] | 2025-12-23 11:37
