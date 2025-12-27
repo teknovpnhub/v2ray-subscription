@@ -153,19 +153,19 @@ torkan1 #404.8.29
 torkan #404.8.29
 amirhossein.amini #404.8.28
 meysam.mohammadi #404.8.28
-f.alinezhad #404.8.26
-narimani #404.8.26
-yusefi #404.8.27
-nabizade #404.8.27
-makhani #404.8.27
-taher.musalu #404.8.27
-hasani #404.8.26
-hosseinbaglu #404.8.26
-javad.golmohammadi #404.8.26
-a.ahmadi #404.8.26
-shokrzade #404.8.24
-pakravan #404.8.26
-habib.mojallal #404.8.26
+f.alinezhad ---b #404.8.26
+narimani ---b #404.8.26
+yusefi ---b #404.8.27
+nabizade ---b #404.8.27
+makhani ---b #404.8.27
+taher.musalu ---b #404.8.27
+hasani ---b #404.8.26
+hosseinbaglu ---b #404.8.26
+javad.golmohammadi ---b #404.8.26
+a.ahmadi ---b #404.8.26
+shokrzade ---b #404.8.24
+pakravan ---b #404.8.26
+habib.mojallal ---b #404.8.26
 🚫z.soltani #404.7.16 | blocked 2025-11-15
 🚫m.gorbani #404.7.15 | blocked 2025-11-15
 🚫malkami #404.7.19 | blocked 2025-11-15
@@ -189,7 +189,7 @@ habib.mojallal #404.8.26
 🚫m.mohammadi #404.7.5 | blocked 2025-11-08
 🚫abbasi #404.7.1 | blocked 2025-11-08
 🚫mandulakani #404.6.31 | blocked 2025-11-08
-nagizade #404.8.10
+nagizade ---b #404.8.10
 🚫rajabi #404.6.30 | blocked 2025-11-01
 🚫asiyabi #404.6.24 | blocked 2025-11-01
 🚫bakhshalizade #404.6.29 | blocked 2025-11-01
