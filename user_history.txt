@@ -1,10 +1,58 @@
-javadi | manual_change | Changes:
-- javadi #404.9.1
-?             ^ ^
+nagizade | blocked | | blocked 2025-12-27 [Note: 404.8.10] | 2025-12-27 04:55
 
-+ javadi #404.10.4
-?             ^^ ^
- [Note: 404.10.4] | 2025-12-25 17:02
+habib.mojallal | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+pakravan | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+shokrzade | blocked | | blocked 2025-12-27 [Note: 404.8.24] | 2025-12-27 04:55
+
+a.ahmadi | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+javad.golmohammadi | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+hosseinbaglu | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+hasani | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+taher.musalu | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
+
+makhani | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
+
+nabizade | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
+
+yusefi | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
+
+narimani | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+f.alinezhad | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
+
+f.alinezhad | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+javad.golmohammadi | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+hosseinbaglu | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+nabizade | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
+
+a.ahmadi | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+shokrzade | manual_delete | User manually removed [Note: 404.8.24] | 2025-12-27 04:55
+
+hasani | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+makhani | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
+
+nagizade | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-27 04:55
+
+pakravan | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+habib.mojallal | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+narimani | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
+
+taher.musalu | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
+
+yusefi | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
 
 sabri | blocked | | blocked 2025-12-25 [Note: 404.10.1] | 2025-12-25 16:30
 
@@ -184,8 +232,6 @@ z.pourmohammad | unblocked | [Note: 404.9.25 | blocked 2025-11-29] | 2025-12-16 
 
 z.pourmohammad | manual_delete | User manually removed [Note: 404.9.25 | blocked 2025-11-29] | 2025-12-16 20:10
 
-vahid.rasuli | added | [Note: 404.9.25] | 2025-12-16 20:08
-
 jafar.parsa | unblocked | [Note: 404.9.25 | blocked 2025-12-15] | 2025-12-16 18:36
 
 minaroo | removed | User deleted [Note: 404 | blocked 2025-12-16] | 2025-12-16 18:36
@@ -194,39 +240,13 @@ jafar.parsa | manual_delete | User manually removed [Note: 404.9.25 | blocked 20
 
 minaroo | manual_delete | User manually removed [Note: 404 | blocked 2025-12-16] | 2025-12-16 18:36
 
-minaroo | blocked | | blocked 2025-12-16 [Note: 404] | 2025-12-16 03:32
-
-minaroo | manual_delete | User manually removed [Note: 404] | 2025-12-16 03:32
-
 minaroo | unblocked | [Note: 404 | blocked 2025-12-16] | 2025-12-16 02:06
 
 minaroo | manual_delete | User manually removed [Note: 404 | blocked 2025-12-16] | 2025-12-16 02:06
 
-minaroo | blocked | | blocked 2025-12-16 [Note: 404] | 2025-12-16 01:34
-
-minaroo | manual_delete | User manually removed [Note: 404] | 2025-12-16 01:34
-
-minaroo | added | [Note: 404] | 2025-12-16 00:23
-
-jafar.parsa | blocked | | blocked 2025-12-15 [Note: 404.9.24] | 2025-12-15 19:39
-
-jafar.parsa | manual_delete | User manually removed [Note: 404.9.24] | 2025-12-15 19:39
-
-jafar.parsa | unblocked | [Note: 404.9.24] | 2025-12-15 19:34
-
 ali.parsa | unblocked | [Note: 404.9.24 | blocked 2025-12-13] | 2025-12-15 19:34
 
-ali.parsa1 | removed | User deleted [Note: 404.9.24] | 2025-12-15 19:34
-
 ali.parsa | manual_delete | User manually removed [Note: 404.9.24 | blocked 2025-12-13] | 2025-12-15 19:34
-
-jafar.parsa | manual_delete | User manually removed [Note: 404.9.24] | 2025-12-15 19:34
-
-ali.parsa1 | manual_delete | User manually removed [Note: 404.9.24] | 2025-12-15 19:34
-
-ali.parsa1 | added |  | 2025-12-15 19:31
-
-ali.parsa1 | auto_renamed | Automatically renamed from ali.parsa due to duplicate | 2025-12-15 19:31
 
 aragi | unblocked | [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
 
@@ -235,8 +255,6 @@ bazdar | unblocked | [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
 bazdar | manual_delete | User manually removed [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
 
 aragi | manual_delete | User manually removed [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-15 16:55
-
-fateme.sabunchi | added | [Note: 404.9.24] | 2025-12-15 12:24
 
 h.soleymanzade | unblocked | [Note: 404.9.23 | blocked 2025-12-13] | 2025-12-14 18:13
 
