@@ -1,4 +1,3 @@
-yusefi1 #404.10.6
 pakravan #404.10.6
 shokrzade #404.10.6
 🚫f.alinezhad #404.8.26 | blocked 2025-12-27
@@ -200,6 +199,7 @@ meysam.mohammadi #404.8.28
 🚫alizade #404.6.23 | blocked 2025-11-01
 🚫habibi #404.6.22 | blocked 2025-11-01
 🚫g.abedini #404.6.22 | blocked 2025-11-01
+🚫yusefi1 ---ub #404.10.6 | blocked 2025-10-27
 family
 ehsan #404.8.3
 🚫h.karkon #404.6.20 | blocked 2025-10-24
