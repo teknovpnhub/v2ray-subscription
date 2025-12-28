@@ -1,3 +1,7 @@
+javad.golmohammadi | unblocked | [Note: 404.10.7 | blocked 2025-12-27] | 2025-12-28 12:04
+
+javad.golmohammadi | manual_delete | User manually removed [Note: 404.10.7 | blocked 2025-12-27] | 2025-12-28 12:04
+
 nagizade | unblocked | [Note: 404.10.6 | blocked 2025-12-27] | 2025-12-27 18:57
 
 nagizade | manual_delete | User manually removed [Note: 404.10.6 | blocked 2025-12-27] | 2025-12-27 18:57
@@ -251,18 +255,6 @@ nurali.gasemi | added | [Note: 404.9.27] | 2025-12-18 11:17
 customer1 | unblocked | [Note: 404.9.26 | blocked 2025-12-13] | 2025-12-17 17:26
 
 customer1 | manual_delete | User manually removed [Note: 404.9.26 | blocked 2025-12-13] | 2025-12-17 17:26
-
-farjzade | added | [Note: 404.9.26] | 2025-12-17 13:11
-
-aslani1 | removed | User deleted [Note: 4555] | 2025-12-17 12:00
-
-aslani1 | manual_delete | User manually removed [Note: 4555] | 2025-12-17 12:00
-
-aslani1 | added |  | 2025-12-17 11:59
-
-aslani1 | auto_renamed | Automatically renamed from aslani due to duplicate | 2025-12-17 11:59
-
-aslani | added | [Note: 404.9.26] | 2025-12-17 11:58
 
 z.pourmohammad | unblocked | [Note: 404.9.25 | blocked 2025-11-29] | 2025-12-16 20:10
 
