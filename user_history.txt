@@ -1,3 +1,11 @@
+meysam.mohammadi | manual_change | Changes:
+- meysam.mohammadi #404.8.28
+?                        ---
+
++ meysam.mohammadi #404.10.8
+?                       +++
+ [Note: 404.10.8] | 2025-12-29 17:32
+
 eshgkhah | unblocked | [Note: 404.10.7 | blocked 2025-12-13] | 2025-12-28 18:57
 
 eshgkhah | manual_delete | User manually removed [Note: 404.10.7 | blocked 2025-12-13] | 2025-12-28 18:57
@@ -262,8 +270,6 @@ khani1 | manual_delete | User manually removed [Note: 404.8.24] | 2025-12-20 03:
 
 sadegzade | manual_delete | User manually removed [Note: 404.8.22] | 2025-12-20 03:04
 
-mozaffar | added | [Note: 404.9.27] | 2025-12-18 19:00
-
 molayi | unblocked | [Note: 404.9.27 | blocked 2025-12-13] | 2025-12-18 17:54
 
 molayi | manual_delete | User manually removed [Note: 404.9.27 | blocked 2025-12-13] | 2025-12-18 17:54
@@ -271,10 +277,6 @@ molayi | manual_delete | User manually removed [Note: 404.9.27 | blocked 2025-12
 jaber.golamzade | unblocked | [Note: 404.9.27 | blocked 2025-11-06] | 2025-12-18 12:32
 
 jaber.golamzade | manual_delete | User manually removed [Note: 404.9.27 | blocked 2025-11-06] | 2025-12-18 12:32
-
-atashbar | added | [Note: 404.9.27] | 2025-12-18 11:22
-
-nurali.gasemi | added | [Note: 404.9.27] | 2025-12-18 11:17
 
 customer1 | unblocked | [Note: 404.9.26 | blocked 2025-12-13] | 2025-12-17 17:26
 
