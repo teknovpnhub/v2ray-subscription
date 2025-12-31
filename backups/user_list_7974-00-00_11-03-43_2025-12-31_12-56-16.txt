@@ -1,4 +1,3 @@
-eyvari #404.10.10
 amin.mafi #404.10.9
 abedi #404.10.9
 customer7 #404.10.9
@@ -116,6 +115,7 @@ alireza.gareahmadi #404.9.14
 tamarzade #404.9.14
 daryush.tamarzade #404.9.14
 🚫a.valilou #404.8.6 | blocked 2025-12-06
+🚫eyvari ---ub #404.10.10 | blocked 2025-12-06
 🚫eyvari1 #404.8.5 | blocked 2025-12-06
 🚫customer5 #404.8.4 | blocked 2025-12-06
 🚫gorbanpur #404.8.3 | blocked 2025-12-06
