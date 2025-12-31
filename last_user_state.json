@@ -1,7 +1,7 @@
 {
   "usernames": [
-    "hoseyni",
     "shokrzade",
+    "hoseyni",
     "eyvari",
     "amin.mafi",
     "abedi",
@@ -303,8 +303,8 @@
     "vahid.behruz"
   ],
   "lines": {
+    "shokrzade": "shokrzade #404.10.6",
     "hoseyni": "hoseyni #404.10.10",
-    "shokrzade": "🚫shokrzade #404.10.6 | blocked 2025-12-31",
     "eyvari": "eyvari #404.10.10",
     "amin.mafi": "amin.mafi #404.10.9",
     "abedi": "abedi #404.10.9",
@@ -605,5 +605,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2025-12-31 19:58"
+  "timestamp": "2025-12-31 20:33"
 }
