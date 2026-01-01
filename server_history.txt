@@ -1,3 +1,4 @@
+vless://e2be0db4-4110-42eb-bca1-ba8df0897319@198.50.119.86:8080?path=/39427/Nextlife&security=none&encryption=none&host=telewebion.com&type=ws#Server 63 🇨🇦 | removed_duplicate(from:servers.txt) | 2026-01-01 19:40
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpha3ZKUXpaQ2FUZGlzU3l1U3kzYVJteXZLQzUzWDFkM1BhQXNiOXhVOG41VFk5aFNCMURLNWU2U1BtOTIxaWdIY1JzQ1RDdmYxcFd1ZlRKNUxpOFBpaVFHNHZZZHl5TTc@94.131.22.134:40565?#Server 146 🇪🇸 | removed_duplicate(from:servers.txt) | 2026-01-01 04:37
 vless://e2be0db4-4110-42eb-bca1-ba8df0897319@198.50.119.86:8080?path=/39427/Nextlife&security=none&encryption=none&host=telewebion.com&type=ws#Server 131 🇨🇦 | removed_duplicate(from:servers.txt) | 2026-01-01 04:37
 vless://47867494-9509-4c32-a90a-e9253b033279@fn11.irsbv2.ir:443?path=/&security=&encryption=none&host=cloudflare.com&type=ws#Server 127 🇫🇮 | removed_duplicate(from:servers.txt) | 2026-01-01 04:37
