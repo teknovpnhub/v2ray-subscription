@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "bazdar",
     "salamzade",
     "matin.bargi",
     "shokrzade",
@@ -73,7 +74,6 @@
     "jafar.parsa",
     "ali.parsa",
     "aragi",
-    "bazdar",
     "fateme.sabunchi",
     "karkon",
     "h.soleymanzade",
@@ -304,6 +304,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "bazdar": "bazdar #404.10.11",
     "salamzade": "salamzade #404.10.11",
     "matin.bargi": "matin.bargi #404.10.11",
     "shokrzade": "shokrzade #404.10.6",
@@ -377,7 +378,6 @@
     "jafar.parsa": "jafar.parsa #404.9.25",
     "ali.parsa": "ali.parsa #404.9.24",
     "aragi": "aragi #404.9.24",
-    "bazdar": "bazdar #404.9.24",
     "fateme.sabunchi": "fateme.sabunchi #404.9.24",
     "karkon": "karkon #404.9.23",
     "h.soleymanzade": "h.soleymanzade #404.9.23",
@@ -607,5 +607,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-01-01 17:51"
+  "timestamp": "2026-01-01 18:04"
 }
