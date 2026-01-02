@@ -149,17 +149,17 @@ ehsan.alizade #404.9.8
 🚫g.kazemi #404.8.1 | blocked 2025-11-29
 🚫yashar.valizade #404.7.29 | blocked 2025-11-29
 🚫khalilzade #404.8.1 | blocked 2025-11-29
-khaled.jahangiri #404.9.6
-kimiya1 #404.9.6
-kimiya #404.9.6
-customer6 #404.9.5
-mortaza.kazemi #404.9.5
-vahid.rastgu #404.9.5
-maharam.alizade #404.9.5
-aghapour #404.9.5
-ehsan.khosrotamar #404.9.5
-rahmanzade #404.9.5
-ansarifard #404.9.4
+khaled.jahangiri ---b #404.9.6
+kimiya1 ---b #404.9.6
+kimiya ---b #404.9.6
+customer6 ---b #404.9.5
+mortaza.kazemi ---b #404.9.5
+vahid.rastgu ---b #404.9.5
+maharam.alizade ---b #404.9.5
+aghapour ---b #404.9.5
+ehsan.khosrotamar ---b #404.9.5
+rahmanzade ---b #404.9.5
+ansarifard ---b #404.9.4
 🚫m.alizade #404.7.21 | blocked 2025-11-23
 🚫f.jafari #404.7.22 | blocked 2025-11-23
 🚫nazanin.zahra #404.7.21 | blocked 2025-11-23
@@ -168,14 +168,14 @@ ansarifard #404.9.4
 🚫farshad.jabbari #404.7.19 | blocked 2025-11-23
 🚫m.fathi #404.7.20 | blocked 2025-11-23
 🚫ujagi #404.7.22 | blocked 2025-11-23
-mokhtar.abbaszade #404.9.2
-mehdizade2 #404.9.1
-mehdizade1 #404.9.1
-mehdi.asiyabi #404.9.1
-akram.hajalilu #404.9.1
-torkan1 #404.8.29
-torkan #404.8.29
-amirhossein.amini #404.8.28
+mokhtar.abbaszade ---b #404.9.2
+mehdizade2 ---b #404.9.1
+mehdizade1 ---b #404.9.1
+mehdi.asiyabi ---b #404.9.1
+akram.hajalilu ---b #404.9.1
+torkan1 ---b #404.8.29
+torkan ---b #404.8.29
+amirhossein.amini ---b #404.8.28
 🚫z.soltani #404.7.16 | blocked 2025-11-15
 🚫m.gorbani #404.7.15 | blocked 2025-11-15
 🚫malkami #404.7.19 | blocked 2025-11-15
