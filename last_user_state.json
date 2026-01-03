@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "torkan",
     "dorosti",
     "ansarifard",
     "peyman.kh",
@@ -7,7 +8,6 @@
     "ehsan.khosrotamar",
     "aghapour",
     "khaled.jahangiri",
-    "torkan",
     "mehdizade2",
     "vahid.rastgu",
     "amirhossein.amini",
@@ -306,6 +306,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "torkan": "torkan #404.10.13",
     "dorosti": "dorosti #404.10.13",
     "ansarifard": "ansarifard #404.10.13",
     "peyman.kh": "peyman.kh #404.10.13",
@@ -313,7 +314,6 @@
     "ehsan.khosrotamar": "🚫ehsan.khosrotamar #404.9.5 | blocked 2026-01-03",
     "aghapour": "🚫aghapour #404.9.5 | blocked 2026-01-03",
     "khaled.jahangiri": "🚫khaled.jahangiri #404.9.6 | blocked 2026-01-03",
-    "torkan": "🚫torkan #404.8.29 | blocked 2026-01-03",
     "mehdizade2": "🚫mehdizade2 #404.9.1 | blocked 2026-01-03",
     "vahid.rastgu": "🚫vahid.rastgu #404.9.5 | blocked 2026-01-03",
     "amirhossein.amini": "🚫amirhossein.amini #404.8.28 | blocked 2026-01-03",
@@ -611,5 +611,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-01-03 17:50"
+  "timestamp": "2026-01-03 18:10"
 }
