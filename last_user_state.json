@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "ansarifard",
     "peyman.kh",
     "rahmanzade",
     "ehsan.khosrotamar",
@@ -16,7 +17,6 @@
     "mortaza.kazemi",
     "kimiya",
     "torkan1",
-    "ansarifard",
     "mehdizade1",
     "customer6",
     "kimiya1",
@@ -305,6 +305,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "ansarifard": "ansarifard #404.10.13",
     "peyman.kh": "peyman.kh #404.10.13",
     "rahmanzade": "rahmanzade #404.10.13",
     "ehsan.khosrotamar": "🚫ehsan.khosrotamar #404.9.5 | blocked 2026-01-03",
@@ -321,7 +322,6 @@
     "mortaza.kazemi": "🚫mortaza.kazemi #404.9.5 | blocked 2026-01-03",
     "kimiya": "🚫kimiya #404.9.6 | blocked 2026-01-03",
     "torkan1": "🚫torkan1 #404.8.29 | blocked 2026-01-03",
-    "ansarifard": "🚫ansarifard #404.9.4 | blocked 2026-01-03",
     "mehdizade1": "🚫mehdizade1 #404.9.1 | blocked 2026-01-03",
     "customer6": "🚫customer6 #404.9.5 | blocked 2026-01-03",
     "kimiya1": "🚫kimiya1 #404.9.6 | blocked 2026-01-03",
@@ -609,5 +609,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-01-03 16:59"
+  "timestamp": "2026-01-03 17:28"
 }
