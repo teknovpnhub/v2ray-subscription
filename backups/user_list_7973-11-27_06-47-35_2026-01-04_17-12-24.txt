@@ -1,4 +1,3 @@
-javadi #404.10.14
 parvin.bargushluyi #404.10.14
 akram.hajalilu #404.10.14
 torkan #404.10.13
@@ -53,6 +52,7 @@ pakravan #404.10.6
 🚫hasani #404.8.26 | blocked 2025-12-27
 🚫narimani #404.8.26 | blocked 2025-12-27
 🚫taher.musalu #404.8.27 | blocked 2025-12-27
+javadi ---ub #404.10.14
 soghra.sadati #404.10.4
 khodaverdilu #404.10.2
 ruyin #404.10.2
