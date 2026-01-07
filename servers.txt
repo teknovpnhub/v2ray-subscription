@@ -1,3 +1,18 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMjg1M2Y5YmI4Nzc3NzM0@57.129.94.79:11207#🇩🇪 Frankfurt am Main, HE, Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MWRkYzk3NzM2MGRkZTg5@135.125.219.2:41042#🇩🇪 Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YTU3YTQwM2YxYWNhZWEx@51.75.89.203:13021#🇩🇪 Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN2VmNGYwMjlmMWFjMGFj@141.95.105.28:11201#🇩🇪 Limburg an der Lahn, HE, Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowYjJlMzlhNDY0MjY4NGFh@135.125.219.2:23349#🇩🇪 Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYWMxYmUzNjI4Njk4NmU0@57.129.94.79:11205#🇩🇪 Frankfurt am Main, HE, Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NmI0YThlODM1Mzg4YWI1@135.125.219.2:20082#🇩🇪 Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyZTk2NjU5NzdlZTBkY2Y4@135.125.219.2:15294#🇩🇪 Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMGU0MDE0YmIyMmY3MzI5@57.129.95.78:11201#🇩🇪 Frankfurt am Main, HE, Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNWJhNDg1OWZlMzkxODE0@135.125.219.2:43081#🇩🇪 Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MGM0NTVjOWYxOWFhM2E1@57.129.94.79:11206#🇩🇪 Frankfurt am Main, HE, Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMDQ3MDM2YzQ1NTk2NjA1@57.129.94.79:11208#🇩🇪 Frankfurt am Main, HE, Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQUhNMXBtOGFnN0tkbHJVeWxRaTZ0@38.244.136.233:443#🇫🇮 Helsinki, 18, Finland
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NTc4MjkyMWE4ZTcwODAy@195.7.6.160:18550#🇩🇪 Karlsruhe, BW, Germany
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNzkyZmY0YjUxN2ZkZjFj@51.68.146.248:10011#🇫🇷 France
 vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@151.101.3.8:80?path=/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN&security=&encryption=none&host=mitivpn.global.ssl.fastly.net&type=ws#Server 1 🇺🇸
 vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@151.101.3.8:80?path=/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN&security=none&encryption=none&host=mitivpn.global.ssl.fastly.net&type=ws#Server 2 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTRGFGSVNyM0dmbTZZa0JTU3JGSUV3d1dqRUVVN1hibw@95.164.10.228:443#Server 3 🇳🇱
