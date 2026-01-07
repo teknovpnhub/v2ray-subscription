@@ -1,3 +1,5 @@
+hasan.rasuli | added | [Note: 404.10.17] | 2026-01-07 10:53
+
 shahram.karimi | added | [Note: 404.10.16] | 2026-01-06 17:36
 
 teymuri | added | [Note: 404.10.16] | 2026-01-06 13:43
@@ -194,10 +196,6 @@ habib.mojallal | manual_delete | User manually removed [Note: 404.10.6 | blocked
 
 yusefi | unblocked | [Note: 404.10.6 | blocked 2025-12-27] | 2025-12-27 13:51
 
-yusefi1 | blocked | | blocked 2025-12-27 [Note: 404.10.6] | 2025-12-27 13:51
-
-yusefi1 | manual_delete | User manually removed [Note: 404.10.6] | 2025-12-27 13:51
-
 yusefi | manual_delete | User manually removed [Note: 404.10.6 | blocked 2025-12-27] | 2025-12-27 13:51
 
 yusefi1 | unblocked | [Note: 404.10.6 | blocked 2025-10-27] | 2025-12-27 13:15
@@ -211,62 +209,6 @@ pakravan | manual_delete | User manually removed [Note: 404.10.6 | blocked 2025-
 shokrzade | unblocked | [Note: 404.10.6 | blocked 2025-12-27] | 2025-12-27 11:41
 
 shokrzade | manual_delete | User manually removed [Note: 404.10.6 | blocked 2025-12-27] | 2025-12-27 11:41
-
-nagizade | blocked | | blocked 2025-12-27 [Note: 404.8.10] | 2025-12-27 04:55
-
-habib.mojallal | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-pakravan | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-shokrzade | blocked | | blocked 2025-12-27 [Note: 404.8.24] | 2025-12-27 04:55
-
-a.ahmadi | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-javad.golmohammadi | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-hosseinbaglu | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-hasani | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-taher.musalu | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
-
-makhani | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
-
-nabizade | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
-
-yusefi | blocked | | blocked 2025-12-27 [Note: 404.8.27] | 2025-12-27 04:55
-
-narimani | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-f.alinezhad | blocked | | blocked 2025-12-27 [Note: 404.8.26] | 2025-12-27 04:55
-
-f.alinezhad | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-javad.golmohammadi | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-hosseinbaglu | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-nabizade | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
-
-a.ahmadi | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-shokrzade | manual_delete | User manually removed [Note: 404.8.24] | 2025-12-27 04:55
-
-hasani | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-makhani | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
-
-nagizade | manual_delete | User manually removed [Note: 404.8.10] | 2025-12-27 04:55
-
-pakravan | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-habib.mojallal | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-narimani | manual_delete | User manually removed [Note: 404.8.26] | 2025-12-27 04:55
-
-taher.musalu | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
-
-yusefi | manual_delete | User manually removed [Note: 404.8.27] | 2025-12-27 04:55
 
 ruyin | unblocked | [Note: 404.10.2 | blocked 2025-11-29] | 2025-12-23 10:58
 
