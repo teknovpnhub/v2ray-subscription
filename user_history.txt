@@ -1,3 +1,5 @@
+dolatkhah | added | [Note: 404.10.18] | 2026-01-08 11:17
+
 mehdizade1 | unblocked | [Note: 404.10.17 | blocked 2026-01-03] | 2026-01-07 19:57
 
 mehdizade1 | manual_delete | User manually removed [Note: 404.10.17 | blocked 2026-01-03] | 2026-01-07 19:57
@@ -170,17 +172,9 @@ makhani | unblocked | [Note: 404.10.7 | blocked 2025-12-27] | 2025-12-28 17:23
 
 makhani | manual_delete | User manually removed [Note: 404.10.7 | blocked 2025-12-27] | 2025-12-28 17:23
 
-robab.valizade | added | [Note: 404.10.7] | 2025-12-28 17:02
-
-seyyedhoseyni1 | added |  | 2025-12-28 16:57
-
-seyyedhoseyni1 | auto_renamed | Automatically renamed from seyyedhoseyni due to duplicate | 2025-12-28 16:57
-
 sabri | unblocked | [Note: 404.10.7 | blocked 2025-12-25] | 2025-12-28 16:41
 
 sabri | manual_delete | User manually removed [Note: 404.10.7 | blocked 2025-12-25] | 2025-12-28 16:41
-
-yusefzade | added | [Note: 404.10.7] | 2025-12-28 13:17
 
 a.ahmadi | unblocked | [Note: 404.10.7 | blocked 2025-12-27] | 2025-12-28 12:23
 
