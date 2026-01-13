@@ -17,7 +17,7 @@ vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@151.101.3.8:80?path=/---@MiTiVPN/--
 vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@151.101.3.8:80?path=/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN&security=none&encryption=none&host=mitivpn.global.ssl.fastly.net&type=ws#Server 17 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTRGFGSVNyM0dmbTZZa0JTU3JGSUV3d1dqRUVVN1hibw@95.164.10.228:443#Server 18 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3azZsQTRYUm5FV2ZFbkRyZG0wTlk2@145.249.109.144:15544#Server 19 🇪🇸
-vless://8b31b301-5770-4b71-b1a9-8a9546e4fd12@pysrvip.glovesstore1.ir:3101?security=&encryption=none&headerType=&type=tcp&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#Server 20 🇩🇪
+vless://8b31b301-5770-4b71-b1a9-8a9546e4fd12@pysrvip.glovesstore1.ir:3101?security=&encryption=none&headerType=&type=tcp&note=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#Server 20 🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMTdmMTNjNWMyZWJkZWEz@5.188.227.18:11205#Server 21 🇮🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMTdmMTNjNWMyZWJkZWEz@5.188.227.18:11204#Server 22 🇮🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMTBiZDI1YjIxOTk1ZTU2@135.125.219.2:40266#Server 23 🇩🇪
@@ -93,7 +93,7 @@ vless://440766d1-858f-4719-84f5-c2de6f6227b2@65.108.231.185:443?security=tls&amp
 vless://7b148add-4438-426e-a583-50f11e7bd0e4@91.107.244.15:443?mode=gun&security=none&encryption=none&type=grpc#Server 93 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NDkxOGJjODAxZDUzYTRi@57.130.28.148:11201#Server 94 🇫🇷
 vless://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.4.127:8880?security=&encryption=none&type=grpc#Server 95 🇺🇸
-vless://4ad217a5-5a96-4095-a96c-837ffc73f97c@vpn.zorixvpn.site:8443?security=tls&encryption=none&headerType=none&type=tcp#Server 96 🇳🇱
+vless://4ad217a5-5a96-4095-a96c-837ffc73f97c@vpn.zorixvpn.site:8443?security=tls&encryption=none&headerType=none&type=tcp#Server 96
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTRjZGVlMTBmOGIyNWNl@57.129.95.38:11201#Server 97 🇩🇪
 vless://7b148add-4438-426e-a583-50f11e7bd0e4@91.107.244.15:443?flow=&type=grpc&mode=gun&serviceName=&security=none#Server 98 🇩🇪
 vless://7b148add-4438-426e-a583-50f11e7bd0e4@91.107.244.15:443?encryption=none&type=grpc&security=none#Server 99 🇩🇪
