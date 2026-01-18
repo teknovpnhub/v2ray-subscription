@@ -1,3 +1,34 @@
+🚫ali.parsa #404.9.24 | blocked 2026-01-18
+🚫yunesi #404.9.22 | blocked 2026-01-18
+🚫soltani #404.9.19 | blocked 2026-01-18
+🚫alireza.aghazade #404.9.18 | blocked 2026-01-18
+🚫soodabeh.aghayi #404.9.20 | blocked 2026-01-18
+🚫majid.lotfi #404.9.16 | blocked 2026-01-18
+🚫alrostam #404.9.16 | blocked 2026-01-18
+🚫z.pourmohammad #404.9.25 | blocked 2026-01-18
+🚫fahmi #404.9.16 | blocked 2026-01-18
+🚫mehdizade #404.9.14 | blocked 2026-01-18
+🚫aragi #404.9.24 | blocked 2026-01-18
+🚫fateme.sabunchi #404.9.24 | blocked 2026-01-18
+🚫daryush.tamarzade #404.9.14 | blocked 2026-01-18
+🚫navid.maaleki #404.9.23 | blocked 2026-01-18
+🚫hoseyn.karimpur #404.9.15 | blocked 2026-01-18
+🚫nahid.movazzaf #404.9.22 | blocked 2026-01-18
+🚫karkon #404.9.23 | blocked 2026-01-18
+🚫tamarzade #404.9.14 | blocked 2026-01-18
+🚫jafar.parsa #404.9.25 | blocked 2026-01-18
+🚫dahri #404.9.18 | blocked 2026-01-18
+🚫s.ebadi #404.9.23 | blocked 2026-01-18
+🚫m.masumi #404.9.11 | blocked 2026-01-18
+🚫h.soleymanzade #404.9.23 | blocked 2026-01-18
+🚫mamadi #404.9.15 | blocked 2026-01-18
+🚫alireza.gareahmadi #404.9.14 | blocked 2026-01-18
+🚫behruz.nurmohammadi #404.9.23 | blocked 2026-01-18
+🚫n.sahrayi #404.9.22 | blocked 2026-01-18
+🚫vali.milani #404.9.15 | blocked 2026-01-18
+🚫vahid.rasuli #404.9.25 | blocked 2026-01-18
+🚫ebrahim.golizade #404.9.20 | blocked 2026-01-18
+🚫dehgani #404.9.15 | blocked 2026-01-18
 ashrafi #404.10.18
 mohammad.panahi #404.10.18
 pashayi #404.10.18
@@ -104,20 +135,6 @@ saied.mohammadi #404.9.26
 customer1 #404.9.26
 farjzade #404.9.26
 aslani #404.9.26
-z.pourmohammad ---b #404.9.25
-vahid.rasuli ---b #404.9.25
-jafar.parsa ---b #404.9.25
-ali.parsa ---b #404.9.24
-aragi ---b #404.9.24
-fateme.sabunchi ---b #404.9.24
-karkon ---b #404.9.23
-h.soleymanzade ---b #404.9.23
-navid.maaleki ---b #404.9.23
-s.ebadi ---b #404.9.23
-behruz.nurmohammadi ---b #404.9.23
-yunesi ---b #404.9.22
-nahid.movazzaf ---b #404.9.22
-n.sahrayi ---b #404.9.22
 soheyl #404.9.22
 mohammadzade.van #404.9.22
 🚫s.aslani #404.8.8 | blocked 2025-12-13
@@ -135,24 +152,7 @@ mohammadzade.van #404.9.22
 🚫esmayil.hasani #404.8.14 | blocked 2025-12-13
 🚫jahanbakhsh #404.8.10 | blocked 2025-12-13
 🚫rostam.soltani #404.8.15 | blocked 2025-12-13
-ebrahim.golizade ---b #404.9.20
-soodabeh.aghayi ---b #404.9.20
-majid.lotfi ---b #404.9.16
-soltani ---b #404.9.19
-dahri ---b #404.9.18
-alireza.aghazade ---b #404.9.18
 me.2025
-m.masumi ---b #404.9.11
-alrostam ---b #404.9.16
-fahmi ---b #404.9.16
-vali.milani ---b #404.9.15
-hoseyn.karimpur ---b #404.9.15
-dehgani ---b #404.9.15
-mamadi ---b #404.9.15
-mehdizade ---b #404.9.14
-alireza.gareahmadi ---b #404.9.14
-tamarzade ---b #404.9.14
-daryush.tamarzade ---b #404.9.14
 🚫a.valilou #404.8.6 | blocked 2025-12-06
 🚫eyvari1 #404.8.5 | blocked 2025-12-06
 🚫gorbanpur #404.8.3 | blocked 2025-12-06
