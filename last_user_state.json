@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "hasan.gorbani",
     "mahdi.kiyarash",
     "ali.parsa",
     "yunesi",
@@ -320,6 +321,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "hasan.gorbani": "hasan.gorbani #404.10.28",
     "mahdi.kiyarash": "mahdi.kiyarash #404.10.28",
     "ali.parsa": "🚫ali.parsa #404.9.24 | blocked 2026-01-18",
     "yunesi": "🚫yunesi #404.9.22 | blocked 2026-01-18",
@@ -639,5 +641,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-01-18 17:32"
+  "timestamp": "2026-01-18 17:39"
 }
