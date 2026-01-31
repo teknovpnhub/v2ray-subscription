@@ -1,10 +1,102 @@
-ansarifard | manual_change | Changes:
-- ansarifard #404.10.13
-?                  ^  ^
+customer1 | blocked | | blocked 2026-01-31 [Note: 404.9.26] | 2026-01-31 17:14
 
-+ ansarifard #404.11.11
-?                  ^  ^
- [Note: 404.11.11] | 2026-01-31 17:10
+saied.mohammadi | blocked | | blocked 2026-01-31 [Note: 404.9.26] | 2026-01-31 17:14
+
+atashbar | blocked | | blocked 2026-01-31 [Note: 404.9.27] | 2026-01-31 17:14
+
+jaber.golamzade | blocked | | blocked 2026-01-31 [Note: 404.9.27] | 2026-01-31 17:14
+
+molayi | blocked | | blocked 2026-01-31 [Note: 404.9.27] | 2026-01-31 17:14
+
+mozaffar | blocked | | blocked 2026-01-31 [Note: 404.9.27] | 2026-01-31 17:14
+
+r.khani | blocked | | blocked 2026-01-31 [Note: 404.9.24] | 2026-01-31 17:14
+
+yunes.azarakhsh | blocked | | blocked 2026-01-31 [Note: 404.9.29] | 2026-01-31 17:14
+
+khani1 | blocked | | blocked 2026-01-31 [Note: 404.9.29] | 2026-01-31 17:14
+
+alipur | blocked | | blocked 2026-01-31 [Note: 404.9.29] | 2026-01-31 17:14
+
+a.panahi | blocked | | blocked 2026-01-31 [Note: 404.9.29] | 2026-01-31 17:14
+
+habibzade | blocked | | blocked 2026-01-31 [Note: 404.9.22] | 2026-01-31 17:14
+
+alipour | blocked | | blocked 2026-01-31 [Note: 404.9.29] | 2026-01-31 17:14
+
+hadi.mohammadi | blocked | | blocked 2026-01-31 [Note: 404.9.29] | 2026-01-31 17:14
+
+t.maaleki2 | blocked | | blocked 2026-01-31 [Note: 404.9.30] | 2026-01-31 17:14
+
+sadegzade | blocked | | blocked 2026-01-31 [Note: 404.9.30] | 2026-01-31 17:14
+
+kazemi | blocked | | blocked 2026-01-31 [Note: 404.9.30] | 2026-01-31 17:14
+
+hamed.khani | blocked | | blocked 2026-01-31 [Note: 404.10.1] | 2026-01-31 17:14
+
+seyyedhamidi | blocked | | blocked 2026-01-31 [Note: 404.10.1] | 2026-01-31 17:14
+
+nurali.gasemi | blocked | | blocked 2026-01-31 [Note: 404.10.1] | 2026-01-31 17:14
+
+ruyin | blocked | | blocked 2026-01-31 [Note: 404.10.2] | 2026-01-31 17:14
+
+khodaverdilu | blocked | | blocked 2026-01-31 [Note: 404.10.2] | 2026-01-31 17:14
+
+soghra.sadati | blocked | | blocked 2026-01-31 [Note: 404.10.4] | 2026-01-31 17:14
+
+pakravan | blocked | | blocked 2026-01-31 [Note: 404.10.6] | 2026-01-31 17:14
+
+yusefi | blocked | | blocked 2026-01-31 [Note: 404.10.6] | 2026-01-31 17:14
+
+r.khani | manual_delete | User manually removed [Note: 404.9.24] | 2026-01-31 17:14
+
+molayi | manual_delete | User manually removed [Note: 404.9.27] | 2026-01-31 17:14
+
+soghra.sadati | manual_delete | User manually removed [Note: 404.10.4] | 2026-01-31 17:14
+
+kazemi | manual_delete | User manually removed [Note: 404.9.30] | 2026-01-31 17:14
+
+alipur | manual_delete | User manually removed [Note: 404.9.29] | 2026-01-31 17:14
+
+hadi.mohammadi | manual_delete | User manually removed [Note: 404.9.29] | 2026-01-31 17:14
+
+nurali.gasemi | manual_delete | User manually removed [Note: 404.10.1] | 2026-01-31 17:14
+
+yunes.azarakhsh | manual_delete | User manually removed [Note: 404.9.29] | 2026-01-31 17:14
+
+khani1 | manual_delete | User manually removed [Note: 404.9.29] | 2026-01-31 17:14
+
+yusefi | manual_delete | User manually removed [Note: 404.10.6] | 2026-01-31 17:14
+
+habibzade | manual_delete | User manually removed [Note: 404.9.22] | 2026-01-31 17:14
+
+saied.mohammadi | manual_delete | User manually removed [Note: 404.9.26] | 2026-01-31 17:14
+
+atashbar | manual_delete | User manually removed [Note: 404.9.27] | 2026-01-31 17:14
+
+jaber.golamzade | manual_delete | User manually removed [Note: 404.9.27] | 2026-01-31 17:14
+
+alipour | manual_delete | User manually removed [Note: 404.9.29] | 2026-01-31 17:14
+
+sadegzade | manual_delete | User manually removed [Note: 404.9.30] | 2026-01-31 17:14
+
+hamed.khani | manual_delete | User manually removed [Note: 404.10.1] | 2026-01-31 17:14
+
+t.maaleki2 | manual_delete | User manually removed [Note: 404.9.30] | 2026-01-31 17:14
+
+seyyedhamidi | manual_delete | User manually removed [Note: 404.10.1] | 2026-01-31 17:14
+
+a.panahi | manual_delete | User manually removed [Note: 404.9.29] | 2026-01-31 17:14
+
+pakravan | manual_delete | User manually removed [Note: 404.10.6] | 2026-01-31 17:14
+
+ruyin | manual_delete | User manually removed [Note: 404.10.2] | 2026-01-31 17:14
+
+customer1 | manual_delete | User manually removed [Note: 404.9.26] | 2026-01-31 17:14
+
+khodaverdilu | manual_delete | User manually removed [Note: 404.10.2] | 2026-01-31 17:14
+
+mozaffar | manual_delete | User manually removed [Note: 404.9.27] | 2026-01-31 17:14
 
 ehsan.alizade | blocked | | blocked 2026-01-31 [Note: 404.9.8] | 2026-01-31 17:04
 
