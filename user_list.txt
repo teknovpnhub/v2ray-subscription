@@ -81,7 +81,7 @@ mahdi.kiyarash #404.10.28
 🚫n.sahrayi #404.9.22 | blocked 2026-01-18
 🚫vali.milani #404.9.15 | blocked 2026-01-18
 🚫vahid.rasuli #404.9.25 | blocked 2026-01-18
-🚫ebrahim.golizade #404.9.20 | blocked 2026-01-18
+🚫ebrahim.golizade ---ub #404.11.11 | blocked 2026-01-18
 🚫dehgani #404.9.15 | blocked 2026-01-18
 ashrafi #404.10.18
 mohammad.panahi #404.10.18
