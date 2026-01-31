@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "r.taragikhah",
     "abrishami",
     "esfandiyari",
     "tohid.aslanzade",
@@ -173,7 +174,6 @@
     "babayi",
     "raha",
     "farnaz.khani",
-    "r.taragikhah",
     "esmayil.hasani",
     "jahanbakhsh",
     "rostam.soltani",
@@ -326,6 +326,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "r.taragikhah": "r.taragikhah #404.11.11",
     "abrishami": "abrishami #404.11.11",
     "esfandiyari": "esfandiyari #404.11.11",
     "tohid.aslanzade": "tohid.aslanzade #404.11.11",
@@ -499,7 +500,6 @@
     "babayi": "🚫babayi #404.8.12 | blocked 2025-12-13",
     "raha": "🚫raha #404.8.15 | blocked 2025-12-13",
     "farnaz.khani": "🚫farnaz.khani #404.8.12 | blocked 2025-12-13",
-    "r.taragikhah": "🚫r.taragikhah #404.8.10 | blocked 2025-12-13",
     "esmayil.hasani": "🚫esmayil.hasani #404.8.14 | blocked 2025-12-13",
     "jahanbakhsh": "🚫jahanbakhsh #404.8.10 | blocked 2025-12-13",
     "rostam.soltani": "🚫rostam.soltani #404.8.15 | blocked 2025-12-13",
@@ -651,5 +651,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-01-31 19:27"
+  "timestamp": "2026-01-31 19:42"
 }
