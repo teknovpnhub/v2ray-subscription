@@ -28,7 +28,6 @@ vali.milani #404.9.15 | blocked 2026-01-18
 vahid.rasuli #404.9.25 | blocked 2026-01-18
 ebrahim.golizade #404.9.20 | blocked 2026-01-18
 dehgani #404.9.15 | blocked 2026-01-18
-ehsan.khosrotamar #404.9.5 | blocked 2026-01-03
 aghapour #404.9.5 | blocked 2026-01-03
 khaled.jahangiri #404.9.6 | blocked 2026-01-03
 mehdizade2 #404.9.1 | blocked 2026-01-03

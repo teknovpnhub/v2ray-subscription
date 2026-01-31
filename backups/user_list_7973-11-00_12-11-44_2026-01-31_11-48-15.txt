@@ -1,4 +1,3 @@
-ehsan.khosrotamar #404.11.11
 dahri #404.11.11
 mahdi.rayi #404.11.9
 hasan.gorbani #404.10.28
@@ -58,6 +57,7 @@ dorosti #404.10.13
 ansarifard #404.10.13
 peyman.kh #404.10.13
 rahmanzade #404.10.13
+🚫ehsan.khosrotamar ---ub #404.11.11 | blocked 2026-01-03
 🚫aghapour #404.9.5 | blocked 2026-01-03
 🚫khaled.jahangiri #404.9.6 | blocked 2026-01-03
 🚫mehdizade2 #404.9.1 | blocked 2026-01-03
