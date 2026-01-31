@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "dahri",
     "mahdi.rayi",
     "hasan.gorbani",
     "mahdi.kiyarash",
@@ -22,7 +23,6 @@
     "karkon",
     "tamarzade",
     "jafar.parsa",
-    "dahri",
     "s.ebadi",
     "m.masumi",
     "h.soleymanzade",
@@ -322,7 +322,8 @@
     "vahid.behruz"
   ],
   "lines": {
-    "mahdi.rayi": "mahdi.rayi #404.10.9",
+    "dahri": "dahri #404.11.11",
+    "mahdi.rayi": "mahdi.rayi #404.11.9",
     "hasan.gorbani": "hasan.gorbani #404.10.28",
     "mahdi.kiyarash": "mahdi.kiyarash #404.10.28",
     "ali.parsa": "🚫ali.parsa #404.9.24 | blocked 2026-01-18",
@@ -344,7 +345,6 @@
     "karkon": "🚫karkon #404.9.23 | blocked 2026-01-18",
     "tamarzade": "🚫tamarzade #404.9.14 | blocked 2026-01-18",
     "jafar.parsa": "🚫jafar.parsa #404.9.25 | blocked 2026-01-18",
-    "dahri": "🚫dahri #404.9.18 | blocked 2026-01-18",
     "s.ebadi": "🚫s.ebadi #404.9.23 | blocked 2026-01-18",
     "m.masumi": "🚫m.masumi #404.9.11 | blocked 2026-01-18",
     "h.soleymanzade": "🚫h.soleymanzade #404.9.23 | blocked 2026-01-18",
@@ -643,5 +643,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-01-31 10:12"
+  "timestamp": "2026-01-31 10:55"
 }
