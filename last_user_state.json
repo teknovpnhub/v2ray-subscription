@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "i.izadi",
     "pakravan",
     "amir.abdeli",
     "karim.abbaszade",
@@ -323,11 +324,11 @@
     "siami",
     "azmun",
     "vahid",
-    "i.izadi",
     "mm",
     "vahid.behruz"
   ],
   "lines": {
+    "i.izadi": "i.izadi #404.11.12",
     "pakravan": "pakravan #404.11.12",
     "amir.abdeli": "amir.abdeli #404.11.12",
     "karim.abbaszade": "karim.abbaszade #404.11.12",
@@ -651,9 +652,8 @@
     "siami": "🚫siami #404.4.22 | blocked 2025-07-23",
     "azmun": "azmun #404.4.29",
     "vahid": "vahid",
-    "i.izadi": "🚫i.izadi #404.4.17",
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-01 12:36"
+  "timestamp": "2026-02-01 12:39"
 }

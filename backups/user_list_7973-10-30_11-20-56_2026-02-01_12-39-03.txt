@@ -1,4 +1,3 @@
-i.izadi #404.11.12
 pakravan #404.11.12
 amir.abdeli #404.11.12
 karim.abbaszade #404.11.12
@@ -322,5 +321,6 @@ erfan #404.5.21
 🚫siami #404.4.22 | blocked 2025-07-23
 azmun #404.4.29
 vahid
+🚫i.izadi ---ub #404.11.12
 🚫mm
 vahid.behruz
