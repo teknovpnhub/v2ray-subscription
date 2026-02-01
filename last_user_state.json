@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "narimani",
     "i.izadi",
     "pakravan",
     "amir.abdeli",
@@ -104,7 +105,6 @@
     "teymuri",
     "mirhossein.mohammadi",
     "amir.valizade",
-    "narimani",
     "allahverdizade",
     "nemati",
     "javadi",
@@ -328,6 +328,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "narimani": "narimani #404.11.11",
     "i.izadi": "i.izadi #404.11.12",
     "pakravan": "pakravan #404.11.12",
     "amir.abdeli": "amir.abdeli #404.11.12",
@@ -432,7 +433,6 @@
     "teymuri": "teymuri #404.10.16",
     "mirhossein.mohammadi": "mirhossein.mohammadi #404.10.16",
     "amir.valizade": "amir.valizade #404.10.16",
-    "narimani": "narimani #404.10.15",
     "allahverdizade": "allahverdizade #404.10.15",
     "nemati": "nemati #404.10.14",
     "javadi": "javadi #404.10.14",
@@ -655,5 +655,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-01 17:58"
+  "timestamp": "2026-02-01 18:15"
 }
