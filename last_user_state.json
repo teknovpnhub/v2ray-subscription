@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "alipour",
     "masud.alipur",
     "puya.hajaghayi",
     "yusefi",
@@ -32,7 +33,6 @@
     "saied.mohammadi",
     "atashbar",
     "jaber.golamzade",
-    "alipour",
     "sadegzade",
     "t.maaleki2",
     "hamed.khani",
@@ -330,6 +330,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "alipour": "alipour #404.11.12",
     "masud.alipur": "masud.alipur #404.11.12",
     "puya.hajaghayi": "puya.hajaghayi #404.11.12",
     "yusefi": "yusefi #404.11.12",
@@ -362,7 +363,6 @@
     "saied.mohammadi": "🚫saied.mohammadi #404.9.26 | blocked 2026-01-31",
     "atashbar": "🚫atashbar #404.9.27 | blocked 2026-01-31",
     "jaber.golamzade": "🚫jaber.golamzade #404.9.27 | blocked 2026-01-31",
-    "alipour": "🚫alipour #404.9.29 | blocked 2026-01-31",
     "sadegzade": "🚫sadegzade #404.9.30 | blocked 2026-01-31",
     "t.maaleki2": "🚫t.maaleki2 #404.9.30 | blocked 2026-01-31",
     "hamed.khani": "🚫hamed.khani #404.10.1 | blocked 2026-01-31",
@@ -659,5 +659,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-01 18:57"
+  "timestamp": "2026-02-01 19:13"
 }
