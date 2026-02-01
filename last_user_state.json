@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "amir.abdeli",
     "karim.abbaszade",
     "simin",
     "habib.mojallal",
@@ -327,6 +328,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "amir.abdeli": "amir.abdeli #404.11.12",
     "karim.abbaszade": "karim.abbaszade #404.11.12",
     "simin": "simin #404.11.12",
     "habib.mojallal": "habib.mojallal #404.11.11",
@@ -653,5 +655,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-01 11:40"
+  "timestamp": "2026-02-01 11:47"
 }
