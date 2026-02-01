@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "pakravan",
     "amir.abdeli",
     "karim.abbaszade",
     "simin",
@@ -32,7 +33,6 @@
     "t.maaleki2",
     "hamed.khani",
     "seyyedhamidi",
-    "pakravan",
     "ruyin",
     "customer1",
     "khodaverdilu",
@@ -328,6 +328,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "pakravan": "pakravan #404.11.12",
     "amir.abdeli": "amir.abdeli #404.11.12",
     "karim.abbaszade": "karim.abbaszade #404.11.12",
     "simin": "simin #404.11.12",
@@ -360,7 +361,6 @@
     "t.maaleki2": "🚫t.maaleki2 #404.9.30 | blocked 2026-01-31",
     "hamed.khani": "🚫hamed.khani #404.10.1 | blocked 2026-01-31",
     "seyyedhamidi": "🚫seyyedhamidi #404.10.1 | blocked 2026-01-31",
-    "pakravan": "🚫pakravan #404.10.6 | blocked 2026-01-31",
     "ruyin": "🚫ruyin #404.10.2 | blocked 2026-01-31",
     "customer1": "🚫customer1 #404.9.26 | blocked 2026-01-31",
     "khodaverdilu": "🚫khodaverdilu #404.10.2 | blocked 2026-01-31",
@@ -655,5 +655,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-01 12:05"
+  "timestamp": "2026-02-01 12:36"
 }
