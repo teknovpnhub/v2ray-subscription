@@ -43,7 +43,7 @@ vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@chatgpt.com:2096?path=%2F&security=
 vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?path=/&security=none&encryption=none&type=ws#Server 43 🇩🇰
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.17.165.123:80?path=%2F&security=none&encryption=none&host=de.tawana.cf.panbehpanel.ir&type=ws#Server 44 🇺🇸
 vless://rootface-darkness@[0:0:0:0:0:ffff:08d2:1005]:443?path=/ws runnel >>> @rootface telegram 💀&security=none&encryption=none&host=rootface.loves.all.vali.hichki.rootface.ro.dost.nadasht.co.uk.me.local.io.ir.co.uk&type=ws#Server 45 🇭🇰
-vless://6165514c-6a2e-42ac-f067-7b691e1b8ed2@chatgpt.com:80?path=%2F11780&security=&encryption=none&host=lips-tony-motel-hope.trycloudflare.com&type=ws#Server 46 🇨🇦
+vless://6165514c-6a2e-42ac-f067-7b691e1b8ed2@chatgpt.com:80?path=%2F11780&security=&encryption=none&host=lips-tony-motel-hope.trycloudflare.com&type=ws#Server 46 🇬🇧
 vless://9e20b04d-5a81-4e16-b421-01e502f0aac6@57.129.132.223:80?encryption=none&type=ws&host=google.com&path=%2Fvless%2F&security=none#Server 47 🇬🇧
 vless://dc4651a0-39c9-4e09-81f9-ef95aa993c8e@172.235.160.228:8881?encryption=none&host=divar.ir&path=%2F&security=none&type=ws#Server 48 🇳🇱
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.26.6.35:80?type=ws&path=/&host=de.tawana.cf.panbehpanel.ir&encryption=none#Server 49 🇺🇸
