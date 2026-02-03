@@ -16,7 +16,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@129.212.220.224:443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&sni=panbehpanel.ir#Server 16 🇳🇱
 vless://9e20b04d-5a81-4e16-b421-01e502f0aac6@57.129.132.223:80?type=ws&path=/vless/&host=google.com&encryption=none#Server 17 🇬🇧
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?security=&encryption=none&type=grpc#Server 18 🇺🇸
-vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@chatgpt.com:443?path=/O1w0n3vYgFKYs7EzNAvLPvOp&security=tls&alpn=http/1.1&encryption=none&insecure=1&host=apii.onlineshoppingez.ir&fp=chrome&type=ws&allowInsecure=1&sni=apii.onlineshoppingez.ir#Server 19 🇬🇧
+vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@chatgpt.com:443?path=/O1w0n3vYgFKYs7EzNAvLPvOp&security=tls&alpn=http/1.1&encryption=none&insecure=1&host=apii.onlineshoppingez.ir&fp=chrome&type=ws&allowInsecure=1&sni=apii.onlineshoppingez.ir#Server 19 🇨🇦
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?type=grpc&mode=gun&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&fp=chrome&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net&encryption=none#Server 20 🇺🇸
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@yesok42v2.ip4exordir.shop:8880?mode=gun&security=none&encryption=none&type=grpc#Server 21 🇺🇸
 vless://5a9a33eb-546c-4ffa-aadc-1c75b3ac084b@vy1.sangar.net:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=vy1.sangar.net&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#Server 22 🇬🇧
@@ -49,7 +49,7 @@ vless://dc4651a0-39c9-4e09-81f9-ef95aa993c8e@172.235.160.228:8881?encryption=non
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.26.6.35:80?type=ws&path=/&host=de.tawana.cf.panbehpanel.ir&encryption=none#Server 49 🇺🇸
 vless://964342f5-d9fc-48ee-9d95-87709d0b831c@www.speedtest.net:443?encryption=none&type=ws&host=azadnet.comelej425.workers.dev&path=%2F99uqzwxlqgtzfinu%3Fed%3D2560&security=tls&alpn=http%2F1.1&fp=randomized&sni=azadnet.comelej425.workers.dev#Server 50 🇨🇦
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@ger2.panbehpanel.ir:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=panbehpanel.ir#Server 51 🇩🇪
-vless://ef8e608b-3edc-4235-8963-b6334f44b88e@chatgpt.com:443?type=ws&security=tls&path=/check&host=uk-02p.allhubb.info&sni=uk-02p.allhubb.info&alpn=h2,http/1.1&fp=chrome&encryption=none#Server 52 🇬🇧
+vless://ef8e608b-3edc-4235-8963-b6334f44b88e@chatgpt.com:443?type=ws&security=tls&path=/check&host=uk-02p.allhubb.info&sni=uk-02p.allhubb.info&alpn=h2,http/1.1&fp=chrome&encryption=none#Server 52 🇨🇦
 vless://3a4ddfac-e7da-48c9-9648-4a366109fc3a@104.18.32.47:443?path=/X0PX5Vup1qlVVzhxp6ic50a&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=mtn.vpsmee.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.vpsmee.ir#Server 53 🇺🇸
 vless://8910cbb3-33b1-4266-a243-ac780ac63394@45.15.170.237:80?encryption=none&path=%2Fvless%2F&type=ws#Server 54 🇦🇱
 vless://ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1@150.241.88.199:443?encryption=none&security=tls&sni=ficdn20.suio.me&type=tcp#Server 55 🇫🇮
@@ -67,7 +67,7 @@ vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855/?type=ws&encrypti
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.26.6.35:80?path=%2F&security=none&encryption=none&host=de.tawana.cf.panbehpanel.ir&type=ws#Server 67 🇺🇸
 vless://3a4ddfac-e7da-48c9-9648-4a366109fc3a@94.140.0.0:443?path=%2FX0PX5Vup1qlVVzhxp6ic50a&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=mtn.vpsmee.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.vpsmee.ir#Server 68 🇦🇪
 vless://f74d98a4-9198-4f78-b921-47d4f4950953@de3.teleport.lat:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=ios&sni=de3.teleport.lat#Server 69 🇩🇪
-vless://e765eb5b-8442-40e3-9532-857ba5ececa7@ipbaz.ping-box.com:443?encryption=none&security=tls&sni=vbox.ping-box.com&insecure=0&allowInsecure=0&type=grpc#Server 70 🇺🇸
+vless://e765eb5b-8442-40e3-9532-857ba5ececa7@ipbaz.ping-box.com:443?encryption=none&security=tls&sni=vbox.ping-box.com&insecure=0&allowInsecure=0&type=grpc#Server 70 🇨🇦
 vless://rootface-@pwn1337-telegram@[::ffff:9872:c066]:80?path=/𒉭𓆩@rootface𒆜𒉭 @pwn_1337 TELEGRAM&security=none&encryption=none&type=ws#Server 71 🇩🇪
 vless://6165514c-6a2e-42ac-f067-7b691e1b8ed2@chatgpt.com:80?path=/11780&security=none&encryption=none&host=lips-tony-motel-hope.trycloudflare.com&type=ws#Server 72 🇨🇦
 vless://c2b6ef4f-58b5-34df-a9b2-b9423df641d9@s213.okgfw.top:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=u729804u0ed9s213.okgfw.top&fp=random&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 73 🇹🇭
