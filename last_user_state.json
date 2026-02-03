@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "r.khani",
     "rahim.beytollahi",
     "karam.aghbashlu",
     "hasani",
@@ -26,7 +27,6 @@
     "habib.moja",
     "alireza.agazade",
     "habibzade1",
-    "r.khani",
     "soghra.sadati",
     "kazemi",
     "alipur",
@@ -331,6 +331,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "r.khani": "r.khani #404.11.14",
     "rahim.beytollahi": "rahim.beytollahi #404.11.13",
     "karam.aghbashlu": "karam.aghbashlu #404.11.13",
     "hasani": "hasani #404.11.13",
@@ -357,7 +358,6 @@
     "habib.moja": "habib.moja #404.11.11",
     "alireza.agazade": "alireza.agazade #404.11.11",
     "habibzade1": "habibzade1 #404.11.11",
-    "r.khani": "🚫r.khani #404.9.24 | blocked 2026-01-31",
     "soghra.sadati": "🚫soghra.sadati #404.10.4 | blocked 2026-01-31",
     "kazemi": "🚫kazemi #404.9.30 | blocked 2026-01-31",
     "alipur": "🚫alipur #404.9.29 | blocked 2026-01-31",
@@ -661,5 +661,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-03 12:10"
+  "timestamp": "2026-02-03 12:16"
 }
