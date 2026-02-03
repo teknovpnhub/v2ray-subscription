@@ -1,3 +1,7 @@
+etonmo | removed | User deleted [Note: 4045] | 2026-02-03 23:43
+
+etonmo | manual_delete | User manually removed [Note: 4045] | 2026-02-03 23:43
+
 etonmo | added | [Note: 4045] | 2026-02-03 19:55
 
 test11 | removed | User deleted [Note: 404.11] | 2026-02-03 19:34

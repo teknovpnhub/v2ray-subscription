@@ -1,6 +1,5 @@
 {
   "usernames": [
-    "etonmo",
     "masumi1",
     "t.maaleki2",
     "hossein.abbaszade",
@@ -333,7 +332,6 @@
     "vahid.behruz"
   ],
   "lines": {
-    "etonmo": "etonmo #4045",
     "masumi1": "🚫masumi1 #404.11.14 | blocked 2026-02-03",
     "t.maaleki2": "t.maaleki2 #404.11.14",
     "hossein.abbaszade": "hossein.abbaszade #404.11.14",
@@ -665,5 +663,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-03 23:18"
+  "timestamp": "2026-02-03 23:43"
 }
