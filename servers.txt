@@ -39,7 +39,7 @@ ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFN
 vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053?security=tls&type=ws&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&host=me28.game2family.org&alpn=http%2F1.1&sni=me28.game2family.org&fp=chrome&encryption=none#Server 39 🇩🇪
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.121:38388#Server 40 🇻🇳
 vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053/?type=ws&encryption=none&flow=&host=me28.game2family.org&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&security=tls&sni=me28.game2family.org&alpn=http%2F1.1&allowInsecure=1#Server 41 🇩🇪
-vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@chatgpt.com:2096?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 42 🇨🇦
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@chatgpt.com:2096?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 42 🇬🇧
 vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?path=/&security=none&encryption=none&type=ws#Server 43 🇩🇰
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.17.165.123:80?path=%2F&security=none&encryption=none&host=de.tawana.cf.panbehpanel.ir&type=ws#Server 44 🇺🇸
 vless://rootface-darkness@[0:0:0:0:0:ffff:08d2:1005]:443?path=/ws runnel >>> @rootface telegram 💀&security=none&encryption=none&host=rootface.loves.all.vali.hichki.rootface.ro.dost.nadasht.co.uk.me.local.io.ir.co.uk&type=ws#Server 45 🇭🇰
