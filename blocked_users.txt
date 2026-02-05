@@ -30,7 +30,6 @@ saidi #404.9.9 | blocked 2026-01-31
 ehsan.alizade #404.9.8 | blocked 2026-01-31
 t.hatami #404.9.8 | blocked 2026-01-31
 golizade #404.9.12 | blocked 2026-01-31
-tohid #404.9.10 | blocked 2026-01-31
 ali.parsa #404.9.24 | blocked 2026-01-18
 yunesi #404.9.22 | blocked 2026-01-18
 soltani #404.9.19 | blocked 2026-01-18
