@@ -1,9 +1,9 @@
 vless://dc4651a0-39c9-4e09-81f9-ef95aa993c8e@it1.persianhostnet.ir:3124?security=&encryption=none&headerType=none&type=tcp#Server 1 🇮🇷
 vless://53d65999-870f-4020-8e7f-70f415533386@193.151.138.148:2095?security=&encryption=none&headerType=none&type=tcp#Server 2 🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkYTA2MGE4ZGUzNDY3MTc0@57.128.190.212:10013#Server 3 🇬🇧
-vless://4ef2801b-c828-4de9-bd8e-a9b516e05dd2@85.133.196.83:1050?path=/@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-&security=none&encryption=none&headerType=none&type=tcp#Server 4 🇮🇷
+vless://4ef2801b-c828-4de9-bd8e-a9b516e05dd2@85.133.196.83:1050?path=/@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-@V2ynpv-&security=none&encryption=none&headerType=none&type=tcp#Server 4 🇩🇪
 vless://a4ee78c0-bd01-4313-a3eb-82c97d269100@212.192.4.148:50907?encryption=none&security=none&type=raw&headertype=none#Server 5 🇩🇪
-vless://4ef2801b-c828-4de9-bd8e-a9b516e05dd2@85.133.196.83:1050?security=none&encryption=none&headerType=none&type=tcp#Server 6 🇮🇷
+vless://4ef2801b-c828-4de9-bd8e-a9b516e05dd2@85.133.196.83:1050?security=none&encryption=none&headerType=none&type=tcp#Server 6 🇩🇪
 vless://b16e18a9-6363-4af5-9144-7fba011c1f25@65.109.219.76:19854?security=none&encryption=none&headerType=none&type=tcp#Server 7 🇫🇮
 vless://1b9427d9-a318-4c3d-bf88-c8b849295897@185.9.25.99:25174/?type=tcp&encryption=none&flow=#Server 8 🇩🇪
 vless://a4ee78c0-bd01-4313-a3eb-82c97d269100@212.192.4.148:50907/?type=tcp&encryption=none&flow=#Server 9 🇩🇪
@@ -34,23 +34,23 @@ vless://38cc3dff-5114-429f-9a45-fed484086c47@91.99.226.214:8882?path=%2F&securit
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@tawananet.panbehpanel.ir:80?security=&encryption=none&host=free.panbehpanel.ir&type=ws#Server 34 🇺🇸
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@tawananet.panbehpanel.ir:80/?type=ws&encryption=none&flow=&host=free.panbehpanel.ir#Server 35 🇺🇸
 vless://7ce46e1c-79b3-4865-8852-e40a632aa40f@wr.timberdown.sbs:1788?encryption=none&security=none&type=tcp&headerType=none#Server 36 🇮🇷
-vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@172.64.155.209:2096?path=/&security=tls&alpn=http/1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 37 🇨🇦
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@172.64.155.209:2096?path=/&security=tls&alpn=http/1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 37 🇺🇸
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.200:38388#Server 38 🇻🇳
-vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053?security=tls&type=ws&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&host=me28.game2family.org&alpn=http%2F1.1&sni=me28.game2family.org&fp=chrome&encryption=none#Server 39 🇸🇪
+vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053?security=tls&type=ws&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&host=me28.game2family.org&alpn=http%2F1.1&sni=me28.game2family.org&fp=chrome&encryption=none#Server 39 🇩🇪
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.121:38388#Server 40 🇻🇳
-vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053/?type=ws&encryption=none&flow=&host=me28.game2family.org&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&security=tls&sni=me28.game2family.org&alpn=http%2F1.1&allowInsecure=1#Server 41 🇸🇪
+vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053/?type=ws&encryption=none&flow=&host=me28.game2family.org&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&security=tls&sni=me28.game2family.org&alpn=http%2F1.1&allowInsecure=1#Server 41 🇩🇪
 vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@chatgpt.com:2096?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 42 🇨🇦
 vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?path=/&security=none&encryption=none&type=ws#Server 43 🇩🇰
-vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.17.165.123:80?path=%2F&security=none&encryption=none&host=de.tawana.cf.panbehpanel.ir&type=ws#Server 44 🇨🇦
+vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.17.165.123:80?path=%2F&security=none&encryption=none&host=de.tawana.cf.panbehpanel.ir&type=ws#Server 44 🇺🇸
 vless://rootface-darkness@[0:0:0:0:0:ffff:08d2:1005]:443?path=/ws runnel >>> @rootface telegram 💀&security=none&encryption=none&host=rootface.loves.all.vali.hichki.rootface.ro.dost.nadasht.co.uk.me.local.io.ir.co.uk&type=ws#Server 45 🇭🇰
 vless://6165514c-6a2e-42ac-f067-7b691e1b8ed2@chatgpt.com:80?path=%2F11780&security=&encryption=none&host=lips-tony-motel-hope.trycloudflare.com&type=ws#Server 46 🇨🇦
 vless://9e20b04d-5a81-4e16-b421-01e502f0aac6@57.129.132.223:80?encryption=none&type=ws&host=google.com&path=%2Fvless%2F&security=none#Server 47 🇬🇧
 vless://dc4651a0-39c9-4e09-81f9-ef95aa993c8e@172.235.160.228:8881?encryption=none&host=divar.ir&path=%2F&security=none&type=ws#Server 48 🇳🇱
-vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.26.6.35:80?type=ws&path=/&host=de.tawana.cf.panbehpanel.ir&encryption=none#Server 49 🇨🇦
+vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.26.6.35:80?type=ws&path=/&host=de.tawana.cf.panbehpanel.ir&encryption=none#Server 49 🇺🇸
 vless://964342f5-d9fc-48ee-9d95-87709d0b831c@www.speedtest.net:443?encryption=none&type=ws&host=azadnet.comelej425.workers.dev&path=%2F99uqzwxlqgtzfinu%3Fed%3D2560&security=tls&alpn=http%2F1.1&fp=randomized&sni=azadnet.comelej425.workers.dev#Server 50 🇨🇦
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@ger2.panbehpanel.ir:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=panbehpanel.ir#Server 51 🇩🇪
-vless://ef8e608b-3edc-4235-8963-b6334f44b88e@chatgpt.com:443?type=ws&security=tls&path=/check&host=uk-02p.allhubb.info&sni=uk-02p.allhubb.info&alpn=h2,http/1.1&fp=chrome&encryption=none#Server 52 🇬🇧
-vless://3a4ddfac-e7da-48c9-9648-4a366109fc3a@104.18.32.47:443?path=/X0PX5Vup1qlVVzhxp6ic50a&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=mtn.vpsmee.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.vpsmee.ir#Server 53 🇨🇦
+vless://ef8e608b-3edc-4235-8963-b6334f44b88e@chatgpt.com:443?type=ws&security=tls&path=/check&host=uk-02p.allhubb.info&sni=uk-02p.allhubb.info&alpn=h2,http/1.1&fp=chrome&encryption=none#Server 52 🇨🇦
+vless://3a4ddfac-e7da-48c9-9648-4a366109fc3a@104.18.32.47:443?path=/X0PX5Vup1qlVVzhxp6ic50a&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=mtn.vpsmee.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.vpsmee.ir#Server 53 🇺🇸
 vless://8910cbb3-33b1-4266-a243-ac780ac63394@45.15.170.237:80?encryption=none&path=%2Fvless%2F&type=ws#Server 54 🇦🇱
 vless://ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1@150.241.88.199:443?encryption=none&security=tls&sni=ficdn20.suio.me&type=tcp#Server 55 🇫🇮
 vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@23.27.141.210:27015?path=%2Fdanfeng%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=snippet.fgfw.cc.cd&fp=random&type=ws&sni=snippet.fgfw.cc.cd#Server 56 🇺🇸
@@ -58,30 +58,30 @@ vless://c33275fd-a4fa-470d-90e4-55da39d849a8@bro.panbehpanel.ir:80?path=%2F&secu
 vless://34dae96c-1a41-434f-94b6-5507c3a6d318@dlc-nl1.persianpinggame.ir:8881?path=/&security=&encryption=none&host=divarcdn.com&type=ws#Server 58 🇳🇱
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@eng.panbehpanel.ir:443?security=tls&encryption=none&headerType=none&type=tcp&sni=5dfb7c3aa6d29732.panbehpanel.ir#Server 59 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#Server 60 🇳🇱
-vless://c33275fd-a4fa-470d-90e4-55da39d849a8@188.114.98.0:80?encryption=none&type=ws&host=en.tawana.cf.panbehpanel.ir&path=%2F&security=none#Server 61 🇨🇦
+vless://c33275fd-a4fa-470d-90e4-55da39d849a8@188.114.98.0:80?encryption=none&type=ws&host=en.tawana.cf.panbehpanel.ir&path=%2F&security=none#Server 61 🇺🇸
 vless://a571b94c-a9f3-407a-a8ef-da608dab5472@kurd-fr.tawana.online:46248?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#Server 62 🇫🇷
 vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?type=ws&security=none&encryption=none&path=/getWorkerUpdates#Server 63 🇷🇺
 vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@154.197.65.4:2053/?type=ws&encryption=none&flow=&host=me28.game2family.org&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&security=tls&sni=me28.game2family.org&alpn=http%2F1.1&allowInsecure=1&fp=chrome#Server 64 🇩🇪
 vless://rootface@[::ffff:47.242.178.170]:80?encryption=none&security=none&type=ws&path=%2F%F0%92%89%AD%F0%93%86%A9%40rootface%F0%92%86%9C%F0%92%89%AD%20%40pwn_1337%20TELEGRAM#Server 65 🇭🇰
 vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855/?type=ws&encryption=none&flow=&path=%2F#Server 66 🇩🇰
-vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.26.6.35:80?path=%2F&security=none&encryption=none&host=de.tawana.cf.panbehpanel.ir&type=ws#Server 67 🇨🇦
+vless://c33275fd-a4fa-470d-90e4-55da39d849a8@104.26.6.35:80?path=%2F&security=none&encryption=none&host=de.tawana.cf.panbehpanel.ir&type=ws#Server 67 🇺🇸
 vless://3a4ddfac-e7da-48c9-9648-4a366109fc3a@94.140.0.0:443?path=%2FX0PX5Vup1qlVVzhxp6ic50a&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=mtn.vpsmee.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.vpsmee.ir#Server 68 🇦🇪
 vless://f74d98a4-9198-4f78-b921-47d4f4950953@de3.teleport.lat:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=ios&sni=de3.teleport.lat#Server 69 🇩🇪
 vless://e765eb5b-8442-40e3-9532-857ba5ececa7@ipbaz.ping-box.com:443?encryption=none&security=tls&sni=vbox.ping-box.com&insecure=0&allowInsecure=0&type=grpc#Server 70 🇨🇦
 vless://rootface-@pwn1337-telegram@[::ffff:9872:c066]:80?path=/𒉭𓆩@rootface𒆜𒉭 @pwn_1337 TELEGRAM&security=none&encryption=none&type=ws#Server 71 🇩🇪
-vless://6165514c-6a2e-42ac-f067-7b691e1b8ed2@chatgpt.com:80?path=/11780&security=none&encryption=none&host=lips-tony-motel-hope.trycloudflare.com&type=ws#Server 72 🇬🇧
+vless://6165514c-6a2e-42ac-f067-7b691e1b8ed2@chatgpt.com:80?path=/11780&security=none&encryption=none&host=lips-tony-motel-hope.trycloudflare.com&type=ws#Server 72 🇨🇦
 vless://c2b6ef4f-58b5-34df-a9b2-b9423df641d9@s213.okgfw.top:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=u729804u0ed9s213.okgfw.top&fp=random&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 73 🇹🇭
 vless://ee4b0561-450d-4f5b-a8e2-f84c95def9b2@serveruwofl.samanidempire.org:443?&security=tls&fp=chrome&alpn=http/1.1&type=ws&headerType=none&host=serveruwofl.samanidempire.org&path=%2F1ab3537d#Server 74 🇩🇪
 vless://69faf4d8-6148-4fb5-ba0c-e9909699125a@news.zoom.us:2096?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=vkehifree.cyberghostvpn.shop&fp=chrome&type=ws&sni=vkehifree.cyberghostvpn.shop#Server 75 🇺🇸
-vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@104.18.32.47:443?alpn=http%2F1.1&encryption=none&host=apii.onlineshoppingez.ir&fp=chrome&path=%2FO1w0n3vYgFKYs7EzNAvLPvOp&security=tls&sni=apii.onlineshoppingez.ir&type=ws#Server 76 🇨🇦
+vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@104.18.32.47:443?alpn=http%2F1.1&encryption=none&host=apii.onlineshoppingez.ir&fp=chrome&path=%2FO1w0n3vYgFKYs7EzNAvLPvOp&security=tls&sni=apii.onlineshoppingez.ir&type=ws#Server 76 🇺🇸
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@ger2.panbehpanel.ir:443/?type=tcp&encryption=none&flow=&security=tls&sni=panbehpanel.ir&allowInsecure=1#Server 77 🇩🇪
 vless://c2b6ef4f-58b5-34df-a9b2-b9423df641d9@s300.ccgfw.top:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=u729804ua2bes300.ccgfw.top&fp=random&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 78 🇳🇱
 vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@nultra4.iranwebserver.com:2053?type=ws&security=tls&encryption=none&fp=chrome&sni=me28.game2family.org&path=/hi1s8bhcHDnx50OoJ0QnHp1Ce&host=me28.game2family.org&alpn=http/1.1&hiddify=1&insecure=true&headers=%7B%27User-Agent%27%3A+%27Mozilla/5.0+%28iPhone%3B+CPU+iPhone+OS+18_3_2+like+Mac+OS+X%29+AppleWebKit/605.1.15+%28KHTML%2C+like+Gecko%29+Version/18.3.1+Mobile/15E148+Safari/604.1%27%2C+%27Pragma%27%3A+%27no-cache%27%7D#Server 79 🇩🇪
-vless://d2efa18a-9e8a-3057-91fe-90c8e620e49f@s1.db-link.in:443?encryption=none&type=ws&host=s6.oboob.cn&path=%2Fdb10242a4797a252&security=tls&alpn=h3%2Ch2&fp=chrome&sni=s6.oboob.cn#Server 80 🇫🇷
-vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053?type=ws&encryption=none&host=me28.game2family.org&path=/hi1s8bhcHDnx50OoJ0QnHp1Ce&security=tls&sni=me28.game2family.org&alpn=http/1.1&allowInsecure=1#Server 81 🇸🇪
+vless://d2efa18a-9e8a-3057-91fe-90c8e620e49f@s1.db-link.in:443?encryption=none&type=ws&host=s6.oboob.cn&path=%2Fdb10242a4797a252&security=tls&alpn=h3%2Ch2&fp=chrome&sni=s6.oboob.cn#Server 80 🇨🇦
+vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@62.60.159.141:2053?type=ws&encryption=none&host=me28.game2family.org&path=/hi1s8bhcHDnx50OoJ0QnHp1Ce&security=tls&sni=me28.game2family.org&alpn=http/1.1&allowInsecure=1#Server 81 🇩🇪
 vless://c2b6ef4f-58b5-34df-a9b2-b9423df641d9@s295.ccgfw.top:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=u729804ube56s295.ccgfw.top&fp=random&insecure=0&allowInsecure=0&type=tcp&headerType=none#Server 82 🇳🇱
 vless://5be76388-6ea5-4aa1-8e95-2d022494c06e@nultra4.iranwebserver.com:2053/?type=ws&encryption=none&flow=&host=me28.game2family.org&path=%2Fhi1s8bhcHDnx50OoJ0QnHp1Ce&security=tls&sni=me28.game2family.org&alpn=http%2F1.1&allowInsecure=1&fp=chrome#Server 83 🇩🇪
-vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.32.47:2096?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 84 🇨🇦
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.32.47:2096?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 84 🇺🇸
 vless://3a4ddfac-e7da-48c9-9648-4a366109fc3a@api.steamsale.ir:443?path=/X0PX5Vup1qlVVzhxp6ic50a&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=mtn.vpsmee.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.vpsmee.ir#Server 85 🇦🇪
 vless://3a4ddfac-e7da-48c9-9648-4a366109fc3a@api.steamsale.ir:443?encryption=none&security=tls&sni=cdn.vpsmee.ir&alpn=http%2F1.1&type=ws&host=mtn.vpsmee.ir&path=%2FX0PX5Vup1qlVVzhxp6ic50a#Server 86 🇦🇪
 vless://05b544a4-d479-4ba4-8208-950bd4411453@pq-India1.09vpn.com:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#Server 87 🇮🇳
@@ -118,13 +118,13 @@ trojan://c1d83c0c7d57cead4379ba14a82df69b@160.16.116.227:544?security=tls&sni=ww
 trojan://c1d83c0c7d57cead4379ba14a82df69b@160.16.124.55:491?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=www.nintendogames.net#Server 118 🇯🇵
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMzNjNGNhZTAxZjhiYWNm@135.125.247.29:11201#Server 119 🇩🇪
 hysteria2://ab586e14-5ee0-4b4e-b309-566552eda49a@jp.xiongchumo.shop:21733?insecure=1&sni=jp.xiongchumo.shop#Server 120 🇯🇵
-vless://e4c18050-3e61-42e3-9345-77d4179541c4@104.18.4.130:2087?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=fak.i-farm.ir&type=ws&allowInsecure=0&sni=fak.i-farm.ir#Server 121 🇨🇦
+vless://e4c18050-3e61-42e3-9345-77d4179541c4@104.18.4.130:2087?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=fak.i-farm.ir&type=ws&allowInsecure=0&sni=fak.i-farm.ir#Server 121 🇺🇸
 trojan://BxceQaOe@219.76.135.98:443?security=tls&allowInsecure=1&type=tcp&headerType=none#Server 122 🇭🇰
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NGFhZTA1MTAxODhlOGM1@141.95.106.127:11201#Server 123 🇩🇪
 trojan://c1d83c0c7d57cead4379ba14a82df69b@160.16.124.55:491?sni=www.nintendogames.net&peer=www.nintendogames.net&security=tls#Server 124 🇯🇵
 vmess://eyJhZGQiOiI0Ny4yNDMuMTM1Ljc0IiwicG9ydCI6IjU1MTg1IiwiaWQiOiIxMzc1OTg1ZS0zMzRhLTRjMjUtOGY2NC01MmExODJiYzgwMzciLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidiI6IjIiLCJwcyI6IlNlcnZlciAxMjUg8J+HrfCfh7AiLCJob3N0IjoiIiwicGF0aCI6Ii9Ob3RpZl9DaGF0IiwidGxzIjoiIiwic25pIjoiIiwidHlwZSI6Im5vbmUiLCJzZXJ2ZXJQb3J0IjowLCJuYXRpb24iOiIifQ==
 trojan://c1d83c0c7d57cead4379ba14a82df69b@203.198.122.20:443?sni=www.nintendogames.net&peer=www.nintendogames.net&security=tls#Server 126 🇭🇰
-vmess://eyJhZGQiOiIxMDQuMjEuNjkuNDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im5hc25ldC01MTE5NTI0MjQubWNpdGVsLmNvIiwiaWQiOiJuYXNuZXQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbmFzbmV0L2NkbiIsInBvcnQiOiI4MDgwIiwicHMiOiJTZXJ2ZXIgMTI3IPCfh6jwn4emIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIxMDQuMjEuNjkuNDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im5hc25ldC01MTE5NTI0MjQubWNpdGVsLmNvIiwiaWQiOiJuYXNuZXQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbmFzbmV0L2NkbiIsInBvcnQiOiI4MDgwIiwicHMiOiJTZXJ2ZXIgMTI3IPCfh7rwn4e4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 hysteria2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974?insecure=1&sni=www.bing.com#Server 128 🇺🇸
 trojan://c1d83c0c7d57cead4379ba14a82df69b@160.16.106.99:3901?security=tls&sni=www.nintendogames.net#Server 129 🇯🇵
 hy2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974/?insecure=1&sni=www.bing.com#Server 130
@@ -149,7 +149,7 @@ vless://93100196-7f5a-496e-9b74-2d02f134b2bb@95.164.123.70:8080?type=ws&security
 vless://ea33fc71-2ce3-48e1-93fb-e36142c1e1ee@45.130.125.160:443?encryption=none&security=tls&sni=afrcloud4.c01.kr&alpn=networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-&insecure=0&allowInsecure=0&type=ws&host=afrcloud4.c01.kr&path=%2F213.35.108.135%3A12596#Server 149 🇸🇨
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?encryption=none&security=none&type=grpc#Server 150 🇺🇸
 vless://094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa@nl-78w-c.southnetworks.cloud:80?path=%2FgetWorkerUpdates&security=none=-@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann---@ghalagyann&encryption=none&type=ws#Server 151 🇷🇺
-vless://a571b94c-a9f3-407a-a8ef-da608dab5472@46.226.167.138:46248?encryption=none&security=none&type=tcp#Server 152 🇫🇷
+vless://a571b94c-a9f3-407a-a8ef-da608dab5472@46.226.167.138:46248?encryption=none&security=none&type=tcp#Server 152 🇩🇪
 vless://ea33fc71-2ce3-48e1-93fb-e36142c1e1ee@45.130.125.160:443?encryption=none&security=tls&sni=afrcloud4.c01.kr&fp=chrome&alpn=networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-channel%40.networld_vpn-&insecure=0&allowInsecure=0&type=ws&host=afrcloud4.c01.kr&path=%2F129.150.58.86%3A57621#Server 153 🇸🇨
 vless://094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa@nl-78w-c.southnetworks.cloud:80?encryption=none&security=none&sni=nl-78w-c.southnetworks.cloud&type=ws&host=nl-78w-c.southnetworks.cloud&path=%2FgetWorkerUpdates#Server 154 🇷🇺
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@134.199.244.164:80?encryption=none&path=%2F&security=none&type=ws#Server 155 🇺🇸
@@ -158,7 +158,7 @@ vless://34dae96c-1a41-434f-94b6-5507c3a6d318@dlc-nl1.persianpinggame.ir:8881?typ
 vless://ee4b0561-450d-4f5b-a8e2-f84c95def9b2@serveruwofl.samanidempire.org:443?path=/1ab3537d&security=tls&alpn=http/1.1&encryption=none&insecure=1&host=serveruwofl.samanidempire.org&fp=chrome&type=ws&allowInsecure=1#Server 158 🇩🇪
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&serviseName=@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray&security=none&encryption=none&fp=chrome&type=grpc#Server 159 🇺🇸
 vless://026d3137-54d8-4d7b-90d8-a006b60f717e@178.173.148.142:55057?encryption=none&type=tcp&headerType=none&security=none#Server 160 🇮🇷
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@chatgpt.com:2083?path=%2F9quSDGMroCZkFeWzTk&security=tls&alpn=http%2F1.1&encryption=none&host=index.0x15.workers.dev&type=ws&sni=index.0x15.workers.DEV#Server 161 🇨🇦
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@chatgpt.com:2083?path=%2F9quSDGMroCZkFeWzTk&security=tls&alpn=http%2F1.1&encryption=none&host=index.0x15.workers.dev&type=ws&sni=index.0x15.workers.DEV#Server 161 🇬🇧
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@195.85.59.69:2095?encryption=none&type=ws&host=fuckingfangbinxing.cnm--fangbinxing-cnm.workers.dev&path=/&packetEncoding=xudp#Server 162 🇨🇾
 vless://11cf8358-53ed-4030-a224-36438894b03d@srvmtkie.samanidempire.org:443?path=/1ab3437d&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=srvmtkie.samanidempire.org&type=ws&allowInsecure=0#Server 163 🇩🇪
 vless://dc4ac680-0626-4005-83f5-111ae1a3045d@n4.asamping.ir:2082?path=/&security=none&encryption=none&type=ws#Server 164 🇨🇦
