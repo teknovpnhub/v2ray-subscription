@@ -5,7 +5,7 @@ trojan://telegram-id-directvpn@15.237.164.159:22223?security=tls&alpn=http/1.1&h
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.199:8080#Server 5 🇳🇱
 vmess://eyJhZGQiOiI1Ny4xMjkuNTkuMjAxIiwiYWlkIjowLCJob3N0Ijoia2FtcG9uZy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwicGF0aCI6Imxpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiU2VydmVyIDYg8J+HqfCfh6oiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOmZhbHNlLCJzbmkiOiJrYW1wb25nLm9yZyIsInYiOiIyIn0=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#Server 7 🇬🇧
-vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDgg8J+HuvCfh7giLCJhZGQiOiIxNzIuNjQuMTQ5LjE4MiIsInBvcnQiOiI4MDgwIiwidHlwZSI6Ii0tLSIsImlkIjoibmFzbmV0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9uYXNuZXQvY2RuIiwiaG9zdCI6Im5hc25ldC01NzEyOTY0MTAyLnNoYXJnaGRhaWx5LmNvIiwidGxzIjoiIn0=
+vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDgg8J+HqPCfh6YiLCJhZGQiOiIxNzIuNjQuMTQ5LjE4MiIsInBvcnQiOiI4MDgwIiwidHlwZSI6Ii0tLSIsImlkIjoibmFzbmV0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9uYXNuZXQvY2RuIiwiaG9zdCI6Im5hc25ldC01NzEyOTY0MTAyLnNoYXJnaGRhaWx5LmNvIiwidGxzIjoiIn0=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.61:8080#Server 9 🇳🇱
 vmess://eyJhZGQiOiI1Ny4xMjkuMjQuMTMwIiwiYWlkIjowLCJob3N0Ijoic2Vya2F0Lm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoibGlua3Z3cyIsInBvcnQiOjQ0MywicHMiOiJTZXJ2ZXIgMTAg8J+HqfCfh6oiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOmZhbHNlLCJzbmkiOiJzZXJrYXQub3JnIiwidiI6IjIifQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkOThjOWE2Mzk5MDY0MjI3@157.185.130.3:49336?#Server 11 🇮🇹
@@ -16,7 +16,7 @@ vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDE1IPCfh7nwn4e3IiwiYWRkIjoidHIxLXNtYXJ0LmFk
 trojan://76yTlnTIsjCTlmqnUJ5Tzc1rM@hl-freedom-0.undef.network:443?security=tls&sni=hl-freedom-0.undef.network&type=ws&host=hl-freedom-0.undef.network&path=/f2fc2a1f#Server 16 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkMjg1M2Y5YmI4Nzc3NzM0@57.129.94.79:11207#Server 17 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx@54.36.174.134:443#Server 18 🇵🇱
-vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.32.47:2096?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 19 🇺🇸
+vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.32.47:2096?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&host=ca.adobe-connect.top&fp=chrome&type=ws&sni=ca.adobe-connect.top#Server 19 🇨🇦
 vless://094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa@nl-78w-c.southnetworks.cloud:80?path=%2FgetWorkerUpdates&security=&encryption=none&host=nl-78w-c.southnetworks.cloud&type=ws#Server 20 🇷🇺
 vless://094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa@nl-78w-c.southnetworks.cloud:80?encryption=none&security=none&type=ws&host=nl-78w-c.southnetworks.cloud&path=/getWorkerUpdates#Server 21 🇷🇺
 trojan://telegram-id-directvpn@18.158.0.56:22223?alpn=http/1.1&headerType=none&security=tls&sni=trojan.burgerip.co.uk&type=tcp#Server 22 🇩🇪
@@ -42,7 +42,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.116:8880?mode=gun&securit
 vmess://eyJhZGQiOiI1Ny4xMjkuNTkuMTk1IiwiYWlkIjowLCJob3N0Ijoia2FtcG9uZy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwicGF0aCI6Imxpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiU2VydmVyIDQyIPCfh6nwn4eqIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5IjpmYWxzZSwic25pIjoia2FtcG9uZy5vcmciLCJ2IjoiMiJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0M2ZYZjF1TUtiSUtreG9OWUdRTXR0@38.244.137.202:45380#Server 43 🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4dG1udlg1ell1V0dWSURQMmpnbFp3@5.78.51.123:1080#Server 44 🇺🇸
-vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@104.18.32.47:443?alpn=http%2F1.1&encryption=none&host=apii.onlineshoppingez.ir&fp=chrome&path=%2FO1w0n3vYgFKYs7EzNAvLPvOp&security=tls&sni=apii.onlineshoppingez.ir&type=ws#Server 45 🇺🇸
+vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@104.18.32.47:443?alpn=http%2F1.1&encryption=none&host=apii.onlineshoppingez.ir&fp=chrome&path=%2FO1w0n3vYgFKYs7EzNAvLPvOp&security=tls&sni=apii.onlineshoppingez.ir&type=ws#Server 45 🇨🇦
 vless://c4a9c15c-2e49-44d5-b959-bf7e7d313054@meli.dataxshop.ir:2095?security=none&allowInsecure=0&encryption=none&type=ws&host=amsterdam.11.v.www.speedtest.net.nestle.ir.ftp.debian.org.tmo.docb.datax.click.dataxshop.ir&path=/datax_proxy#Server 46 🇨🇦
 vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@194.87.240.67:443?path=%2Fdanfeng%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=snippet.fgfw.cc.cd&fp=random&type=ws&sni=snippet.fgfw.cc.cd#Server 47 🇧🇪
 vmess://eyJhZGQiOiIxNDguMTEzLjE1My4xMDkiLCJhaWQiOjAsImhvc3QiOiJ5aWNodWVuZy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwicGF0aCI6Imxpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiU2VydmVyIDQ4IPCfh6jwn4emIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5IjpmYWxzZSwic25pIjoieWljaHVlbmcub3JnIiwidiI6IjIifQ==
@@ -94,20 +94,20 @@ trojan://5fb072e0ddd631cf66cf752b09210480@202.181.103.246:3076?security=tls&sni=
 hy2://2c833c5d-cbcc-4afb-89ba-d17dc39db6f0@75.127.13.83:47974/?insecure=1&sni=www.bing.com#Server 94
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?encryption=none&security=none&sni=pqh29v4.globalfymain.com&alpn=&type=grpc&host=pqh29v4.globalfymain.com#Server 95 🇺🇸
 vless://e765eb5b-8442-40e3-9532-857ba5ececa7@ipbaz.ping-box.com:443?encryption=none&security=tls&sni=vbox.ping-box.com&insecure=0&allowInsecure=0&type=grpc#Server 96 🇨🇦
-vmess://eyJhZGQiOiI6OmZmZmY6YWM0MDo5YmQxIiwiYWlkIjoiMCIsImFscG4iOiJoMiIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImJlZHJpZC5kZW5pemhvc3RpbmcubWUiLCJpZCI6ImZmZWNlMmE5LTAyOTYtNDZhOS04ZGI4LTc0MmQyOWQyNDBmZiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IklTd3BZVlI4U2p4WGNVWkVVelZmTlVSVFVDOGxWMjlEWFNnc0tIMVNOMGcxSlZwREhVMWNXaWdLQUM4UVJsdE1DaTg2QUJ3NEpWMTRIVk1uIiwicG9ydCI6IjQ0MyIsInBzIjoiU2VydmVyIDk3IPCfh7rwn4e4Iiwic2N5IjoiYXV0byIsInNuaSI6ImJlZHJpZC5kZW5pemhvc3RpbmcubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+vmess://eyJhZGQiOiI6OmZmZmY6YWM0MDo5YmQxIiwiYWlkIjoiMCIsImFscG4iOiJoMiIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImJlZHJpZC5kZW5pemhvc3RpbmcubWUiLCJpZCI6ImZmZWNlMmE5LTAyOTYtNDZhOS04ZGI4LTc0MmQyOWQyNDBmZiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IklTd3BZVlI4U2p4WGNVWkVVelZmTlVSVFVDOGxWMjlEWFNnc0tIMVNOMGcxSlZwREhVMWNXaWdLQUM4UVJsdE1DaTg2QUJ3NEpWMTRIVk1uIiwicG9ydCI6IjQ0MyIsInBzIjoiU2VydmVyIDk3IPCfh6jwn4emIiwic2N5IjoiYXV0byIsInNuaSI6ImJlZHJpZC5kZW5pemhvc3RpbmcubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
 vless://b4819c49-6c7e-4b57-9b9b-c73031e1de11@45.15.170.237:80?encryption=none&path=%2Fvless%2F&type=ws#Server 98 🇦🇱
 trojan://BxceQaOe@58.152.53.45:443?security=tls&sni=t.me%25252Fripaojiedian#Server 99 🇭🇰
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDEwMCDwn4er8J+HtyIsImFkZCI6IjUuMTk2LjI5LjEyMyIsInBvcnQiOjIwODIsImlkIjoiMTEyYWMzNmYtM2Y1My00ZTI2LTgzNzEtZDI1YzAyOGUxYjlhIiwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJnb29nbGUuY29tIiwicGF0aCI6Ii8iLCJ0bHMiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=
 vmess://eyJhZGQiOiI5MS4xMzQuOC4xMDEiLCJhaWQiOjAsImhvc3QiOiJmYXBlbmcub3JnIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJuZXQiOiJ3cyIsInBhdGgiOiJsaW5rdndzIiwicG9ydCI6NDQzLCJwcyI6IlNlcnZlciAxMDEg8J+Hq/Cfh7ciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOmZhbHNlLCJzbmkiOiJmYXBlbmcub3JnIiwidiI6IjIifQ==
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&security=&encryption=none&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&fp=chrome&type=grpc&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net#Server 102 🇺🇸
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Y0RiczRUQ3l4blUzcmRIek0wT2Q0aHFHTTFWQ29pMjVjcnhvU1UxQUp1WT06UnR6MHhuc0s5dGdCUWJCc2E4SDF1T3pWR2hUalU0SHQxbUV3UkJZN2wyST0@46.226.167.138:40485#Server 103 🇩🇪
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Y0RiczRUQ3l4blUzcmRIek0wT2Q0aHFHTTFWQ29pMjVjcnhvU1UxQUp1WT06UnR6MHhuc0s5dGdCUWJCc2E4SDF1T3pWR2hUalU0SHQxbUV3UkJZN2wyST0@46.226.167.138:40485#Server 103 🇫🇷
 vless://51d7e784-d531-4756-a887-cb60b3069aa3@94.183.172.151:4220?path=%2F&security=&encryption=none&host=blog.zanborak-shop.ir&type=ws#Server 104 🇮🇷
 vmess://eyJhZGQiOiI1MS43OS4xMDMuNzYiLCJhaWQiOjAsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiI1OGZlMTU0Mi01MjkwLTQwYWQtODE1YS03NzcwN2E4MWFmZTUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiIsInBvcnQiOjgwLCJwcyI6IlNlcnZlciAxMDUg8J+HqPCfh6YiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==@3.1.195.148:8313#Server 106 🇸🇬
 vless://25f86cb1-2140-4085-abcb-c3a0ea7a4be0@OV-France1.09vpn.com:80?path=/vless/&security=&encryption=none&type=ws#Server 107 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVbDByR3lBQWVkNUhSRHB2RnFyMkMw@62.133.63.169:37096#Server 108 🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplZGQzNTlmNTk0ZGVhODQy@141.95.105.163:11201#Server 109 🇩🇪
-vless://0569f3ce-447b-4ac5-aae3-b47ae55351f7@167.82.92.159:80/?type=ws&encryption=none&flow=&host=dayous.global.ssl.fastly.net&path=%2F#Server 110 🇺🇸
+vless://0569f3ce-447b-4ac5-aae3-b47ae55351f7@167.82.92.159:80/?type=ws&encryption=none&flow=&host=dayous.global.ssl.fastly.net&path=%2F#Server 110 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==@3.1.195.148:8316#Server 111 🇸🇬
 vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@141.101.114.165:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=www.getasa.ir&path=/--Telegram---@TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS/---TM_VEGAS/---@TM_VEGAS&sni=www.getasa.ir&fp=chrome&alpn=h2,http/1.1#Server 112 🇺🇸
 vless://cca053d5-7123-4a87-83d6-babe4e9c8115@103.245.237.124:58202?path=%2F&security=none&encryption=none&type=ws#Server 113 🇻🇳
@@ -118,22 +118,22 @@ vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDExNyDwn4e68J+HuCIsImFkZCI6IjE3Mi4yMzQuMTMy
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?security=&encryption=none&type=grpc&sni=pqh29v4.globalfymain.com#Server 118 🇺🇸
 trojan://5fb072e0ddd631cf66cf752b09210480@13.231.234.230:544?security=tls&sni=www.nintendogames.net#Server 119 🇯🇵
 vless://8910cbb3-33b1-4266-a243-ac780ac63394@pq-albania1.09vpn.com:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#Server 120 🇦🇱
-vless://a571b94c-a9f3-407a-a8ef-da608dab5472@46.226.167.138:46248/?type=tcp&encryption=none&flow=#Server 121 🇩🇪
+vless://a571b94c-a9f3-407a-a8ef-da608dab5472@46.226.167.138:46248/?type=tcp&encryption=none&flow=#Server 121 🇫🇷
 vless://rootface-hacker@38.244.26.120:80?path=//𒉭𓆩@rootface𒆜𒉭 @pwn_1337 TELEGRAM&security=none&encryption=none&type=ws#Server 122 🇺🇸
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@pqh29v4.globalfymain.com:8880?mode=gun&security=&encryption=none&type=grpc&sni=pqh29v4.globalfymain.com#Server 123 🇺🇸
 vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@198.62.62.127:443/?type=ws&encryption=none&flow=&host=apii.onlineshoppingez.ir&path=%2FO1w0n3vYgFKYs7EzNAvLPvOp&security=tls&sni=apii.onlineshoppingez.ir&alpn=http%2F1.1&fp=chrome#Server 124 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NGFhZTA1MTAxODhlOGM1@141.95.106.127:11201#Server 125 🇩🇪
 hy2://Yet-Another-Public-Config-1@206.71.158.37:36400?obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#Server 126
-vmess://eyJhZGQiOiIxMDQuMjEuNjkuNDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im5hc25ldC01MTE5NTI0MjQubWNpdGVsLmNvIiwiaWQiOiJuYXNuZXQiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbmFzbmV0L2NkbiIsInBvcnQiOiI4MDgwIiwicHMiOiJTZXJ2ZXIgMTI3IPCfh7rwn4e4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
-vless://0569f3ce-447b-4ac5-aae3-b47ae55351f7@167.82.92.159:80?path=%2F&security=&encryption=none&host=dayous.global.ssl.fastly.net&type=ws#Server 128 🇺🇸
+vmess://eyJhZGQiOiIxMDQuMjEuNjkuNDQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im5hc25ldC01MTE5NTI0MjQubWNpdGVsLmNvIiwiaWQiOiJuYXNuZXQiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbmFzbmV0L2NkbiIsInBvcnQiOiI4MDgwIiwicHMiOiJTZXJ2ZXIgMTI3IPCfh6jwn4emIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
+vless://0569f3ce-447b-4ac5-aae3-b47ae55351f7@167.82.92.159:80?path=%2F&security=&encryption=none&host=dayous.global.ssl.fastly.net&type=ws#Server 128 🇨🇦
 vless://6985e16e-48fd-55a7-f0e3-5202e8b1d5b2@43.165.180.71:8443?security=tls&type=ws&path=%2Fsocks5%3D6226604a%3A9ca2df1bf22a%4038.57.76.31%3A33375&host=9ae825f8.lfree.cn.mt&alpn=h3&sni=9ae825f8.lfree.cn.mt&fp=random&encryption=none#Server 129 🇯🇵
 vless://05b544a4-d479-4ba4-8208-950bd4411453@pq-India1.09vpn.com:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#Server 130 🇮🇳
 vmess://eyJhZGQiOiI0Ny4yNDMuMTM1Ljc0IiwicG9ydCI6IjU1MTg1IiwiaWQiOiIxMzc1OTg1ZS0zMzRhLTRjMjUtOGY2NC01MmExODJiYzgwMzciLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidiI6IjIiLCJwcyI6IlNlcnZlciAxMzEg8J+HrfCfh7AiLCJob3N0IjoiIiwicGF0aCI6Ii9Ob3RpZl9DaGF0IiwidGxzIjoiIiwic25pIjoiIiwidHlwZSI6Im5vbmUiLCJzZXJ2ZXJQb3J0IjowLCJuYXRpb24iOiIifQ==
 vless://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.4.20:8880?security=&encryption=none&type=grpc#Server 132 🇺🇸
 vless://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.4.127:8880?security=&encryption=none&type=grpc#Server 133 🇺🇸
 vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855/?type=ws&encryption=none&flow=&path=%2F#Server 134 🇩🇰
-vless://0569f3ce-447b-4ac5-aae3-b47ae55351f7@167.82.92.159:80?encryption=none&host=dayous.global.ssl.fastly.net&path=%2F&security=none&type=ws#Server 135 🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNWIwNTczODMwMDgxZDAx@51.89.119.213:11201#Server 136 🇩🇪
+vless://0569f3ce-447b-4ac5-aae3-b47ae55351f7@167.82.92.159:80?encryption=none&host=dayous.global.ssl.fastly.net&path=%2F&security=none&type=ws#Server 135 🇨🇦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNWIwNTczODMwMDgxZDAx@51.89.119.213:11201#Server 136 🇬🇧
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=0&sni=YAPC-1.afshin.ir#Server 137 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx@54.36.174.140:443#Server 138 🇵🇱
 vless://6251f84e-9c02-4140-921c-6b47d394fb96@40.160.14.104:8880?security=&encryption=none&type=grpc#Server 139 🇺🇸
@@ -142,7 +142,7 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?mode=gun&securit
 vless://05b544a4-d479-4ba4-8208-950bd4411453@45.89.105.56:80?encryption=none&path=%2Fvless%2F&security=none&type=ws#Server 142 🇮🇳
 ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.164.29:12000#Server 143 🇨🇦
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35200?security=tls&obfs=salamander&obfs-password=Yet-Another-Public-Config-1&insecure=1&sni=YAPC-1.afshin.ir#Server 144 🇳🇱
-vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@chatgpt.com:443?path=/O1w0n3vYgFKYs7EzNAvLPvOp&security=tls&alpn=http/1.1&encryption=none&insecure=1&host=apii.onlineshoppingez.ir&fp=chrome&type=ws&allowInsecure=1&sni=apii.onlineshoppingez.ir#Server 145 🇬🇧
+vless://e6c7ed63-89db-4ae1-a3f8-7a722921b3b2@chatgpt.com:443?path=/O1w0n3vYgFKYs7EzNAvLPvOp&security=tls&alpn=http/1.1&encryption=none&insecure=1&host=apii.onlineshoppingez.ir&fp=chrome&type=ws&allowInsecure=1&sni=apii.onlineshoppingez.ir#Server 145 🇨🇦
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?type=grpc&mode=gun&authority=/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1&fp=chrome&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net&encryption=none#Server 146 🇺🇸
 trojan://aZsk43TyWBpjt@A@vpn.qinfen180.cn:443/?security=tls&serviseName=@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray,@icv2ray&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=vpn.qinfen180.cn#Server 147 🇸🇬
 vless://a0891e86-ce1f-4e1b-e47c-84c890f1b130@3.67.70.223:443?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#Server 148 🇩🇪
