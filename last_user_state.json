@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "ebrahim.golizade",
     "heydarzade",
     "amir.agazade",
     "tahmazzade",
@@ -34,7 +35,6 @@
     "karim.abbaszade",
     "simin",
     "habib.mojallal",
-    "ebrahim.golizade",
     "a.panahi",
     "hadi.mohammadi",
     "r.taragikhah",
@@ -341,6 +341,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "ebrahim.golizade": "🚫ebrahim.golizade #404.11.11 | blocked 2026-02-08",
     "heydarzade": "heydarzade #404.11.19",
     "amir.agazade": "amir.agazade #404.11.19",
     "tahmazzade": "tahmazzade #404.11.19",
@@ -375,7 +376,6 @@
     "karim.abbaszade": "karim.abbaszade #404.11.12",
     "simin": "simin #404.11.12",
     "habib.mojallal": "habib.mojallal #404.11.11",
-    "ebrahim.golizade": "ebrahim.golizade #404.11.11",
     "a.panahi": "a.panahi #404.11.11",
     "hadi.mohammadi": "hadi.mohammadi #404.11.11",
     "r.taragikhah": "r.taragikhah #404.11.11",
@@ -681,5 +681,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-08 18:00"
+  "timestamp": "2026-02-08 18:46"
 }
