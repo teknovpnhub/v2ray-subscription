@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "ebadi",
     "yusef.nabati",
     "kazemi",
     "jabbarzade",
@@ -64,7 +65,6 @@
     "valizade",
     "khaled.jahangiri1",
     "reza.sahranavard",
-    "ebadi",
     "masumi",
     "aslani",
     "saidi",
@@ -338,6 +338,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "ebadi": "ebadi #404.11.19",
     "yusef.nabati": "yusef.nabati #404.11.16",
     "kazemi": "kazemi #404.11.16",
     "jabbarzade": "jabbarzade #404.11.16",
@@ -402,7 +403,6 @@
     "valizade": "🚫valizade #404.9.11 | blocked 2026-01-31",
     "khaled.jahangiri1": "🚫khaled.jahangiri1 #404.9.9 | blocked 2026-01-31",
     "reza.sahranavard": "🚫reza.sahranavard #404.9.13 | blocked 2026-01-31",
-    "ebadi": "🚫ebadi #404.9.12 | blocked 2026-01-31",
     "masumi": "🚫masumi #404.9.13 | blocked 2026-01-31",
     "aslani": "🚫aslani #404.9.26 | blocked 2026-01-31",
     "saidi": "🚫saidi #404.9.9 | blocked 2026-01-31",
@@ -675,5 +675,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-02-08 11:09"
+  "timestamp": "2026-02-08 11:27"
 }
