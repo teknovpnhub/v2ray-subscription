@@ -1,3 +1,5 @@
+faramarz.ahmadpurtamar | manual_add | Line: faramarz.ahmadpurtamar --404.11.20 | 2026-02-09 11:34
+
 ebrahim.golizade | blocked | | blocked 2026-02-08 [Note: 404.11.11] | 2026-02-08 18:46
 
 ebrahim.golizade | manual_delete | User manually removed [Note: 404.11.11] | 2026-02-08 18:46
@@ -337,8 +339,6 @@ ehsan.khosrotamar | manual_delete | User manually removed [Note: 404.11.11 | blo
 dahri | unblocked | [Note: 404.11.11 | blocked 2026-01-18] | 2026-01-31 10:55
 
 dahri | manual_delete | User manually removed [Note: 404.11.11 | blocked 2026-01-18] | 2026-01-31 10:55
-
-mahdi.rayi | added | [Note: 404.10.9] | 2026-01-29 19:31
 
 mehdizade1 | unblocked | [Note: 404.10.17 | blocked 2026-01-03] | 2026-01-07 19:57
 
