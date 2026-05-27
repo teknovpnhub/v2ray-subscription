@@ -10,15 +10,15 @@ vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?encryption=none&ty
 vless://IR_NETLIFY@194.59.183.234:42115?type=ws&encryption=none&path=/&host=&security=none#Server 10 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001286ek2.cybervena.com:50099#Server 11 🇹🇼
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.185.207:443?allowInsecure=1&alpn=http%2F1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#Server 12 🇺🇸
-vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?path=/&security=none&encryption=none&host=Asaaabi.global.ssl.fastly.net&type=ws#Server 13 🇬🇧
-vless://384e0806-fcee-4f92-b671-bfc6a4794148@speedtest.net:80?encryption=none&type=ws&path=%2F&host=oijji.global.ssl.fastly.net#Server 14 🇬🇧
+vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?path=/&security=none&encryption=none&host=Asaaabi.global.ssl.fastly.net&type=ws#Server 13 🇨🇦
+vless://384e0806-fcee-4f92-b671-bfc6a4794148@speedtest.net:80?encryption=none&type=ws&path=%2F&host=oijji.global.ssl.fastly.net#Server 14 🇩🇪
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=%2F&security=&encryption=none&type=ws#Server 15 🇮🇷
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@185.143.233.235:8880?path=/&security=none&encryption=none&host=a.darafiq.ir&type=ws#Server 16 🇮🇷
 vmess://eyJhZGQiOiI0Ny4yMzkuMTcyLjE2NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmdWtpbmctcm9vdGZhY2UiLCJuZXQiOiJ3cyIsInBhdGgiOiIvL0BCdWxsU2hpdF9pdSB0ZWxlZ3JhbU5hZGlhIiwicG9ydCI6IjY2NiIsInBzIjoiU2VydmVyIDE3IPCfh63wn4ewIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg007134n4g.cybervena.com:50099#Server 18 🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001269pz2.cybervena.com:50099#Server 19 🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007134n4g.cybervena.com:50099#Server 20 🇹🇼
-vless://0dafcdf5-3e7d-4970-beaf-73a17d67de96@speedtest.net:80?path=/&security=none&encryption=none&host=avasjji.global.ssl.fastly.net&type=ws#Server 21 🇩🇪
+vless://0dafcdf5-3e7d-4970-beaf-73a17d67de96@speedtest.net:80?path=/&security=none&encryption=none&host=avasjji.global.ssl.fastly.net&type=ws#Server 21 🇨🇦
 vmess://eyJhZGQiOiIxNTkuMjIzLjEzLjEwOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiIiwiaWQiOiI1YzA0MGYxZC00NWRiLTQzYmQtOGQ0Ni1lNDk1MGU0MzM3MzUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEyMzQiLCJwcyI6IlNlcnZlciAyMiDwn4ez8J+HsSIsInNjeSI6ImFlcy0xMjgtZ2NtIiwic25pIjoic3VwZXJ2cG4uc3VwZXIuY29tIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@5.188.156.138:4443?encryption=none&security=none&type=tcp#Server 23 🇷🇺
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@ru3.alexanderoff.ru:4443?&security=false&fp=chrome&type=tcp&headerType=none&host=ru3.alexanderoff.ru&path=%2F#Server 24 🇷🇺
