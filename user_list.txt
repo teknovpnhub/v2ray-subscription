@@ -107,29 +107,29 @@ mahdi.kiyarash #404.10.28
 🚫vali.milani #404.9.15 | blocked 2026-01-18
 🚫vahid.rasuli #404.9.25 | blocked 2026-01-18
 🚫dehgani #404.9.15 | blocked 2026-01-18
-ashrafi #404.10.18
-mohammad.panahi #404.10.18
-pashayi #404.10.18
-nasrin.alipur #404.10.18
-dolatkhah #404.10.18
-mehdizade1 #404.10.17
-teymur.hagigat #404.10.17
-customer5 #404.10.17
-esfandiyari1 #404.10.17
-hasan.rasuli #404.10.17
-shahram.karimi #404.10.16
-teymuri #404.10.16
-mirhossein.mohammadi #404.10.16
-amir.valizade #404.10.16
-allahverdizade #404.10.15
-nemati #404.10.14
-javadi #404.10.14
-parvin.bargushluyi #404.10.14
-akram.hajalilu #404.10.14
-torkan #404.10.13
-dorosti #404.10.13
-peyman.kh #404.10.13
-rahmanzade #404.10.13
+ashrafi ---b #404.10.18
+mohammad.panahi ---b #404.10.18
+pashayi ---b #404.10.18
+nasrin.alipur ---b #404.10.18
+dolatkhah ---b #404.10.18
+mehdizade1 ---b #404.10.17
+teymur.hagigat ---b #404.10.17
+customer5 ---b #404.10.17
+esfandiyari1 ---b #404.10.17
+hasan.rasuli ---b #404.10.17
+shahram.karimi ---b #404.10.16
+teymuri ---b #404.10.16
+mirhossein.mohammadi ---b #404.10.16
+amir.valizade ---b #404.10.16
+allahverdizade ---b #404.10.15
+nemati ---b #404.10.14
+javadi ---b #404.10.14
+parvin.bargushluyi ---b #404.10.14
+akram.hajalilu ---b #404.10.14
+torkan ---b #404.10.13
+dorosti ---b #404.10.13
+peyman.kh ---b #404.10.13
+rahmanzade ---b #404.10.13
 🚫aghapour #404.9.5 | blocked 2026-01-03
 🚫khaled.jahangiri #404.9.6 | blocked 2026-01-03
 🚫mehdizade2 #404.9.1 | blocked 2026-01-03
@@ -143,7 +143,7 @@ rahmanzade #404.10.13
 🚫torkan1 #404.8.29 | blocked 2026-01-03
 🚫customer6 #404.9.5 | blocked 2026-01-03
 🚫kimiya1 #404.9.6 | blocked 2026-01-03
-b.hasanlou #404.10.11
+b.hasanlou ---b #404.10.11
 bazdar #404.10.11
 salamzade #404.10.11
 matin.bargi #404.10.11
