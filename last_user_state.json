@@ -1,5 +1,11 @@
 {
   "usernames": [
+    "dahri",
+    "mahdi.rayi",
+    "hasan.gorbani",
+    "ehsan.khosrotamar",
+    "m.masumi",
+    "mahdi.kiyarash",
     "habibzade1",
     "habib.moja",
     "i.izadi",
@@ -99,12 +105,6 @@
     "ehsan.alizade",
     "t.hatami",
     "golizade",
-    "m.masumi",
-    "ehsan.khosrotamar",
-    "dahri",
-    "mahdi.rayi",
-    "hasan.gorbani",
-    "mahdi.kiyarash",
     "ali.parsa",
     "yunesi",
     "soltani",
@@ -342,6 +342,12 @@
     "vahid.behruz"
   ],
   "lines": {
+    "dahri": "🚫dahri #404.11.11 | blocked 2026-05-28",
+    "mahdi.rayi": "🚫mahdi.rayi #404.11.9 | blocked 2026-05-28",
+    "hasan.gorbani": "🚫hasan.gorbani #404.10.28 | blocked 2026-05-28",
+    "ehsan.khosrotamar": "🚫ehsan.khosrotamar #404.11.11 | blocked 2026-05-28",
+    "m.masumi": "🚫m.masumi #404.11.11 | blocked 2026-05-28",
+    "mahdi.kiyarash": "🚫mahdi.kiyarash #404.10.28 | blocked 2026-05-28",
     "habibzade1": "🚫habibzade1 #404.11.11 | blocked 2026-05-28",
     "habib.moja": "🚫habib.moja #404.11.11 | blocked 2026-05-28",
     "i.izadi": "🚫i.izadi #404.11.12 | blocked 2026-05-28",
@@ -441,12 +447,6 @@
     "ehsan.alizade": "🚫ehsan.alizade #404.9.8 | blocked 2026-01-31",
     "t.hatami": "🚫t.hatami #404.9.8 | blocked 2026-01-31",
     "golizade": "🚫golizade #404.9.12 | blocked 2026-01-31",
-    "m.masumi": "m.masumi #404.11.11",
-    "ehsan.khosrotamar": "ehsan.khosrotamar #404.11.11",
-    "dahri": "dahri #404.11.11",
-    "mahdi.rayi": "mahdi.rayi #404.11.9",
-    "hasan.gorbani": "hasan.gorbani #404.10.28",
-    "mahdi.kiyarash": "mahdi.kiyarash #404.10.28",
     "ali.parsa": "🚫ali.parsa #404.9.24 | blocked 2026-01-18",
     "yunesi": "🚫yunesi #404.9.22 | blocked 2026-01-18",
     "soltani": "🚫soltani #404.9.19 | blocked 2026-01-18",
@@ -683,5 +683,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-05-28 12:35"
+  "timestamp": "2026-05-28 12:49"
 }
