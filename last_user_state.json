@@ -1,7 +1,7 @@
 {
   "usernames": [
-    "ruyin",
     "faramarz.ahmadpurtamar",
+    "ruyin",
     "ebrahim.golizade",
     "heydarzade",
     "amir.agazade",
@@ -342,8 +342,8 @@
     "vahid.behruz"
   ],
   "lines": {
+    "faramarz.ahmadpurtamar": "🚫faramarz.ahmadpurtamar #| blocked 2026-05-28",
     "ruyin": "ruyin #405.3.7",
-    "faramarz.ahmadpurtamar": "faramarz.ahmadpurtamar --404.11.20",
     "ebrahim.golizade": "🚫ebrahim.golizade #404.11.11 | blocked 2026-02-08",
     "heydarzade": "heydarzade #404.11.19",
     "amir.agazade": "amir.agazade #404.11.19",
@@ -683,5 +683,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-05-28 11:30"
+  "timestamp": "2026-05-28 11:56"
 }
