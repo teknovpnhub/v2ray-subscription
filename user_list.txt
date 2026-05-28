@@ -25,49 +25,49 @@
 🚫faramarz.ahmadpurtamar #| blocked 2026-05-28
 ruyin #405.3.7
 🚫ebrahim.golizade #404.11.11 | blocked 2026-02-08
-heydarzade #404.11.19
-amir.agazade #404.11.19
-tahmazzade #404.11.19
-ebadi #404.11.19
-yusef.nabati #404.11.16
-kazemi #404.11.16
-jabbarzade #404.11.16
-m.hatami #404.11.16
-masumi1 #404.11.16
-moradi #404.11.16
-tohid #404.11.16
-sakine.purzeynel1 #404.11.15
-sakine.purzeynel #404.11.15
-bakhtiyar.rezayi #404.11.15
-mehdi.fekrat #404.11.15
-t.maaleki2 #404.11.14
-hossein.abbaszade #404.11.14
-r.khani #404.11.14
-rahim.beytollahi #404.11.13
-karam.aghbashlu #404.11.13
-hasani #404.11.13
-molayi #404.11.12
-habibzade #404.11.12
-alipour #404.11.12
-masud.alipur #404.11.12
-puya.hajaghayi #404.11.12
-yusefi #404.11.12
-narimani #404.11.12
-i.izadi #404.11.12
-pakravan #404.11.12
-amir.abdeli #404.11.12
-karim.abbaszade #404.11.12
-simin #404.11.12
-habib.mojallal #404.11.11
-a.panahi #404.11.11
-hadi.mohammadi #404.11.11
-r.taragikhah #404.11.11
-abrishami #404.11.11
-esfandiyari #404.11.11
-tohid.aslanzade #404.11.11
-habib.moja #404.11.11
-alireza.agazade #404.11.11
-habibzade1 #404.11.11
+heydarzade ---b #404.11.19
+amir.agazade ---b #404.11.19
+tahmazzade ---b #404.11.19
+ebadi ---b #404.11.19
+yusef.nabati ---b #404.11.16
+kazemi ---b #404.11.16
+jabbarzade ---b #404.11.16
+m.hatami ---b #404.11.16
+masumi1 ---b #404.11.16
+moradi ---b #404.11.16
+tohid ---b #404.11.16
+sakine.purzeynel1 ---b #404.11.15
+sakine.purzeynel ---b #404.11.15
+bakhtiyar.rezayi ---b #404.11.15
+mehdi.fekrat ---b #404.11.15
+t.maaleki2 ---b #404.11.14
+hossein.abbaszade ---b #404.11.14
+r.khani ---b #404.11.14
+rahim.beytollahi ---b #404.11.13
+karam.aghbashlu ---b #404.11.13
+hasani ---b #404.11.13
+molayi ---b #404.11.12
+habibzade ---b #404.11.12
+alipour ---b #404.11.12
+masud.alipur ---b #404.11.12
+puya.hajaghayi ---b #404.11.12
+yusefi ---b #404.11.12
+narimani ---b #404.11.12
+i.izadi ---b #404.11.12
+pakravan ---b #404.11.12
+amir.abdeli ---b #404.11.12
+karim.abbaszade ---b #404.11.12
+simin ---b #404.11.12
+habib.mojallal ---b #404.11.11
+a.panahi ---b #404.11.11
+hadi.mohammadi ---b ---b #404.11.11
+r.taragikhah ---b #404.11.11
+abrishami ---b #404.11.11
+esfandiyari ---b #404.11.11
+tohid.aslanzade ---b #404.11.11
+habib.moja  ---b #404.11.11
+alireza.agazade ---b #404.11.11
+habibzade1 ---b #404.11.11
 🚫soghra.sadati #404.10.4 | blocked 2026-01-31
 🚫alipur #404.9.29 | blocked 2026-01-31
 🚫nurali.gasemi #404.10.1 | blocked 2026-01-31
