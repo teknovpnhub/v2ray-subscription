@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "fazlalizade",
     "dahri",
     "mahdi.rayi",
     "hasan.gorbani",
@@ -342,6 +343,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "fazlalizade": "fazlalizade #405.3.7",
     "dahri": "🚫dahri #404.11.11 | blocked 2026-05-28",
     "mahdi.rayi": "🚫mahdi.rayi #404.11.9 | blocked 2026-05-28",
     "hasan.gorbani": "🚫hasan.gorbani #404.10.28 | blocked 2026-05-28",
@@ -683,5 +685,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-05-28 12:49"
+  "timestamp": "2026-05-28 13:02"
 }
