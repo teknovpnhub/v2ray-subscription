@@ -34,7 +34,7 @@ fazlalizade #405.3.7
 🚫karam.aghbashlu #404.11.13 | blocked 2026-05-28
 🚫puya.hajaghayi #404.11.12 | blocked 2026-05-28
 🚫simin #404.11.12 | blocked 2026-05-28
-🚫t.maaleki2 #404.11.14 | blocked 2026-05-28
+🚫t.maaleki2 ---ub #405.3.10 | blocked 2026-05-28
 🚫esfandiyari #404.11.11 | blocked 2026-05-28
 🚫masud.alipur #404.11.12 | blocked 2026-05-28
 🚫bakhtiyar.rezayi #404.11.15 | blocked 2026-05-28
