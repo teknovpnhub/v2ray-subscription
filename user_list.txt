@@ -1,3 +1,25 @@
+🚫amin.mafi #404.10.9 | blocked 2026-05-31
+🚫robab.valizade #404.10.7 | blocked 2026-05-31
+🚫s.khezri #404.10.6 | blocked 2026-05-31
+🚫matin.bargi #404.10.11 | blocked 2026-05-31
+🚫abedi #404.10.9 | blocked 2026-05-31
+🚫eshgkhah #404.10.7 | blocked 2026-05-31
+🚫seyyedhoseyni1 #404.10.7 | blocked 2026-05-31
+🚫meysam.mohammadi #404.10.8 | blocked 2026-05-31
+🚫bazdar #404.10.11 | blocked 2026-05-31
+🚫a.ahmadi #404.10.7 | blocked 2026-05-31
+🚫yusefzade #404.10.7 | blocked 2026-05-31
+🚫soheyl #404.9.22 | blocked 2026-05-31
+🚫sabri #404.10.7 | blocked 2026-05-31
+🚫javad.golmohammadi #404.10.7 | blocked 2026-05-31
+🚫eyvari #404.10.10 | blocked 2026-05-31
+🚫nagizade #404.10.6 | blocked 2026-05-31
+🚫salamzade #404.10.11 | blocked 2026-05-31
+🚫lahuri #404.10.6 | blocked 2026-05-31
+🚫customer7 #404.10.9 | blocked 2026-05-31
+🚫hoseyni #404.10.10 | blocked 2026-05-31
+🚫makhani #404.10.7 | blocked 2026-05-31
+🚫shokrzade #404.10.6 | blocked 2026-05-31
 t.maaleki2 #405.3.10
 fazlalizade #405.3.7
 🚫dahri #404.11.11 | blocked 2026-05-28
@@ -145,27 +167,6 @@ ansarifard #404.11.11
 🚫torkan1 #404.8.29 | blocked 2026-01-03
 🚫customer6 #404.9.5 | blocked 2026-01-03
 🚫kimiya1 #404.9.6 | blocked 2026-01-03
-bazdar ---b #404.10.11
-salamzade ---b #404.10.11
-matin.bargi ---b #404.10.11
-shokrzade ---b #404.10.6
-hoseyni ---b #404.10.10
-eyvari ---b #404.10.10
-amin.mafi ---b #404.10.9
-abedi ---b #404.10.9
-customer7 ---b #404.10.9
-meysam.mohammadi ---b #404.10.8
-eshgkhah ---b #404.10.7
-makhani ---b #404.10.7
-robab.valizade ---b #404.10.7
-seyyedhoseyni1 ---b #404.10.7
-sabri ---b #404.10.7
-yusefzade ---b #404.10.7
-a.ahmadi ---b #404.10.7
-javad.golmohammadi ---b #404.10.7
-nagizade ---b #404.10.6
-s.khezri ---b #404.10.6
-lahuri ---b #404.10.6
 🚫yusefi1 #404.10.6 | blocked 2025-12-27
 🚫f.alinezhad #404.8.26 | blocked 2025-12-27
 🚫hosseinbaglu #404.8.26 | blocked 2025-12-27
@@ -180,7 +181,6 @@ lahuri ---b #404.10.6
 🚫delayimilan #404.8.17 | blocked 2025-12-20
 🚫h.novin #404.8.19 | blocked 2025-12-20
 🚫afsari1 #404.8.20 | blocked 2025-12-20
-soheyl ---b #404.9.22
 🚫s.aslani #404.8.8 | blocked 2025-12-13
 🚫f.kalbkhani #404.8.8 | blocked 2025-12-13
 🚫golinezhad #404.8.12 | blocked 2025-12-13
