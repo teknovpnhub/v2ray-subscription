@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "sajjad.mehdizade",
     "amin.mafi",
     "robab.valizade",
     "s.khezri",
@@ -343,6 +344,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "sajjad.mehdizade": "sajjad.mehdizade #405.3.10",
     "amin.mafi": "🚫amin.mafi #404.10.9 | blocked 2026-05-31",
     "robab.valizade": "🚫robab.valizade #404.10.7 | blocked 2026-05-31",
     "s.khezri": "🚫s.khezri #404.10.6 | blocked 2026-05-31",
@@ -685,5 +687,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-05-31 19:40"
+  "timestamp": "2026-05-31 20:02"
 }
