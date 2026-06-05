@@ -11,19 +11,19 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.244:443#Server 10 🇺🇸
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=/&security=none&encryption=none&type=ws#Server 11 🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZTI4NzYzMWRjNGZjOGZj@62.146.231.112:12012#Server 12 🇺🇸
 vless://5678b00f-9ed6-4982-9f8a-1a7306e25126@162.217.249.74:48748?security=none&encryption=none&headerType=none&type=tcp#Server 13 🇳🇱
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@162.159.36.5:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#Server 14 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@162.159.36.5:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#Server 14 🇺🇸
 trojan://A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM@172.237.145.189:443?security=tls&sni=172.237.145.189&fp=chrome&headerType=none&allowInsecure=0&type=tcp#Server 15 🇺🇸
 trojan://telegram-id-directvpn@3.78.211.9:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 16 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#Server 17 🇯🇵
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.163:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#Server 18 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.163:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#Server 18 🇺🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@35.183.129.131:443#Server 19 🇨🇦
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@35.183.96.211:443#Server 20 🇨🇦
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.68:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#Server 21 🇨🇦
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.227:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#Server 22 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.68:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#Server 21 🇺🇸
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.227:80?security=none&encryption=none&host=tt.andishehparenting.com&type=ws#Server 22 🇺🇸
 trojan://telegram-id-privatevpns@3.78.211.9:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 23 🇩🇪
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#Server 24 🇨🇦
-trojan://BstBsRr71p@104.18.32.47:8443?mode=auto&security=tls&insecure=1&fp=chrome&type=xhttp&allowInsecure=1&sni=sv-free.n2buy.ir#Server 25 🇨🇦
-trojan://BstBsRr71p@104.18.32.47:8443?security=tls&insecure=1&fp=chrome&type=xhttp&allowInsecure=1&sni=sv-free.n2buy.ir#Server 26 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?path=/&security=&encryption=none&host=tt.andishehparenting.com&type=ws#Server 24 🇺🇸
+trojan://BstBsRr71p@104.18.32.47:8443?mode=auto&security=tls&insecure=1&fp=chrome&type=xhttp&allowInsecure=1&sni=sv-free.n2buy.ir#Server 25 🇺🇸
+trojan://BstBsRr71p@104.18.32.47:8443?security=tls&insecure=1&fp=chrome&type=xhttp&allowInsecure=1&sni=sv-free.n2buy.ir#Server 26 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFUjJ4Q2NKa21SMXBmdG1OMzAwQ05K@62.60.233.226:62763#Server 27 🇹🇷
 vless://bd31a135-8511-421d-a6b7-45937ef59e88@95.216.209.22:443?encryption=none&type=tcp&headerType=none#Server 28 🇫🇮
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.183.96.211:443?#Server 29 🇨🇦
@@ -51,29 +51,29 @@ vless://20afe519-9ef3-4c70-a2cf-5336b1125090@195.133.2.45:26048?type=tcp&encrypt
 vless://6d49fae1-374d-313e-b360-1227b0ea8dea@s356.ccgfw.online:443?encryption=none&type=tcp&headerType=none&fp=chrome&host=s356.ccgfw.online&path=&flow=xtls-rprx-vision&security=tls&sni=09d7s356.ccgfw.online&serviceName=&mode=&alpn=#Server 51 🇺🇸
 vless://05e09c8a-a3a9-4bd5-acf9-2c3c87bab827@145.239.173.163:443?security=none&encryption=none&headerType=none&type=tcp#Server 52 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#Server 53 🇳🇱
-vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDU0IPCfh6jwn4ezIiwiYWRkIjoiMTMwLjk0LjEwMS4zNSIsInBvcnQiOiI0NjgyMCIsImlkIjoiZjIzYjMyMmMtOWJjMS00YTBjLTgwM2QtNDk0ZGI5ZDQwOTlkIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIvYXJraSIsInRscyI6IiIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiIsImluc2VjdXJlIjoiMCJ9
+vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDU0IPCfh7Lwn4e9IiwiYWRkIjoiMTMwLjk0LjEwMS4zNSIsInBvcnQiOiI0NjgyMCIsImlkIjoiZjIzYjMyMmMtOWJjMS00YTBjLTgwM2QtNDk0ZGI5ZDQwOTlkIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIvYXJraSIsInRscyI6IiIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiIsImluc2VjdXJlIjoiMCJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@61.231.15.57:50099#Server 55 🇹🇼
 ss://YWVzLTI1Ni1nY206NTA0Y2IwYmUtYjI4NS00ZWM1LTk1NjEtYmMyODlhZWEwZDQ2@bgroup.node1.s.nodelist-airport.com:53431#Server 56 🇯🇵
 vless://@free_conf_iran@145.239.173.163:443?security=none&encryption=none&headerType=none&type=tcp#Server 57 🇫🇷
 vless://d6d7e024-0a49-483d-bcd7-048c4d30eca6@159.89.194.243:22539?sni=node1.nanonet.host&fp=chrome&security=tls#Server 58 🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007117fb8.cybervena.com:50099#Server 59 🇹🇼
-vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?&security=false&fp=chrome&type=ws&headerType=none&host=Asaaabi.global.ssl.fastly.net&path=/#Server 60 🇩🇪
+vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?&security=false&fp=chrome&type=ws&headerType=none&host=Asaaabi.global.ssl.fastly.net&path=/#Server 60 🇨🇦
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.76.99.252:443?#Server 61 🇩🇪
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@15.223.186.62:443?#Server 62 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.87.83:50099#Server 63 🇹🇼
 vmess://eyJhZGQiOiIxNjIuMTkuMjA0LjcxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6IjVjMDQwZjFkLTQ1ZGItNDNiZC04ZDQ2LWU0OTUwZTQzMzczNSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTIzNCIsInBzIjoiU2VydmVyIDY0IPCfh6nwn4eqIiwic2N5IjoiYWVzLTEyOC1nY20iLCJzbmkiOiJzdXBlcnZwbi5zdXBlci5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@61.231.23.153:50099#Server 65 🇹🇼
-vless://cd9146ae-9cc4-49e2-80e9-eb1b194c7054@172.67.158.125:443?path=/&security=tls&alpn=h2,http/1.1&encryption=none&host=pro.nimbaha.info&fp=chrome&type=ws&sni=PrO.nImBaHa.InFo#Server 66 🇨🇦
+vless://cd9146ae-9cc4-49e2-80e9-eb1b194c7054@172.67.158.125:443?path=/&security=tls&alpn=h2,http/1.1&encryption=none&host=pro.nimbaha.info&fp=chrome&type=ws&sni=PrO.nImBaHa.InFo#Server 66 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1dmxkc05NYlE4QjRjS0RLMHNST3dq@142.93.183.235:20683#Server 67 🇺🇸
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.185.207:443?allowInsecure=1&alpn=http/1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=sni.111000.dynv6.net&path=/?proxyip=ip.111000.de5.net%3A443&security=tls&sni=sni.111000.dynv6.net&type=ws#Server 68 🇨🇦
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.185.207:443?allowInsecure=1&alpn=http/1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=sni.111000.dynv6.net&path=/?proxyip=ip.111000.de5.net%3A443&security=tls&sni=sni.111000.dynv6.net&type=ws#Server 68 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg0011499tl.cybervena.com:50099#Server 69 🇹🇼
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDcwIPCfh63wn4ewIiwiYWRkIjoiMTU0LjIwNS4xMzYuMTIyIiwicG9ydCI6Mzc4NDksImlkIjoiMzBlODhmNjctODQ0NS00M2NhLWZmMmItOTYxYmJmNjMzOWZjIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOm51bGwsImhvc3QiOm51bGwsImFscG4iOm51bGwsInBhdGgiOiIvIiwidGxzIjpudWxsLCJzbmkiOm51bGwsImZwIjpudWxsfQ==
 vmess://eyJhZGQiOiJhcmlzLmFyaXNwaW5nLWlyLnN0b3JlIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJjZG4uYXJpc3BpbmctaXIuc3RvcmUiLCJpZCI6IjY3Zjc5OTA3LTYxNjMtNDc1Yy1iNWJhLTJhM2ZhYTBjMDJjNSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNDQzIiwicHMiOiJTZXJ2ZXIgNzEg8J+HqPCfh6YiLCJzY3kiOiJhdXRvIiwic25pIjoiY2RuLmFyaXNwaW5nLWlyLnN0b3JlIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
-vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?encryption=none&type=ws&path=%2F&host=Asaaabi.global.ssl.fastly.net#Server 72 🇬🇧
+vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?encryption=none&type=ws&path=%2F&host=Asaaabi.global.ssl.fastly.net#Server 72 🇨🇦
 vless://IR_NETLIFY@194.59.183.234:42115?type=ws&encryption=none&path=/&host=&security=none#Server 73 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001286ek2.cybervena.com:50099#Server 74 🇹🇼
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.185.207:443?allowInsecure=1&alpn=http%2F1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#Server 75 🇨🇦
-vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?path=/&security=none&encryption=none&host=Asaaabi.global.ssl.fastly.net&type=ws#Server 76 🇬🇧
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.17.185.207:443?allowInsecure=1&alpn=http%2F1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=sni.111000.dynv6.net&path=%2F%3Fproxyip%3Dip.111000.de5.net%253A443&security=tls&sni=sni.111000.dynv6.net&type=ws#Server 75 🇺🇸
+vless://7903e1c8-13c7-4091-9a17-253bddad208e@speedtest.net:80?path=/&security=none&encryption=none&host=Asaaabi.global.ssl.fastly.net&type=ws#Server 76 🇨🇦
 vless://384e0806-fcee-4f92-b671-bfc6a4794148@speedtest.net:80?encryption=none&type=ws&path=%2F&host=oijji.global.ssl.fastly.net#Server 77 🇩🇪
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@a.darafiq.ir:8880?path=%2F&security=&encryption=none&type=ws#Server 78 🇮🇷
 vless://28154b7e-afc2-449b-8a78-bf1eba31bd05@185.143.233.235:8880?path=/&security=none&encryption=none&host=a.darafiq.ir&type=ws#Server 79 🇮🇷
@@ -81,7 +81,7 @@ vmess://eyJhZGQiOiI0Ny4yMzkuMTcyLjE2NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg007134n4g.cybervena.com:50099#Server 81 🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001269pz2.cybervena.com:50099#Server 82 🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007134n4g.cybervena.com:50099#Server 83 🇹🇼
-vless://0dafcdf5-3e7d-4970-beaf-73a17d67de96@speedtest.net:80?path=/&security=none&encryption=none&host=avasjji.global.ssl.fastly.net&type=ws#Server 84 🇨🇦
+vless://0dafcdf5-3e7d-4970-beaf-73a17d67de96@speedtest.net:80?path=/&security=none&encryption=none&host=avasjji.global.ssl.fastly.net&type=ws#Server 84 🇩🇪
 vmess://eyJhZGQiOiIxNTkuMjIzLjEzLjEwOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiIiwiaWQiOiI1YzA0MGYxZC00NWRiLTQzYmQtOGQ0Ni1lNDk1MGU0MzM3MzUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEyMzQiLCJwcyI6IlNlcnZlciA4NSDwn4ez8J+HsSIsInNjeSI6ImFlcy0xMjgtZ2NtIiwic25pIjoic3VwZXJ2cG4uc3VwZXIuY29tIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@5.188.156.138:4443?encryption=none&security=none&type=tcp#Server 86 🇷🇺
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@ru3.alexanderoff.ru:4443?&security=false&fp=chrome&type=tcp&headerType=none&host=ru3.alexanderoff.ru&path=%2F#Server 87
@@ -100,10 +100,10 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#Server 100 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.237.185.89:990#Server 101 🇱🇹
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@185.237.185.89:990?note=Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---Telegram---%40Raiv2mmr---#Server 102 🇱🇹
-vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.72.206:80?encryption=none&host=vip.yaml7.ggff.net&path=%2F%2B%40ProxyVPN11&security=none&type=ws#Server 103 🇨🇦
+vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.72.206:80?encryption=none&host=vip.yaml7.ggff.net&path=%2F%2B%40ProxyVPN11&security=none&type=ws#Server 103 🇺🇸
 vless://de87620b-6bff-4077-99cc-ce65e06b64ed@87.228.124.196:4443?encryption=none&type=tcp&security=none#Server 104 🇷🇺
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDEwNSDwn4eq8J+HuCIsImFkZCI6Ijg1LjkwLjIxNy40MiIsInBvcnQiOiIyMjMyNCIsInR5cGUiOiJub25lIiwiaWQiOiIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@162.159.36.5:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 106 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@162.159.36.5:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 106 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#Server 107 🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#Server 108 🇳🇱
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@35.175.185.227:443#Server 109 🇺🇸
@@ -115,13 +115,13 @@ ss://YWVzLTI1Ni1nY206d2xKU0YwZkM4dXFCNUdtNQ==@94.72.127.55:80#Server 114 🇺�
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpha01LTzlLWG93eEZjeDVB@20.87.107.99:443?outline=1&prefix=POST%20N330abfk#Server 115 🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@156.38.168.58:990#Server 116 🇿🇦
 ss://YWVzLTI1Ni1nY206azZydUp1d2dBVXhJcmtIYg==@154.53.63.32:443#Server 117 🇺🇸
-vless://a01daac7-1e65-4645-854d-b47d226f6b08@104.18.12.149:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#Server 118 🇨🇦
+vless://a01daac7-1e65-4645-854d-b47d226f6b08@104.18.12.149:443?path=%2F&security=tls&encryption=none&host=y6-3cj.PAgES.DEV&type=ws&sni=y6-3cj.PAgES.DEV#Server 118 🇺🇸
 ss://YWVzLTI1Ni1nY206azZydUp1d2dBVXhJcmtIYg==@154.53.63.32:80#Server 119 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6RExtZVdSc2ZjRmRLVDFUcHkwMnhvZEVUb3FDbGRUeHZaY1JvUElaWnRCZG5JRUw=@89.44.197.181:31348#Server 120 🇧🇬
-vless://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&security=tls&encryption=none&insecure=0&host=hio-awx.pages.dev&type=ws&allowInsecure=0&sni=hio-awx.pages.dev#Server 121 🇨🇦
+vless://d37a75db-76b6-4db8-b213-0d5b044d138d@172.64.152.100:443?path=%2F&security=tls&encryption=none&insecure=0&host=hio-awx.pages.dev&type=ws&allowInsecure=0&sni=hio-awx.pages.dev#Server 121 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@154.205.153.107:990#Server 122 🇨🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080#Server 123 🇳🇱
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 124 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.143:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 124 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@190.103.176.32:990#Server 125 🇦🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@203.23.128.92:990#Server 126 🇭🇰
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.157:8080#Server 127 🇳🇱
@@ -132,13 +132,13 @@ vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?pat
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@154.205.146.153:990#Server 132 🇧🇭
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@185.93.173.60:990#Server 133 🇧🇴
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#Server 134 🇳🇱
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 135 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.255:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 135 🇺🇸
 vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?type=ws&security=none&encryption=none&path=/getWorkerUpdates#Server 136 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.184:8080#Server 137 🇳🇱
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?encryption=none&type=ws&host=tt.andishehparenting.com&path=%2F&security=none#Server 138 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?encryption=none&type=ws&host=tt.andishehparenting.com&path=%2F&security=none#Server 138 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#Server 139 🇰🇭
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?security=none&type=ws&path=%2Fhttp#Server 140 🇩🇪
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.43:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 141 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.43:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 141 🇺🇸
 vless://e4fc4761-154f-490e-bbaa-b4fa193f1073@45.148.31.0:15855?type=ws&security=none&path=%2F#Server 142 🇩🇰
 vmess://eyJhZGQiOiIxNTIuNjcuMjE4LjM4IiwiYWlkIjowLCJob3N0IjoiIiwiaWQiOiJiNWU5NDgwYS1iN2FhLTQwYTQtZjlhNy01Mjk5YjVlMzYzYjQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6NDQzLCJwcyI6IlNlcnZlciAxNDMg8J+HsPCfh7ciLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInYiOiIyIn0=
 vmess://eyJhZGQiOiI1MS44OS40MS4yMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiIiwiaWQiOiI1YzA0MGYxZC00NWRiLTQzYmQtOGQ0Ni1lNDk1MGU0MzM3MzUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEyMzQiLCJwcyI6IlNlcnZlciAxNDQg8J+HqfCfh6oiLCJzY3kiOiJhZXMtMTI4LWdjbSIsInNuaSI6InN1cGVydnBuLnN1cGVyLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
@@ -147,24 +147,24 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8
 vless://a12b0d31-f599-498e-b76e-8558a14b766b@47.79.144.103:25242?encryption=none&type=ws&path=%2Fa12b0d31&security=none#Server 147 🇯🇵
 vless://d082b5e0-2435-4599-b935-d2c2b70beb67@cloudflare-ip.mofashi.ltd:443?encryption=none&type=ws&host=purple-mrvpn294x.mrvpnandamir294.workers.dev&path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&sni=purple-mrvpn294x.mrvpnandamir294.workers.dev#Server 148 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.187:8080#Server 149 🇳🇱
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.27:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 150 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.27:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 150 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.189:8080#Server 151 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@156.38.168.58:990#Server 152 🇿🇦
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@154.70.207.97:990#Server 153 🇲🇦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@154.70.207.97:990#Server 153 🇪🇸
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@218.237.185.230:4652#Server 154 🇰🇷
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.165:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 155 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.147.165:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 155 🇺🇸
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDE1NiDwn4ey8J+HviIsImFkZCI6IjQ3LjI1MC40NS4yMzQiLCJwb3J0IjoiNDMwNjMiLCJpZCI6ImM3N2Y0OGY1LTRiZTMtNDQ2MS1iNTJiLTQ5OTk4ZTdiODk3YiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Fya2kifQ==
 vmess://eyJhZGQiOiIyMy4yNy4yOC4xNSIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiODdjNTA3MDItNzFjZi00N2NhLWFlZTQtYWIzMDRkMjg4MzllIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjU3MzUsInBzIjoiU2VydmVyIDE1NyDwn4ey8J+HviIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidiI6IjIifQ==
-vless://1de37726-744b-46e1-9101-c926b3402e82@104.17.72.206:80?encryption=none&host=v2.v2configlab.workers.dev&security=none&type=ws#Server 158 🇨🇦
+vless://1de37726-744b-46e1-9101-c926b3402e82@104.17.72.206:80?encryption=none&host=v2.v2configlab.workers.dev&security=none&type=ws#Server 158 🇺🇸
 vmess://eyJhZGQiOiIxMzQuMTk1LjE5OC4xNDciLCJhaWQiOjAsImhvc3QiOiJpbm5hLmNmZCIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0Ijo0NDMsInBzIjoiU2VydmVyIDE1OSDwn4eo8J+HpiIsInRscyI6InRscyIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidiI6IjIifQ==
 vless://18535741-e8b3-4b43-9348-785b55936751@57.129.41.216:80?encryption=none&type=ws&path=%2Fvless%2F&security=none#Server 160 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#Server 161 🇳🇱
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.37:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 162 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.37:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 162 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.179:8080#Server 163 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg0011499tl.cybervena.com:50099#Server 164 🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@119.59.127.129:990#Server 165 🇹🇭
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@211.178.105.134:6123#Server 166 🇰🇷
-vless://ae0dd58e-e222-40bf-84ae-365a97532737@104.18.189.153:443?encryption=none&host=pagescm.freen3.cc.cd&path=%2Fpdf%2Fservicesfp%3Dchrome&security=tls&sni=pagescm.freen3.cc.cd&type=ws#Server 167 🇨🇦
+vless://ae0dd58e-e222-40bf-84ae-365a97532737@104.18.189.153:443?encryption=none&host=pagescm.freen3.cc.cd&path=%2Fpdf%2Fservicesfp%3Dchrome&security=tls&sni=pagescm.freen3.cc.cd&type=ws#Server 167 🇺🇸
 vmess://eyJhZGQiOiIxNTIuNjcuMjE4LjM4IiwiYWlkIjowLCJob3N0IjoiMTUyLjY3LjIxOC4zOCIsImlkIjoiYjVlOTQ4MGEtYjdhYS00MGE0LWY5YTctNTI5OWI1ZTM2M2I0IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjQ0MywicHMiOiJTZXJ2ZXIgMTY4IPCfh7Dwn4e3IiwidGxzIjoiIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ2IjoiMiJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.194:8080#Server 169 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#Server 170 🇳🇱
@@ -175,32 +175,32 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDE3NSDwn4ew8J+HtyIsImFkZCI6IjEzMi4xNDUuODAuMjMwIiwicG9ydCI6ODAsImlkIjoiNTE1NTg2MGUtZDA3ZC00NmMzLTkxMjgtM2FmYmQ4NDYyNmM3IiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJrcjAyLmEwYS54eXoiLCJwYXRoIjoiL2NjdHYxMy5tM3U4In0=
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@54.144.231.81:443#Server 176 🇺🇸
 ss://YWVzLTI1Ni1nY206OHQyeGVlbVV0eXVpNHpBdg@194.233.94.119:80#Server 177 🇸🇬
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@141.101.121.169:2096?allowInsecure=1&alpn=AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.networld_vpn-&encryption=none&host=sni.111000.indevs.in&security=tls&sni=sni.111000.indevs.in&type=ws#Server 178 🇬🇧
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@141.101.121.169:2096?allowInsecure=1&alpn=AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.AKBARCONFIG%40.networld_vpn-&encryption=none&host=sni.111000.indevs.in&security=tls&sni=sni.111000.indevs.in&type=ws#Server 178 🇺🇸
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@72.167.241.43:443?allowInsecure=1&encryption=none&host=sni.111000.cc.cd&security=tls&sni=sni.111000.cc.cd&type=ws#Server 179 🇺🇸
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDE4MCDwn4ew8J+HvyIsImFkZCI6IjM4LjEwNy4yMzQuNTciLCJwb3J0Ijo4MCwiaWQiOiI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IndybWVsbXd4bGYuZ2t0ZXZscnF6bndxcW96eS5mYWJwZnM2Nmdpem1ub2poY3ZxeHdsLmt5dHJjZnpxbGE4N2d2Z3ZzNmM3a2pucnVidWguY2MiLCJwYXRoIjoiL3ZtZXNzLyJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@38.89.142.56:990#Server 181 🇸🇬
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.152.23:8443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&security=tls&sni=sni.111000.dynv6.net&type=ws#Server 182 🇨🇦
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.152.23:8443?allowInsecure=1&encryption=none&host=sni.111000.dynv6.net&security=tls&sni=sni.111000.dynv6.net&type=ws#Server 182 🇺🇸
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@216.250.97.82:38388#Server 183 🇭🇰
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.21.7.193:443?allowInsecure=1&alpn=http%2F1.1&encryption=none&host=sant.atira-40.workers.dev&path=%2Fsni.111000.dynv6.net%2F&security=tls&sni=sant.atira-40.workers.dev&type=ws#Server 184 🇨🇦
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.21.7.193:443?allowInsecure=1&alpn=http%2F1.1&encryption=none&host=sant.atira-40.workers.dev&path=%2Fsni.111000.dynv6.net%2F&security=tls&sni=sant.atira-40.workers.dev&type=ws#Server 184 🇺🇸
 vmess://eyJhZGQiOiIzaC1rYXpha2hzdGFuMS4wOXZwbi5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNTY3ZjRiZTUtMTJhYi00MmUxLWI4ZDktZGI2ZmQxZmRkMzFjIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOiI4MCIsInBzIjoiU2VydmVyIDE4NSDwn4ew8J+HvyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007147vhp.cybervena.com:50099#Server 186 🇹🇼
 vmess://eyJhZGQiOiIzOC4xMDcuMjM0LjU3IiwiaWQiOiI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCJwb3J0IjoiODAiLCJzY3kiOiJhdXRvIiwidiI6IjIiLCJuZXQiOiJ3cyIsImhvc3QiOiJnb29nbGUuY29tIiwicGF0aCI6Ii92bWVzcy8iLCJ0bHMiOiJub25lIiwicHMiOiJTZXJ2ZXIgMTg3IPCfh7Dwn4e/In0=
 vmess://eyJhZGQiOiIxNzIuMTExLjE0Ni42NCIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiMDViOGM3ODMtN2Y1OS00N2Y5LTk5MjMtMDZhNDY1Njc5ZjZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOjgwLCJwcyI6IlNlcnZlciAxODgg8J+Hr/Cfh7UiLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInYiOiIyIn0=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg00129437x.cybervena.com:50099#Server 189 🇹🇼
 vmess://eyJhZGQiOiIxNjguMTM4LjQzLjc1IiwiYWlkIjowLCJob3N0IjoianAwMS5hMGEueHl6IiwiaWQiOiIxMWMzNjI3Zi0zMWU4LTQ2OTUtZGZiZC0zNDA3NmUyZjFmNWQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2N0djEzLm0zdTgiLCJwb3J0Ijo4MCwicHMiOiJTZXJ2ZXIgMTkwIPCfh6/wn4e1IiwidGxzIjoiIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ2IjoiMiJ9
-vless://ae0dd58e-e222-40bf-84ae-365a97532737@104.18.166.129:443?allowInsecure=1&encryption=none&host=pagescm.freen18.cc.cd&path=/blog/news&security=tls&sni=pagescm.freen18.cc.cd&type=ws#Server 191 🇨🇦
+vless://ae0dd58e-e222-40bf-84ae-365a97532737@104.18.166.129:443?allowInsecure=1&encryption=none&host=pagescm.freen18.cc.cd&path=/blog/news&security=tls&sni=pagescm.freen18.cc.cd&type=ws#Server 191 🇺🇸
 vless://53353c51-ab85-4f1d-b81c-d855a0cdeeba@213.142.132.75:443?encryption=none&security=&type=ws#Server 192 🇹🇷
 vless://09a601b8-ac43-4934-95e3-21e732ebfaf3@91.107.166.215:51847?security=none&encryption=none&headerType=none&type=tcp#Server 193 🇩🇪
 vless://09a601b8-ac43-4934-95e3-21e732ebfaf3@ir20.novalynxhub.online:51847?security=none&encryption=none&headerType=none&type=tcp#Server 194 🇩🇪
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDE5NSDwn4ew8J+HvyIsImFkZCI6IjM4LjEwNy4yMzQuNTciLCJwb3J0Ijo4MCwiaWQiOiI1NjdmNGJlNS0xMmFiLTQyZTEtYjhkOS1kYjZmZDFmZGQzMWMiLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IjM4LjEwNy4yMzQuNTciLCJwYXRoIjoiL3ZtZXNzLyJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg001269pz2.cybervena.com:50099#Server 196 🇹🇼
-vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.102:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 197 🇨🇦
+vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.146.102:80?encryption=none&host=tt.andishehparenting.com&path=%2F&security=none&type=ws#Server 197 🇺🇸
 ss://YWVzLTI1Ni1nY206OHQyeGVlbVV0eXVpNHpBdg==@194.233.94.119:80#Server 198 🇸🇬
 vmess://eyJhZGQiOiI0Ny4yNDMuMTM1Ljc0IiwiYWlkIjowLCJob3N0IjoiIiwiaWQiOiIxMzc1OTg1ZS0zMzRhLTRjMjUtOGY2NC01MmExODJiYzgwMzciLCJuZXQiOiJ3cyIsInBhdGgiOiIvTm90aWZfQ2hhdCIsInBvcnQiOjU1MTg1LCJwcyI6IlNlcnZlciAxOTkg8J+HrfCfh7AiLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInYiOiIyIn0=
 vless://e08f1ad7-0c60-446d-baec-08b3b69bb3d0@nl-90w-c.southnetworks.cloud:80?&type=ws&headerType=none&host=nl-90w-c.southnetworks.cloud&path=%2FgetWorkerUpdates#Server 200 🇳🇱
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDIwMSDwn4ew8J+HvyIsImFkZCI6IjNoLWthemFraHN0YW4xLjA5dnBuLmNvbSIsInBvcnQiOjgwLCJpZCI6IjU2N2Y0YmU1LTEyYWItNDJlMS1iOGQ5LWRiNmZkMWZkZDMxYyIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0Ijoid3JtZWxtd3hsZi5na3RldmxycXpud3Fxb3p5LmZhYnBmczY2Z2l6bW5vamhjdnF4d2wua3l0cmNmenFsYTg3Z3ZndnM2Yzdram5ydWJ1aC5jYyIsInBhdGgiOiIvdm1lc3MvIn0=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg001286ek2.cybervena.com:50099#Server 202 🇹🇼
-vless://e258977b-e413-4718-a3af-02d75492c349@172.64.47.168:2096?encryption=none&type=ws&host=jp.aniua.qzz.io&path=%2F%3Fed%3D2095security%3Dtls&security=tls&sni=jp.aniua.qzz.io#Server 203 🇨🇦
+vless://e258977b-e413-4718-a3af-02d75492c349@172.64.47.168:2096?encryption=none&type=ws&host=jp.aniua.qzz.io&path=%2F%3Fed%3D2095security%3Dtls&security=tls&sni=jp.aniua.qzz.io#Server 203 🇺🇸
 vmess://eyJhZGQiOiIyMy4yNy4yOC4xNSIsImFpZCI6MCwiaG9zdCI6IiIsImlkIjoiOGQyMTUzZDEtODhmNC00OGJkLWFjNjMtYjY1YjBkZGJkNjYyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjQ3MjgsInBzIjoiU2VydmVyIDIwNCDwn4ey8J+HviIsInRscyI6IiIsInR5cGUiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjoiIiwidiI6IjIifQ==
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.170:443#Server 205 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==@45.154.204.7:990#Server 206 🇨🇦
