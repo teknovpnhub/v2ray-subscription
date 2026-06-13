@@ -144,7 +144,6 @@ jafar.parsa #404.9.25 | blocked 2026-01-18
 s.ebadi #404.9.23 | blocked 2026-01-18
 h.soleymanzade #404.9.23 | blocked 2026-01-18
 mamadi #404.9.15 | blocked 2026-01-18
-alireza.gareahmadi #404.9.14 | blocked 2026-01-18
 behruz.nurmohammadi #404.9.23 | blocked 2026-01-18
 n.sahrayi #404.9.22 | blocked 2026-01-18
 vali.milani #404.9.15 | blocked 2026-01-18
