@@ -128,7 +128,6 @@ soltani #404.9.19 | blocked 2026-01-18
 alireza.aghazade #404.9.18 | blocked 2026-01-18
 soodabeh.aghayi #404.9.20 | blocked 2026-01-18
 majid.lotfi #404.9.16 | blocked 2026-01-18
-alrostam #404.9.16 | blocked 2026-01-18
 z.pourmohammad #404.9.25 | blocked 2026-01-18
 fahmi #404.9.16 | blocked 2026-01-18
 mehdizade #404.9.14 | blocked 2026-01-18

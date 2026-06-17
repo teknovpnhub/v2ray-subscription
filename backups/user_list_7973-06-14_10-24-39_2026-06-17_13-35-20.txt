@@ -1,4 +1,3 @@
-alrostam #405.3.27
 alireza.gareahmadi #405.3.23
 sajjad.mehdizade #405.3.10
 🚫amin.mafi #404.10.9 | blocked 2026-05-31
@@ -135,6 +134,7 @@ ansarifard #404.11.11
 🚫alireza.aghazade #404.9.18 | blocked 2026-01-18
 🚫soodabeh.aghayi #404.9.20 | blocked 2026-01-18
 🚫majid.lotfi #404.9.16 | blocked 2026-01-18
+🚫alrostam ---ub #405.3.27 | blocked 2026-01-18
 🚫z.pourmohammad #404.9.25 | blocked 2026-01-18
 🚫fahmi #404.9.16 | blocked 2026-01-18
 🚫mehdizade #404.9.14 | blocked 2026-01-18
