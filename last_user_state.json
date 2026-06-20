@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer8",
     "kh.alipur",
     "alrostam",
     "alireza.gareahmadi",
@@ -345,6 +346,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "customer8": "customer8 #404.3.30",
     "kh.alipur": "kh.alipur #405.3.28",
     "alrostam": "🚫alrostam #405.3.27 | blocked 2026-06-17",
     "alireza.gareahmadi": "alireza.gareahmadi #405.3.23",
@@ -689,5 +691,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-06-20 15:26"
+  "timestamp": "2026-06-20 17:28"
 }
