@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "ehsan",
     "alireza.gareahmadi",
     "customer9",
     "customer8",
@@ -254,7 +255,6 @@
     "habibi",
     "g.abedini",
     "family",
-    "ehsan",
     "h.karkon",
     "s.asgarzade",
     "s.kalashani",
@@ -347,6 +347,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "ehsan": "🚫ehsan #404.8.3 | blocked 2026-06-21",
     "alireza.gareahmadi": "🚫alireza.gareahmadi #405.3.23 | blocked 2026-06-21",
     "customer9": "customer9 #405.3.31",
     "customer8": "customer8 #404.3.30",
@@ -601,7 +602,6 @@
     "habibi": "🚫habibi #404.6.22 | blocked 2025-11-01",
     "g.abedini": "🚫g.abedini #404.6.22 | blocked 2025-11-01",
     "family": "family",
-    "ehsan": "ehsan #404.8.3",
     "h.karkon": "🚫h.karkon #404.6.20 | blocked 2025-10-24",
     "s.asgarzade": "🚫s.asgarzade #404.6.19 | blocked 2025-10-24",
     "s.kalashani": "🚫s.kalashani #404.6.19 | blocked 2025-10-24",
@@ -693,5 +693,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-06-21 20:30"
+  "timestamp": "2026-06-21 20:32"
 }
