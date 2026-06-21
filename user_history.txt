@@ -1,3 +1,7 @@
+alireza.gareahmadi | blocked | | blocked 2026-06-21 [Note: 405.3.23] | 2026-06-21 20:30
+
+alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23] | 2026-06-21 20:30
+
 customer9 | added |  | 2026-06-21 18:15
 
 customer8 | added |  | 2026-06-20 17:28
