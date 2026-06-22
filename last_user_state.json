@@ -1,9 +1,10 @@
 {
   "usernames": [
+    "customer10",
+    "customer8",
     "ehsan",
     "alireza.gareahmadi",
     "customer9",
-    "customer8",
     "kh.alipur",
     "alrostam",
     "sajjad.mehdizade",
@@ -347,10 +348,11 @@
     "vahid.behruz"
   ],
   "lines": {
+    "customer10": "customer10 #405.4.1",
+    "customer8": "customer8 #405.3.30",
     "ehsan": "🚫ehsan #404.8.3 | blocked 2026-06-21",
     "alireza.gareahmadi": "🚫alireza.gareahmadi #405.3.23 | blocked 2026-06-21",
     "customer9": "customer9 #405.3.31",
-    "customer8": "customer8 #404.3.30",
     "kh.alipur": "kh.alipur #405.3.28",
     "alrostam": "🚫alrostam #405.3.27 | blocked 2026-06-17",
     "sajjad.mehdizade": "sajjad.mehdizade #405.3.10",
@@ -693,5 +695,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-06-22 07:56"
+  "timestamp": "2026-06-22 11:52"
 }
