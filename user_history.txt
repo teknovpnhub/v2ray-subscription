@@ -1,3 +1,7 @@
+customer10 | blocked | | blocked 2026-06-22 [Note: 405.4.1] | 2026-06-22 12:07
+
+customer10 | manual_delete | User manually removed [Note: 405.4.1] | 2026-06-22 12:07
+
 customer10 | added | [Note: 405.4.1] | 2026-06-22 11:52
 
 ehsan | blocked | | blocked 2026-06-21 [Note: 404.8.3] | 2026-06-21 20:32

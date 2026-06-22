@@ -348,7 +348,7 @@
     "vahid.behruz"
   ],
   "lines": {
-    "customer10": "customer10 #405.4.1",
+    "customer10": "🚫customer10 #405.4.1 | blocked 2026-06-22",
     "customer8": "customer8 #405.3.30",
     "ehsan": "🚫ehsan #404.8.3 | blocked 2026-06-21",
     "alireza.gareahmadi": "🚫alireza.gareahmadi #405.3.23 | blocked 2026-06-21",
@@ -695,5 +695,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-06-22 11:52"
+  "timestamp": "2026-06-22 12:07"
 }
