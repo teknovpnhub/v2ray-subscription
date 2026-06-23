@@ -1,3 +1,7 @@
+a.ahmadi | unblocked | [Note: 405.4.2 | blocked 2026-05-31] | 2026-06-23 19:49
+
+a.ahmadi | manual_delete | User manually removed [Note: 405.4.2 | blocked 2026-05-31] | 2026-06-23 19:49
+
 customer11 | added | [Note: 405.4.1] | 2026-06-22 19:56
 
 ehsan | unblocked | [Note: 404.8.3 | blocked 2026-06-21] | 2026-06-22 19:08
