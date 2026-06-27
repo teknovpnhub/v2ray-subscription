@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "hossein.zarghami",
     "a.ahmadi",
     "customer11",
     "ehsan",
@@ -193,7 +194,6 @@
     "s.aslani",
     "f.kalbkhani",
     "golinezhad",
-    "hossein.zarghami",
     "ahad.nouri",
     "a.esmailzade",
     "tohid.maaleki",
@@ -349,6 +349,7 @@
     "vahid.behruz"
   ],
   "lines": {
+    "hossein.zarghami": "hossein.zarghami #405.4.6",
     "a.ahmadi": "a.ahmadi #405.4.2",
     "customer11": "customer11 #405.4.1",
     "ehsan": "ehsan #404.8.3",
@@ -542,7 +543,6 @@
     "s.aslani": "🚫s.aslani #404.8.8 | blocked 2025-12-13",
     "f.kalbkhani": "🚫f.kalbkhani #404.8.8 | blocked 2025-12-13",
     "golinezhad": "🚫golinezhad #404.8.12 | blocked 2025-12-13",
-    "hossein.zarghami": "🚫hossein.zarghami #404.8.8 | blocked 2025-12-13",
     "ahad.nouri": "🚫ahad.nouri #404.8.13 | blocked 2025-12-13",
     "a.esmailzade": "🚫a.esmailzade #404.8.13 | blocked 2025-12-13",
     "tohid.maaleki": "🚫tohid.maaleki #404.8.13 | blocked 2025-12-13",
@@ -697,5 +697,5 @@
     "mm": "🚫mm",
     "vahid.behruz": "vahid.behruz"
   },
-  "timestamp": "2026-06-27 11:20"
+  "timestamp": "2026-06-27 12:51"
 }
