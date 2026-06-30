@@ -56,7 +56,7 @@ vless://4714b06f-21fe-e221-219b-928918d940be@rvg-production-6b96.up.railway.app:
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@188.114.97.6:80?type=ws&security=none&host=de.vpnbase.net&path=/http#Server 56 🇺🇸
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.120:8880?mode=gun&security=none&encryption=none&type=grpc#Server 57 🇮🇹
 vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@po.fastbrokencompony.com:2053?path=%2F&security=tls&alpn=h3%2Ch2&encryption=none&insecure=0&host=po.fastbrokencompony.com&fp=chrome&type=ws&allowInsecure=0&sni=po.fastbrokencompony.com#Server 58 🇨🇦
-vless://e277ac9b-3225-3381-a9fb-3585419f7142@love.ns.cloudflare.com:443?alpn=http/1.1&encryption=none&fp=chrome&host=media14.ftmsoft.com&path=/media14&security=tls&sni=media14.ftmsoft.com&type=ws#Server 59 🇺🇸
+vless://e277ac9b-3225-3381-a9fb-3585419f7142@love.ns.cloudflare.com:443?alpn=http/1.1&encryption=none&fp=chrome&host=media14.ftmsoft.com&path=/media14&security=tls&sni=media14.ftmsoft.com&type=ws#Server 59 🇨🇦
 vless://ec5d6408-23f6-4a78-ad39-7237ff366469@38.54.33.177:28722#Server 60 🇹🇭
 vless://22eca63b-d75b-46f9-a522-32f589454a2b@66.33.22.157:443?mode=gun&security=tls&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=grpc&allowInsecure=0&sni=a.shoma.qzz.io#Server 61 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.216:8080#Server 62 🇳🇱
