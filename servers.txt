@@ -132,7 +132,7 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.169.222.30:8880/?type=ws&encryp
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@103.133.1.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime36.workers.dev#Server 132 🇺🇸
 vless://57bd62cf-5550-4075-8fa3-d4519aae8df0@162.159.40.49:80/?type=ws&encryption=none&flow=&host=silent-feather-8539.sddadad2233122eew.workers.dev&path=%2FeyJqdW5rIjoiRURaNEp6YUhMbVlqdzQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0%3D#Server 133 🇺🇸
 vless://73eed38e-09ea-4c07-aa95-c53684400d68@91.107.160.130:33819?path=/#Server 134 🇩🇪
-vless://e277ac9b-3225-3381-a9fb-3585419f7142@love.ns.cloudflare.com:443?alpn=http/1.1&encryption=none&fp=chrome&host=media14.ftmsoft.com&path=/media14&security=tls&sni=media14.ftmsoft.com&type=ws#Server 135 🇨🇦
+vless://e277ac9b-3225-3381-a9fb-3585419f7142@love.ns.cloudflare.com:443?alpn=http/1.1&encryption=none&fp=chrome&host=media14.ftmsoft.com&path=/media14&security=tls&sni=media14.ftmsoft.com&type=ws#Server 135 🇨🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.183:8080#Server 136 🇳🇱
 vless://bba14c1d-f08c-4c9a-ac87-cf85d38d8aff@188.114.96.3:2086/?type=ws&encryption=none&flow=&host=tight-thunder-ce8e.hamid-r-aliakbari1379-0f0.workers.dev&path=%2FeyJqdW5rIjoiSjZsY01ZdmlLM1ciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0#Server 137 🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080?brand=@Arvand_soul#Server 138 🇳🇱
