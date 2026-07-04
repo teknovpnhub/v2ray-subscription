@@ -63,7 +63,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.212:8
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@35.181.4.41:443#Server 63 🇫🇷
 vless://cd509dfe-6d9d-47d2-9f3e-c4a2c0ac4f21@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#Server 64 🇷🇺
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.145:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#Server 65 🇩🇪
-vless://146ec045-dd8b-4d8b-af6d-38035767a6c9@gsq7ogh17b1b.dop15.com:49664?type=tcp&security=none&encryption=none#Server 66 🇩🇪
+vless://146ec045-dd8b-4d8b-af6d-38035767a6c9@gsq7ogh17b1b.dop15.com:49664?type=tcp&security=none&encryption=none#Server 66
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@15.237.138.120:443#Server 67 🇫🇷
 trojan://BxceQaOe@119.246.1.143:443/?type=tcp&security=tls&allowInsecure=1#Server 68 🇭🇰
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#Server 69 🇩🇪
