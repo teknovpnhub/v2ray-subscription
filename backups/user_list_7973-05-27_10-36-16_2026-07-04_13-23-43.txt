@@ -1,10 +1,3 @@
-🚫hadi.nariman #404.6.17 | blocked 2026-07-04
-🚫vahid.behruz #| blocked 2026-07-04
-🚫ehsan #404.8.3 | blocked 2026-07-04
-🚫peyman #404.7.13 | blocked 2026-07-04
-🚫mansur #404.6.13 | blocked 2026-07-04
-🚫alireza.gareahmadi #405.3.23 | blocked 2026-07-04
-🚫a.reza #404.7.16 | blocked 2026-07-04
 ansarifard #405.3.15
 narimani #405.4.9
 customer19 #405.4.9
@@ -13,12 +6,14 @@ customer17 #405.4.8
 customer14 #405.4.8
 customer15 #405.4.8
 customer16 #405.4.8
+alireza.gareahmadi ---b #405.3.23
 customer13 #405.4.7
 salamzade #405.4.6
 customer12 #405.4.6
 hossein.zarghami #405.4.6
 a.ahmadi #405.4.2
 customer11 #405.4.1
+ehsan ---b #404.8.3
 🚫customer10 #405.4.1 | blocked 2026-06-22
 customer8 #405.3.30
 customer9 #405.3.31
@@ -281,10 +276,12 @@ family
 🚫soltanzade1 #404.6.9 | blocked 2025-10-11
 🚫farajzade #404.6.9 | blocked 2025-10-11
 🚫igdam #404.6.8 | blocked 2025-10-11
+a.reza ---b #404.7.16
 🚫h.mukhtari #404.6.4 | blocked 2025-10-07
 🚫gahramani #404.6.4 | blocked 2025-10-07
 🚫seyyedhoseyni #404.6.4 | blocked 2025-10-07
 🚫zamani #404.6.3 | blocked 2025-10-07
+peyman ---b #404.7.13
 🚫gholami #404.6.1 | blocked 2025-10-04
 🚫hosseynzade #404.5.30 | blocked 2025-10-04
 🚫pashazade #404.5.30 | blocked 2025-10-04
@@ -303,11 +300,13 @@ sohrab #404.6.30
 🚫jalilzade #404.5.15 | blocked 2025-09-13
 🚫manafi #404.5.15 | blocked 2025-09-13
 🚫a.teymurzade #404.5.8 | blocked 2025-09-13
+hadi.nariman ---b #404.6.17
 🚫customer #404.5.5 | blocked 2025-09-08
 🚫a.abdollahzade1 #404.4.31 | blocked 2025-09-06
 🚫r.kheyri #404.4.31 | blocked 2025-09-06
 🚫a.abdollahzade #404.4.31 | blocked 2025-09-06
 🚫hamzezade #404.4.30 | blocked 2025-09-06
+mansur ---b #404.6.13
 🚫borhani #404.4.28 | blocked 2025-09-01
 🚫nabizade1 #404.4.28 | blocked 2025-09-01
 🚫salmanzade #404.4.26 | blocked 2025-08-30
@@ -353,3 +352,4 @@ erfan #404.5.21
 azmun #404.4.29
 vahid
 🚫mm
+vahid.behruz ---b
