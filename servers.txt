@@ -27,7 +27,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.219:8
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca15.speedmeter.shop:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#Server 27 🇮🇹
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca15.speedmeter.shop:8880?type=grpc#Server 28 🇮🇹
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&security=none&encryption=none&fp=chrome&quicSecurity=none#Server 29 🇱🇻
-vless://86dc5fb4-f279-45b7-a2c6-0d1e84b85c18@104.16.100.66:8880?path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=&encryption=none&host=lingering-dawn-5d4a.163-3f1.workers.dev&type=ws#Server 30 🇨🇦
+vless://86dc5fb4-f279-45b7-a2c6-0d1e84b85c18@104.16.100.66:8880?path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=&encryption=none&host=lingering-dawn-5d4a.163-3f1.workers.dev&type=ws#Server 30 🇺🇸
 trojan://telegram-id-directvpn@13.37.135.58:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 31 🇫🇷
 vless://5dac7b4c-7c13-432b-96ce-d77e5abdbb01@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#Server 32 🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.206:8080#Server 33 🇳🇱
@@ -54,7 +54,7 @@ vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?security=&encryp
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&security=none&encryption=none&fp=firefox&nonce=-5dGFJab#Server 54 🇱🇻
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.213:8080#Server 55 🇳🇱
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca34.mysilipdir.com:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&type=grpc#Server 56 🇮🇹
-vmess://eyJhZGQiOiIxMDQuMjEuNDMuODEiLCJhaWQiOjAsImhvc3QiOiJjZzFjMTIud2FpbWFvamQuY29tIiwiaWQiOiIwNjMyYmZhOS1iMTVjLTQyNTctOGM3NS0zMmY3YzBjNTNiMjciLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXBpL3YxL2dyYXBocWwiLCJwb3J0Ijo0NDMsInBzIjoiU2VydmVyIDU3IPCfh6jwn4emIiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiIxMDQuMjEuNDMuODEiLCJhaWQiOjAsImhvc3QiOiJjZzFjMTIud2FpbWFvamQuY29tIiwiaWQiOiIwNjMyYmZhOS1iMTVjLTQyNTctOGM3NS0zMmY3YzBjNTNiMjciLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXBpL3YxL2dyYXBocWwiLCJwb3J0Ijo0NDMsInBzIjoiU2VydmVyIDU3IPCfh7rwn4e4IiwidGxzIjoidGxzIiwidHlwZSI6ImF1dG8iLCJzZWN1cml0eSI6ImF1dG8iLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOiIiLCJ2IjoiMiJ9
 vless://e7961655-9674-4cbd-a36f-ec0d5d7d660c@po.fastbrokencompony.com:2053?path=/&security=tls&alpn=h3,h2&encryption=none&insecure=0&host=po.fastbrokencompony.com&fp=chrome&type=ws&allowInsecure=0&sni=po.fastbrokencompony.com#Server 58 🇨🇦
 trojan://telegram-id-privatevpns@13.37.135.58:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 59 🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3a3hZVjhmYUxLRnk4cTFT@98.71.81.64:443#Server 60 🇮🇪
@@ -68,7 +68,7 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@15.237.138.120:443#Server 67 🇫🇷
 trojan://BxceQaOe@119.246.1.143:443/?type=tcp&security=tls&allowInsecure=1#Server 68 🇭🇰
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@de.vpnbase.net:80?path=%2Fhttp&security=none&encryption=none&host=de.vpnbase.net&type=ws#Server 69 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080#Server 70 🇳🇱
-vless://80c01792-7bb5-4818-b531-113c0d6f17a2@23.254.226.60:19351?security=none&encryption=none&headerType=none&type=tcp#Server 71 🇺🇸
+vless://80c01792-7bb5-4818-b531-113c0d6f17a2@23.254.226.60:19351?security=none&encryption=none&headerType=none&type=tcp#Server 71 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#Server 72 🇳🇱
 trojan://tsuchiya@161.34.39.108:443?sni=aa.ccmusic.jp&fp=chrome&type=tcp&path=/#Server 73 🇯🇵
 vless://2501bd31-02c9-48a3-aba0-0b5725e69e8c@191.96.94.50:8080?encryption=none&security=none&type=ws&headerType=none&path=/&host=play.google.com#Server 74 🇩🇪
@@ -87,7 +87,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.200:8
 vless://e314349a-7e56-4a3e-9318-eda62b5d6bd3@138.252.100.85:33659?encryption=none&security=none&type=ws&path=/#Server 87 🇮🇳
 ss://YWVzLTI1Ni1nY206SllBeGhKdXhYZGp6K0g5SDJVZlhjRFhFWWJaZmdaTndOUi9FMlpzaURLYz0@coinex.xvoidx.com:443?type=tcp#Server 88 🇮🇷
 vless://236b0666-8dc5-4f52-976b-c45b36e11072@arvancloud.ir:8080?path=/&encryption=none&type=ws&security=none&host=gold.pricestoryanalysis.ir#Server 89 🇮🇷
-vless://3c42e466-b045-4c63-9f95-c818dfbcb33e@104.16.149.244:2083?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=gerdohtz.kavircycle.ir&fp=chrome&type=ws&allowInsecure=1&sni=gerdohtz.kavircycle.ir#Server 90 🇨🇦
+vless://3c42e466-b045-4c63-9f95-c818dfbcb33e@104.16.149.244:2083?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=gerdohtz.kavircycle.ir&fp=chrome&type=ws&allowInsecure=1&sni=gerdohtz.kavircycle.ir#Server 90 🇺🇸
 vless://cd509dfe-6d9d-47d2-9f3e-c4a2c0ac4f21@195.208.65.150:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#Server 91 🇷🇺
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.151:443/?type=tcp&security=tls&sni=185.137.157.151#Server 92 🇩🇪
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.181.4.41:443#Server 93 🇫🇷
@@ -98,7 +98,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.155:8
 vless://c750cff6-0daf-4faf-9f0b-96639fa06486@138.252.100.85:32351?type=ws#Server 98 🇮🇳
 hysteria2://bce6c821-200d-421f-bf3d-7159e5246ea0@155.248.209.237:33333?sni=hy2.123266.xyz&burmalda=5db3adfb&freeinternet=kizyak_vpn1782854418957#Server 99 🇺🇸
 vless://2766fda3-bb08-438a-94d7-0022e188ca31@195.208.65.192:443?encryption=none&type=ws&security=tls&path=%2Fv1%2Fdata%2Fsync%2F&host=s46270.cdn.ngenix.net&fp=chrome&sni=s46270.cdn.ngenix.net&alpn=http%2F1.1#Server 100 🇷🇺
-trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls#Server 101 🇫🇷
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls#Server 101 🇲🇾
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@162.19.228.119:80?type=ws&security=false&path=/http&fp=chrome#Server 102 🇩🇪
 hysteria2://bce6c821-200d-421f-bf3d-7159e5246ea0@hy2.123266.xyz:33333?insecure=1&sni=hy2.123266.xyz&_t=3d57ede3#Server 103 🇺🇸
 vless://e314349a-7e56-4a3e-9318-eda62b5d6bd3@138.252.100.85:32351?encryption=none&security=none&type=ws&path=/#Server 104 🇮🇳
@@ -106,7 +106,7 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@15.237.138.120:443#Server 105 🇫🇷
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&security=none&encryption=none&nonce=ETlxCSdA#Server 106 🇱🇻
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWRAMTA4LjE4MS41OC4yMzk6ODM4OA==#Server 107
 hysteria2://bce6c821-200d-421f-bf3d-7159e5246ea0@hy2.123266.xyz:33333?__rand=045ecf77&descriptions=126&descriptions=335&sni=hy2.123266.xyz&descriptions=139#Server 108 🇺🇸
-vmess://eyJhZGQiOiIxMDQuMTcuMTI0LjE3OSIsImFpZCI6MCwiaG9zdCI6Imdvb2dsZS53aGF0c2FwcC5zbmFwcC50b3JvYi5iYXNhbGFtLnp1bGEudXBsYW9kLW11c2ljLmlyLiIsImlkIjoiZjg5NzU4NzEtYTdhMC00OTA2LTg4MzUtYTIzYzEyNThjYTFlIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjgwLCJwcyI6IlNlcnZlciAxMDkg8J+HqPCfh6YiLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInYiOiIyIn0=
+vmess://eyJhZGQiOiIxMDQuMTcuMTI0LjE3OSIsImFpZCI6MCwiaG9zdCI6Imdvb2dsZS53aGF0c2FwcC5zbmFwcC50b3JvYi5iYXNhbGFtLnp1bGEudXBsYW9kLW11c2ljLmlyLiIsImlkIjoiZjg5NzU4NzEtYTdhMC00OTA2LTg4MzUtYTIzYzEyNThjYTFlIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOjgwLCJwcyI6IlNlcnZlciAxMDkg8J+HuvCfh7giLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInNlY3VyaXR5IjoiYXV0byIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInNuaSI6IiIsInYiOiIyIn0=
 vless://e314349a-7e56-4a3e-9318-eda62b5d6bd3@138.252.100.85:32351?type=ws#Server 110 🇮🇳
 vless://27f2ae85-3e15-4a9a-9c71-49ee032e7b26@217.28.48.29:25752?type=tcp&security=none&encryption=none&packetencoding=xudp#Server 111 🇱🇻
 trojan://ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed@38.60.202.163:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&type=tcp&security=tls&sni=&fp=chrome#Server 112 🇦🇪
