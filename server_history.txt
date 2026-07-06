@@ -1,3 +1,17 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.16:8080#Server 165 🇳🇱 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.17:8080#Server 163 🇳🇱 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+trojan://Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD@38.60.168.129:443?security=tls#Server 157 🇲🇾 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+trojan://T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf@103.125.216.68:443?security=tls#Server 131 🇯🇵 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+trojan://telegram-id-privatevpns@18.157.68.111:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 120 🇩🇪 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@18.222.166.251:443#Server 116 🇺🇸 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@3.15.193.107:443#Server 103 🇺🇸 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#Server 96 🇳🇱 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+trojan://telegram-id-privatevpns@15.236.170.206:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 95 🇫🇷 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#Server 71 🇳🇱 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.140:443?security=tls#Server 66 🇩🇪 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.138:443?security=tls#Server 58 🇩🇪 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.216:8080#Server 51 🇳🇱 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
+trojan://telegram-id-directvpn@15.188.6.123:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#Server 12 🇫🇷 | removed_duplicate(from:servers.txt) | 2026-07-06 12:29
 vless://63ff4bfa-0f1d-48e4-8314-e882b14e602c@spain.unixzone.us:36326?path=/jdiedjiedjijd&security=none&encryption=none&type=ws#Server 159 🇪🇸 | removed_duplicate(from:servers.txt) | 2026-07-04 00:40
 vless://b4e0ab78-3891-9786-c86c-c6594ac5d8cf@rvg-production-44ba.up.railway.app:443?encryption=none&security=tls&type=ws&host=rvg-production-44ba.up.railway.app&path=/ws/b4e0ab78-3891-9786-c86c-c6594ac5d8cf&sni=rvg-production-44ba.up.railway.app&fp=chrome&alpn=http/1.1#Server 131 🇺🇸 | removed_duplicate(from:servers.txt) | 2026-07-04 00:40
 vless://147182ba-946d-9ef2-a209-dbfcccec9231@rvg-production-dfeb.up.railway.app:443?encryption=none&security=tls&sni=rvg-production-dfeb.up.railway.app&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=rvg-production-dfeb.up.railway.app&path=%2Fws%2F147182ba-946d-9ef2-a209-dbfcccec9231#Server 98 🇺🇸 | removed_duplicate(from:servers.txt) | 2026-07-04 00:40
