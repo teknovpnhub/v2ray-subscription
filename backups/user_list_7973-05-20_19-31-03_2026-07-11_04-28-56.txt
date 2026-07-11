@@ -1,6 +1,3 @@
-🚫ruyin #405.3.7 | blocked 2026-07-11
-🚫fazlalizade #405.3.7 | blocked 2026-07-11
-🚫t.maaleki2 #405.3.10 | blocked 2026-07-11
 r.khani #405.4.17
 customer21 #405.4.15
 customer20 #405.4.14
@@ -51,6 +48,8 @@ sajjad.mehdizade #405.3.10
 🚫hoseyni #404.10.10 | blocked 2026-05-31
 🚫makhani #404.10.7 | blocked 2026-05-31
 🚫shokrzade #404.10.6 | blocked 2026-05-31
+t.maaleki2 ---b #405.3.10
+fazlalizade ---b #405.3.7
 🚫dahri #404.11.11 | blocked 2026-05-28
 🚫mahdi.rayi #404.11.9 | blocked 2026-05-28
 🚫hasan.gorbani #404.10.28 | blocked 2026-05-28
@@ -122,6 +121,7 @@ sajjad.mehdizade #405.3.10
 🚫akram.hajalilu #404.10.14 | blocked 2026-05-28
 🚫teymuri #404.10.16 | blocked 2026-05-28
 🚫faramarz.ahmadpurtamar #| blocked 2026-05-28
+ruyin ---b #405.3.7
 🚫ebrahim.golizade #404.11.11 | blocked 2026-02-08
 🚫soghra.sadati #404.10.4 | blocked 2026-01-31
 🚫alipur #404.9.29 | blocked 2026-01-31

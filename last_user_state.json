@@ -1,5 +1,8 @@
 {
   "usernames": [
+    "ruyin",
+    "fazlalizade",
+    "t.maaleki2",
     "r.khani",
     "customer21",
     "customer20",
@@ -50,8 +53,6 @@
     "hoseyni",
     "makhani",
     "shokrzade",
-    "t.maaleki2",
-    "fazlalizade",
     "dahri",
     "mahdi.rayi",
     "hasan.gorbani",
@@ -123,7 +124,6 @@
     "akram.hajalilu",
     "teymuri",
     "faramarz.ahmadpurtamar",
-    "ruyin",
     "ebrahim.golizade",
     "soghra.sadati",
     "alipur",
@@ -359,6 +359,9 @@
     "mm"
   ],
   "lines": {
+    "ruyin": "🚫ruyin #405.3.7 | blocked 2026-07-11",
+    "fazlalizade": "🚫fazlalizade #405.3.7 | blocked 2026-07-11",
+    "t.maaleki2": "🚫t.maaleki2 #405.3.10 | blocked 2026-07-11",
     "r.khani": "r.khani #405.4.17",
     "customer21": "customer21 #405.4.15",
     "customer20": "customer20 #405.4.14",
@@ -409,8 +412,6 @@
     "hoseyni": "🚫hoseyni #404.10.10 | blocked 2026-05-31",
     "makhani": "🚫makhani #404.10.7 | blocked 2026-05-31",
     "shokrzade": "🚫shokrzade #404.10.6 | blocked 2026-05-31",
-    "t.maaleki2": "t.maaleki2 #405.3.10",
-    "fazlalizade": "fazlalizade #405.3.7",
     "dahri": "🚫dahri #404.11.11 | blocked 2026-05-28",
     "mahdi.rayi": "🚫mahdi.rayi #404.11.9 | blocked 2026-05-28",
     "hasan.gorbani": "🚫hasan.gorbani #404.10.28 | blocked 2026-05-28",
@@ -482,7 +483,6 @@
     "akram.hajalilu": "🚫akram.hajalilu #404.10.14 | blocked 2026-05-28",
     "teymuri": "🚫teymuri #404.10.16 | blocked 2026-05-28",
     "faramarz.ahmadpurtamar": "🚫faramarz.ahmadpurtamar #| blocked 2026-05-28",
-    "ruyin": "ruyin #405.3.7",
     "ebrahim.golizade": "🚫ebrahim.golizade #404.11.11 | blocked 2026-02-08",
     "soghra.sadati": "🚫soghra.sadati #404.10.4 | blocked 2026-01-31",
     "alipur": "🚫alipur #404.9.29 | blocked 2026-01-31",
@@ -717,5 +717,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-07-11 03:28"
+  "timestamp": "2026-07-11 04:28"
 }

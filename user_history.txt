@@ -1,3 +1,15 @@
+ruyin | blocked | | blocked 2026-07-11 [Note: 405.3.7] | 2026-07-11 04:28
+
+fazlalizade | blocked | | blocked 2026-07-11 [Note: 405.3.7] | 2026-07-11 04:28
+
+t.maaleki2 | blocked | | blocked 2026-07-11 [Note: 405.3.10] | 2026-07-11 04:28
+
+ruyin | manual_delete | User manually removed [Note: 405.3.7] | 2026-07-11 04:28
+
+fazlalizade | manual_delete | User manually removed [Note: 405.3.7] | 2026-07-11 04:28
+
+t.maaleki2 | manual_delete | User manually removed [Note: 405.3.10] | 2026-07-11 04:28
+
 r.khani | unblocked | [Note: 405.4.17 | blocked 2026-05-28] | 2026-07-08 12:24
 
 r.khani | manual_delete | User manually removed [Note: 405.4.17 | blocked 2026-05-28] | 2026-07-08 12:24
@@ -46,29 +58,7 @@ narimani | unblocked | [Note: 405.4.9 | blocked 2026-05-28] | 2026-06-30 18:12
 
 narimani | manual_delete | User manually removed [Note: 405.4.9 | blocked 2026-05-28] | 2026-06-30 18:12
 
-customer19 | added | [Note: 405.4.9] | 2026-06-30 11:32
-
-customer18 | added | [Note: 405.4.8] | 2026-06-29 20:18
-
-customer17 | added | [Note: 405.4.8] | 2026-06-29 17:48
-
-customer151 | removed | User deleted [Note: 405.4.8] | 2026-06-29 17:44
-
-customer16 | added | [Note: 405.4.8] | 2026-06-29 17:44
-
-customer151 | manual_delete | User manually removed [Note: 405.4.8] | 2026-06-29 17:44
-
-customer151 | added |  | 2026-06-29 17:30
-
-customer151 | auto_renamed | Automatically renamed from customer15 due to duplicate | 2026-06-29 17:30
-
-customer15 | added | [Note: 405.4.7] | 2026-06-28 17:27
-
-customer14 | added | [Note: 405.4.7] | 2026-06-28 12:17
-
 alireza.gareahmadi | unblocked | [Note: 405.3.23 | blocked 2026-06-21] | 2026-06-28 11:47
-
-customer13 | added | [Note: 405.4.7] | 2026-06-28 11:47
 
 alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23 | blocked 2026-06-21] | 2026-06-28 11:47
 
