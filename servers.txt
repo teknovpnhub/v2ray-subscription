@@ -46,7 +46,7 @@ vless://fba6d1fd-0dab-428d-ae71-0e64c73a6060@104.21.12.116:8880?encryption=none&
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.211:8080#Server 46 🇳🇱
 vless://d6c595c9-bff4-4510-893a-dfa3c87fa0cd@skk.moe:8880?encryption=none&type=ws&host=lucky-cell-d20c.78-107.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=none#Server 47 🇨🇦
 vless://afb13fa2-bba2-417f-b8c2-62565f92a78d@skk.moe:8880?&security=none&type=ws&headerType=&host=orange-block-5cd1.124-199.workers.dev&path=%2Fpyip%3DProxyIP.JP.CMLiussss.net#Server 48 🇨🇦
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.wto.org:2095?encryption=none&security=none&type=ws&host=cnmfangbinxing.cnmfangbinxing-1.workers.dev&path=%2F#Server 49 🇨🇦
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.wto.org:2095?encryption=none&security=none&type=ws&host=cnmfangbinxing.cnmfangbinxing-1.workers.dev&path=%2F#Server 49 🇬🇧
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.155:8080#Server 50 🇳🇱
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.169.222.40:8880/?type=ws&encryption=none&flow=&host=vms.lifetime40.workers.dev&path=%2F&packetEncoding=xudp#Server 51 🇺🇸
 vless://fba6d1fd-0dab-428d-ae71-0e64c73a6060@log.bpminecraft.com:8880?security=none&type=ws&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&host=morning-wood-0e8a.28-63e.workers.dev&packetEncoding=xudp#Server 52 🇨🇦
@@ -154,7 +154,7 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?securit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.185:8080#Server 154 🇳🇱
 vless://2efeba50-78fe-4729-9821-1fb9819ed9e8@172.66.132.196:8880?path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none&encryption=none&host=dark-dew-c3ed.48-97c.workers.dev&type=ws#Server 155 🇺🇸
 vless://fc46b03d-e185-48e7-8c18-dea03b4a0c25@www.ipget.net:8880?&security=false&fp=chrome&type=ws&headerType=none&host=flat-union-b292.17-4e0.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#Server 156 🇨🇦
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@chatgpt.com:2053?encryption=none&security=tls&sni=bpb241.ganijov670.workers.dev.&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=bpb241.ganijov670.workers.dev.&path=%2F3pvwrveqporautyq%2Fmtq0lji0lji0my4ymdc%3Fed%3D2053#Server 157 🇬🇧
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@chatgpt.com:2053?encryption=none&security=tls&sni=bpb241.ganijov670.workers.dev.&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=bpb241.ganijov670.workers.dev.&path=%2F3pvwrveqporautyq%2Fmtq0lji0lji0my4ymdc%3Fed%3D2053#Server 157 🇨🇦
 vless://f769b7ea-9cd1-4d61-b578-7644b7c8eb3d@104.21.56.202:8880?encryption=none&type=ws&host=quiet-waterfall-e914.180-ac4.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=none#Server 158 🇺🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.145.46.201:443#Server 159 🇺🇸
 vless://91c7ea79-9187-4f07-ab97-68c584186843@skk.moe:8880?security=none&type=ws&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&host=nameless-dust-1a36.207-b50.workers.dev&packetEncoding=xudp#Server 160 🇨🇦
