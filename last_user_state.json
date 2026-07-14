@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "amir.abdeli",
     "amin.mafi",
     "akram.hajalilu",
     "customer23",
@@ -101,7 +102,6 @@
     "ebadi",
     "hasani",
     "tohid.aslanzade",
-    "amir.abdeli",
     "abrishami",
     "tahmazzade",
     "dolatkhah",
@@ -361,6 +361,7 @@
     "mm"
   ],
   "lines": {
+    "amir.abdeli": "amir.abdeli #405.4.23",
     "amin.mafi": "amin.mafi #405.5.22",
     "akram.hajalilu": "akram.hajalilu #405.4.22",
     "customer23": "customer23 #405.4.21",
@@ -462,7 +463,6 @@
     "ebadi": "🚫ebadi #404.11.19 | blocked 2026-05-28",
     "hasani": "🚫hasani #404.11.13 | blocked 2026-05-28",
     "tohid.aslanzade": "🚫tohid.aslanzade #404.11.11 | blocked 2026-05-28",
-    "amir.abdeli": "🚫amir.abdeli #404.11.12 | blocked 2026-05-28",
     "abrishami": "🚫abrishami #404.11.11 | blocked 2026-05-28",
     "tahmazzade": "🚫tahmazzade #404.11.19 | blocked 2026-05-28",
     "dolatkhah": "🚫dolatkhah #404.10.18 | blocked 2026-05-28",
@@ -721,5 +721,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-07-14 09:02"
+  "timestamp": "2026-07-14 11:21"
 }
