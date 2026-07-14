@@ -29,7 +29,7 @@ vless://84270e8b-567e-45c6-b2f2-56ec9a67ae1e@104.16.107.139:8880?encryption=none
 vless://9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b@172.66.47.69:80?encryption=none&security=none&type=ws&path=%2F&host=free-hzr26-cdn.sabzi.name.ng.#Server 29 🇺🇸
 vless://3fe8191f-52ae-4e38-8385-5869ab47fb70@skk.moe:8880?&security=false&fp=chrome&type=ws&headerType=none&host=jolly-violet-a006.10-ae8.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net#Server 30 🇨🇦
 vless://ce977d82-824b-4209-87f1-0719f78d6a2e@download.yunzhongzhuan.com:8880?&security=false&fp=chrome&type=ws&headerType=none&host=royal-mode-cf74.210-62d.workers.dev&path=%2Fpyip%3DProxyIP.JP.CMLiussss.net#Server 31 🇨🇦
-vless://d08c3d5e-ef85-48ac-b532-0fe6d3ae14d1@speedtest.net:80?path=%2F&security=&encryption=none&host=iophgyhuw2.global.ssl.fastly.net&type=ws#Server 32 🇩🇪
+vless://d08c3d5e-ef85-48ac-b532-0fe6d3ae14d1@speedtest.net:80?path=%2F&security=&encryption=none&host=iophgyhuw2.global.ssl.fastly.net&type=ws#Server 32 🇨🇦
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.udemy.com:2095?encryption=none&security=none&type=ws&path=%2F&host=cnmfangbinxing.cnmfangbinxing-s.workers.dev&sni=cnmfangbinxing.cnmfangbinxing-s.workers.dev&fp=randomized#Server 33 🇨🇦
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.140:443?allowInsecure=0&sni=#Server 34 🇩🇪
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?encryption=none&security=none&type=ws&path=%2F&host=cnmfangbinxing.cnmfangbinxing-s.workers.dev&sni=cnmfangbinxing.cnmfangbinxing-s.workers.dev&fp=randomized#Server 35 🇨🇦
