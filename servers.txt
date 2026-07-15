@@ -114,7 +114,7 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@15.237.218.22:443#Server 113 🇫🇷
 vless://7242eccf-5261-4e31-813e-871bfbde90c2@skk.moe:8880?&security=false&fp=chrome&type=ws&headerType=none&host=long-flower-ac0d.176-17e.workers.dev&path=%2Fpyip%3DProxyIP.JP.CMLiussss.net#Server 114 🇨🇦
 vless://d6d0ba7b-fa88-4b2c-9915-530ae4a81035@104.21.12.116:8880?encryption=none&security=none&type=ws&host=aged-mud-9b4c.202-2dc.workers.dev&path=/pyip=ProxyIP.JP.CMLiussss.net#Server 115 🇺🇸
 vless://5990e0a5-fc5f-43c6-8fdc-39612c60a9cd@skk.moe:8880?encryption=none&type=ws&host=jolly-butterfly-24e0.212-cb3.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net&security=none#Server 116 🇨🇦
-vless://2efeba50-78fe-4729-9821-1fb9819ed9e8@skk.moe:8880?encryption=none&type=ws&host=dark-dew-c3ed.48-97c.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none#Server 117 🇨🇦
+vless://2efeba50-78fe-4729-9821-1fb9819ed9e8@skk.moe:8880?encryption=none&type=ws&host=dark-dew-c3ed.48-97c.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none#Server 117
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@itarmy.com.ua:2095?allowInsecure=0&sni=cnmfangbinxing.cnmfangbinxing-k.workers.dev&type=ws&host=cnmfangbinxing.cnmfangbinxing-k.workers.dev&path=/fp=randomized#Server 118 🇨🇦
 vless://86dc5fb4-f279-45b7-a2c6-0d1e84b85c18@104.16.107.139:8880?encryption=none&type=ws&host=lingering-dawn-5d4a.163-3f1.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=none#Server 119 🇺🇸
 vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@www.epicgames.com:2095?encryption=none&security=none&type=ws&path=%2F&host=cnmfangbinxing.cnmfangbinxing-s.workers.dev&sni=cnmfangbinxing.cnmfangbinxing-s.workers.dev&fp=randomized#Server 120 🇨🇦
@@ -154,7 +154,7 @@ vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@support.cloudflare.com:2095?securit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.185:8080#Server 154 🇳🇱
 vless://2efeba50-78fe-4729-9821-1fb9819ed9e8@172.66.132.196:8880?path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none&encryption=none&host=dark-dew-c3ed.48-97c.workers.dev&type=ws#Server 155 🇺🇸
 vless://fc46b03d-e185-48e7-8c18-dea03b4a0c25@www.ipget.net:8880?&security=false&fp=chrome&type=ws&headerType=none&host=flat-union-b292.17-4e0.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#Server 156 🇨🇦
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@chatgpt.com:2053?encryption=none&security=tls&sni=bpb241.ganijov670.workers.dev.&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=bpb241.ganijov670.workers.dev.&path=%2F3pvwrveqporautyq%2Fmtq0lji0lji0my4ymdc%3Fed%3D2053#Server 157 🇬🇧
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@chatgpt.com:2053?encryption=none&security=tls&sni=bpb241.ganijov670.workers.dev.&alpn=h3%2Ch2%2Chttp%2F1.1&fp=chrome&type=ws&host=bpb241.ganijov670.workers.dev.&path=%2F3pvwrveqporautyq%2Fmtq0lji0lji0my4ymdc%3Fed%3D2053#Server 157 🇨🇦
 vless://f769b7ea-9cd1-4d61-b578-7644b7c8eb3d@104.21.56.202:8880?encryption=none&type=ws&host=quiet-waterfall-e914.180-ac4.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=none#Server 158 🇺🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.145.46.201:443#Server 159 🇺🇸
 vless://91c7ea79-9187-4f07-ab97-68c584186843@skk.moe:8880?security=none&type=ws&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&host=nameless-dust-1a36.207-b50.workers.dev&packetEncoding=xudp#Server 160 🇨🇦
