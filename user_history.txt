@@ -1,3 +1,7 @@
+alireza.gareahmadi | blocked | | blocked 2026-07-19 [Note: 405.3.23] | 2026-07-19 20:29
+
+alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23] | 2026-07-19 20:29
+
 customer24 | added | [Note: 405.4.24] | 2026-07-15 20:21
 
 fazlalizade | unblocked | [Note: 405.4.24 | blocked 2026-07-11] | 2026-07-15 17:27
@@ -61,10 +65,6 @@ t.maaleki2 | manual_delete | User manually removed [Note: 405.3.10] | 2026-07-11
 r.khani | unblocked | [Note: 405.4.17 | blocked 2026-05-28] | 2026-07-08 12:24
 
 r.khani | manual_delete | User manually removed [Note: 405.4.17 | blocked 2026-05-28] | 2026-07-08 12:24
-
-customer21 | added | [Note: 405.4.15] | 2026-07-06 18:56
-
-customer20 | added | [Note: 405.4.14] | 2026-07-05 19:59
 
 ehsan | unblocked | [Note: 404.8.3 | blocked 2026-07-04] | 2026-07-05 17:51
 
