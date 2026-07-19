@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer25",
     "alireza.gareahmadi",
     "customer24",
     "fazlalizade",
@@ -362,6 +363,7 @@
     "mm"
   ],
   "lines": {
+    "customer25": "customer25 #405.4.28",
     "alireza.gareahmadi": "🚫alireza.gareahmadi #405.3.23 | blocked 2026-07-19",
     "customer24": "customer24 #405.4.24",
     "fazlalizade": "fazlalizade #405.4.24",
@@ -723,5 +725,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-07-19 20:29"
+  "timestamp": "2026-07-19 20:42"
 }
