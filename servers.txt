@@ -104,7 +104,7 @@ trojan://NQ26071394@52.26.202.76:443?sni=learning-fawn.rooster465.autos&path=/#S
 vless://0b18b347-13a7-48d6-8815-5481c8c7ac4d@hikvision-plus.com:2052?encryption=none&host=uwu.blueknightnet.qzz.io&path=%2Fapi-v1&security=none&type=ws#Server 104 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.189:8080#Server 105 🇳🇱
 hysteria2://ALg6h4f8Mo@91.107.152.188:31999?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#Server 106 🇩🇪
-vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.18.42.163:2095?encryption=none&host=download.pusytroller.gq&path=%2F&security=none&type=ws#Server 107 🇨🇦
+vless://86c50e3a-5b87-49dd-bd20-03c7f2735e40@104.18.42.163:2095?encryption=none&host=download.pusytroller.gq&path=%2F&security=none&type=ws#Server 107 🇺🇸
 vless://f4e91fac-25eb-4d26-a14c-c82c3778a0e4@91.193.59.54:80?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=s5gydl.936.us.ci&path=Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2&security=none&type=ws#Server 108 🇬🇧
 vless://af1e0692-6c91-4d61-bc6b-108f2e897c37@193.233.174.195:27331?encryption=none&security=none&type=tcp#Server 109 🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.215:8080#Server 110 🇳🇱
