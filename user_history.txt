@@ -1,3 +1,5 @@
+customer30 | added | [Note: 405.4.31] | 2026-07-22 11:13
+
 customer29 | added | [Note: 405.4.30] | 2026-07-21 19:25
 
 customer28 | added | [Note: 405.4.30] | 2026-07-21 19:11
@@ -44,37 +46,17 @@ akram.hajalilu | manual_delete | User manually removed [Note: 405.4.22 | blocked
 
 customer23 | added | [Note: 405.4.21] | 2026-07-12 19:14
 
-customer22 | added | [Note: 405.4.20] | 2026-07-11 20:11
-
 ruyin | unblocked | [Note: 405.4.20 | blocked 2026-07-11] | 2026-07-11 17:04
 
 ruyin | manual_delete | User manually removed [Note: 405.4.20 | blocked 2026-07-11] | 2026-07-11 17:04
 
 javadi | unblocked | [Note: 405.4.20 | blocked 2026-05-28] | 2026-07-11 11:59
 
-customer22 | removed | User deleted [Note: 405.4.20] | 2026-07-11 11:59
-
-customer22 | manual_delete | User manually removed [Note: 405.4.20] | 2026-07-11 11:59
-
 javadi | manual_delete | User manually removed [Note: 405.4.20 | blocked 2026-05-28] | 2026-07-11 11:59
-
-customer22 | added | [Note: 405.4.20] | 2026-07-11 11:51
 
 s.asgarzade | unblocked | [Note: 405.4.20 | blocked 2025-10-24] | 2026-07-11 11:49
 
 s.asgarzade | manual_delete | User manually removed [Note: 405.4.20 | blocked 2025-10-24] | 2026-07-11 11:49
-
-ruyin | blocked | | blocked 2026-07-11 [Note: 405.3.7] | 2026-07-11 04:28
-
-fazlalizade | blocked | | blocked 2026-07-11 [Note: 405.3.7] | 2026-07-11 04:28
-
-t.maaleki2 | blocked | | blocked 2026-07-11 [Note: 405.3.10] | 2026-07-11 04:28
-
-ruyin | manual_delete | User manually removed [Note: 405.3.7] | 2026-07-11 04:28
-
-fazlalizade | manual_delete | User manually removed [Note: 405.3.7] | 2026-07-11 04:28
-
-t.maaleki2 | manual_delete | User manually removed [Note: 405.3.10] | 2026-07-11 04:28
 
 r.khani | unblocked | [Note: 405.4.17 | blocked 2026-05-28] | 2026-07-08 12:24
 
