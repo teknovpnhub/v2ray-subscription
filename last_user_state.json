@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "kh.alipur",
     "customer9",
     "salamzade",
     "customer12",
@@ -7,7 +8,6 @@
     "ansarifard",
     "hossein.zarghami",
     "a.ahmadi",
-    "kh.alipur",
     "customer11",
     "customer13",
     "customer32",
@@ -370,6 +370,7 @@
     "mm"
   ],
   "lines": {
+    "kh.alipur": "kh.alipur #405.5.3",
     "customer9": "🚫customer9 #405.3.31 | blocked 2026-07-25",
     "salamzade": "🚫salamzade #405.4.6 | blocked 2026-07-25",
     "customer12": "🚫customer12 #405.4.6 | blocked 2026-07-25",
@@ -377,7 +378,6 @@
     "ansarifard": "🚫ansarifard #405.3.15 | blocked 2026-07-25",
     "hossein.zarghami": "🚫hossein.zarghami #405.4.6 | blocked 2026-07-25",
     "a.ahmadi": "🚫a.ahmadi #405.4.2 | blocked 2026-07-25",
-    "kh.alipur": "🚫kh.alipur #405.3.28 | blocked 2026-07-25",
     "customer11": "🚫customer11 #405.4.1 | blocked 2026-07-25",
     "customer13": "🚫customer13 #405.4.7 | blocked 2026-07-25",
     "customer32": "customer32 #405.5.1",
@@ -739,5 +739,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-07-25 10:48"
+  "timestamp": "2026-07-25 11:31"
 }

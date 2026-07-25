@@ -5,7 +5,6 @@ customer8 #405.3.30 | blocked 2026-07-25
 ansarifard #405.3.15 | blocked 2026-07-25
 hossein.zarghami #405.4.6 | blocked 2026-07-25
 a.ahmadi #405.4.2 | blocked 2026-07-25
-kh.alipur #405.3.28 | blocked 2026-07-25
 customer11 #405.4.1 | blocked 2026-07-25
 customer13 #405.4.7 | blocked 2026-07-25
 t.maaleki2 #405.3.10 | blocked 2026-07-11
