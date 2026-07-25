@@ -28,7 +28,7 @@ ehsan #404.8.3
 🚫peyman #404.7.13 | blocked 2026-07-04
 🚫mansur #404.6.13 | blocked 2026-07-04
 🚫a.reza #404.7.16 | blocked 2026-07-04
-ansarifard #405.3.15
+ansarifard ---b #405.3.15
 narimani #405.4.9
 customer19 #405.4.9
 customer18 #405.4.8
@@ -36,16 +36,16 @@ customer17 #405.4.8
 customer14 #405.4.8
 customer15 #405.4.8
 customer16 #405.4.8
-customer13 #405.4.7
-salamzade #405.4.6
-customer12 #405.4.6
-hossein.zarghami #405.4.6
-a.ahmadi #405.4.2
-customer11 #405.4.1
+customer13 ---b #405.4.7
+salamzade ---b #405.4.6
+customer12 ---b #405.4.6
+hossein.zarghami ---b #405.4.6
+a.ahmadi ---b #405.4.2
+customer11 ---b #405.4.1
 🚫customer10 #405.4.1 | blocked 2026-06-22
-customer8 #405.3.30
-customer9 #405.3.31
-kh.alipur #405.3.28
+customer8 ---b #405.3.30
+customer9 ---b #405.3.31
+kh.alipur ---b #405.3.28
 🚫alrostam #405.3.27 | blocked 2026-06-17
 sajjad.mehdizade #405.3.10
 🚫robab.valizade #404.10.7 | blocked 2026-05-31
