@@ -1,3 +1,5 @@
+asghar | added | [Note: 405.5.4] | 2026-07-26 19:19
+
 ansarifard | unblocked | [Note: 405.5.3 | blocked 2026-07-25] | 2026-07-25 18:40
 
 ansarifard | manual_delete | User manually removed [Note: 405.5.3 | blocked 2026-07-25] | 2026-07-25 18:40
@@ -69,8 +71,6 @@ customer25 | added | [Note: 405.4.28] | 2026-07-19 20:42
 alireza.gareahmadi | blocked | | blocked 2026-07-19 [Note: 405.3.23] | 2026-07-19 20:29
 
 alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23] | 2026-07-19 20:29
-
-customer24 | added | [Note: 405.4.24] | 2026-07-15 20:21
 
 fazlalizade | unblocked | [Note: 405.4.24 | blocked 2026-07-11] | 2026-07-15 17:27
 
