@@ -1,3 +1,11 @@
+trojan://521314@103.83.87.111:443?path=%2F&security=tls&insecure=1&host=tjplay.lxdxo.kdns.fr&type=ws&allowInsecure=1&sni=tjplay.lxdxo.kdns.fr#By%20EbraSha%20%F0%9F%93%BC%20%F0%9F%87%B9%F0%9F%87%B7
+trojan://521314@103.83.87.133:443?path=%2F&security=tls&insecure=0&host=tjplay.lxdxo.kdns.fr&type=ws&allowInsecure=0&sni=tjplay.lxdxo.kdns.fr#By%20EbraSha%20%F0%9F%A6%87%20%F0%9F%87%B9%F0%9F%87%B7
+trojan://521314@103.83.87.133:443?path=%2F&security=tls&insecure=0&type=ws&allowInsecure=0&sni=tjplay.lxdxo.kdns.fr#By%20EbraSha%20%F0%9F%A7%A8%20%F0%9F%87%B9%F0%9F%87%B7
+vless://09c3a956-075e-43b1-a125-2df71dac7aec@n2.zynovax.ir:1080?security=reality&encryption=none&pbk=jDj_1a2AOXOZ_bRkgqvb0tMXjTier75usgndNVdOHTU&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=2926c493071e7380#By%20EbraSha%20%F0%9F%93%80%20%F0%9F%87%B9%F0%9F%87%B7
+trojan://521314@107.161.174.99:443?path=%2F&security=tls&insecure=0&type=ws&allowInsecure=0&sni=tjplay.lxdxo.kdns.fr#By%20EbraSha%20%F0%9F%94%A5%20%F0%9F%87%B9%F0%9F%87%B7
+trojan://humanity@86.38.214.205:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#By%20EbraSha%20%F0%9F%9B%9C%20%F0%9F%87%B9%F0%9F%87%B7
+trojan://521314@86.38.214.27:443?path=%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&insecure=0&host=hhtj.hhllfly.kdns.fr&type=ws&allowInsecure=0&sni=hhtj.hhllfly.kdns.fr#By%20EbraSha%20%F0%9F%94%A5%20%F0%9F%87%B9%F0%9F%87%B7
+trojan://humanity@86.38.214.205:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#By%20EbraSha%20%F0%9F%9B%9C%20%F0%9F%87%B9%F0%9F%87%B7
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=none&encryption=none&type=grpc#Server 1 🇮🇹
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.6:8880?mode=gun&security=none&encryption=none&authority=v2rayNplus--v2rayNplus--v2rayNplus&type=grpc#Server 2 🇮🇹
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWRAMTA4LjE4MS41OC4yMzk6ODM4OA==#Server 3
