@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer2",
     "molayi",
     "customer34",
     "customer33",
@@ -261,7 +262,6 @@
     "z.soltani",
     "m.gorbani",
     "malkami",
-    "customer2",
     "customer3",
     "s.ilati",
     "makarem",
@@ -373,6 +373,7 @@
     "mm"
   ],
   "lines": {
+    "customer2": "customer2 #405.5.7",
     "molayi": "molayi #405.5.6",
     "customer34": "customer34 #405.5.6",
     "customer33": "customer33 #405.5.6",
@@ -634,7 +635,6 @@
     "z.soltani": "🚫z.soltani #404.7.16 | blocked 2025-11-15",
     "m.gorbani": "🚫m.gorbani #404.7.15 | blocked 2025-11-15",
     "malkami": "🚫malkami #404.7.19 | blocked 2025-11-15",
-    "customer2": "🚫customer2 #404.7.15 | blocked 2025-11-15",
     "customer3": "🚫customer3 #404.7.13 | blocked 2025-11-15",
     "s.ilati": "🚫s.ilati #404.7.9 | blocked 2025-11-15",
     "makarem": "🚫makarem #404.7.10 | blocked 2025-11-15",
@@ -745,5 +745,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-07-29 10:01"
+  "timestamp": "2026-07-29 10:42"
 }

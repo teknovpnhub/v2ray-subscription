@@ -1,10 +1,6 @@
-molayi | manual_change | Changes:
-- molayi #405.4.23
-?             ^ ^^
+customer2 | unblocked | [Note: 405.5.7 | blocked 2025-11-15] | 2026-07-29 10:42
 
-+ molayi #405.5.6
-?             ^ ^
- [Note: 405.5.6] | 2026-07-28 19:22
+customer2 | manual_delete | User manually removed [Note: 405.5.7 | blocked 2025-11-15] | 2026-07-29 10:42
 
 customer34 | added | [Note: 405.5.6] | 2026-07-28 19:08
 

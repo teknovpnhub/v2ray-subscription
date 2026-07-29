@@ -1,4 +1,3 @@
-customer2 #405.5.7
 molayi #405.5.6
 customer34 #405.5.6
 customer33 #405.5.6
@@ -260,6 +259,7 @@ jafar
 🚫z.soltani #404.7.16 | blocked 2025-11-15
 🚫m.gorbani #404.7.15 | blocked 2025-11-15
 🚫malkami #404.7.19 | blocked 2025-11-15
+🚫customer2 ---ub #405.5.7 | blocked 2025-11-15
 🚫customer3 #404.7.13 | blocked 2025-11-15
 🚫s.ilati #404.7.9 | blocked 2025-11-15
 🚫makarem #404.7.10 | blocked 2025-11-15
