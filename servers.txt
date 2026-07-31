@@ -1,7 +1,7 @@
 trojan://521314@103.83.87.111:443?path=%2F&security=tls&insecure=1&host=tjplay.lxdxo.kdns.fr&type=ws&allowInsecure=1&sni=tjplay.lxdxo.kdns.fr#Server 1 🇹🇷
 trojan://521314@103.83.87.133:443?path=%2F&security=tls&insecure=0&host=tjplay.lxdxo.kdns.fr&type=ws&allowInsecure=0&sni=tjplay.lxdxo.kdns.fr#Server 2 🇹🇷
 trojan://521314@103.83.87.133:443?path=%2F&security=tls&insecure=0&type=ws&allowInsecure=0&sni=tjplay.lxdxo.kdns.fr#Server 3 🇹🇷
-vless://09c3a956-075e-43b1-a125-2df71dac7aec@n2.zynovax.ir:1080?security=reality&encryption=none&pbk=jDj_1a2AOXOZ_bRkgqvb0tMXjTier75usgndNVdOHTU&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=2926c493071e7380#Server 4 🇬🇪
+vless://09c3a956-075e-43b1-a125-2df71dac7aec@n2.zynovax.ir:1080?security=reality&encryption=none&pbk=jDj_1a2AOXOZ_bRkgqvb0tMXjTier75usgndNVdOHTU&headerType=none&fp=chrome&type=tcp&sni=play.google.com&sid=2926c493071e7380#Server 4
 trojan://521314@107.161.174.99:443?path=%2F&security=tls&insecure=0&type=ws&allowInsecure=0&sni=tjplay.lxdxo.kdns.fr#Server 5 🇹🇷
 trojan://humanity@86.38.214.205:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.ignitelimit.com#Server 6 🇱🇹
 trojan://521314@86.38.214.27:443?path=%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3&security=tls&insecure=0&host=hhtj.hhllfly.kdns.fr&type=ws&allowInsecure=0&sni=hhtj.hhllfly.kdns.fr#Server 7 🇱🇹
