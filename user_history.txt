@@ -1,3 +1,7 @@
+customer13 | unblocked | [Note: 405.5.10 | blocked 2026-07-25] | 2026-08-01 11:03
+
+customer13 | manual_delete | User manually removed [Note: 405.5.10 | blocked 2026-07-25] | 2026-08-01 11:03
+
 hadi.mohammadi | unblocked | [Note: 405.5.7 | blocked 2026-05-28] | 2026-07-29 19:12
 
 hadi.mohammadi | manual_delete | User manually removed [Note: 405.5.7 | blocked 2026-05-28] | 2026-07-29 19:12
@@ -74,23 +78,9 @@ customer31 | added | [Note: 405.4.31] | 2026-07-22 18:15
 
 customer30 | added | [Note: 405.4.31] | 2026-07-22 11:13
 
-customer29 | added | [Note: 405.4.30] | 2026-07-21 19:25
-
-customer28 | added | [Note: 405.4.30] | 2026-07-21 19:11
-
-customer27 | added | [Note: 405.4.29] | 2026-07-20 20:29
-
-customer26 | added | [Note: 405.4.29] | 2026-07-20 20:10
-
 alireza.gareahmadi | unblocked | [Note: 405.3.23 | blocked 2026-07-19] | 2026-07-20 10:47
 
 alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23 | blocked 2026-07-19] | 2026-07-20 10:47
-
-customer25 | added | [Note: 405.4.28] | 2026-07-19 20:42
-
-alireza.gareahmadi | blocked | | blocked 2026-07-19 [Note: 405.3.23] | 2026-07-19 20:29
-
-alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23] | 2026-07-19 20:29
 
 fazlalizade | unblocked | [Note: 405.4.24 | blocked 2026-07-11] | 2026-07-15 17:27
 
