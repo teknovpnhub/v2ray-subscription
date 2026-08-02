@@ -1,3 +1,5 @@
+customer37 | added | [Note: 405.5.11] | 2026-08-02 12:48
+
 customer13 | unblocked | [Note: 405.5.10 | blocked 2026-07-25] | 2026-08-01 11:03
 
 customer13 | manual_delete | User manually removed [Note: 405.5.10 | blocked 2026-07-25] | 2026-08-01 11:03
@@ -73,10 +75,6 @@ customer11 | manual_delete | User manually removed [Note: 405.4.1] | 2026-07-25 
 customer13 | manual_delete | User manually removed [Note: 405.4.7] | 2026-07-25 04:56
 
 customer32 | added | [Note: 405.5.1] | 2026-07-23 17:06
-
-customer31 | added | [Note: 405.4.31] | 2026-07-22 18:15
-
-customer30 | added | [Note: 405.4.31] | 2026-07-22 11:13
 
 alireza.gareahmadi | unblocked | [Note: 405.3.23 | blocked 2026-07-19] | 2026-07-20 10:47
 
