@@ -1,3 +1,7 @@
+z.pourmohammad | unblocked | [Note: 405.5.12 | blocked 2026-01-18] | 2026-08-03 19:38
+
+z.pourmohammad | manual_delete | User manually removed [Note: 405.5.12 | blocked 2026-01-18] | 2026-08-03 19:38
+
 meysam.bampuri | added | [Note: 405.5.11] | 2026-08-02 19:33
 
 hamed.ayubi | added | [Note: 405.5.11] | 2026-08-02 19:18
@@ -79,8 +83,6 @@ kh.alipur | manual_delete | User manually removed [Note: 405.3.28] | 2026-07-25 
 customer11 | manual_delete | User manually removed [Note: 405.4.1] | 2026-07-25 04:56
 
 customer13 | manual_delete | User manually removed [Note: 405.4.7] | 2026-07-25 04:56
-
-customer32 | added | [Note: 405.5.1] | 2026-07-23 17:06
 
 alireza.gareahmadi | unblocked | [Note: 405.3.23 | blocked 2026-07-19] | 2026-07-20 10:47
 

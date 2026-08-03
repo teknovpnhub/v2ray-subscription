@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "z.pourmohammad",
     "meysam.bampuri",
     "hamed.ayubi",
     "hadi.ganbarpur",
@@ -181,7 +182,6 @@
     "alireza.aghazade",
     "soodabeh.aghayi",
     "majid.lotfi",
-    "z.pourmohammad",
     "fahmi",
     "mehdizade",
     "aragi",
@@ -379,6 +379,7 @@
     "mm"
   ],
   "lines": {
+    "z.pourmohammad": "z.pourmohammad #405.5.12",
     "meysam.bampuri": "meysam.bampuri #405.5.11",
     "hamed.ayubi": "hamed.ayubi #405.5.11",
     "hadi.ganbarpur": "hadi.ganbarpur #405.5.11",
@@ -560,7 +561,6 @@
     "alireza.aghazade": "🚫alireza.aghazade #404.9.18 | blocked 2026-01-18",
     "soodabeh.aghayi": "🚫soodabeh.aghayi #404.9.20 | blocked 2026-01-18",
     "majid.lotfi": "🚫majid.lotfi #404.9.16 | blocked 2026-01-18",
-    "z.pourmohammad": "🚫z.pourmohammad #404.9.25 | blocked 2026-01-18",
     "fahmi": "🚫fahmi #404.9.16 | blocked 2026-01-18",
     "mehdizade": "🚫mehdizade #404.9.14 | blocked 2026-01-18",
     "aragi": "🚫aragi #404.9.24 | blocked 2026-01-18",
@@ -757,5 +757,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-03 17:11"
+  "timestamp": "2026-08-03 19:38"
 }
