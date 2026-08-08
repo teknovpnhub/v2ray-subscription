@@ -1,3 +1,5 @@
+customer40 | added | [Note: 405.5.17] | 2026-08-08 17:30
+
 customer381 | removed | User deleted [Note: 405.5.14] | 2026-08-05 20:18
 
 customer39 | added | [Note: 405.5.14] | 2026-08-05 20:18
@@ -42,15 +44,9 @@ customer2 | unblocked | [Note: 405.5.7 | blocked 2025-11-15] | 2026-07-29 10:42
 
 customer2 | manual_delete | User manually removed [Note: 405.5.7 | blocked 2025-11-15] | 2026-07-29 10:42
 
-customer34 | added | [Note: 405.5.6] | 2026-07-28 19:08
-
-customer33 | added | [Note: 405.5.6] | 2026-07-28 11:50
-
 a.ahmadi | unblocked | [Note: 405.5.3 | blocked 2026-07-25] | 2026-07-26 19:29
 
 a.ahmadi | manual_delete | User manually removed [Note: 405.5.3 | blocked 2026-07-25] | 2026-07-26 19:29
-
-asghar | added | [Note: 405.5.4] | 2026-07-26 19:19
 
 ansarifard | unblocked | [Note: 405.5.3 | blocked 2026-07-25] | 2026-07-25 18:40
 
