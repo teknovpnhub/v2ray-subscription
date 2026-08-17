@@ -1,3 +1,7 @@
+aaa.aaa | blocked | | blocked 2026-08-17 [Note: 40566] | 2026-08-17 05:13
+
+aaa.aaa | manual_delete | User manually removed [Note: 40566] | 2026-08-17 05:13
+
 aaa.aaa | added | [Note: 40566] | 2026-08-17 05:10
 
 customer44 | added | [Note: 405.5.5] | 2026-08-16 12:01
