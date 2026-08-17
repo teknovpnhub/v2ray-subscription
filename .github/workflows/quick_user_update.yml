@@ -32,7 +32,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pytz
+          pip install requests pytz pyyaml
 
       - name: Run quick subscription update (FAST_RUN)
         env:
