@@ -9,6 +9,10 @@ on:
       - 'production*.txt'
       - 'backup*.txt'
       - 'premium*.txt'
+      - '*.yaml'
+      - '*.yml'
+      - '**/*.yaml'
+      - '**/*.yml'
       - 'control_panel.txt'
       - 'scripts/update_subscriptions.py'
   schedule:
@@ -46,7 +50,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pytz
+          pip install requests pytz pyyaml
 
       - name: Create blocked_users.txt from manual input
         if: github.event.inputs.blocked_users != ''
