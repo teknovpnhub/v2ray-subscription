@@ -1,0 +1,1253 @@
+proxies:
+- name: irancell1_001 🇺🇸
+  type: wireguard
+  server: 8.6.112.139
+  port: 8319
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a04:a729:cf86:cbdc:2554
+  private-key: WBarv3CK9nZmWFDFhrgAOQ+zB2fBBFR9jsWPz4WL/HY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_002 🇺🇸
+  type: wireguard
+  server: 8.6.112.95
+  port: 1387
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:804d:fb03:de92:7a4f:f06d
+  private-key: UAVYlyf/FLW+Nb43FZ8Dm9/aam8dfBSVFO/MGVL/s38=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_003 🇺🇸
+  type: wireguard
+  server: 8.6.112.190
+  port: 945
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:802c:6260:b694:d041:54
+  private-key: gLntU+/sZDg9xbBS7xYk8UhMdlG8EPsgo5NNR59D+10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_004 🇺🇸
+  type: wireguard
+  server: 8.6.112.56
+  port: 4233
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8086:6abf:b323:b6ec:7d51
+  private-key: yL2ayyFV+N68RtpqfHFI9+Pal+i7EtKYBuQ3blltgHE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_005 🇺🇸
+  type: wireguard
+  server: 8.6.112.178
+  port: 1002
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8651:aaaa:7715:9131:2cc3
+  private-key: 2GXze5yjeYN91MgCyTeIfSOSlcZ9uQp9O5kQd8Z6h1g=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_006 🇺🇸
+  type: wireguard
+  server: 8.6.112.157
+  port: 4233
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c01:8986:8ecc:1087:23fa
+  private-key: MJZapxm3XnQT0hZfhNiBOF7nV3UYkiUKu8sP1qNtGHY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_007 🇺🇸
+  type: wireguard
+  server: 8.6.112.249
+  port: 2371
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8651:aaaa:7715:9131:2cc3
+  private-key: 2GXze5yjeYN91MgCyTeIfSOSlcZ9uQp9O5kQd8Z6h1g=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_008 🇺🇸
+  type: wireguard
+  server: 8.6.112.190
+  port: 939
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:825c:44a:3d85:1170:cc5d
+  private-key: OC2PU7GosOgchpqaKe/QX0ZZPN7bXKrpzbaATaHfeHs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_009 🇺🇸
+  type: wireguard
+  server: 8.6.112.137
+  port: 988
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:804d:fb03:de92:7a4f:f06d
+  private-key: UAVYlyf/FLW+Nb43FZ8Dm9/aam8dfBSVFO/MGVL/s38=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_010 🇺🇸
+  type: wireguard
+  server: 8.6.112.192
+  port: 7156
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:804d:fb03:de92:7a4f:f06d
+  private-key: UAVYlyf/FLW+Nb43FZ8Dm9/aam8dfBSVFO/MGVL/s38=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_011 🇺🇸
+  type: wireguard
+  server: 8.6.112.151
+  port: 968
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d5a:f588:dc00:2931:c531
+  private-key: 6NgDt9ORkzT3ue0T8owHKv1pC5XrzsN+DdqAUpJqzk8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_012 🇺🇸
+  type: wireguard
+  server: 8.6.112.216
+  port: 2408
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:802c:6260:b694:d041:54
+  private-key: gLntU+/sZDg9xbBS7xYk8UhMdlG8EPsgo5NNR59D+10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_013 🇺🇸
+  type: wireguard
+  server: 8.6.112.32
+  port: 8886
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8086:6abf:b323:b6ec:7d51
+  private-key: yL2ayyFV+N68RtpqfHFI9+Pal+i7EtKYBuQ3blltgHE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_014 🇺🇸
+  type: wireguard
+  server: 8.6.112.103
+  port: 8319
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:894a:88af:fa2c:ad44:c302
+  private-key: ELIHDdFFCFndjLHT0IpufFGeiJ1tNPUtQiQ4UUQuDmw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_015 🇺🇸
+  type: wireguard
+  server: 8.6.112.170
+  port: 2506
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:825c:44a:3d85:1170:cc5d
+  private-key: OC2PU7GosOgchpqaKe/QX0ZZPN7bXKrpzbaATaHfeHs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_016 🇺🇸
+  type: wireguard
+  server: 8.6.112.112
+  port: 894
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c01:8986:8ecc:1087:23fa
+  private-key: MJZapxm3XnQT0hZfhNiBOF7nV3UYkiUKu8sP1qNtGHY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_017 🇺🇸
+  type: wireguard
+  server: 8.6.112.107
+  port: 946
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:894a:88af:fa2c:ad44:c302
+  private-key: ELIHDdFFCFndjLHT0IpufFGeiJ1tNPUtQiQ4UUQuDmw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_018 🇺🇸
+  type: wireguard
+  server: 8.6.112.67
+  port: 500
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c01:8986:8ecc:1087:23fa
+  private-key: MJZapxm3XnQT0hZfhNiBOF7nV3UYkiUKu8sP1qNtGHY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: irancell1_019 🇺🇸
+  type: wireguard
+  server: 8.6.112.63
+  port: 988
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a04:a729:cf86:cbdc:2554
+  private-key: WBarv3CK9nZmWFDFhrgAOQ+zB2fBBFR9jsWPz4WL/HY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_001 🇺🇸
+  type: wireguard
+  server: 8.6.112.181
+  port: 3476
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:894a:88af:fa2c:ad44:c302
+  private-key: ELIHDdFFCFndjLHT0IpufFGeiJ1tNPUtQiQ4UUQuDmw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_002 🇺🇸
+  type: wireguard
+  server: 8.6.112.156
+  port: 943
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:894a:88af:fa2c:ad44:c302
+  private-key: ELIHDdFFCFndjLHT0IpufFGeiJ1tNPUtQiQ4UUQuDmw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_003 🇺🇸
+  type: wireguard
+  server: 8.6.112.240
+  port: 1180
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:894a:88af:fa2c:ad44:c302
+  private-key: ELIHDdFFCFndjLHT0IpufFGeiJ1tNPUtQiQ4UUQuDmw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_004 🇺🇸
+  type: wireguard
+  server: 8.6.112.54
+  port: 987
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8086:6abf:b323:b6ec:7d51
+  private-key: yL2ayyFV+N68RtpqfHFI9+Pal+i7EtKYBuQ3blltgHE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_005 🇺🇸
+  type: wireguard
+  server: 8.6.112.216
+  port: 854
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:825c:44a:3d85:1170:cc5d
+  private-key: OC2PU7GosOgchpqaKe/QX0ZZPN7bXKrpzbaATaHfeHs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_006 🇺🇸
+  type: wireguard
+  server: 8.6.112.149
+  port: 1701
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:802c:6260:b694:d041:54
+  private-key: gLntU+/sZDg9xbBS7xYk8UhMdlG8EPsgo5NNR59D+10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_007 🇺🇸
+  type: wireguard
+  server: 8.6.112.90
+  port: 7152
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8086:6abf:b323:b6ec:7d51
+  private-key: yL2ayyFV+N68RtpqfHFI9+Pal+i7EtKYBuQ3blltgHE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_008 🇺🇸
+  type: wireguard
+  server: 8.6.112.218
+  port: 2408
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:825c:44a:3d85:1170:cc5d
+  private-key: OC2PU7GosOgchpqaKe/QX0ZZPN7bXKrpzbaATaHfeHs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_009 🇺🇸
+  type: wireguard
+  server: 8.6.112.125
+  port: 955
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8086:6abf:b323:b6ec:7d51
+  private-key: yL2ayyFV+N68RtpqfHFI9+Pal+i7EtKYBuQ3blltgHE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_010 🇺🇸
+  type: wireguard
+  server: 8.6.112.193
+  port: 5279
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d5a:f588:dc00:2931:c531
+  private-key: 6NgDt9ORkzT3ue0T8owHKv1pC5XrzsN+DdqAUpJqzk8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_011 🇺🇸
+  type: wireguard
+  server: 8.6.112.154
+  port: 1010
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8086:6abf:b323:b6ec:7d51
+  private-key: yL2ayyFV+N68RtpqfHFI9+Pal+i7EtKYBuQ3blltgHE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_012 🇺🇸
+  type: wireguard
+  server: 8.6.112.116
+  port: 968
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a04:a729:cf86:cbdc:2554
+  private-key: WBarv3CK9nZmWFDFhrgAOQ+zB2fBBFR9jsWPz4WL/HY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_013 🇺🇸
+  type: wireguard
+  server: 8.6.112.179
+  port: 928
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8086:6abf:b323:b6ec:7d51
+  private-key: yL2ayyFV+N68RtpqfHFI9+Pal+i7EtKYBuQ3blltgHE=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_014 🇺🇸
+  type: wireguard
+  server: 8.6.112.99
+  port: 4198
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a04:a729:cf86:cbdc:2554
+  private-key: WBarv3CK9nZmWFDFhrgAOQ+zB2fBBFR9jsWPz4WL/HY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_015 🇺🇸
+  type: wireguard
+  server: 8.6.112.51
+  port: 1002
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:804d:fb03:de92:7a4f:f06d
+  private-key: UAVYlyf/FLW+Nb43FZ8Dm9/aam8dfBSVFO/MGVL/s38=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_016 🇺🇸
+  type: wireguard
+  server: 8.6.112.67
+  port: 945
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c01:8986:8ecc:1087:23fa
+  private-key: MJZapxm3XnQT0hZfhNiBOF7nV3UYkiUKu8sP1qNtGHY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_017 🇺🇸
+  type: wireguard
+  server: 8.6.112.83
+  port: 864
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:894a:88af:fa2c:ad44:c302
+  private-key: ELIHDdFFCFndjLHT0IpufFGeiJ1tNPUtQiQ4UUQuDmw=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_018 🇺🇸
+  type: wireguard
+  server: 8.6.112.226
+  port: 939
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a04:a729:cf86:cbdc:2554
+  private-key: WBarv3CK9nZmWFDFhrgAOQ+zB2fBBFR9jsWPz4WL/HY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_019 🇺🇸
+  type: wireguard
+  server: 8.6.112.202
+  port: 939
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:802c:6260:b694:d041:54
+  private-key: gLntU+/sZDg9xbBS7xYk8UhMdlG8EPsgo5NNR59D+10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_020 🇺🇸
+  type: wireguard
+  server: 8.6.112.30
+  port: 1070
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8651:aaaa:7715:9131:2cc3
+  private-key: 2GXze5yjeYN91MgCyTeIfSOSlcZ9uQp9O5kQd8Z6h1g=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_021 🇺🇸
+  type: wireguard
+  server: 8.6.112.126
+  port: 890
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8651:aaaa:7715:9131:2cc3
+  private-key: 2GXze5yjeYN91MgCyTeIfSOSlcZ9uQp9O5kQd8Z6h1g=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_022 🇺🇸
+  type: wireguard
+  server: 8.6.112.83
+  port: 4198
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8a04:a729:cf86:cbdc:2554
+  private-key: WBarv3CK9nZmWFDFhrgAOQ+zB2fBBFR9jsWPz4WL/HY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_023 🇺🇸
+  type: wireguard
+  server: 8.6.112.155
+  port: 939
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:825c:44a:3d85:1170:cc5d
+  private-key: OC2PU7GosOgchpqaKe/QX0ZZPN7bXKrpzbaATaHfeHs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_024 🇺🇸
+  type: wireguard
+  server: 8.6.112.243
+  port: 8319
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8651:aaaa:7715:9131:2cc3
+  private-key: 2GXze5yjeYN91MgCyTeIfSOSlcZ9uQp9O5kQd8Z6h1g=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_025 🇺🇸
+  type: wireguard
+  server: 8.6.112.119
+  port: 4233
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d5a:f588:dc00:2931:c531
+  private-key: 6NgDt9ORkzT3ue0T8owHKv1pC5XrzsN+DdqAUpJqzk8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_026 🇺🇸
+  type: wireguard
+  server: 8.6.112.143
+  port: 3581
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:804d:fb03:de92:7a4f:f06d
+  private-key: UAVYlyf/FLW+Nb43FZ8Dm9/aam8dfBSVFO/MGVL/s38=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_027 🇺🇸
+  type: wireguard
+  server: 8.6.112.172
+  port: 945
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:802c:6260:b694:d041:54
+  private-key: gLntU+/sZDg9xbBS7xYk8UhMdlG8EPsgo5NNR59D+10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_028 🇺🇸
+  type: wireguard
+  server: 8.6.112.47
+  port: 987
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:825c:44a:3d85:1170:cc5d
+  private-key: OC2PU7GosOgchpqaKe/QX0ZZPN7bXKrpzbaATaHfeHs=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+- name: mci1_029 🇺🇸
+  type: wireguard
+  server: 8.6.112.165
+  port: 3854
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8c01:8986:8ecc:1087:23fa
+  private-key: MJZapxm3XnQT0hZfhNiBOF7nV3UYkiUKu8sP1qNtGHY=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  allowed-ips:
+  - 0.0.0.0/1
+  - 128.0.0.0/1
+  - ::/1
+  - 8000::/1
+  udp: true
+  mtu: 1280
+  amnezia-wg-option:
+    jc: 120
+    jmin: 23
+    jmax: 911
+    s1: 0
+    s2: 0
+    h1: 1
+    h2: 2
+    h3: 3
+    h4: 4
+proxy-groups:
+- name: WARP
+  type: select
+  proxies:
+  - irancell1_001 🇺🇸
+  - irancell1_002 🇺🇸
+  - irancell1_003 🇺🇸
+  - irancell1_004 🇺🇸
+  - irancell1_005 🇺🇸
+  - irancell1_006 🇺🇸
+  - irancell1_007 🇺🇸
+  - irancell1_008 🇺🇸
+  - irancell1_009 🇺🇸
+  - irancell1_010 🇺🇸
+  - irancell1_011 🇺🇸
+  - irancell1_012 🇺🇸
+  - irancell1_013 🇺🇸
+  - irancell1_014 🇺🇸
+  - irancell1_015 🇺🇸
+  - irancell1_016 🇺🇸
+  - irancell1_017 🇺🇸
+  - irancell1_018 🇺🇸
+  - irancell1_019 🇺🇸
+  - mci1_001 🇺🇸
+  - mci1_002 🇺🇸
+  - mci1_003 🇺🇸
+  - mci1_004 🇺🇸
+  - mci1_005 🇺🇸
+  - mci1_006 🇺🇸
+  - mci1_007 🇺🇸
+  - mci1_008 🇺🇸
+  - mci1_009 🇺🇸
+  - mci1_010 🇺🇸
+  - mci1_011 🇺🇸
+  - mci1_012 🇺🇸
+  - mci1_013 🇺🇸
+  - mci1_014 🇺🇸
+  - mci1_015 🇺🇸
+  - mci1_016 🇺🇸
+  - mci1_017 🇺🇸
+  - mci1_018 🇺🇸
+  - mci1_019 🇺🇸
+  - mci1_020 🇺🇸
+  - mci1_021 🇺🇸
+  - mci1_022 🇺🇸
+  - mci1_023 🇺🇸
+  - mci1_024 🇺🇸
+  - mci1_025 🇺🇸
+  - mci1_026 🇺🇸
+  - mci1_027 🇺🇸
+  - mci1_028 🇺🇸
+  - mci1_029 🇺🇸
