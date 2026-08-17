@@ -12,6 +12,7 @@ import pytz
 import shutil
 from pathlib import Path
 from difflib import Differ
+import yaml
 
 # === Server Remark and Flag Functions ===
 
@@ -176,6 +177,107 @@ def update_server_remarks(servers):
             print(f"Warning: Could not add flags to {failed_flags} servers (IP lookup failed)")
     
     return updated_servers
+
+def strip_flag_from_name(name):
+    """Strip country flag emojis (regional indicator symbols) from proxy name."""
+    if not name:
+        return ""
+    return re.sub(r'[\U0001F1E6-\U0001F1FF]{2}', '', str(name)).strip()
+
+def is_yaml_file(filepath):
+    """Check if file path or name is a YAML file (by extension or content inspection)."""
+    if not filepath:
+        return False
+    if str(filepath).lower().endswith(('.yaml', '.yml')):
+        return True
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                for _ in range(10):
+                    line = f.readline()
+                    if not line:
+                        break
+                    stripped = line.strip()
+                    if stripped.startswith('proxies:') or stripped.startswith('proxy-groups:'):
+                        return True
+        except Exception:
+            pass
+    return False
+
+def get_fake_yaml_config():
+    """Return a fake YAML configuration indicating an expired subscription."""
+    fake_remark = "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
+    return {
+        "proxies": [
+            {
+                "name": fake_remark,
+                "type": "vless",
+                "server": "127.0.0.1",
+                "port": 443,
+                "uuid": "12345678-1234-1234-1234-123456789abc",
+                "cipher": "auto",
+                "udp": False,
+                "tls": False
+            }
+        ],
+        "proxy-groups": [
+            {
+                "name": "WARP",
+                "type": "select",
+                "proxies": [fake_remark]
+            }
+        ]
+    }
+
+def update_yaml_remarks(yaml_data):
+    """Update proxy names with country flags in YAML configurations (e.g. WARP-001 -> WARP-001 🇩🇪).
+    Preserves all proxy parameters (including AmneziaWG and WireGuard settings)."""
+    if not isinstance(yaml_data, dict):
+        return yaml_data
+    
+    proxies = yaml_data.get('proxies', [])
+    if not isinstance(proxies, list):
+        return yaml_data
+    
+    name_map = {}
+    failed_flags = 0
+    for proxy in proxies:
+        if not isinstance(proxy, dict):
+            continue
+        original_name = str(proxy.get('name', ''))
+        base_name = strip_flag_from_name(original_name)
+        ip_or_domain = proxy.get('server')
+        
+        cc = get_country_code(ip_or_domain)
+        flag = country_code_to_flag(cc)
+        
+        if flag:
+            new_name = f"{base_name} {flag}"
+        else:
+            new_name = base_name
+            if ip_or_domain:
+                failed_flags += 1
+            
+        proxy['name'] = new_name
+        if original_name != new_name:
+            name_map[original_name] = new_name
+            name_map[base_name] = new_name
+        time.sleep(0.5)
+    
+    # Update proxy-groups to reflect updated proxy names
+    proxy_groups = yaml_data.get('proxy-groups', [])
+    if isinstance(proxy_groups, list):
+        for group in proxy_groups:
+            if isinstance(group, dict) and 'proxies' in group and isinstance(group['proxies'], list):
+                group['proxies'] = [name_map.get(p, p) for p in group['proxies']]
+    
+    if failed_flags > 0:
+        try:
+            print(f"⚠️ Could not add flags to {failed_flags} YAML proxies (IP lookup failed)")
+        except UnicodeEncodeError:
+            print(f"Warning: Could not add flags to {failed_flags} YAML proxies (IP lookup failed)")
+        
+    return yaml_data
 
 # === Enhanced User Management Functions ===
 
@@ -1340,22 +1442,8 @@ def log_user_history(username, action, details="", max_days=USER_HISTORY_DAYS):
 # === REMOVE DUPLICATES WITH LOGGING ===
 
 def remove_duplicates(servers):
-    """Remove duplicate servers and log which file it's happening in."""
-    seen_configs = {}
-    unique_servers = []
-    active_file = get_active_server_file()
-    for server in servers:
-        if not server.strip():
-            continue
-        config_key = extract_server_config(server)
-        if config_key in seen_configs:
-            # Log duplicate removal with file info
-            log_history(server, f"removed_duplicate(from:{active_file})")
-            continue
-        else:
-            seen_configs[config_key] = server.strip()
-            unique_servers.append(server.strip())
-    return unique_servers
+    """Pass-through: duplicate filtering disabled per configuration."""
+    return servers
 
 def parse_non_working_line(line):
     """Parse non_working.txt line. Supports two formats:
@@ -1502,7 +1590,6 @@ def process_control_panel():
 
 def load_main_servers():
     """Load servers from the active server file specified in control_panel.txt."""
-    # Get the active server file
     active_file = get_active_server_file()
     
     if not os.path.exists(active_file):
@@ -1510,22 +1597,44 @@ def load_main_servers():
         active_file = MAIN_FILE
     
     if not os.path.exists(active_file):
-        return []
+        return {} if is_yaml_file(active_file) else []
     
-    with open(active_file, 'r', encoding='utf-8') as f:
-        servers = [line.strip() for line in f if line.strip()]
-    
-    try:
-        print(f"📡 Loading servers from: {active_file} ({len(servers)} servers)")
-    except UnicodeEncodeError:
-        print(f"Loading servers from: {active_file} ({len(servers)} servers)")
-    return servers
+    if is_yaml_file(active_file):
+        try:
+            with open(active_file, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f)
+            if not isinstance(data, dict):
+                data = {}
+            count = len(data.get('proxies', [])) if isinstance(data.get('proxies'), list) else 0
+            try:
+                print(f"📡 Loading YAML config from: {active_file} ({count} proxies)")
+            except UnicodeEncodeError:
+                print(f"Loading YAML config from: {active_file} ({count} proxies)")
+            return data
+        except Exception as e:
+            print(f"⚠️ Error reading YAML from {active_file}: {e}")
+            return {}
+    else:
+        with open(active_file, 'r', encoding='utf-8') as f:
+            servers = [line.strip() for line in f if line.strip()]
+        try:
+            print(f"📡 Loading servers from: {active_file} ({len(servers)} servers)")
+        except UnicodeEncodeError:
+            print(f"Loading servers from: {active_file} ({len(servers)} servers)")
+        return servers
 
 def save_main_servers(servers):
     """Save servers to the active server file specified in control_panel.txt."""
     active_file = get_active_server_file()
-    with open(active_file, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(servers) + '\n')
+    if is_yaml_file(active_file):
+        with open(active_file, 'w', encoding='utf-8') as f:
+            yaml.dump(servers, f, sort_keys=False, allow_unicode=True)
+    else:
+        with open(active_file, 'w', encoding='utf-8') as f:
+            if isinstance(servers, list):
+                f.write('\n'.join(servers) + '\n')
+            else:
+                f.write(str(servers))
 
 def load_non_working():
     if not os.path.exists(NON_WORKING_FILE):
@@ -1861,25 +1970,29 @@ def update_all_subscriptions():
     process_user_commands()
     check_expired_users()
 
+    active_file = get_active_server_file()
+    active_is_yaml = is_yaml_file(active_file)
+
     if not FAST_RUN:
-        # Heavy maintenance tasks (hourly / scheduled)
         # Heavy maintenance tasks (hourly / scheduled)
         discover_new_subscriptions()
         
-        # --- Validate main server list and quarantine non-working entries ---
-        current_servers = load_main_servers()
-        valid_servers = current_servers
+        if active_is_yaml:
+            yaml_config = load_main_servers()
+            updated_yaml = update_yaml_remarks(yaml_config)
+            save_main_servers(updated_yaml)
+            active_content = updated_yaml
+        else:
+            current_servers = load_main_servers()
+            valid_servers = current_servers
 
-        # Persist the cleaned list
-        save_main_servers(valid_servers)
-
-        # Update remarks & remove duplicates (these are network-bound/CPU heavy)
-        all_servers = update_server_remarks(valid_servers)
-        unique_servers = remove_duplicates(all_servers)
-        save_main_servers(unique_servers)
+            # Update remarks (duplicate filtering removed per configuration)
+            all_servers = update_server_remarks(valid_servers)
+            save_main_servers(all_servers)
+            active_content = all_servers
     else:
         # FAST_RUN → skip all heavy work, use current list as-is
-        unique_servers = load_main_servers()
+        active_content = load_main_servers()
 
     # Build / update subscription files for every user
     blocked_users = get_blocked_users()
@@ -1917,15 +2030,26 @@ def update_all_subscriptions():
                 print(f"Preserving manual subscription: {username}.txt (user not in user_list.txt)")
             continue
         
-        if should_block_user(username, blocked_users):
-            servers_for_user = get_fake_servers()
-        else:
-            servers_for_user = unique_servers
+        is_blocked = should_block_user(username, blocked_users)
         subscription_path = os.path.join(subscription_dir, filename)
-        with open(subscription_path, 'w', encoding='utf-8') as f:
-            subscription_content = '\n'.join(servers_for_user)
-            encoded_content = base64.b64encode(subscription_content.encode('utf-8')).decode('utf-8')
-            f.write(encoded_content)
+
+        if active_is_yaml:
+            if is_blocked:
+                fake_yaml = get_fake_yaml_config()
+                yaml_str = yaml.dump(fake_yaml, sort_keys=False, allow_unicode=True)
+            else:
+                yaml_str = yaml.dump(active_content, sort_keys=False, allow_unicode=True)
+            with open(subscription_path, 'w', encoding='utf-8') as f:
+                f.write(yaml_str)
+        else:
+            if is_blocked:
+                servers_for_user = get_fake_servers()
+            else:
+                servers_for_user = active_content if isinstance(active_content, list) else []
+            with open(subscription_path, 'w', encoding='utf-8') as f:
+                subscription_content = '\n'.join(servers_for_user)
+                encoded_content = base64.b64encode(subscription_content.encode('utf-8')).decode('utf-8')
+                f.write(encoded_content)
 
 if __name__ == "__main__":
     update_all_subscriptions()
