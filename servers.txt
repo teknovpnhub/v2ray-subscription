@@ -73,7 +73,7 @@ trojan://BxceQaOe@119.246.1.143:443?allowInsecure=1#Server 72 🇭🇰
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ=@185.226.172.8:8008#Server 73 🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSU9vaTVUdUltRzJLY2N4VjctamNBN0Nleit2dW4tY19FQGF1MS5sZXZpa29namdmZGQuaXI6MjcxMTY=#Server 74 
 vless://431fe973-a43a-4fac-bf83-2a772e0d0625@180.178.60.252:10000?security=none&encryption=none&headerType=none&type=tcp#Server 75 🇺🇸
-trojan://6ec301428255a78a1d826988d86cc87e@2c.fast9988.com:50887?security=tls&sni=www.nintendogames.net#Server 76 🇭🇰
+trojan://6ec301428255a78a1d826988d86cc87e@2c.fast9988.com:50887?security=tls&sni=www.nintendogames.net#Server 76 🇸🇬
 vless://caec0d8d-ab2f-4247-b97d-7fb1a34ab195@180.178.60.253:10000?security=none&encryption=none&headerType=none&type=tcp#Server 77 🇺🇸
 ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@15.204.247.124:2375#Server 78 🇺🇸
 vmess://eyJ2IjoiMiIsInBzIjoiU2VydmVyIDc5IPCfh7jwn4esIiwiYWRkIjoic2VsZWN0LXVzLmRkbnNrdW5sdW4uY29tIiwicG9ydCI6OTAyOCwiYWlkIjowLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiIiLCJpZCI6ImE4YmNjZTQzLWFiZGEtMzE1Yi04ZTgxLWUzZTY1YmNiM2QwNyJ9
@@ -146,7 +146,7 @@ trojan://PQ05174892@3.112.250.103:443?sni=flexible-pony.rooster465.autos&allowIn
 trojan://ND91608427@54.249.34.120:443?security=tls&sni=social-mutt.rooster465.autos#Server 146 🇯🇵
 trojan://fVZMat1g9H@172.236.133.188:52?security=tls&amp;insecure=1&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;allowInsecure=1&amp;sni=172.236.133.188#Server 147 🇸🇬
 trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=87.121.218.169#Server 148 🇩🇪
-vmess://eyJhZGQiOiJqcC52cG4udGFpYWlzZS5jbiIsImFpZCI6IjAiLCJob3N0IjoianAudnBuLnRhaWFpc2UuY24iLCJpZCI6IjA2MGFlZGU3LTExZWEtNDAzMi1iMDI1LTZjNDE2OGE1MTgyZSIsIm5ldCI6IndzIiwicGF0aCI6Ii9qcCIsInBvcnQiOiI0NDMiLCJwcyI6IlNlcnZlciAxNDkgIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vmess://eyJhZGQiOiJqcC52cG4udGFpYWlzZS5jbiIsImFpZCI6IjAiLCJob3N0IjoianAudnBuLnRhaWFpc2UuY24iLCJpZCI6IjA2MGFlZGU3LTExZWEtNDAzMi1iMDI1LTZjNDE2OGE1MTgyZSIsIm5ldCI6IndzIiwicGF0aCI6Ii9qcCIsInBvcnQiOiI0NDMiLCJwcyI6IlNlcnZlciAxNDkg8J+Hr/Cfh7UiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
 vless://14da77da-4fb3-4e49-ac4f-7881ea19b267@neth6.lckdwn.ru:443?encryption=none&security=none&type=ws#Server 150 🇺🇸
 trojan://PQ05174892@13.158.129.134:443?sni=grateful-leech.rooster465.autos&fp=chrome&type=tcp&path=/#Server 151 🇯🇵
 trojan://FH72359861@apt-whippet.rooster465.autos:443?security=tls&path=/#Server 152 🇰🇷
