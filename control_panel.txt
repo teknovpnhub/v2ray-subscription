@@ -1,3 +1,3 @@
-servers.txt ---on
+✓ servers.txt
 servers1.txt
-✓ servers.warp.txt
+servers.warp.txt
