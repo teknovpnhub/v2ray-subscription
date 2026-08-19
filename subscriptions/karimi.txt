@@ -1,1 +1,14 @@
-dmxlc3M6Ly8xMjM0NTY3OC0xMjM0LTEyMzQtMTIzNC0xMjM0NTY3ODlhYmNAMTI3LjAuMC4xOjQ0Mz9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9dGxzJnR5cGU9d3MmcGF0aD0lMkYj2KfYtNiq2LHYp9qpINi02YXYpyDYqtmF2KfZhSDYtNiv2Ycg2KfYs9iqINmE2LfZgdinINin2LTYqtix2KfaqSDYrtmI2K8g2LHYpyDYqtmF2K/bjNivINqp2YbbjNiv
+proxies:
+- name: ⚠️ اعتبار اشتراک شما به پایان رسیده است - جهت تمدید با پشتیبانی تماس بگیرید
+  type: vless
+  server: 127.0.0.1
+  port: 443
+  uuid: 12345678-1234-1234-1234-123456789abc
+  cipher: auto
+  udp: false
+  tls: false
+proxy-groups:
+- name: WARP
+  type: select
+  proxies:
+  - ⚠️ اعتبار اشتراک شما به پایان رسیده است - جهت تمدید با پشتیبانی تماس بگیرید
