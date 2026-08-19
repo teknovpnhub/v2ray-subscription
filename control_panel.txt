@@ -1,11 +1,13 @@
 # === SERVER POOL ===
-✓ servers.txt: ON
+✓ servers.warp.txt: ON
+servers.txt: OFF
 servers1.txt: OFF
-servers.warp.txt: OFF
 warp.yaml: OFF
 --------------------------------
 # === SETTINGS ===
 ✓ FLAGS: ON
 ✓ AUTO_RENAME: ON
-EXPIRED_MSG: اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید
+DUPLICATES: OFF
+MAX_SERVERS: ALL
+EXPIRED_MSG: ⚠️ اعتبار اشتراک شما به پایان رسیده است - جهت تمدید با پشتیبانی تماس بگیرید
 --------------------------------
