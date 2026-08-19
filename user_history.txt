@@ -1,3 +1,5 @@
+aaa.aaa | manual_delete | User manually removed [Note: 40566 | blocked 2026-08-17] | 2026-08-20 01:11
+
 customer47 | added | [Note: 405.5.28] | 2026-08-19 20:07
 
 customer46 | added | [Note: 405.5.28] | 2026-08-19 18:15
@@ -23,10 +25,6 @@ customer43 | added | [Note: 405.5.22] | 2026-08-13 20:07
 javad.golmohammadi | unblocked | [Note: 405.5.18 | blocked 2026-05-31] | 2026-08-09 19:52
 
 javad.golmohammadi | manual_delete | User manually removed [Note: 405.5.18 | blocked 2026-05-31] | 2026-08-09 19:52
-
-customer42 | added | [Note: 405.5.18] | 2026-08-09 19:45
-
-customer41 | added | [Note: 405.5.18] | 2026-08-09 19:44
 
 z.pourmohammad | unblocked | [Note: 405.5.12 | blocked 2026-01-18] | 2026-08-03 19:38
 
