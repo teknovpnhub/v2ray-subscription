@@ -108,40 +108,49 @@ def country_code_to_flag(country_code):
     except:
         return ''
 
-def update_server_remarks(servers):
-    """Update server remarks with flags. Flags may be missing if IP lookup fails.
-    Uses multiple free APIs with fallback: ipinfo.io (40k/month) -> ip-api.com (45/min).
-    Note: ipinfo.io has much better rate limits!"""
+def update_server_remarks(servers, flags_enabled=True, auto_rename_enabled=True):
+    """Update server remarks based on FLAGS and AUTO_RENAME settings.
+    - If flags_enabled=False: skips IP geo lookup (fast).
+    - If auto_rename_enabled=False: preserves original server remarks.
+    """
     updated_servers = []
     failed_flags = 0
     failed_ips = []
     
     for idx, server in enumerate(servers, 1):
         base_url = server.split('#')[0]
-        remark = server.split('#', 1)[1].strip() if '#' in server else ""
-        ip_or_domain = extract_ip_from_server(server)
+        original_remark = server.split('#', 1)[1].strip() if '#' in server else ""
         
-        # Try to get country code and flag
-        cc = get_country_code(ip_or_domain)
-        flag = country_code_to_flag(cc)
+        # Determine country flag if flags are enabled
+        flag = ""
+        if flags_enabled:
+            ip_or_domain = extract_ip_from_server(server)
+            cc = get_country_code(ip_or_domain)
+            flag = country_code_to_flag(cc)
+            if not flag and ip_or_domain:
+                failed_flags += 1
+                if len(failed_ips) < 5:
+                    failed_ips.append(ip_or_domain)
+            time.sleep(0.5)
         
-        # Track failures for reporting
-        if not flag and ip_or_domain:
-            failed_flags += 1
-            if len(failed_ips) < 5:  # Keep track of first 5 failures for debugging
-                failed_ips.append(ip_or_domain)
-        
-        if "---" in remark:
-            _, custom = remark.split("---", 1)
-            new_remark = f"Server {idx} {flag}--- {custom.strip()}"
+        # Determine new remark based on auto_rename_enabled
+        if auto_rename_enabled:
+            if "---" in original_remark:
+                _, custom = original_remark.split("---", 1)
+                new_remark = f"Server {idx} {flag}--- {custom.strip()}".strip()
+            else:
+                new_remark = f"Server {idx} {flag}".strip()
         else:
-            new_remark = f"Server {idx} {flag}"
+            # Keep original remark
+            clean_original = strip_flag_from_name(original_remark)
+            if flag:
+                new_remark = f"{clean_original} {flag}".strip()
+            else:
+                new_remark = clean_original
 
         if server.startswith('vmess://'):
             try:
-                # VMess Logic: Decode -> Update 'ps' -> Encode
                 base64_part = server[8:].split('#')[0]
-                # Fix Padding
                 missing_padding = len(base64_part) % 4
                 if missing_padding:
                     base64_part += '=' * (4 - missing_padding)
@@ -149,30 +158,29 @@ def update_server_remarks(servers):
                 decoded = base64.b64decode(base64_part).decode('utf-8')
                 config = json.loads(decoded)
                 
-                # Fix Defaults
                 if config.get('v') is None:
                     config['v'] = "2"
                 
-                config['ps'] = new_remark
-                # Re-encode
+                if auto_rename_enabled or flag:
+                    if not auto_rename_enabled:
+                        curr_ps = config.get('ps', '')
+                        clean_ps = strip_flag_from_name(curr_ps)
+                        config['ps'] = f"{clean_ps} {flag}".strip() if flag else clean_ps
+                    else:
+                        config['ps'] = new_remark
+                
                 new_json = json.dumps(config, separators=(',', ':'), ensure_ascii=False)
                 new_base64 = base64.b64encode(new_json.encode('utf-8')).decode('utf-8')
                 updated_servers.append(f"vmess://{new_base64}")
             except Exception:
-                # Fallback if corrupt
-                updated_servers.append(f"{base_url}#{new_remark}")
+                updated_servers.append(f"{base_url}#{new_remark}" if new_remark else base_url)
         else:
-            updated_servers.append(f"{base_url}#{new_remark}")
-        
-        # Rate limiting: ipinfo.io allows 40k/month, so we can be faster
-        # But still be safe to avoid hitting limits
-        time.sleep(0.5)  # Reduced delay since ipinfo.io has better limits
+            updated_servers.append(f"{base_url}#{new_remark}" if new_remark else base_url)
     
-    if failed_flags > 0:
+    if flags_enabled and failed_flags > 0:
         try:
             failed_info = f" (examples: {', '.join(failed_ips[:3])})" if failed_ips else ""
             print(f"⚠️ Could not add flags to {failed_flags} servers (IP lookup failed){failed_info}")
-            print(f"   Possible reasons: API rate limit, network timeout, or invalid domain/IP")
         except UnicodeEncodeError:
             print(f"Warning: Could not add flags to {failed_flags} servers (IP lookup failed)")
     
@@ -204,9 +212,9 @@ def is_yaml_file(filepath):
             pass
     return False
 
-def get_fake_yaml_config():
+def get_fake_yaml_config(expired_msg=None):
     """Return a fake YAML configuration indicating an expired subscription."""
-    fake_remark = "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
+    fake_remark = expired_msg.strip() if expired_msg and expired_msg.strip() else "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
     return {
         "proxies": [
             {
@@ -229,9 +237,10 @@ def get_fake_yaml_config():
         ]
     }
 
-def update_yaml_remarks(yaml_data):
-    """Update proxy names with country flags in YAML configurations (e.g. WARP-001 -> WARP-001 🇩🇪).
-    Preserves all proxy parameters (including AmneziaWG and WireGuard settings)."""
+def update_yaml_remarks(yaml_data, flags_enabled=True, auto_rename_enabled=True):
+    """Update proxy names with country flags in YAML configurations.
+    - If flags_enabled=False: strips flags and skips IP lookup.
+    """
     if not isinstance(yaml_data, dict):
         return yaml_data
     
@@ -246,23 +255,25 @@ def update_yaml_remarks(yaml_data):
             continue
         original_name = str(proxy.get('name', ''))
         base_name = strip_flag_from_name(original_name)
-        ip_or_domain = proxy.get('server')
         
-        cc = get_country_code(ip_or_domain)
-        flag = country_code_to_flag(cc)
-        
-        if flag:
-            new_name = f"{base_name} {flag}"
+        if flags_enabled:
+            ip_or_domain = proxy.get('server')
+            cc = get_country_code(ip_or_domain)
+            flag = country_code_to_flag(cc)
+            if flag:
+                new_name = f"{base_name} {flag}"
+            else:
+                new_name = base_name
+                if ip_or_domain:
+                    failed_flags += 1
+            time.sleep(0.5)
         else:
             new_name = base_name
-            if ip_or_domain:
-                failed_flags += 1
             
         proxy['name'] = new_name
         if original_name != new_name:
             name_map[original_name] = new_name
             name_map[base_name] = new_name
-        time.sleep(0.5)
     
     # Update proxy-groups to reflect updated proxy names
     proxy_groups = yaml_data.get('proxy-groups', [])
@@ -271,7 +282,7 @@ def update_yaml_remarks(yaml_data):
             if isinstance(group, dict) and 'proxies' in group and isinstance(group['proxies'], list):
                 group['proxies'] = [name_map.get(p, p) for p in group['proxies']]
     
-    if failed_flags > 0:
+    if flags_enabled and failed_flags > 0:
         try:
             print(f"⚠️ Could not add flags to {failed_flags} YAML proxies (IP lookup failed)")
         except UnicodeEncodeError:
@@ -498,8 +509,55 @@ def strip_block_dates(note: str) -> str:
     """Remove all occurrences of "| blocked YYYY-MM-DD" from a note string."""
     if not note:
         return note
-    # Regex matches optional whitespace, a pipe, the word 'blocked' and a date.
     cleaned = re.sub(r"\s*\|\s*blocked\s+\d{4}-\d{2}-\d{2}", "", note)
+    return cleaned.strip()
+
+def extract_custom_message_from_line(line: str) -> str:
+    """Extract custom message from line if specified with ---msg or | msg:"""
+    if not line:
+        return ""
+    if '---msg' in line.lower():
+        parts = re.split(r'---msg\s*', line, flags=re.IGNORECASE)
+        if len(parts) > 1:
+            msg_part = parts[1].split('---')[0].strip()
+            if msg_part:
+                return msg_part
+    match = re.search(r'\|\s*(?:msg|message|پیام|دلیل)[:\s]+([^|#\n]+)', line, re.IGNORECASE)
+    if match:
+        msg_val = match.group(1).strip()
+        if msg_val:
+            return msg_val
+    return ""
+
+def strip_custom_messages(note: str) -> str:
+    """Remove all occurrences of '| msg: ...' from a note string."""
+    if not note:
+        return note
+    cleaned = re.sub(r"\s*\|\s*(?:msg|message|پیام|دلیل)[:\s]+[^|#\n]+", "", note, flags=re.IGNORECASE)
+    return cleaned.strip()
+
+def extract_custom_source_from_line(line: str) -> str:
+    """Extract custom server source file if specified with ---src or | src:"""
+    if not line:
+        return ""
+    if '---src' in line.lower():
+        parts = re.split(r'---src\s*', line, flags=re.IGNORECASE)
+        if len(parts) > 1:
+            src_part = parts[1].split('---')[0].split('#')[0].split('|')[0].strip()
+            if src_part:
+                return src_part
+    match = re.search(r'\|\s*(?:src|source)[:\s]+([^|#\n]+)', line, re.IGNORECASE)
+    if match:
+        src_val = match.group(1).strip()
+        if src_val:
+            return src_val
+    return ""
+
+def strip_custom_sources(note: str) -> str:
+    """Remove all occurrences of '| src: ...' from a note string."""
+    if not note:
+        return note
+    cleaned = re.sub(r"\s*\|\s*(?:src|source)[:\s]+[^|#\n]+", "", note, flags=re.IGNORECASE)
     return cleaned.strip()
 
 def parse_relative_datetime(relative_str):
@@ -771,12 +829,17 @@ def process_user_commands():
         if '---b' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
+            custom_msg = extract_custom_message_from_line(user_line)
             # Remove any existing command tokens and pipe-notes before extracting user_data
             cleaned_line = user_line.split('---')[0].split('|')[0].strip()
             user_data = extract_user_data_from_line(cleaned_line)
             raw_notes = extract_notes_from_line(user_line)
             # Remove command flags from notes
             notes = raw_notes.replace('---b', '').replace('---ub', '').replace('---d', '').replace('---r', '').replace('---m', '').replace('---es', '').strip()
+            if '---msg' in notes:
+                notes = re.sub(r'---msg\s*.*', '', notes, flags=re.IGNORECASE).strip()
+            if custom_msg:
+                notes = strip_custom_messages(notes).strip()
             # Clean up any double spaces
             notes = ' '.join(notes.split())
             blocked_users.add(username)
@@ -792,10 +855,15 @@ def process_user_commands():
                 else:
                     notes = date_note
 
+            if custom_msg:
+                msg_tag = f"| msg: {custom_msg}"
+                if msg_tag not in notes:
+                    notes = f"{notes} {msg_tag}"
+
             # Prepend '#' symbol to notes (if any) to retain comment marker (no space after '#')
             notes_with_hash = f"#{notes}" if notes else ""
 
-            details = date_note
+            details = f"{date_note} | msg: {custom_msg}" if custom_msg else date_note
             # Let log_user_history handle adding the note
             log_user_history(username, "blocked", details)
             if user_data and notes_with_hash:
@@ -807,15 +875,81 @@ def process_user_commands():
             else:
                 updated_line = f"{BLOCKED_SYMBOL}{username}"
             updated_users.append(updated_line)
+        elif '---msg' in user_line:
+            any_commands_processed = True
+            username = extract_username_from_line(user_line)
+            custom_msg = extract_custom_message_from_line(user_line)
+            cleaned_line = user_line.split('---')[0].split('|')[0].strip()
+            user_data = extract_user_data_from_line(cleaned_line)
+            raw_notes = extract_notes_from_line(user_line)
+            notes = raw_notes
+            if '---msg' in notes:
+                notes = re.sub(r'---msg\s*.*', '', notes, flags=re.IGNORECASE).strip()
+            notes = strip_custom_messages(notes).strip()
+            notes = ' '.join(notes.split())
+            if custom_msg:
+                notes = f"{notes} | msg: {custom_msg}" if notes else f"| msg: {custom_msg}"
+            
+            # If user was already blocked, keep block symbol
+            is_already_blocked = user_line.startswith(BLOCKED_SYMBOL)
+            if is_already_blocked:
+                blocked_users.add(username)
+            modified_users.add(username)
+            
+            notes_with_hash = f"#{notes}" if notes else ""
+            prefix = BLOCKED_SYMBOL if is_already_blocked else ""
+            if user_data and notes_with_hash:
+                updated_line = f"{prefix}{username} {user_data} {notes_with_hash}"
+            elif user_data:
+                updated_line = f"{prefix}{username} {user_data}"
+            elif notes_with_hash:
+                updated_line = f"{prefix}{username} {notes_with_hash}"
+            else:
+                updated_line = f"{prefix}{username}"
+            updated_users.append(updated_line)
+        elif '---src' in user_line:
+            any_commands_processed = True
+            username = extract_username_from_line(user_line)
+            custom_src = extract_custom_source_from_line(user_line)
+            cleaned_line = user_line.split('---')[0].split('|')[0].strip()
+            user_data = extract_user_data_from_line(cleaned_line)
+            raw_notes = extract_notes_from_line(user_line)
+            notes = raw_notes
+            if '---src' in notes:
+                notes = re.sub(r'---src\s*.*', '', notes, flags=re.IGNORECASE).strip()
+            notes = strip_custom_sources(notes).strip()
+            notes = ' '.join(notes.split())
+            if custom_src and custom_src.lower() not in ['default', 'none', 'reset', 'clear', 'off']:
+                notes = f"{notes} | src: {custom_src}" if notes else f"| src: {custom_src}"
+            
+            is_already_blocked = user_line.startswith(BLOCKED_SYMBOL)
+            if is_already_blocked:
+                blocked_users.add(username)
+            modified_users.add(username)
+            
+            notes_with_hash = f"#{notes}" if notes else ""
+            prefix = BLOCKED_SYMBOL if is_already_blocked else ""
+            if user_data and notes_with_hash:
+                updated_line = f"{prefix}{username} {user_data} {notes_with_hash}"
+            elif user_data:
+                updated_line = f"{prefix}{username} {user_data}"
+            elif notes_with_hash:
+                updated_line = f"{prefix}{username} {notes_with_hash}"
+            else:
+                updated_line = f"{prefix}{username}"
+            updated_users.append(updated_line)
         elif '---ub' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
-            # Clean any old block-date tags from the note when unblocking
+            # Clean any old block-date tags and custom messages from the note when unblocking
             raw_notes = extract_notes_from_line(user_line)
             notes = strip_block_dates(raw_notes)
+            notes = strip_custom_messages(notes)
             # Remove command flags from notes if they're there
             notes = notes.replace('---ub', '').replace('---ub', '').strip()
+            if '---msg' in notes:
+                notes = re.sub(r'---msg\s*.*', '', notes, flags=re.IGNORECASE).strip()
             # Clean up any double spaces
             notes = ' '.join(notes.split())
             unblocked_users.add(username)
@@ -1470,123 +1604,163 @@ def parse_non_working_line(line):
 
 # === Control Panel Functions ===
 
+def get_control_panel_settings():
+    """Read control_panel.txt and return active settings:
+    - active_server (e.g. servers.warp.txt)
+    - flags_enabled (True/False)
+    - auto_rename_enabled (True/False)
+    - expired_msg (string)
+    - server_files (list of all server pool files)
+    """
+    default_servers = ['servers.warp.txt', 'servers.txt', 'servers1.txt', 'warp.yaml']
+    default_expired_msg = "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
+    if not os.path.exists(CONTROL_PANEL_FILE):
+        return {
+            'active_server': MAIN_FILE,
+            'flags_enabled': True,
+            'auto_rename_enabled': True,
+            'expired_msg': default_expired_msg,
+            'server_files': default_servers
+        }
+
+    with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
+        lines = [line.strip() for line in f if line.strip()]
+
+    active_server = None
+    flags_enabled = True
+    auto_rename_enabled = True
+    expired_msg = default_expired_msg
+    found_server_files = []
+
+    for line in lines:
+        if line.startswith('#') or line.startswith('-'):
+            continue
+        line_clean = line.replace('✓', '').strip()
+        
+        # Check FLAGS setting
+        if re.match(r'^(flags|flag)\b', line_clean, re.IGNORECASE):
+            if any(off_word in line_clean.upper() for off_word in [': OFF', '= OFF', ' OFF', 'DISABLE', '---OFF']):
+                flags_enabled = False
+            elif any(on_word in line_clean.upper() for on_word in [': ON', '= ON', ' ON', 'ENABLE', '---ON']):
+                flags_enabled = True
+            continue
+
+        # Check AUTO_RENAME setting
+        if re.match(r'^(auto_rename|autorename|rename)\b', line_clean, re.IGNORECASE):
+            if any(off_word in line_clean.upper() for off_word in [': OFF', '= OFF', ' OFF', 'DISABLE', '---OFF']):
+                auto_rename_enabled = False
+            elif any(on_word in line_clean.upper() for on_word in [': ON', '= ON', ' ON', 'ENABLE', '---ON']):
+                auto_rename_enabled = True
+            continue
+
+        # Check EXPIRED_MSG setting
+        if re.match(r'^(expired_msg|expired_message|expired)\b', line_clean, re.IGNORECASE):
+            if ':' in line_clean:
+                msg_val = line_clean.split(':', 1)[1].strip()
+            elif '=' in line_clean:
+                msg_val = line_clean.split('=', 1)[1].strip()
+            else:
+                msg_val = line_clean.split(maxsplit=1)[1].strip() if len(line_clean.split()) > 1 else ""
+            if msg_val:
+                expired_msg = msg_val
+            continue
+
+        # Server line
+        filename_part = line_clean.split(':')[0].split('=')[0].split()[0] if line_clean else ''
+        if filename_part and ('.' in filename_part or os.path.exists(filename_part)):
+            if filename_part not in found_server_files:
+                found_server_files.append(filename_part)
+            
+            # Check if this server is activated
+            if '---on' in line.lower():
+                active_server = filename_part
+            elif active_server is None and ('✓' in line or any(on_word in line.upper() for on_word in [': ON', '= ON', ' ON'])):
+                active_server = filename_part
+
+    if not found_server_files:
+        found_server_files = default_servers
+    else:
+        for s in default_servers:
+            if s not in found_server_files and os.path.exists(s):
+                found_server_files.append(s)
+
+    if not active_server:
+        active_server = found_server_files[0]
+
+    return {
+        'active_server': active_server,
+        'flags_enabled': flags_enabled,
+        'auto_rename_enabled': auto_rename_enabled,
+        'expired_msg': expired_msg,
+        'server_files': found_server_files
+    }
+
 def get_active_server_file():
     """Read control_panel.txt and return the active server file name."""
-    if not os.path.exists(CONTROL_PANEL_FILE):
-        # Default to servers.txt if control_panel.txt doesn't exist
-        return MAIN_FILE
-    
-    with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
-        lines = [line.strip() for line in f if line.strip()]
-    
-    for line in lines:
-        # Check if line starts with tick emoji (active server)
-        if line.startswith('✓'):
-            # Extract server file name (remove tick and any whitespace)
-            server_file = line.replace('✓', '').strip()
-            if server_file:
-                return server_file
-        # Also check for ---on marker (backward compatibility)
-        elif '---on' in line.lower():
-            # Extract server file name (remove ---on and any whitespace)
-            server_file = line.replace('---on', '').replace('---ON', '').replace('✓', '').strip()
-            if server_file:
-                return server_file
-    
-    # If no active server found, default to servers.txt
-    return MAIN_FILE
+    settings = get_control_panel_settings()
+    return settings['active_server']
 
 def process_control_panel():
-    """Process control_panel.txt to handle ---on commands and ensure only one server is active.
-    Format: ✓ servers.txt (tick at beginning, ---on command is hidden after processing)
+    """Process control_panel.txt to handle ON/OFF and ---on commands, enforcing the unified layout:
+    # === SERVER POOL ===
+    ✓ servers.warp.txt: ON
+    servers.txt: OFF
+    servers1.txt: OFF
+    warp.yaml: OFF
+    --------------------------------
+    # === SETTINGS ===
+    ✓ FLAGS: ON
+    ✓ AUTO_RENAME: ON
+    EXPIRED_MSG: اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید
+    --------------------------------
     """
-    if not os.path.exists(CONTROL_PANEL_FILE):
-        # Create default control_panel.txt with servers.txt active
-        with open(CONTROL_PANEL_FILE, 'w', encoding='utf-8') as f:
-            f.write(f"✓ {MAIN_FILE}\n")
-        return
-    
-    with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
-        lines = [line.strip() for line in f if line.strip()]
-    
-    # Track seen server files to prevent duplicates
-    seen_servers = set()
-    active_server = None  # Track which server should be active
-    updated_lines = []
-    any_changes = False
-    
-    # First pass: identify which server should be active (prioritize ---on over existing ticks)
-    for line in lines:
-        clean_line = line.replace('✓', '').replace('---on', '').replace('---ON', '').strip()
-        if not clean_line:
-            continue
-        
-        # If this line has ---on marker, this is the server user wants to activate
-        if '---on' in line.lower():
-            active_server = clean_line
-            any_changes = True
-            break  # ---on takes priority, stop searching
-    
-    # If no ---on found, check for existing tick
-    if active_server is None:
-        for line in lines:
-            if line.startswith('✓'):
-                clean_line = line.replace('✓', '').strip()
-                if clean_line:
-                    active_server = clean_line
-                    break
-    
-    # Second pass: build the output lines
-    for line in lines:
-        # Remove tick emoji and ---on markers to get clean server name
-        clean_line = line.replace('✓', '').replace('---on', '').replace('---ON', '').strip()
-        
-        # Skip empty lines
-        if not clean_line:
-            continue
-        
-        # Check for duplicates
-        if clean_line in seen_servers:
-            any_changes = True
-            continue  # Skip duplicate entries
-        
-        seen_servers.add(clean_line)
-        
-        # Format the line: add tick if this is the active server
-        if clean_line == active_server:
-            formatted_line = f"✓ {clean_line}"
-            if line != formatted_line:
-                any_changes = True
-            updated_lines.append(formatted_line)
+    settings = get_control_panel_settings()
+    active_server = settings['active_server']
+    flags_enabled = settings['flags_enabled']
+    auto_rename_enabled = settings['auto_rename_enabled']
+    expired_msg = settings['expired_msg']
+    server_files = settings['server_files']
+
+    output_lines = [
+        "# === SERVER POOL ==="
+    ]
+    for sfile in server_files:
+        if sfile == active_server:
+            output_lines.append(f"✓ {sfile}: ON")
         else:
-            # Inactive server - no tick, no ---on
-            if clean_line != line:
-                any_changes = True
-            updated_lines.append(clean_line)
+            output_lines.append(f"{sfile}: OFF")
     
-    # If no active server was found, activate the first one
-    if active_server is None and updated_lines:
-        first_line = updated_lines[0].replace('✓', '').replace('---on', '').replace('---ON', '').strip()
-        updated_lines[0] = f"✓ {first_line}"
-        any_changes = True
-        active_server = first_line
+    output_lines.append("--------------------------------")
+    output_lines.append("# === SETTINGS ===")
+    if flags_enabled:
+        output_lines.append("✓ FLAGS: ON")
+    else:
+        output_lines.append("FLAGS: OFF")
+
+    if auto_rename_enabled:
+        output_lines.append("✓ AUTO_RENAME: ON")
+    else:
+        output_lines.append("AUTO_RENAME: OFF")
     
-    # If there are no lines, create default
-    if not updated_lines:
-        updated_lines.append(f"✓ {MAIN_FILE}")
-        any_changes = True
-        active_server = MAIN_FILE
+    output_lines.append(f"EXPIRED_MSG: {expired_msg}")
+    output_lines.append("--------------------------------")
+
+    new_content = "\n".join(output_lines) + "\n"
     
-    # Always write back to ensure correct format
-    with open(CONTROL_PANEL_FILE, 'w', encoding='utf-8') as f:
-        for line in updated_lines:
-            f.write(line + '\n')
-    
-    if any_changes:
+    current_content = ""
+    if os.path.exists(CONTROL_PANEL_FILE):
+        with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
+            current_content = f.read()
+
+    if new_content.strip() != current_content.strip():
+        with open(CONTROL_PANEL_FILE, 'w', encoding='utf-8') as f:
+            f.write(new_content)
         try:
-            print(f"✓ Control panel updated: {active_server} is now active")
+            flag_str = "ON" if flags_enabled else "OFF"
+            rename_str = "ON" if auto_rename_enabled else "OFF"
+            print(f"✓ Control panel updated: Active = {active_server}, FLAGS = {flag_str}, AUTO_RENAME = {rename_str}, EXPIRED_MSG = {expired_msg}")
         except UnicodeEncodeError:
-            print(f"Control panel updated: {active_server} is now active")
+            print(f"Control panel updated: Active = {active_server}, FLAGS = {flags_enabled}, AUTO_RENAME = {auto_rename_enabled}")
 
 def load_main_servers():
     """Load servers from the active server file specified in control_panel.txt."""
@@ -1785,32 +1959,58 @@ def validate_server(server_line):
     return False
 
 def get_blocked_users():
-    """Return a set of usernames that are currently blocked.
+    """Return a set of usernames that are currently blocked."""
+    blocked_set, _ = get_blocked_users_and_messages()
+    return blocked_set
 
-    The blocked_users.txt file may contain extra notes after the username
-    (e.g. "john #note | blocked 2025-07-20").  We must therefore extract
-    just the username portion on each line so the lookup in
-    update_all_subscriptions() is reliable.
+def get_blocked_users_and_messages():
+    """Return:
+    - blocked_users: set of usernames that are currently blocked.
+    - user_messages: dict mapping username -> custom_message (if any specified via | msg: or ---msg)
     """
     blocked_users = set()
-    try:
-        with open('blocked_users.txt', 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith('#'):
-                    continue
-                username = extract_username_from_line(line)
-                if username:
-                    blocked_users.add(username)
-    except FileNotFoundError:
-        pass
-    return blocked_users
+    user_messages = {}
+
+    if os.path.exists('blocked_users.txt'):
+        try:
+            with open('blocked_users.txt', 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    username = extract_username_from_line(line)
+                    if username:
+                        blocked_users.add(username)
+                        msg = extract_custom_message_from_line(line)
+                        if msg:
+                            user_messages[username] = msg
+        except FileNotFoundError:
+            pass
+
+    if os.path.exists(USER_LIST_FILE):
+        try:
+            with open(USER_LIST_FILE, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    if line.startswith(BLOCKED_SYMBOL) or '---b' in line:
+                        username = extract_username_from_line(line)
+                        if username:
+                            blocked_users.add(username)
+                            msg = extract_custom_message_from_line(line)
+                            if msg:
+                                user_messages[username] = msg
+        except FileNotFoundError:
+            pass
+
+    return blocked_users, user_messages
 
 def should_block_user(username, blocked_users):
     return username in blocked_users
 
-def get_fake_servers():
-    fake_remark = "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
+def get_fake_servers(expired_msg=None):
+    fake_remark = expired_msg.strip() if expired_msg and expired_msg.strip() else "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
     return [
         f"vless://12345678-1234-1234-1234-123456789abc@127.0.0.1:443?encryption=none&security=tls&type=ws&path=%2F#{fake_remark}"
     ]
@@ -1955,6 +2155,11 @@ def update_all_subscriptions():
 
     # Process control panel first to determine which server file is active
     process_control_panel()
+    settings = get_control_panel_settings()
+    active_file = settings['active_server']
+    flags_enabled = settings['flags_enabled']
+    auto_rename_enabled = settings['auto_rename_enabled']
+    expired_msg = settings['expired_msg']
 
     # Always make a backup of user_list before starting
     if os.path.exists(USER_LIST_FILE):
@@ -1970,7 +2175,6 @@ def update_all_subscriptions():
     process_user_commands()
     check_expired_users()
 
-    active_file = get_active_server_file()
     active_is_yaml = is_yaml_file(active_file)
 
     if not FAST_RUN:
@@ -1979,7 +2183,7 @@ def update_all_subscriptions():
         
         if active_is_yaml:
             yaml_config = load_main_servers()
-            updated_yaml = update_yaml_remarks(yaml_config)
+            updated_yaml = update_yaml_remarks(yaml_config, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
             save_main_servers(updated_yaml)
             active_content = updated_yaml
         else:
@@ -1987,7 +2191,7 @@ def update_all_subscriptions():
             valid_servers = current_servers
 
             # Update remarks (duplicate filtering removed per configuration)
-            all_servers = update_server_remarks(valid_servers)
+            all_servers = update_server_remarks(valid_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
             save_main_servers(all_servers)
             active_content = all_servers
     else:
@@ -1995,7 +2199,7 @@ def update_all_subscriptions():
         active_content = load_main_servers()
 
     # Build / update subscription files for every user
-    blocked_users = get_blocked_users()
+    blocked_users, user_messages = get_blocked_users_and_messages()
     subscription_dir = 'subscriptions'
     if not os.path.exists(subscription_dir):
         os.makedirs(subscription_dir)
@@ -2003,6 +2207,52 @@ def update_all_subscriptions():
     # Load user list to identify which subscriptions are managed by automation
     managed_users = load_user_list()
     managed_usernames = {extract_username_from_line(user) for user in managed_users}
+
+    # Map username -> custom source file if specified (e.g. servers1.txt, warp.yaml)
+    user_custom_sources = {}
+    for user_line in managed_users:
+        uname = extract_username_from_line(user_line)
+        src = extract_custom_source_from_line(user_line)
+        if src and os.path.exists(src):
+            user_custom_sources[uname] = src
+
+    # Pool content cache: source_file -> (content, is_yaml)
+    pool_cache = {
+        active_file: (active_content, active_is_yaml)
+    }
+
+    def get_pool_content(src_file):
+        if src_file in pool_cache:
+            return pool_cache[src_file]
+        is_yaml = is_yaml_file(src_file)
+        if is_yaml:
+            try:
+                with open(src_file, 'r', encoding='utf-8') as f:
+                    data = yaml.safe_load(f)
+                if not isinstance(data, dict):
+                    data = {}
+                if not FAST_RUN:
+                    data = update_yaml_remarks(data, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+                    with open(src_file, 'w', encoding='utf-8') as f:
+                        yaml.dump(data, f, sort_keys=False, allow_unicode=True)
+                pool_cache[src_file] = (data, True)
+                return data, True
+            except Exception as e:
+                print(f"⚠️ Error loading custom YAML {src_file}: {e}")
+                return active_content, active_is_yaml
+        else:
+            try:
+                with open(src_file, 'r', encoding='utf-8') as f:
+                    servers = [line.strip() for line in f if line.strip()]
+                if not FAST_RUN:
+                    servers = update_server_remarks(servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+                    with open(src_file, 'w', encoding='utf-8') as f:
+                        f.write('\n'.join(servers) + '\n')
+                pool_cache[src_file] = (servers, False)
+                return servers, False
+            except Exception as e:
+                print(f"⚠️ Error loading custom source {src_file}: {e}")
+                return active_content, active_is_yaml
     
     # First, ensure subscription files exist for all managed users
     for user_line in managed_users:
@@ -2033,19 +2283,26 @@ def update_all_subscriptions():
         is_blocked = should_block_user(username, blocked_users)
         subscription_path = os.path.join(subscription_dir, filename)
 
-        if active_is_yaml:
+        # Per-user custom message takes priority over global EXPIRED_MSG
+        user_msg = user_messages.get(username, expired_msg)
+
+        # Check if user has a custom source file assigned
+        user_src_file = user_custom_sources.get(username, active_file)
+        user_content, user_is_yaml = get_pool_content(user_src_file)
+
+        if user_is_yaml:
             if is_blocked:
-                fake_yaml = get_fake_yaml_config()
+                fake_yaml = get_fake_yaml_config(user_msg)
                 yaml_str = yaml.dump(fake_yaml, sort_keys=False, allow_unicode=True)
             else:
-                yaml_str = yaml.dump(active_content, sort_keys=False, allow_unicode=True)
+                yaml_str = yaml.dump(user_content, sort_keys=False, allow_unicode=True)
             with open(subscription_path, 'w', encoding='utf-8') as f:
                 f.write(yaml_str)
         else:
             if is_blocked:
-                servers_for_user = get_fake_servers()
+                servers_for_user = get_fake_servers(user_msg)
             else:
-                servers_for_user = active_content if isinstance(active_content, list) else []
+                servers_for_user = user_content if isinstance(user_content, list) else []
             with open(subscription_path, 'w', encoding='utf-8') as f:
                 subscription_content = '\n'.join(servers_for_user)
                 encoded_content = base64.b64encode(subscription_content.encode('utf-8')).decode('utf-8')
