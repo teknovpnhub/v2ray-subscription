@@ -1,3 +1,5 @@
+customer46 | added | [Note: 405.5.28] | 2026-08-19 18:15
+
 customer45 | added | [Note: 405.5.27] | 2026-08-18 12:54
 
 customer44 | manual_change | Changes:
@@ -23,8 +25,6 @@ javad.golmohammadi | manual_delete | User manually removed [Note: 405.5.18 | blo
 customer42 | added | [Note: 405.5.18] | 2026-08-09 19:45
 
 customer41 | added | [Note: 405.5.18] | 2026-08-09 19:44
-
-customer40 | added | [Note: 405.5.17] | 2026-08-08 17:30
 
 z.pourmohammad | unblocked | [Note: 405.5.12 | blocked 2026-01-18] | 2026-08-03 19:38
 
