@@ -1,5 +1,5 @@
 proxies:
-- name: irancell1_001
+- name: irancell1_001 🇺🇸
   type: wireguard
   server: 8.6.112.139
   port: 8319
@@ -24,7 +24,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_002
+- name: irancell1_002 🇺🇸
   type: wireguard
   server: 8.6.112.95
   port: 1387
@@ -49,7 +49,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_003
+- name: irancell1_003 🇺🇸
   type: wireguard
   server: 8.6.112.190
   port: 945
@@ -74,7 +74,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_004
+- name: irancell1_004 🇺🇸
   type: wireguard
   server: 8.6.112.56
   port: 4233
@@ -99,7 +99,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_005
+- name: irancell1_005 🇺🇸
   type: wireguard
   server: 8.6.112.178
   port: 1002
@@ -124,7 +124,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_006
+- name: irancell1_006 🇺🇸
   type: wireguard
   server: 8.6.112.157
   port: 4233
@@ -149,7 +149,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_007
+- name: irancell1_007 🇺🇸
   type: wireguard
   server: 8.6.112.249
   port: 2371
@@ -174,7 +174,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_008
+- name: irancell1_008 🇺🇸
   type: wireguard
   server: 8.6.112.190
   port: 939
@@ -199,7 +199,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_009
+- name: irancell1_009 🇺🇸
   type: wireguard
   server: 8.6.112.137
   port: 988
@@ -224,7 +224,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_010
+- name: irancell1_010 🇺🇸
   type: wireguard
   server: 8.6.112.192
   port: 7156
@@ -249,7 +249,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_011
+- name: irancell1_011 🇺🇸
   type: wireguard
   server: 8.6.112.151
   port: 968
@@ -274,7 +274,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_012
+- name: irancell1_012 🇺🇸
   type: wireguard
   server: 8.6.112.216
   port: 2408
@@ -299,7 +299,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_013
+- name: irancell1_013 🇺🇸
   type: wireguard
   server: 8.6.112.32
   port: 8886
@@ -324,7 +324,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_014
+- name: irancell1_014 🇺🇸
   type: wireguard
   server: 8.6.112.103
   port: 8319
@@ -349,7 +349,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_015
+- name: irancell1_015 🇺🇸
   type: wireguard
   server: 8.6.112.170
   port: 2506
@@ -374,7 +374,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_016
+- name: irancell1_016 🇺🇸
   type: wireguard
   server: 8.6.112.112
   port: 894
@@ -399,7 +399,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_017
+- name: irancell1_017 🇺🇸
   type: wireguard
   server: 8.6.112.107
   port: 946
@@ -424,7 +424,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_018
+- name: irancell1_018 🇺🇸
   type: wireguard
   server: 8.6.112.67
   port: 500
@@ -449,7 +449,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: irancell1_019
+- name: irancell1_019 🇺🇸
   type: wireguard
   server: 8.6.112.63
   port: 988
@@ -474,7 +474,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_001
+- name: mci1_001 🇺🇸
   type: wireguard
   server: 8.6.112.181
   port: 3476
@@ -499,7 +499,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_002
+- name: mci1_002 🇺🇸
   type: wireguard
   server: 8.6.112.156
   port: 943
@@ -524,7 +524,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_003
+- name: mci1_003 🇺🇸
   type: wireguard
   server: 8.6.112.240
   port: 1180
@@ -549,7 +549,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_004
+- name: mci1_004 🇺🇸
   type: wireguard
   server: 8.6.112.54
   port: 987
@@ -574,7 +574,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_005
+- name: mci1_005 🇺🇸
   type: wireguard
   server: 8.6.112.216
   port: 854
@@ -599,7 +599,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_006
+- name: mci1_006 🇺🇸
   type: wireguard
   server: 8.6.112.149
   port: 1701
@@ -624,7 +624,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_007
+- name: mci1_007 🇺🇸
   type: wireguard
   server: 8.6.112.90
   port: 7152
@@ -649,7 +649,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_008
+- name: mci1_008 🇺🇸
   type: wireguard
   server: 8.6.112.218
   port: 2408
@@ -674,7 +674,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_009
+- name: mci1_009 🇺🇸
   type: wireguard
   server: 8.6.112.125
   port: 955
@@ -699,7 +699,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_010
+- name: mci1_010 🇺🇸
   type: wireguard
   server: 8.6.112.193
   port: 5279
@@ -724,7 +724,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_011
+- name: mci1_011 🇺🇸
   type: wireguard
   server: 8.6.112.154
   port: 1010
@@ -749,7 +749,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_012
+- name: mci1_012 🇺🇸
   type: wireguard
   server: 8.6.112.116
   port: 968
@@ -774,7 +774,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_013
+- name: mci1_013 🇺🇸
   type: wireguard
   server: 8.6.112.179
   port: 928
@@ -799,7 +799,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_014
+- name: mci1_014 🇺🇸
   type: wireguard
   server: 8.6.112.99
   port: 4198
@@ -824,7 +824,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_015
+- name: mci1_015 🇺🇸
   type: wireguard
   server: 8.6.112.51
   port: 1002
@@ -849,7 +849,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_016
+- name: mci1_016 🇺🇸
   type: wireguard
   server: 8.6.112.67
   port: 945
@@ -874,7 +874,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_017
+- name: mci1_017 🇺🇸
   type: wireguard
   server: 8.6.112.83
   port: 864
@@ -899,7 +899,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_018
+- name: mci1_018 🇺🇸
   type: wireguard
   server: 8.6.112.226
   port: 939
@@ -924,7 +924,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_019
+- name: mci1_019 🇺🇸
   type: wireguard
   server: 8.6.112.202
   port: 939
@@ -949,7 +949,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_020
+- name: mci1_020 🇺🇸
   type: wireguard
   server: 8.6.112.30
   port: 1070
@@ -974,7 +974,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_021
+- name: mci1_021 🇺🇸
   type: wireguard
   server: 8.6.112.126
   port: 890
@@ -999,7 +999,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_022
+- name: mci1_022 🇺🇸
   type: wireguard
   server: 8.6.112.83
   port: 4198
@@ -1024,7 +1024,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_023
+- name: mci1_023 🇺🇸
   type: wireguard
   server: 8.6.112.155
   port: 939
@@ -1049,7 +1049,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_024
+- name: mci1_024 🇺🇸
   type: wireguard
   server: 8.6.112.243
   port: 8319
@@ -1074,7 +1074,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_025
+- name: mci1_025 🇺🇸
   type: wireguard
   server: 8.6.112.119
   port: 4233
@@ -1099,7 +1099,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_026
+- name: mci1_026 🇺🇸
   type: wireguard
   server: 8.6.112.143
   port: 3581
@@ -1124,7 +1124,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_027
+- name: mci1_027 🇺🇸
   type: wireguard
   server: 8.6.112.172
   port: 945
@@ -1149,7 +1149,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_028
+- name: mci1_028 🇺🇸
   type: wireguard
   server: 8.6.112.47
   port: 987
@@ -1174,7 +1174,7 @@ proxies:
     h2: 2
     h3: 3
     h4: 4
-- name: mci1_029
+- name: mci1_029 🇺🇸
   type: wireguard
   server: 8.6.112.165
   port: 3854
@@ -1203,51 +1203,51 @@ proxy-groups:
 - name: WARP
   type: select
   proxies:
-  - irancell1_001
-  - irancell1_002
-  - irancell1_003
-  - irancell1_004
-  - irancell1_005
-  - irancell1_006
-  - irancell1_007
-  - irancell1_008
-  - irancell1_009
-  - irancell1_010
-  - irancell1_011
-  - irancell1_012
-  - irancell1_013
-  - irancell1_014
-  - irancell1_015
-  - irancell1_016
-  - irancell1_017
-  - irancell1_018
-  - irancell1_019
-  - mci1_001
-  - mci1_002
-  - mci1_003
-  - mci1_004
-  - mci1_005
-  - mci1_006
-  - mci1_007
-  - mci1_008
-  - mci1_009
-  - mci1_010
-  - mci1_011
-  - mci1_012
-  - mci1_013
-  - mci1_014
-  - mci1_015
-  - mci1_016
-  - mci1_017
-  - mci1_018
-  - mci1_019
-  - mci1_020
-  - mci1_021
-  - mci1_022
-  - mci1_023
-  - mci1_024
-  - mci1_025
-  - mci1_026
-  - mci1_027
-  - mci1_028
-  - mci1_029
+  - irancell1_001 🇺🇸
+  - irancell1_002 🇺🇸
+  - irancell1_003 🇺🇸
+  - irancell1_004 🇺🇸
+  - irancell1_005 🇺🇸
+  - irancell1_006 🇺🇸
+  - irancell1_007 🇺🇸
+  - irancell1_008 🇺🇸
+  - irancell1_009 🇺🇸
+  - irancell1_010 🇺🇸
+  - irancell1_011 🇺🇸
+  - irancell1_012 🇺🇸
+  - irancell1_013 🇺🇸
+  - irancell1_014 🇺🇸
+  - irancell1_015 🇺🇸
+  - irancell1_016 🇺🇸
+  - irancell1_017 🇺🇸
+  - irancell1_018 🇺🇸
+  - irancell1_019 🇺🇸
+  - mci1_001 🇺🇸
+  - mci1_002 🇺🇸
+  - mci1_003 🇺🇸
+  - mci1_004 🇺🇸
+  - mci1_005 🇺🇸
+  - mci1_006 🇺🇸
+  - mci1_007 🇺🇸
+  - mci1_008 🇺🇸
+  - mci1_009 🇺🇸
+  - mci1_010 🇺🇸
+  - mci1_011 🇺🇸
+  - mci1_012 🇺🇸
+  - mci1_013 🇺🇸
+  - mci1_014 🇺🇸
+  - mci1_015 🇺🇸
+  - mci1_016 🇺🇸
+  - mci1_017 🇺🇸
+  - mci1_018 🇺🇸
+  - mci1_019 🇺🇸
+  - mci1_020 🇺🇸
+  - mci1_021 🇺🇸
+  - mci1_022 🇺🇸
+  - mci1_023 🇺🇸
+  - mci1_024 🇺🇸
+  - mci1_025 🇺🇸
+  - mci1_026 🇺🇸
+  - mci1_027 🇺🇸
+  - mci1_028 🇺🇸
+  - mci1_029 🇺🇸
