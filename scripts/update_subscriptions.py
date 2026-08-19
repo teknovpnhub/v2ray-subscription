@@ -1575,9 +1575,54 @@ def log_user_history(username, action, details="", max_days=USER_HISTORY_DAYS):
 
 # === REMOVE DUPLICATES WITH LOGGING ===
 
+def get_server_key(server):
+    """Generate a unique key for a server based on core config (ignoring remark)."""
+    try:
+        if server.startswith('vmess://'):
+            base64_str = server[8:].split('#')[0]
+            base64_str += '=' * ((4 - len(base64_str) % 4) % 4)
+            data = json.loads(base64.b64decode(base64_str).decode('utf-8'))
+            return f"vmess:{data.get('add')}:{data.get('port')}:{data.get('id')}:{data.get('net')}:{data.get('path')}"
+        elif '#' in server:
+            return server.split('#')[0]
+        return server
+    except Exception:
+        return server
+
 def remove_duplicates(servers):
-    """Pass-through: duplicate filtering disabled per configuration."""
-    return servers
+    """Remove duplicate servers while preserving order."""
+    seen = set()
+    unique_servers = []
+    for s in servers:
+        if not s.strip():
+            continue
+        key = get_server_key(s.strip())
+        if key not in seen:
+            seen.add(key)
+            unique_servers.append(s.strip())
+    return unique_servers
+
+def remove_yaml_duplicates(yaml_data):
+    """Remove duplicate proxies from YAML while preserving order and proxy-groups."""
+    if not isinstance(yaml_data, dict) or 'proxies' not in yaml_data or not isinstance(yaml_data['proxies'], list):
+        return yaml_data
+    seen = set()
+    unique_proxies = []
+    for p in yaml_data['proxies']:
+        if not isinstance(p, dict):
+            continue
+        key = (p.get('server'), p.get('port'), p.get('type'), p.get('uuid'), p.get('public-key'))
+        if key not in seen:
+            seen.add(key)
+            unique_proxies.append(p)
+    
+    yaml_data['proxies'] = unique_proxies
+    valid_names = {p.get('name') for p in unique_proxies if p.get('name')}
+    if 'proxy-groups' in yaml_data and isinstance(yaml_data['proxy-groups'], list):
+        for group in yaml_data['proxy-groups']:
+            if isinstance(group, dict) and 'proxies' in group:
+                group['proxies'] = [name for name in group['proxies'] if name in valid_names]
+    return yaml_data
 
 def parse_non_working_line(line):
     """Parse non_working.txt line. Supports two formats:
@@ -1609,16 +1654,22 @@ def get_control_panel_settings():
     - active_server (e.g. servers.warp.txt)
     - flags_enabled (True/False)
     - auto_rename_enabled (True/False)
+    - duplicates_enabled (True/False, default False)
+    - max_servers ('ALL' or int)
     - expired_msg (string)
     - server_files (list of all server pool files)
     """
     default_servers = ['servers.warp.txt', 'servers.txt', 'servers1.txt', 'warp.yaml']
     default_expired_msg = "اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید"
+    default_max_servers = 'ALL'
+    default_duplicates = False
     if not os.path.exists(CONTROL_PANEL_FILE):
         return {
             'active_server': MAIN_FILE,
             'flags_enabled': True,
             'auto_rename_enabled': True,
+            'duplicates_enabled': default_duplicates,
+            'max_servers': default_max_servers,
             'expired_msg': default_expired_msg,
             'server_files': default_servers
         }
@@ -1629,6 +1680,8 @@ def get_control_panel_settings():
     active_server = None
     flags_enabled = True
     auto_rename_enabled = True
+    duplicates_enabled = default_duplicates
+    max_servers = default_max_servers
     expired_msg = default_expired_msg
     found_server_files = []
 
@@ -1651,6 +1704,33 @@ def get_control_panel_settings():
                 auto_rename_enabled = False
             elif any(on_word in line_clean.upper() for on_word in [': ON', '= ON', ' ON', 'ENABLE', '---ON']):
                 auto_rename_enabled = True
+            continue
+
+        # Check DUPLICATES setting
+        if re.match(r'^(duplicates|duplicate_checker|duplicate|dedup)\b', line_clean, re.IGNORECASE):
+            if any(on_word in line_clean.upper() for on_word in [': ON', '= ON', ' ON', 'ENABLE', '---ON']):
+                duplicates_enabled = True
+            elif any(off_word in line_clean.upper() for off_word in [': OFF', '= OFF', ' OFF', 'DISABLE', '---OFF']):
+                duplicates_enabled = False
+            continue
+
+        # Check MAX_SERVERS setting
+        if re.match(r'^(max_servers|max_server|limit_servers|limit)\b', line_clean, re.IGNORECASE):
+            if ':' in line_clean:
+                val = line_clean.split(':', 1)[1].strip()
+            elif '=' in line_clean:
+                val = line_clean.split('=', 1)[1].strip()
+            else:
+                val = line_clean.split(maxsplit=1)[1].strip() if len(line_clean.split()) > 1 else ""
+            if val:
+                val_upper = val.upper()
+                if val_upper in ['ALL', 'OFF', 'UNLIMITED', 'NONE', 'NO', '0']:
+                    max_servers = 'ALL'
+                else:
+                    digits = re.findall(r'\d+', val)
+                    if digits:
+                        num = int(digits[0])
+                        max_servers = num if num > 0 else 'ALL'
             continue
 
         # Check EXPIRED_MSG setting
@@ -1691,6 +1771,8 @@ def get_control_panel_settings():
         'active_server': active_server,
         'flags_enabled': flags_enabled,
         'auto_rename_enabled': auto_rename_enabled,
+        'duplicates_enabled': duplicates_enabled,
+        'max_servers': max_servers,
         'expired_msg': expired_msg,
         'server_files': found_server_files
     }
@@ -1711,6 +1793,8 @@ def process_control_panel():
     # === SETTINGS ===
     ✓ FLAGS: ON
     ✓ AUTO_RENAME: ON
+    DUPLICATES: OFF
+    MAX_SERVERS: ALL
     EXPIRED_MSG: اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید
     --------------------------------
     """
@@ -1718,6 +1802,8 @@ def process_control_panel():
     active_server = settings['active_server']
     flags_enabled = settings['flags_enabled']
     auto_rename_enabled = settings['auto_rename_enabled']
+    duplicates_enabled = settings['duplicates_enabled']
+    max_servers = settings['max_servers']
     expired_msg = settings['expired_msg']
     server_files = settings['server_files']
 
@@ -1741,7 +1827,13 @@ def process_control_panel():
         output_lines.append("✓ AUTO_RENAME: ON")
     else:
         output_lines.append("AUTO_RENAME: OFF")
+
+    if duplicates_enabled:
+        output_lines.append("✓ DUPLICATES: ON")
+    else:
+        output_lines.append("DUPLICATES: OFF")
     
+    output_lines.append(f"MAX_SERVERS: {max_servers}")
     output_lines.append(f"EXPIRED_MSG: {expired_msg}")
     output_lines.append("--------------------------------")
 
@@ -1758,9 +1850,10 @@ def process_control_panel():
         try:
             flag_str = "ON" if flags_enabled else "OFF"
             rename_str = "ON" if auto_rename_enabled else "OFF"
-            print(f"✓ Control panel updated: Active = {active_server}, FLAGS = {flag_str}, AUTO_RENAME = {rename_str}, EXPIRED_MSG = {expired_msg}")
+            dup_str = "ON" if duplicates_enabled else "OFF"
+            print(f"✓ Control panel updated: Active = {active_server}, FLAGS = {flag_str}, AUTO_RENAME = {rename_str}, DUPLICATES = {dup_str}, MAX_SERVERS = {max_servers}")
         except UnicodeEncodeError:
-            print(f"Control panel updated: Active = {active_server}, FLAGS = {flags_enabled}, AUTO_RENAME = {auto_rename_enabled}")
+            print(f"Control panel updated: Active = {active_server}, FLAGS = {flags_enabled}, AUTO_RENAME = {auto_rename_enabled}, DUPLICATES = {duplicates_enabled}, MAX_SERVERS = {max_servers}")
 
 def load_main_servers():
     """Load servers from the active server file specified in control_panel.txt."""
@@ -2159,6 +2252,8 @@ def update_all_subscriptions():
     active_file = settings['active_server']
     flags_enabled = settings['flags_enabled']
     auto_rename_enabled = settings['auto_rename_enabled']
+    duplicates_enabled = settings['duplicates_enabled']
+    max_servers = settings['max_servers']
     expired_msg = settings['expired_msg']
 
     # Always make a backup of user_list before starting
@@ -2183,14 +2278,16 @@ def update_all_subscriptions():
         
         if active_is_yaml:
             yaml_config = load_main_servers()
+            if duplicates_enabled:
+                yaml_config = remove_yaml_duplicates(yaml_config)
             updated_yaml = update_yaml_remarks(yaml_config, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
             save_main_servers(updated_yaml)
             active_content = updated_yaml
         else:
             current_servers = load_main_servers()
-            valid_servers = current_servers
+            valid_servers = remove_duplicates(current_servers) if duplicates_enabled else current_servers
 
-            # Update remarks (duplicate filtering removed per configuration)
+            # Update remarks
             all_servers = update_server_remarks(valid_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
             save_main_servers(all_servers)
             active_content = all_servers
@@ -2232,6 +2329,8 @@ def update_all_subscriptions():
                 if not isinstance(data, dict):
                     data = {}
                 if not FAST_RUN:
+                    if duplicates_enabled:
+                        data = remove_yaml_duplicates(data)
                     data = update_yaml_remarks(data, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
                     with open(src_file, 'w', encoding='utf-8') as f:
                         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
@@ -2245,6 +2344,8 @@ def update_all_subscriptions():
                 with open(src_file, 'r', encoding='utf-8') as f:
                     servers = [line.strip() for line in f if line.strip()]
                 if not FAST_RUN:
+                    if duplicates_enabled:
+                        servers = remove_duplicates(servers)
                     servers = update_server_remarks(servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
                     with open(src_file, 'w', encoding='utf-8') as f:
                         f.write('\n'.join(servers) + '\n')
@@ -2295,7 +2396,28 @@ def update_all_subscriptions():
                 fake_yaml = get_fake_yaml_config(user_msg)
                 yaml_str = yaml.dump(fake_yaml, sort_keys=False, allow_unicode=True)
             else:
-                yaml_str = yaml.dump(user_content, sort_keys=False, allow_unicode=True)
+                final_yaml = user_content
+                if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0 and isinstance(user_content, dict):
+                    final_yaml = dict(user_content)
+                    proxies_list = user_content.get('proxies', [])
+                    sliced_proxies = proxies_list[:max_servers]
+                    final_yaml['proxies'] = sliced_proxies
+                    
+                    # Synchronize proxy names in proxy-groups
+                    valid_names = [p.get('name') for p in sliced_proxies if isinstance(p, dict) and p.get('name')]
+                    if 'proxy-groups' in final_yaml and isinstance(final_yaml['proxy-groups'], list):
+                        new_groups = []
+                        for group in final_yaml['proxy-groups']:
+                            if isinstance(group, dict):
+                                g_copy = dict(group)
+                                g_proxies = group.get('proxies', [])
+                                g_copy['proxies'] = [p for p in g_proxies if p in valid_names]
+                                new_groups.append(g_copy)
+                            else:
+                                new_groups.append(group)
+                        final_yaml['proxy-groups'] = new_groups
+
+                yaml_str = yaml.dump(final_yaml, sort_keys=False, allow_unicode=True)
             with open(subscription_path, 'w', encoding='utf-8') as f:
                 f.write(yaml_str)
         else:
@@ -2303,6 +2425,8 @@ def update_all_subscriptions():
                 servers_for_user = get_fake_servers(user_msg)
             else:
                 servers_for_user = user_content if isinstance(user_content, list) else []
+                if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0:
+                    servers_for_user = servers_for_user[:max_servers]
             with open(subscription_path, 'w', encoding='utf-8') as f:
                 subscription_content = '\n'.join(servers_for_user)
                 encoded_content = base64.b64encode(subscription_content.encode('utf-8')).decode('utf-8')
