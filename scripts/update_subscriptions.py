@@ -1684,6 +1684,9 @@ def get_control_panel_settings():
     max_servers = default_max_servers
     expired_msg = default_expired_msg
     found_server_files = []
+    explicit_on_servers = []
+    ticked_servers = []
+    all_on_servers = []
 
     for line in lines:
         if line.startswith('#') or line.startswith('-'):
@@ -1751,11 +1754,17 @@ def get_control_panel_settings():
             if filename_part not in found_server_files:
                 found_server_files.append(filename_part)
             
-            # Check if this server is activated
-            if '---on' in line.lower():
-                active_server = filename_part
-            elif active_server is None and ('✓' in line or any(on_word in line.upper() for on_word in [': ON', '= ON', ' ON'])):
-                active_server = filename_part
+            has_tick = '✓' in line
+            has_on = '---on' in line.lower() or any(on_word in line.upper() for on_word in [': ON', '= ON', ' ON', ':ON', '=ON'])
+            has_off = any(off_word in line.upper() for off_word in [': OFF', '= OFF', ' OFF', ':OFF', '=OFF'])
+
+            if has_tick:
+                ticked_servers.append(filename_part)
+            
+            if has_on and not has_off:
+                all_on_servers.append(filename_part)
+                if not has_tick or '---on' in line.lower():
+                    explicit_on_servers.append(filename_part)
 
     if not found_server_files:
         found_server_files = default_servers
@@ -1764,7 +1773,17 @@ def get_control_panel_settings():
             if s not in found_server_files and os.path.exists(s):
                 found_server_files.append(s)
 
-    if not active_server:
+    # Smart selection priority:
+    # 1. Server explicitly newly set to ON / ---on (without having tick originally or with ---on)
+    if explicit_on_servers:
+        active_server = explicit_on_servers[-1]
+    # 2. Server with tick ✓
+    elif ticked_servers:
+        active_server = ticked_servers[0]
+    # 3. Any server with ON
+    elif all_on_servers:
+        active_server = all_on_servers[0]
+    else:
         active_server = found_server_files[0]
 
     return {
