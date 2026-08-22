@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "jafar",
     "ehsan",
     "customer48",
     "aaa.aaa",
@@ -265,7 +266,6 @@
     "agheli",
     "shadi",
     "ahmadi",
-    "jafar",
     "customer4",
     "s.mamasi",
     "g.kazemi",
@@ -393,6 +393,7 @@
     "mm"
   ],
   "lines": {
+    "jafar": "jafar #| src: pt.configs.txt",
     "ehsan": "ehsan #404.8.3 | src: pt.configs.txt",
     "customer48": "customer48 #405.5.29",
     "aaa.aaa": "aaa.aaa #40566 | src: warp.yaml",
@@ -658,7 +659,6 @@
     "agheli": "🚫agheli #404.8.6 | blocked 2025-12-06",
     "shadi": "🚫shadi #404.8.3 | blocked 2025-12-06",
     "ahmadi": "🚫ahmadi #404.8.4 | blocked 2025-12-06",
-    "jafar": "jafar",
     "customer4": "🚫customer4 #404.7.26 | blocked 2025-11-29",
     "s.mamasi": "🚫s.mamasi #404.7.27 | blocked 2025-11-29",
     "g.kazemi": "🚫g.kazemi #404.8.1 | blocked 2025-11-29",
@@ -785,5 +785,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-22 18:52"
+  "timestamp": "2026-08-22 19:27"
 }
