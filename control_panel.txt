@@ -2,7 +2,7 @@
 servers.warp.txt: OFF
 ✓ servers.txt: ON
 servers1.txt: OFF
-warp.yaml: OFF
+pt.configs: OFF
 --------------------------------
 # === SETTINGS ===
 ✓ FLAGS: ON
