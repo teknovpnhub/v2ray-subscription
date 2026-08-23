@@ -348,7 +348,7 @@ def detect_manual_changes():
     
     for line in current_users:
         # Skip processing lines with command flags, as these will be handled elsewhere
-        if any(cmd in line for cmd in ['---b', '---ub', '---d', '---m', '---r', '---es']):
+        if re.search(r'---(b|ub|d|m|r|es|msg|src)\b', line, re.IGNORECASE):
             continue
             
         username = extract_username_from_line(line)
@@ -559,6 +559,25 @@ def strip_custom_sources(note: str) -> str:
         return note
     cleaned = re.sub(r"\s*\|\s*(?:src|source)[:\s]+[^|#\n]+", "", note, flags=re.IGNORECASE)
     return cleaned.strip()
+
+def clean_notes_command_tokens(raw_notes: str, custom_msg: str = "", custom_src: str = "") -> str:
+    """Safely strip all command flags (---b, ---ub, ---d, ---m, ---r, ---es, ---msg, ---src) and their inline arguments."""
+    if not raw_notes:
+        return ""
+    cleaned = re.sub(r'---msg\s*.*', '', raw_notes, flags=re.IGNORECASE)
+    cleaned = re.sub(r'---src\s+\S+', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'---es\s+\S+', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'---r\s+\S+', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'---(b|ub|d|m|r|es|msg|src)\b', '', cleaned, flags=re.IGNORECASE)
+    if custom_msg:
+        cleaned = cleaned.replace(f"sg {custom_msg}", "")
+        cleaned = re.sub(re.escape(custom_msg), '', cleaned)
+    if custom_src:
+        cleaned = re.sub(re.escape(custom_src), '', cleaned)
+    cleaned = strip_custom_messages(cleaned)
+    cleaned = strip_custom_sources(cleaned)
+    cleaned = strip_block_dates(cleaned)
+    return ' '.join(cleaned.split()).strip()
 
 EXTERNAL_CACHE_DIR = '.external_cache'
 
@@ -984,14 +1003,7 @@ def process_user_commands():
             cleaned_line = user_line.split('---')[0].split('|')[0].strip()
             user_data = extract_user_data_from_line(cleaned_line)
             raw_notes = extract_notes_from_line(user_line)
-            # Remove command flags from notes
-            notes = raw_notes.replace('---b', '').replace('---ub', '').replace('---d', '').replace('---r', '').replace('---m', '').replace('---es', '').strip()
-            if '---msg' in notes:
-                notes = re.sub(r'---msg\s*.*', '', notes, flags=re.IGNORECASE).strip()
-            if custom_msg:
-                notes = strip_custom_messages(notes).strip()
-            # Clean up any double spaces
-            notes = ' '.join(notes.split())
+            notes = clean_notes_command_tokens(raw_notes, custom_msg=custom_msg)
             blocked_users.add(username)
             modified_users.add(username)
             users_to_top.add(username)  # Move to top when blocked
@@ -1032,11 +1044,7 @@ def process_user_commands():
             cleaned_line = user_line.split('---')[0].split('|')[0].strip()
             user_data = extract_user_data_from_line(cleaned_line)
             raw_notes = extract_notes_from_line(user_line)
-            notes = raw_notes
-            if '---msg' in notes:
-                notes = re.sub(r'---msg\s*.*', '', notes, flags=re.IGNORECASE).strip()
-            notes = strip_custom_messages(notes).strip()
-            notes = ' '.join(notes.split())
+            notes = clean_notes_command_tokens(raw_notes, custom_msg=custom_msg)
             if custom_msg and custom_msg.lower() not in ['default', 'none', 'reset', 'clear', 'off', 'del']:
                 notes = f"{notes} | msg: {custom_msg}" if notes else f"| msg: {custom_msg}"
             
@@ -1065,11 +1073,7 @@ def process_user_commands():
             cleaned_line = user_line.split('---')[0].split('|')[0].strip()
             user_data = extract_user_data_from_line(cleaned_line)
             raw_notes = extract_notes_from_line(user_line)
-            notes = raw_notes
-            if '---src' in notes:
-                notes = re.sub(r'---src\s*.*', '', notes, flags=re.IGNORECASE).strip()
-            notes = strip_custom_sources(notes).strip()
-            notes = ' '.join(notes.split())
+            notes = clean_notes_command_tokens(raw_notes, custom_src=custom_src)
             if custom_src and custom_src.lower() not in ['default', 'none', 'reset', 'clear', 'off']:
                 notes = f"{notes} | src: {custom_src}" if notes else f"| src: {custom_src}"
             
@@ -1094,16 +1098,8 @@ def process_user_commands():
             any_commands_processed = True
             username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
-            # Clean any old block-date tags and custom messages from the note when unblocking
             raw_notes = extract_notes_from_line(user_line)
-            notes = strip_block_dates(raw_notes)
-            notes = strip_custom_messages(notes)
-            # Remove command flags from notes if they're there
-            notes = notes.replace('---ub', '').replace('---ub', '').strip()
-            if '---msg' in notes:
-                notes = re.sub(r'---msg\s*.*', '', notes, flags=re.IGNORECASE).strip()
-            # Clean up any double spaces
-            notes = ' '.join(notes.split())
+            notes = clean_notes_command_tokens(raw_notes)
             unblocked_users.add(username)
             modified_users.add(username)
             users_to_top.add(username)  # Move to top when unblocked
@@ -1146,10 +1142,7 @@ def process_user_commands():
                 user_data = extract_user_data_from_line(user_line)
             
             raw_notes = notes_part.strip()
-            # Remove command flags from notes if they somehow got there
-            notes = raw_notes.replace('---m', '').replace('---b', '').replace('---ub', '').replace('---d', '').replace('---r', '').replace('---es', '').strip()
-            # Clean up any double spaces
-            notes = ' '.join(notes.split())
+            notes = clean_notes_command_tokens(raw_notes)
             
             # Auto-generate a unique username if none was provided (i.e. the line is just "---m" + optional note)
             if not username:
@@ -1207,11 +1200,7 @@ def process_user_commands():
             if '#' in command_part:
                 command_part = command_part.split('#')[0]
             new_username = command_part.strip().split()[0] if command_part.strip() else ''
-            # Remove command from notes if it's there
-            if notes and '---r' in notes:
-                notes = notes.split('---r')[0].strip()
-            # Clean up any double spaces in notes
-            notes = ' '.join(notes.split())
+            notes = clean_notes_command_tokens(extract_notes_from_line(user_line))
             if new_username and new_username != old_username:
                 # Check if target username already exists (in original list, updated list, renamed in this batch, or new users in this batch)
                 existing_usernames = [extract_username_from_line(u) for u in users]
@@ -1262,7 +1251,7 @@ def process_user_commands():
         elif '---es' in user_line:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
-            notes = extract_notes_from_line(user_line)
+            notes = clean_notes_command_tokens(extract_notes_from_line(user_line))
             modified_users.add(username)
             users_to_top.add(username)  # Move to top when expiry is set
             parts = user_line.split('---es')
