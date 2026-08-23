@@ -1,3 +1,9 @@
+aaa.aaa | manual_change | Changes:
+- 🚫aaa.aaa #40566 | src: external.src.txt
+? -
+
++ aaa.aaa #40566 | src: external.src.txt [Note: 40566 | src: external.src.txt] | 2026-08-24 02:44
+
 aaa.aaa | manual_delete | User manually removed [Note: 40566  ---ub ---src external.src.txt] | 2026-08-24 02:33
 
 aaa.aaa | blocked | | blocked 2026-08-24 | msg: به دلیل عدم پرداخت هزینه سرویس شما قطع شد [Note: 40566 ---b ---msg به دلیل عدم پرداخت هزینه سرویس شما قطع شد] | 2026-08-24 01:58
