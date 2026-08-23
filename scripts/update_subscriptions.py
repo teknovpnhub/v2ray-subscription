@@ -995,135 +995,18 @@ def process_user_commands():
     users_to_top = set()
     
     for user_line in users:
-        if '---b' in user_line:
-            any_commands_processed = True
-            username = extract_username_from_line(user_line)
-            custom_msg = extract_custom_message_from_line(user_line)
-            # Remove any existing command tokens and pipe-notes before extracting user_data
-            cleaned_line = user_line.split('---')[0].split('|')[0].strip()
-            user_data = extract_user_data_from_line(cleaned_line)
-            raw_notes = extract_notes_from_line(user_line)
-            notes = clean_notes_command_tokens(raw_notes, custom_msg=custom_msg)
-            blocked_users.add(username)
-            modified_users.add(username)
-            users_to_top.add(username)  # Move to top when blocked
-            # Add block date note (Iran time)
-            block_date = get_iran_time().strftime("%Y-%m-%d")
-            date_note = f"| blocked {block_date}"
-            # Avoid duplicating the block-date note
-            if date_note not in notes:
-                if notes:
-                    notes = f"{notes} {date_note}"
-                else:
-                    notes = date_note
-
-            if custom_msg:
-                msg_tag = f"| msg: {custom_msg}"
-                if msg_tag not in notes:
-                    notes = f"{notes} {msg_tag}"
-
-            # Prepend '#' symbol to notes (if any) to retain comment marker (no space after '#')
-            notes_with_hash = f"#{notes}" if notes else ""
-
-            details = f"{date_note} | msg: {custom_msg}" if custom_msg else date_note
-            # Let log_user_history handle adding the note
-            log_user_history(username, "blocked", details)
-            if user_data and notes_with_hash:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data} {notes_with_hash}"
-            elif user_data:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {user_data}"
-            elif notes_with_hash:
-                updated_line = f"{BLOCKED_SYMBOL}{username} {notes_with_hash}"
-            else:
-                updated_line = f"{BLOCKED_SYMBOL}{username}"
-            updated_users.append(updated_line)
-        elif '---msg' in user_line:
-            any_commands_processed = True
-            username = extract_username_from_line(user_line)
-            custom_msg = extract_custom_message_from_line(user_line)
-            cleaned_line = user_line.split('---')[0].split('|')[0].strip()
-            user_data = extract_user_data_from_line(cleaned_line)
-            raw_notes = extract_notes_from_line(user_line)
-            notes = clean_notes_command_tokens(raw_notes, custom_msg=custom_msg)
-            if custom_msg and custom_msg.lower() not in ['default', 'none', 'reset', 'clear', 'off', 'del']:
-                notes = f"{notes} | msg: {custom_msg}" if notes else f"| msg: {custom_msg}"
-            
-            # If user was already blocked, keep block symbol
-            is_already_blocked = user_line.startswith(BLOCKED_SYMBOL)
-            if is_already_blocked:
-                blocked_users.add(username)
-            modified_users.add(username)
-            users_to_top.add(username)  # Move to top when message is changed
-            
-            notes_with_hash = f"#{notes}" if notes else ""
-            prefix = BLOCKED_SYMBOL if is_already_blocked else ""
-            if user_data and notes_with_hash:
-                updated_line = f"{prefix}{username} {user_data} {notes_with_hash}"
-            elif user_data:
-                updated_line = f"{prefix}{username} {user_data}"
-            elif notes_with_hash:
-                updated_line = f"{prefix}{username} {notes_with_hash}"
-            else:
-                updated_line = f"{prefix}{username}"
-            updated_users.append(updated_line)
-        elif '---src' in user_line:
-            any_commands_processed = True
-            username = extract_username_from_line(user_line)
-            custom_src = extract_custom_source_from_line(user_line)
-            cleaned_line = user_line.split('---')[0].split('|')[0].strip()
-            user_data = extract_user_data_from_line(cleaned_line)
-            raw_notes = extract_notes_from_line(user_line)
-            notes = clean_notes_command_tokens(raw_notes, custom_src=custom_src)
-            if custom_src and custom_src.lower() not in ['default', 'none', 'reset', 'clear', 'off']:
-                notes = f"{notes} | src: {custom_src}" if notes else f"| src: {custom_src}"
-            
-            is_already_blocked = user_line.startswith(BLOCKED_SYMBOL)
-            if is_already_blocked:
-                blocked_users.add(username)
-            modified_users.add(username)
-            users_to_top.add(username)  # Move to top when source is changed
-            
-            notes_with_hash = f"#{notes}" if notes else ""
-            prefix = BLOCKED_SYMBOL if is_already_blocked else ""
-            if user_data and notes_with_hash:
-                updated_line = f"{prefix}{username} {user_data} {notes_with_hash}"
-            elif user_data:
-                updated_line = f"{prefix}{username} {user_data}"
-            elif notes_with_hash:
-                updated_line = f"{prefix}{username} {notes_with_hash}"
-            else:
-                updated_line = f"{prefix}{username}"
-            updated_users.append(updated_line)
-        elif '---ub' in user_line:
-            any_commands_processed = True
-            username = extract_username_from_line(user_line)
-            user_data = extract_user_data_from_line(user_line)
-            raw_notes = extract_notes_from_line(user_line)
-            notes = clean_notes_command_tokens(raw_notes)
-            unblocked_users.add(username)
-            modified_users.add(username)
-            users_to_top.add(username)  # Move to top when unblocked
-            details = ""
-            # Let log_user_history handle adding the note
-            log_user_history(username, "unblocked", details)
-            if user_data and notes:
-                updated_line = f"{username} {user_data} #{notes}"
-            elif user_data:
-                updated_line = f"{username} {user_data}"
-            elif notes:
-                updated_line = f"{username} #{notes}"
-            else:
-                updated_line = username
-            updated_users.append(updated_line)
-        elif '---d' in user_line:
+        # 1. Delete command (---d)
+        if re.search(r'---d\b', user_line, re.IGNORECASE):
             any_commands_processed = True
             username = extract_username_from_line(user_line)
             deleted_users.add(username)
             log_user_history(username, "removed", "User deleted")
-        elif '---m' in user_line:
+            continue
+
+        # 2. Add user command (---m)
+        if re.search(r'---m\b', user_line, re.IGNORECASE):
             any_commands_processed = True
-            # Extract everything after ---m but before # (for notes)
-            command_part = user_line.split('---m')[1]
+            command_part = re.split(r'---m\b', user_line, flags=re.IGNORECASE)[1]
             if '#' in command_part:
                 notes_part = command_part.split('#')[1]
                 data_part = command_part.split('#')[0].strip()
@@ -1131,20 +1014,14 @@ def process_user_commands():
                 notes_part = ''
                 data_part = command_part.strip()
             
-            # If there's data after ---m, treat first word as username, rest as user_data
             if data_part:
                 parts = data_part.split()
                 username = parts[0] if parts else ''
                 user_data = ' '.join(parts[1:]) if len(parts) > 1 else ''
             else:
-                # No data after ---m, extract from before command (in case format is "username ---m")
                 username = extract_username_from_line(user_line)
                 user_data = extract_user_data_from_line(user_line)
             
-            raw_notes = notes_part.strip()
-            notes = clean_notes_command_tokens(raw_notes)
-            
-            # Auto-generate a unique username if none was provided (i.e. the line is just "---m" + optional note)
             if not username:
                 username = generate_unique_username("customer")
                 try:
@@ -1152,14 +1029,10 @@ def process_user_commands():
                 except UnicodeEncodeError:
                     print(f"[OK] Auto-generated username: {username}")
             
-            # Check if username already exists and generate a unique one if needed
             original_username = username
-            # Exclude the current line from duplicate check to avoid false positives
             existing_usernames = [extract_username_from_line(u) for u in users if u is not user_line]
             existing_updated_usernames = [extract_username_from_line(u) for u in updated_users]
-            # Also check against any new usernames from renames that happened earlier in this batch
             renamed_new_usernames = set(renamed_users.values())
-            # Also check against new_users that were already added in this batch
             existing_new_usernames = new_users.copy()
             
             if username in existing_updated_usernames or username in existing_usernames or username in renamed_new_usernames or username in existing_new_usernames:
@@ -1172,47 +1045,50 @@ def process_user_commands():
             
             new_users.add(username)
             details = user_data if user_data else ""
-            # Let log_user_history handle adding the note
             log_user_history(username, "added", details)
-            
-            # Create subscription file
             create_subscription_file(username)
             
-            # Add user to updated_users list
-            if user_data and notes:
-                updated_line = f"{username} {user_data} #{notes}"
+            custom_src = extract_custom_source_from_line(user_line)
+            custom_msg = extract_custom_message_from_line(user_line)
+            raw_notes = notes_part.strip()
+            notes = clean_notes_command_tokens(raw_notes, custom_msg=custom_msg, custom_src=custom_src)
+            if custom_src and custom_src.lower() not in ['default', 'none', 'reset', 'clear', 'off']:
+                notes = f"{notes} | src: {custom_src}" if notes else f"| src: {custom_src}"
+            if custom_msg and custom_msg.lower() not in ['default', 'none', 'reset', 'clear', 'off', 'del']:
+                notes = f"{notes} | msg: {custom_msg}" if notes else f"| msg: {custom_msg}"
+
+            notes_with_hash = f"#{notes}" if notes else ""
+            if user_data and notes_with_hash:
+                updated_line = f"{username} {user_data} {notes_with_hash}"
             elif user_data:
                 updated_line = f"{username} {user_data}"
-            elif notes:
-                updated_line = f"{username} #{notes}"
+            elif notes_with_hash:
+                updated_line = f"{username} {notes_with_hash}"
             else:
                 updated_line = username
             updated_users.append(updated_line)
-            
-            # Add to users_to_top to ensure it's moved to the top
             users_to_top.add(username)
-        elif '---r' in user_line:
+            continue
+
+        # 3. Rename command (---r)
+        if re.search(r'---r\b', user_line, re.IGNORECASE):
             any_commands_processed = True
             old_username = extract_username_from_line(user_line)
             user_data = extract_user_data_from_line(user_line)
             notes = extract_notes_from_line(user_line)
-            command_part = user_line.split('---r')[1]
+            command_part = re.split(r'---r\b', user_line, flags=re.IGNORECASE)[1]
             if '#' in command_part:
                 command_part = command_part.split('#')[0]
             new_username = command_part.strip().split()[0] if command_part.strip() else ''
             notes = clean_notes_command_tokens(extract_notes_from_line(user_line))
             if new_username and new_username != old_username:
-                # Check if target username already exists (in original list, updated list, renamed in this batch, or new users in this batch)
                 existing_usernames = [extract_username_from_line(u) for u in users]
                 existing_updated_usernames = [extract_username_from_line(u) for u in updated_users]
                 renamed_new_usernames = set(renamed_users.values())
-                # Also check if this user was already renamed in this batch (old_username might be a new name from earlier rename)
                 if old_username in renamed_users.values():
-                    # This user was already renamed, skip this rename
                     updated_users.append(user_line)
                     continue
                 
-                # If target username conflicts, generate a unique one
                 if new_username in existing_usernames or new_username in existing_updated_usernames or new_username in renamed_new_usernames or new_username in new_users:
                     original_new_username = new_username
                     new_username = generate_unique_username(new_username)
@@ -1223,15 +1099,11 @@ def process_user_commands():
                         print(f"[WARN] Rename target {original_new_username} already exists, using {new_username} instead")
                 renamed_users[old_username] = new_username
                 modified_users.add(old_username)
-                users_to_top.add(new_username)  # Move to top when renamed
-                # Will backup the new username after processing
+                users_to_top.add(new_username)
                 log_user_history(old_username, "renamed", f"to {new_username}")
                 symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
                 
-                # Rename subscription file - this might return a different username if there's a conflict
                 actual_new_username = rename_subscription_file(old_username, new_username)
-                
-                # If the username was changed due to a conflict, update our tracking
                 if actual_new_username != new_username:
                     new_username = actual_new_username
                     renamed_users[old_username] = new_username
@@ -1248,45 +1120,79 @@ def process_user_commands():
                 updated_users.append(updated_line)
             else:
                 updated_users.append(user_line)
-        elif '---es' in user_line:
+            continue
+
+        # 4. General Command Processor (Handles ---ub, ---b, ---msg, ---src, ---es individually or combined)
+        has_unblock = bool(re.search(r'---ub\b', user_line, re.IGNORECASE))
+        has_block = bool(re.search(r'---b\b', user_line, re.IGNORECASE))
+        has_msg = bool(re.search(r'---msg\b', user_line, re.IGNORECASE))
+        has_src = bool(re.search(r'---src\b', user_line, re.IGNORECASE))
+        has_es = bool(re.search(r'---es\b', user_line, re.IGNORECASE))
+
+        if has_unblock or has_block or has_msg or has_src or has_es:
             any_commands_processed = True
             username = extract_username_from_line(user_line)
-            notes = clean_notes_command_tokens(extract_notes_from_line(user_line))
             modified_users.add(username)
-            users_to_top.add(username)  # Move to top when expiry is set
-            parts = user_line.split('---es')
-            if len(parts) > 1:
-                time_part = parts[1]
-                if '#' in time_part:
-                    time_part = time_part.split('#')[0]
-                time_part = time_part.strip()
-                user_data_before = parts[0].replace(BLOCKED_SYMBOL, '').strip()
-                user_data_parts = user_data_before.split()
-                if user_data_parts:
-                    user_data_parts.pop(0)
-                    existing_data = ' '.join(user_data_parts)
-                    if '#' in existing_data:
-                        existing_data = existing_data.split('#')[0].strip()
-                else:
-                    existing_data = ''
-                target_datetime = parse_relative_datetime(time_part)
-                if target_datetime:
-                    formatted_expiry = format_expiry_datetime(target_datetime)
-                    log_user_history(username, "expiry_set", f"{formatted_expiry}")
-                    symbol = BLOCKED_SYMBOL if user_line.startswith(BLOCKED_SYMBOL) else ''
-                    if existing_data and notes:
-                        updated_line = f"{symbol}{username} {formatted_expiry} {existing_data} #{notes}"
-                    elif existing_data:
-                        updated_line = f"{symbol}{username} {formatted_expiry} {existing_data}"
-                    elif notes:
-                        updated_line = f"{symbol}{username} {formatted_expiry} #{notes}"
-                    else:
-                        updated_line = f"{symbol}{username} {formatted_expiry}"
-                    updated_users.append(updated_line)
-                else:
-                    updated_users.append(user_line)
+            users_to_top.add(username)
+
+            # Determine blocked status (---ub overrides ---b)
+            if has_unblock:
+                is_blocked = False
+                unblocked_users.add(username)
+                log_user_history(username, "unblocked", "")
+            elif has_block:
+                is_blocked = True
+                blocked_users.add(username)
             else:
-                updated_users.append(user_line)
+                is_blocked = user_line.startswith(BLOCKED_SYMBOL)
+                if is_blocked:
+                    blocked_users.add(username)
+
+            # Handle expiry (---es)
+            cleaned_line = user_line.split('---')[0].split('|')[0].strip()
+            user_data = extract_user_data_from_line(cleaned_line)
+            if has_es:
+                parts = re.split(r'---es\b', user_line, flags=re.IGNORECASE)
+                if len(parts) > 1:
+                    time_part = parts[1].split('#')[0].split('---')[0].strip()
+                    target_datetime = parse_relative_datetime(time_part)
+                    if target_datetime:
+                        formatted_expiry = format_expiry_datetime(target_datetime)
+                        log_user_history(username, "expiry_set", f"{formatted_expiry}")
+                        user_data = formatted_expiry
+
+            custom_msg = extract_custom_message_from_line(user_line)
+            custom_src = extract_custom_source_from_line(user_line)
+            raw_notes = extract_notes_from_line(user_line)
+            notes = clean_notes_command_tokens(raw_notes, custom_msg=custom_msg, custom_src=custom_src)
+
+            if is_blocked:
+                # Keep existing block date if not explicitly re-blocking
+                block_date_match = re.search(r'\|\s*blocked\s+(\d{4}-\d{2}-\d{2})', user_line, re.IGNORECASE)
+                block_date = block_date_match.group(1) if (block_date_match and not has_block) else get_iran_time().strftime("%Y-%m-%d")
+                date_note = f"| blocked {block_date}"
+                notes = f"{notes} {date_note}" if notes else date_note
+                if has_block:
+                    details = f"{date_note} | msg: {custom_msg}" if custom_msg else date_note
+                    log_user_history(username, "blocked", details)
+
+            if custom_src and custom_src.lower() not in ['default', 'none', 'reset', 'clear', 'off']:
+                notes = f"{notes} | src: {custom_src}" if notes else f"| src: {custom_src}"
+
+            if custom_msg and custom_msg.lower() not in ['default', 'none', 'reset', 'clear', 'off', 'del']:
+                notes = f"{notes} | msg: {custom_msg}" if notes else f"| msg: {custom_msg}"
+
+            prefix = BLOCKED_SYMBOL if is_blocked else ""
+            notes_with_hash = f"#{notes}" if notes else ""
+            if user_data and notes_with_hash:
+                updated_line = f"{prefix}{username} {user_data} {notes_with_hash}"
+            elif user_data:
+                updated_line = f"{prefix}{username} {user_data}"
+            elif notes_with_hash:
+                updated_line = f"{prefix}{username} {notes_with_hash}"
+            else:
+                updated_line = f"{prefix}{username}"
+            updated_users.append(updated_line)
         else:
             # Default: keep line as-is
             updated_users.append(user_line)
