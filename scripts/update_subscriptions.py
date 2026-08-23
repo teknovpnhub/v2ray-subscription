@@ -1045,6 +1045,7 @@ def process_user_commands():
             if is_already_blocked:
                 blocked_users.add(username)
             modified_users.add(username)
+            users_to_top.add(username)  # Move to top when message is changed
             
             notes_with_hash = f"#{notes}" if notes else ""
             prefix = BLOCKED_SYMBOL if is_already_blocked else ""
@@ -1076,6 +1077,7 @@ def process_user_commands():
             if is_already_blocked:
                 blocked_users.add(username)
             modified_users.add(username)
+            users_to_top.add(username)  # Move to top when source is changed
             
             notes_with_hash = f"#{notes}" if notes else ""
             prefix = BLOCKED_SYMBOL if is_already_blocked else ""
