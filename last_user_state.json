@@ -413,7 +413,7 @@
     "jafar": "jafar #| src: pt.configs.txt",
     "ehsan": "ehsan #404.8.3 | src: pt.configs.txt",
     "customer48": "customer48 #405.5.29",
-    "aaa.aaa": "aaa.aaa #40566 | src: warp.yaml",
+    "aaa.aaa": "aaa.aaa #40566 ---src pt.configs.txt | msg: کانفیگ تست",
     "customer47": "customer47 #405.5.28",
     "customer46": "customer46 #405.5.28",
     "customer45": "customer45 #405.5.27",
@@ -789,5 +789,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-24 01:04"
+  "timestamp": "2026-08-24 01:21"
 }

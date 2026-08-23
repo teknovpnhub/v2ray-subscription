@@ -1,3 +1,5 @@
+aaa.aaa | manual_delete | User manually removed [Note: 40566 ---src pt.configs.txt ---msg کانفیگ تست] | 2026-08-24 01:21
+
 hamed.ayubi | manual_change | Changes:
 - hamed.ayubi #405.5.11
 + hamed.ayubi #405.5.11 ---src pt.configs.txt [Note: 405.5.11 ---src pt.configs.txt] | 2026-08-23 13:48
@@ -105,8 +107,6 @@ aaa.aaa | manual_delete | User manually removed [Note: 40566] | 2026-08-17 05:13
 aaa.aaa | added | [Note: 40566] | 2026-08-17 05:10
 
 customer44 | added | [Note: 405.5.5] | 2026-08-16 12:01
-
-customer43 | added | [Note: 405.5.22] | 2026-08-13 20:07
 
 javad.golmohammadi | unblocked | [Note: 405.5.18 | blocked 2026-05-31] | 2026-08-09 19:52
 
