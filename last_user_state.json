@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer49",
     "customer15",
     "customer20",
     "r.khani",
@@ -393,6 +394,7 @@
     "mm"
   ],
   "lines": {
+    "customer49": "customer49 #405.6.1 | src: pt.configs.txt",
     "customer15": "🚫customer15 #405.4.8 | blocked 2026-08-23",
     "customer20": "🚫customer20 #405.4.14 | blocked 2026-08-23",
     "r.khani": "🚫r.khani #405.4.17 | blocked 2026-08-23",
@@ -785,5 +787,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-23 11:03"
+  "timestamp": "2026-08-23 11:34"
 }
