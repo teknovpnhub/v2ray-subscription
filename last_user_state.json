@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer50",
     "hamed.ayubi",
     "customer49",
     "customer15",
@@ -394,6 +395,7 @@
     "mm"
   ],
   "lines": {
+    "customer50": "customer50 #405.6.1 | src: pt.configs.txt",
     "hamed.ayubi": "hamed.ayubi #405.5.11 | src: pt.configs.txt",
     "customer49": "customer49 #405.6.1 | src: pt.configs.txt",
     "customer15": "🚫customer15 #405.4.8 | blocked 2026-08-23",
@@ -787,5 +789,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-23 19:56"
+  "timestamp": "2026-08-23 20:22"
 }
