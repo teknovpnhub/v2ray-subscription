@@ -560,6 +560,156 @@ def strip_custom_sources(note: str) -> str:
     cleaned = re.sub(r"\s*\|\s*(?:src|source)[:\s]+[^|#\n]+", "", note, flags=re.IGNORECASE)
     return cleaned.strip()
 
+EXTERNAL_CACHE_DIR = '.external_cache'
+
+def is_external_source(src: str) -> bool:
+    """Check if the source is an external URL, a .src.txt file, or contains URLs."""
+    if not src or not isinstance(src, str):
+        return False
+    src_clean = src.strip()
+    if src_clean.startswith(('http://', 'https://')):
+        return True
+    if src_clean.endswith(('.src.txt', '.src', '.sources.txt')) or src_clean.startswith('external'):
+        return True
+    if os.path.exists(src_clean):
+        try:
+            with open(src_clean, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line_s = line.strip()
+                    if line_s.startswith(('http://', 'https://')):
+                        return True
+        except Exception:
+            pass
+    return False
+
+def fetch_subscription_from_url(url: str, timeout: int = 15):
+    """Fetch subscription content from an external URL.
+    Returns (content, is_yaml).
+    Handles Base64, Clash YAML, and raw proxy links with local caching.
+    """
+    if not os.path.exists(EXTERNAL_CACHE_DIR):
+        os.makedirs(EXTERNAL_CACHE_DIR, exist_ok=True)
+    
+    import hashlib
+    url_hash = hashlib.md5(url.encode('utf-8')).hexdigest()
+    cache_path = os.path.join(EXTERNAL_CACHE_DIR, f"{url_hash}.cache")
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 ClashMeta/1.18.0 v2rayNG/1.8.12 Karing/1.0.0'
+    }
+
+    raw_text = None
+    try:
+        resp = requests.get(url, headers=headers, timeout=timeout)
+        if resp.status_code == 200 and resp.text.strip():
+            raw_text = resp.text.strip()
+            with open(cache_path, 'w', encoding='utf-8') as f:
+                f.write(raw_text)
+    except Exception as e:
+        print(f"⚠️ Network error fetching external URL {url}: {e}")
+
+    # Fallback to local cache if network request failed
+    if not raw_text and os.path.exists(cache_path):
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                raw_text = f.read().strip()
+            print(f"ℹ️ Loaded external subscription from cache for: {url}")
+        except Exception:
+            pass
+
+    if not raw_text:
+        return [], False
+
+    # 1. Check if raw_text is direct Clash/Mihomo YAML
+    try:
+        parsed_yaml = yaml.safe_load(raw_text)
+        if isinstance(parsed_yaml, dict) and ('proxies' in parsed_yaml or 'proxy-groups' in parsed_yaml):
+            return parsed_yaml, True
+    except Exception:
+        pass
+
+    # 2. Check if raw_text is Base64 encoded
+    content_to_parse = raw_text
+    try:
+        decoded_bytes = base64.b64decode(raw_text.encode('utf-8'), validate=False)
+        decoded_candidate = decoded_bytes.decode('utf-8', errors='ignore')
+        if any(proto in decoded_candidate for proto in ['vmess://', 'vless://', 'ss://', 'trojan://', 'tuic://', 'hysteria://', 'hysteria2://', 'wireguard://']):
+            content_to_parse = decoded_candidate
+    except Exception:
+        pass
+
+    # 3. Check again if decoded content is YAML
+    try:
+        parsed_yaml = yaml.safe_load(content_to_parse)
+        if isinstance(parsed_yaml, dict) and ('proxies' in parsed_yaml or 'proxy-groups' in parsed_yaml):
+            return parsed_yaml, True
+    except Exception:
+        pass
+
+    # 4. Parse as lines of server URLs
+    servers = []
+    for line in content_to_parse.splitlines():
+        line_clean = line.strip()
+        if not line_clean or line_clean.startswith('#'):
+            continue
+        if any(line_clean.startswith(p) for p in ['vless://', 'vmess://', 'ss://', 'trojan://', 'tuic://', 'hysteria://', 'hysteria2://', 'wireguard://', 'wg://', 'socks5://', 'http://', 'https://']):
+            servers.append(line_clean)
+        elif len(line_clean) > 10 and '://' in line_clean:
+            servers.append(line_clean)
+    
+    return servers, False
+
+def load_external_source(src: str):
+    """Load and combine servers from an external URL or an external source file (.src.txt).
+    Returns (content, is_yaml).
+    """
+    if not src:
+        return [], False
+    
+    src_clean = src.strip()
+    # If direct URL
+    if src_clean.startswith(('http://', 'https://')):
+        return fetch_subscription_from_url(src_clean)
+    
+    # If file containing URLs or server configs
+    if not os.path.exists(src_clean):
+        # Create empty template if it doesn't exist
+        with open(src_clean, 'w', encoding='utf-8') as f:
+            f.write("# Put your external subscription link(s) below:\n# https://provider.com/sub/token123\n")
+        return [], False
+    
+    urls = []
+    direct_servers = []
+    with open(src_clean, 'r', encoding='utf-8') as f:
+        for line in f:
+            line_clean = line.strip()
+            if not line_clean or line_clean.startswith('#'):
+                continue
+            if line_clean.startswith(('http://', 'https://')):
+                urls.append(line_clean)
+            elif any(line_clean.startswith(p) for p in ['vless://', 'vmess://', 'ss://', 'trojan://', 'tuic://', 'hysteria://', 'hysteria2://', 'wireguard://']):
+                direct_servers.append(line_clean)
+    
+    all_servers = list(direct_servers)
+    yaml_configs = []
+
+    for url in urls:
+        content, is_yaml = fetch_subscription_from_url(url)
+        if is_yaml and isinstance(content, dict):
+            yaml_configs.append(content)
+        elif isinstance(content, list):
+            all_servers.extend(content)
+    
+    if yaml_configs and not all_servers:
+        base_yaml = yaml_configs[0]
+        for extra_yaml in yaml_configs[1:]:
+            extra_proxies = extra_yaml.get('proxies', [])
+            if isinstance(extra_proxies, list):
+                base_yaml.setdefault('proxies', []).extend(extra_proxies)
+        return base_yaml, True
+    
+    return all_servers, False
+
 def parse_relative_datetime(relative_str):
     if not relative_str:
         return None
@@ -887,7 +1037,7 @@ def process_user_commands():
                 notes = re.sub(r'---msg\s*.*', '', notes, flags=re.IGNORECASE).strip()
             notes = strip_custom_messages(notes).strip()
             notes = ' '.join(notes.split())
-            if custom_msg:
+            if custom_msg and custom_msg.lower() not in ['default', 'none', 'reset', 'clear', 'off', 'del']:
                 notes = f"{notes} | msg: {custom_msg}" if notes else f"| msg: {custom_msg}"
             
             # If user was already blocked, keep block symbol
@@ -1750,7 +1900,11 @@ def get_control_panel_settings():
 
         # Server line
         filename_part = line_clean.split(':')[0].split('=')[0].split()[0] if line_clean else ''
-        if filename_part and ('.' in filename_part or os.path.exists(filename_part)):
+        if filename_part and ('.' in filename_part or os.path.exists(filename_part) or is_external_source(filename_part)):
+            # Check for delete command
+            if '---d' in line.lower() or '---del' in line.lower() or '---delete' in line.lower():
+                continue
+
             if filename_part not in found_server_files:
                 found_server_files.append(filename_part)
             
@@ -1767,11 +1921,7 @@ def get_control_panel_settings():
                     explicit_on_servers.append(filename_part)
 
     if not found_server_files:
-        found_server_files = default_servers
-    else:
-        for s in default_servers:
-            if s not in found_server_files and os.path.exists(s):
-                found_server_files.append(s)
+        found_server_files = [s for s in default_servers if os.path.exists(s)] or default_servers
 
     # Smart selection priority:
     # 1. Server explicitly newly set to ON / ---on (without having tick originally or with ---on)
@@ -1878,6 +2028,23 @@ def load_main_servers():
     """Load servers from the active server file specified in control_panel.txt."""
     active_file = get_active_server_file()
     
+    if is_external_source(active_file):
+        content, is_yaml = load_external_source(active_file)
+        if is_yaml and isinstance(content, dict):
+            count = len(content.get('proxies', [])) if isinstance(content.get('proxies'), list) else 0
+            try:
+                print(f"📡 Loading external YAML config from: {active_file} ({count} proxies)")
+            except UnicodeEncodeError:
+                print(f"Loading external YAML config from: {active_file} ({count} proxies)")
+            return content
+        else:
+            servers = content if isinstance(content, list) else []
+            try:
+                print(f"📡 Loading external servers from: {active_file} ({len(servers)} servers)")
+            except UnicodeEncodeError:
+                print(f"Loading external servers from: {active_file} ({len(servers)} servers)")
+            return servers
+
     if not os.path.exists(active_file):
         print(f"⚠️ Active server file {active_file} not found, using default {MAIN_FILE}")
         active_file = MAIN_FILE
@@ -1912,6 +2079,8 @@ def load_main_servers():
 def save_main_servers(servers):
     """Save servers to the active server file specified in control_panel.txt."""
     active_file = get_active_server_file()
+    if is_external_source(active_file):
+        return  # Preserve external URLs in .src.txt without overwriting with proxy strings
     if is_yaml_file(active_file):
         with open(active_file, 'w', encoding='utf-8') as f:
             yaml.dump(servers, f, sort_keys=False, allow_unicode=True)
@@ -2106,13 +2275,13 @@ def get_blocked_users_and_messages():
                     line = line.strip()
                     if not line or line.startswith('#'):
                         continue
-                    if line.startswith(BLOCKED_SYMBOL) or '---b' in line:
-                        username = extract_username_from_line(line)
-                        if username:
+                    username = extract_username_from_line(line)
+                    if username:
+                        if line.startswith(BLOCKED_SYMBOL) or '---b' in line:
                             blocked_users.add(username)
-                            msg = extract_custom_message_from_line(line)
-                            if msg:
-                                user_messages[username] = msg
+                        msg = extract_custom_message_from_line(line)
+                        if msg:
+                            user_messages[username] = msg
         except FileNotFoundError:
             pass
 
@@ -2289,21 +2458,25 @@ def update_all_subscriptions():
     process_user_commands()
     check_expired_users()
 
-    active_is_yaml = is_yaml_file(active_file)
-
     if not FAST_RUN:
         # Heavy maintenance tasks (hourly / scheduled)
         discover_new_subscriptions()
         
+        active_content = load_main_servers()
+        if is_external_source(active_file):
+            active_is_yaml = isinstance(active_content, dict)
+        else:
+            active_is_yaml = is_yaml_file(active_file)
+
         if active_is_yaml:
-            yaml_config = load_main_servers()
+            yaml_config = active_content
             if duplicates_enabled:
                 yaml_config = remove_yaml_duplicates(yaml_config)
             updated_yaml = update_yaml_remarks(yaml_config, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
             save_main_servers(updated_yaml)
             active_content = updated_yaml
         else:
-            current_servers = load_main_servers()
+            current_servers = active_content if isinstance(active_content, list) else []
             valid_servers = remove_duplicates(current_servers) if duplicates_enabled else current_servers
 
             # Update remarks
@@ -2313,6 +2486,10 @@ def update_all_subscriptions():
     else:
         # FAST_RUN → skip all heavy work, use current list as-is
         active_content = load_main_servers()
+        if is_external_source(active_file):
+            active_is_yaml = isinstance(active_content, dict)
+        else:
+            active_is_yaml = is_yaml_file(active_file)
 
     # Build / update subscription files for every user
     blocked_users, user_messages = get_blocked_users_and_messages()
@@ -2324,12 +2501,12 @@ def update_all_subscriptions():
     managed_users = load_user_list()
     managed_usernames = {extract_username_from_line(user) for user in managed_users}
 
-    # Map username -> custom source file if specified (e.g. servers1.txt, warp.yaml)
+    # Map username -> custom source file if specified (e.g. servers1.txt, warp.yaml, external.src.txt, https://...)
     user_custom_sources = {}
     for user_line in managed_users:
         uname = extract_username_from_line(user_line)
         src = extract_custom_source_from_line(user_line)
-        if src and os.path.exists(src):
+        if src and (os.path.exists(src) or is_external_source(src)):
             user_custom_sources[uname] = src
 
     # Pool content cache: source_file -> (content, is_yaml)
@@ -2340,6 +2517,29 @@ def update_all_subscriptions():
     def get_pool_content(src_file):
         if src_file in pool_cache:
             return pool_cache[src_file]
+        
+        if is_external_source(src_file):
+            try:
+                content, is_yaml = load_external_source(src_file)
+                if is_yaml and isinstance(content, dict):
+                    if not FAST_RUN:
+                        if duplicates_enabled:
+                            content = remove_yaml_duplicates(content)
+                        content = update_yaml_remarks(content, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+                    pool_cache[src_file] = (content, True)
+                    return content, True
+                else:
+                    servers = content if isinstance(content, list) else []
+                    if not FAST_RUN:
+                        if duplicates_enabled:
+                            servers = remove_duplicates(servers)
+                        servers = update_server_remarks(servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+                    pool_cache[src_file] = (servers, False)
+                    return servers, False
+            except Exception as e:
+                print(f"⚠️ Error loading external source {src_file}: {e}")
+                return active_content, active_is_yaml
+
         is_yaml = is_yaml_file(src_file)
         if is_yaml:
             try:
@@ -2403,8 +2603,12 @@ def update_all_subscriptions():
         is_blocked = should_block_user(username, blocked_users)
         subscription_path = os.path.join(subscription_dir, filename)
 
-        # Per-user custom message takes priority over global EXPIRED_MSG
-        user_msg = user_messages.get(username, expired_msg)
+        # Per-user custom message
+        has_custom_msg = username in user_messages and bool(user_messages[username])
+        custom_msg_text = user_messages.get(username, "").strip()
+
+        # For blocked users: use per-user message if present, otherwise global EXPIRED_MSG
+        blocked_msg = custom_msg_text if has_custom_msg else expired_msg
 
         # Check if user has a custom source file assigned
         user_src_file = user_custom_sources.get(username, active_file)
@@ -2412,9 +2616,11 @@ def update_all_subscriptions():
 
         if user_is_yaml:
             if is_blocked:
-                fake_yaml = get_fake_yaml_config(user_msg)
+                # Blocked user: deliver ONLY 1 fake proxy with the blocked notice
+                fake_yaml = get_fake_yaml_config(blocked_msg)
                 yaml_str = yaml.dump(fake_yaml, sort_keys=False, allow_unicode=True)
             else:
+                # Active user: deliver working proxies
                 final_yaml = user_content
                 if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0 and isinstance(user_content, dict):
                     final_yaml = dict(user_content)
@@ -2436,16 +2642,40 @@ def update_all_subscriptions():
                                 new_groups.append(group)
                         final_yaml['proxy-groups'] = new_groups
 
+                # Active user with custom message: inject banner fake proxy at top (index 0)
+                if has_custom_msg and isinstance(final_yaml, dict):
+                    final_yaml = dict(final_yaml)
+                    banner_proxy = {
+                        "name": custom_msg_text,
+                        "type": "vless",
+                        "server": "127.0.0.1",
+                        "port": 443,
+                        "uuid": "12345678-1234-1234-1234-123456789abc",
+                        "cipher": "auto",
+                        "udp": False,
+                        "tls": False
+                    }
+                    existing_proxies = list(final_yaml.get('proxies', []))
+                    final_yaml['proxies'] = [banner_proxy] + existing_proxies
+
                 yaml_str = yaml.dump(final_yaml, sort_keys=False, allow_unicode=True)
             with open(subscription_path, 'w', encoding='utf-8') as f:
                 f.write(yaml_str)
         else:
             if is_blocked:
-                servers_for_user = get_fake_servers(user_msg)
+                # Blocked user: deliver ONLY 1 fake server with the blocked notice
+                servers_for_user = get_fake_servers(blocked_msg)
             else:
-                servers_for_user = user_content if isinstance(user_content, list) else []
+                # Active user: deliver working servers
+                servers_for_user = list(user_content) if isinstance(user_content, list) else []
                 if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0:
                     servers_for_user = servers_for_user[:max_servers]
+                
+                # Active user with custom message: inject banner fake server at top (index 0)
+                if has_custom_msg:
+                    banner_server = f"vless://12345678-1234-1234-1234-123456789abc@127.0.0.1:443?encryption=none&security=tls&type=ws&path=%2F#{custom_msg_text}"
+                    servers_for_user = [banner_server] + servers_for_user
+
             with open(subscription_path, 'w', encoding='utf-8') as f:
                 subscription_content = '\n'.join(servers_for_user)
                 encoded_content = base64.b64encode(subscription_content.encode('utf-8')).decode('utf-8')
