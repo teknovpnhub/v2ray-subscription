@@ -1,3 +1,47 @@
+customer16 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
+
+customer15 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
+
+customer14 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
+
+customer17 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
+
+customer18 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
+
+customer19 | blocked | | blocked 2026-08-23 [Note: 405.4.9] | 2026-08-23 10:51
+
+narimani | blocked | | blocked 2026-08-23 [Note: 405.4.9] | 2026-08-23 10:51
+
+customer20 | blocked | | blocked 2026-08-23 [Note: 405.4.14] | 2026-08-23 10:51
+
+customer21 | blocked | | blocked 2026-08-23 [Note: 405.4.15] | 2026-08-23 10:51
+
+r.khani | blocked | | blocked 2026-08-23 [Note: 405.4.17] | 2026-08-23 10:51
+
+s.asgarzade | blocked | | blocked 2026-08-23 [Note: 405.4.20] | 2026-08-23 10:51
+
+customer15 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
+
+customer20 | manual_delete | User manually removed [Note: 405.4.14] | 2026-08-23 10:51
+
+r.khani | manual_delete | User manually removed [Note: 405.4.17] | 2026-08-23 10:51
+
+narimani | manual_delete | User manually removed [Note: 405.4.9] | 2026-08-23 10:51
+
+customer16 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
+
+customer17 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
+
+customer21 | manual_delete | User manually removed [Note: 405.4.15] | 2026-08-23 10:51
+
+s.asgarzade | manual_delete | User manually removed [Note: 405.4.20] | 2026-08-23 10:51
+
+customer18 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
+
+customer14 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
+
+customer19 | manual_delete | User manually removed [Note: 405.4.9] | 2026-08-23 10:51
+
 meysam.bampuri | manual_change | Changes:
 - meysam.bampuri #405.5.11
 + meysam.bampuri ---src pt.configs.txt #405.5.11 [Note: 405.5.11] | 2026-08-22 19:47
