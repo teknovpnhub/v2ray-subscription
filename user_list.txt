@@ -29,7 +29,7 @@ aydin.javani #404.5.14
 ramin.tankhahi #404.5.14
 customer38 #405.5.12
 z.pourmohammad #405.5.12
-hamed.ayubi #405.5.11
+hamed.ayubi #405.5.11 ---src pt.configs.txt
 hadi.ganbarpur #405.5.11
 customer37 #405.5.11
 customer13 #405.5.10
