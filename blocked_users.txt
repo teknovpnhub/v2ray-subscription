@@ -1,4 +1,4 @@
-aaa.aaa #40566 sg به دلیل عدم پرداخت هزینه سرویس شما قطع شد | blocked 2026-08-24 | msg: به دلیل عدم پرداخت هزینه سرویس شما قطع شد
+aaa.aaa #40566 | src: external.src.txt
 customer15 #405.4.8 | blocked 2026-08-23
 customer20 #405.4.14 | blocked 2026-08-23
 r.khani #405.4.17 | blocked 2026-08-23
