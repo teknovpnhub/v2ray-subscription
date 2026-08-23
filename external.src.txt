@@ -1,0 +1,4 @@
+# === EXTERNAL SUBSCRIPTION SOURCES ===
+# Paste your external subscription links (one per line) below:
+# Example:
+# https://upstream-provider.com/sub/your-token-here
