@@ -57,22 +57,22 @@ customer23 #405.4.21
 customer22 #405.4.20
 ruyin #405.4.20
 javadi #405.4.20
-s.asgarzade #405.4.20
+s.asgarzade ---b #405.4.20
 🚫t.maaleki2 #405.3.10 | blocked 2026-07-11
-r.khani #405.4.17
-customer21 #405.4.15
-customer20 #405.4.14
+r.khani ---b #405.4.17
+customer21 ---b #405.4.15
+customer20 ---b #405.4.14
 🚫hadi.nariman #404.6.17 | blocked 2026-07-04
 🚫peyman #404.7.13 | blocked 2026-07-04
 🚫mansur #404.6.13 | blocked 2026-07-04
 🚫a.reza #404.7.16 | blocked 2026-07-04
-narimani #405.4.9
-customer19 #405.4.9
-customer18 #405.4.8
-customer17 #405.4.8
-customer14 #405.4.8
-customer15 #405.4.8
-customer16 #405.4.8
+narimani ---b #405.4.9
+customer19 ---b #405.4.9
+customer18  ---b #405.4.8
+customer17 ---b #405.4.8
+customer14  ---b #405.4.8
+customer15  ---b #405.4.8
+customer16 ---b #405.4.8
 🚫customer10 #405.4.1 | blocked 2026-06-22
 🚫alrostam #405.3.27 | blocked 2026-06-17
 sajjad.mehdizade #405.3.10
