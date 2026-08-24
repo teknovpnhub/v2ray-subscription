@@ -1,3 +1,9 @@
+aaa.aaa | manual_change | Changes:
+- aaa.aaa #| msg: سلام کفین؟
++ aaa.aaa | 2026-08-25 02:49
+
+ehsan | manual_delete | User manually removed [Note: 404.8.3 ---msg گوت گده] | 2026-08-25 02:49
+
 aaa.aaa | manual_delete | User manually removed | 2026-08-25 00:01
 
 customer52 | manual_delete | User manually removed [Note: 405.6.2 ---src pt.configs.txt] | 2026-08-24 18:54
