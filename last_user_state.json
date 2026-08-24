@@ -1,7 +1,7 @@
 {
   "usernames": [
-    "customer52",
     "aaa.aaa",
+    "customer52",
     "customer51",
     "ehsan",
     "customer50",
@@ -397,8 +397,8 @@
     "mm"
   ],
   "lines": {
+    "aaa.aaa": "aaa.aaa #| msg: سلام کفین؟",
     "customer52": "customer52 #405.6.2 | src: pt.configs.txt",
-    "aaa.aaa": "aaa.aaa",
     "customer51": "customer51 #405.6.2 | src: pt.configs.txt",
     "ehsan": "ehsan #404.8.3",
     "customer50": "customer50 #405.6.1 | src: pt.configs.txt",
@@ -793,5 +793,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-24 23:45"
+  "timestamp": "2026-08-25 00:01"
 }
