@@ -1,3 +1,5 @@
+aaa.aaa | manual_delete | User manually removed [Note: 40566 ---src pt.configs.txt] | 2026-08-24 03:51
+
 aaa.aaa | manual_change | Changes:
 - 🚫aaa.aaa #40566 | src: external.src.txt
 ? -
