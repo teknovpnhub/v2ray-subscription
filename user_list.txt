@@ -15,7 +15,7 @@ customer49 #405.6.1 | src: pt.configs.txt
 🚫customer19 #405.4.9 | blocked 2026-08-23
 meysam.bampuri #405.5.11 | src: pt.configs.txt
 jafar #| src: pt.configs.txt
-ehsan #404.8.3 | src: pt.configs.txt
+ehsan #404.8.3 | src: pt.configs.txt ---msg احسان سنع سومون آلم
 customer48 #405.5.29
 customer47 #405.5.28
 customer46 #405.5.28
