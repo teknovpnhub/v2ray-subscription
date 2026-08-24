@@ -1,7 +1,7 @@
-aaa.aaa #| msg: سلام کفین؟
+aaa.aaa
 customer52 #405.6.2 | src: pt.configs.txt
 customer51 #405.6.2 | src: pt.configs.txt
-ehsan #404.8.3
+ehsan #404.8.3 ---msg گوت گده
 customer50 #405.6.1 | src: pt.configs.txt
 hamed.ayubi #405.5.11 | src: pt.configs.txt
 customer49 #405.6.1 | src: pt.configs.txt
