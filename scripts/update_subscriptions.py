@@ -1943,8 +1943,13 @@ def load_main_servers():
             return servers
 
     if not os.path.exists(active_file):
-        print(f"⚠️ Active server file {active_file} not found, using default {MAIN_FILE}")
-        active_file = MAIN_FILE
+        if os.path.exists(f"{active_file}.txt"):
+            active_file = f"{active_file}.txt"
+        elif active_file.endswith('.txt') and os.path.exists(active_file[:-4]):
+            active_file = active_file[:-4]
+        else:
+            print(f"⚠️ Active server file {active_file} not found, using default {MAIN_FILE}")
+            active_file = MAIN_FILE
     
     if not os.path.exists(active_file):
         return {} if is_yaml_file(active_file) else []
@@ -2437,10 +2442,17 @@ def update_all_subscriptions():
                 print(f"⚠️ Error loading external source {src_file}: {e}")
                 return active_content, active_is_yaml
 
-        is_yaml = is_yaml_file(src_file)
+        actual_file = src_file
+        if not os.path.exists(actual_file):
+            if os.path.exists(f"{actual_file}.txt"):
+                actual_file = f"{actual_file}.txt"
+            elif actual_file.endswith('.txt') and os.path.exists(actual_file[:-4]):
+                actual_file = actual_file[:-4]
+
+        is_yaml = is_yaml_file(actual_file)
         if is_yaml:
             try:
-                with open(src_file, 'r', encoding='utf-8') as f:
+                with open(actual_file, 'r', encoding='utf-8') as f:
                     data = yaml.safe_load(f)
                 if not isinstance(data, dict):
                     data = {}
@@ -2448,27 +2460,27 @@ def update_all_subscriptions():
                     if duplicates_enabled:
                         data = remove_yaml_duplicates(data)
                     data = update_yaml_remarks(data, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
-                    with open(src_file, 'w', encoding='utf-8') as f:
+                    with open(actual_file, 'w', encoding='utf-8') as f:
                         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
                 pool_cache[src_file] = (data, True)
                 return data, True
             except Exception as e:
-                print(f"⚠️ Error loading custom YAML {src_file}: {e}")
+                print(f"⚠️ Error loading custom YAML {actual_file}: {e}")
                 return active_content, active_is_yaml
         else:
             try:
-                with open(src_file, 'r', encoding='utf-8') as f:
+                with open(actual_file, 'r', encoding='utf-8') as f:
                     servers = [line.strip() for line in f if line.strip()]
                 if not FAST_RUN:
                     if duplicates_enabled:
                         servers = remove_duplicates(servers)
                     servers = update_server_remarks(servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
-                    with open(src_file, 'w', encoding='utf-8') as f:
+                    with open(actual_file, 'w', encoding='utf-8') as f:
                         f.write('\n'.join(servers) + '\n')
                 pool_cache[src_file] = (servers, False)
                 return servers, False
             except Exception as e:
-                print(f"⚠️ Error loading custom source {src_file}: {e}")
+                print(f"⚠️ Error loading custom source {actual_file}: {e}")
                 return active_content, active_is_yaml
     
     # First, ensure subscription files exist for all managed users
