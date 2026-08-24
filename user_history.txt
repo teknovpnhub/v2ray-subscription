@@ -1,3 +1,5 @@
+ehsan | manual_delete | User manually removed [Note: 404.8.3 | src: pt.configs.txt ---msg احسان سنع سومون آلم | msg: احسان سنع سومون آلم] | 2026-08-24 04:51
+
 ehsan | manual_delete | User manually removed [Note: 404.8.3 | src: pt.configs.txt ---msg احسان سنع سومون آلم] | 2026-08-24 04:02
 
 aaa.aaa | manual_delete | User manually removed [Note: 40566 ---src pt.configs.txt] | 2026-08-24 03:51
