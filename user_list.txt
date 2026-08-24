@@ -1,4 +1,4 @@
-aaa.aaa #40566 | src: external.src.txt
+aaa.aaa #40566 ---src pt.configs.txt
 customer50 #405.6.1 | src: pt.configs.txt
 hamed.ayubi #405.5.11 | src: pt.configs.txt
 customer49 #405.6.1 | src: pt.configs.txt
