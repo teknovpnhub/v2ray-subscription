@@ -519,12 +519,12 @@ def extract_custom_message_from_line(line: str) -> str:
     if '---msg' in line.lower():
         parts = re.split(r'---msg\s*', line, flags=re.IGNORECASE)
         if len(parts) > 1:
-            msg_part = parts[1].split('---')[0].strip()
+            msg_part = parts[1].split('---')[0].split('|')[0].strip()
             if msg_part:
                 return msg_part
     match = re.search(r'\|\s*(?:msg|message|پیام|دلیل)[:\s]+([^|#\n]+)', line, re.IGNORECASE)
     if match:
-        msg_val = match.group(1).strip()
+        msg_val = match.group(1).split('---')[0].strip()
         if msg_val:
             return msg_val
     return ""
@@ -533,7 +533,7 @@ def strip_custom_messages(note: str) -> str:
     """Remove all occurrences of '| msg: ...' from a note string."""
     if not note:
         return note
-    cleaned = re.sub(r"\s*\|\s*(?:msg|message|پیام|دلیل)[:\s]+[^|#\n]+", "", note, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*\|\s*(?:msg|message|پیام|دلیل)[:\s]+[^|#\n]*", "", note, flags=re.IGNORECASE)
     return cleaned.strip()
 
 def extract_custom_source_from_line(line: str) -> str:
@@ -545,26 +545,29 @@ def extract_custom_source_from_line(line: str) -> str:
         if len(parts) > 1:
             src_part = parts[1].split('---')[0].split('#')[0].split('|')[0].strip()
             if src_part:
-                return src_part
+                return src_part.split()[0]
     match = re.search(r'\|\s*(?:src|source)[:\s]+([^|#\n]+)', line, re.IGNORECASE)
     if match:
-        src_val = match.group(1).strip()
+        src_val = match.group(1).split('---')[0].strip()
         if src_val:
-            return src_val
+            return src_val.split()[0]
     return ""
 
 def strip_custom_sources(note: str) -> str:
     """Remove all occurrences of '| src: ...' from a note string."""
     if not note:
         return note
-    cleaned = re.sub(r"\s*\|\s*(?:src|source)[:\s]+[^|#\n]+", "", note, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*\|\s*(?:src|source)[:\s]+[^|#\n]*", "", note, flags=re.IGNORECASE)
     return cleaned.strip()
 
 def clean_notes_command_tokens(raw_notes: str, custom_msg: str = "", custom_src: str = "") -> str:
     """Safely strip all command flags (---b, ---ub, ---d, ---m, ---r, ---es, ---msg, ---src) and their inline arguments."""
     if not raw_notes:
         return ""
-    cleaned = re.sub(r'---msg\s*.*', '', raw_notes, flags=re.IGNORECASE)
+    cleaned = strip_custom_messages(raw_notes)
+    cleaned = strip_custom_sources(cleaned)
+    cleaned = re.sub(r'\s*\|\s*blocked\s+\d{4}-\d{2}-\d{2}', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'---msg\s+[^|#\n]*', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'---src\s+\S+', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'---es\s+\S+', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'---r\s+\S+', '', cleaned, flags=re.IGNORECASE)
@@ -574,9 +577,7 @@ def clean_notes_command_tokens(raw_notes: str, custom_msg: str = "", custom_src:
         cleaned = re.sub(re.escape(custom_msg), '', cleaned)
     if custom_src:
         cleaned = re.sub(re.escape(custom_src), '', cleaned)
-    cleaned = strip_custom_messages(cleaned)
-    cleaned = strip_custom_sources(cleaned)
-    cleaned = strip_block_dates(cleaned)
+    cleaned = re.sub(r'\|\s*$', '', cleaned)
     return ' '.join(cleaned.split()).strip()
 
 EXTERNAL_CACHE_DIR = '.external_cache'
@@ -1006,21 +1007,11 @@ def process_user_commands():
         # 2. Add user command (---m)
         if re.search(r'---m\b', user_line, re.IGNORECASE):
             any_commands_processed = True
-            command_part = re.split(r'---m\b', user_line, flags=re.IGNORECASE)[1]
-            if '#' in command_part:
-                notes_part = command_part.split('#')[1]
-                data_part = command_part.split('#')[0].strip()
-            else:
-                notes_part = ''
-                data_part = command_part.strip()
-            
-            if data_part:
-                parts = data_part.split()
-                username = parts[0] if parts else ''
-                user_data = ' '.join(parts[1:]) if len(parts) > 1 else ''
-            else:
-                username = extract_username_from_line(user_line)
-                user_data = extract_user_data_from_line(user_line)
+            line_without_m = re.sub(r'---m\b', '', user_line, flags=re.IGNORECASE).strip()
+            username = extract_username_from_line(line_without_m)
+            cleaned_line = line_without_m.split('---')[0].split('|')[0].strip()
+            user_data = extract_user_data_from_line(cleaned_line)
+            raw_notes = extract_notes_from_line(line_without_m)
             
             if not username:
                 username = generate_unique_username("customer")
@@ -1048,9 +1039,19 @@ def process_user_commands():
             log_user_history(username, "added", details)
             create_subscription_file(username)
             
+            # Check for expiry on new user (---es)
+            if re.search(r'---es\b', user_line, re.IGNORECASE):
+                parts = re.split(r'---es\b', user_line, flags=re.IGNORECASE)
+                if len(parts) > 1:
+                    time_part = parts[1].split('#')[0].split('---')[0].strip()
+                    target_datetime = parse_relative_datetime(time_part)
+                    if target_datetime:
+                        formatted_expiry = format_expiry_datetime(target_datetime)
+                        log_user_history(username, "expiry_set", f"{formatted_expiry}")
+                        user_data = formatted_expiry
+
             custom_src = extract_custom_source_from_line(user_line)
             custom_msg = extract_custom_message_from_line(user_line)
-            raw_notes = notes_part.strip()
             notes = clean_notes_command_tokens(raw_notes, custom_msg=custom_msg, custom_src=custom_src)
             if custom_src and custom_src.lower() not in ['default', 'none', 'reset', 'clear', 'off']:
                 notes = f"{notes} | src: {custom_src}" if notes else f"| src: {custom_src}"
