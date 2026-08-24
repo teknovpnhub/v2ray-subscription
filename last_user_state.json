@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer52",
     "aaa.aaa",
     "customer51",
     "ehsan",
@@ -396,6 +397,7 @@
     "mm"
   ],
   "lines": {
+    "customer52": "customer52 #405.6.2 | src: pt.configs.txt",
     "aaa.aaa": "aaa.aaa",
     "customer51": "customer51 #405.6.2 | src: pt.configs.txt",
     "ehsan": "ehsan #404.8.3",
@@ -791,5 +793,5 @@
     "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-24 18:12"
+  "timestamp": "2026-08-24 18:52"
 }
