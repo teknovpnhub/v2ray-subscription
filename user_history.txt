@@ -1,3 +1,5 @@
+ehsan | manual_delete | User manually removed [Note: 404.8.3] | 2026-08-25 11:22
+
 ehsan | manual_change | Changes:
 - ehsan #404.8.3 | msg: گوت گده
 + ehsan #404.8.3 [Note: 404.8.3] | 2026-08-25 10:17
