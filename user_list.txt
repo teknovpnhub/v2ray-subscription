@@ -79,7 +79,7 @@ javadi #405.4.20
 🚫hadi.nariman #404.6.17 | blocked 2026-07-04
 🚫peyman #404.7.13 | blocked 2026-07-04
 🚫mansur #404.6.13 | blocked 2026-07-04
-🚫a.reza #404.7.16 | blocked 2026-07-04
+🚫a.reza #404.7.16 ---src pt.configs.txt
 🚫customer10 #405.4.1 | blocked 2026-06-22
 🚫alrostam #405.3.27 | blocked 2026-06-17
 sajjad.mehdizade #405.3.10
