@@ -1,3 +1,5 @@
+vahid | manual_delete | User manually removed | 2026-08-26 11:58
+
 a.reza | unblocked | [Note: 404.7.16 | blocked 2026-08-26 | src: pt.configs.txt] | 2026-08-26 11:28
 
 a.reza | manual_delete | User manually removed [Note: 404.7.16 | blocked 2026-08-26 | src: pt.configs.txt] | 2026-08-26 11:28

@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "vahid",
     "a.reza",
     "customer55",
     "customer54",
@@ -396,10 +397,10 @@
     "hadizade",
     "siami",
     "azmun",
-    "vahid",
     "mm"
   ],
   "lines": {
+    "vahid": "vahid #| src: pt.configs.txt",
     "a.reza": "a.reza #404.7.16 | src: pt.configs.txt",
     "customer55": "customer55 #405.6.3 | src: pt.configs.txt",
     "customer54": "customer54 #405.6.3 | src: pt.configs.txt",
@@ -796,8 +797,7 @@
     "hadizade": "🚫hadizade #404.4.16 | blocked 2025-08-12",
     "siami": "🚫siami #404.4.22 | blocked 2025-07-23",
     "azmun": "azmun #404.4.29",
-    "vahid": "vahid",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-26 11:28"
+  "timestamp": "2026-08-26 11:58"
 }
