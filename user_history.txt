@@ -1,3 +1,5 @@
+a.reza | manual_delete | User manually removed [Note: 404.7.16 ---src pt.configs.txt] | 2026-08-26 11:25
+
 customer55 | added | [Note: 405.6.3 ---src pt.configs.txt] | 2026-08-25 19:59
 
 customer54 | manual_change | Changes:
