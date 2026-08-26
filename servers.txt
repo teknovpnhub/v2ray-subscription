@@ -154,7 +154,7 @@ ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@141.164.45.187:2376#Server 153 🇰�
 trojan://BxceQaOe@119.246.1.143:443?allowInsecure=1#Server 154 🇭🇰
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206Smxia21CdURJUnUrcWdza2xHMVhlZz09OkhIVEpZVHAxdGhoZFVaYkpNN25Fc2c9PQ==@Shada.Sav-savteAm.iR:2012#Server 155 🇩🇪
 vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@104.16.72.41:80?path=/http&security=none&encryption=none&host=de.vpnbase.net&type=ws#Server 156 🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJlMmI=@r3mrcg001287h3p.cybervena.com:50099#Server 157
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJlMmI=@r3mrcg001287h3p.cybervena.com:50099#Server 157 🇹🇼
 vless://1b3ad465-d37e-48a2-bb53-d7fddfc97b11@millionaire.levikogjgfdd.ir:8880?path=%2Fpyip&security=&encryption=none&host=calm-silence-d4a1.217.workers.dev&type=ws#Server 158
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7002#Server 159 🇰🇷
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@141.164.45.187:8008#Server 160 🇰🇷
