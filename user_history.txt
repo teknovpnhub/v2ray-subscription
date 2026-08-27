@@ -1,4 +1,6 @@
- | renamed | to customer56 [Note: 405.6.5 ---src pt.configs.txt] | 2026-08-27 19:48
+customer56 | expiry_set | 2026-08-28 23:59 expires [Note: 405.6.5 ---es 1d ---src pt.configs.txt] | 2026-08-27 19:49
+
+customer56 | manual_delete | User manually removed [Note: 405.6.5 ---es 1d ---src pt.configs.txt] | 2026-08-27 19:49
 
 customer551 | manual_delete | User manually removed | 2026-08-27 19:48
 
