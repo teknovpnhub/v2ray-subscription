@@ -1,3 +1,11 @@
+customer56 | blocked | | blocked 2026-08-29 [Note: 405.6.5 | src: pt.configs.txt] | 2026-08-29 02:10
+
+customer551 | renamed | to testtest | 2026-08-29 02:10
+
+customer551 | manual_delete | User manually removed | 2026-08-29 02:10
+
+customer56 | manual_delete | User manually removed [Note: 405.6.5 | src: pt.configs.txt] | 2026-08-29 02:10
+
 customer551 | manual_add | Line: customer551 | 2026-08-28 16:19
 
 customer551 | added |  | 2026-08-28 04:49
@@ -191,14 +199,6 @@ aaa.aaa | manual_delete | User manually removed [Note: 40566 | blocked 2026-08-1
 customer47 | added | [Note: 405.5.28] | 2026-08-19 20:07
 
 customer46 | added | [Note: 405.5.28] | 2026-08-19 18:15
-
-customer45 | added | [Note: 405.5.27] | 2026-08-18 12:54
-
-customer44 | manual_change | Changes:
-- customer44 #405.5.5
-+ customer44 #405.5.25
-?                   +
- [Note: 405.5.25] | 2026-08-18 12:54
 
 javad.golmohammadi | unblocked | [Note: 405.5.18 | blocked 2026-05-31] | 2026-08-09 19:52
 

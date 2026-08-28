@@ -1,6 +1,6 @@
 {
   "usernames": [
-    "customer551",
+    "testtest",
     "customer56",
     "vahid",
     "a.reza",
@@ -402,8 +402,8 @@
     "mm"
   ],
   "lines": {
-    "customer551": "customer551",
-    "customer56": "customer56 2026-08-28 23:59 expires #405.6.5 | src: pt.configs.txt",
+    "testtest": "testtest",
+    "customer56": "🚫customer56 #405.6.5 | blocked 2026-08-29 | src: pt.configs.txt",
     "vahid": "vahid #| src: pt.configs.txt",
     "a.reza": "a.reza #404.7.16 | src: pt.configs.txt",
     "customer55": "customer55 #405.6.3 | src: pt.configs.txt",
@@ -803,5 +803,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-28 17:25"
+  "timestamp": "2026-08-29 02:10"
 }
