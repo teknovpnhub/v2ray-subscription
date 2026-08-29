@@ -1,3 +1,5 @@
+hadi.mohammadi | manual_delete | User manually removed [Note: 405.6.7] | 2026-08-29 13:06
+
 customer57 | added | [Note: 405.6.7 ---m ---src pt.configs.txt] | 2026-08-29 12:48
 
 ruyin | manual_delete | User manually removed [Note: 405.4.20 ---src pt.configs.txt] | 2026-08-29 10:49
