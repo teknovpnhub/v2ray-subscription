@@ -1,4 +1,3 @@
-testtest #| blocked 2026-08-29 | src: pt.configs.txt
 customer56 #405.6.5 | blocked 2026-08-29 | src: pt.configs.txt
 customer15 #405.4.8 | blocked 2026-08-23
 customer20 #405.4.14 | blocked 2026-08-23
