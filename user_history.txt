@@ -1,3 +1,5 @@
+ruyin | manual_delete | User manually removed [Note: 405.4.20 ---src pt.configs.txt] | 2026-08-29 10:49
+
 aaa.aaa | blocked | | blocked 2026-08-29 | 2026-08-29 03:46
 
 aaa.aaa | manual_delete | User manually removed | 2026-08-29 03:46
