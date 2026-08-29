@@ -77,7 +77,7 @@ amin.mafi #405.5.22
 akram.hajalilu #405.4.22
 customer23 #405.4.21
 customer22 #405.4.20
-ruyin #405.4.20
+ruyin #405.4.20 ---src pt.configs.txt
 javadi #405.4.20
 🚫t.maaleki2 #405.3.10 | blocked 2026-07-11
 🚫hadi.nariman #404.6.17 | blocked 2026-07-04
