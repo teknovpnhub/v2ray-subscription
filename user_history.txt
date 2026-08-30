@@ -1,3 +1,7 @@
+testtest | unblocked | [Note: | blocked 2026-08-30 | src: pt.configs.txt] | 2026-08-30 13:01
+
+testtest | manual_delete | User manually removed [Note: | blocked 2026-08-30 | src: pt.configs.txt] | 2026-08-30 13:01
+
 testtest | blocked | | blocked 2026-08-30 [Note: | src: pt.configs.txt] | 2026-08-30 12:56
 
 testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-08-30 12:56
