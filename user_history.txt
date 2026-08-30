@@ -1,3 +1,7 @@
+testtest | blocked | | blocked 2026-08-31 [Note: | src: pt.configs.txt] | 2026-08-31 02:58
+
+testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-08-31 02:58
+
 customer59 | added | [Note: 405.6.8 ---src pt.configs.txt] | 2026-08-30 18:43
 
 customer58 | added | [Note: 405.6.8 ---src pt.configs.txt] | 2026-08-30 18:30
@@ -233,8 +237,6 @@ customer49 | added | [Note: 405.5.31] | 2026-08-22 12:21
 ehsan | manual_change | Changes:
 - ehsan #404.8.3
 + ehsan #404.8.3 ---src pt.configs [Note: 404.8.3 ---src pt.configs] | 2026-08-22 11:03
-
-customer48 | added | [Note: 405.5.29] | 2026-08-20 11:49
 
 aaa.aaa | manual_change | Changes:
 - aaa.aaa #40566 | src: servers1.txt
