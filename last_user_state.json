@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer59",
     "customer58",
     "testtest",
     "hasan.rasuli",
@@ -404,6 +405,7 @@
     "mm"
   ],
   "lines": {
+    "customer59": "customer59 #405.6.8 | src: pt.configs.txt",
     "customer58": "customer58 #405.6.8 | src: pt.configs.txt",
     "testtest": "testtest #| src: pt.configs.txt",
     "hasan.rasuli": "hasan.rasuli #405.6.7 | src: pt.configs.txt",
