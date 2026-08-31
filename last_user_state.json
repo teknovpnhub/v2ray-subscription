@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer43",
     "customer61",
     "customer60",
     "alrostam",
@@ -41,7 +42,6 @@
     "customer46",
     "customer45",
     "customer44",
-    "customer43",
     "javad.golmohammadi",
     "customer42",
     "customer41",
@@ -407,6 +407,7 @@
     "mm"
   ],
   "lines": {
+    "customer43": "customer43 #405.5.22 | src: pt.configs.txt",
     "customer61": "customer61 #405.6.9 | src: pt.configs.txt",
     "customer60": "customer60 #405.6.9 | src: pt.configs.txt",
     "alrostam": "alrostam #405.6.9 | src: pt.configs.txt",
@@ -448,7 +449,6 @@
     "customer46": "customer46 #405.5.28",
     "customer45": "customer45 #405.5.27",
     "customer44": "customer44 #405.5.25",
-    "customer43": "customer43 #405.5.22",
     "javad.golmohammadi": "javad.golmohammadi #405.5.18",
     "customer42": "customer42 #405.5.18",
     "customer41": "customer41 #405.5.18",
@@ -813,5 +813,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-08-31 19:25"
+  "timestamp": "2026-08-31 19:44"
 }
