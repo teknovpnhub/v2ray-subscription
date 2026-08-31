@@ -22,7 +22,6 @@ hadi.nariman #404.6.17 | blocked 2026-07-04
 peyman #404.7.13 | blocked 2026-07-04
 mansur #404.6.13 | blocked 2026-07-04
 customer10 #405.4.1 | blocked 2026-06-22
-alrostam #405.3.27 | blocked 2026-06-17
 robab.valizade #404.10.7 | blocked 2026-05-31
 s.khezri #404.10.6 | blocked 2026-05-31
 matin.bargi #404.10.11 | blocked 2026-05-31
