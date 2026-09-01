@@ -79,21 +79,21 @@ customer27 #405.4.29
 customer26 #405.4.29
 alireza.gareahmadi #405.3.23
 customer25 #405.4.28
-customer24 #405.4.24
-fazlalizade #405.4.24
+customer24 ---b #405.4.24
+fazlalizade ---b #405.4.24
 vahid.behruz
-amir.abdeli #405.4.23
-amin.mafi #405.5.22
-akram.hajalilu #405.4.22
-customer23 #405.4.21
-customer22 #405.4.20
-javadi #405.4.20
+amir.abdeli ---b #405.4.23
+amin.mafi ---b #405.5.22
+akram.hajalilu ---b #405.4.22
+customer23 ---b #405.4.21
+customer22 ---b #405.4.20
+javadi ---b #405.4.20
 🚫t.maaleki2 #405.3.10 | blocked 2026-07-11
 🚫hadi.nariman #404.6.17 | blocked 2026-07-04
 🚫peyman #404.7.13 | blocked 2026-07-04
 🚫mansur #404.6.13 | blocked 2026-07-04
 🚫customer10 #405.4.1 | blocked 2026-06-22
-sajjad.mehdizade #405.3.10
+sajjad.mehdizade ---b #405.3.10
 🚫robab.valizade #404.10.7 | blocked 2026-05-31
 🚫s.khezri #404.10.6 | blocked 2026-05-31
 🚫matin.bargi #404.10.11 | blocked 2026-05-31
