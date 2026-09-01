@@ -1,3 +1,39 @@
+sajjad.mehdizade | blocked | | blocked 2026-09-01 [Note: 405.3.10] | 2026-09-01 19:57
+
+javadi | blocked | | blocked 2026-09-01 [Note: 405.4.20] | 2026-09-01 19:57
+
+customer22 | blocked | | blocked 2026-09-01 [Note: 405.4.20] | 2026-09-01 19:57
+
+customer23 | blocked | | blocked 2026-09-01 [Note: 405.4.21] | 2026-09-01 19:57
+
+akram.hajalilu | blocked | | blocked 2026-09-01 [Note: 405.4.22] | 2026-09-01 19:57
+
+amin.mafi | blocked | | blocked 2026-09-01 [Note: 405.5.22] | 2026-09-01 19:57
+
+amir.abdeli | blocked | | blocked 2026-09-01 [Note: 405.4.23] | 2026-09-01 19:57
+
+fazlalizade | blocked | | blocked 2026-09-01 [Note: 405.4.24] | 2026-09-01 19:57
+
+customer24 | blocked | | blocked 2026-09-01 [Note: 405.4.24] | 2026-09-01 19:57
+
+javadi | manual_delete | User manually removed [Note: 405.4.20] | 2026-09-01 19:57
+
+customer23 | manual_delete | User manually removed [Note: 405.4.21] | 2026-09-01 19:57
+
+customer24 | manual_delete | User manually removed [Note: 405.4.24] | 2026-09-01 19:57
+
+sajjad.mehdizade | manual_delete | User manually removed [Note: 405.3.10] | 2026-09-01 19:57
+
+customer22 | manual_delete | User manually removed [Note: 405.4.20] | 2026-09-01 19:57
+
+amir.abdeli | manual_delete | User manually removed [Note: 405.4.23] | 2026-09-01 19:57
+
+akram.hajalilu | manual_delete | User manually removed [Note: 405.4.22] | 2026-09-01 19:57
+
+fazlalizade | manual_delete | User manually removed [Note: 405.4.24] | 2026-09-01 19:57
+
+amin.mafi | manual_delete | User manually removed [Note: 405.5.22] | 2026-09-01 19:57
+
 bahman.hasanlu | manual_change | Changes:
 - bahman.hasanlu #405.6.10 | src: pt.configs
 + bahman.hasanlu #405.6.10 | src: pt.configs.txt

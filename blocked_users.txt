@@ -1,3 +1,12 @@
+amin.mafi #405.5.22 | blocked 2026-09-01
+fazlalizade #405.4.24 | blocked 2026-09-01
+akram.hajalilu #405.4.22 | blocked 2026-09-01
+customer22 #405.4.20 | blocked 2026-09-01
+sajjad.mehdizade #405.3.10 | blocked 2026-09-01
+customer24 #405.4.24 | blocked 2026-09-01
+amir.abdeli #405.4.23 | blocked 2026-09-01
+javadi #405.4.20 | blocked 2026-09-01
+customer23 #405.4.21 | blocked 2026-09-01
 aaa.aaa #| blocked 2026-08-29
 customer56 #405.6.5 | blocked 2026-08-29 | src: pt.configs.txt
 customer15 #405.4.8 | blocked 2026-08-23
