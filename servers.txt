@@ -144,7 +144,7 @@ vless://8cc8bedd-5103-4d22-a79c-a88f1160055a@104.21.56.202:8880?host=red-unit-60
 vless://cc9082e4-9c7c-4cef-a0f5-963363bed638@104.16.107.139:8880?encryption=none&type=ws&host=weathered-mode-8f39.83-33c.workers.dev&path=%2Fpyip%3DProxyIP.JP.CMLiussss.net&security=none#Server 144 🇺🇸
 vless://24c2a873-4584-4c53-8679-61029682d0bb@172.67.209.127:8880?host=soft-thunder-bc22.111-f59.workers.dev&path=%2Fpyip+&security=none&type=ws#Server 145 🇺🇸
 vless://86dc5fb4-f279-45b7-a2c6-0d1e84b85c18@104.16.107.139:8880?host=lingering-dawn-5d4a.163-3f1.workers.dev&path=%2Fpyip%3DProxyIP.US.CMLiussss.net&security=none&sni=lingering-dawn-5d4a.163-3f1.workers.dev&type=ws#Server 146 🇺🇸
-vless://f15a5586-23f6-453f-97f5-c301b949e699@deepl.com:8880?encryption=none&type=ws&host=mute-sunset-0849.40-aeb.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none#Server 147 🇨🇦
+vless://f15a5586-23f6-453f-97f5-c301b949e699@deepl.com:8880?encryption=none&type=ws&host=mute-sunset-0849.40-aeb.workers.dev&path=%2Fpyip%3DProxyIP.KR.CMLiussss.net&security=none#Server 147 🇬🇧
 vless://fc46b03d-e185-48e7-8c18-dea03b4a0c25@www.ipget.net:8880?&security=false&fp=chrome&type=ws&headerType=none&host=flat-union-b292.17-4e0.workers.dev&path=%2Fpyip%3DProxyIP.SG.CMLiussss.net#Server 148 🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHNXA2d3c0bzY3SEI=@108.181.0.177:8388#Server 149 🇺🇸
 vless://9b7d9618-29a6-45e9-9eca-dcc7ad42f974@104.16.107.139:8880?encryption=none&security=none&type=ws&host=shrill-frost-6da5.155-dec.workers.dev&path=%2Fpyip#Server 150 🇺🇸
