@@ -1,4 +1,3 @@
-testtest #| blocked 2026-09-02 | src: pt.configs.txt
 customer23 #405.4.21 | blocked 2026-09-01
 javadi #405.4.20 | blocked 2026-09-01
 amir.abdeli #405.4.23 | blocked 2026-09-01

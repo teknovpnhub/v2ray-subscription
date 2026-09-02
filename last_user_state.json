@@ -409,7 +409,7 @@
     "mm"
   ],
   "lines": {
-    "testtest": "🚫testtest #| blocked 2026-09-02 | src: pt.configs.txt",
+    "testtest": "testtest #| src: pt.configs.txt",
     "customer23": "🚫customer23 #405.4.21 | blocked 2026-09-01",
     "javadi": "🚫javadi #405.4.20 | blocked 2026-09-01",
     "amir.abdeli": "🚫amir.abdeli #405.4.23 | blocked 2026-09-01",
@@ -817,5 +817,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-03 00:10"
+  "timestamp": "2026-09-03 00:15"
 }

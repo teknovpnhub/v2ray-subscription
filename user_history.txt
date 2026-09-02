@@ -1,3 +1,7 @@
+testtest | unblocked | [Note: | blocked 2026-09-02 | src: pt.configs.txt] | 2026-09-03 00:15
+
+testtest | manual_delete | User manually removed [Note: | blocked 2026-09-02 | src: pt.configs.txt] | 2026-09-03 00:15
+
 testtest | blocked | | blocked 2026-09-02 [Note: | src: pt.configs.txt] | 2026-09-02 23:57
 
 testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-09-02 23:57
@@ -231,54 +235,6 @@ aaa.aaa | manual_delete | User manually removed [Note: 40566 ---b ---msg به د
 aaa.aaa | manual_delete | User manually removed [Note: 40566 ---msg کانفیگ پرسرعت] | 2026-08-24 01:42
 
 aaa.aaa | manual_delete | User manually removed [Note: 40566 ---src pt.configs.txt ---msg کانفیگ تست] | 2026-08-24 01:21
-
-hamed.ayubi | manual_change | Changes:
-- hamed.ayubi #405.5.11
-+ hamed.ayubi #405.5.11 ---src pt.configs.txt [Note: 405.5.11 ---src pt.configs.txt] | 2026-08-23 13:48
-
-customer16 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
-
-customer15 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
-
-customer14 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
-
-customer17 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
-
-customer18 | blocked | | blocked 2026-08-23 [Note: 405.4.8] | 2026-08-23 10:51
-
-customer19 | blocked | | blocked 2026-08-23 [Note: 405.4.9] | 2026-08-23 10:51
-
-narimani | blocked | | blocked 2026-08-23 [Note: 405.4.9] | 2026-08-23 10:51
-
-customer20 | blocked | | blocked 2026-08-23 [Note: 405.4.14] | 2026-08-23 10:51
-
-customer21 | blocked | | blocked 2026-08-23 [Note: 405.4.15] | 2026-08-23 10:51
-
-r.khani | blocked | | blocked 2026-08-23 [Note: 405.4.17] | 2026-08-23 10:51
-
-s.asgarzade | blocked | | blocked 2026-08-23 [Note: 405.4.20] | 2026-08-23 10:51
-
-customer15 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
-
-customer20 | manual_delete | User manually removed [Note: 405.4.14] | 2026-08-23 10:51
-
-r.khani | manual_delete | User manually removed [Note: 405.4.17] | 2026-08-23 10:51
-
-narimani | manual_delete | User manually removed [Note: 405.4.9] | 2026-08-23 10:51
-
-customer16 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
-
-customer17 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
-
-customer21 | manual_delete | User manually removed [Note: 405.4.15] | 2026-08-23 10:51
-
-s.asgarzade | manual_delete | User manually removed [Note: 405.4.20] | 2026-08-23 10:51
-
-customer18 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
-
-customer14 | manual_delete | User manually removed [Note: 405.4.8] | 2026-08-23 10:51
-
-customer19 | manual_delete | User manually removed [Note: 405.4.9] | 2026-08-23 10:51
 
 customer49 | removed | User deleted [Note: 405.5.31 | src: pt.configs.txt] | 2026-08-22 18:00
 
