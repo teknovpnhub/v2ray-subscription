@@ -1,5 +1,4 @@
 customer23 #405.4.21 | blocked 2026-09-01
-javadi #405.4.20 | blocked 2026-09-01
 amir.abdeli #405.4.23 | blocked 2026-09-01
 customer24 #405.4.24 | blocked 2026-09-01
 sajjad.mehdizade #405.3.10 | blocked 2026-09-01

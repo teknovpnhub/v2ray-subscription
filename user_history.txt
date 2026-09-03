@@ -1,3 +1,7 @@
+javadi | unblocked | [Note: 405.6.12 ---src pt.configs.txt] | 2026-09-03 10:40
+
+javadi | manual_delete | User manually removed [Note: 405.6.12 ---src pt.configs.txt] | 2026-09-03 10:40
+
 testtest | unblocked | [Note: | blocked 2026-09-02 | src: pt.configs.txt] | 2026-09-03 00:15
 
 testtest | manual_delete | User manually removed [Note: | blocked 2026-09-02 | src: pt.configs.txt] | 2026-09-03 00:15
