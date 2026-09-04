@@ -1,1 +1,2 @@
-
+forceDns=https://common.dot.dns.yandex.net/dns-query
+fallbackDns=8.8.8.8
