@@ -1,4 +1,4 @@
-testtest #| src: pt.configs.txt
+🚫testtest ---ub #| blocked 2026-09-05 | src: pt.configs.txt
 arkan.paki #| src: pt.configs.txt
 customer64 #405.6.14 | src: pt.configs.txt
 customer63 #405.6.12 | src: pt.configs.txt
