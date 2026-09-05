@@ -1,3 +1,7 @@
+testtest | blocked | | blocked 2026-09-05 [Note: | src: pt.configs.txt] | 2026-09-05 10:16
+
+testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-09-05 10:16
+
 customer63 | added | [Note: 405.6.12 ---src pt.configs.txt] | 2026-09-03 18:00
 
 vahid.behruz1 | added |  | 2026-09-03 11:24
@@ -164,53 +168,21 @@ a.reza | manual_delete | User manually removed [Note: 404.7.16 | blocked 2026-08
 
 a.reza | manual_delete | User manually removed [Note: 404.7.16 ---src pt.configs.txt] | 2026-08-26 11:25
 
-customer55 | added | [Note: 405.6.3 ---src pt.configs.txt] | 2026-08-25 19:59
-
 customer54 | manual_change | Changes:
 - customer54 2026-08-26 23:59 expires #405.6.3 | src: pt.configs.txt
 ?           -------------------------
-
-+ customer54 #405.6.3 | src: pt.configs.txt [Note: 405.6.3 | src: pt.configs.txt] | 2026-08-25 19:22
 
 customer54 | expiry_set | 2026-08-26 23:59 expires [Note: 405.6.3 | src: pt.configs.txt ---es 1d] | 2026-08-25 13:28
 
 customer54 | manual_delete | User manually removed [Note: 405.6.3 | src: pt.configs.txt ---es 1d] | 2026-08-25 13:28
 
-customer54 | added | [Note: 405.6.3 ---src pt.configs.txt] | 2026-08-25 13:27
-
-customer53 | added | [Note: 405.6.3 ---src pt.configs.txt] | 2026-08-25 12:52
-
-ehsan | manual_delete | User manually removed [Note: 404.8.3] | 2026-08-25 11:22
-
 ehsan | manual_change | Changes:
 - ehsan #404.8.3 | msg: گوت گده
 + ehsan #404.8.3 [Note: 404.8.3] | 2026-08-25 10:17
 
-aaa.aaa | manual_change | Changes:
-- aaa.aaa #| msg: سلام کفین؟
-+ aaa.aaa | 2026-08-25 02:49
-
-ehsan | manual_delete | User manually removed [Note: 404.8.3 ---msg گوت گده] | 2026-08-25 02:49
-
-aaa.aaa | manual_delete | User manually removed | 2026-08-25 00:01
-
-customer52 | manual_delete | User manually removed [Note: 405.6.2 ---src pt.configs.txt] | 2026-08-24 18:54
-
-customer52 | added | [Note: 405.6.2 ---src pt.configs.txt] | 2026-08-24 18:52
-
-aaa.aaa | manual_add | Line: aaa.aaa | 2026-08-24 14:07
-
-aaa.aaa | added |  | 2026-08-24 13:18
-
-customer51 | manual_delete | User manually removed [Note: 405.6.2 ---src pt.configs.txt] | 2026-08-24 11:39
-
-customer51 | added | [Note: 405.6.2] | 2026-08-24 11:37
-
 ehsan | manual_change | Changes:
 - ehsan #404.8.3 | src: pt.configs.txt ---msg احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم
 + ehsan #404.8.3 [Note: 404.8.3] | 2026-08-24 11:37
-
-aaa.aaa | manual_delete | User manually removed | 2026-08-24 11:37
 
 ehsan | manual_delete | User manually removed [Note: 404.8.3 | src: pt.configs.txt ---msg احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم | msg: احسان سنع سومون آلم] | 2026-08-24 11:31
 
@@ -226,23 +198,11 @@ ehsan | manual_delete | User manually removed [Note: 404.8.3 | src: pt.configs.t
 
 ehsan | manual_delete | User manually removed [Note: 404.8.3 | src: pt.configs.txt ---msg احسان سنع سومون آلم] | 2026-08-24 04:02
 
-aaa.aaa | manual_delete | User manually removed [Note: 40566 ---src pt.configs.txt] | 2026-08-24 03:51
-
 aaa.aaa | manual_change | Changes:
 - 🚫aaa.aaa #40566 | src: external.src.txt
 ? -
 
-+ aaa.aaa #40566 | src: external.src.txt [Note: 40566 | src: external.src.txt] | 2026-08-24 02:44
-
-aaa.aaa | manual_delete | User manually removed [Note: 40566  ---ub ---src external.src.txt] | 2026-08-24 02:33
-
 aaa.aaa | blocked | | blocked 2026-08-24 | msg: به دلیل عدم پرداخت هزینه سرویس شما قطع شد [Note: 40566 ---b ---msg به دلیل عدم پرداخت هزینه سرویس شما قطع شد] | 2026-08-24 01:58
-
-aaa.aaa | manual_delete | User manually removed [Note: 40566 ---b ---msg به دلیل عدم پرداخت هزینه سرویس شما قطع شد] | 2026-08-24 01:58
-
-aaa.aaa | manual_delete | User manually removed [Note: 40566 ---msg کانفیگ پرسرعت] | 2026-08-24 01:42
-
-aaa.aaa | manual_delete | User manually removed [Note: 40566 ---src pt.configs.txt ---msg کانفیگ تست] | 2026-08-24 01:21
 
 customer49 | removed | User deleted [Note: 405.5.31 | src: pt.configs.txt] | 2026-08-22 18:00
 
