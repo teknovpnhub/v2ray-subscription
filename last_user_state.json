@@ -1,8 +1,8 @@
 {
   "usernames": [
+    "testtest",
     "arkan.paki",
     "customer64",
-    "testtest",
     "customer63",
     "vahid.behruz1",
     "javadi",
@@ -413,9 +413,9 @@
     "mm"
   ],
   "lines": {
+    "testtest": "🚫testtest #| blocked 2026-09-05 | src: pt.configs.txt",
     "arkan.paki": "arkan.paki #| src: pt.configs.txt",
     "customer64": "customer64 #405.6.14 | src: pt.configs.txt",
-    "testtest": "testtest #| src: pt.configs.txt",
     "customer63": "customer63 #405.6.12 | src: pt.configs.txt",
     "vahid.behruz1": "vahid.behruz1 #| src: pt.configs.txt",
     "javadi": "javadi #405.6.12 | src: pt.configs.txt",
@@ -825,5 +825,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-05 13:37"
+  "timestamp": "2026-09-05 16:29"
 }
