@@ -94,7 +94,7 @@ customer29 #405.4.30
 customer28 #405.4.30
 customer27 #405.4.29
 customer26 #405.4.29
-alireza.gareahmadi #405.3.23
+alireza.gareahmadi #405.3.23 ---src pt.configs.txt
 customer25 #405.4.28
 vahid.behruz
 🚫t.maaleki2 #405.3.10 | blocked 2026-07-11
