@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "habib.mojallal",
     "milad.gasempur",
     "afshin",
     "testtest",
@@ -142,7 +143,6 @@
     "amir.agazade",
     "heydarzade",
     "alireza.agazade",
-    "habib.mojallal",
     "yusefi",
     "moradi",
     "a.panahi",
@@ -415,6 +415,7 @@
     "mm"
   ],
   "lines": {
+    "habib.mojallal": "habib.mojallal #404.6.15 | src: pt.configs.txt",
     "milad.gasempur": "milad.gasempur #405.6.14 | src: pt.configs.txt",
     "afshin": "afshin #| src: pt.configs.txt",
     "testtest": "testtest #| src: pt.configs.txt",
@@ -557,7 +558,6 @@
     "amir.agazade": "🚫amir.agazade #404.11.19 | blocked 2026-05-28",
     "heydarzade": "🚫heydarzade #404.11.19 | blocked 2026-05-28",
     "alireza.agazade": "🚫alireza.agazade #404.11.11 | blocked 2026-05-28",
-    "habib.mojallal": "🚫habib.mojallal #404.11.11 | blocked 2026-05-28",
     "yusefi": "🚫yusefi #404.11.12 | blocked 2026-05-28",
     "moradi": "🚫moradi #404.11.16 | blocked 2026-05-28",
     "a.panahi": "🚫a.panahi #404.11.11 | blocked 2026-05-28",
@@ -829,5 +829,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-06 09:07"
+  "timestamp": "2026-09-06 12:51"
 }

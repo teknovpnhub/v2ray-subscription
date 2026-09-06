@@ -1,3 +1,7 @@
+habib.mojallal | added | [Note: 404.6.15 ---src pt.configs.txt] | 2026-09-06 12:51
+
+habib.mojallal | manual_delete | User manually removed [Note: 404.6.15 ---src pt.configs.txt] | 2026-09-06 12:51
+
 milad.gasempur | added | [Note: 405.6.14 ---src pt.configs.txt] | 2026-09-05 18:49
 
 afshin | added |  | 2026-09-05 18:05
@@ -180,13 +184,9 @@ customer551 | added |  | 2026-08-27 19:46
 
 customer551 | auto_renamed | Automatically renamed from customer55 due to duplicate | 2026-08-27 19:46
 
-vahid | manual_delete | User manually removed | 2026-08-26 11:58
-
 a.reza | unblocked | [Note: 404.7.16 | blocked 2026-08-26 | src: pt.configs.txt] | 2026-08-26 11:28
 
 a.reza | manual_delete | User manually removed [Note: 404.7.16 | blocked 2026-08-26 | src: pt.configs.txt] | 2026-08-26 11:28
-
-a.reza | manual_delete | User manually removed [Note: 404.7.16 ---src pt.configs.txt] | 2026-08-26 11:25
 
 customer54 | manual_change | Changes:
 - customer54 2026-08-26 23:59 expires #405.6.3 | src: pt.configs.txt
