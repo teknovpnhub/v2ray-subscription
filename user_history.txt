@@ -1,3 +1,51 @@
+customer25 | blocked | | blocked 2026-09-08 [Note: 405.4.28] | 2026-09-08 19:12
+
+customer26 | blocked | | blocked 2026-09-08 [Note: 405.4.29] | 2026-09-08 19:12
+
+customer27 | blocked | | blocked 2026-09-08 [Note: 405.4.29] | 2026-09-08 19:12
+
+customer28 | blocked | | blocked 2026-09-08 [Note: 405.4.30] | 2026-09-08 19:12
+
+customer29 | blocked | | blocked 2026-09-08 [Note: 405.4.30] | 2026-09-08 19:12
+
+customer30 | blocked | | blocked 2026-09-08 [Note: 405.4.31] | 2026-09-08 19:12
+
+customer31 | blocked | | blocked 2026-09-08 [Note: 405.4.31] | 2026-09-08 19:12
+
+customer32 | blocked | | blocked 2026-09-08 [Note: 405.5.1] | 2026-09-08 19:12
+
+kh.alipur | blocked | | blocked 2026-09-08 [Note: 405.5.3] | 2026-09-08 19:12
+
+ansarifard | blocked | | blocked 2026-09-08 [Note: 405.5.3] | 2026-09-08 19:12
+
+asghar | blocked | | blocked 2026-09-08 [Note: 405.5.4] | 2026-09-08 19:12
+
+a.ahmadi | blocked | | blocked 2026-09-08 [Note: 405.5.3] | 2026-09-08 19:12
+
+customer27 | manual_delete | User manually removed [Note: 405.4.29] | 2026-09-08 19:12
+
+asghar | manual_delete | User manually removed [Note: 405.5.4] | 2026-09-08 19:12
+
+customer25 | manual_delete | User manually removed [Note: 405.4.28] | 2026-09-08 19:12
+
+kh.alipur | manual_delete | User manually removed [Note: 405.5.3] | 2026-09-08 19:12
+
+a.ahmadi | manual_delete | User manually removed [Note: 405.5.3] | 2026-09-08 19:12
+
+ansarifard | manual_delete | User manually removed [Note: 405.5.3] | 2026-09-08 19:12
+
+customer29 | manual_delete | User manually removed [Note: 405.4.30] | 2026-09-08 19:12
+
+customer28 | manual_delete | User manually removed [Note: 405.4.30] | 2026-09-08 19:12
+
+customer32 | manual_delete | User manually removed [Note: 405.5.1] | 2026-09-08 19:12
+
+customer30 | manual_delete | User manually removed [Note: 405.4.31] | 2026-09-08 19:12
+
+customer26 | manual_delete | User manually removed [Note: 405.4.29] | 2026-09-08 19:12
+
+customer31 | manual_delete | User manually removed [Note: 405.4.31] | 2026-09-08 19:12
+
 fazlalizade | unblocked | [Note: 405.5.17 ---src pt.configs.txt] | 2026-09-08 19:06
 
 fazlalizade | manual_delete | User manually removed [Note: 405.5.17 ---src pt.configs.txt] | 2026-09-08 19:06
