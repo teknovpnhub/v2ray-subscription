@@ -16,7 +16,7 @@ javadi #405.6.12 | src: pt.configs.txt
 🚫sajjad.mehdizade #405.3.10 | blocked 2026-09-01
 🚫customer22 #405.4.20 | blocked 2026-09-01
 🚫akram.hajalilu #405.4.22 | blocked 2026-09-01
-🚫fazlalizade #405.4.24 | blocked 2026-09-01
+🚫fazlalizade ---ub #405.5.17 ---src pt.configs.txt
 🚫amin.mafi #405.5.22 | blocked 2026-09-01
 bahman.hasanlu #405.6.10 | src: pt.configs.txt
 customer62 #405.6.10 | src: pt.configs.txt
