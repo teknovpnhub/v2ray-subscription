@@ -1,3 +1,7 @@
+fazlalizade | unblocked | [Note: 405.5.17 ---src pt.configs.txt] | 2026-09-08 19:06
+
+fazlalizade | manual_delete | User manually removed [Note: 405.5.17 ---src pt.configs.txt] | 2026-09-08 19:06
+
 hoseyn.gotbi | manual_delete | User manually removed [Note: 405.6.17 ---src pt.configs.txt] | 2026-09-08 18:01
 
 customer66 | renamed | to hoseyn.gotbi [Note: 405.6.17 ---src pt.configs.txt] | 2026-09-08 18:00

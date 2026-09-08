@@ -4,7 +4,6 @@ customer24 #405.4.24 | blocked 2026-09-01
 sajjad.mehdizade #405.3.10 | blocked 2026-09-01
 customer22 #405.4.20 | blocked 2026-09-01
 akram.hajalilu #405.4.22 | blocked 2026-09-01
-fazlalizade #405.4.24 | blocked 2026-09-01
 amin.mafi #405.5.22 | blocked 2026-09-01
 aaa.aaa #| blocked 2026-08-29
 customer56 #405.6.5 | blocked 2026-08-29 | src: pt.configs.txt

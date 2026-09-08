@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "fazlalizade",
     "hoseyn.gotbi",
     "alireza.gareahmadi",
     "customer65",
@@ -18,7 +19,6 @@
     "sajjad.mehdizade",
     "customer22",
     "akram.hajalilu",
-    "fazlalizade",
     "amin.mafi",
     "bahman.hasanlu",
     "customer62",
@@ -417,6 +417,7 @@
     "mm"
   ],
   "lines": {
+    "fazlalizade": "fazlalizade #405.5.17 | src: pt.configs.txt",
     "hoseyn.gotbi": "hoseyn.gotbi #405.6.17 | src: pt.configs.txt",
     "alireza.gareahmadi": "alireza.gareahmadi #405.3.23 | src: pt.configs.txt",
     "customer65": "customer65 #405.6.15 | src: pt.configs.txt",
@@ -435,7 +436,6 @@
     "sajjad.mehdizade": "🚫sajjad.mehdizade #405.3.10 | blocked 2026-09-01",
     "customer22": "🚫customer22 #405.4.20 | blocked 2026-09-01",
     "akram.hajalilu": "🚫akram.hajalilu #405.4.22 | blocked 2026-09-01",
-    "fazlalizade": "🚫fazlalizade #405.4.24 | blocked 2026-09-01",
     "amin.mafi": "🚫amin.mafi #405.5.22 | blocked 2026-09-01",
     "bahman.hasanlu": "bahman.hasanlu #405.6.10 | src: pt.configs.txt",
     "customer62": "customer62 #405.6.10 | src: pt.configs.txt",
@@ -833,5 +833,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-08 18:27"
+  "timestamp": "2026-09-08 19:06"
 }
