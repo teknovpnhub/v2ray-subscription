@@ -1,3 +1,5 @@
+customer66 | added | [Note: 405.6.17 ---src pt.configs.txt] | 2026-09-08 19:26
+
 customer25 | blocked | | blocked 2026-09-08 [Note: 405.4.28] | 2026-09-08 19:12
 
 customer26 | blocked | | blocked 2026-09-08 [Note: 405.4.29] | 2026-09-08 19:12

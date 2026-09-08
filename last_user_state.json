@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer66",
     "customer28",
     "asghar",
     "customer25",
@@ -417,6 +418,7 @@
     "mm"
   ],
   "lines": {
+    "customer66": "customer66 #405.6.17 | src: pt.configs.txt",
     "customer28": "🚫customer28 #405.4.30 | blocked 2026-09-08",
     "asghar": "🚫asghar #405.5.4 | blocked 2026-09-08",
     "customer25": "🚫customer25 #405.4.28 | blocked 2026-09-08",
@@ -833,5 +835,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-08 19:12"
+  "timestamp": "2026-09-08 19:26"
 }
