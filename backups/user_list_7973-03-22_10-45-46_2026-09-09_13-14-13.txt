@@ -1,4 +1,4 @@
-customer69 #405.6.18 | src: pt.configs.txt
+customer69 #405.6.18 ---src pt.configs.txt
 customer68 #405.6.18 | src: pt.configs.txt
 customer67 #405.6.18 | src: pt.configs.txt
 customer66 #405.6.17 | src: pt.configs.txt
