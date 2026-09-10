@@ -10,7 +10,7 @@ customer66 #405.6.17 | src: pt.configs.txt
 🚫asghar #405.5.4 | blocked 2026-09-08
 🚫customer25 #405.4.28 | blocked 2026-09-08
 🚫kh.alipur #405.5.3 | blocked 2026-09-08
-🚫ansarifard #405.5.3 | blocked 2026-09-08
+🚫ansarifard ---ub #405.6.19 ---src pt.configs.txt
 🚫customer29 #405.4.30 | blocked 2026-09-08
 🚫customer32 #405.5.1 | blocked 2026-09-08
 🚫customer26 #405.4.29 | blocked 2026-09-08
