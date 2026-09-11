@@ -1,3 +1,7 @@
+testtest | blocked | | blocked 2026-09-12 [Note: | src: pt.configs.txt] | 2026-09-12 00:06
+
+testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-09-12 00:06
+
 testtest | unblocked | [Note: | blocked 2026-09-11 | src: pt.configs.txt] | 2026-09-11 20:44
 
 testtest | manual_delete | User manually removed [Note: | blocked 2026-09-11 | src: pt.configs.txt] | 2026-09-11 20:44
@@ -136,51 +140,11 @@ testtest | blocked | | blocked 2026-09-02 [Note: | src: pt.configs.txt] | 2026-0
 
 testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-09-02 23:57
 
-sajjad.mehdizade | blocked | | blocked 2026-09-01 [Note: 405.3.10] | 2026-09-01 19:57
-
-javadi | blocked | | blocked 2026-09-01 [Note: 405.4.20] | 2026-09-01 19:57
-
-customer22 | blocked | | blocked 2026-09-01 [Note: 405.4.20] | 2026-09-01 19:57
-
-customer23 | blocked | | blocked 2026-09-01 [Note: 405.4.21] | 2026-09-01 19:57
-
-akram.hajalilu | blocked | | blocked 2026-09-01 [Note: 405.4.22] | 2026-09-01 19:57
-
-amin.mafi | blocked | | blocked 2026-09-01 [Note: 405.5.22] | 2026-09-01 19:57
-
-amir.abdeli | blocked | | blocked 2026-09-01 [Note: 405.4.23] | 2026-09-01 19:57
-
-fazlalizade | blocked | | blocked 2026-09-01 [Note: 405.4.24] | 2026-09-01 19:57
-
-customer24 | blocked | | blocked 2026-09-01 [Note: 405.4.24] | 2026-09-01 19:57
-
-javadi | manual_delete | User manually removed [Note: 405.4.20] | 2026-09-01 19:57
-
-customer23 | manual_delete | User manually removed [Note: 405.4.21] | 2026-09-01 19:57
-
-customer24 | manual_delete | User manually removed [Note: 405.4.24] | 2026-09-01 19:57
-
-sajjad.mehdizade | manual_delete | User manually removed [Note: 405.3.10] | 2026-09-01 19:57
-
-customer22 | manual_delete | User manually removed [Note: 405.4.20] | 2026-09-01 19:57
-
-amir.abdeli | manual_delete | User manually removed [Note: 405.4.23] | 2026-09-01 19:57
-
-akram.hajalilu | manual_delete | User manually removed [Note: 405.4.22] | 2026-09-01 19:57
-
-fazlalizade | manual_delete | User manually removed [Note: 405.4.24] | 2026-09-01 19:57
-
-amin.mafi | manual_delete | User manually removed [Note: 405.5.22] | 2026-09-01 19:57
-
 bahman.hasanlu | manual_change | Changes:
 - bahman.hasanlu #405.6.10 | src: pt.configs
 + bahman.hasanlu #405.6.10 | src: pt.configs.txt
 ?                                           ++++
  [Note: 405.6.10 | src: pt.configs.txt] | 2026-09-01 17:56
-
-bahman.hasanlu | added | [Note: 405.6.10 ---src pt.configs] | 2026-09-01 17:50
-
-customer62 | added | [Note: 405.6.10 ---src pt.configs.txt] | 2026-09-01 11:29
 
 testtest | unblocked | [Note: | blocked 2026-08-31 | src: pt.configs.txt] | 2026-08-31 05:03
 
