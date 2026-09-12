@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "salamzade",
     "testtest",
     "customer73",
     "ansarifard",
@@ -102,7 +103,6 @@
     "customer34",
     "customer33",
     "customer9",
-    "salamzade",
     "customer12",
     "customer8",
     "hossein.zarghami",
@@ -425,6 +425,7 @@
     "mm"
   ],
   "lines": {
+    "salamzade": "salamzade #405.6.21 | src: pt.configs.txt",
     "testtest": "testtest #| src: pt.configs.txt",
     "customer73": "customer73 #405.6.19 | src: pt.configs.txt",
     "ansarifard": "ansarifard #405.6.19 | src: pt.configs.txt",
@@ -527,7 +528,6 @@
     "customer34": "customer34 #405.5.6",
     "customer33": "customer33 #405.5.6",
     "customer9": "🚫customer9 #405.3.31 | blocked 2026-07-25",
-    "salamzade": "🚫salamzade #405.4.6 | blocked 2026-07-25",
     "customer12": "🚫customer12 #405.4.6 | blocked 2026-07-25",
     "customer8": "🚫customer8 #405.3.30 | blocked 2026-07-25",
     "hossein.zarghami": "🚫hossein.zarghami #405.4.6 | blocked 2026-07-25",
@@ -849,5 +849,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-12 07:20"
+  "timestamp": "2026-09-12 11:46"
 }
