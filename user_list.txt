@@ -1,4 +1,4 @@
-shamsollah.sedigi #405.6.22 | src: pt.configs
+shamsollah.sedigi #405.6.22 | src: pt.configs.txt
 aaa.aaa #| src: test1
 testtest #| src: pt.configs.txt
 customer74 #405.6.22 | src: pt.configs.txt
