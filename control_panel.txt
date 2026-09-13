@@ -2,7 +2,7 @@
 servers.warp.txt: OFF
 ✓ servers.txt: ON
 servers1.txt: OFF
-pt.configs: OFF
+pt.configs.txt: OFF
 test1: OFF
 --------------------------------
 # === SETTINGS ===
