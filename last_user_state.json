@@ -428,7 +428,7 @@
     "mm"
   ],
   "lines": {
-    "shamsollah.sedigi": "shamsollah.sedigi #405.6.22",
+    "shamsollah.sedigi": "shamsollah.sedigi #405.6.22 | src: pt.configs",
     "aaa.aaa": "aaa.aaa #| src: test1",
     "testtest": "testtest #| src: pt.configs.txt",
     "customer74": "customer74 #405.6.22 | src: pt.configs.txt",
@@ -855,5 +855,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-13 20:59"
+  "timestamp": "2026-09-13 21:01"
 }
