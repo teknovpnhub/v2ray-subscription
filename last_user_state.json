@@ -1,9 +1,9 @@
 {
   "usernames": [
+    "testtest",
     "customer74",
     "sajad.samadzade",
     "salamzade",
-    "testtest",
     "customer73",
     "ansarifard",
     "customer72",
@@ -427,10 +427,10 @@
     "mm"
   ],
   "lines": {
+    "testtest": "🚫testtest #| blocked 2026-09-13 | src: pt.configs.txt",
     "customer74": "customer74 #405.6.22 | src: pt.configs.txt",
     "sajad.samadzade": "sajad.samadzade #405.6.21 | src: pt.configs.txt",
     "salamzade": "salamzade #405.6.21 | src: pt.configs.txt",
-    "testtest": "testtest #| src: pt.configs.txt",
     "customer73": "customer73 #405.6.19 | src: pt.configs.txt",
     "ansarifard": "ansarifard #405.6.19 | src: pt.configs.txt",
     "customer72": "customer72 #405.6.19 | src: pt.configs.txt",
@@ -853,5 +853,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-13 13:02"
+  "timestamp": "2026-09-13 13:03"
 }

@@ -1,3 +1,7 @@
+testtest | blocked | | blocked 2026-09-13 [Note: | src: pt.configs.txt] | 2026-09-13 13:03
+
+testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-09-13 13:03
+
 customer74 | added | [Note: 405.6.22 ---src pt.configs.txt] | 2026-09-13 13:02
 
 sajad.samadzade | added | [Note: 405.6.21 ---src pt.configs.txt] | 2026-09-12 20:29
