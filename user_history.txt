@@ -1,3 +1,95 @@
+customer33 | blocked | | blocked 2026-09-14 [Note: 405.5.6] | 2026-09-14 21:56
+
+customer34 | blocked | | blocked 2026-09-14 [Note: 405.5.6] | 2026-09-14 21:56
+
+molayi | blocked | | blocked 2026-09-14 [Note: 405.5.6] | 2026-09-14 21:56
+
+customer2 | blocked | | blocked 2026-09-14 [Note: 405.5.7] | 2026-09-14 21:56
+
+customer35 | blocked | | blocked 2026-09-14 [Note: 405.5.7] | 2026-09-14 21:56
+
+customer36 | blocked | | blocked 2026-09-14 [Note: 405.5.7] | 2026-09-14 21:56
+
+customer13 | blocked | | blocked 2026-09-14 [Note: 405.5.10] | 2026-09-14 21:56
+
+customer37 | blocked | | blocked 2026-09-14 [Note: 405.5.11] | 2026-09-14 21:56
+
+hadi.ganbarpur | blocked | | blocked 2026-09-14 [Note: 405.5.11] | 2026-09-14 21:56
+
+z.pourmohammad | blocked | | blocked 2026-09-14 [Note: 405.5.12] | 2026-09-14 21:56
+
+customer38 | blocked | | blocked 2026-09-14 [Note: 405.5.12] | 2026-09-14 21:56
+
+ramin.tankhahi | blocked | | blocked 2026-09-14 [Note: 404.5.14] | 2026-09-14 21:56
+
+aydin.javani | blocked | | blocked 2026-09-14 [Note: 404.5.14] | 2026-09-14 21:56
+
+customer39 | blocked | | blocked 2026-09-14 [Note: 405.5.14] | 2026-09-14 21:56
+
+customer40 | blocked | | blocked 2026-09-14 [Note: 405.5.17] | 2026-09-14 21:56
+
+customer41 | blocked | | blocked 2026-09-14 [Note: 405.5.18] | 2026-09-14 21:56
+
+customer42 | blocked | | blocked 2026-09-14 [Note: 405.5.18] | 2026-09-14 21:56
+
+javad.golmohammadi | blocked | | blocked 2026-09-14 [Note: 405.5.18] | 2026-09-14 21:56
+
+customer44 | blocked | | blocked 2026-09-14 [Note: 405.5.25] | 2026-09-14 21:56
+
+customer45 | blocked | | blocked 2026-09-14 [Note: 405.5.27] | 2026-09-14 21:56
+
+customer46 | blocked | | blocked 2026-09-14 [Note: 405.5.28] | 2026-09-14 21:56
+
+customer47 | blocked | | blocked 2026-09-14 [Note: 405.5.28] | 2026-09-14 21:56
+
+customer48 | blocked | | blocked 2026-09-14 [Note: 405.5.29] | 2026-09-14 21:56
+
+customer38 | manual_delete | User manually removed [Note: 405.5.12] | 2026-09-14 21:56
+
+customer13 | manual_delete | User manually removed [Note: 405.5.10] | 2026-09-14 21:56
+
+customer46 | manual_delete | User manually removed [Note: 405.5.28] | 2026-09-14 21:56
+
+hadi.ganbarpur | manual_delete | User manually removed [Note: 405.5.11] | 2026-09-14 21:56
+
+ramin.tankhahi | manual_delete | User manually removed [Note: 404.5.14] | 2026-09-14 21:56
+
+customer47 | manual_delete | User manually removed [Note: 405.5.28] | 2026-09-14 21:56
+
+customer36 | manual_delete | User manually removed [Note: 405.5.7] | 2026-09-14 21:56
+
+customer2 | manual_delete | User manually removed [Note: 405.5.7] | 2026-09-14 21:56
+
+customer48 | manual_delete | User manually removed [Note: 405.5.29] | 2026-09-14 21:56
+
+javad.golmohammadi | manual_delete | User manually removed [Note: 405.5.18] | 2026-09-14 21:56
+
+customer41 | manual_delete | User manually removed [Note: 405.5.18] | 2026-09-14 21:56
+
+customer33 | manual_delete | User manually removed [Note: 405.5.6] | 2026-09-14 21:56
+
+customer37 | manual_delete | User manually removed [Note: 405.5.11] | 2026-09-14 21:56
+
+customer40 | manual_delete | User manually removed [Note: 405.5.17] | 2026-09-14 21:56
+
+customer42 | manual_delete | User manually removed [Note: 405.5.18] | 2026-09-14 21:56
+
+customer39 | manual_delete | User manually removed [Note: 405.5.14] | 2026-09-14 21:56
+
+customer45 | manual_delete | User manually removed [Note: 405.5.27] | 2026-09-14 21:56
+
+aydin.javani | manual_delete | User manually removed [Note: 404.5.14] | 2026-09-14 21:56
+
+z.pourmohammad | manual_delete | User manually removed [Note: 405.5.12] | 2026-09-14 21:56
+
+customer35 | manual_delete | User manually removed [Note: 405.5.7] | 2026-09-14 21:56
+
+customer44 | manual_delete | User manually removed [Note: 405.5.25] | 2026-09-14 21:56
+
+molayi | manual_delete | User manually removed [Note: 405.5.6] | 2026-09-14 21:56
+
+customer34 | manual_delete | User manually removed [Note: 405.5.6] | 2026-09-14 21:56
+
 customer23 | added | [Note: 405.6.23 ---src pt.configs.txt] | 2026-09-14 19:58
 
 customer23 | manual_delete | User manually removed [Note: 405.6.23 ---src pt.configs.txt] | 2026-09-14 19:58
