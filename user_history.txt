@@ -1,3 +1,215 @@
+customer43 | manual_change | Changes:
+- customer43 #405.5.22 | src: pt.configs.txt
++ customer43 #405.5.22 [Note: 405.5.22] | 2026-09-14 22:24
+
+customer68 | manual_change | Changes:
+- customer68 #405.6.18 | src: pt.configs.txt
++ customer68 #405.6.18 [Note: 405.6.18] | 2026-09-14 22:24
+
+hasan.rasuli | manual_change | Changes:
+- hasan.rasuli #405.6.7 | src: pt.configs.txt
++ hasan.rasuli #405.6.7 [Note: 405.6.7] | 2026-09-14 22:24
+
+milad.gasempur | manual_change | Changes:
+- milad.gasempur #405.6.14 | src: pt.configs.txt
++ milad.gasempur #405.6.14 [Note: 405.6.14] | 2026-09-14 22:24
+
+vahid.behruz1 | manual_change | Changes:
+- vahid.behruz1 #| src: pt.configs.txt
++ vahid.behruz1 | 2026-09-14 22:24
+
+customer23 | manual_change | Changes:
+- customer23 #405.6.23 | src: pt.configs.txt
++ customer23 #405.6.23 [Note: 405.6.23] | 2026-09-14 22:24
+
+customer54 | manual_change | Changes:
+- customer54 #405.6.3 | src: pt.configs.txt
++ customer54 #405.6.3 [Note: 405.6.3] | 2026-09-14 22:24
+
+bahman.hasanlu | manual_change | Changes:
+- bahman.hasanlu #405.6.10 | src: pt.configs.txt
++ bahman.hasanlu #405.6.10 [Note: 405.6.10] | 2026-09-14 22:24
+
+customer65 | manual_change | Changes:
+- customer65 #405.6.15 | src: pt.configs.txt
++ customer65 #405.6.15 [Note: 405.6.15] | 2026-09-14 22:24
+
+customer62 | manual_change | Changes:
+- customer62 #405.6.10 | src: pt.configs.txt
++ customer62 #405.6.10 [Note: 405.6.10] | 2026-09-14 22:24
+
+vahid | manual_change | Changes:
+- vahid | src: pt.configs.txt
++ vahid | 2026-09-14 22:24
+
+ansarifard | manual_change | Changes:
+- ansarifard #405.6.19 | src: pt.configs.txt
++ ansarifard #405.6.19 [Note: 405.6.19] | 2026-09-14 22:24
+
+hoseyn.gotbi | manual_change | Changes:
+- hoseyn.gotbi #405.6.17 | src: pt.configs.txt
++ hoseyn.gotbi #405.6.17 [Note: 405.6.17] | 2026-09-14 22:24
+
+customer51 | manual_change | Changes:
+- customer51 #405.6.2 | src: pt.configs.txt
++ customer51 #405.6.2 [Note: 405.6.2] | 2026-09-14 22:24
+
+customer53 | manual_change | Changes:
+- customer53 #405.6.3 | src: pt.configs.txt
++ customer53 #405.6.3 [Note: 405.6.3] | 2026-09-14 22:24
+
+customer70 | manual_change | Changes:
+- customer70 #405.6.18 | src: pt.configs.txt
++ customer70 #405.6.18 [Note: 405.6.18] | 2026-09-14 22:24
+
+afshin | manual_change | Changes:
+- afshin #| src: pt.configs.txt
++ afshin | 2026-09-14 22:24
+
+a.reza | manual_change | Changes:
+- a.reza #404.7.16 | src: pt.configs.txt
++ a.reza #404.7.16 [Note: 404.7.16] | 2026-09-14 22:24
+
+shamsollah.sedigi | manual_change | Changes:
+- shamsollah.sedigi #405.6.22 | src: pt.configs.txt
++ shamsollah.sedigi #405.6.22 [Note: 405.6.22] | 2026-09-14 22:24
+
+customer61 | manual_change | Changes:
+- customer61 #405.6.9 | src: pt.configs.txt
++ customer61 #405.6.9 [Note: 405.6.9] | 2026-09-14 22:24
+
+customer71 | manual_change | Changes:
+- customer71 #405.6.18 | src: pt.configs.txt
++ customer71 #405.6.18 [Note: 405.6.18] | 2026-09-14 22:24
+
+javadi | manual_change | Changes:
+- javadi #405.6.12 | src: pt.configs.txt
++ javadi #405.6.12 [Note: 405.6.12] | 2026-09-14 22:24
+
+customer73 | manual_change | Changes:
+- customer73 #405.6.19 | src: pt.configs.txt
++ customer73 #405.6.19 [Note: 405.6.19] | 2026-09-14 22:24
+
+customer50 | manual_change | Changes:
+- customer50 #405.6.1 | src: pt.configs.txt
++ customer50 #405.6.1 [Note: 405.6.1] | 2026-09-14 22:24
+
+customer63 | manual_change | Changes:
+- customer63 #405.6.12 | src: pt.configs.txt
++ customer63 #405.6.12 [Note: 405.6.12] | 2026-09-14 22:24
+
+customer55 | manual_change | Changes:
+- customer55 #405.6.3 | src: pt.configs.txt
++ customer55 #405.6.3 [Note: 405.6.3] | 2026-09-14 22:24
+
+arkan.paki | manual_change | Changes:
+- arkan.paki #| src: pt.configs.txt
++ arkan.paki | 2026-09-14 22:24
+
+hamed.ayubi | manual_change | Changes:
+- hamed.ayubi #405.5.11 | src: pt.configs.txt
++ hamed.ayubi #405.5.11 [Note: 405.5.11] | 2026-09-14 22:24
+
+salamzade | manual_change | Changes:
+- salamzade #405.6.21 | src: pt.configs.txt
++ salamzade #405.6.21 [Note: 405.6.21] | 2026-09-14 22:24
+
+customer69 | manual_change | Changes:
+- customer69 #405.6.18 | src: pt.configs.txt
++ customer69 #405.6.18 [Note: 405.6.18] | 2026-09-14 22:24
+
+a.ahmadi | manual_change | Changes:
+- a.ahmadi #405.6.19 | src: pt.configs.txt
++ a.ahmadi #405.6.19 [Note: 405.6.19] | 2026-09-14 22:24
+
+customer60 | manual_change | Changes:
+- customer60 #405.6.9 | src: pt.configs.txt
++ customer60 #405.6.9 [Note: 405.6.9] | 2026-09-14 22:24
+
+customer59 | manual_change | Changes:
+- customer59 #405.6.8 | src: pt.configs.txt
++ customer59 #405.6.8 [Note: 405.6.8] | 2026-09-14 22:24
+
+ruyin | manual_change | Changes:
+- ruyin #405.4.20 | src: pt.configs.txt
++ ruyin #405.4.20 [Note: 405.4.20] | 2026-09-14 22:24
+
+sajad.samadzade | manual_change | Changes:
+- sajad.samadzade #405.6.21 | src: pt.configs.txt
++ sajad.samadzade #405.6.21 [Note: 405.6.21] | 2026-09-14 22:24
+
+alrostam | manual_change | Changes:
+- alrostam #405.6.9 | src: pt.configs.txt
++ alrostam #405.6.9 [Note: 405.6.9] | 2026-09-14 22:24
+
+customer64 | manual_change | Changes:
+- customer64 #405.6.14 | src: pt.configs.txt
++ customer64 #405.6.14 [Note: 405.6.14] | 2026-09-14 22:24
+
+customer58 | manual_change | Changes:
+- customer58 #405.6.8 | src: pt.configs.txt
++ customer58 #405.6.8 [Note: 405.6.8] | 2026-09-14 22:24
+
+habib.mojallal | manual_change | Changes:
+- habib.mojallal #404.6.15 | src: pt.configs.txt
++ habib.mojallal #404.6.15 [Note: 404.6.15] | 2026-09-14 22:24
+
+hadi.mohammadi | manual_change | Changes:
+- hadi.mohammadi #405.6.7 | src: pt.configs.txt
++ hadi.mohammadi | 2026-09-14 22:24
+
+customer72 | manual_change | Changes:
+- customer72 #405.6.19 | src: pt.configs.txt
++ customer72 #405.6.19 [Note: 405.6.19] | 2026-09-14 22:24
+
+customer66 | manual_change | Changes:
+- customer66 #405.6.17 | src: pt.configs.txt
++ customer66 #405.6.17 [Note: 405.6.17] | 2026-09-14 22:24
+
+ehsan | manual_change | Changes:
+- ehsan #404.8.3 | src: pt.configs.txt
++ ehsan #404.8.3 [Note: 404.8.3] | 2026-09-14 22:24
+
+customer49 | manual_change | Changes:
+- customer49 #405.6.1 | src: pt.configs.txt
++ customer49 #405.6.1 [Note: 405.6.1] | 2026-09-14 22:24
+
+customer52 | manual_change | Changes:
+- customer52 #405.6.2 | src: pt.configs.txt
++ customer52 #405.6.2 [Note: 405.6.2] | 2026-09-14 22:24
+
+customer74 | manual_change | Changes:
+- customer74 #405.6.22 | src: pt.configs.txt
++ customer74 #405.6.22 [Note: 405.6.22] | 2026-09-14 22:24
+
+fazlalizade | manual_change | Changes:
+- fazlalizade #405.5.17 | src: pt.configs.txt
++ fazlalizade #405.5.17 [Note: 405.5.17] | 2026-09-14 22:24
+
+testtest | manual_change | Changes:
+- testtest #| src: pt.configs.txt
++ testtest | 2026-09-14 22:24
+
+alireza.gareahmadi | manual_change | Changes:
+- alireza.gareahmadi #405.3.23 | src: pt.configs.txt
++ alireza.gareahmadi #405.3.23 [Note: 405.3.23] | 2026-09-14 22:24
+
+customer67 | manual_change | Changes:
+- customer67 #405.6.18 | src: pt.configs.txt
++ customer67 #405.6.18 [Note: 405.6.18] | 2026-09-14 22:24
+
+jafar | manual_change | Changes:
+- jafar #| src: pt.configs.txt
++ jafar | 2026-09-14 22:24
+
+customer57 | manual_change | Changes:
+- customer57 #405.6.7 | src: pt.configs.txt
++ customer57 #405.6.7 [Note: 405.6.7] | 2026-09-14 22:24
+
+meysam.bampuri | manual_change | Changes:
+- meysam.bampuri #405.5.11 | src: pt.configs.txt
++ meysam.bampuri #405.5.11 [Note: 405.5.11] | 2026-09-14 22:24
+
 shahram.karimi | removed | User deleted [Note: 404.10.16 | blocked 2026-05-28] | 2026-09-14 22:18
 
 torkan | removed | User deleted [Note: 404.10.13 | blocked 2026-05-28] | 2026-09-14 22:18

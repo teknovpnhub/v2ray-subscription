@@ -1,1 +1,0 @@
-bahman.hasanlu #405.6.10 | src: pt.configs.txt
