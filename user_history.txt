@@ -1,3 +1,9 @@
+me.2025 | manual_delete | User manually removed | 2026-09-15 02:48
+
+family | manual_delete | User manually removed | 2026-09-15 02:48
+
+vahid.behruz | manual_delete | User manually removed | 2026-09-15 02:48
+
 test11 | manual_change | Changes:
 - test11 #| src: servers.txt
 + test11 | 2026-09-15 02:28
