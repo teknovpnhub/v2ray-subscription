@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer56",
     "customer58",
     "shamsollah.sedigi",
     "customer68",
@@ -93,7 +94,6 @@
     "customer22",
     "akram.hajalilu",
     "amin.mafi",
-    "customer56",
     "customer15",
     "customer20",
     "r.khani",
@@ -120,6 +120,7 @@
     "mm"
   ],
   "lines": {
+    "customer56": "🚫customer56 #405.6.5 | blocked 2026-08-29",
     "customer58": "customer58 #405.6.8",
     "shamsollah.sedigi": "shamsollah.sedigi #405.6.22",
     "customer68": "customer68 #405.6.18",
@@ -213,7 +214,6 @@
     "customer22": "🚫customer22 #405.4.20 | blocked 2026-09-01",
     "akram.hajalilu": "🚫akram.hajalilu #405.4.22 | blocked 2026-09-01",
     "amin.mafi": "🚫amin.mafi #405.5.22 | blocked 2026-09-01",
-    "customer56": "🚫customer56 #405.6.5 | blocked 2026-08-29 | src: pt.configs.txt",
     "customer15": "🚫customer15 #405.4.8 | blocked 2026-08-23",
     "customer20": "🚫customer20 #405.4.14 | blocked 2026-08-23",
     "r.khani": "🚫r.khani #405.4.17 | blocked 2026-08-23",
@@ -239,5 +239,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-14 22:24"
+  "timestamp": "2026-09-15 01:50"
 }
