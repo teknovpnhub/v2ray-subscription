@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer23",
     "shamsollah.sedigi",
     "aaa.aaa",
     "testtest",
@@ -38,7 +39,6 @@
     "customer63",
     "vahid.behruz1",
     "javadi",
-    "customer23",
     "amir.abdeli",
     "customer24",
     "sajjad.mehdizade",
@@ -428,6 +428,7 @@
     "mm"
   ],
   "lines": {
+    "customer23": "customer23 #405.6.23 | src: pt.configs.txt",
     "shamsollah.sedigi": "shamsollah.sedigi #405.6.22 | src: pt.configs.txt",
     "aaa.aaa": "aaa.aaa #| src: test1",
     "testtest": "testtest #| src: pt.configs.txt",
@@ -466,7 +467,6 @@
     "customer63": "customer63 #405.6.12 | src: pt.configs.txt",
     "vahid.behruz1": "vahid.behruz1 #| src: pt.configs.txt",
     "javadi": "javadi #405.6.12 | src: pt.configs.txt",
-    "customer23": "🚫customer23 #405.4.21 | blocked 2026-09-01",
     "amir.abdeli": "🚫amir.abdeli #405.4.23 | blocked 2026-09-01",
     "customer24": "🚫customer24 #405.4.24 | blocked 2026-09-01",
     "sajjad.mehdizade": "🚫sajjad.mehdizade #405.3.10 | blocked 2026-09-01",
@@ -855,5 +855,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-14 15:35"
+  "timestamp": "2026-09-14 19:58"
 }
