@@ -1,8 +1,8 @@
 # === SERVER POOL ===
 servers.warp.txt: OFF
-✓ servers.txt: ON
+✓ servers.txt: OFF
 servers1.txt: OFF
-pt.configs.txt: OFF
+pt.configs.txt: ON
 test1: OFF
 --------------------------------
 # === SETTINGS ===
