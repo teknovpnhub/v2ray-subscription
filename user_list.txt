@@ -21,23 +21,23 @@
 🚫customer44 #405.5.25 | blocked 2026-09-14
 🚫molayi #405.5.6 | blocked 2026-09-14
 🚫customer34 #405.5.6 | blocked 2026-09-14
-customer23 #405.6.23 | src: pt.configs.txt
-shamsollah.sedigi #405.6.22 | src: pt.configs.txt
+customer23 #405.6.23
+shamsollah.sedigi #405.6.22
 aaa.aaa #| src: test1
-testtest #| src: pt.configs.txt
-customer74 #405.6.22 | src: pt.configs.txt
-sajad.samadzade #405.6.21 | src: pt.configs.txt
-salamzade #405.6.21 | src: pt.configs.txt
-customer73 #405.6.19 | src: pt.configs.txt
-ansarifard #405.6.19 | src: pt.configs.txt
-customer72 #405.6.19 | src: pt.configs.txt
-a.ahmadi #405.6.19 | src: pt.configs.txt
-customer71 #405.6.18 | src: pt.configs.txt
-customer70 #405.6.18 | src: pt.configs.txt
-customer69 #405.6.18 | src: pt.configs.txt
-customer68 #405.6.18 | src: pt.configs.txt
-customer67 #405.6.18 | src: pt.configs.txt
-customer66 #405.6.17 | src: pt.configs.txt
+testtest 
+customer74 #405.6.22
+sajad.samadzade #405.6.21
+salamzade #405.6.21
+customer73 #405.6.19
+ansarifard #405.6.19
+customer72 #405.6.19
+a.ahmadi #405.6.19
+customer71 #405.6.18
+customer70 #405.6.18
+customer69 #405.6.18
+customer68 #405.6.18
+customer67 #405.6.18
+customer66 #405.6.17
 🚫customer28 #405.4.30 | blocked 2026-09-08
 🚫asghar #405.5.4 | blocked 2026-09-08
 🚫customer25 #405.4.28 | blocked 2026-09-08
@@ -48,48 +48,48 @@ customer66 #405.6.17 | src: pt.configs.txt
 🚫customer30 #405.4.31 | blocked 2026-09-08
 🚫customer27 #405.4.29 | blocked 2026-09-08
 🚫customer31 #405.4.31 | blocked 2026-09-08
-fazlalizade #405.5.17 | src: pt.configs.txt
-hoseyn.gotbi #405.6.17 | src: pt.configs.txt
-alireza.gareahmadi #405.3.23 | src: pt.configs.txt
-customer65 #405.6.15 | src: pt.configs.txt
-habib.mojallal #404.6.15 | src: pt.configs.txt
-milad.gasempur #405.6.14 | src: pt.configs.txt
-afshin #| src: pt.configs.txt
-arkan.paki #| src: pt.configs.txt
-customer64 #405.6.14 | src: pt.configs.txt
-customer63 #405.6.12 | src: pt.configs.txt
-vahid.behruz1 #| src: pt.configs.txt
-javadi #405.6.12 | src: pt.configs.txt
+fazlalizade #405.5.17
+hoseyn.gotbi #405.6.17
+alireza.gareahmadi #405.3.23
+customer65 #405.6.15
+habib.mojallal #404.6.15
+milad.gasempur #405.6.14
+afshin
+arkan.paki
+customer64 #405.6.14
+customer63 #405.6.12
+vahid.behruz1
+javadi #405.6.12
 🚫amir.abdeli #405.4.23 | blocked 2026-09-01
 🚫customer24 #405.4.24 | blocked 2026-09-01
 🚫sajjad.mehdizade #405.3.10 | blocked 2026-09-01
 🚫customer22 #405.4.20 | blocked 2026-09-01
 🚫akram.hajalilu #405.4.22 | blocked 2026-09-01
 🚫amin.mafi #405.5.22 | blocked 2026-09-01
-bahman.hasanlu #405.6.10 | src: pt.configs.txt
-customer62 #405.6.10 | src: pt.configs.txt
-customer43 #405.5.22 | src: pt.configs.txt
-customer61 #405.6.9 | src: pt.configs.txt
-customer60 #405.6.9 | src: pt.configs.txt
-alrostam #405.6.9 | src: pt.configs.txt
-customer59 #405.6.8 | src: pt.configs.txt
-customer58 #405.6.8 | src: pt.configs.txt
-hasan.rasuli #405.6.7 | src: pt.configs.txt
-hadi.mohammadi #405.6.7 | src: pt.configs.txt
-customer57 #405.6.7 | src: pt.configs.txt
-ruyin #405.4.20 | src: pt.configs.txt
-vahid | src: pt.configs.txt
+bahman.hasanlu #405.6.10
+customer62 #405.6.10
+customer43 #405.5.22
+customer61 #405.6.9
+customer60 #405.6.9
+alrostam #405.6.9
+customer59 #405.6.8
+customer58 #405.6.8
+hasan.rasuli #405.6.7
+hadi.mohammadi
+customer57 #405.6.7
+ruyin #405.4.20
+vahid
 🚫customer56 #405.6.5 | blocked 2026-08-29 | src: pt.configs.txt
-a.reza #404.7.16 | src: pt.configs.txt
-customer55 #405.6.3 | src: pt.configs.txt
-customer54 #405.6.3 | src: pt.configs.txt
-customer53 #405.6.3 | src: pt.configs.txt
-ehsan #404.8.3 | src: pt.configs.txt
-customer52 #405.6.2 | src: pt.configs.txt
-customer51 #405.6.2 | src: pt.configs.txt
-customer50 #405.6.1 | src: pt.configs.txt
-hamed.ayubi #405.5.11 | src: pt.configs.txt
-customer49 #405.6.1 | src: pt.configs.txt
+a.reza #404.7.16
+customer55 #405.6.3
+customer54 #405.6.3
+customer53 #405.6.3
+ehsan #404.8.3
+customer52 #405.6.2
+customer51 #405.6.2
+customer50 #405.6.1
+hamed.ayubi #405.5.11
+customer49 #405.6.1
 🚫customer15 #405.4.8 | blocked 2026-08-23
 🚫customer20 #405.4.14 | blocked 2026-08-23
 🚫r.khani #405.4.17 | blocked 2026-08-23
@@ -101,8 +101,8 @@ customer49 #405.6.1 | src: pt.configs.txt
 🚫s.asgarzade #405.4.20 | blocked 2026-08-23
 🚫customer14 #405.4.8 | blocked 2026-08-23
 🚫customer19 #405.4.9 | blocked 2026-08-23
-meysam.bampuri #405.5.11 | src: pt.configs.txt
-jafar #| src: pt.configs.txt
+meysam.bampuri #405.5.11
+jafar
 🚫customer9 #405.3.31 | blocked 2026-07-25
 🚫customer12 #405.4.6 | blocked 2026-07-25
 🚫customer8 #405.3.30 | blocked 2026-07-25
