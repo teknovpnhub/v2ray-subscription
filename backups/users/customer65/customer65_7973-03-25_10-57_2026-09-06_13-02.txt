@@ -1,1 +1,0 @@
-customer65 #405.6.15 | src: pt.configs.txt
