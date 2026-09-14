@@ -291,85 +291,85 @@ vahid.behruz
 🚫jahanbakhsh #404.8.10 | blocked 2025-12-13
 🚫rostam.soltani #404.8.15 | blocked 2025-12-13
 me.2025
-🚫a.valilou #404.8.6 | blocked 2025-12-06
-🚫eyvari1 #404.8.5 | blocked 2025-12-06
-🚫gorbanpur #404.8.3 | blocked 2025-12-06
-🚫mortaza.kuchmeshki #404.8.7 | blocked 2025-12-06
-🚫m.bazlju #404.8.5 | blocked 2025-12-06
-🚫sha.zeynali #404.8.5 | blocked 2025-12-06
-🚫agheli #404.8.6 | blocked 2025-12-06
-🚫shadi #404.8.3 | blocked 2025-12-06
-🚫ahmadi #404.8.4 | blocked 2025-12-06
-🚫customer4 #404.7.26 | blocked 2025-11-29
-🚫s.mamasi #404.7.27 | blocked 2025-11-29
-🚫g.kazemi #404.8.1 | blocked 2025-11-29
-🚫yashar.valizade #404.7.29 | blocked 2025-11-29
-🚫khalilzade #404.8.1 | blocked 2025-11-29
-🚫m.alizade #404.7.21 | blocked 2025-11-23
-🚫f.jafari #404.7.22 | blocked 2025-11-23
-🚫nazanin.zahra #404.7.21 | blocked 2025-11-23
-🚫khani #404.7.20 | blocked 2025-11-23
-🚫t.seddigi #404.7.22 | blocked 2025-11-23
-🚫farshad.jabbari #404.7.19 | blocked 2025-11-23
-🚫m.fathi #404.7.20 | blocked 2025-11-23
-🚫ujagi #404.7.22 | blocked 2025-11-23
-🚫z.soltani #404.7.16 | blocked 2025-11-15
-🚫m.gorbani #404.7.15 | blocked 2025-11-15
-🚫malkami #404.7.19 | blocked 2025-11-15
-🚫customer3 #404.7.13 | blocked 2025-11-15
-🚫s.ilati #404.7.9 | blocked 2025-11-15
-🚫makarem #404.7.10 | blocked 2025-11-15
-🚫khaledzade #404.7.12 | blocked 2025-11-15
-🚫a.amini #404.7.3 | blocked 2025-11-15
-🚫salmanzade1 #404.7.3 | blocked 2025-11-15
-🚫s.mogaddam #404.7.7 | blocked 2025-11-08
-🚫aghaye.rahimi #404.7.7 | blocked 2025-11-08
-🚫tahmazade #404.7.7 | blocked 2025-11-08
-🚫sahranavard #404.7.8 | blocked 2025-11-08
-🚫m.zahedi #404.7.5 | blocked 2025-11-08
-🚫besharat #404.7.7 | blocked 2025-11-08
-🚫m.mohammadi #404.7.5 | blocked 2025-11-08
-🚫abbasi #404.7.1 | blocked 2025-11-08
-🚫mandulakani #404.6.31 | blocked 2025-11-08
-🚫rajabi #404.6.30 | blocked 2025-11-01
-🚫asiyabi #404.6.24 | blocked 2025-11-01
-🚫bakhshalizade #404.6.29 | blocked 2025-11-01
-🚫hatamkhani #404.6.26 | blocked 2025-11-01
-🚫sadegi #404.6.26 | blocked 2025-11-01
-🚫shariatdust #404.6.25 | blocked 2025-11-01
-🚫alizade #404.6.23 | blocked 2025-11-01
-🚫habibi #404.6.22 | blocked 2025-11-01
-🚫g.abedini #404.6.22 | blocked 2025-11-01
+🚫a.valilou ---d #404.8.6 | blocked 2025-12-06
+🚫eyvari1 ---d #404.8.5 | blocked 2025-12-06
+🚫gorbanpu ---dr #404.8.3 | blocked 2025-12-06
+🚫mortaza.kuchmeshki ---d #404.8.7 | blocked 2025-12-06
+🚫m.bazlju ---d #404.8.5 | blocked 2025-12-06
+🚫sha.zeynali ---d #404.8.5 | blocked 2025-12-06
+🚫agheli ---d #404.8.6 | blocked 2025-12-06
+🚫shadi ---d #404.8.3 | blocked 2025-12-06
+🚫ahmadi ---d #404.8.4 | blocked 2025-12-06
+🚫customer4 ---d #404.7.26 | blocked 2025-11-29
+🚫s.mamasi ---d #404.7.27 | blocked 2025-11-29
+🚫g.kazemi ---d #404.8.1 | blocked 2025-11-29
+🚫yashar.valizade ---d #404.7.29 | blocked 2025-11-29
+🚫khalilzade ---d #404.8.1 | blocked 2025-11-29
+🚫m.alizade ---d #404.7.21 | blocked 2025-11-23
+🚫f.jafari ---d #404.7.22 | blocked 2025-11-23
+🚫nazanin.zahra ---d #404.7.21 | blocked 2025-11-23
+🚫khani ---d #404.7.20 | blocked 2025-11-23
+🚫t.seddigi ---d #404.7.22 | blocked 2025-11-23
+🚫farshad.jabbari ---d #404.7.19 | blocked 2025-11-23
+🚫m.fathi ---d #404.7.20 | blocked 2025-11-23
+🚫ujagi ---d #404.7.22 | blocked 2025-11-23
+🚫z.soltani ---d #404.7.16 | blocked 2025-11-15
+🚫m.gorbani ---d #404.7.15 | blocked 2025-11-15
+🚫malkami ---d #404.7.19 | blocked 2025-11-15
+🚫customer3 ---d #404.7.13 | blocked 2025-11-15
+🚫s.ilati ---d #404.7.9 | blocked 2025-11-15
+🚫makarem ---d #404.7.10 | blocked 2025-11-15
+🚫khaledzade ---d #404.7.12 | blocked 2025-11-15
+🚫a.amini ---d #404.7.3 | blocked 2025-11-15
+🚫salmanzade1 ---d #404.7.3 | blocked 2025-11-15
+🚫s.mogaddam ---d #404.7.7 | blocked 2025-11-08
+🚫aghaye.rahimi ---d #404.7.7 | blocked 2025-11-08
+🚫tahmazade ---d #404.7.7 | blocked 2025-11-08
+🚫sahranavard ---d #404.7.8 | blocked 2025-11-08
+🚫m.zahedi ---d #404.7.5 | blocked 2025-11-08
+🚫besharat ---d #404.7.7 | blocked 2025-11-08
+🚫m.mohammadi ---d #404.7.5 | blocked 2025-11-08
+🚫abbasi ---d #404.7.1 | blocked 2025-11-08
+🚫mandulakani ---d #404.6.31 | blocked 2025-11-08
+🚫rajabi ---d #404.6.30 | blocked 2025-11-01
+🚫asiyabi ---d #404.6.24 | blocked 2025-11-01
+🚫bakhshalizade ---d #404.6.29 | blocked 2025-11-01
+🚫hatamkhani ---d #404.6.26 | blocked 2025-11-01
+🚫sadegi ---d #404.6.26 | blocked 2025-11-01
+🚫shariatdust ---d #404.6.25 | blocked 2025-11-01
+🚫alizade ---d #404.6.23 | blocked 2025-11-01
+🚫habibi ---d #404.6.22 | blocked 2025-11-01
+🚫g.abedini ---d #404.6.22 | blocked 2025-11-01
 family
-🚫h.karkon #404.6.20 | blocked 2025-10-24
-🚫s.kalashani #404.6.19 | blocked 2025-10-24
-🚫golizade1 #404.6.18 | blocked 2025-10-24
-🚫gorbannezhad #404.6.18 | blocked 2025-10-24
-🚫khosrotamar #404.6.17 | blocked 2025-10-24
-🚫afsari #404.6.15 | blocked 2025-10-18
-🚫ebrahimzade1 #404.6.13 | blocked 2025-10-18
-🚫m.mafi #404.6.11 | blocked 2025-10-18
-🚫m.mohammadi1 #404.6.10 | blocked 2025-10-11
-🚫soltanzade1 #404.6.9 | blocked 2025-10-11
-🚫farajzade #404.6.9 | blocked 2025-10-11
-🚫igdam #404.6.8 | blocked 2025-10-11
-🚫h.mukhtari #404.6.4 | blocked 2025-10-07
-🚫gahramani #404.6.4 | blocked 2025-10-07
-🚫seyyedhoseyni #404.6.4 | blocked 2025-10-07
-🚫zamani #404.6.3 | blocked 2025-10-07
-🚫gholami #404.6.1 | blocked 2025-10-04
-🚫hosseynzade #404.5.30 | blocked 2025-10-04
-🚫pashazade #404.5.30 | blocked 2025-10-04
-🚫eshgi #404.5.30 | blocked 2025-10-04
-🚫karimzade #404.5.30 | blocked 2025-10-04
-🚫parsa1 #404.5.27 | blocked 2025-10-04
-🚫a.mafi #404.5.25 | blocked 2025-09-27
-🚫n.karimi #404.4.18 | blocked 2025-09-27
-🚫h.lotfi #404.5.22 | blocked 2025-09-27
-🚫ebrahimzade #404.5.21 | blocked 2025-09-27
-🚫omarzade #404.5.20 | blocked 2025-09-27
-🚫josef #404.5.19 | blocked 2025-09-27
-🚫zafari #404.5.19 | blocked 2025-09-27
+🚫h.karkon ---d #404.6.20 | blocked 2025-10-24
+🚫s.kalashani ---d #404.6.19 | blocked 2025-10-24
+🚫golizade1 ---d #404.6.18 | blocked 2025-10-24
+🚫gorbannezhad ---d #404.6.18 | blocked 2025-10-24
+🚫khosrotamar ---d #404.6.17 | blocked 2025-10-24
+🚫afsari ---d #404.6.15 | blocked 2025-10-18
+🚫ebrahimzade1 ---d #404.6.13 | blocked 2025-10-18
+🚫m.mafi ---d #404.6.11 | blocked 2025-10-18
+🚫m.mohammadi1 ---d #404.6.10 | blocked 2025-10-11
+🚫soltanzade1 ---d #404.6.9 | blocked 2025-10-11
+🚫farajzade ---d #404.6.9 | blocked 2025-10-11
+🚫igdam ---d #404.6.8 | blocked 2025-10-11
+🚫h.mukhtari ---d #404.6.4 | blocked 2025-10-07
+🚫gahramani ---d #404.6.4 | blocked 2025-10-07
+🚫seyyedhoseyni ---d #404.6.4 | blocked 2025-10-07
+🚫zamani ---d #404.6.3 | blocked 2025-10-07
+🚫gholami ---d #404.6.1 | blocked 2025-10-04
+🚫hosseynzade ---d #404.5.30 | blocked 2025-10-04
+🚫pashazade ---d #404.5.30 | blocked 2025-10-04
+🚫eshgi ---d #404.5.30 | blocked 2025-10-04
+🚫karimzade ---d #404.5.30 | blocked 2025-10-04
+🚫parsa1 ---d #404.5.27 | blocked 2025-10-04
+🚫a.mafi ---d #404.5.25 | blocked 2025-09-27
+🚫n.karimi ---d #404.4.18 | blocked 2025-09-27
+🚫h.lotfi ---d #404.5.22 | blocked 2025-09-27
+🚫ebrahimzade ---d #404.5.21 | blocked 2025-09-27
+🚫omarzade ---d #404.5.20 | blocked 2025-09-27
+🚫josef ---d #404.5.19 | blocked 2025-09-27
+🚫zafari ---d #404.5.19 | blocked 2025-09-27
 sohrab #404.6.30
 erfan #404.5.21
 azmun #404.4.29
