@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer34",
     "molayi",
     "customer76",
     "customer75",
@@ -82,7 +83,6 @@
     "z.pourmohammad",
     "customer35",
     "customer44",
-    "customer34",
     "aaa.aaa",
     "customer28",
     "asghar",
@@ -123,6 +123,7 @@
     "mm"
   ],
   "lines": {
+    "customer34": "customer34 #405.5.23 | src: servers.txt",
     "molayi": "molayi #405.6.23",
     "customer76": "customer76 #405.6.23",
     "customer75": "customer75 #405.6.23",
@@ -205,7 +206,6 @@
     "z.pourmohammad": "🚫z.pourmohammad #405.5.12 | blocked 2026-09-14",
     "customer35": "🚫customer35 #405.5.7 | blocked 2026-09-14",
     "customer44": "🚫customer44 #405.5.25 | blocked 2026-09-14",
-    "customer34": "🚫customer34 #405.5.6 | blocked 2026-09-14",
     "aaa.aaa": "aaa.aaa #| src: test1",
     "customer28": "🚫customer28 #405.4.30 | blocked 2026-09-08",
     "asghar": "🚫asghar #405.5.4 | blocked 2026-09-08",
@@ -245,5 +245,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-15 20:52"
+  "timestamp": "2026-09-15 23:29"
 }
