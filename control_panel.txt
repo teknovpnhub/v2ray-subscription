@@ -7,7 +7,7 @@ test1: OFF
 --------------------------------
 # === SETTINGS ===
 FLAGS: OFF
-✓ AUTO_RENAME: ON
+✓ AUTO_RENAME: OFF
 DUPLICATES: OFF
 MAX_SERVERS: ALL
 EXPIRED_MSG: اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید
