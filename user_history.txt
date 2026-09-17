@@ -1,3 +1,7 @@
+customer37 | unblocked | [Note: 405.6.24 | blocked 2026-09-14] | 2026-09-17 17:29
+
+customer37 | manual_delete | User manually removed [Note: 405.6.24 | blocked 2026-09-14] | 2026-09-17 17:29
+
 customer78 | manual_add | Line: customer78 #405.6.24 [Note: 405.6.24] | 2026-09-17 13:02
 
 customer77 | added | [Note: 405.6.24] | 2026-09-17 12:35
