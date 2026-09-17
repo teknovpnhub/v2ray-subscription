@@ -1,3 +1,5 @@
+customer77 | added | [Note: 405.6.24] | 2026-09-17 12:35
+
 me.2025 | unblocked |  | 2026-09-16 17:34
 
 me.2025 | manual_delete | User manually removed | 2026-09-16 17:34
@@ -1720,21 +1722,9 @@ customer66 | manual_delete | User manually removed [Note: 405.6.17 ---src pt.con
 
 customer66 | added | [Note: 405.6.17 ---src pt.configs.txt] | 2026-09-08 17:59
 
-alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23 ---src pt.configs.txt] | 2026-09-06 18:32
-
-customer65 | manual_delete | User manually removed [Note: 405.6.15 ---src pt.configs.txt] | 2026-09-06 13:02
-
 customer641 | renamed | to customer65 [Note: 405.6.15 | src: pt.configs.txt] | 2026-09-06 13:02
 
 customer641 | manual_delete | User manually removed [Note: 405.6.15 | src: pt.configs.txt] | 2026-09-06 13:02
-
-customer641 | added |  | 2026-09-06 12:57
-
-customer641 | auto_renamed | Automatically renamed from customer64 due to duplicate | 2026-09-06 12:57
-
-habib.mojallal | added | [Note: 404.6.15 ---src pt.configs.txt] | 2026-09-06 12:51
-
-habib.mojallal | manual_delete | User manually removed [Note: 404.6.15 ---src pt.configs.txt] | 2026-09-06 12:51
 
 testtest | unblocked | [Note: | blocked 2026-09-05 | src: pt.configs.txt] | 2026-09-05 16:32
 
