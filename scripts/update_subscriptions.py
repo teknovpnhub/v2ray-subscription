@@ -18,11 +18,20 @@ import yaml
 
 def extract_ip_from_server(server_line):
     """Extract IP address or hostname from server URL.
-    Supports: vless, vmess, trojan, ss, hysteria, hysteria2"""
+    Supports: vless, vmess, trojan, ss, hysteria, hysteria2, aether"""
     try:
         if server_line.startswith(('vless://', 'trojan://', 'hysteria://', 'hysteria2://')):
             parsed = urlparse(server_line.split('#')[0])
             return parsed.hostname
+        elif server_line.startswith('aether://'):
+            parsed = urlparse(server_line.split('#')[0])
+            if parsed.hostname:
+                return parsed.hostname
+            qs = dict(parse_qsl(parsed.query))
+            outer = qs.get('outer', '')
+            if outer:
+                return outer.split(':')[0]
+            return None
         elif server_line.startswith('vmess://'):
             base64_part = server_line[8:].split('#')[0]
             decoded = base64.b64decode(base64_part).decode('utf-8')
@@ -35,12 +44,24 @@ def extract_ip_from_server(server_line):
     except Exception:
         return None
 
+_IP_COUNTRY_CACHE = {}
+_GEOIP_RATE_LIMITED = False
+
 def get_country_code(ip_or_domain):
     """Get country code for an IP address or domain name using multiple free APIs with fallback.
     Tries providers in order: ipinfo.io (best limits), ip-api.com (backup).
-    Returns empty string on failure."""
-    if not ip_or_domain:
+    Caches results in memory to avoid redundant API requests.
+    Fast fails if rate limited to prevent workflow hangs."""
+    global _GEOIP_RATE_LIMITED
+    if not ip_or_domain or _GEOIP_RATE_LIMITED:
         return ''
+    
+    # Strip port if present
+    if ':' in ip_or_domain and not ip_or_domain.startswith('['):
+        ip_or_domain = ip_or_domain.split(':')[0]
+    
+    if ip_or_domain in _IP_COUNTRY_CACHE:
+        return _IP_COUNTRY_CACHE[ip_or_domain]
     
     # Provider list with their API endpoints and response parsing
     providers = [
@@ -60,43 +81,37 @@ def get_country_code(ip_or_domain):
     
     # Try each provider
     for provider in providers:
-        for attempt in range(2):  # 2 attempts per provider
+        if _GEOIP_RATE_LIMITED:
+            break
+        for attempt in range(2):
             try:
-                response = requests.get(provider['url'], timeout=10)
+                response = requests.get(provider['url'], timeout=3)
                 
                 # Check for rate limiting
                 if response.status_code == 429:
-                    if attempt < 1:
-                        time.sleep(2)
-                        continue
-                    # Try next provider
+                    if provider['name'] == 'ip-api.com':
+                        _GEOIP_RATE_LIMITED = True
+                        print("⚠️ GeoIP API rate limit reached. Skipping remaining flag lookups to prevent workflow hang.")
                     break
                 
                 # Parse response
                 cc = provider['parse'](response)
                 if cc and len(cc) == 2:
+                    _IP_COUNTRY_CACHE[ip_or_domain] = cc.upper()
                     return cc.upper()
                 
-                # If successful response but no country code, don't retry
                 if response.status_code == 200:
                     break
                     
-            except requests.exceptions.Timeout:
+            except (requests.exceptions.Timeout, requests.exceptions.RequestException):
                 if attempt < 1:
-                    time.sleep(1)
+                    time.sleep(0.5)
                     continue
-                # Try next provider
-                break
-            except requests.exceptions.RequestException:
-                if attempt < 1:
-                    time.sleep(1)
-                    continue
-                # Try next provider
                 break
             except Exception:
-                # Try next provider
                 break
     
+    _IP_COUNTRY_CACHE[ip_or_domain] = ''
     return ''
 
 def country_code_to_flag(country_code):
@@ -125,13 +140,15 @@ def update_server_remarks(servers, flags_enabled=True, auto_rename_enabled=True)
         flag = ""
         if flags_enabled:
             ip_or_domain = extract_ip_from_server(server)
+            already_cached = ip_or_domain in _IP_COUNTRY_CACHE if ip_or_domain else True
             cc = get_country_code(ip_or_domain)
             flag = country_code_to_flag(cc)
             if not flag and ip_or_domain:
                 failed_flags += 1
                 if len(failed_ips) < 5:
                     failed_ips.append(ip_or_domain)
-            time.sleep(0.5)
+            if not already_cached and not _GEOIP_RATE_LIMITED:
+                time.sleep(0.2)
         
         # Determine new remark based on auto_rename_enabled
         if auto_rename_enabled:
@@ -258,6 +275,7 @@ def update_yaml_remarks(yaml_data, flags_enabled=True, auto_rename_enabled=True)
         
         if flags_enabled:
             ip_or_domain = proxy.get('server')
+            already_cached = ip_or_domain in _IP_COUNTRY_CACHE if ip_or_domain else True
             cc = get_country_code(ip_or_domain)
             flag = country_code_to_flag(cc)
             if flag:
@@ -266,7 +284,8 @@ def update_yaml_remarks(yaml_data, flags_enabled=True, auto_rename_enabled=True)
                 new_name = base_name
                 if ip_or_domain:
                     failed_flags += 1
-            time.sleep(0.5)
+            if not already_cached and not _GEOIP_RATE_LIMITED:
+                time.sleep(0.2)
         else:
             new_name = base_name
             
@@ -2132,6 +2151,21 @@ def validate_server(server_line):
             parsed = urlparse(url_part)
             hostname = parsed.hostname
             port = parsed.port or 443
+        elif server_line.startswith('aether://'):
+            url_part = server_line.split('#')[0]
+            parsed = urlparse(url_part)
+            if parsed.hostname:
+                hostname = parsed.hostname
+                port = parsed.port or 443
+            else:
+                qs = dict(parse_qsl(parsed.query))
+                outer = qs.get('outer', '')
+                if outer and ':' in outer:
+                    hostname, p = outer.split(':', 1)
+                    try:
+                        port = int(p)
+                    except ValueError:
+                        port = 443
         if hostname and port:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(VALIDATION_TIMEOUT)
