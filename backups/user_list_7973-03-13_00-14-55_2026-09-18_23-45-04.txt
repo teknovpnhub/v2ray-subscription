@@ -1,4 +1,4 @@
-aaa.aaa1 #405 | src: aether.txt
+aaa.aaa1 #405 ---src aether.txt
 aaa.aaa #| src: aether.txt
 customer37 #405.6.24
 customer79 #405.6.24
