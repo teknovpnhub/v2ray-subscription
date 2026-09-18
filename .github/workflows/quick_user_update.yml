@@ -12,6 +12,7 @@ permissions:
 jobs:
   quick-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     # Prevent concurrent runs of this workflow
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
