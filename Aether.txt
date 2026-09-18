@@ -1,3 +1,9 @@
+aether://?protocol=gool&scan=balanced&noize=balanced&ip=v4&outer=162.159.192.17%3A903&inner=162.159.192.91%3A859#Aaaa
+aether://162.159.198.112:443?protocol=masque&scan=balanced&noize=balanced&ip=v4&transport=h2#Aaaa
+aether://162.159.192.215:1843?protocol=wg&scan=balanced&noize=balanced&ip=v4#AAA
+aether://?protocol=gool&scan=balanced&noize=balanced&ip=v4&outer=188.114.97.1%3A4500&inner=188.114.97.80%3A880#WiW2
 aether://?protocol=gool&scan=balanced&noize=balanced&ip=v4&outer=162.159.195.68%3A864&inner=188.114.96.1%3A1701#WiW
-aether://188.114.98.226:939?protocol=wg&scan=balanced&noize=balanced&ip=v4#WireGuard
+aether://?protocol=gool&scan=balanced&noize=balanced&ip=v4&outer=162.159.195.249%3A864&inner=188.114.96.1%3A1701#WiW1
 aether://162.159.198.106:443?protocol=masque&scan=balanced&noize=balanced&ip=v4&transport=h2#Masque
+aether://162.159.198.8:443?protocol=masque&scan=balanced&noize=balanced&ip=v4&transport=h2#Masque1
+aether://188.114.98.226:939?protocol=wg&scan=balanced&noize=balanced&ip=v4#WireGuard
