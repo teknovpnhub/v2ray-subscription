@@ -3,13 +3,13 @@ name: Update V2Ray Subscriptions
 on:
   push:
     paths:
-      - 'servers.txt'
+      - 'servers*'
       - 'servers*.txt'
       - '**/*_servers.txt'
       - 'production*.txt'
       - 'backup*.txt'
       - 'premium*.txt'
-      - 'external*.txt'
+      - 'external*'
       - 'pt.configs*'
       - '*.configs*'
       - '*configs*.txt'
@@ -17,12 +17,29 @@ on:
       - '*.src.txt'
       - '*.src'
       - '**/*.src.txt'
+      - 'aether*'
+      - 'test*'
       - '*.yaml'
       - '*.yml'
       - '**/*.yaml'
       - '**/*.yml'
       - 'control_panel.txt'
       - 'scripts/update_subscriptions.py'
+      - '*.txt'
+      - '!user_list.txt'
+      - '!blocked_users.txt'
+      - '!server_history.txt'
+      - '!user_history.txt'
+      - '!COMMANDS_GUIDE.txt'
+      - '!news.txt'
+      - '!notification.txt'
+      - '!update.txt'
+      - '!pass.txt'
+      - '!dev_pass.txt'
+      - '!dns.txt'
+      - '!non_working.txt'
+      - '!subscriptions/**'
+      - '!backups/**'
   schedule:
     - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
@@ -38,6 +55,7 @@ permissions:
 jobs:
   update-subscriptions:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     # Prevent concurrent runs of this workflow
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
