@@ -1,3 +1,5 @@
+aaa.aaa | manual_delete | User manually removed | 2026-09-18 20:59
+
 customer37 | manual_change | Changes:
 - customer37
 + customer37 #405.6.24 [Note: 405.6.24] | 2026-09-18 20:57
