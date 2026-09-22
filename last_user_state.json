@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "family",
     "customer87",
     "customer48",
     "customer86",
@@ -23,7 +24,6 @@
     "molayi",
     "customer76",
     "customer75",
-    "family",
     "vahid.behruz",
     "test11",
     "customer56",
@@ -136,6 +136,7 @@
     "mm"
   ],
   "lines": {
+    "family": "family",
     "customer87": "customer87 #405.6.31",
     "customer48": "customer48 #405.6.31",
     "customer86": "customer86 #405.6.31",
@@ -159,7 +160,6 @@
     "molayi": "molayi #405.6.23",
     "customer76": "customer76 #405.6.23",
     "customer75": "customer75 #405.6.23",
-    "family": "family #| src: servers.txt",
     "vahid.behruz": "vahid.behruz #| src: servers.txt",
     "test11": "test11",
     "customer56": "🚫customer56 #405.6.5 | blocked 2026-08-29",
@@ -271,5 +271,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-09-22 18:59"
+  "timestamp": "2026-09-22 21:32"
 }
