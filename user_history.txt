@@ -1,3 +1,5 @@
+customer88 | added | [Note: 405.7.1] | 2026-09-23 11:03
+
 family | manual_change | Changes:
 - family #| src: servers.txt
 + family | 2026-09-22 21:32
@@ -1695,12 +1697,6 @@ testtest | blocked | | blocked 2026-09-13 [Note: | src: pt.configs.txt] | 2026-0
 testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt] | 2026-09-13 13:03
 
 customer74 | added | [Note: 405.6.22 ---src pt.configs.txt] | 2026-09-13 13:02
-
-sajad.samadzade | added | [Note: 405.6.21 ---src pt.configs.txt] | 2026-09-12 20:29
-
-salamzade | unblocked | [Note: 405.6.21 ---src pt.configs.txt] | 2026-09-12 11:46
-
-salamzade | manual_delete | User manually removed [Note: 405.6.21 ---src pt.configs.txt] | 2026-09-12 11:46
 
 testtest | unblocked | [Note: | blocked 2026-09-12 | src: pt.configs.txt] | 2026-09-12 02:56
 
