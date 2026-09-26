@@ -1,3 +1,5 @@
+customer90 | added | [Note: 405.7.4] | 2026-09-26 17:28
+
 mahdi.kiyavash | added | [Note: 405.7.2] | 2026-09-24 13:25
 
 customer89 | added | [Note: 405.7.1] | 2026-09-23 19:10
@@ -94,43 +96,9 @@ me.2025 | blocked | | blocked 2026-09-16 [Note: | src: servers.txt] | 2026-09-16
 
 me.2025 | manual_delete | User manually removed [Note: | src: servers.txt] | 2026-09-16 17:23
 
-customer34 | unblocked | [Note: 405.5.23 ---src servers.txt] | 2026-09-15 23:29
-
-customer34 | manual_delete | User manually removed [Note: 405.5.23 ---src servers.txt] | 2026-09-15 23:29
-
-molayi | unblocked | [Note: 405.6.23] | 2026-09-15 20:52
-
-molayi | manual_delete | User manually removed [Note: 405.6.23] | 2026-09-15 20:52
-
-customer76 | added | [Note: 405.6.23] | 2026-09-15 20:33
-
-customer75 | added | [Note: 405.6.23] | 2026-09-15 11:11
-
-me.2025 | manual_delete | User manually removed | 2026-09-15 02:48
-
-family | manual_delete | User manually removed | 2026-09-15 02:48
-
-vahid.behruz | manual_delete | User manually removed | 2026-09-15 02:48
-
-test11 | manual_change | Changes:
-- test11 #| src: servers.txt
-+ test11 | 2026-09-15 02:28
-
-test11 | unblocked |  | 2026-09-15 02:14
-
-test11 | manual_delete | User manually removed | 2026-09-15 02:14
-
-test11 | blocked | | blocked 2026-09-15 | 2026-09-15 02:08
-
-test11 | manual_delete | User manually removed | 2026-09-15 02:08
-
-test11 | added |  | 2026-09-15 02:00
-
 customer56 | manual_change | Changes:
 - 🚫customer56 #405.6.5 | blocked 2026-08-29 | src: pt.configs.txt
 ?                                          ----------------------
-
-+ 🚫customer56 #405.6.5 | blocked 2026-08-29 [Note: 405.6.5 | blocked 2026-08-29] | 2026-09-15 01:50
 
 customer43 | manual_change | Changes:
 - customer43 #405.5.22 | src: pt.configs.txt
@@ -147,10 +115,6 @@ hasan.rasuli | manual_change | Changes:
 milad.gasempur | manual_change | Changes:
 - milad.gasempur #405.6.14 | src: pt.configs.txt
 + milad.gasempur #405.6.14 [Note: 405.6.14] | 2026-09-14 22:24
-
-vahid.behruz1 | manual_change | Changes:
-- vahid.behruz1 #| src: pt.configs.txt
-+ vahid.behruz1 | 2026-09-14 22:24
 
 customer23 | manual_change | Changes:
 - customer23 #405.6.23 | src: pt.configs.txt
@@ -196,10 +160,6 @@ customer70 | manual_change | Changes:
 - customer70 #405.6.18 | src: pt.configs.txt
 + customer70 #405.6.18 [Note: 405.6.18] | 2026-09-14 22:24
 
-afshin | manual_change | Changes:
-- afshin #| src: pt.configs.txt
-+ afshin | 2026-09-14 22:24
-
 a.reza | manual_change | Changes:
 - a.reza #404.7.16 | src: pt.configs.txt
 + a.reza #404.7.16 [Note: 404.7.16] | 2026-09-14 22:24
@@ -235,10 +195,6 @@ customer63 | manual_change | Changes:
 customer55 | manual_change | Changes:
 - customer55 #405.6.3 | src: pt.configs.txt
 + customer55 #405.6.3 [Note: 405.6.3] | 2026-09-14 22:24
-
-arkan.paki | manual_change | Changes:
-- arkan.paki #| src: pt.configs.txt
-+ arkan.paki | 2026-09-14 22:24
 
 hamed.ayubi | manual_change | Changes:
 - hamed.ayubi #405.5.11 | src: pt.configs.txt
@@ -320,10 +276,6 @@ fazlalizade | manual_change | Changes:
 - fazlalizade #405.5.17 | src: pt.configs.txt
 + fazlalizade #405.5.17 [Note: 405.5.17] | 2026-09-14 22:24
 
-testtest | manual_change | Changes:
-- testtest #| src: pt.configs.txt
-+ testtest | 2026-09-14 22:24
-
 alireza.gareahmadi | manual_change | Changes:
 - alireza.gareahmadi #405.3.23 | src: pt.configs.txt
 + alireza.gareahmadi #405.3.23 [Note: 405.3.23] | 2026-09-14 22:24
@@ -331,10 +283,6 @@ alireza.gareahmadi | manual_change | Changes:
 customer67 | manual_change | Changes:
 - customer67 #405.6.18 | src: pt.configs.txt
 + customer67 #405.6.18 [Note: 405.6.18] | 2026-09-14 22:24
-
-jafar | manual_change | Changes:
-- jafar #| src: pt.configs.txt
-+ jafar | 2026-09-14 22:24
 
 customer57 | manual_change | Changes:
 - customer57 #405.6.7 | src: pt.configs.txt
@@ -523,8 +471,6 @@ hadi.nariman | manual_delete | User manually removed [Note: 404.6.17 | blocked 2
 sakine.purzeynel1 | manual_delete | User manually removed [Note: 404.11.15 | blocked 2026-05-28] | 2026-09-14 22:18
 
 lahuri | manual_delete | User manually removed [Note: 404.10.6 | blocked 2026-05-31] | 2026-09-14 22:18
-
-parvin.bargushluyi | manual_delete | User manually removed | 2026-09-14 22:18
 
 customer7 | manual_delete | User manually removed [Note: 404.10.9 | blocked 2026-05-31] | 2026-09-14 22:18
 
@@ -1302,8 +1248,6 @@ eyvari1 | manual_delete | User manually removed [Note: 404.8.5 | blocked 2025-12
 
 aghaye.rahimi | manual_delete | User manually removed [Note: 404.7.7 | blocked 2025-11-08] | 2026-09-14 22:09
 
-gorbanpur | manual_delete | User manually removed | 2026-09-14 22:09
-
 farajzade | manual_delete | User manually removed [Note: 404.6.9 | blocked 2025-10-11] | 2026-09-14 22:09
 
 m.zahedi | manual_delete | User manually removed [Note: 404.7.5 | blocked 2025-11-08] | 2026-09-14 22:09
@@ -1577,102 +1521,6 @@ asartamar | manual_delete | User manually removed [Note: 404.4.18 | blocked 2025
 hatami | manual_delete | User manually removed [Note: 404.4.16 | blocked 2025-08-12] | 2026-09-14 22:04
 
 agazade | manual_delete | User manually removed [Note: 404.4.18 | blocked 2025-08-20] | 2026-09-14 22:04
-
-customer33 | blocked | | blocked 2026-09-14 [Note: 405.5.6] | 2026-09-14 21:56
-
-customer34 | blocked | | blocked 2026-09-14 [Note: 405.5.6] | 2026-09-14 21:56
-
-molayi | blocked | | blocked 2026-09-14 [Note: 405.5.6] | 2026-09-14 21:56
-
-customer2 | blocked | | blocked 2026-09-14 [Note: 405.5.7] | 2026-09-14 21:56
-
-customer35 | blocked | | blocked 2026-09-14 [Note: 405.5.7] | 2026-09-14 21:56
-
-customer36 | blocked | | blocked 2026-09-14 [Note: 405.5.7] | 2026-09-14 21:56
-
-customer13 | blocked | | blocked 2026-09-14 [Note: 405.5.10] | 2026-09-14 21:56
-
-customer37 | blocked | | blocked 2026-09-14 [Note: 405.5.11] | 2026-09-14 21:56
-
-hadi.ganbarpur | blocked | | blocked 2026-09-14 [Note: 405.5.11] | 2026-09-14 21:56
-
-z.pourmohammad | blocked | | blocked 2026-09-14 [Note: 405.5.12] | 2026-09-14 21:56
-
-customer38 | blocked | | blocked 2026-09-14 [Note: 405.5.12] | 2026-09-14 21:56
-
-ramin.tankhahi | blocked | | blocked 2026-09-14 [Note: 404.5.14] | 2026-09-14 21:56
-
-aydin.javani | blocked | | blocked 2026-09-14 [Note: 404.5.14] | 2026-09-14 21:56
-
-customer39 | blocked | | blocked 2026-09-14 [Note: 405.5.14] | 2026-09-14 21:56
-
-customer40 | blocked | | blocked 2026-09-14 [Note: 405.5.17] | 2026-09-14 21:56
-
-customer41 | blocked | | blocked 2026-09-14 [Note: 405.5.18] | 2026-09-14 21:56
-
-customer42 | blocked | | blocked 2026-09-14 [Note: 405.5.18] | 2026-09-14 21:56
-
-javad.golmohammadi | blocked | | blocked 2026-09-14 [Note: 405.5.18] | 2026-09-14 21:56
-
-customer44 | blocked | | blocked 2026-09-14 [Note: 405.5.25] | 2026-09-14 21:56
-
-customer45 | blocked | | blocked 2026-09-14 [Note: 405.5.27] | 2026-09-14 21:56
-
-customer46 | blocked | | blocked 2026-09-14 [Note: 405.5.28] | 2026-09-14 21:56
-
-customer47 | blocked | | blocked 2026-09-14 [Note: 405.5.28] | 2026-09-14 21:56
-
-customer48 | blocked | | blocked 2026-09-14 [Note: 405.5.29] | 2026-09-14 21:56
-
-customer38 | manual_delete | User manually removed [Note: 405.5.12] | 2026-09-14 21:56
-
-customer13 | manual_delete | User manually removed [Note: 405.5.10] | 2026-09-14 21:56
-
-customer46 | manual_delete | User manually removed [Note: 405.5.28] | 2026-09-14 21:56
-
-hadi.ganbarpur | manual_delete | User manually removed [Note: 405.5.11] | 2026-09-14 21:56
-
-ramin.tankhahi | manual_delete | User manually removed [Note: 404.5.14] | 2026-09-14 21:56
-
-customer47 | manual_delete | User manually removed [Note: 405.5.28] | 2026-09-14 21:56
-
-customer36 | manual_delete | User manually removed [Note: 405.5.7] | 2026-09-14 21:56
-
-customer2 | manual_delete | User manually removed [Note: 405.5.7] | 2026-09-14 21:56
-
-customer48 | manual_delete | User manually removed [Note: 405.5.29] | 2026-09-14 21:56
-
-javad.golmohammadi | manual_delete | User manually removed [Note: 405.5.18] | 2026-09-14 21:56
-
-customer41 | manual_delete | User manually removed [Note: 405.5.18] | 2026-09-14 21:56
-
-customer33 | manual_delete | User manually removed [Note: 405.5.6] | 2026-09-14 21:56
-
-customer37 | manual_delete | User manually removed [Note: 405.5.11] | 2026-09-14 21:56
-
-customer40 | manual_delete | User manually removed [Note: 405.5.17] | 2026-09-14 21:56
-
-customer42 | manual_delete | User manually removed [Note: 405.5.18] | 2026-09-14 21:56
-
-customer39 | manual_delete | User manually removed [Note: 405.5.14] | 2026-09-14 21:56
-
-customer45 | manual_delete | User manually removed [Note: 405.5.27] | 2026-09-14 21:56
-
-aydin.javani | manual_delete | User manually removed [Note: 404.5.14] | 2026-09-14 21:56
-
-z.pourmohammad | manual_delete | User manually removed [Note: 405.5.12] | 2026-09-14 21:56
-
-customer35 | manual_delete | User manually removed [Note: 405.5.7] | 2026-09-14 21:56
-
-customer44 | manual_delete | User manually removed [Note: 405.5.25] | 2026-09-14 21:56
-
-molayi | manual_delete | User manually removed [Note: 405.5.6] | 2026-09-14 21:56
-
-customer34 | manual_delete | User manually removed [Note: 405.5.6] | 2026-09-14 21:56
-
-customer23 | added | [Note: 405.6.23 ---src pt.configs.txt] | 2026-09-14 19:58
-
-customer23 | manual_delete | User manually removed [Note: 405.6.23 ---src pt.configs.txt] | 2026-09-14 19:58
 
 shamsollah.sedigi | manual_change | Changes:
 - shamsollah.sedigi #405.6.22 | src: pt.configs
