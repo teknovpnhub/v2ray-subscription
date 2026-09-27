@@ -1,3 +1,5 @@
+customer93 | added | [Note: 405.7.5] | 2026-09-27 11:58
+
 customer92 | added | [Note: 405.7.4] | 2026-09-26 18:57
 
 customer91 | added | [Note: 405.7.4] | 2026-09-26 18:35
@@ -91,10 +93,6 @@ customer37 | manual_delete | User manually removed [Note: 405.6.24 | blocked 202
 customer78 | manual_add | Line: customer78 #405.6.24 [Note: 405.6.24] | 2026-09-17 13:02
 
 customer77 | added | [Note: 405.6.24] | 2026-09-17 12:35
-
-me.2025 | unblocked |  | 2026-09-16 17:34
-
-me.2025 | manual_delete | User manually removed | 2026-09-16 17:34
 
 me.2025 | blocked | | blocked 2026-09-16 [Note: | src: servers.txt] | 2026-09-16 17:23
 
