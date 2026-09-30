@@ -1,9 +1,5 @@
-aether://162.159.192.28:945?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto#Wireguard%20psiphon%20%5BDEV%3AAUTH%5D
-
-aether://188.114.99.123:988?protocol=wg&scan=balanced&ip=v4&tor=chain&tor_bridges=auto&tor_relays=auto#Wireguard%20Tor%20%5BDEV%3AAUTH%5D
-
-aether://188.114.99.93:891?protocol=wg&scan=balanced&ip=v4#Wireguard%20%5BDEV%3AAUTH%5D
-
-aether://162.159.198.2:443?protocol=masque&scan=balanced&ip=v4&transport=h2#Masque%20http2%20%5BDEV%3AAUTH%5D
-
-aether://?protocol=gool&scan=balanced&ip=v4&outer=162.159.195.84%3A908&inner=188.114.98.159%3A939#WIW%20%5BDEV%3AAUTH%5D
+aether://162.159.192.28:945?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto#Server 1 🇺🇸
+aether://188.114.99.123:988?protocol=wg&scan=balanced&ip=v4&tor=chain&tor_bridges=auto&tor_relays=auto#Server 2 🇺🇸
+aether://188.114.99.93:891?protocol=wg&scan=balanced&ip=v4#Server 3 🇺🇸
+aether://162.159.198.2:443?protocol=masque&scan=balanced&ip=v4&transport=h2#Server 4 🇺🇸
+aether://?protocol=gool&scan=balanced&ip=v4&outer=162.159.195.84%3A908&inner=188.114.98.159%3A939#Server 5 🇺🇸
