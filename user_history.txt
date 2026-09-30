@@ -1,3 +1,5 @@
+customer96 | added | [Note: 405.7.8] | 2026-09-30 17:41
+
 customer95 | added | [Note: 405.7.6] | 2026-09-28 11:42
 
 customer94 | added | [Note: 405.7.5] | 2026-09-27 19:08
@@ -60,29 +62,9 @@ customer79 | blocked | | blocked 2026-09-20 [Note: 405.6.24] | 2026-09-20 10:21
 
 customer79 | manual_delete | User manually removed [Note: 405.6.24] | 2026-09-20 10:21
 
-javad | added |  | 2026-09-19 23:13
-
-customer80 | added | [Note: 405.6.26] | 2026-09-19 18:36
-
-aaa.aaa1 | manual_delete | User manually removed [Note: 405 ---src aether.txt] | 2026-09-18 23:45
-
 aaa.aaa1 | unblocked | [Note: 405 | blocked 2026-09-18] | 2026-09-18 23:38
 
 aaa.aaa1 | manual_delete | User manually removed [Note: 405 | blocked 2026-09-18] | 2026-09-18 23:38
-
-aaa.aaa1 | blocked | | blocked 2026-09-18 [Note: 405] | 2026-09-18 23:32
-
-aaa.aaa1 | manual_delete | User manually removed [Note: 405] | 2026-09-18 23:32
-
-aaa.aaa1 | added | [Note: 405] | 2026-09-18 23:29
-
-aaa.aaa | manual_delete | User manually removed | 2026-09-18 20:59
-
-customer37 | manual_change | Changes:
-- customer37
-+ customer37 #405.6.24 [Note: 405.6.24] | 2026-09-18 20:57
-
-customer37 | manual_add | Line: customer37 | 2026-09-18 00:44
 
 customer37 | unblocked | [Note: 405.6.24 | blocked 2026-09-14] | 2026-09-17 17:29
 
