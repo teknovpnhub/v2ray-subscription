@@ -1,3 +1,11 @@
+customer15 | unblocked | [Note: 405.7.9 | blocked 2026-08-23] | 2026-10-01 11:58
+
+customer151 | removed | User deleted [Note: 405.7.9] | 2026-10-01 11:58
+
+customer15 | manual_delete | User manually removed [Note: 405.7.9 | blocked 2026-08-23] | 2026-10-01 11:58
+
+customer151 | manual_delete | User manually removed [Note: 405.7.9] | 2026-10-01 11:58
+
 customer151 | added |  | 2026-10-01 11:57
 
 customer151 | auto_renamed | Automatically renamed from customer15 due to duplicate | 2026-10-01 11:57
