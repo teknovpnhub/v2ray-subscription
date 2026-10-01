@@ -33,7 +33,6 @@ sajjad.mehdizade #405.3.10 | blocked 2026-09-01
 customer22 #405.4.20 | blocked 2026-09-01
 akram.hajalilu #405.4.22 | blocked 2026-09-01
 amin.mafi #405.5.22 | blocked 2026-09-01
-customer15 #405.4.8 | blocked 2026-08-23
 customer20 #405.4.14 | blocked 2026-08-23
 r.khani #405.4.17 | blocked 2026-08-23
 customer16 #405.4.8 | blocked 2026-08-23
