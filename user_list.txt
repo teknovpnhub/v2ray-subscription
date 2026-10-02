@@ -37,7 +37,7 @@ molayi #405.6.23
 customer76 #405.6.23
 customer75 #405.6.23
 vahid.behruz #| src: servers.txt
-test11
+test11 ---d
 🚫customer56 #405.6.5 | blocked 2026-08-29
 customer58 #405.6.8
 shamsollah.sedigi #405.6.22
@@ -70,7 +70,7 @@ customer59 #405.6.8
 customer55 #405.6.3
 ruyin #405.4.20
 fazlalizade #405.5.17
-testtest
+testtest ---b
 alireza.gareahmadi #405.3.23
 customer67 #405.6.18
 arkan.paki
