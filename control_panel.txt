@@ -7,7 +7,7 @@ test1: OFF
 aether.txt: OFF
 --------------------------------
 # === SETTINGS ===
-✓ FLAGS: ON
+✓ FLAGS: OFF
 ✓ AUTO_RENAME: ON
 DUPLICATES: OFF
 MAX_SERVERS: ALL
