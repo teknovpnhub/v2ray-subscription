@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "testtest",
     "customer15",
     "customer98",
     "customer97",
@@ -39,7 +40,6 @@
     "customer76",
     "customer75",
     "vahid.behruz",
-    "test11",
     "customer56",
     "customer58",
     "shamsollah.sedigi",
@@ -72,7 +72,6 @@
     "customer55",
     "ruyin",
     "fazlalizade",
-    "testtest",
     "alireza.gareahmadi",
     "customer67",
     "arkan.paki",
@@ -149,6 +148,7 @@
     "mm"
   ],
   "lines": {
+    "testtest": "🚫testtest #| blocked 2026-10-02",
     "customer15": "customer15 #405.7.9",
     "customer98": "customer98 #405.7.9",
     "customer97": "customer97 #405.7.8",
@@ -188,7 +188,6 @@
     "customer76": "customer76 #405.6.23",
     "customer75": "customer75 #405.6.23",
     "vahid.behruz": "vahid.behruz #| src: servers.txt",
-    "test11": "test11",
     "customer56": "🚫customer56 #405.6.5 | blocked 2026-08-29",
     "customer58": "customer58 #405.6.8",
     "shamsollah.sedigi": "shamsollah.sedigi #405.6.22",
@@ -221,7 +220,6 @@
     "customer55": "customer55 #405.6.3",
     "ruyin": "ruyin #405.4.20",
     "fazlalizade": "fazlalizade #405.5.17",
-    "testtest": "testtest",
     "alireza.gareahmadi": "alireza.gareahmadi #405.3.23",
     "customer67": "customer67 #405.6.18",
     "arkan.paki": "arkan.paki",
@@ -297,5 +295,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-02 18:58"
+  "timestamp": "2026-10-02 23:03"
 }

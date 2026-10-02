@@ -1,3 +1,11 @@
+testtest | blocked | | blocked 2026-10-02 | 2026-10-02 23:03
+
+test11 | removed | User deleted | 2026-10-02 23:03
+
+test11 | manual_delete | User manually removed | 2026-10-02 23:03
+
+testtest | manual_delete | User manually removed | 2026-10-02 23:03
+
 customer15 | unblocked | [Note: 405.7.9 | blocked 2026-08-23] | 2026-10-01 11:58
 
 customer151 | removed | User deleted [Note: 405.7.9] | 2026-10-01 11:58
@@ -47,14 +55,6 @@ customer48 | unblocked | [Note: 405.6.31 | blocked 2026-09-14] | 2026-09-22 12:1
 customer48 | manual_delete | User manually removed [Note: 405.6.31 | blocked 2026-09-14] | 2026-09-22 12:12
 
 customer86 | added | [Note: 405.6.31] | 2026-09-22 11:10
-
-customer85 | added | [Note: 405.6.30] | 2026-09-21 20:19
-
-customer84 | added | [Note: 405.6.30] | 2026-09-21 19:10
-
-customer83 | added | [Note: 405.6.30] | 2026-09-21 18:02
-
-customer82 | added | [Note: 405.6.30] | 2026-09-21 12:18
 
 customer40 | unblocked | [Note: 405.6.30 | blocked 2026-09-14] | 2026-09-21 11:51
 
