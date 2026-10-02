@@ -148,7 +148,7 @@
     "mm"
   ],
   "lines": {
-    "testtest": "🚫testtest #| blocked 2026-10-02",
+    "testtest": "testtest",
     "customer15": "customer15 #405.7.9",
     "customer98": "customer98 #405.7.9",
     "customer97": "customer97 #405.7.8",
@@ -295,5 +295,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-02 23:03"
+  "timestamp": "2026-10-02 23:12"
 }
