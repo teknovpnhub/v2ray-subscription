@@ -7,8 +7,8 @@ test1: OFF
 aether.txt: OFF
 --------------------------------
 # === SETTINGS ===
-FLAGS: ON
-AUTO_RENAME: ON
+✓ FLAGS: ON
+✓ AUTO_RENAME: ON
 DUPLICATES: OFF
 MAX_SERVERS: ALL
 EXPIRED_MSG: اشتراک شما تمام شده است لطفا اشتراک خود را تمدید کنید
