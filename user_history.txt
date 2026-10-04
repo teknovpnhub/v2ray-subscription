@@ -1,3 +1,7 @@
+customer981 | added |  | 2026-10-04 12:06
+
+customer981 | auto_renamed | Automatically renamed from customer98 due to duplicate | 2026-10-04 12:06
+
 testtest | unblocked | [Note: | blocked 2026-10-02] | 2026-10-02 23:33
 
 testtest | manual_delete | User manually removed [Note: | blocked 2026-10-02] | 2026-10-02 23:33
@@ -50,23 +54,9 @@ customer90 | added | [Note: 405.7.4] | 2026-09-26 17:28
 
 mahdi.kiyavash | added | [Note: 405.7.2] | 2026-09-24 13:25
 
-customer89 | added | [Note: 405.7.1] | 2026-09-23 19:10
-
-bita | added | [Note: 405.7.1] | 2026-09-23 18:29
-
-customer88 | added | [Note: 405.7.1] | 2026-09-23 11:03
-
-family | manual_change | Changes:
-- family #| src: servers.txt
-+ family | 2026-09-22 21:32
-
-customer87 | added | [Note: 405.6.31] | 2026-09-22 18:44
-
 customer48 | unblocked | [Note: 405.6.31 | blocked 2026-09-14] | 2026-09-22 12:12
 
 customer48 | manual_delete | User manually removed [Note: 405.6.31 | blocked 2026-09-14] | 2026-09-22 12:12
-
-customer86 | added | [Note: 405.6.31] | 2026-09-22 11:10
 
 customer40 | unblocked | [Note: 405.6.30 | blocked 2026-09-14] | 2026-09-21 11:51
 
