@@ -1,3 +1,5 @@
+aaa.aaa1 | manual_delete | User manually removed [Note: 405 ---src servers1.txt] | 2026-10-05 00:11
+
 customer100 | added | [Note: 405.7.12] | 2026-10-04 12:55
 
 customer981 | renamed | to customer99 [Note: 405.7.12] | 2026-10-04 12:06
@@ -57,8 +59,6 @@ customer92 | added | [Note: 405.7.4] | 2026-09-26 18:57
 customer91 | added | [Note: 405.7.4] | 2026-09-26 18:35
 
 customer90 | added | [Note: 405.7.4] | 2026-09-26 17:28
-
-mahdi.kiyavash | added | [Note: 405.7.2] | 2026-09-24 13:25
 
 customer48 | unblocked | [Note: 405.6.31 | blocked 2026-09-14] | 2026-09-22 12:12
 
