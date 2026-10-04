@@ -1,3 +1,7 @@
+customer981 | renamed | to customer99 [Note: 405.7.12] | 2026-10-04 12:06
+
+customer981 | manual_delete | User manually removed [Note: 405.7.12] | 2026-10-04 12:06
+
 customer981 | added |  | 2026-10-04 12:06
 
 customer981 | auto_renamed | Automatically renamed from customer98 due to duplicate | 2026-10-04 12:06
