@@ -1,3 +1,4 @@
+
 aether://162.159.192.28:945?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto#Server 1 🇺🇸
 aether://188.114.99.123:988?protocol=wg&scan=balanced&ip=v4&tor=chain&tor_bridges=auto&tor_relays=auto#Server 2 🇺🇸
 aether://188.114.99.93:891?protocol=wg&scan=balanced&ip=v4#Server 3 🇺🇸
@@ -6,3 +7,5 @@ aether://?protocol=gool&scan=balanced&ip=v4&outer=162.159.195.84%3A908&inner=188
 aether://188.114.99.59:1180?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=FI#Server 6 🇺🇸
 aether://188.114.99.184:942?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=US#Server 7 🇺🇸
 aether://188.114.98.59:987?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=DE#Server 8 🇺🇸
+aether://188.114.99.70:3581?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=NL#nether%20%5BDEV%3AAUTH%5D
+aether://188.114.99.227:891?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=AU#Aus%20%5BDEV%3AAUTH%5D
