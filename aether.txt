@@ -17,6 +17,6 @@ aether://188.114.99.87:1180?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psipho
 aether://188.114.97.159:1070?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=CH#Server 17 🇺🇸
 aether://188.114.99.171:988?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=IT#Server 18 🇺🇸
 aether://188.114.97.248:1070?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=SE#Server 19 🇺🇸
-aether://188.114.98.229:890?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=ES#spa
-aether://188.114.97.20:968?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=NO#norw
-aether://188.114.99.109:988?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=IE#irl
+aether://188.114.98.229:890?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=ES#Server 20 🇺🇸
+aether://188.114.97.20:968?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=NO#Server 21 🇺🇸
+aether://188.114.99.109:988?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto&region=IE#Server 22 🇺🇸
