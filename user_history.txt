@@ -1,3 +1,5 @@
+vip | manual_delete | User manually removed | 2026-10-09 02:28
+
 aaa.aaa | renamed | to vip [Note: | src: aether.txt] | 2026-10-09 02:27
 
 aaa.aaa | manual_delete | User manually removed [Note: | src: aether.txt] | 2026-10-09 02:27
