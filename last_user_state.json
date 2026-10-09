@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "testtest",
     "vip",
     "customer105",
     "customer104",
@@ -9,7 +10,6 @@
     "aaa.aaa1",
     "customer100",
     "customer99",
-    "testtest",
     "customer15",
     "customer98",
     "customer97",
@@ -155,6 +155,7 @@
     "mm"
   ],
   "lines": {
+    "testtest": "🚫testtest #| blocked 2026-10-09",
     "vip": "vip #| src: aether.txt",
     "customer105": "customer105 #405.7.15",
     "customer104": "customer104 #405.7.15",
@@ -164,7 +165,6 @@
     "aaa.aaa1": "aaa.aaa1 #405 | src: servers1.txt",
     "customer100": "customer100 #405.7.12",
     "customer99": "customer99 #405.7.12",
-    "testtest": "testtest",
     "customer15": "customer15 #405.7.9",
     "customer98": "customer98 #405.7.9",
     "customer97": "customer97 #405.7.8",
@@ -309,5 +309,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-09 19:26"
+  "timestamp": "2026-10-09 19:29"
 }
