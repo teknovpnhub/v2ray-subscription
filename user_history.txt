@@ -1,3 +1,51 @@
+customer57 | blocked | | blocked 2026-10-10 [Note: 405.6.7] | 2026-10-10 13:11
+
+alrostam | blocked | | blocked 2026-10-10 [Note: 405.6.9] | 2026-10-10 13:11
+
+customer53 | blocked | | blocked 2026-10-10 [Note: 405.6.3] | 2026-10-10 13:11
+
+customer51 | blocked | | blocked 2026-10-10 [Note: 405.6.2] | 2026-10-10 13:11
+
+fazlalizade | blocked | | blocked 2026-10-10 [Note: 405.5.17] | 2026-10-10 13:11
+
+customer55 | blocked | | blocked 2026-10-10 [Note: 405.6.3] | 2026-10-10 13:11
+
+customer59 | blocked | | blocked 2026-10-10 [Note: 405.6.8] | 2026-10-10 13:11
+
+customer50 | blocked | | blocked 2026-10-10 [Note: 405.6.1] | 2026-10-10 13:11
+
+customer52 | blocked | | blocked 2026-10-10 [Note: 405.6.2] | 2026-10-10 13:11
+
+customer54 | blocked | | blocked 2026-10-10 [Note: 405.6.3] | 2026-10-10 13:11
+
+customer49 | blocked | | blocked 2026-10-10 [Note: 405.6.1] | 2026-10-10 13:11
+
+hasan.rasuli | blocked | | blocked 2026-10-10 [Note: 405.6.7] | 2026-10-10 13:11
+
+customer49 | manual_delete | User manually removed [Note: 405.6.1] | 2026-10-10 13:11
+
+customer51 | manual_delete | User manually removed [Note: 405.6.2] | 2026-10-10 13:11
+
+alrostam | manual_delete | User manually removed [Note: 405.6.9] | 2026-10-10 13:11
+
+customer54 | manual_delete | User manually removed [Note: 405.6.3] | 2026-10-10 13:11
+
+customer50 | manual_delete | User manually removed [Note: 405.6.1] | 2026-10-10 13:11
+
+hasan.rasuli | manual_delete | User manually removed [Note: 405.6.7] | 2026-10-10 13:11
+
+fazlalizade | manual_delete | User manually removed [Note: 405.5.17] | 2026-10-10 13:11
+
+customer52 | manual_delete | User manually removed [Note: 405.6.2] | 2026-10-10 13:11
+
+customer59 | manual_delete | User manually removed [Note: 405.6.8] | 2026-10-10 13:11
+
+customer57 | manual_delete | User manually removed [Note: 405.6.7] | 2026-10-10 13:11
+
+customer55 | manual_delete | User manually removed [Note: 405.6.3] | 2026-10-10 13:11
+
+customer53 | manual_delete | User manually removed [Note: 405.6.3] | 2026-10-10 13:11
+
 customer106 | added | [Note: 405.7.18] | 2026-10-10 11:12
 
 testtest | unblocked | [Note: | blocked 2026-10-09] | 2026-10-09 19:34
