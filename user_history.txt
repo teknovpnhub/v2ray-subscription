@@ -1,3 +1,7 @@
+customer59 | unblocked | [Note: 405.7.18 | blocked 2026-10-10] | 2026-10-10 18:49
+
+customer59 | manual_delete | User manually removed [Note: 405.7.18 | blocked 2026-10-10] | 2026-10-10 18:49
+
 alrostam | unblocked | [Note: 405.6.9 | blocked 2026-10-10] | 2026-10-10 17:33
 
 alrostam | manual_delete | User manually removed [Note: 405.6.9 | blocked 2026-10-10] | 2026-10-10 17:33
