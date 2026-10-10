@@ -50,7 +50,7 @@ vahid.behruz #| src: servers.txt
 customer58 #405.6.8
 shamsollah.sedigi #405.6.22
 customer68 #405.6.18
-hasan.rasuli #405.6.7
+hasan.rasuli ---b #405.6.7
 habib.mojallal #404.6.15
 milad.gasempur #405.6.14
 vahid.behruz1
@@ -61,23 +61,23 @@ customer60 #405.6.9
 customer72 #405.6.19
 customer66 #405.6.17
 ehsan #404.8.3
-customer49 #405.6.1
-customer54 #405.6.3
+customer49 ---b #405.6.1
+customer54 ---b #405.6.3
 bahman.hasanlu #405.6.10
 customer71 #405.6.18
 javadi #405.6.12
 customer73 #405.6.19
 customer65 #405.6.15
-customer52 #405.6.2
+customer52 ---b #405.6.2
 customer62 #405.6.10
-customer50 #405.6.1
+customer50 ---b #405.6.1
 customer63 #405.6.12
 customer74 #405.6.22
 vahid
-customer59 #405.6.8
-customer55 #405.6.3
+customer59 ---b #405.6.8
+customer55 ---b #405.6.3
 ruyin #405.4.20
-fazlalizade #405.5.17
+fazlalizade ---b #405.5.17
 alireza.gareahmadi #405.3.23
 customer67 #405.6.18
 arkan.paki
@@ -86,18 +86,18 @@ sajad.samadzade #405.6.21
 jafar
 ansarifard #405.6.19
 hoseyn.gotbi #405.6.17
-customer51 #405.6.2
+customer51 ---b #405.6.2
 salamzade #405.6.21
-customer53 #405.6.3
+customer53 ---b #405.6.3
 customer69 #405.6.18
 a.ahmadi #405.6.19
-alrostam #405.6.9
+alrostam ---b #405.6.9
 customer70 #405.6.18
 afshin
 customer43 #405.5.22
 a.reza #404.7.16
 customer64 #405.6.14
-customer57 #405.6.7
+customer57 ---b #405.6.7
 meysam.bampuri #405.5.11
 🚫customer38 #405.5.12 | blocked 2026-09-14
 🚫customer13 #405.5.10 | blocked 2026-09-14
