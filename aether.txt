@@ -1,3 +1,4 @@
+#Aether
 aether://162.159.192.28:945?protocol=wg&scan=balanced&ip=v4&psiphon=chain&psiphon_mode=auto#Server 1 🇺🇸
 aether://188.114.99.123:988?protocol=wg&scan=balanced&ip=v4&tor=chain&tor_bridges=auto&tor_relays=auto#Server 2 🇺🇸
 aether://?protocol=gool&scan=balanced&ip=v4&outer=188.114.97.1%3A4500&inner=162.159.195.117%3A864&psiphon=chain&psiphon_mode=auto#Server 3 🇺🇸
