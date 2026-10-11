@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "alrostam",
     "hadi.mohammadi",
     "ehsan",
     "meysam.bampuri",
@@ -9,7 +10,6 @@
     "afshin",
     "customer107",
     "customer59",
-    "alrostam",
     "fazlalizade",
     "customer43",
     "customer49",
@@ -158,6 +158,7 @@
     "mm"
   ],
   "lines": {
+    "alrostam": "alrostam #405.7.18",
     "hadi.mohammadi": "hadi.mohammadi #405.7.19",
     "ehsan": "ehsan #404.8.3",
     "meysam.bampuri": "meysam.bampuri #405.5.11",
@@ -167,7 +168,6 @@
     "afshin": "afshin #| src: out.txt",
     "customer107": "customer107 #405.7.19",
     "customer59": "customer59 #405.7.18",
-    "alrostam": "alrostam #405.6.9",
     "fazlalizade": "fazlalizade #405.7.18",
     "customer43": "🚫customer43 #405.5.22 | blocked 2026-10-10",
     "customer49": "🚫customer49 #405.6.1 | blocked 2026-10-10",
@@ -315,5 +315,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-11 19:23"
+  "timestamp": "2026-10-11 20:32"
 }
