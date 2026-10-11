@@ -1,3 +1,5 @@
+customer107 | added | [Note: 405.7.19] | 2026-10-11 10:59
+
 customer59 | unblocked | [Note: 405.7.18 | blocked 2026-10-10] | 2026-10-10 18:49
 
 customer59 | manual_delete | User manually removed [Note: 405.7.18 | blocked 2026-10-10] | 2026-10-10 18:49
@@ -133,10 +135,6 @@ customer151 | added |  | 2026-10-01 11:57
 customer151 | auto_renamed | Automatically renamed from customer15 due to duplicate | 2026-10-01 11:57
 
 customer98 | added | [Note: 405.7.9] | 2026-10-01 10:56
-
-customer97 | added | [Note: 405.7.8] | 2026-09-30 18:17
-
-customer96 | added | [Note: 405.7.8] | 2026-09-30 17:41
 
 customer48 | unblocked | [Note: 405.6.31 | blocked 2026-09-14] | 2026-09-22 12:12
 
