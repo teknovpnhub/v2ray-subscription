@@ -1,0 +1,1 @@
+vless://00000000-0000-0000-0000-000000000000@example.com:443?type=tcp&encryption=none&security=tls&sni=example.com#سرویس%20در%20حال%20تعمیر%20میباشد
