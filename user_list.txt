@@ -1,3 +1,9 @@
+ehsan #404.8.3 | src: out.txt
+🚫ruyin #405.4.20 | blocked 2026-10-11
+afshin #| src: out.txt
+meysam.bampuri #405.5.11 | src: out.txt
+vahid.behruz1 #| src: out.txt
+🚫hadi.mohammadi #| blocked 2026-10-11
 customer107 #405.7.19
 customer59 #405.7.18
 alrostam #405.6.9
@@ -66,14 +72,11 @@ shamsollah.sedigi #405.6.22
 customer68 #405.6.18
 habib.mojallal #404.6.15
 milad.gasempur #405.6.14
-vahid.behruz1 ---src out.txt
 customer61 #405.6.9
-hadi.mohammadi ---b
 customer23 #405.6.23
 customer60 #405.6.9
 customer72 #405.6.19
 customer66 #405.6.17
-ehsan ---src out.txt #404.8.3
 bahman.hasanlu #405.6.10
 customer71 #405.6.18
 javadi #405.6.12
@@ -83,7 +86,6 @@ customer62 #405.6.10
 customer63 #405.6.12
 customer74 #405.6.22
 vahid
-ruyin ---b #405.4.20
 alireza.gareahmadi #405.3.23
 customer67 #405.6.18
 arkan.paki
@@ -96,10 +98,8 @@ salamzade #405.6.21
 customer69 #405.6.18
 a.ahmadi #405.6.19
 customer70 #405.6.18
-afshin ---src out.txt
 a.reza #404.7.16
 customer64 #405.6.14
-meysam.bampuri ---src out.txt #405.5.11
 🚫customer38 #405.5.12 | blocked 2026-09-14
 🚫customer13 #405.5.10 | blocked 2026-09-14
 🚫customer46 #405.5.28 | blocked 2026-09-14
