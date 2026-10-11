@@ -123,16 +123,41 @@ def country_code_to_flag(country_code):
     except:
         return ''
 
-def update_server_remarks(servers, flags_enabled=True, auto_rename_enabled=True):
-    """Update server remarks based on FLAGS and AUTO_RENAME settings.
-    - If flags_enabled=False: skips IP geo lookup (fast).
-    - If auto_rename_enabled=False: preserves original server remarks.
+def country_code_to_flag(country_code):
+    if not country_code or len(country_code) != 2:
+        return ''
+    try:
+        return chr(0x1F1E6 + ord(country_code[0].upper()) - ord('A')) + \
+               chr(0x1F1E6 + ord(country_code[1].upper()) - ord('A'))
+    except:
+        return ''
+
+def update_server_remarks(servers, flags_enabled=True, auto_rename_enabled=True, letter_prefix=""):
+    """Update server remarks based on FLAGS, AUTO_RENAME, and letter_prefix.
+    - If auto_rename_enabled=True and letter_prefix is provided (e.g. 'A'):
+        Names are formatted as: Server A1 🇩🇪, Server A2 🇫🇮...
+    - If auto_rename_enabled=True and letter_prefix is empty:
+        Names are formatted as: Server 1 🇩🇪, Server 2 🇫🇮...
+    - If auto_rename_enabled=False:
+        Preserves original server remarks (with flags if flags_enabled).
+    - Preserves #TabName section headers untouched.
     """
     updated_servers = []
     failed_flags = 0
     failed_ips = []
     
-    for idx, server in enumerate(servers, 1):
+    server_idx = 1
+    for server in servers:
+        s_clean = server.strip()
+        if not s_clean:
+            continue
+        if s_clean.startswith('#') and '://' not in s_clean:
+            # Preserve section header (e.g. #Aether, #WARP) untouched
+            updated_servers.append(server)
+            continue
+        
+        idx = server_idx
+        server_idx += 1
         base_url = server.split('#')[0]
         original_remark = server.split('#', 1)[1].strip() if '#' in server else ""
         
@@ -152,11 +177,12 @@ def update_server_remarks(servers, flags_enabled=True, auto_rename_enabled=True)
         
         # Determine new remark based on auto_rename_enabled
         if auto_rename_enabled:
+            prefix = f"Server {letter_prefix}" if letter_prefix else "Server "
             if "---" in original_remark:
                 _, custom = original_remark.split("---", 1)
-                new_remark = f"Server {idx} {flag}--- {custom.strip()}".strip()
+                new_remark = f"{prefix}{idx} {flag}--- {custom.strip()}".strip()
             else:
-                new_remark = f"Server {idx} {flag}".strip()
+                new_remark = f"{prefix}{idx} {flag}".strip()
         else:
             # Keep original remark
             clean_original = strip_flag_from_name(original_remark)
@@ -173,34 +199,15 @@ def update_server_remarks(servers, flags_enabled=True, auto_rename_enabled=True)
                     base64_part += '=' * (4 - missing_padding)
                 
                 decoded = base64.b64decode(base64_part).decode('utf-8')
-                config = json.loads(decoded)
-                
-                if config.get('v') is None:
-                    config['v'] = "2"
-                
-                if auto_rename_enabled or flag:
-                    if not auto_rename_enabled:
-                        curr_ps = config.get('ps', '')
-                        clean_ps = strip_flag_from_name(curr_ps)
-                        config['ps'] = f"{clean_ps} {flag}".strip() if flag else clean_ps
-                    else:
-                        config['ps'] = new_remark
-                
-                new_json = json.dumps(config, separators=(',', ':'), ensure_ascii=False)
-                new_base64 = base64.b64encode(new_json.encode('utf-8')).decode('utf-8')
-                updated_servers.append(f"vmess://{new_base64}")
+                vmess_config = json.loads(decoded)
+                vmess_config['ps'] = new_remark
+                updated_base64 = base64.b64encode(json.dumps(vmess_config).encode('utf-8')).decode('utf-8')
+                updated_servers.append(f'vmess://{updated_base64}')
             except Exception:
-                updated_servers.append(f"{base_url}#{new_remark}" if new_remark else base_url)
+                updated_servers.append(f'{base_url}#{new_remark}')
         else:
-            updated_servers.append(f"{base_url}#{new_remark}" if new_remark else base_url)
-    
-    if flags_enabled and failed_flags > 0:
-        try:
-            failed_info = f" (examples: {', '.join(failed_ips[:3])})" if failed_ips else ""
-            print(f"⚠️ Could not add flags to {failed_flags} servers (IP lookup failed){failed_info}")
-        except UnicodeEncodeError:
-            print(f"Warning: Could not add flags to {failed_flags} servers (IP lookup failed)")
-    
+            updated_servers.append(f'{base_url}#{new_remark}')
+
     return updated_servers
 
 def strip_flag_from_name(name):
@@ -1661,9 +1668,13 @@ def remove_duplicates(servers):
     seen = set()
     unique_servers = []
     for s in servers:
-        if not s.strip():
+        s_clean = s.strip()
+        if not s_clean:
             continue
-        key = get_server_key(s.strip())
+        if s_clean.startswith('#') and '://' not in s_clean:
+            unique_servers.append(s)
+            continue
+        key = get_server_key(s_clean)
         if key not in seen:
             seen.add(key)
             unique_servers.append(s.strip())
@@ -1718,7 +1729,8 @@ def parse_non_working_line(line):
 
 def get_control_panel_settings():
     """Read control_panel.txt and return active settings:
-    - active_server (e.g. servers.warp.txt)
+    - active_servers (list of all active server pool files, e.g. ['aether.txt', 'servers.txt'])
+    - active_server (first active pool file, for backwards compatibility)
     - flags_enabled (True/False)
     - auto_rename_enabled (True/False)
     - duplicates_enabled (True/False, default False)
@@ -1732,6 +1744,7 @@ def get_control_panel_settings():
     default_duplicates = False
     if not os.path.exists(CONTROL_PANEL_FILE):
         return {
+            'active_servers': [MAIN_FILE],
             'active_server': MAIN_FILE,
             'flags_enabled': True,
             'auto_rename_enabled': True,
@@ -1744,16 +1757,13 @@ def get_control_panel_settings():
     with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
         lines = [line.strip() for line in f if line.strip()]
 
-    active_server = None
     flags_enabled = True
     auto_rename_enabled = True
     duplicates_enabled = default_duplicates
     max_servers = default_max_servers
     expired_msg = default_expired_msg
     found_server_files = []
-    explicit_on_servers = []
-    ticked_servers = []
-    all_on_servers = []
+    active_servers = []
 
     for line in lines:
         if line.startswith('#') or line.startswith('-'):
@@ -1818,7 +1828,6 @@ def get_control_panel_settings():
         # Server line
         filename_part = line_clean.split(':')[0].split('=')[0].split()[0] if line_clean else ''
         if filename_part and ('.' in filename_part or os.path.exists(filename_part) or is_external_source(filename_part)):
-            # Check for delete command
             if '---d' in line.lower() or '---del' in line.lower() or '---delete' in line.lower():
                 continue
 
@@ -1827,33 +1836,22 @@ def get_control_panel_settings():
             
             has_tick = '✓' in line
             has_on = '---on' in line.lower() or any(on_word in line.upper() for on_word in [': ON', '= ON', ' ON', ':ON', '=ON'])
-            has_off = any(off_word in line.upper() for off_word in [': OFF', '= OFF', ' OFF', ':OFF', '=OFF'])
+            has_off = '---off' in line.lower() or any(off_word in line.upper() for off_word in [': OFF', '= OFF', ' OFF', ':OFF', '=OFF'])
 
-            if has_tick:
-                ticked_servers.append(filename_part)
-            
-            if has_on and not has_off:
-                all_on_servers.append(filename_part)
-                if not has_tick or '---on' in line.lower():
-                    explicit_on_servers.append(filename_part)
+            if (has_on or has_tick) and not has_off:
+                if filename_part not in active_servers:
+                    active_servers.append(filename_part)
 
     if not found_server_files:
         found_server_files = [s for s in default_servers if os.path.exists(s)] or default_servers
 
-    # Smart selection priority:
-    # 1. Server explicitly newly set to ON / ---on (without having tick originally or with ---on)
-    if explicit_on_servers:
-        active_server = explicit_on_servers[-1]
-    # 2. Server with tick ✓
-    elif ticked_servers:
-        active_server = ticked_servers[0]
-    # 3. Any server with ON
-    elif all_on_servers:
-        active_server = all_on_servers[0]
-    else:
-        active_server = found_server_files[0]
+    if not active_servers:
+        active_servers = [found_server_files[0]]
+
+    active_server = active_servers[0]
 
     return {
+        'active_servers': active_servers,
         'active_server': active_server,
         'flags_enabled': flags_enabled,
         'auto_rename_enabled': auto_rename_enabled,
@@ -1863,18 +1861,22 @@ def get_control_panel_settings():
         'server_files': found_server_files
     }
 
+def get_active_server_files():
+    """Read control_panel.txt and return list of all active server pool file names."""
+    settings = get_control_panel_settings()
+    return settings.get('active_servers', [settings['active_server']])
+
 def get_active_server_file():
-    """Read control_panel.txt and return the active server file name."""
+    """Read control_panel.txt and return the primary active server file name."""
     settings = get_control_panel_settings()
     return settings['active_server']
 
 def process_control_panel():
-    """Process control_panel.txt to handle ON/OFF and ---on commands, enforcing the unified layout:
+    """Process control_panel.txt to handle ON/OFF and ---on/---off commands across multiple pools:
     # === SERVER POOL ===
-    ✓ servers.warp.txt: ON
-    servers.txt: OFF
-    servers1.txt: OFF
-    warp.yaml: OFF
+    ✓ aether.txt: ON
+    ✓ servers.txt: ON
+    servers.warp.txt: OFF
     --------------------------------
     # === SETTINGS ===
     ✓ FLAGS: ON
@@ -1885,7 +1887,7 @@ def process_control_panel():
     --------------------------------
     """
     settings = get_control_panel_settings()
-    active_server = settings['active_server']
+    active_servers = settings.get('active_servers', [settings['active_server']])
     flags_enabled = settings['flags_enabled']
     auto_rename_enabled = settings['auto_rename_enabled']
     duplicates_enabled = settings['duplicates_enabled']
@@ -1897,7 +1899,7 @@ def process_control_panel():
         "# === SERVER POOL ==="
     ]
     for sfile in server_files:
-        if sfile == active_server:
+        if sfile in active_servers:
             output_lines.append(f"✓ {sfile}: ON")
         else:
             output_lines.append(f"{sfile}: OFF")
@@ -1937,9 +1939,34 @@ def process_control_panel():
             flag_str = "ON" if flags_enabled else "OFF"
             rename_str = "ON" if auto_rename_enabled else "OFF"
             dup_str = "ON" if duplicates_enabled else "OFF"
-            print(f"✓ Control panel updated: Active = {active_server}, FLAGS = {flag_str}, AUTO_RENAME = {rename_str}, DUPLICATES = {dup_str}, MAX_SERVERS = {max_servers}")
+            active_str = ", ".join(active_servers)
+            print(f"✓ Control panel updated: Active = [{active_str}], FLAGS = {flag_str}, AUTO_RENAME = {rename_str}, DUPLICATES = {dup_str}, MAX_SERVERS = {max_servers}")
         except UnicodeEncodeError:
-            print(f"Control panel updated: Active = {active_server}, FLAGS = {flags_enabled}, AUTO_RENAME = {auto_rename_enabled}, DUPLICATES = {duplicates_enabled}, MAX_SERVERS = {max_servers}")
+            active_str = ", ".join(active_servers)
+            print(f"Control panel updated: Active = [{active_str}], FLAGS = {flags_enabled}, AUTO_RENAME = {auto_rename_enabled}, DUPLICATES = {duplicates_enabled}, MAX_SERVERS = {max_servers}")
+
+def extract_pool_header_and_servers(raw_lines, filename=""):
+    """
+    Extracts the header line (#TabName), tab name, and clean proxy lines.
+    - If Line 1 starts with '#' (and not '#==='):
+        tab_name = Line 1 without '#'
+        clean_servers = subsequent lines (ignoring comments and empty lines)
+    - If Line 1 does not start with '#':
+        tab_name = 'General'
+        clean_servers = all lines (ignoring comments and empty lines)
+    Returns: (header_or_None, tab_name, clean_servers)
+    """
+    lines = [l.strip() for l in raw_lines if l.strip()]
+    if not lines:
+        return None, "General", []
+    first = lines[0]
+    if first.startswith('#') and not first.startswith('#==='):
+        tab_name = first.lstrip('#').strip() or "General"
+        clean_srv = [l for l in lines[1:] if not l.startswith('#')]
+        return first, tab_name, clean_srv
+    else:
+        clean_srv = [l for l in lines if not l.startswith('#')]
+        return None, "General", clean_srv
 
 def load_main_servers():
     """Load servers from the active server file specified in control_panel.txt."""
@@ -2374,7 +2401,8 @@ def update_all_subscriptions():
     # Process control panel first to determine which server file is active
     process_control_panel()
     settings = get_control_panel_settings()
-    active_file = settings['active_server']
+    active_files = settings.get('active_servers', [settings['active_server']])
+    active_file = active_files[0]
     flags_enabled = settings['flags_enabled']
     auto_rename_enabled = settings['auto_rename_enabled']
     duplicates_enabled = settings['duplicates_enabled']
@@ -2438,22 +2466,21 @@ def update_all_subscriptions():
     managed_users = load_user_list()
     managed_usernames = {extract_username_from_line(user) for user in managed_users}
 
-    # Map username -> custom source file if specified (e.g. servers1.txt, warp.yaml, external.src.txt, https://...)
+    # Map username -> custom source file(s) if specified
     user_custom_sources = {}
     for user_line in managed_users:
         uname = extract_username_from_line(user_line)
         src = extract_custom_source_from_line(user_line)
-        if src and (os.path.exists(src) or is_external_source(src)):
+        if src:
             user_custom_sources[uname] = src
 
-    # Pool content cache: source_file -> (content, is_yaml)
-    pool_cache = {
-        active_file: (active_content, active_is_yaml)
-    }
+    # Pool content cache: (source_file, letter_prefix) -> (content, tab_name, is_yaml)
+    pool_cache = {}
 
-    def get_pool_content(src_file):
-        if src_file in pool_cache:
-            return pool_cache[src_file]
+    def get_pool_content(src_file, letter_prefix=""):
+        cache_key = (src_file, letter_prefix)
+        if cache_key in pool_cache:
+            return pool_cache[cache_key]
         
         if is_external_source(src_file):
             try:
@@ -2463,19 +2490,19 @@ def update_all_subscriptions():
                         if duplicates_enabled:
                             content = remove_yaml_duplicates(content)
                         content = update_yaml_remarks(content, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
-                    pool_cache[src_file] = (content, True)
-                    return content, True
+                    pool_cache[cache_key] = (content, "General", True)
+                    return content, "General", True
                 else:
                     servers = content if isinstance(content, list) else []
-                    if not FAST_RUN:
-                        if duplicates_enabled:
-                            servers = remove_duplicates(servers)
-                        servers = update_server_remarks(servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
-                    pool_cache[src_file] = (servers, False)
-                    return servers, False
+                    header, tab_name, clean_servers = extract_pool_header_and_servers(servers, src_file)
+                    if duplicates_enabled:
+                        clean_servers = remove_duplicates(clean_servers)
+                    clean_servers = update_server_remarks(clean_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
+                    pool_cache[cache_key] = (clean_servers, tab_name, False)
+                    return clean_servers, tab_name, False
             except Exception as e:
                 print(f"⚠️ Error loading external source {src_file}: {e}")
-                return active_content, active_is_yaml
+                return [], "General", False
 
         actual_file = src_file
         if not os.path.exists(actual_file):
@@ -2497,33 +2524,39 @@ def update_all_subscriptions():
                     data = update_yaml_remarks(data, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
                     with open(actual_file, 'w', encoding='utf-8') as f:
                         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
-                pool_cache[src_file] = (data, True)
-                return data, True
+                pool_cache[cache_key] = (data, "General", True)
+                return data, "General", True
             except Exception as e:
                 print(f"⚠️ Error loading custom YAML {actual_file}: {e}")
-                return active_content, active_is_yaml
+                return {}, "General", True
         else:
             try:
                 with open(actual_file, 'r', encoding='utf-8') as f:
-                    servers = [line.strip() for line in f if line.strip()]
+                    raw_lines = [line.strip() for line in f if line.strip()]
+                header, tab_name, clean_servers = extract_pool_header_and_servers(raw_lines, actual_file)
+                if duplicates_enabled:
+                    clean_servers = remove_duplicates(clean_servers)
+                
+                # Apply remarks with letter prefix (e.g. Server A1, Server B1)
+                renamed_servers = update_server_remarks(clean_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
+                
                 if not FAST_RUN:
-                    if duplicates_enabled:
-                        servers = remove_duplicates(servers)
-                    servers = update_server_remarks(servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+                    # Save back to disk keeping header intact
+                    saved_lines = ([header] if header else []) + renamed_servers
                     with open(actual_file, 'w', encoding='utf-8') as f:
-                        f.write('\n'.join(servers) + '\n')
-                pool_cache[src_file] = (servers, False)
-                return servers, False
+                        f.write('\n'.join(saved_lines) + '\n')
+                
+                pool_cache[cache_key] = (renamed_servers, tab_name, False)
+                return renamed_servers, tab_name, False
             except Exception as e:
                 print(f"⚠️ Error loading custom source {actual_file}: {e}")
-                return active_content, active_is_yaml
+                return [], "General", False
     
     # First, ensure subscription files exist for all managed users
     for user_line in managed_users:
         username = extract_username_from_line(user_line)
         subscription_path = os.path.join(subscription_dir, f"{username}.txt")
         if not os.path.exists(subscription_path):
-            # Create empty subscription file if it doesn't exist
             with open(subscription_path, 'w', encoding='utf-8') as f:
                 f.write('')
             try:
@@ -2536,7 +2569,6 @@ def update_all_subscriptions():
         username = filename[:-4]
         
         # Only update subscriptions for users in user_list.txt (managed users)
-        # Manual subscriptions (users not in user_list.txt) will be preserved
         if username not in managed_usernames:
             try:
                 print(f"Preserving manual subscription: {username}.txt (user not in user_list.txt)")
@@ -2554,25 +2586,32 @@ def update_all_subscriptions():
         # For blocked users: use per-user message if present, otherwise global EXPIRED_MSG
         blocked_msg = custom_msg_text if has_custom_msg else expired_msg
 
-        # Check if user has a custom source file assigned
-        user_src_file = user_custom_sources.get(username, active_file)
-        user_content, user_is_yaml = get_pool_content(user_src_file)
+        # Determine source file(s) for this user
+        if username in user_custom_sources:
+            raw_src = user_custom_sources[username]
+            user_src_files = [s.strip() for s in raw_src.split(',') if s.strip()]
+        else:
+            user_src_files = active_files
 
-        if user_is_yaml:
+        use_letters = len(user_src_files) > 1
+        pool_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+        # Check if first source is YAML
+        first_letter = pool_letters[0] if use_letters else ""
+        first_content, first_tab, first_is_yaml = get_pool_content(user_src_files[0], letter_prefix=first_letter)
+
+        if first_is_yaml:
             if is_blocked:
-                # Blocked user: deliver ONLY 1 fake proxy with the blocked notice
                 fake_yaml = get_fake_yaml_config(blocked_msg)
                 yaml_str = yaml.dump(fake_yaml, sort_keys=False, allow_unicode=True)
             else:
-                # Active user: deliver working proxies
-                final_yaml = user_content
-                if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0 and isinstance(user_content, dict):
-                    final_yaml = dict(user_content)
-                    proxies_list = user_content.get('proxies', [])
+                final_yaml = first_content
+                if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0 and isinstance(first_content, dict):
+                    final_yaml = dict(first_content)
+                    proxies_list = first_content.get('proxies', [])
                     sliced_proxies = proxies_list[:max_servers]
                     final_yaml['proxies'] = sliced_proxies
                     
-                    # Synchronize proxy names in proxy-groups
                     valid_names = [p.get('name') for p in sliced_proxies if isinstance(p, dict) and p.get('name')]
                     if 'proxy-groups' in final_yaml and isinstance(final_yaml['proxy-groups'], list):
                         new_groups = []
@@ -2586,7 +2625,6 @@ def update_all_subscriptions():
                                 new_groups.append(group)
                         final_yaml['proxy-groups'] = new_groups
 
-                # Active user with custom message: inject banner fake proxy at top (index 0)
                 if has_custom_msg and isinstance(final_yaml, dict):
                     final_yaml = dict(final_yaml)
                     banner_proxy = {
@@ -2607,14 +2645,31 @@ def update_all_subscriptions():
                 f.write(yaml_str)
         else:
             if is_blocked:
-                # Blocked user: deliver ONLY 1 fake server with the blocked notice
+                # Blocked user: deliver ONLY 1 fake server with the blocked notice (NO section headers)
                 servers_for_user = get_fake_servers(blocked_msg)
             else:
-                # Active user: deliver working servers
-                servers_for_user = list(user_content) if isinstance(user_content, list) else []
-                if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0:
-                    servers_for_user = servers_for_user[:max_servers]
-                
+                # Active user: deliver servers from user_src_files with #TabName section headers
+                servers_for_user = []
+                for p_idx, sfile in enumerate(user_src_files):
+                    letter = pool_letters[p_idx % len(pool_letters)] if use_letters else ""
+                    res = get_pool_content(sfile, letter_prefix=letter)
+                    if len(res) == 3:
+                        pool_srv, tab_name, is_yaml = res
+                    else:
+                        pool_srv, is_yaml = res
+                        tab_name = "General"
+                    
+                    if is_yaml:
+                        continue
+                    
+                    pool_list = list(pool_srv) if isinstance(pool_srv, list) else []
+                    if max_servers != 'ALL' and isinstance(max_servers, int) and max_servers > 0:
+                        pool_list = pool_list[:max_servers]
+                    
+                    if pool_list:
+                        servers_for_user.append(f"#{tab_name}")
+                        servers_for_user.extend(pool_list)
+
                 # Active user with custom message: inject banner fake server at top (index 0)
                 if has_custom_msg:
                     banner_server = f"vless://12345678-1234-1234-1234-123456789abc@127.0.0.1:443?encryption=none&security=tls&type=ws&path=%2F#{custom_msg_text}"
