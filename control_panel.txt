@@ -1,7 +1,6 @@
 # === SERVER POOL ===
 servers.warp.txt: OFF
 servers.txt: OFF
-servers1.txt: OFF
 ✓ pt.configs.txt: ON
 test1: OFF
 aether.txt: OFF
