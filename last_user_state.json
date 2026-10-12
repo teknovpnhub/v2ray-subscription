@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "afshin",
     "goola",
     "alrostam",
     "hadi.mohammadi",
@@ -8,7 +9,6 @@
     "vahid.behruz1",
     "customer108",
     "ruyin",
-    "afshin",
     "customer107",
     "customer59",
     "fazlalizade",
@@ -159,6 +159,7 @@
     "mm"
   ],
   "lines": {
+    "afshin": "afshin #| src: out.txt",
     "goola": "🚫goola #4586 | blocked 2026-10-12",
     "alrostam": "alrostam #405.7.18",
     "hadi.mohammadi": "hadi.mohammadi #405.7.19",
@@ -167,7 +168,6 @@
     "vahid.behruz1": "vahid.behruz1",
     "customer108": "customer108 #405.7.19",
     "ruyin": "🚫ruyin #405.4.20 | blocked 2026-10-11",
-    "afshin": "afshin #| src: out.txt",
     "customer107": "customer107 #405.7.19",
     "customer59": "customer59 #405.7.18",
     "fazlalizade": "fazlalizade #405.7.18",
@@ -317,5 +317,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-12 16:20"
+  "timestamp": "2026-10-12 17:51"
 }
