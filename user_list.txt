@@ -1,4 +1,4 @@
-afshin #| src: out.txt
+afshin
 🚫goola #4586 | blocked 2026-10-12
 alrostam #405.7.18
 hadi.mohammadi #405.7.19
