@@ -1,3 +1,7 @@
+goola | blocked | | blocked 2026-10-12 [Note: 4586] | 2026-10-12 04:18
+
+goola | manual_delete | User manually removed [Note: 4586] | 2026-10-12 04:18
+
 goola | added | [Note: 4586] | 2026-10-12 03:44
 
 hadi.mohammadi | unblocked | [Note: 405.7.19] | 2026-10-11 19:23
