@@ -1,10 +1,4 @@
-alrostam | manual_change | Changes:
-- alrostam #405.6.9
-?               ^ ^
-
-+ alrostam #405.7.18
-?               ^ ^^
- [Note: 405.7.18] | 2026-10-11 20:32
+goola | added | [Note: 4586] | 2026-10-12 03:44
 
 hadi.mohammadi | unblocked | [Note: 405.7.19] | 2026-10-11 19:23
 
@@ -166,17 +160,7 @@ testtest | manual_delete | User manually removed | 2026-10-02 23:03
 
 customer15 | unblocked | [Note: 405.7.9 | blocked 2026-08-23] | 2026-10-01 11:58
 
-customer151 | removed | User deleted [Note: 405.7.9] | 2026-10-01 11:58
-
 customer15 | manual_delete | User manually removed [Note: 405.7.9 | blocked 2026-08-23] | 2026-10-01 11:58
-
-customer151 | manual_delete | User manually removed [Note: 405.7.9] | 2026-10-01 11:58
-
-customer151 | added |  | 2026-10-01 11:57
-
-customer151 | auto_renamed | Automatically renamed from customer15 due to duplicate | 2026-10-01 11:57
-
-customer98 | added | [Note: 405.7.9] | 2026-10-01 10:56
 
 customer48 | unblocked | [Note: 405.6.31 | blocked 2026-09-14] | 2026-09-22 12:12
 
