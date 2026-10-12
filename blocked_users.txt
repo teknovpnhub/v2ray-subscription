@@ -1,5 +1,4 @@
 goola #4586 | blocked 2026-10-12
-ruyin #405.4.20 | blocked 2026-10-11
 customer43 #405.5.22 | blocked 2026-10-10
 customer49 #405.6.1 | blocked 2026-10-10
 customer51 #405.6.2 | blocked 2026-10-10
