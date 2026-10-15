@@ -1,3 +1,7 @@
+customer109 | blocked | | blocked 2026-10-15 [Note: 405.7.23] | 2026-10-15 19:59
+
+customer109 | manual_delete | User manually removed [Note: 405.7.23] | 2026-10-15 19:59
+
 customer109 | added | [Note: 405.7.23] | 2026-10-15 19:22
 
 babak.zare | added | [Note: 405.7.21] | 2026-10-13 18:09
