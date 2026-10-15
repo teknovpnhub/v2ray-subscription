@@ -1,4 +1,3 @@
-customer109 #405.7.23 | blocked 2026-10-15
 goola #4586 | blocked 2026-10-12
 customer43 #405.5.22 | blocked 2026-10-10
 customer49 #405.6.1 | blocked 2026-10-10
