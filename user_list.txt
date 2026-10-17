@@ -1,3 +1,4 @@
+🚫testtest #| blocked 2026-10-17
 🚫customer62 #405.6.10 | blocked 2026-10-17
 🚫customer65 #405.6.15 | blocked 2026-10-17
 🚫javadi #405.6.12 | blocked 2026-10-17
@@ -33,7 +34,6 @@ fazlalizade #405.7.18
 🚫customer55 #405.6.3 | blocked 2026-10-10
 🚫customer53 #405.6.3 | blocked 2026-10-10
 customer106 #405.7.18
-testtest ---b
 vip #| src: aether.txt
 customer105 #405.7.15
 customer104 #405.7.15
