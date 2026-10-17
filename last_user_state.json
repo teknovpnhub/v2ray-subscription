@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer58",
     "javadi",
     "customer112",
     "customer61",
@@ -12,7 +13,6 @@
     "customer62",
     "customer65",
     "customer64",
-    "customer58",
     "milad.gasempur",
     "bahman.hasanlu",
     "customer60",
@@ -164,6 +164,7 @@
     "mm"
   ],
   "lines": {
+    "customer58": "customer58 #405.7.25",
     "javadi": "javadi #405.7.25",
     "customer112": "customer112 #405.7.25",
     "customer61": "customer61 #405.7.25",
@@ -176,7 +177,6 @@
     "customer62": "🚫customer62 #405.6.10 | blocked 2026-10-17",
     "customer65": "🚫customer65 #405.6.15 | blocked 2026-10-17",
     "customer64": "🚫customer64 #405.6.14 | blocked 2026-10-17",
-    "customer58": "🚫customer58 #405.6.8 | blocked 2026-10-17",
     "milad.gasempur": "🚫milad.gasempur #405.6.14 | blocked 2026-10-17",
     "bahman.hasanlu": "🚫bahman.hasanlu #405.6.10 | blocked 2026-10-17",
     "customer60": "🚫customer60 #405.6.9 | blocked 2026-10-17",
@@ -327,5 +327,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-17 18:39"
+  "timestamp": "2026-10-17 19:24"
 }

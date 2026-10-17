@@ -1,3 +1,7 @@
+customer58 | unblocked | [Note: 405.7.25 | blocked 2026-10-17] | 2026-10-17 19:24
+
+customer58 | manual_delete | User manually removed [Note: 405.7.25 | blocked 2026-10-17] | 2026-10-17 19:24
+
 javadi | unblocked | [Note: 405.7.25 | blocked 2026-10-17] | 2026-10-17 18:20
 
 javadi | manual_delete | User manually removed [Note: 405.7.25 | blocked 2026-10-17] | 2026-10-17 18:20
