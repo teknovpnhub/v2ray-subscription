@@ -70,23 +70,23 @@ customer76 #405.6.23
 customer75 #405.6.23
 vahid.behruz #| src: servers.txt
 🚫customer56 #405.6.5 | blocked 2026-08-29
-customer58 #405.6.8
+customer58 ---b #405.6.8
 shamsollah.sedigi #405.6.22
 customer68 #405.6.18
-habib.mojallal #404.6.15
-milad.gasempur #405.6.14
-customer61 #405.6.9
+habib.mojallal ---b #404.6.15
+milad.gasempur ---b #405.6.14
+customer61 ---b #405.6.9
 customer23 #405.6.23
-customer60 #405.6.9
+customer60 ---b #405.6.9
 customer72 #405.6.19
 customer66 #405.6.17
-bahman.hasanlu #405.6.10
+bahman.hasanlu ---b #405.6.10
 customer71 #405.6.18
-javadi #405.6.12
+javadi ---b #405.6.12
 customer73 #405.6.19
-customer65 #405.6.15
-customer62 #405.6.10
-customer63 #405.6.12
+customer65 ---b #405.6.15
+customer62  ---b #405.6.10
+customer63 ---b #405.6.12
 customer74 #405.6.22
 vahid
 alireza.gareahmadi #405.3.23
@@ -102,7 +102,7 @@ customer69 #405.6.18
 a.ahmadi #405.6.19
 customer70 #405.6.18
 a.reza #404.7.16
-customer64 #405.6.14
+customer64 ---b #405.6.14
 🚫customer38 #405.5.12 | blocked 2026-09-14
 🚫customer13 #405.5.10 | blocked 2026-09-14
 🚫customer46 #405.5.28 | blocked 2026-09-14
