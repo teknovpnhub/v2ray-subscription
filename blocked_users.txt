@@ -1,7 +1,6 @@
 customer62 #405.6.10 | blocked 2026-10-17
 customer65 #405.6.15 | blocked 2026-10-17
 javadi #405.6.12 | blocked 2026-10-17
-customer61 #405.6.9 | blocked 2026-10-17
 customer64 #405.6.14 | blocked 2026-10-17
 customer58 #405.6.8 | blocked 2026-10-17
 milad.gasempur #405.6.14 | blocked 2026-10-17
