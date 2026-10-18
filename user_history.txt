@@ -1,3 +1,5 @@
+customer113 | added | [Note: 405.7.26] | 2026-10-18 13:29
+
 customer58 | unblocked | [Note: 405.7.25 | blocked 2026-10-17] | 2026-10-17 19:24
 
 customer58 | manual_delete | User manually removed [Note: 405.7.25 | blocked 2026-10-17] | 2026-10-17 19:24
@@ -223,10 +225,6 @@ vip | manual_delete | User manually removed | 2026-10-09 02:28
 aaa.aaa | renamed | to vip [Note: | src: aether.txt] | 2026-10-09 02:27
 
 aaa.aaa | manual_delete | User manually removed [Note: | src: aether.txt] | 2026-10-09 02:27
-
-customer105 | added | [Note: 405.7.15] | 2026-10-07 19:31
-
-customer104 | added | [Note: 405.7.15] | 2026-10-07 18:50
 
 testtest | unblocked | [Note: | blocked 2026-10-02] | 2026-10-02 23:33
 
