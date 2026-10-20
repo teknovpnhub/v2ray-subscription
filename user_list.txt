@@ -52,7 +52,7 @@ customer104 #405.7.15
 customer103 #405.7.14
 customer102 #405.7.14
 customer101 #405.7.13
-aaa.aaa1 #405 | src: servers1.txt
+aaa.aaa1 ---r vip1 #405 | src: servers1.txt
 customer100 #405.7.12
 customer99 #405.7.12
 customer15 #405.7.9
