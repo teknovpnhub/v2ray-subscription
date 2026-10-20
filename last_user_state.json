@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "vip1",
     "aliasghar.z",
     "customer118",
     "customer117",
@@ -54,7 +55,6 @@
     "customer103",
     "customer102",
     "customer101",
-    "aaa.aaa1",
     "customer100",
     "customer99",
     "customer15",
@@ -171,6 +171,7 @@
     "mm"
   ],
   "lines": {
+    "vip1": "vip1 #405",
     "aliasghar.z": "aliasghar.z #405.7.27",
     "customer118": "customer118 #405.7.26",
     "customer117": "customer117 #405.7.26",
@@ -225,7 +226,6 @@
     "customer103": "customer103 #405.7.14",
     "customer102": "customer102 #405.7.14",
     "customer101": "customer101 #405.7.13",
-    "aaa.aaa1": "aaa.aaa1 #405 | src: servers1.txt",
     "customer100": "customer100 #405.7.12",
     "customer99": "customer99 #405.7.12",
     "customer15": "customer15 #405.7.9",
@@ -341,5 +341,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-20 02:53"
+  "timestamp": "2026-10-20 03:43"
 }

@@ -1,3 +1,7 @@
+aaa.aaa1 | renamed | to vip1 [Note: 405 | src: servers1.txt] | 2026-10-20 03:43
+
+aaa.aaa1 | manual_delete | User manually removed [Note: 405 | src: servers1.txt] | 2026-10-20 03:43
+
 aliasghar.z | manual_change | Changes:
 - aliasghar.z 405.7.27
 + aliasghar.z #405.7.27
@@ -247,12 +251,6 @@ customer106 | added | [Note: 405.7.18] | 2026-10-10 11:12
 testtest | unblocked | [Note: | blocked 2026-10-09] | 2026-10-09 19:34
 
 testtest | manual_delete | User manually removed [Note: | blocked 2026-10-09] | 2026-10-09 19:34
-
-testtest | blocked | | blocked 2026-10-09 | 2026-10-09 19:29
-
-testtest | manual_delete | User manually removed | 2026-10-09 19:29
-
-vip | manual_delete | User manually removed | 2026-10-09 02:28
 
 aaa.aaa | renamed | to vip [Note: | src: aether.txt] | 2026-10-09 02:27
 
