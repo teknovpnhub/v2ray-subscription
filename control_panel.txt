@@ -5,6 +5,7 @@ servers.txt: OFF
 servers1.txt: OFF
 test1: OFF
 aether.txt: OFF
+tor.txt: OFF
 --------------------------------
 # === SETTINGS ===
 ✓ FLAGS: ON
