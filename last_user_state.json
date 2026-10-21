@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer120",
     "testtest",
     "customer119",
     "vip1",
@@ -172,6 +173,7 @@
     "mm"
   ],
   "lines": {
+    "customer120": "customer120 #405.7.29",
     "testtest": "testtest",
     "customer119": "customer119 #405.7.29",
     "vip1": "vip1 #| src: servers1.txt",
@@ -343,5 +345,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-21 17:02"
+  "timestamp": "2026-10-21 17:38"
 }
