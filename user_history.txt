@@ -1,3 +1,9 @@
+testtest | blocked | | blocked 2026-10-21 | 2026-10-21 12:21
+
+customer119 | added | [Note: 405.7.29] | 2026-10-21 12:21
+
+testtest | manual_delete | User manually removed | 2026-10-21 12:21
+
 vip1 | manual_delete | User manually removed | 2026-10-21 10:54
 
 vip1 | manual_delete | User manually removed | 2026-10-20 03:50
