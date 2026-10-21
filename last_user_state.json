@@ -172,7 +172,7 @@
     "mm"
   ],
   "lines": {
-    "testtest": "🚫testtest #| blocked 2026-10-21",
+    "testtest": "testtest",
     "customer119": "customer119 #405.7.29",
     "vip1": "vip1 #| src: servers1.txt",
     "aliasghar.z": "aliasghar.z #405.7.27",
@@ -343,5 +343,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-21 12:21"
+  "timestamp": "2026-10-21 12:24"
 }
