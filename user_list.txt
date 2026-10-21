@@ -1,4 +1,4 @@
-vip1 ---src servers1.txt
+vip1 #| src: servers1.txt
 aliasghar.z #405.7.27
 customer118 #405.7.26
 customer117 #405.7.26
