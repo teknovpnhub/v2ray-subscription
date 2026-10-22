@@ -1,3 +1,7 @@
+customer121 | manual_change | Changes:
+- customer121
++ customer121 #405.7.30 [Note: 405.7.30] | 2026-10-22 12:55
+
 family1 | added |  | 2026-10-22 11:02
 
 vip1 | manual_delete | User manually removed | 2026-10-22 04:32
