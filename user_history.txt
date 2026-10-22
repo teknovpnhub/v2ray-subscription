@@ -1,3 +1,5 @@
+vip1 | manual_delete | User manually removed | 2026-10-22 04:32
+
 customer122 | added |  | 2026-10-21 18:04
 
 c1 | renamed | to customer121 | 2026-10-21 17:56
@@ -170,10 +172,6 @@ goola | manual_delete | User manually removed [Note: 4586] | 2026-10-12 04:18
 
 goola | added | [Note: 4586] | 2026-10-12 03:44
 
-hadi.mohammadi | unblocked | [Note: 405.7.19] | 2026-10-11 19:23
-
-hadi.mohammadi | manual_delete | User manually removed [Note: 405.7.19] | 2026-10-11 19:23
-
 ehsan | manual_change | Changes:
 - ehsan #404.8.3 | src: out.txt
 + ehsan #404.8.3 [Note: 404.8.3] | 2026-10-11 18:59
@@ -181,30 +179,6 @@ ehsan | manual_change | Changes:
 meysam.bampuri | manual_change | Changes:
 - meysam.bampuri #405.5.11 | src: out.txt
 ?                         ---------------
-
-vahid.behruz1 | manual_change | Changes:
-- vahid.behruz1 #| src: out.txt
-+ vahid.behruz1 | 2026-10-11 18:59
-
-customer108 | added | [Note: 405.7.19] | 2026-10-11 17:45
-
-ruyin | blocked | | blocked 2026-10-11 [Note: 405.4.20] | 2026-10-11 14:10
-
-hadi.mohammadi | blocked | | blocked 2026-10-11 | 2026-10-11 14:10
-
-ehsan | manual_delete | User manually removed [Note: 404.8.3] | 2026-10-11 14:10
-
-ruyin | manual_delete | User manually removed [Note: 405.4.20] | 2026-10-11 14:10
-
-afshin | manual_delete | User manually removed | 2026-10-11 14:10
-
-meysam.bampuri | manual_delete | User manually removed [Note: 405.5.11] | 2026-10-11 14:10
-
-vahid.behruz1 | manual_delete | User manually removed | 2026-10-11 14:10
-
-hadi.mohammadi | manual_delete | User manually removed | 2026-10-11 14:10
-
-customer107 | added | [Note: 405.7.19] | 2026-10-11 10:59
 
 customer59 | unblocked | [Note: 405.7.18 | blocked 2026-10-10] | 2026-10-10 18:49
 
