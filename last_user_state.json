@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer124",
     "customer66",
     "shokrzade",
     "shamsollah.sedigi",
@@ -27,7 +28,6 @@
     "customer34",
     "customer111",
     "customer123",
-    "customer124",
     "customer61",
     "customer122",
     "customer121",
@@ -179,6 +179,7 @@
     "mm"
   ],
   "lines": {
+    "customer124": "customer124 #405.8.2",
     "customer66": "customer66 #405.8.2",
     "shokrzade": "shokrzade #405.8.2",
     "shamsollah.sedigi": "shamsollah.sedigi #405.8.2",
@@ -206,7 +207,6 @@
     "customer34": "customer34 #405.6.30 | src: servers.txt",
     "customer111": "🚫customer111 #405.7.25 | blocked 2026-10-22",
     "customer123": "customer123 #405.7.30",
-    "customer124": "customer124",
     "customer61": "customer61 #405.7.30",
     "customer122": "customer122 #405.7.30",
     "customer121": "customer121 #405.7.30",
@@ -357,5 +357,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-24 17:48"
+  "timestamp": "2026-10-24 19:04"
 }
