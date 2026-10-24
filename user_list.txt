@@ -30,7 +30,7 @@ customer61 #405.7.30
 customer122 #405.7.30
 customer121 #405.7.30
 family1
-vip1 #| src: tor.txt
+vip1 ---src servers1.txt
 customer120 #405.7.29
 testtest
 customer119 #405.7.29
