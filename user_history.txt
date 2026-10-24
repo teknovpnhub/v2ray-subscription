@@ -1,3 +1,13 @@
+salamzade | unblocked | [Note: 405.8.2 | blocked 2026-10-24] | 2026-10-24 10:46
+
+sajad.samadzade | manual_change | Changes:
+- 🚫sajad.samadzade #405.6.21 | blocked 2026-10-24
++ 🚫sajad.samadzade  #405.6.21 | blocked 2026-10-24
+?                 +
+ [Note: 405.6.21 | blocked 2026-10-24] | 2026-10-24 10:46
+
+salamzade | manual_delete | User manually removed [Note: 405.8.2 | blocked 2026-10-24] | 2026-10-24 10:46
+
 customer70 | blocked | | blocked 2026-10-24 [Note: 405.6.18] | 2026-10-24 01:41
 
 a.ahmadi | blocked | | blocked 2026-10-24 [Note: 405.6.19] | 2026-10-24 01:41
