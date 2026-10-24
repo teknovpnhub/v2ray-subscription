@@ -18,7 +18,7 @@ salamzade #405.8.2
 🚫customer66 #405.6.17 | blocked 2026-10-24
 🚫customer69 #405.6.18 | blocked 2026-10-24
 🚫customer80 #405.6.26 | blocked 2026-10-24
-🚫shamsollah.sedigi #405.6.22 | blocked 2026-10-24
+🚫shamsollah.sedigi ---ub #405.8.2 | blocked 2026-10-24
 🚫customer77 #405.6.24 | blocked 2026-10-24
 🚫molayi #405.6.23 | blocked 2026-10-24
 customer34 #405.6.30 | src: servers.txt
