@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "vip1",
     "customer124",
     "customer66",
     "shokrzade",
@@ -32,7 +33,6 @@
     "customer122",
     "customer121",
     "family1",
-    "vip1",
     "customer120",
     "testtest",
     "customer119",
@@ -179,6 +179,7 @@
     "mm"
   ],
   "lines": {
+    "vip1": "vip1 #| src: servers1.txt",
     "customer124": "customer124 #405.8.2",
     "customer66": "customer66 #405.8.2",
     "shokrzade": "shokrzade #405.8.2",
@@ -211,7 +212,6 @@
     "customer122": "customer122 #405.7.30",
     "customer121": "customer121 #405.7.30",
     "family1": "family1",
-    "vip1": "vip1 #| src: tor.txt",
     "customer120": "customer120 #405.7.29",
     "testtest": "testtest",
     "customer119": "customer119 #405.7.29",
@@ -357,5 +357,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-24 22:20"
+  "timestamp": "2026-10-24 22:52"
 }
