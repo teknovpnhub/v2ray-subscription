@@ -1,3 +1,5 @@
+testtest | manual_delete | User manually removed | 2026-10-26 00:43
+
 customer69 | unblocked | [Note: 405.8.3 | blocked 2026-10-24] | 2026-10-25 12:10
 
 customer69 | manual_delete | User manually removed [Note: 405.8.3 | blocked 2026-10-24] | 2026-10-25 12:10
@@ -303,12 +305,6 @@ customer60 | manual_delete | User manually removed [Note: 405.6.9] | 2026-10-17 
 customer109 | removed | User deleted [Note: 405.7.23 | blocked 2026-10-15] | 2026-10-15 20:05
 
 customer109 | manual_delete | User manually removed [Note: 405.7.23 | blocked 2026-10-15] | 2026-10-15 20:05
-
-customer109 | blocked | | blocked 2026-10-15 [Note: 405.7.23] | 2026-10-15 19:59
-
-customer109 | manual_delete | User manually removed [Note: 405.7.23] | 2026-10-15 19:59
-
-customer109 | added | [Note: 405.7.23] | 2026-10-15 19:22
 
 afshin | unblocked | [Note: | src: out.txt] | 2026-10-12 17:51
 
