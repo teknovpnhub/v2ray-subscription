@@ -1895,11 +1895,21 @@ def get_control_panel_settings():
             elif re.search(r'---flags\b', line, re.IGNORECASE):
                 pool_flags[filename_part] = True
 
-            has_tick = '✓' in line
-            has_on = '---on' in line.lower() or any(on_word in line.upper() for on_word in [': ON', '= ON', ' ON', ':ON', '=ON'])
-            has_off = '---off' in line.lower() or any(off_word in line.upper() for off_word in [': OFF', '= OFF', ' OFF', ':OFF', '=OFF'])
+            # Explicit command precedence: ---on or ---off take priority over static status labels
+            has_explicit_on = bool(re.search(r'---on\b', line, re.IGNORECASE))
+            has_explicit_off = bool(re.search(r'---off\b', line, re.IGNORECASE))
 
-            if (has_on or has_tick) and not has_off:
+            if has_explicit_on:
+                is_active = True
+            elif has_explicit_off:
+                is_active = False
+            else:
+                has_tick = '✓' in line
+                has_on = any(on_word in line.upper() for on_word in [': ON', '= ON', ' ON', ':ON', '=ON'])
+                has_off = any(off_word in line.upper() for off_word in [': OFF', '= OFF', ' OFF', ':OFF', '=OFF'])
+                is_active = (has_on or has_tick) and not has_off
+
+            if is_active:
                 if filename_part not in active_servers:
                     active_servers.append(filename_part)
 
