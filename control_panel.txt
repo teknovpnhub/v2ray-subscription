@@ -1,10 +1,10 @@
 # === SERVER POOL ===
 servers.warp.txt: OFF
 servers.txt: OFF
-✓ pt.configs.txt: ON
+✓ pt.configs.txt: ON ---noflags
 servers1.txt: OFF
 test1: OFF
-aether.txt: OFF
+aether.txt: OFF ---noflags
 tor.txt: OFF
 --------------------------------
 # === SETTINGS ===
