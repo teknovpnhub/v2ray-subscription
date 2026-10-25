@@ -1804,7 +1804,8 @@ def get_control_panel_settings():
             'duplicates_enabled': default_duplicates,
             'max_servers': default_max_servers,
             'expired_msg': default_expired_msg,
-            'server_files': default_servers
+            'server_files': default_servers,
+            'pool_flags': {}
         }
 
     with open(CONTROL_PANEL_FILE, 'r', encoding='utf-8') as f:
@@ -1817,6 +1818,7 @@ def get_control_panel_settings():
     expired_msg = default_expired_msg
     found_server_files = []
     active_servers = []
+    pool_flags = {}
 
     for line in lines:
         if line.startswith('#') or line.startswith('-'):
@@ -1887,6 +1889,12 @@ def get_control_panel_settings():
             if filename_part not in found_server_files:
                 found_server_files.append(filename_part)
             
+            # Check per-pool flag directive (---flags / ---noflags)
+            if re.search(r'---(?:no_?flags)\b', line, re.IGNORECASE):
+                pool_flags[filename_part] = False
+            elif re.search(r'---flags\b', line, re.IGNORECASE):
+                pool_flags[filename_part] = True
+
             has_tick = '✓' in line
             has_on = '---on' in line.lower() or any(on_word in line.upper() for on_word in [': ON', '= ON', ' ON', ':ON', '=ON'])
             has_off = '---off' in line.lower() or any(off_word in line.upper() for off_word in [': OFF', '= OFF', ' OFF', ':OFF', '=OFF'])
@@ -1911,8 +1919,25 @@ def get_control_panel_settings():
         'duplicates_enabled': duplicates_enabled,
         'max_servers': max_servers,
         'expired_msg': expired_msg,
-        'server_files': found_server_files
+        'server_files': found_server_files,
+        'pool_flags': pool_flags
     }
+
+def is_flags_enabled_for_pool(pool_file, settings=None):
+    """Check if country flags are enabled for a specific server pool file.
+    Checks per-pool overrides from control_panel.txt (---flags or ---noflags).
+    Falls back to global flags_enabled setting if not specified."""
+    if not pool_file:
+        return True
+    if settings is None:
+        settings = get_control_panel_settings()
+    pool_flags = settings.get('pool_flags', {})
+    base = os.path.basename(pool_file)
+    stem = base[:-4] if base.endswith('.txt') else (base[:-5] if base.endswith('.yaml') else base)
+    for k in (pool_file, base, stem):
+        if k in pool_flags:
+            return pool_flags[k]
+    return settings.get('flags_enabled', True)
 
 def get_active_server_files():
     """Read control_panel.txt and return list of all active server pool file names."""
@@ -1925,10 +1950,10 @@ def get_active_server_file():
     return settings['active_server']
 
 def process_control_panel():
-    """Process control_panel.txt to handle ON/OFF and ---on/---off commands across multiple pools:
+    """Process control_panel.txt to handle ON/OFF, ---on/---off, and per-pool ---flags/---noflags:
     # === SERVER POOL ===
-    ✓ aether.txt: ON
-    ✓ servers.txt: ON
+    ✓ aether.txt: ON ---noflags
+    ✓ servers.txt: ON ---flags
     servers.warp.txt: OFF
     --------------------------------
     # === SETTINGS ===
@@ -1947,15 +1972,18 @@ def process_control_panel():
     max_servers = settings['max_servers']
     expired_msg = settings['expired_msg']
     server_files = settings['server_files']
+    pool_flags = settings.get('pool_flags', {})
 
     output_lines = [
         "# === SERVER POOL ==="
     ]
     for sfile in server_files:
-        if sfile in active_servers:
-            output_lines.append(f"✓ {sfile}: ON")
-        else:
-            output_lines.append(f"{sfile}: OFF")
+        status = "ON" if sfile in active_servers else "OFF"
+        tick = "✓ " if sfile in active_servers else ""
+        flag_suffix = ""
+        if sfile in pool_flags:
+            flag_suffix = " ---flags" if pool_flags[sfile] else " ---noflags"
+        output_lines.append(f"{tick}{sfile}: {status}{flag_suffix}")
     
     output_lines.append("--------------------------------")
     output_lines.append("# === SETTINGS ===")
@@ -2489,11 +2517,12 @@ def update_all_subscriptions():
         else:
             active_is_yaml = is_yaml_file(active_file)
 
+        active_flags = is_flags_enabled_for_pool(active_file, settings)
         if active_is_yaml:
             yaml_config = active_content
             if duplicates_enabled:
                 yaml_config = remove_yaml_duplicates(yaml_config)
-            updated_yaml = update_yaml_remarks(yaml_config, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+            updated_yaml = update_yaml_remarks(yaml_config, flags_enabled=active_flags, auto_rename_enabled=auto_rename_enabled)
             save_main_servers(updated_yaml)
             active_content = updated_yaml
         else:
@@ -2501,7 +2530,7 @@ def update_all_subscriptions():
             valid_servers = remove_duplicates(current_servers) if duplicates_enabled else current_servers
 
             # Update remarks
-            all_servers = update_server_remarks(valid_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+            all_servers = update_server_remarks(valid_servers, flags_enabled=active_flags, auto_rename_enabled=auto_rename_enabled)
             save_main_servers(all_servers)
             active_content = all_servers
     else:
@@ -2538,6 +2567,8 @@ def update_all_subscriptions():
         if cache_key in pool_cache:
             return pool_cache[cache_key]
         
+        pool_flags = is_flags_enabled_for_pool(src_file, settings)
+
         if is_external_source(src_file):
             try:
                 content, is_yaml = load_external_source(src_file)
@@ -2545,7 +2576,7 @@ def update_all_subscriptions():
                     if not FAST_RUN:
                         if duplicates_enabled:
                             content = remove_yaml_duplicates(content)
-                        content = update_yaml_remarks(content, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+                        content = update_yaml_remarks(content, flags_enabled=pool_flags, auto_rename_enabled=auto_rename_enabled)
                     pool_cache[cache_key] = (content, "General", False, True)
                     return content, "General", False, True
                 else:
@@ -2553,7 +2584,7 @@ def update_all_subscriptions():
                     header, tab_name, has_custom_header, clean_servers = extract_pool_header_and_servers(servers, src_file)
                     if duplicates_enabled:
                         clean_servers = remove_duplicates(clean_servers)
-                    clean_servers = update_server_remarks(clean_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
+                    clean_servers = update_server_remarks(clean_servers, flags_enabled=pool_flags, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
                     pool_cache[cache_key] = (clean_servers, tab_name, has_custom_header, False)
                     return clean_servers, tab_name, has_custom_header, False
             except Exception as e:
@@ -2577,7 +2608,7 @@ def update_all_subscriptions():
                 if not FAST_RUN:
                     if duplicates_enabled:
                         data = remove_yaml_duplicates(data)
-                    data = update_yaml_remarks(data, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
+                    data = update_yaml_remarks(data, flags_enabled=pool_flags, auto_rename_enabled=auto_rename_enabled)
                     with open(actual_file, 'w', encoding='utf-8') as f:
                         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
                 pool_cache[cache_key] = (data, "General", False, True)
@@ -2594,11 +2625,11 @@ def update_all_subscriptions():
                     clean_servers = remove_duplicates(clean_servers)
                 
                 # In FAST_RUN, single pool servers are already formatted and renamed on disk!
-                if FAST_RUN and not letter_prefix:
+                if FAST_RUN and not letter_prefix and pool_flags:
                     renamed_servers = clean_servers
                 else:
                     # Apply remarks with letter prefix (e.g. Server A1, Server B1)
-                    renamed_servers = update_server_remarks(clean_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
+                    renamed_servers = update_server_remarks(clean_servers, flags_enabled=pool_flags, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
                 
                 if not FAST_RUN:
                     # Save back to disk keeping header intact
