@@ -1,3 +1,5 @@
+customer125 | added | [Note: 405.8.3] | 2026-10-25 11:04
+
 vip1 | manual_delete | User manually removed | 2026-10-24 22:52
 
 customer124 | manual_change | Changes:
