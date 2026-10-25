@@ -44,17 +44,41 @@ def extract_ip_from_server(server_line):
     except Exception:
         return None
 
+EXTERNAL_CACHE_DIR = '.external_cache'
+FAST_RUN = os.getenv("FAST_RUN", "0") == "1"
+GEOIP_CACHE_FILE = os.path.join(EXTERNAL_CACHE_DIR, 'geoip_cache.json')
+
 _IP_COUNTRY_CACHE = {}
 _GEOIP_RATE_LIMITED = False
+
+def load_geoip_cache():
+    global _IP_COUNTRY_CACHE
+    if os.path.exists(GEOIP_CACHE_FILE):
+        try:
+            with open(GEOIP_CACHE_FILE, 'r', encoding='utf-8') as f:
+                _IP_COUNTRY_CACHE.update(json.load(f))
+        except Exception:
+            pass
+
+def save_geoip_cache():
+    if not os.path.exists(EXTERNAL_CACHE_DIR):
+        os.makedirs(EXTERNAL_CACHE_DIR, exist_ok=True)
+    try:
+        with open(GEOIP_CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(_IP_COUNTRY_CACHE, f)
+    except Exception:
+        pass
+
+load_geoip_cache()
 
 def get_country_code(ip_or_domain):
     """Get country code for an IP address or domain name using multiple free APIs with fallback.
     Tries providers in order: ipinfo.io (best limits), ip-api.com (backup).
-    Caches results in memory to avoid redundant API requests.
-    Fast fails if rate limited to prevent workflow hangs."""
+    Caches results in memory and disk to avoid redundant API requests.
+    Fast fails if rate limited or in FAST_RUN to prevent workflow hangs."""
     global _GEOIP_RATE_LIMITED
-    if not ip_or_domain or _GEOIP_RATE_LIMITED:
-        return ''
+    if not ip_or_domain or _GEOIP_RATE_LIMITED or FAST_RUN:
+        return _IP_COUNTRY_CACHE.get(ip_or_domain, '')
     
     # Strip port if present
     if ':' in ip_or_domain and not ip_or_domain.startswith('['):
@@ -98,6 +122,7 @@ def get_country_code(ip_or_domain):
                 cc = provider['parse'](response)
                 if cc and len(cc) == 2:
                     _IP_COUNTRY_CACHE[ip_or_domain] = cc.upper()
+                    save_geoip_cache()
                     return cc.upper()
                 
                 if response.status_code == 200:
@@ -112,16 +137,8 @@ def get_country_code(ip_or_domain):
                 break
     
     _IP_COUNTRY_CACHE[ip_or_domain] = ''
+    save_geoip_cache()
     return ''
-
-def country_code_to_flag(country_code):
-    if not country_code or len(country_code) != 2:
-        return ''
-    try:
-        return chr(0x1F1E6 + ord(country_code[0].upper()) - ord('A')) + \
-               chr(0x1F1E6 + ord(country_code[1].upper()) - ord('A'))
-    except:
-        return ''
 
 def country_code_to_flag(country_code):
     if not country_code or len(country_code) != 2:
@@ -164,16 +181,21 @@ def update_server_remarks(servers, flags_enabled=True, auto_rename_enabled=True,
         # Determine country flag if flags are enabled
         flag = ""
         if flags_enabled:
-            ip_or_domain = extract_ip_from_server(server)
-            already_cached = ip_or_domain in _IP_COUNTRY_CACHE if ip_or_domain else True
-            cc = get_country_code(ip_or_domain)
-            flag = country_code_to_flag(cc)
-            if not flag and ip_or_domain:
-                failed_flags += 1
-                if len(failed_ips) < 5:
-                    failed_ips.append(ip_or_domain)
-            if not already_cached and not _GEOIP_RATE_LIMITED:
-                time.sleep(0.2)
+            # Fast path: check if original_remark already contains a country flag emoji!
+            flag_match = re.search(r'[\U0001F1E6-\U0001F1FF]{2}', original_remark)
+            if flag_match:
+                flag = flag_match.group(0)
+            elif not FAST_RUN:
+                ip_or_domain = extract_ip_from_server(server)
+                already_cached = ip_or_domain in _IP_COUNTRY_CACHE if ip_or_domain else True
+                cc = get_country_code(ip_or_domain)
+                flag = country_code_to_flag(cc)
+                if not flag and ip_or_domain:
+                    failed_flags += 1
+                    if len(failed_ips) < 5:
+                        failed_ips.append(ip_or_domain)
+                if not already_cached and not _GEOIP_RATE_LIMITED:
+                    time.sleep(0.2)
         
         # Determine new remark based on auto_rename_enabled
         if auto_rename_enabled:
@@ -562,8 +584,29 @@ def strip_custom_messages(note: str) -> str:
     cleaned = re.sub(r"\s*\|\s*(?:msg|message|پیام|دلیل)[:\s]+[^|#\n]*", "", note, flags=re.IGNORECASE)
     return cleaned.strip()
 
+def normalize_source_token(token: str) -> str:
+    """Normalize a comma- or plus-separated source string into clean 'pool1.txt,pool2.txt'."""
+    if not token:
+        return ""
+    # Replace + with comma
+    raw = token.replace('+', ',')
+    parts = [p.strip() for p in raw.split(',') if p.strip()]
+    normalized = []
+    for p in parts:
+        # If user typed 'servers' instead of 'servers.txt', normalize it if file exists
+        if not p.startswith(('http://', 'https://')) and not '.' in p:
+            if os.path.exists(f"{p}.txt"):
+                p = f"{p}.txt"
+            elif os.path.exists(f"{p}.yaml"):
+                p = f"{p}.yaml"
+        normalized.append(p)
+    return ','.join(normalized)
+
 def extract_custom_source_from_line(line: str) -> str:
-    """Extract custom server source file if specified with ---src or | src:"""
+    """Extract custom server source file(s) if specified with ---src or | src:
+    Supports multiple pools separated by comma or plus:
+    e.g. '---src servers.txt, servers1.txt' or '| src: servers.txt,servers1.txt'
+    """
     if not line:
         return ""
     if '---src' in line.lower():
@@ -571,12 +614,12 @@ def extract_custom_source_from_line(line: str) -> str:
         if len(parts) > 1:
             src_part = parts[1].split('---')[0].split('#')[0].split('|')[0].strip()
             if src_part:
-                return src_part.split()[0]
+                return normalize_source_token(src_part)
     match = re.search(r'\|\s*(?:src|source)[:\s]+([^|#\n]+)', line, re.IGNORECASE)
     if match:
         src_val = match.group(1).split('---')[0].strip()
         if src_val:
-            return src_val.split()[0]
+            return normalize_source_token(src_val)
     return ""
 
 def strip_custom_sources(note: str) -> str:
@@ -594,7 +637,7 @@ def clean_notes_command_tokens(raw_notes: str, custom_msg: str = "", custom_src:
     cleaned = strip_custom_sources(cleaned)
     cleaned = re.sub(r'\s*\|\s*blocked\s+\d{4}-\d{2}-\d{2}', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'---msg\s+[^|#\n]*', '', cleaned, flags=re.IGNORECASE)
-    cleaned = re.sub(r'---src\s+\S+', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'---src\s+.*?(?=(?:---|\||#|$))', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'---es\s+\S+', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'---r\s+\S+', '', cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r'---(b|ub|d|m|r|es|msg|src)\b', '', cleaned, flags=re.IGNORECASE)
@@ -645,14 +688,24 @@ def fetch_subscription_from_url(url: str, timeout: int = 15):
     }
 
     raw_text = None
-    try:
-        resp = requests.get(url, headers=headers, timeout=timeout)
-        if resp.status_code == 200 and resp.text.strip():
-            raw_text = resp.text.strip()
-            with open(cache_path, 'w', encoding='utf-8') as f:
-                f.write(raw_text)
-    except Exception as e:
-        print(f"⚠️ Network error fetching external URL {url}: {e}")
+    if FAST_RUN and os.path.exists(cache_path):
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                raw_text = f.read().strip()
+            if raw_text:
+                print(f"ℹ️ [FAST_RUN] Loaded external subscription from cache for: {url}")
+        except Exception:
+            pass
+
+    if not raw_text:
+        try:
+            resp = requests.get(url, headers=headers, timeout=timeout)
+            if resp.status_code == 200 and resp.text.strip():
+                raw_text = resp.text.strip()
+                with open(cache_path, 'w', encoding='utf-8') as f:
+                    f.write(raw_text)
+        except Exception as e:
+            print(f"⚠️ Network error fetching external URL {url}: {e}")
 
     # Fallback to local cache if network request failed
     if not raw_text and os.path.exists(cache_path):
@@ -1949,10 +2002,10 @@ def extract_pool_header_and_servers(raw_lines, filename=""):
     """
     Extracts the header line (#TabName), tab name, and clean proxy lines.
     - If Line 1 starts with '#' (and not '#==='):
-        tab_name = Line 1 without '#'
+        tab_name = first.lstrip('#').strip() or "General"
         clean_servers = subsequent lines (ignoring comments and empty lines)
     - If Line 1 does not start with '#':
-        tab_name = 'General'
+        tab_name = derived from filename (e.g. 'pt.configs.txt' -> 'pt.configs')
         clean_servers = all lines (ignoring comments and empty lines)
     Returns: (header_or_None, tab_name, clean_servers)
     """
@@ -1966,7 +2019,14 @@ def extract_pool_header_and_servers(raw_lines, filename=""):
         return first, tab_name, clean_srv
     else:
         clean_srv = [l for l in lines if not l.startswith('#')]
-        return None, "General", clean_srv
+        base = os.path.basename(filename) if filename else ""
+        if base.endswith('.txt'):
+            tab_name = base[:-4]
+        elif base.endswith('.yaml'):
+            tab_name = base[:-5]
+        else:
+            tab_name = base or "General"
+        return None, tab_name, clean_srv
 
 def load_main_servers():
     """Load servers from the active server file specified in control_panel.txt."""
@@ -2534,11 +2594,15 @@ def update_all_subscriptions():
                 with open(actual_file, 'r', encoding='utf-8') as f:
                     raw_lines = [line.strip() for line in f if line.strip()]
                 header, tab_name, clean_servers = extract_pool_header_and_servers(raw_lines, actual_file)
-                if duplicates_enabled:
+                if duplicates_enabled and not FAST_RUN:
                     clean_servers = remove_duplicates(clean_servers)
                 
-                # Apply remarks with letter prefix (e.g. Server A1, Server B1)
-                renamed_servers = update_server_remarks(clean_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
+                # In FAST_RUN, single pool servers are already formatted and renamed on disk!
+                if FAST_RUN and not letter_prefix:
+                    renamed_servers = clean_servers
+                else:
+                    # Apply remarks with letter prefix (e.g. Server A1, Server B1)
+                    renamed_servers = update_server_remarks(clean_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
                 
                 if not FAST_RUN:
                     # Save back to disk keeping header intact
