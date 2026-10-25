@@ -2000,33 +2000,29 @@ def process_control_panel():
 
 def extract_pool_header_and_servers(raw_lines, filename=""):
     """
-    Extracts the header line (#TabName), tab name, and clean proxy lines.
+    Extracts the header line (#TabName), tab name, has_custom_header flag, and clean proxy lines.
     - If Line 1 starts with '#' (and not '#==='):
         tab_name = first.lstrip('#').strip() or "General"
+        has_custom_header = True
         clean_servers = subsequent lines (ignoring comments and empty lines)
+        return (first, tab_name, True, clean_servers)
     - If Line 1 does not start with '#':
-        tab_name = derived from filename (e.g. 'pt.configs.txt' -> 'pt.configs')
+        tab_name = "General"
+        has_custom_header = False
         clean_servers = all lines (ignoring comments and empty lines)
-    Returns: (header_or_None, tab_name, clean_servers)
+        return (None, "General", False, clean_servers)
     """
     lines = [l.strip() for l in raw_lines if l.strip()]
     if not lines:
-        return None, "General", []
+        return None, "General", False, []
     first = lines[0]
     if first.startswith('#') and not first.startswith('#==='):
         tab_name = first.lstrip('#').strip() or "General"
         clean_srv = [l for l in lines[1:] if not l.startswith('#')]
-        return first, tab_name, clean_srv
+        return first, tab_name, True, clean_srv
     else:
         clean_srv = [l for l in lines if not l.startswith('#')]
-        base = os.path.basename(filename) if filename else ""
-        if base.endswith('.txt'):
-            tab_name = base[:-4]
-        elif base.endswith('.yaml'):
-            tab_name = base[:-5]
-        else:
-            tab_name = base or "General"
-        return None, tab_name, clean_srv
+        return None, "General", False, clean_srv
 
 def load_main_servers():
     """Load servers from the active server file specified in control_panel.txt."""
@@ -2534,7 +2530,7 @@ def update_all_subscriptions():
         if src:
             user_custom_sources[uname] = src
 
-    # Pool content cache: (source_file, letter_prefix) -> (content, tab_name, is_yaml)
+    # Pool content cache: (source_file, letter_prefix) -> (content, tab_name, has_custom_header, is_yaml)
     pool_cache = {}
 
     def get_pool_content(src_file, letter_prefix=""):
@@ -2550,19 +2546,19 @@ def update_all_subscriptions():
                         if duplicates_enabled:
                             content = remove_yaml_duplicates(content)
                         content = update_yaml_remarks(content, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
-                    pool_cache[cache_key] = (content, "General", True)
-                    return content, "General", True
+                    pool_cache[cache_key] = (content, "General", False, True)
+                    return content, "General", False, True
                 else:
                     servers = content if isinstance(content, list) else []
-                    header, tab_name, clean_servers = extract_pool_header_and_servers(servers, src_file)
+                    header, tab_name, has_custom_header, clean_servers = extract_pool_header_and_servers(servers, src_file)
                     if duplicates_enabled:
                         clean_servers = remove_duplicates(clean_servers)
                     clean_servers = update_server_remarks(clean_servers, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled, letter_prefix=letter_prefix)
-                    pool_cache[cache_key] = (clean_servers, tab_name, False)
-                    return clean_servers, tab_name, False
+                    pool_cache[cache_key] = (clean_servers, tab_name, has_custom_header, False)
+                    return clean_servers, tab_name, has_custom_header, False
             except Exception as e:
                 print(f"⚠️ Error loading external source {src_file}: {e}")
-                return [], "General", False
+                return [], "General", False, False
 
         actual_file = src_file
         if not os.path.exists(actual_file):
@@ -2584,16 +2580,16 @@ def update_all_subscriptions():
                     data = update_yaml_remarks(data, flags_enabled=flags_enabled, auto_rename_enabled=auto_rename_enabled)
                     with open(actual_file, 'w', encoding='utf-8') as f:
                         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
-                pool_cache[cache_key] = (data, "General", True)
-                return data, "General", True
+                pool_cache[cache_key] = (data, "General", False, True)
+                return data, "General", False, True
             except Exception as e:
                 print(f"⚠️ Error loading custom YAML {actual_file}: {e}")
-                return {}, "General", True
+                return {}, "General", False, True
         else:
             try:
                 with open(actual_file, 'r', encoding='utf-8') as f:
                     raw_lines = [line.strip() for line in f if line.strip()]
-                header, tab_name, clean_servers = extract_pool_header_and_servers(raw_lines, actual_file)
+                header, tab_name, has_custom_header, clean_servers = extract_pool_header_and_servers(raw_lines, actual_file)
                 if duplicates_enabled and not FAST_RUN:
                     clean_servers = remove_duplicates(clean_servers)
                 
@@ -2610,11 +2606,11 @@ def update_all_subscriptions():
                     with open(actual_file, 'w', encoding='utf-8') as f:
                         f.write('\n'.join(saved_lines) + '\n')
                 
-                pool_cache[cache_key] = (renamed_servers, tab_name, False)
-                return renamed_servers, tab_name, False
+                pool_cache[cache_key] = (renamed_servers, tab_name, has_custom_header, False)
+                return renamed_servers, tab_name, has_custom_header, False
             except Exception as e:
                 print(f"⚠️ Error loading custom source {actual_file}: {e}")
-                return [], "General", False
+                return [], "General", False, False
     
     # First, ensure subscription files exist for all managed users
     for user_line in managed_users:
@@ -2662,7 +2658,9 @@ def update_all_subscriptions():
 
         # Check if first source is YAML
         first_letter = pool_letters[0] if use_letters else ""
-        first_content, first_tab, first_is_yaml = get_pool_content(user_src_files[0], letter_prefix=first_letter)
+        res_first = get_pool_content(user_src_files[0], letter_prefix=first_letter)
+        first_content = res_first[0]
+        first_is_yaml = res_first[-1]
 
         if first_is_yaml:
             if is_blocked:
@@ -2712,16 +2710,15 @@ def update_all_subscriptions():
                 # Blocked user: deliver ONLY 1 fake server with the blocked notice (NO section headers)
                 servers_for_user = get_fake_servers(blocked_msg)
             else:
-                # Active user: deliver servers from user_src_files with #TabName section headers
-                servers_for_user = []
+                # Active user: deliver servers from user_src_files with dynamic section headers
+                pools_data = []
                 for p_idx, sfile in enumerate(user_src_files):
                     letter = pool_letters[p_idx % len(pool_letters)] if use_letters else ""
                     res = get_pool_content(sfile, letter_prefix=letter)
-                    if len(res) == 3:
-                        pool_srv, tab_name, is_yaml = res
-                    else:
-                        pool_srv, is_yaml = res
-                        tab_name = "General"
+                    pool_srv = res[0]
+                    tab_name = res[1] if len(res) > 1 else "General"
+                    has_custom_header = res[2] if len(res) >= 4 else (tab_name != "General")
+                    is_yaml = res[-1]
                     
                     if is_yaml:
                         continue
@@ -2731,8 +2728,26 @@ def update_all_subscriptions():
                         pool_list = pool_list[:max_servers]
                     
                     if pool_list:
-                        servers_for_user.append(f"#{tab_name}")
-                        servers_for_user.extend(pool_list)
+                        pools_data.append({
+                            'tab_name': tab_name,
+                            'has_custom_header': has_custom_header,
+                            'servers': pool_list
+                        })
+
+                # Check if ANY active pool specifies an explicit custom header (#TabName)
+                any_custom_headers = any(p['has_custom_header'] for p in pools_data)
+
+                servers_for_user = []
+                for p in pools_data:
+                    if any_custom_headers:
+                        # Multi-tab mode:
+                        # Pools with explicit header get '#TabName'.
+                        # Pools without explicit header become '#General' (first default tab if placed first).
+                        tab_tag = f"#{p['tab_name']}" if p['has_custom_header'] else "#General"
+                        servers_for_user.append(tab_tag)
+                    # If NO pool has an explicit custom header, omit '#' headers completely!
+                    # Pools combine together seamlessly without any tabs (Rule 1 Minimal UI).
+                    servers_for_user.extend(p['servers'])
 
                 # Active user with custom message: inject banner fake server at top (index 0)
                 if has_custom_msg:
