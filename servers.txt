@@ -1,4 +1,4 @@
-#servers
+#Servers
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=1&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9&sni=127.0.0.1#Server 1 🇭🇰
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@nas.aizhzo.com:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9#Server 2 🇭🇰
 hysteria2://c8ed6cd1-6566-4f7a-819e-1c55b2b360c9@153.56.210.134:34121?insecure=1&sni=www.bing.com&obfs=salamander&obfs-password=9a33460c-b037-47aa-a606-d04211f4e0ec#Server 3 🇹🇷
