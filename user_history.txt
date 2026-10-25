@@ -1,3 +1,7 @@
+customer126 | unblocked |  | 2026-10-26 00:55
+
+customer126 | manual_delete | User manually removed | 2026-10-26 00:55
+
 customer126 | blocked | | blocked 2026-10-26 | 2026-10-26 00:51
 
 customer127 | added | [Note: 405 no date] | 2026-10-26 00:51

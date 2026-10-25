@@ -1,4 +1,4 @@
-🚫customer126 ---ub
+customer126
 customer127 #405 no date
 testtest #| src: pt.configs.txt,aether.txt
 customer69 #405.8.3
