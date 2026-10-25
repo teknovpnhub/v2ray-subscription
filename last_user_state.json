@@ -1,6 +1,7 @@
 {
   "usernames": [
     "customer126",
+    "customer127",
     "testtest",
     "customer69",
     "molayi",
@@ -181,7 +182,8 @@
     "mm"
   ],
   "lines": {
-    "customer126": "customer126",
+    "customer126": "🚫customer126 #| blocked 2026-10-26",
+    "customer127": "customer127 #405 no date",
     "testtest": "testtest #| src: pt.configs.txt,aether.txt",
     "customer69": "customer69 #405.8.3",
     "molayi": "molayi #405.8.3",
@@ -361,5 +363,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-26 00:46"
+  "timestamp": "2026-10-26 00:51"
 }
