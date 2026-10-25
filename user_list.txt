@@ -1,4 +1,4 @@
-customer126 ---b
+🚫customer126 #| blocked 2026-10-26
 customer127 #405 no date
 testtest #| src: pt.configs.txt,aether.txt
 customer69 #405.8.3
