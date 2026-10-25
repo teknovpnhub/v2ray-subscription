@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "molayi",
     "customer125",
     "vip1",
     "customer124",
@@ -26,7 +27,6 @@
     "customer69",
     "customer80",
     "customer77",
-    "molayi",
     "customer34",
     "customer111",
     "customer123",
@@ -180,6 +180,7 @@
     "mm"
   ],
   "lines": {
+    "molayi": "molayi #405.8.3",
     "customer125": "customer125 #405.8.3",
     "vip1": "vip1 #| src: servers1.txt",
     "customer124": "customer124 #405.8.2",
@@ -206,7 +207,6 @@
     "customer69": "🚫customer69 #405.6.18 | blocked 2026-10-24",
     "customer80": "🚫customer80 #405.6.26 | blocked 2026-10-24",
     "customer77": "🚫customer77 #405.6.24 | blocked 2026-10-24",
-    "molayi": "🚫molayi #405.6.23 | blocked 2026-10-24",
     "customer34": "customer34 #405.6.30 | src: servers.txt",
     "customer111": "🚫customer111 #405.7.25 | blocked 2026-10-22",
     "customer123": "customer123 #405.7.30",
@@ -359,5 +359,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-10-25 11:04"
+  "timestamp": "2026-10-25 12:01"
 }
