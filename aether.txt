@@ -4,6 +4,8 @@ aether://188.114.99.123:988?protocol=wg&scan=balanced&ip=v4&tor=chain&tor_bridge
 aether://?protocol=gool&scan=balanced&ip=v4&outer=188.114.97.1%3A4500&inner=162.159.195.117%3A864&psiphon=chain&psiphon_mode=auto#Server B3
 aether://162.159.198.248:443?protocol=masque&scan=balanced&ip=v4&transport=h2&tor=chain&tor_bridges=auto&tor_relays=auto#Server B4
 aether://162.159.198.243:443?protocol=masque&scan=balanced&ip=v4&transport=h2&psiphon=chain&psiphon_mode=auto#Server B5
+aether://?protocol=mim&scan=balanced&ip=v4&transport=h2&outer=162.159.198.234%3A443&inner=162.159.198.18%3A443&tor=chain&tor_bridges=auto&tor_relays=auto#mim%20t
+aether://?protocol=mim&scan=balanced&ip=v4&transport=h2&outer=162.159.198.218%3A443&inner=162.159.198.66%3A443&psiphon=chain&psiphon_mode=auto#mim
 aether://?protocol=wg&scan=balanced&ip=v4&tor=only&tor_bridges=own&tor_relays=auto&bridges=obfs4%20185.177.207.153%3A8443%206574D4D903FDE714F2759A3B3C31C0363A92DCDC%20cert%3DVAZd6bOJ6BKUZLLOYhMuaSPxjf%2BZGAspvdQkf8C3naGk8r2b77WXWj9JF8%2BjLYb8l2fnUw%20iat-mode%3D0#Server B6
 aether://?protocol=wg-over-masque&scan=balanced&ip=v4&transport=h2&outer=162.159.198.222%3A443#Server B7
 aether://188.114.99.93:891?protocol=wg&scan=balanced&ip=v4#Server B8
