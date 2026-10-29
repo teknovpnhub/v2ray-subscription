@@ -1,3 +1,5 @@
+customer130 | added | [Note: 405.8.7] | 2026-10-29 17:32
+
 customer1281 | renamed | to customer129 [Note: 405.8.6] | 2026-10-28 19:32
 
 customer1281 | manual_delete | User manually removed [Note: 405.8.6] | 2026-10-28 19:32
@@ -258,31 +260,13 @@ aliasghar.z | manual_change | Changes:
 
 aliasghar.z | added | 405.7.27 | 2026-10-19 20:52
 
-customer118 | added | [Note: 405.7.26] | 2026-10-18 20:27
-
-customer117 | added | [Note: 405.7.26] | 2026-10-18 19:53
-
-customer116 | added | [Note: 405.7.26] | 2026-10-18 19:50
-
 bahman.hasanlu | unblocked | [Note: 405.7.26 | blocked 2026-10-17] | 2026-10-18 18:53
 
 bahman.hasanlu | manual_delete | User manually removed [Note: 405.7.26 | blocked 2026-10-17] | 2026-10-18 18:53
 
-customer115 | added | [Note: 405.7.26] | 2026-10-18 18:41
-
-customer114 | added | [Note: 405.7.26] | 2026-10-18 18:06
-
 customer2 | unblocked | [Note: 405.7.26 | blocked 2026-09-14] | 2026-10-18 17:47
 
-customer114 | removed | User deleted [Note: 405.7.26] | 2026-10-18 17:47
-
-customer114 | manual_delete | User manually removed [Note: 405.7.26] | 2026-10-18 17:47
-
 customer2 | manual_delete | User manually removed [Note: 405.7.26 | blocked 2026-09-14] | 2026-10-18 17:47
-
-customer114 | added | [Note: 405.7.26] | 2026-10-18 17:44
-
-customer113 | added | [Note: 405.7.26] | 2026-10-18 13:29
 
 customer58 | unblocked | [Note: 405.7.25 | blocked 2026-10-17] | 2026-10-17 19:24
 
