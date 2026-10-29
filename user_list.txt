@@ -1,3 +1,4 @@
+customer23 #405.8.7
 customer130 #405.8.7
 customer129 #405.8.6
 a.ahmadi #405.8.5
@@ -20,7 +21,6 @@ salamzade #405.8.2
 🚫customer71 #405.6.18 | blocked 2026-10-24
 🚫hoseyn.gotbi #405.6.17 | blocked 2026-10-24
 🚫customer78 #405.6.24 | blocked 2026-10-24
-🚫customer23 ---ub #405.8.7 | blocked 2026-10-24
 🚫customer70 #405.6.18 | blocked 2026-10-24
 🚫customer37 #405.6.24 | blocked 2026-10-24
 🚫customer76 #405.6.23 | blocked 2026-10-24
