@@ -1,3 +1,7 @@
+testtest | blocked | | blocked 2026-10-30 [Note: | src: pt.configs.txt,aether.txt] | 2026-10-30 17:59
+
+testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt,aether.txt] | 2026-10-30 17:59
+
 customer23 | unblocked | [Note: 405.8.7 | blocked 2026-10-24] | 2026-10-29 19:00
 
 customer23 | manual_delete | User manually removed [Note: 405.8.7 | blocked 2026-10-24] | 2026-10-29 19:00
@@ -255,14 +259,6 @@ vip1 | manual_delete | User manually removed | 2026-10-20 03:50
 aaa.aaa1 | renamed | to vip1 [Note: 405 | src: servers1.txt] | 2026-10-20 03:43
 
 aaa.aaa1 | manual_delete | User manually removed [Note: 405 | src: servers1.txt] | 2026-10-20 03:43
-
-aliasghar.z | manual_change | Changes:
-- aliasghar.z 405.7.27
-+ aliasghar.z #405.7.27
-?             +
- [Note: 405.7.27] | 2026-10-19 20:55
-
-aliasghar.z | added | 405.7.27 | 2026-10-19 20:52
 
 bahman.hasanlu | unblocked | [Note: 405.7.26 | blocked 2026-10-17] | 2026-10-18 18:53
 
