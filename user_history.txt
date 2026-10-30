@@ -1,3 +1,63 @@
+customer81 | blocked | | blocked 2026-10-31 [Note: 405.6.29] | 2026-10-31 03:28
+
+z.pourmohammad | blocked | | blocked 2026-10-31 [Note: 405.6.29] | 2026-10-31 03:28
+
+customer40 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
+
+customer82 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
+
+customer83 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
+
+customer84 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
+
+customer85 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
+
+customer86 | blocked | | blocked 2026-10-31 [Note: 405.6.31] | 2026-10-31 03:28
+
+customer48 | blocked | | blocked 2026-10-31 [Note: 405.6.31] | 2026-10-31 03:28
+
+customer87 | blocked | | blocked 2026-10-31 [Note: 405.6.31] | 2026-10-31 03:28
+
+customer88 | blocked | | blocked 2026-10-31 [Note: 405.7.1] | 2026-10-31 03:28
+
+bita | blocked | | blocked 2026-10-31 [Note: 405.7.1] | 2026-10-31 03:28
+
+customer89 | blocked | | blocked 2026-10-31 [Note: 405.7.1] | 2026-10-31 03:28
+
+mahdi.kiyavash | blocked | | blocked 2026-10-31 [Note: 405.7.2] | 2026-10-31 03:28
+
+testtest | blocked | | blocked 2026-10-31 [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 03:28
+
+customer40 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
+
+mahdi.kiyavash | manual_delete | User manually removed [Note: 405.7.2] | 2026-10-31 03:28
+
+customer89 | manual_delete | User manually removed [Note: 405.7.1] | 2026-10-31 03:28
+
+bita | manual_delete | User manually removed [Note: 405.7.1] | 2026-10-31 03:28
+
+z.pourmohammad | manual_delete | User manually removed [Note: 405.6.29] | 2026-10-31 03:28
+
+customer81 | manual_delete | User manually removed [Note: 405.6.29] | 2026-10-31 03:28
+
+customer88 | manual_delete | User manually removed [Note: 405.7.1] | 2026-10-31 03:28
+
+customer82 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
+
+customer84 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
+
+customer85 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
+
+customer87 | manual_delete | User manually removed [Note: 405.6.31] | 2026-10-31 03:28
+
+customer86 | manual_delete | User manually removed [Note: 405.6.31] | 2026-10-31 03:28
+
+customer48 | manual_delete | User manually removed [Note: 405.6.31] | 2026-10-31 03:28
+
+testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 03:28
+
+customer83 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
+
 testtest | unblocked |  | 2026-10-30 18:12
 
 testtest | manual_delete | User manually removed | 2026-10-30 18:12
@@ -257,8 +317,6 @@ customer119 | added | [Note: 405.7.29] | 2026-10-21 12:21
 testtest | manual_delete | User manually removed | 2026-10-21 12:21
 
 vip1 | manual_delete | User manually removed | 2026-10-21 10:54
-
-vip1 | manual_delete | User manually removed | 2026-10-20 03:50
 
 aaa.aaa1 | renamed | to vip1 [Note: 405 | src: servers1.txt] | 2026-10-20 03:43
 

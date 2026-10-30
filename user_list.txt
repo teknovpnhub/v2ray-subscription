@@ -1,4 +1,18 @@
-testtest ---b #| src: pt.configs.txt,aether.txt
+🚫customer40 #405.6.30 | blocked 2026-10-31
+🚫mahdi.kiyavash #405.7.2 | blocked 2026-10-31
+🚫bita #405.7.1 | blocked 2026-10-31
+🚫customer89 #405.7.1 | blocked 2026-10-31
+🚫z.pourmohammad #405.6.29 | blocked 2026-10-31
+🚫customer81 #405.6.29 | blocked 2026-10-31
+🚫customer88 #405.7.1 | blocked 2026-10-31
+🚫customer82 #405.6.30 | blocked 2026-10-31
+🚫customer84 #405.6.30 | blocked 2026-10-31
+🚫customer85 #405.6.30 | blocked 2026-10-31
+🚫customer87 #405.6.31 | blocked 2026-10-31
+🚫customer86 #405.6.31 | blocked 2026-10-31
+🚫customer48 #405.6.31 | blocked 2026-10-31
+🚫testtest #| blocked 2026-10-31 | src: pt.configs.txt,aether.txt
+🚫customer83 #405.6.30 | blocked 2026-10-31
 customer23 #405.8.7
 customer130 #405.8.7
 customer129 #405.8.6
@@ -104,21 +118,7 @@ customer93 #405.7.5
 customer92 #405.7.4
 customer91 #405.7.4
 customer90 #405.7.4
-mahdi.kiyavash ---b #405.7.2
-customer89 ---b #405.7.1
-bita ---b #405.7.1
-customer88 ---b #405.7.1
 family
-customer87 ---b #405.6.31
-customer48 ---b #405.6.31
-customer86 ---b #405.6.31
-customer85 ---b #405.6.30
-customer84 ---b #405.6.30
-customer83 ---b #405.6.30
-customer82 ---b #405.6.30
-customer40 ---b #405.6.30
-z.pourmohammad ---b #405.6.29
-customer81 ---b #405.6.29
 🚫customer79 #405.6.24 | blocked 2026-09-20
 javad
 me.2025 #| src: servers.txt
