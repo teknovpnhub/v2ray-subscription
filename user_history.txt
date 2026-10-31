@@ -1,8 +1,6 @@
-testtest | manual_change | Changes:
-- testtest #| src: pt.configs.txt,aether.txt,servers.txt
-?                                           ------------
+customer48 | unblocked | [Note: 405.8.9 | blocked 2026-10-31] | 2026-10-31 11:49
 
-+ testtest #| src: pt.configs.txt,aether.txt [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 04:27
+customer48 | manual_delete | User manually removed [Note: 405.8.9 | blocked 2026-10-31] | 2026-10-31 11:49
 
 testtest | manual_change | Changes:
 - testtest #| src: pt.configs.txt,aether.txt pt.configs.txt,aether.txt
