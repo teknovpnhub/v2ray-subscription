@@ -1,3 +1,4 @@
+testtest #| src: pt.configs.txt,aether.txt
 🚫customer40 #405.6.30 | blocked 2026-10-31
 🚫mahdi.kiyavash #405.7.2 | blocked 2026-10-31
 🚫bita #405.7.1 | blocked 2026-10-31
@@ -11,7 +12,6 @@
 🚫customer87 #405.6.31 | blocked 2026-10-31
 🚫customer86 #405.6.31 | blocked 2026-10-31
 🚫customer48 #405.6.31 | blocked 2026-10-31
-🚫testtest ---ub ---src pt.configs.txt,aether.txt
 🚫customer83 #405.6.30 | blocked 2026-10-31
 customer23 #405.8.7
 customer130 #405.8.7
