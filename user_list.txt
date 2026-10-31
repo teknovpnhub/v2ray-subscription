@@ -120,7 +120,7 @@ customer91 #405.7.4
 customer90 #405.7.4
 family
 🚫customer79 #405.6.24 | blocked 2026-09-20
-javad
+javad ---src pt.configs.txt,aether.txt
 me.2025 #| src: servers.txt
 vahid.behruz #| src: servers.txt
 🚫customer56 #405.6.5 | blocked 2026-08-29
