@@ -1,3 +1,4 @@
+customer83 #405.8.10
 customer131 #405.8.9
 customer85 #405.8.9
 mohammad.panahi #405.8.9
@@ -15,7 +16,6 @@ testtest #| src: pt.configs.txt,aether.txt
 🚫customer84 #405.6.30 | blocked 2026-10-31
 🚫customer87 #405.6.31 | blocked 2026-10-31
 🚫customer86 #405.6.31 | blocked 2026-10-31
-🚫customer83 ---ub #405.8.10
 customer23 #405.8.7
 customer130 #405.8.7
 customer129 #405.8.6

@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer83",
     "customer131",
     "customer85",
     "mohammad.panahi",
@@ -17,7 +18,6 @@
     "customer84",
     "customer87",
     "customer86",
-    "customer83",
     "customer23",
     "customer130",
     "customer129",
@@ -188,6 +188,7 @@
     "mm"
   ],
   "lines": {
+    "customer83": "customer83 #405.8.10",
     "customer131": "customer131 #405.8.9",
     "customer85": "customer85 #405.8.9",
     "mohammad.panahi": "mohammad.panahi #405.8.9",
@@ -205,7 +206,6 @@
     "customer84": "🚫customer84 #405.6.30 | blocked 2026-10-31",
     "customer87": "🚫customer87 #405.6.31 | blocked 2026-10-31",
     "customer86": "🚫customer86 #405.6.31 | blocked 2026-10-31",
-    "customer83": "🚫customer83 #405.6.30 | blocked 2026-10-31",
     "customer23": "customer23 #405.8.7",
     "customer130": "customer130 #405.8.7",
     "customer129": "customer129 #405.8.6",
@@ -375,5 +375,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-01 05:26"
+  "timestamp": "2026-11-01 11:13"
 }
