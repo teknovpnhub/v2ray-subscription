@@ -1,3 +1,5 @@
+a.reza | manual_delete | User manually removed [Note: 404.7.16 ---src pt.configs.txt,aether.txt] | 2026-11-02 19:59
+
 ehsan1 | added | [Note: 405.8.11] | 2026-11-02 19:58
 
 morteza.sadegi | added | [Note: 405.8.11] | 2026-11-02 19:57
