@@ -87,8 +87,8 @@ afshin
 🚫goola #4586 | blocked 2026-10-12
 alrostam #405.7.18
 hadi.mohammadi #405.7.19
-ehsan #404.8.3
-meysam.bampuri #405.5.11
+ehsan ---src pt.configs.txt,aether.txt #404.8.3
+meysam.bampuri ---src pt.configs.txt,aether.txt #405.5.11
 vahid.behruz1
 customer108 #405.7.19
 customer107 #405.7.19
