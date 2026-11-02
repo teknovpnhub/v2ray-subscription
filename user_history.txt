@@ -1,3 +1,7 @@
+meysam.bampuri | manual_delete | User manually removed [Note: 405.5.11] | 2026-11-02 12:23
+
+ehsan | manual_delete | User manually removed [Note: 404.8.3] | 2026-11-02 12:23
+
 customer133 | added | [Note: 405.8.10] | 2026-11-01 19:29
 
 customer132 | added | [Note: 405.8.10] | 2026-11-01 19:11
@@ -335,30 +339,6 @@ shamsollah.sedigi | manual_delete | User manually removed [Note: 405.6.22] | 202
 customer77 | manual_delete | User manually removed [Note: 405.6.24] | 2026-10-24 01:41
 
 molayi | manual_delete | User manually removed [Note: 405.6.23] | 2026-10-24 01:41
-
-customer111 | blocked | | blocked 2026-10-22 [Note: 405.7.25] | 2026-10-22 20:04
-
-customer111 | manual_delete | User manually removed [Note: 405.7.25] | 2026-10-22 20:04
-
-customer123 | manual_change | Changes:
-- customer123
-+ customer123 #405.7.30 [Note: 405.7.30] | 2026-10-22 19:25
-
-customer123 | added |  | 2026-10-22 18:26
-
-customer124 | added |  | 2026-10-22 18:26
-
-customer122 | manual_change | Changes:
-- customer122
-+ customer122 #405.7.30 [Note: 405.7.30] | 2026-10-22 18:15
-
-customer121 | manual_change | Changes:
-- customer121
-+ customer121 #405.7.30 [Note: 405.7.30] | 2026-10-22 12:55
-
-family1 | added |  | 2026-10-22 11:02
-
-vip1 | manual_delete | User manually removed | 2026-10-22 04:32
 
 testtest | unblocked | [Note: | blocked 2026-10-21] | 2026-10-21 12:24
 
