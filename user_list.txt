@@ -1,3 +1,4 @@
+🚫vahid.behruz #| blocked 2026-11-03
 a.reza
 customer88 #405.8.11
 ehsan1 #405.8.11
@@ -129,7 +130,6 @@ customer90 #405.7.4
 family
 🚫customer79 #405.6.24 | blocked 2026-09-20
 me.2025 #| src: servers.txt
-vahid.behruz ---b
 🚫customer56 #405.6.5 | blocked 2026-08-29
 vahid
 alireza.gareahmadi #405.3.23
