@@ -1,3 +1,9 @@
+testtest | manual_change | Changes:
+- testtest #| src: pt.configs.txt,aether.txt
++ testtest #| src: pt.configs.txt,aether.txt,masque.txt
+?                                           +++++++++++
+ [Note: | src: pt.configs.txt,aether.txt,masque.txt] | 2026-11-04 18:31
+
 customer135 | added | [Note: 405.8.12] | 2026-11-03 21:23
 
 customer134 | added | [Note: 405.8.12] | 2026-11-03 19:10
@@ -238,17 +244,9 @@ molayi | manual_delete | User manually removed [Note: 405.8.3 | blocked 2026-10-
 
 customer125 | added | [Note: 405.8.3] | 2026-10-25 11:04
 
-vip1 | manual_delete | User manually removed | 2026-10-24 22:52
-
-customer124 | manual_change | Changes:
-- customer124
-+ customer124 #405.8.2 [Note: 405.8.2] | 2026-10-24 19:04
-
 customer66 | unblocked | [Note: 405.8.2 | blocked 2026-10-24] | 2026-10-24 17:43
 
 customer66 | manual_delete | User manually removed [Note: 405.8.2 | blocked 2026-10-24] | 2026-10-24 17:43
-
-shokrzade | added | [Note: 405.8.2] | 2026-10-24 12:50
 
 shamsollah.sedigi | unblocked | [Note: 405.8.2 | blocked 2026-10-24] | 2026-10-24 10:52
 
@@ -264,105 +262,9 @@ sajad.samadzade | manual_change | Changes:
 
 salamzade | manual_delete | User manually removed [Note: 405.8.2 | blocked 2026-10-24] | 2026-10-24 10:46
 
-customer70 | blocked | | blocked 2026-10-24 [Note: 405.6.18] | 2026-10-24 01:41
-
-a.ahmadi | blocked | | blocked 2026-10-24 [Note: 405.6.19] | 2026-10-24 01:41
-
-customer69 | blocked | | blocked 2026-10-24 [Note: 405.6.18] | 2026-10-24 01:41
-
-salamzade | blocked | | blocked 2026-10-24 [Note: 405.6.21] | 2026-10-24 01:41
-
-hoseyn.gotbi | blocked | | blocked 2026-10-24 [Note: 405.6.17] | 2026-10-24 01:41
-
-ansarifard | blocked | | blocked 2026-10-24 [Note: 405.6.19] | 2026-10-24 01:41
-
-sajad.samadzade | blocked | | blocked 2026-10-24 [Note: 405.6.21] | 2026-10-24 01:41
-
-customer67 | blocked | | blocked 2026-10-24 [Note: 405.6.18] | 2026-10-24 01:41
-
-customer74 | blocked | | blocked 2026-10-24 [Note: 405.6.22] | 2026-10-24 01:41
-
-customer73 | blocked | | blocked 2026-10-24 [Note: 405.6.19] | 2026-10-24 01:41
-
-customer71 | blocked | | blocked 2026-10-24 [Note: 405.6.18] | 2026-10-24 01:41
-
-customer66 | blocked | | blocked 2026-10-24 [Note: 405.6.17] | 2026-10-24 01:41
-
-customer72 | blocked | | blocked 2026-10-24 [Note: 405.6.19] | 2026-10-24 01:41
-
-customer23 | blocked | | blocked 2026-10-24 [Note: 405.6.23] | 2026-10-24 01:41
-
-customer68 | blocked | | blocked 2026-10-24 [Note: 405.6.18] | 2026-10-24 01:41
-
-shamsollah.sedigi | blocked | | blocked 2026-10-24 [Note: 405.6.22] | 2026-10-24 01:41
-
-customer75 | blocked | | blocked 2026-10-24 [Note: 405.6.23] | 2026-10-24 01:41
-
-customer76 | blocked | | blocked 2026-10-24 [Note: 405.6.23] | 2026-10-24 01:41
-
-molayi | blocked | | blocked 2026-10-24 [Note: 405.6.23] | 2026-10-24 01:41
-
-customer77 | blocked | | blocked 2026-10-24 [Note: 405.6.24] | 2026-10-24 01:41
-
-customer78 | blocked | | blocked 2026-10-24 [Note: 405.6.24] | 2026-10-24 01:41
-
-customer37 | blocked | | blocked 2026-10-24 [Note: 405.6.24] | 2026-10-24 01:41
-
-customer80 | blocked | | blocked 2026-10-24 [Note: 405.6.26] | 2026-10-24 01:41
-
 customer34 | manual_change | Changes:
 - customer34 #405.5.23 | src: servers.txt
 ?                 ^ -
-
-+ customer34 #405.6.30 | src: servers.txt
-?                 ^  +
- [Note: 405.6.30 | src: servers.txt] | 2026-10-24 01:41
-
-customer67 | manual_delete | User manually removed [Note: 405.6.18] | 2026-10-24 01:41
-
-customer71 | manual_delete | User manually removed [Note: 405.6.18] | 2026-10-24 01:41
-
-hoseyn.gotbi | manual_delete | User manually removed [Note: 405.6.17] | 2026-10-24 01:41
-
-customer78 | manual_delete | User manually removed [Note: 405.6.24] | 2026-10-24 01:41
-
-a.ahmadi | manual_delete | User manually removed [Note: 405.6.19] | 2026-10-24 01:41
-
-customer23 | manual_delete | User manually removed [Note: 405.6.23] | 2026-10-24 01:41
-
-sajad.samadzade | manual_delete | User manually removed [Note: 405.6.21] | 2026-10-24 01:41
-
-customer70 | manual_delete | User manually removed [Note: 405.6.18] | 2026-10-24 01:41
-
-customer37 | manual_delete | User manually removed [Note: 405.6.24] | 2026-10-24 01:41
-
-customer76 | manual_delete | User manually removed [Note: 405.6.23] | 2026-10-24 01:41
-
-ansarifard | manual_delete | User manually removed [Note: 405.6.19] | 2026-10-24 01:41
-
-customer75 | manual_delete | User manually removed [Note: 405.6.23] | 2026-10-24 01:41
-
-salamzade | manual_delete | User manually removed [Note: 405.6.21] | 2026-10-24 01:41
-
-customer72 | manual_delete | User manually removed [Note: 405.6.19] | 2026-10-24 01:41
-
-customer73 | manual_delete | User manually removed [Note: 405.6.19] | 2026-10-24 01:41
-
-customer74 | manual_delete | User manually removed [Note: 405.6.22] | 2026-10-24 01:41
-
-customer68 | manual_delete | User manually removed [Note: 405.6.18] | 2026-10-24 01:41
-
-customer66 | manual_delete | User manually removed [Note: 405.6.17] | 2026-10-24 01:41
-
-customer69 | manual_delete | User manually removed [Note: 405.6.18] | 2026-10-24 01:41
-
-customer80 | manual_delete | User manually removed [Note: 405.6.26] | 2026-10-24 01:41
-
-shamsollah.sedigi | manual_delete | User manually removed [Note: 405.6.22] | 2026-10-24 01:41
-
-customer77 | manual_delete | User manually removed [Note: 405.6.24] | 2026-10-24 01:41
-
-molayi | manual_delete | User manually removed [Note: 405.6.23] | 2026-10-24 01:41
 
 testtest | unblocked | [Note: | blocked 2026-10-21] | 2026-10-21 12:24
 
