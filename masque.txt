@@ -1,3 +1,4 @@
+#masque
 aether://162.159.198.189:443?protocol=masque&scan=balanced&ip=v4&transport=h2#2
 aether://162.159.198.173:443?protocol=masque&scan=balanced&ip=v4&transport=h2#9
 aether://162.159.198.217:443?protocol=masque&scan=balanced&ip=v4&transport=h2#16
