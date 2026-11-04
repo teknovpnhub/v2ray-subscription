@@ -1,5 +1,7 @@
 {
   "usernames": [
+    "jafar",
+    "javad",
     "testtest",
     "customer135",
     "customer134",
@@ -20,7 +22,6 @@
     "customer131",
     "customer85",
     "mohammad.panahi",
-    "javad",
     "customer48",
     "customer40",
     "mahdi.kiyavash",
@@ -139,7 +140,6 @@
     "alireza.gareahmadi",
     "arkan.paki",
     "hamed.ayubi",
-    "jafar",
     "customer38",
     "customer13",
     "customer46",
@@ -194,6 +194,8 @@
     "mm"
   ],
   "lines": {
+    "jafar": "jafar #| src: pt.configs.txt,aether.txt,masque.txt",
+    "javad": "javad #| src: pt.configs.txt,aether.txt,masque.txt",
     "testtest": "testtest #| src: pt.configs.txt,aether.txt,masque.txt",
     "customer135": "customer135 #405.8.12",
     "customer134": "customer134 #405.8.12",
@@ -214,7 +216,6 @@
     "customer131": "customer131 #405.8.9",
     "customer85": "customer85 #405.8.9",
     "mohammad.panahi": "mohammad.panahi #405.8.9",
-    "javad": "javad #| src: pt.configs.txt,aether.txt",
     "customer48": "customer48 #405.8.9",
     "customer40": "🚫customer40 #405.6.30 | blocked 2026-10-31",
     "mahdi.kiyavash": "🚫mahdi.kiyavash #405.7.2 | blocked 2026-10-31",
@@ -333,7 +334,6 @@
     "alireza.gareahmadi": "alireza.gareahmadi #405.3.23",
     "arkan.paki": "arkan.paki",
     "hamed.ayubi": "hamed.ayubi #405.5.11",
-    "jafar": "jafar",
     "customer38": "🚫customer38 #405.5.12 | blocked 2026-09-14",
     "customer13": "🚫customer13 #405.5.10 | blocked 2026-09-14",
     "customer46": "🚫customer46 #405.5.28 | blocked 2026-09-14",
@@ -387,5 +387,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-04 18:37"
+  "timestamp": "2026-11-04 18:52"
 }
