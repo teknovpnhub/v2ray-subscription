@@ -6,6 +6,7 @@ servers1.txt: OFF
 test1: OFF
 aether.txt: OFF ---noflags
 tor.txt: OFF
+masque.txt: OFF
 --------------------------------
 # === SETTINGS ===
 ✓ FLAGS: ON
