@@ -88,7 +88,7 @@ customer112 #405.7.25
 customer110 #405.7.25
 customer109 #405.7.25
 customer63 #405.7.25
-habib.mojallal #404.7.25
+habib.mojallal #404.7.25 ---src pt.configs.txt
 🚫customer62 #405.6.10 | blocked 2026-10-17
 🚫customer65 #405.6.15 | blocked 2026-10-17
 🚫customer64 #405.6.14 | blocked 2026-10-17
