@@ -8,7 +8,6 @@ customer87 #405.6.31 | blocked 2026-10-31
 customer86 #405.6.31 | blocked 2026-10-31
 sajad.samadzade  #405.6.21 | blocked 2026-10-24
 customer67 #405.6.18 | blocked 2026-10-24
-customer71 #405.6.18 | blocked 2026-10-24
 hoseyn.gotbi #405.6.17 | blocked 2026-10-24
 customer78 #405.6.24 | blocked 2026-10-24
 customer70 #405.6.18 | blocked 2026-10-24
