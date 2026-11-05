@@ -1,3 +1,5 @@
+habib.mojallal | manual_delete | User manually removed [Note: 404.7.25 ---src pt.configs.txt] | 2026-11-05 22:24
+
 customer66 | manual_delete | User manually removed [Note: 405.8.2 ---src pt.configs.txt] | 2026-11-05 21:48
 
 customer138 | renamed | to mahya [Note: 405.8.14] | 2026-11-05 20:37
