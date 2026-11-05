@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer66",
     "vahid.behruz",
     "ansarifard",
     "jafar",
@@ -45,7 +46,6 @@
     "customer125",
     "vip1",
     "customer124",
-    "customer66",
     "shokrzade",
     "shamsollah.sedigi",
     "salamzade",
@@ -194,6 +194,7 @@
     "mm"
   ],
   "lines": {
+    "customer66": "customer66 #405.8.2 | src: pt.configs.txt",
     "vahid.behruz": "vahid.behruz",
     "ansarifard": "ansarifard #405.8.13 | src: pt.configs.txt,masque.txt",
     "jafar": "jafar #| src: pt.configs.txt,aether.txt,masque.txt",
@@ -239,7 +240,6 @@
     "customer125": "customer125 #405.8.3",
     "vip1": "vip1 #| src: servers1.txt",
     "customer124": "customer124 #405.8.2",
-    "customer66": "customer66 #405.8.2",
     "shokrzade": "shokrzade #405.8.2",
     "shamsollah.sedigi": "shamsollah.sedigi #405.8.2",
     "salamzade": "salamzade #405.8.2",
@@ -387,5 +387,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-05 06:45"
+  "timestamp": "2026-11-05 11:42"
 }

@@ -1,3 +1,4 @@
+customer66 #405.8.2 | src: pt.configs.txt
 vahid.behruz
 ansarifard #405.8.13 | src: pt.configs.txt,masque.txt
 jafar #| src: pt.configs.txt,aether.txt,masque.txt
@@ -43,7 +44,6 @@ molayi #405.8.3
 customer125 #405.8.3
 vip1 #| src: servers1.txt
 customer124 #405.8.2
-customer66 #405.8.2 ---src pt.configs.txt
 shokrzade #405.8.2
 shamsollah.sedigi #405.8.2
 salamzade #405.8.2

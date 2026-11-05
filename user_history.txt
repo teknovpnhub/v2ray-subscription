@@ -1,3 +1,5 @@
+customer66 | manual_delete | User manually removed [Note: 405.8.2 ---src pt.configs.txt] | 2026-11-05 11:42
+
 vahid.behruz | unblocked |  | 2026-11-04 19:56
 
 vahid.behruz | manual_delete | User manually removed | 2026-11-04 19:56
@@ -257,8 +259,6 @@ customer69 | manual_delete | User manually removed [Note: 405.8.3 | blocked 2026
 molayi | unblocked | [Note: 405.8.3 | blocked 2026-10-24] | 2026-10-25 12:01
 
 molayi | manual_delete | User manually removed [Note: 405.8.3 | blocked 2026-10-24] | 2026-10-25 12:01
-
-customer125 | added | [Note: 405.8.3] | 2026-10-25 11:04
 
 customer66 | unblocked | [Note: 405.8.2 | blocked 2026-10-24] | 2026-10-24 17:43
 
