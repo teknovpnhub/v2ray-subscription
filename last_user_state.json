@@ -198,7 +198,7 @@
     "mm"
   ],
   "lines": {
-    "tes1": "tes1",
+    "tes1": "🚫tes1 #| blocked 2026-11-07",
     "testtest": "testtest #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt",
     "ehsan": "ehsan #404.8.3 | src: wireguard.txt,aether.txt,masque.txt",
     "javad": "javad #| src: wireguard.txt,aether.txt,masque.txt",
@@ -395,5 +395,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-07 00:52"
+  "timestamp": "2026-11-07 00:54"
 }
