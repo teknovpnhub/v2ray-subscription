@@ -1,4 +1,4 @@
-testtest #| src: pt.configs.txt,aether.txt,masque.txt
+testtest #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt
 ehsan #404.8.3 | src: wireguard.txt,aether.txt,masque.txt
 javad #| src: wireguard.txt,aether.txt,masque.txt
 jafar #| src: aether.txt,masque.txt,wireguard.txt
