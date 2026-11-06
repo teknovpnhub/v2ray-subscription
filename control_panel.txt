@@ -7,6 +7,7 @@ test1: OFF
 aether.txt: OFF ---noflags
 tor.txt: OFF
 ✓ masque.txt: ON ---noflags
+wireguard.txt: OFF ---noflags
 --------------------------------
 # === SETTINGS ===
 ✓ FLAGS: ON
