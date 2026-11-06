@@ -1,3 +1,8 @@
+ehsan #404.8.3 | src: wireguard.txt,aether.txt,masque.txt
+javad #| src: wireguard.txt,aether.txt,masque.txt
+jafar #| src: aether.txt,masque.txt,wireguard.txt
+meysam.bampuri #405.5.11 | src: masque.txt,wireguard.txt
+testtest #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt
 habib.mojallal #404.7.25 | src: pt.configs.txt
 customer66 #405.8.2 | src: pt.configs.txt
 mahya #405.8.14
@@ -5,11 +10,7 @@ customer71 #405.8.14
 customer137 #405.8.14
 customer136 #405.8.14
 ansarifard #405.8.13
-ehsan #404.8.3 ---src wireguard.txt,aether.txt,masque.txt
 vahid.behruz
-jafar ---src aether.txt,masque.txt,wireguard.txt
-javad ---src wireguard.txt,aether.txt,masque.txt
-testtest #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt
 customer135 #405.8.12
 customer134 #405.8.12
 a.reza
@@ -17,7 +18,6 @@ customer88 #405.8.11
 ehsan1 #405.8.11
 morteza.sadegi #405.8.11
 hasan.rasuli #405.8.11
-meysam.bampuri #405.5.11 ---src masque.txt,wireguard.txt
 customer133 #405.8.10
 customer132 #405.8.10
 customer89 #405.8.10
