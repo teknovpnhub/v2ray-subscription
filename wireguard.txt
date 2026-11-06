@@ -1,22 +1,21 @@
 #wireguard
-
-aether://162.159.195.209:908?protocol=wg&scan=balanced&ip=v4#1
-aether://162.159.192.179:1010?protocol=wg&scan=balanced&ip=v4#9
-aether://188.114.96.62:928?protocol=wg&scan=balanced&ip=v4#17
-aether://162.159.195.216:864?protocol=wg&scan=balanced&ip=v4#16
-aether://188.114.96.24:1018?protocol=wg&scan=balanced&ip=v4#14
-aether://188.114.98.249:890?protocol=wg&scan=balanced&ip=v4#18
-aether://188.114.98.223:1074?protocol=wg&scan=balanced&ip=v4#6
-aether://188.114.97.126:968?protocol=wg&scan=balanced&ip=v4#4
-aether://188.114.98.128:1074?protocol=wg&scan=balanced&ip=v4#3
-aether://188.114.98.54:3476?protocol=wg&scan=balanced&ip=v4#19
-aether://188.114.99.173:1180?protocol=wg&scan=balanced&ip=v4#20
-aether://188.114.98.83:987?protocol=wg&scan=balanced&ip=v4#5
-aether://188.114.99.203:988?protocol=wg&scan=balanced&ip=v4#8
-aether://188.114.98.68:1074?protocol=wg&scan=balanced&ip=v4#15
-aether://188.114.97.161:968?protocol=wg&scan=balanced&ip=v4#2
-aether://188.114.98.163:987?protocol=wg&scan=balanced&ip=v4#13
-aether://188.114.98.146:939?protocol=wg&scan=balanced&ip=v4#7
-aether://188.114.97.21:968?protocol=wg&scan=balanced&ip=v4#11
-aether://188.114.98.14:1074?protocol=wg&scan=balanced&ip=v4#10
-aether://188.114.97.30:968?protocol=wg&scan=balanced&ip=v4#12
+aether://162.159.195.209:908?protocol=wg&scan=balanced&ip=v4#Server D1
+aether://162.159.192.179:1010?protocol=wg&scan=balanced&ip=v4#Server D2
+aether://188.114.96.62:928?protocol=wg&scan=balanced&ip=v4#Server D3
+aether://162.159.195.216:864?protocol=wg&scan=balanced&ip=v4#Server D4
+aether://188.114.96.24:1018?protocol=wg&scan=balanced&ip=v4#Server D5
+aether://188.114.98.249:890?protocol=wg&scan=balanced&ip=v4#Server D6
+aether://188.114.98.223:1074?protocol=wg&scan=balanced&ip=v4#Server D7
+aether://188.114.97.126:968?protocol=wg&scan=balanced&ip=v4#Server D8
+aether://188.114.98.128:1074?protocol=wg&scan=balanced&ip=v4#Server D9
+aether://188.114.98.54:3476?protocol=wg&scan=balanced&ip=v4#Server D10
+aether://188.114.99.173:1180?protocol=wg&scan=balanced&ip=v4#Server D11
+aether://188.114.98.83:987?protocol=wg&scan=balanced&ip=v4#Server D12
+aether://188.114.99.203:988?protocol=wg&scan=balanced&ip=v4#Server D13
+aether://188.114.98.68:1074?protocol=wg&scan=balanced&ip=v4#Server D14
+aether://188.114.97.161:968?protocol=wg&scan=balanced&ip=v4#Server D15
+aether://188.114.98.163:987?protocol=wg&scan=balanced&ip=v4#Server D16
+aether://188.114.98.146:939?protocol=wg&scan=balanced&ip=v4#Server D17
+aether://188.114.97.21:968?protocol=wg&scan=balanced&ip=v4#Server D18
+aether://188.114.98.14:1074?protocol=wg&scan=balanced&ip=v4#Server D19
+aether://188.114.97.30:968?protocol=wg&scan=balanced&ip=v4#Server D20
