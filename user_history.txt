@@ -1,3 +1,7 @@
+customer97 | unblocked | [Note: 405.8.16 | blocked 2026-11-07] | 2026-11-07 17:06
+
+customer97 | manual_delete | User manually removed [Note: 405.8.16 | blocked 2026-11-07] | 2026-11-07 17:06
+
 hamed.ayubi | manual_delete | User manually removed [Note: 405.5.11 ---src masque.txt,wireguard.txt] | 2026-11-07 11:41
 
 alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23 ---src masque.txt,wireguard.txt] | 2026-11-07 11:23
