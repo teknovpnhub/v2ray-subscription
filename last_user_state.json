@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "alireza.gareahmadi",
     "customer93",
     "customer96",
     "customer94",
@@ -141,7 +142,6 @@
     "me.2025",
     "customer56",
     "vahid",
-    "alireza.gareahmadi",
     "arkan.paki",
     "hamed.ayubi",
     "customer38",
@@ -198,6 +198,7 @@
     "mm"
   ],
   "lines": {
+    "alireza.gareahmadi": "alireza.gareahmadi #405.3.23 | src: masque.txt,wireguard.txt",
     "customer93": "🚫customer93 #405.7.5 | blocked 2026-11-07",
     "customer96": "🚫customer96 #405.7.8 | blocked 2026-11-07",
     "customer94": "🚫customer94 #405.7.5 | blocked 2026-11-07",
@@ -339,7 +340,6 @@
     "me.2025": "me.2025 #| src: servers.txt",
     "customer56": "🚫customer56 #405.6.5 | blocked 2026-08-29",
     "vahid": "vahid",
-    "alireza.gareahmadi": "alireza.gareahmadi #405.3.23",
     "arkan.paki": "arkan.paki",
     "hamed.ayubi": "hamed.ayubi #405.5.11",
     "customer38": "🚫customer38 #405.5.12 | blocked 2026-09-14",
@@ -395,5 +395,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-07 05:11"
+  "timestamp": "2026-11-07 11:23"
 }

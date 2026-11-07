@@ -1,3 +1,4 @@
+alireza.gareahmadi #405.3.23 | src: masque.txt,wireguard.txt
 🚫customer93 #405.7.5 | blocked 2026-11-07
 🚫customer96 #405.7.8 | blocked 2026-11-07
 🚫customer94 #405.7.5 | blocked 2026-11-07
@@ -139,7 +140,6 @@ family
 me.2025 #| src: servers.txt
 🚫customer56 #405.6.5 | blocked 2026-08-29
 vahid
-alireza.gareahmadi #405.3.23 ---src masque.txt,wireguard.txt
 arkan.paki
 hamed.ayubi #405.5.11
 🚫customer38 #405.5.12 | blocked 2026-09-14
