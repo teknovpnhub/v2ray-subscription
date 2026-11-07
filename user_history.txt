@@ -1,3 +1,43 @@
+customer90 | blocked | | blocked 2026-11-07 [Note: 405.7.4] | 2026-11-07 04:03
+
+customer91 | blocked | | blocked 2026-11-07 [Note: 405.7.4] | 2026-11-07 04:03
+
+customer92 | blocked | | blocked 2026-11-07 [Note: 405.7.4] | 2026-11-07 04:03
+
+customer93 | blocked | | blocked 2026-11-07 [Note: 405.7.5] | 2026-11-07 04:03
+
+customer94 | blocked | | blocked 2026-11-07 [Note: 405.7.5] | 2026-11-07 04:03
+
+customer95 | blocked | | blocked 2026-11-07 [Note: 405.7.6] | 2026-11-07 04:03
+
+customer96 | blocked | | blocked 2026-11-07 [Note: 405.7.8] | 2026-11-07 04:03
+
+customer97 | blocked | | blocked 2026-11-07 [Note: 405.7.8] | 2026-11-07 04:03
+
+customer98 | blocked | | blocked 2026-11-07 [Note: 405.7.9] | 2026-11-07 04:03
+
+customer15 | blocked | | blocked 2026-11-07 [Note: 405.7.9] | 2026-11-07 04:03
+
+customer93 | manual_delete | User manually removed [Note: 405.7.5] | 2026-11-07 04:03
+
+customer96 | manual_delete | User manually removed [Note: 405.7.8] | 2026-11-07 04:03
+
+customer94 | manual_delete | User manually removed [Note: 405.7.5] | 2026-11-07 04:03
+
+customer98 | manual_delete | User manually removed [Note: 405.7.9] | 2026-11-07 04:03
+
+customer91 | manual_delete | User manually removed [Note: 405.7.4] | 2026-11-07 04:03
+
+customer95 | manual_delete | User manually removed [Note: 405.7.6] | 2026-11-07 04:03
+
+customer97 | manual_delete | User manually removed [Note: 405.7.8] | 2026-11-07 04:03
+
+customer92 | manual_delete | User manually removed [Note: 405.7.4] | 2026-11-07 04:03
+
+customer15 | manual_delete | User manually removed [Note: 405.7.9] | 2026-11-07 04:03
+
+customer90 | manual_delete | User manually removed [Note: 405.7.4] | 2026-11-07 04:03
+
 tes1 | unblocked |  | 2026-11-07 01:05
 
 tes1 | manual_delete | User manually removed | 2026-11-07 01:05
