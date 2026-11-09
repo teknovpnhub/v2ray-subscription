@@ -1,3 +1,4 @@
+fadayi #405.8.9
 a.reza #| src: masque.txt,aether.txt
 aragi 405.8.17
 molayi #405.8.3 | src: servers.txt
@@ -45,7 +46,6 @@ customer83 #405.8.10
 customer131 #405.8.9
 customer85 #405.8.9
 mohammad.panahi #405.8.9
-customer48 ---r fadayi #405.8.9
 🚫customer40 #405.6.30 | blocked 2026-10-31
 🚫mahdi.kiyavash #405.7.2 | blocked 2026-10-31
 🚫z.pourmohammad #405.6.29 | blocked 2026-10-31
