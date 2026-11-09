@@ -1,3 +1,11 @@
+customer111 | manual_change | Changes:
+- customer111 #405.8.18 | src: masgue.txt,aether.txt
+?                                 ^
+
++ customer111 #405.8.18 | src: masque.txt,aether.txt
+?                                 ^
+ [Note: 405.8.18 | src: masque.txt,aether.txt] | 2026-11-09 12:04
+
 customer111 | manual_delete | User manually removed [Note: 405.8.18 ---src masgue.txt,aether.txt] | 2026-11-09 12:01
 
 customer111 | unblocked | [Note: 405.8.18] | 2026-11-09 11:57
