@@ -1,3 +1,5 @@
+customer140 | added | [Note: 405.8.19] | 2026-11-10 12:50
+
 customer93 | unblocked | [Note: 405.8.18 ---ub] | 2026-11-09 17:25
 
 customer93 | manual_delete | User manually removed [Note: 405.8.18 ---ub] | 2026-11-09 17:25
@@ -323,10 +325,6 @@ customer48 | manual_delete | User manually removed [Note: 405.6.31] | 2026-10-31
 testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 03:28
 
 customer83 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
-
-testtest | unblocked |  | 2026-10-30 18:12
-
-testtest | manual_delete | User manually removed | 2026-10-30 18:12
 
 testtest | blocked | | blocked 2026-10-30 [Note: | src: pt.configs.txt,aether.txt] | 2026-10-30 17:59
 
