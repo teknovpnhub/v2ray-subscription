@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer92",
     "customer140",
     "customer93",
     "customer111",
@@ -19,7 +20,6 @@
     "customer98",
     "customer91",
     "customer95",
-    "customer92",
     "customer15",
     "customer90",
     "tes1",
@@ -202,6 +202,7 @@
     "mm"
   ],
   "lines": {
+    "customer92": "customer92 #405.8.19",
     "customer140": "customer140 #405.8.19",
     "customer93": "customer93 #405.8.18",
     "customer111": "customer111 #405.8.18 | src: masque.txt,aether.txt",
@@ -221,7 +222,6 @@
     "customer98": "🚫customer98 #405.7.9 | blocked 2026-11-07",
     "customer91": "🚫customer91 #405.7.4 | blocked 2026-11-07",
     "customer95": "🚫customer95 #405.7.6 | blocked 2026-11-07",
-    "customer92": "🚫customer92 #405.7.4 | blocked 2026-11-07",
     "customer15": "🚫customer15 #405.7.9 | blocked 2026-11-07",
     "customer90": "🚫customer90 #405.7.4 | blocked 2026-11-07",
     "tes1": "tes1",
@@ -403,5 +403,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-10 15:45"
+  "timestamp": "2026-11-10 18:05"
 }
