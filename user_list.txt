@@ -17,7 +17,7 @@ alireza.gareahmadi #405.3.23 | src: masque.txt,wireguard.txt
 🚫customer98 #405.7.9 | blocked 2026-11-07
 🚫customer91 #405.7.4 | blocked 2026-11-07
 🚫customer95 #405.7.6 | blocked 2026-11-07
-🚫customer92 #405.7.4 | blocked 2026-11-07
+🚫customer92 ---ub #405.8.19 | blocked 2026-11-07
 🚫customer15 #405.7.9 | blocked 2026-11-07
 🚫customer90 #405.7.4 | blocked 2026-11-07
 tes1
