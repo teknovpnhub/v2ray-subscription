@@ -1,3 +1,7 @@
+customer76 | unblocked | [Note: 405.8.20 | blocked 2026-10-24] | 2026-11-11 18:37
+
+customer76 | manual_delete | User manually removed [Note: 405.8.20 | blocked 2026-10-24] | 2026-11-11 18:37
+
 customer128 | manual_delete | User manually removed [Note: 405.8.5 ---src masque.txt,servers.txt] | 2026-11-10 18:07
 
 customer92 | unblocked | [Note: 405.8.19 | blocked 2026-11-07] | 2026-11-10 18:05
@@ -232,16 +236,6 @@ customer83 | unblocked | [Note: 405.8.10] | 2026-11-01 11:13
 
 customer83 | manual_delete | User manually removed [Note: 405.8.10] | 2026-11-01 11:13
 
-customer131 | added | [Note: 405.8.9] | 2026-10-31 19:45
-
-customer85 | unblocked | [Note: 405.8.9] | 2026-10-31 18:41
-
-customer85 | manual_delete | User manually removed [Note: 405.8.9] | 2026-10-31 18:41
-
-mohammad.panahi | added | [Note: 405.8.9] | 2026-10-31 18:23
-
-javad | manual_delete | User manually removed | 2026-10-31 12:59
-
 customer48 | unblocked | [Note: 405.8.9 | blocked 2026-10-31] | 2026-10-31 11:49
 
 customer48 | manual_delete | User manually removed [Note: 405.8.9 | blocked 2026-10-31] | 2026-10-31 11:49
@@ -252,85 +246,17 @@ testtest | manual_change | Changes:
 ?                                           ++++++++++++
  [Note: | src: pt.configs.txt,aether.txt,servers.txt pt.configs.txt,aether.txt] | 2026-10-31 04:13
 
-testtest | unblocked |  | 2026-10-31 04:05
-
-testtest | manual_delete | User manually removed | 2026-10-31 04:05
-
 testtest | blocked | | blocked 2026-10-31 [Note: | src: : pt.configs.txt,aether.txt] | 2026-10-31 03:58
 
 testtest | manual_delete | User manually removed [Note: | src: : pt.configs.txt,aether.txt] | 2026-10-31 03:58
-
-testtest | unblocked |  | 2026-10-31 03:50
-
-testtest | manual_delete | User manually removed | 2026-10-31 03:50
 
 testtest | blocked | | blocked 2026-10-31 [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 03:45
 
 testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 03:45
 
-testtest | unblocked |  | 2026-10-31 03:42
-
-testtest | manual_delete | User manually removed | 2026-10-31 03:42
-
-customer81 | blocked | | blocked 2026-10-31 [Note: 405.6.29] | 2026-10-31 03:28
-
-z.pourmohammad | blocked | | blocked 2026-10-31 [Note: 405.6.29] | 2026-10-31 03:28
-
-customer40 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
-
-customer82 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
-
-customer83 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
-
-customer84 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
-
-customer85 | blocked | | blocked 2026-10-31 [Note: 405.6.30] | 2026-10-31 03:28
-
-customer86 | blocked | | blocked 2026-10-31 [Note: 405.6.31] | 2026-10-31 03:28
-
-customer48 | blocked | | blocked 2026-10-31 [Note: 405.6.31] | 2026-10-31 03:28
-
-customer87 | blocked | | blocked 2026-10-31 [Note: 405.6.31] | 2026-10-31 03:28
-
-customer88 | blocked | | blocked 2026-10-31 [Note: 405.7.1] | 2026-10-31 03:28
-
-bita | blocked | | blocked 2026-10-31 [Note: 405.7.1] | 2026-10-31 03:28
-
-customer89 | blocked | | blocked 2026-10-31 [Note: 405.7.1] | 2026-10-31 03:28
-
-mahdi.kiyavash | blocked | | blocked 2026-10-31 [Note: 405.7.2] | 2026-10-31 03:28
-
 testtest | blocked | | blocked 2026-10-31 [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 03:28
 
-customer40 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
-
-mahdi.kiyavash | manual_delete | User manually removed [Note: 405.7.2] | 2026-10-31 03:28
-
-customer89 | manual_delete | User manually removed [Note: 405.7.1] | 2026-10-31 03:28
-
-bita | manual_delete | User manually removed [Note: 405.7.1] | 2026-10-31 03:28
-
-z.pourmohammad | manual_delete | User manually removed [Note: 405.6.29] | 2026-10-31 03:28
-
-customer81 | manual_delete | User manually removed [Note: 405.6.29] | 2026-10-31 03:28
-
-customer88 | manual_delete | User manually removed [Note: 405.7.1] | 2026-10-31 03:28
-
-customer82 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
-
-customer84 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
-
-customer85 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
-
-customer87 | manual_delete | User manually removed [Note: 405.6.31] | 2026-10-31 03:28
-
-customer86 | manual_delete | User manually removed [Note: 405.6.31] | 2026-10-31 03:28
-
-customer48 | manual_delete | User manually removed [Note: 405.6.31] | 2026-10-31 03:28
-
 testtest | manual_delete | User manually removed [Note: | src: pt.configs.txt,aether.txt] | 2026-10-31 03:28
-
-customer83 | manual_delete | User manually removed [Note: 405.6.30] | 2026-10-31 03:28
 
 testtest | blocked | | blocked 2026-10-30 [Note: | src: pt.configs.txt,aether.txt] | 2026-10-30 17:59
 

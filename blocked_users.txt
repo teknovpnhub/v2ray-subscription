@@ -19,7 +19,6 @@ hoseyn.gotbi #405.6.17 | blocked 2026-10-24
 customer78 #405.6.24 | blocked 2026-10-24
 customer70 #405.6.18 | blocked 2026-10-24
 customer37 #405.6.24 | blocked 2026-10-24
-customer76 #405.6.23 | blocked 2026-10-24
 customer75 #405.6.23 | blocked 2026-10-24
 customer72 #405.6.19 | blocked 2026-10-24
 customer73 #405.6.19 | blocked 2026-10-24
