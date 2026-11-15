@@ -1,10 +1,10 @@
-customer102 #405.7.14 | blocked 2026-11-15
-customer100 #405.7.12 | blocked 2026-11-15
-customer101 #405.7.13 | blocked 2026-11-15
-customer103 #405.7.14 | blocked 2026-11-15
-customer104 #405.7.15 | blocked 2026-11-15
-customer99 #405.7.12 | blocked 2026-11-15
 customer105 #405.7.15 | blocked 2026-11-15
+customer99 #405.7.12 | blocked 2026-11-15
+customer104 #405.7.15 | blocked 2026-11-15
+customer103 #405.7.14 | blocked 2026-11-15
+customer101 #405.7.13 | blocked 2026-11-15
+customer100 #405.7.12 | blocked 2026-11-15
+customer102 #405.7.14 | blocked 2026-11-15
 customer96 #405.7.8 | blocked 2026-11-07
 customer94 #405.7.5 | blocked 2026-11-07
 customer98 #405.7.9 | blocked 2026-11-07
