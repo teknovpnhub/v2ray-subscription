@@ -1,3 +1,10 @@
+🚫customer105 #405.7.15 | blocked 2026-11-15
+🚫customer99 #405.7.12 | blocked 2026-11-15
+🚫customer104 #405.7.15 | blocked 2026-11-15
+🚫customer103 #405.7.14 | blocked 2026-11-15
+🚫customer101 #405.7.13 | blocked 2026-11-15
+🚫customer100 #405.7.12 | blocked 2026-11-15
+🚫customer102 #405.7.14 | blocked 2026-11-15
 customer142 #405.8.23
 customer141 #405.8.21
 customer76 #405.8.20
@@ -135,13 +142,6 @@ fazlalizade #405.7.18
 🚫customer53 #405.6.3 | blocked 2026-10-10
 customer106 #405.7.18
 vip #| src: aether.txt
-customer105 ---b #405.7.15
-customer104 ---b #405.7.15
-customer103 ---b #405.7.14
-customer102 ---b #405.7.14
-customer101 ---b #405.7.13
-customer100 ---b #405.7.12
-customer99 ---b #405.7.12
 family
 🚫customer79 #405.6.24 | blocked 2026-09-20
 me.2025 #| src: servers.txt
