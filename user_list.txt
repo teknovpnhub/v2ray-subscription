@@ -124,7 +124,7 @@ customer63 #405.7.25
 🚫customer60 #405.6.9 | blocked 2026-10-17
 babak.zare #405.7.21
 ruyin #405.7.20
-afshin
+afshin ---src aether.txt,masque.txt,wireguard.txt
 🚫goola #4586 | blocked 2026-10-12
 alrostam #405.7.18
 hadi.mohammadi #405.7.19
