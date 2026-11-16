@@ -1,3 +1,5 @@
+afshin | manual_delete | User manually removed | 2026-11-16 14:34
+
 customer144 | added | [Note: 405.8.25] | 2026-11-16 10:59
 
 customer143 | added | [Note: 405.8.25] | 2026-11-16 10:57
