@@ -1,7 +1,7 @@
 {
   "usernames": [
-    "customer146",
     "customer102",
+    "customer146",
     "aliakbar.zeynalzade",
     "customer145",
     "molayi",
@@ -210,8 +210,8 @@
     "mm"
   ],
   "lines": {
+    "customer102": "customer102 #405.8.26",
     "customer146": "customer146 #405.8.26",
-    "customer102": "customer102 #405.7.14",
     "aliakbar.zeynalzade": "aliakbar.zeynalzade #405.8.26",
     "customer145": "customer145 #405.8.26",
     "molayi": "molayi #405.8.3",
@@ -419,5 +419,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-17 17:53"
+  "timestamp": "2026-11-17 18:04"
 }

@@ -1,3 +1,11 @@
+customer102 | manual_change | Changes:
+- customer102 #405.7.14
+?                  ^ ^^
+
++ customer102 #405.8.26
+?                  ^ ^^
+ [Note: 405.8.26] | 2026-11-17 18:04
+
 customer102 | unblocked | [Note: 405.7.14 | blocked 2026-11-15] | 2026-11-17 17:53
 
 customer146 | added | [Note: 405.8.26] | 2026-11-17 17:53
