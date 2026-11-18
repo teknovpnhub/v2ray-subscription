@@ -1,10 +1,4 @@
-customer102 | manual_change | Changes:
-- customer102 #405.7.14
-?                  ^ ^^
-
-+ customer102 #405.8.26
-?                  ^ ^^
- [Note: 405.8.26] | 2026-11-17 18:04
+milad.zahedi | added | [Note: 405.8.27] | 2026-11-18 19:12
 
 customer102 | unblocked | [Note: 405.7.14 | blocked 2026-11-15] | 2026-11-17 17:53
 
@@ -104,73 +98,9 @@ a.reza | manual_delete | User manually removed | 2026-11-08 19:03
 
 aragi | added | 405.8.17 | 2026-11-08 13:22
 
-molayi | manual_delete | User manually removed [Note: 405.8.3 ---src servers.txt] | 2026-11-07 21:01
-
-customer139 | manual_add | Line: customer139 #405.8.16 [Note: 405.8.16] | 2026-11-07 19:23
-
-customer23 | manual_delete | User manually removed [Note: 405.8.7 ---src servers.txt] | 2026-11-07 18:56
-
-habib.mojallal | manual_delete | User manually removed [Note: 404.7.25 ---src servers.txt] | 2026-11-07 18:17
-
-customer138 | added | [Note: 405.8.16] | 2026-11-07 17:23
-
 customer97 | unblocked | [Note: 405.8.16 | blocked 2026-11-07] | 2026-11-07 17:06
 
 customer97 | manual_delete | User manually removed [Note: 405.8.16 | blocked 2026-11-07] | 2026-11-07 17:06
-
-hamed.ayubi | manual_delete | User manually removed [Note: 405.5.11 ---src masque.txt,wireguard.txt] | 2026-11-07 11:41
-
-alireza.gareahmadi | manual_delete | User manually removed [Note: 405.3.23 ---src masque.txt,wireguard.txt] | 2026-11-07 11:23
-
-customer90 | blocked | | blocked 2026-11-07 [Note: 405.7.4] | 2026-11-07 04:03
-
-customer91 | blocked | | blocked 2026-11-07 [Note: 405.7.4] | 2026-11-07 04:03
-
-customer92 | blocked | | blocked 2026-11-07 [Note: 405.7.4] | 2026-11-07 04:03
-
-customer93 | blocked | | blocked 2026-11-07 [Note: 405.7.5] | 2026-11-07 04:03
-
-customer94 | blocked | | blocked 2026-11-07 [Note: 405.7.5] | 2026-11-07 04:03
-
-customer95 | blocked | | blocked 2026-11-07 [Note: 405.7.6] | 2026-11-07 04:03
-
-customer96 | blocked | | blocked 2026-11-07 [Note: 405.7.8] | 2026-11-07 04:03
-
-customer97 | blocked | | blocked 2026-11-07 [Note: 405.7.8] | 2026-11-07 04:03
-
-customer98 | blocked | | blocked 2026-11-07 [Note: 405.7.9] | 2026-11-07 04:03
-
-customer15 | blocked | | blocked 2026-11-07 [Note: 405.7.9] | 2026-11-07 04:03
-
-customer93 | manual_delete | User manually removed [Note: 405.7.5] | 2026-11-07 04:03
-
-customer96 | manual_delete | User manually removed [Note: 405.7.8] | 2026-11-07 04:03
-
-customer94 | manual_delete | User manually removed [Note: 405.7.5] | 2026-11-07 04:03
-
-customer98 | manual_delete | User manually removed [Note: 405.7.9] | 2026-11-07 04:03
-
-customer91 | manual_delete | User manually removed [Note: 405.7.4] | 2026-11-07 04:03
-
-customer95 | manual_delete | User manually removed [Note: 405.7.6] | 2026-11-07 04:03
-
-customer97 | manual_delete | User manually removed [Note: 405.7.8] | 2026-11-07 04:03
-
-customer92 | manual_delete | User manually removed [Note: 405.7.4] | 2026-11-07 04:03
-
-customer15 | manual_delete | User manually removed [Note: 405.7.9] | 2026-11-07 04:03
-
-customer90 | manual_delete | User manually removed [Note: 405.7.4] | 2026-11-07 04:03
-
-tes1 | unblocked |  | 2026-11-07 01:05
-
-tes1 | manual_delete | User manually removed | 2026-11-07 01:05
-
-tes1 | blocked | | blocked 2026-11-07 | 2026-11-07 00:54
-
-tes1 | manual_delete | User manually removed | 2026-11-07 00:54
-
-tes1 | added |  | 2026-11-07 00:52
 
 testtest | manual_change | Changes:
 - testtest #| src: pt.configs.txt,aether.txt,masque.txt
