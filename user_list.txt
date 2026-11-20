@@ -128,16 +128,16 @@ customer63 #405.7.25
 🚫customer64 #405.6.14 | blocked 2026-10-17
 🚫milad.gasempur #405.6.14 | blocked 2026-10-17
 🚫customer60 #405.6.9 | blocked 2026-10-17
-babak.zare #405.7.21
-ruyin #405.7.20
+babak.zare ---b #405.7.21
+ruyin ---b #405.7.20
 🚫goola #4586 | blocked 2026-10-12
-alrostam #405.7.18
-hadi.mohammadi #405.7.19
+alrostam ---b #405.7.18
+hadi.mohammadi ---b #405.7.19
 vahid.behruz1
-customer108 #405.7.19
-customer107 #405.7.19
-customer59 #405.7.18
-fazlalizade #405.7.18
+customer108 ---b #405.7.19
+customer107 ---b #405.7.19
+customer59 ---b #405.7.18
+fazlalizade ---b #405.7.18
 🚫customer43 #405.5.22 | blocked 2026-10-10
 🚫customer49 #405.6.1 | blocked 2026-10-10
 🚫customer51 #405.6.2 | blocked 2026-10-10
@@ -147,7 +147,7 @@ fazlalizade #405.7.18
 🚫customer57 #405.6.7 | blocked 2026-10-10
 🚫customer55 #405.6.3 | blocked 2026-10-10
 🚫customer53 #405.6.3 | blocked 2026-10-10
-customer106 #405.7.18
+customer106 ---b #405.7.18
 vip #| src: aether.txt
 family
 🚫customer79 #405.6.24 | blocked 2026-09-20
