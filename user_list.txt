@@ -1,3 +1,4 @@
+customer59 #405.8.30
 hamed.ayubi #405.5.11 | src: aether.txt,masque.txt,wireguard.txt
 customer107 #405.8.30
 reza.khani #405.8.30
@@ -5,7 +6,6 @@ customer147 #405.8.30
 fazlalizade #405.8.30
 🚫alrostam #405.7.18 | blocked 2026-11-21
 🚫ruyin #405.7.20 | blocked 2026-11-21
-🚫customer59 ---ub #405.8.30 | blocked 2026-11-21
 🚫customer108 #405.7.19 | blocked 2026-11-21
 🚫babak.zare #405.7.21 | blocked 2026-11-21
 🚫hadi.mohammadi #405.7.19 | blocked 2026-11-21
