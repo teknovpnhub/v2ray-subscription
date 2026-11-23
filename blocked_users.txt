@@ -1,4 +1,3 @@
-testtest #| blocked 2026-11-23 | src: : pt.configs.txt,aether.txt,masque.txt,wireguard.txt
 alrostam #405.7.18 | blocked 2026-11-21
 customer108 #405.7.19 | blocked 2026-11-21
 babak.zare #405.7.21 | blocked 2026-11-21
