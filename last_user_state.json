@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "testtest",
     "milad.zahedi",
     "ruyin",
     "customer149",
@@ -55,7 +56,6 @@
     "customer15",
     "customer90",
     "tes1",
-    "testtest",
     "ehsan",
     "javad",
     "jafar",
@@ -215,6 +215,7 @@
     "mm"
   ],
   "lines": {
+    "testtest": "🚫testtest #| blocked 2026-11-23 | src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt",
     "milad.zahedi": "milad.zahedi #405.8.27 | src: masque.txt,aether.txt",
     "ruyin": "ruyin #405.8.2",
     "customer149": "customer149 #405.9.1",
@@ -270,7 +271,6 @@
     "customer15": "🚫customer15 #405.7.9 | blocked 2026-11-07",
     "customer90": "🚫customer90 #405.7.4 | blocked 2026-11-07",
     "tes1": "tes1",
-    "testtest": "testtest #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt",
     "ehsan": "ehsan #404.8.3 | src: wireguard.txt,aether.txt,masque.txt",
     "javad": "javad #| src: wireguard.txt,aether.txt,masque.txt",
     "jafar": "jafar #| src: aether.txt,masque.txt,wireguard.txt",
@@ -429,5 +429,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-23 22:31"
+  "timestamp": "2026-11-23 23:49"
 }

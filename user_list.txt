@@ -1,3 +1,4 @@
+🚫testtest #| blocked 2026-11-23 | src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt
 milad.zahedi #405.8.27 | src: masque.txt,aether.txt
 ruyin #405.8.2
 customer149 #405.9.1
@@ -53,7 +54,6 @@ alireza.gareahmadi #405.3.23 | src: masque.txt,wireguard.txt
 🚫customer15 #405.7.9 | blocked 2026-11-07
 🚫customer90 #405.7.4 | blocked 2026-11-07
 tes1
-testtest ---b #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt
 ehsan #404.8.3 | src: wireguard.txt,aether.txt,masque.txt
 javad #| src: wireguard.txt,aether.txt,masque.txt
 jafar #| src: aether.txt,masque.txt,wireguard.txt
