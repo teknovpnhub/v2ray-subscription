@@ -1,3 +1,4 @@
+customer2 #405.9.3 | src: servers.txt
 testtest #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt
 milad.zahedi #405.8.27 | src: masque.txt,aether.txt
 ruyin #405.8.2
@@ -128,7 +129,6 @@ customer116 #405.7.26
 bahman.hasanlu #405.7.26
 customer115 #405.7.26
 customer114 #405.7.26
-customer2 #405.9.3 ---src servers.txt
 customer113 #405.7.26
 customer58 #405.7.25
 javadi #405.7.25
