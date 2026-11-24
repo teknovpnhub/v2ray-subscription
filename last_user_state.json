@@ -1,7 +1,10 @@
 {
   "usernames": [
-    "customer150",
+    "customer66",
     "customer2",
+    "habib.mojallal",
+    "customer23",
+    "customer150",
     "testtest",
     "milad.zahedi",
     "ruyin",
@@ -45,8 +48,6 @@
     "a.reza",
     "aragi",
     "customer139",
-    "customer23",
-    "habib.mojallal",
     "customer138",
     "customer97",
     "alireza.gareahmadi",
@@ -62,7 +63,6 @@
     "javad",
     "jafar",
     "meysam.bampuri",
-    "customer66",
     "mahya",
     "customer71",
     "customer137",
@@ -216,8 +216,11 @@
     "mm"
   ],
   "lines": {
+    "customer66": "customer66 #405.8.2 | src: servers1.txt",
+    "customer2": "customer2 #405.9.3 | src: servers1.txt",
+    "habib.mojallal": "habib.mojallal #404.7.25 | src: servers1.txt",
+    "customer23": "customer23 #405.8.7 | src: servers1.txt",
     "customer150": "customer150 #405.9.3",
-    "customer2": "customer2 #405.9.3 | src: servers.txt",
     "testtest": "testtest #| src: pt.configs.txt,aether.txt,masque.txt,wireguard.txt",
     "milad.zahedi": "milad.zahedi #405.8.27 | src: masque.txt,aether.txt",
     "ruyin": "ruyin #405.8.2",
@@ -261,8 +264,6 @@
     "a.reza": "a.reza #| src: masque.txt,aether.txt",
     "aragi": "aragi 405.8.17",
     "customer139": "customer139 #405.8.16",
-    "customer23": "customer23 #405.8.7 | src: servers.txt",
-    "habib.mojallal": "habib.mojallal #404.7.25 | src: servers.txt",
     "customer138": "customer138 #405.8.16",
     "customer97": "customer97 #405.8.16",
     "alireza.gareahmadi": "alireza.gareahmadi #405.3.23 | src: masque.txt,wireguard.txt",
@@ -278,7 +279,6 @@
     "javad": "javad #| src: wireguard.txt,aether.txt,masque.txt",
     "jafar": "jafar #| src: aether.txt,masque.txt,wireguard.txt",
     "meysam.bampuri": "meysam.bampuri #405.5.11 | src: masque.txt,wireguard.txt",
-    "customer66": "customer66 #405.8.2 | src: pt.configs.txt",
     "mahya": "mahya #405.8.14",
     "customer71": "customer71 #405.8.14",
     "customer137": "customer137 #405.8.14",
@@ -431,5 +431,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-24 20:26"
+  "timestamp": "2026-11-24 20:32"
 }
