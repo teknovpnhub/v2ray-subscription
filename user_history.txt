@@ -1,3 +1,5 @@
+mansur.varmazyiar | added | [Note: 405.9.4] | 2026-11-25 12:34
+
 customer66 | manual_delete | User manually removed [Note: 405.8.2 ---src servers1.txt] | 2026-11-24 20:32
 
 habib.mojallal | manual_delete | User manually removed [Note: 404.7.25 ---src servers1.txt] | 2026-11-24 20:32
@@ -141,8 +143,6 @@ customer101 | manual_delete | User manually removed [Note: 405.7.13] | 2026-11-1
 customer100 | manual_delete | User manually removed [Note: 405.7.12] | 2026-11-15 04:38
 
 customer102 | manual_delete | User manually removed [Note: 405.7.14] | 2026-11-15 04:38
-
-customer142 | added | [Note: 405.8.23] | 2026-11-14 11:06
 
 customer76 | unblocked | [Note: 405.8.20 | blocked 2026-10-24] | 2026-11-11 18:37
 
