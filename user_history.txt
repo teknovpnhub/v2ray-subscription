@@ -1,3 +1,7 @@
+afshin1 | blocked | | blocked 2026-11-26 [Note: 405.9.4 | src: servers1.txt] | 2026-11-26 23:17
+
+afshin1 | manual_delete | User manually removed [Note: 405.9.4 | src: servers1.txt] | 2026-11-26 23:17
+
 customer153 | added | [Note: 405.9.5] | 2026-11-26 18:52
 
 customer152 | added | [Note: 405.9.5] | 2026-11-26 18:45

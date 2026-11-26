@@ -1,3 +1,4 @@
+afshin1 #405.9.4 | blocked 2026-11-26 | src: servers1.txt
 alrostam #405.7.18 | blocked 2026-11-21
 customer108 #405.7.19 | blocked 2026-11-21
 babak.zare #405.7.21 | blocked 2026-11-21
