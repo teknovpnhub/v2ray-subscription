@@ -1,3 +1,23 @@
+customer112 #405.7.25 | blocked 2026-11-28
+customer61 #405.7.30 | blocked 2026-11-28
+javadi #405.7.25 | blocked 2026-11-28
+customer120 #405.7.29 | blocked 2026-11-28
+customer63 #405.7.25 | blocked 2026-11-28
+aliasghar.z #405.7.27 | blocked 2026-11-28
+customer121 #405.7.30 | blocked 2026-11-28
+customer118 #405.7.26 | blocked 2026-11-28
+customer123 #405.7.30 | blocked 2026-11-28
+bahman.hasanlu #405.7.26 | blocked 2026-11-28
+customer122 #405.7.30 | blocked 2026-11-28
+customer117 #405.7.26 | blocked 2026-11-28
+customer113 #405.7.26 | blocked 2026-11-28
+customer114 #405.7.26 | blocked 2026-11-28
+customer110 #405.7.25 | blocked 2026-11-28
+customer116 #405.7.26 | blocked 2026-11-28
+customer115 #405.7.26 | blocked 2026-11-28
+customer58 #405.7.25 | blocked 2026-11-28
+customer109 #405.7.25 | blocked 2026-11-28
+customer119 #405.7.29 | blocked 2026-11-28
 afshin1 #405.9.4 | blocked 2026-11-26 | src: servers1.txt
 alrostam #405.7.18 | blocked 2026-11-21
 customer108 #405.7.19 | blocked 2026-11-21

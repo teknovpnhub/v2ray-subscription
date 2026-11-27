@@ -1,3 +1,23 @@
+🚫customer119 #405.7.29 | blocked 2026-11-28
+🚫customer109 #405.7.25 | blocked 2026-11-28
+🚫customer58 #405.7.25 | blocked 2026-11-28
+🚫customer115 #405.7.26 | blocked 2026-11-28
+🚫customer116 #405.7.26 | blocked 2026-11-28
+🚫customer110 #405.7.25 | blocked 2026-11-28
+🚫customer114 #405.7.26 | blocked 2026-11-28
+🚫customer113 #405.7.26 | blocked 2026-11-28
+🚫customer117 #405.7.26 | blocked 2026-11-28
+🚫customer122 #405.7.30 | blocked 2026-11-28
+🚫bahman.hasanlu #405.7.26 | blocked 2026-11-28
+🚫customer123 #405.7.30 | blocked 2026-11-28
+🚫customer118 #405.7.26 | blocked 2026-11-28
+🚫customer121 #405.7.30 | blocked 2026-11-28
+🚫aliasghar.z #405.7.27 | blocked 2026-11-28
+🚫customer63 #405.7.25 | blocked 2026-11-28
+🚫customer120 #405.7.29 | blocked 2026-11-28
+🚫javadi #405.7.25 | blocked 2026-11-28
+🚫customer61 #405.7.30 | blocked 2026-11-28
+🚫customer112 #405.7.25 | blocked 2026-11-28
 🚫afshin1 #405.9.4 | blocked 2026-11-26 | src: servers1.txt
 customer153 #405.9.5
 customer152 #405.9.5
@@ -121,27 +141,7 @@ salamzade #405.8.2
 🚫customer68 #405.6.18 | blocked 2026-10-24
 🚫customer80 #405.6.26 | blocked 2026-10-24
 🚫customer77 #405.6.24 | blocked 2026-10-24
-customer123 ---b #405.7.30
-customer61 ---b #405.7.30
-customer122 ---b #405.7.30
-customer121 ---b #405.7.30
 family1
-customer120 ---b #405.7.29
-customer119 ---b #405.7.29
-aliasghar.z ---b #405.7.27
-customer118 ---b #405.7.26
-customer117 ---b #405.7.26
-customer116 ---b #405.7.26
-bahman.hasanlu ---b #405.7.26
-customer115 ---b #405.7.26
-customer114 ---b #405.7.26
-customer113 ---b #405.7.26
-customer58 ---b #405.7.25
-javadi ---b #405.7.25
-customer112 ---b #405.7.25
-customer110 ---b #405.7.25
-customer109 ---b #405.7.25
-customer63 ---b #405.7.25
 🚫customer62 #405.6.10 | blocked 2026-10-17
 🚫customer65 #405.6.15 | blocked 2026-10-17
 🚫customer64 #405.6.14 | blocked 2026-10-17
