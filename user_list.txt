@@ -1,4 +1,4 @@
-customer154 ---m #405.9.7 ---src aether.txt,masque.txt
+customer154 #405.9.7 | src: aether.txt,masque.txt
 customer34 #405.8.10 | src: servers1.txt
 javadi #405.9.7
 customer121 #405.9.7
