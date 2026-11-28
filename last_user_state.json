@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "meysam.bampuri",
     "aliasghar.z",
     "customer119",
     "customer109",
@@ -88,7 +89,6 @@
     "ehsan",
     "javad",
     "jafar",
-    "meysam.bampuri",
     "mahya",
     "customer71",
     "customer137",
@@ -221,6 +221,7 @@
     "mm"
   ],
   "lines": {
+    "meysam.bampuri": "🚫meysam.bampuri #405.5.11 | blocked 2026-11-28 | src: masque.txt,wireguard.txt",
     "aliasghar.z": "aliasghar.z #405.9.7",
     "customer119": "🚫customer119 #405.7.29 | blocked 2026-11-28",
     "customer109": "🚫customer109 #405.7.25 | blocked 2026-11-28",
@@ -309,7 +310,6 @@
     "ehsan": "ehsan #404.8.3 | src: wireguard.txt,aether.txt,masque.txt",
     "javad": "javad #| src: wireguard.txt,aether.txt,masque.txt",
     "jafar": "jafar #| src: aether.txt,masque.txt,wireguard.txt",
-    "meysam.bampuri": "meysam.bampuri #405.5.11 | src: masque.txt,wireguard.txt",
     "mahya": "mahya #405.8.14",
     "customer71": "customer71 #405.8.14",
     "customer137": "customer137 #405.8.14",
@@ -441,5 +441,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-28 11:14"
+  "timestamp": "2026-11-28 11:19"
 }
