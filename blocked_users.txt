@@ -1,5 +1,4 @@
 meysam.bampuri #405.5.11 | blocked 2026-11-28 | src: masque.txt,wireguard.txt
-customer119 #405.7.29 | blocked 2026-11-28
 customer109 #405.7.25 | blocked 2026-11-28
 customer58 #405.7.25 | blocked 2026-11-28
 customer115 #405.7.26 | blocked 2026-11-28
