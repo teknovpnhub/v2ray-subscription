@@ -3,7 +3,6 @@ customer109 #405.7.25 | blocked 2026-11-28
 customer58 #405.7.25 | blocked 2026-11-28
 customer115 #405.7.26 | blocked 2026-11-28
 customer116 #405.7.26 | blocked 2026-11-28
-customer110 #405.7.25 | blocked 2026-11-28
 customer114 #405.7.26 | blocked 2026-11-28
 customer113 #405.7.26 | blocked 2026-11-28
 customer117 #405.7.26 | blocked 2026-11-28
