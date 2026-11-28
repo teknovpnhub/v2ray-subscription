@@ -1,3 +1,4 @@
+javadi #405.9.7
 customer121 #405.9.7
 🚫meysam.bampuri #405.5.11 | blocked 2026-11-28 | src: masque.txt,wireguard.txt
 aliasghar.z #405.9.7
@@ -16,7 +17,6 @@ aliasghar.z #405.9.7
 🚫customer118 #405.7.26 | blocked 2026-11-28
 🚫customer63 #405.7.25 | blocked 2026-11-28
 🚫customer120 #405.7.29 | blocked 2026-11-28
-🚫javadi ---ub #405.9.7 | blocked 2026-11-28
 🚫customer61 #405.7.30 | blocked 2026-11-28
 🚫customer112 #405.7.25 | blocked 2026-11-28
 🚫afshin1 #405.9.4 | blocked 2026-11-26 | src: servers1.txt
