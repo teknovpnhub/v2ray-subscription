@@ -1,5 +1,6 @@
 {
   "usernames": [
+    "customer34",
     "javadi",
     "customer121",
     "meysam.bampuri",
@@ -105,7 +106,6 @@
     "customer132",
     "customer89",
     "bita",
-    "customer34",
     "customer83",
     "customer131",
     "customer85",
@@ -221,6 +221,7 @@
     "mm"
   ],
   "lines": {
+    "customer34": "customer34 #405.8.10 | src: servers1.txt",
     "javadi": "javadi #405.9.7",
     "customer121": "customer121 #405.9.7",
     "meysam.bampuri": "🚫meysam.bampuri #405.5.11 | blocked 2026-11-28 | src: masque.txt,wireguard.txt",
@@ -326,7 +327,6 @@
     "customer132": "customer132 #405.8.10",
     "customer89": "customer89 #405.8.10",
     "bita": "bita #405.8.10",
-    "customer34": "customer34 #405.8.10 | src: servers.txt",
     "customer83": "customer83 #405.8.10",
     "customer131": "customer131 #405.8.9",
     "customer85": "customer85 #405.8.9",
@@ -441,5 +441,5 @@
     "azmun": "azmun #404.4.29",
     "mm": "🚫mm"
   },
-  "timestamp": "2026-11-28 13:40"
+  "timestamp": "2026-11-28 16:29"
 }
